@@ -371,7 +371,7 @@ function zeichnen(){
     <div class="agg"><div class="agg-l">Aktivster Halter</div><div class="agg-v">${E((kz.aktivster_halter?.name||"—").slice(0,12))}</div>
       <div class="agg-s">${kz.aktivster_halter?.anzahl??0} offene Positionen</div></div></div>` : "";
 
-  const links = abschnitt("Verdichtet", `${D.meldungen_gesamt} Meldungen → ${D.cluster.length} Cluster`,
+  const links = abschnitt("Verdichtet", `${D.meldungen_gesamt} Meldungen · ${D.cluster.length} gezeigt`,
       D.cluster.map(clusterHtml).join(""), "Keine Meldungen abrufbar.")
     + abschnitt("Wirkungsketten", "2. und 3. Ordnung · maschinell",
       D.ketten.map(ketteHtml).join(""), "Kein Sprachmodell konfiguriert.")
