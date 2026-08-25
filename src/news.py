@@ -60,7 +60,7 @@ def clustern(artikel, konf):
                         min_df=1, sublinear_tf=True,
                         max_features=30000).fit_transform(texte)
     labels = AgglomerativeClustering(
-        n_clusters=None, distance_threshold=konf.get("cluster_schwelle", 0.70),
+        n_clusters=None, distance_threshold=konf.get("cluster_schwelle", 0.86),
         metric="cosine", linkage="average").fit_predict(X.toarray())
 
     eimer = {}

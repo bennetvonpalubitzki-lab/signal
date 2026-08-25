@@ -4,7 +4,7 @@
 #  Am Code selbst musst du nichts aendern.
 # =====================================================================
 
-dashboard_url: "https://bennetvonpalubitzki-lab.github.io/signal/"
+dashboard_url: "https://DEIN-BENUTZERNAME.github.io/signal/"
 
 # --- Watchlist -------------------------------------------------------
 # Diese Werte bekommen ein anklickbares Profil im Dashboard und loesen
@@ -38,7 +38,7 @@ themen:
 
 # Wie aehnlich muessen zwei Meldungen sein, um als dieselbe zu gelten?
 # Niedriger = strenger (mehr Cluster), hoeher = grosszuegiger.
-cluster_schwelle: 0.70
+cluster_schwelle: 0.86
 
 # --- Nachrichtenquellen ----------------------------------------------
 # region: us | eu | dach | global   —  gewicht: 1 (normal) bis 3 (hoch)
@@ -67,10 +67,10 @@ rueckblick_jahre: 5
 regime:
   zinsdruck:
     us:  [{fred: DGS10}, {fred: DFII10}, {fred: T10Y2Y, invert: true}]
-    eur: [{ecb: "YC.B.U2.EUR.4F.G_N_A.SV_C_YM.SR_10Y"}]
+    eur: [{fred: IRLTLT01EZM156N}, {fred: IRLTLT01DEM156N}]
   wachstum:
     us:  [{fred: ICSA, invert: true}, {fred: SAHMREALTIME, invert: true}]
-    eur: [{fred: CCUSMA02EZM618N}]
+    eur: [{fred: LRHUTTTTEZM156S, invert: true}]
   energie:
     us:  [{yf: "CL=F"}, {yf: "NG=F"}]
     eur: [{yf: "TTF=F"}, {yf: "BZ=F"}]
@@ -100,6 +100,7 @@ register:
   fca: "https://www.fca.org.uk/publication/data/short-positions-daily-update.xlsx"
   afm: "https://www.afm.nl/nl-nl/sector/registers/meldingenregisters/netto-shortposities-actueel"
   bundesanzeiger: "https://www.bundesanzeiger.de/pub/de/nlp"
+  amf: "https://www.amf-france.org/en/toutes-les-actualites"
 
 # --- Alarmschwellen --------------------------------------------------
 # Bewusst hoch angesetzt. Lieber zu wenige Alarme als einer zu viel.
@@ -114,6 +115,6 @@ alarme:
 # laufen — alles andere funktioniert unveraendert weiter.
 llm:
   anbieter: groq
-  modell: "llama-3.3-70b-versatile"
+  modell: "openai/gpt-oss-120b"
   max_ketten: 2
   max_profile: 8
