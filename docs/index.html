@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SIGNAL</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#0F1620; --ink2:#151E29; --ink3:#1B2634;
+  --rule:#26313F; --rule-soft:#1E2836;
+  --paper:#E8EBEF; --muted:#7D8B9C; --faint:#546375;
+  --signal:#E8A33D; --cold:#5FA8D3; --rust:#C4614A; --moss:#6E9B7A;
+  --display:'Bricolage Grotesque',system-ui,sans-serif;
+  --body:'Newsreader',Georgia,serif;
+  --mono:'IBM Plex Mono',ui-monospace,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--ink);color:var(--paper);font-family:var(--body);font-size:16px;line-height:1.55;padding:0 0 80px}
+:focus-visible{outline:2px solid var(--signal);outline-offset:3px}
+.wrap{max-width:1220px;margin:0 auto;padding:0 24px}
+
+/* Kopf */
+.masthead{border-bottom:1px solid var(--rule);padding:26px 0 0}
+.mast-row{display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.wordmark{font-family:var(--display);font-weight:800;font-size:26px;letter-spacing:-.02em;line-height:1}
+.wordmark span{color:var(--signal)}
+.stamp{font-family:var(--mono);font-size:11.5px;color:var(--muted);letter-spacing:.06em}
+.demo-badge{display:inline-block;font-family:var(--mono);font-size:10px;letter-spacing:.12em;color:var(--ink);background:var(--signal);padding:3px 7px;border-radius:2px;font-weight:600}
+
+.synthesis{font-family:var(--display);font-weight:400;font-size:clamp(26px,4.2vw,44px);line-height:1.14;letter-spacing:-.022em;max-width:19ch;margin:30px 0 8px}
+.synthesis em{font-style:normal;color:var(--signal)}
+.synthesis-sub{font-family:var(--body);font-size:15.5px;color:var(--muted);max-width:56ch;margin-bottom:22px;font-weight:300}
+
+/* Regionsfilter */
+.filters{display:flex;gap:7px;align-items:center;margin-bottom:24px;flex-wrap:wrap}
+.filters .lab{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-right:4px}
+.chip{font-family:var(--mono);font-size:11px;letter-spacing:.06em;background:none;border:1px solid var(--rule);color:var(--muted);padding:4px 11px;border-radius:2px;cursor:pointer}
+.chip:hover{border-color:var(--faint);color:var(--paper)}
+.chip[aria-pressed="true"]{background:var(--signal);border-color:var(--signal);color:var(--ink);font-weight:600}
+
+/* Regime */
+.regime{display:grid;grid-template-columns:repeat(6,1fr);gap:1px;background:var(--rule-soft);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.gauge{background:var(--ink);padding:13px 13px 14px}
+.gauge-name{font-family:var(--mono);font-size:10px;letter-spacing:.1em;color:var(--muted);text-transform:uppercase;margin-bottom:11px}
+.row{display:grid;grid-template-columns:26px 1fr;gap:8px;align-items:center;margin-bottom:7px}
+.row-lab{font-family:var(--mono);font-size:9px;color:var(--faint);letter-spacing:.06em}
+.track{position:relative;height:3px;background:var(--rule);margin-bottom:4px}
+.fill{position:absolute;inset:0 auto 0 0;background:var(--cold)}
+.fill.hot{background:var(--signal)}
+.fill.max{background:var(--rust)}
+.gauge-read{display:flex;align-items:baseline;justify-content:space-between;gap:5px}
+.gauge-val{font-family:var(--mono);font-size:13px;font-weight:500;letter-spacing:-.02em}
+.gauge-d{font-family:var(--mono);font-size:10px;color:var(--faint)}
+.gauge-d.up{color:var(--signal)} .gauge-d.dn{color:var(--moss)}
+.spread{font-family:var(--mono);font-size:9.5px;color:var(--faint);margin-top:9px;padding-top:8px;border-top:1px solid var(--rule-soft);letter-spacing:.03em}
+.spread b{color:var(--signal);font-weight:500}
+
+/* Raster */
+.grid{display:grid;grid-template-columns:1fr 348px;gap:0 44px}
+.col-right{border-left:1px solid var(--rule);padding-left:32px;margin-left:-12px}
+section{padding:34px 0 6px}
+.sec-head{display:flex;align-items:baseline;gap:12px;border-bottom:1px solid var(--rule);padding-bottom:9px;margin-bottom:22px}
+.sec-title{font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.16em;text-transform:uppercase}
+.sec-note{font-family:var(--mono);font-size:10.5px;color:var(--faint);margin-left:auto;letter-spacing:.04em}
+
+/* Meldungen */
+.story{display:grid;grid-template-columns:34px 1fr;gap:0 14px;padding:0 0 24px}
+.story-idx{font-family:var(--mono);font-size:11px;color:var(--faint);padding-top:5px}
+.story h3{font-family:var(--display);font-weight:600;font-size:19.5px;line-height:1.24;letter-spacing:-.015em;margin-bottom:7px}
+.story p{font-size:15.5px;font-weight:300;color:#BCC6D2;line-height:1.5;margin-bottom:11px}
+.tags{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.tag{font-family:var(--mono);font-size:10px;letter-spacing:.06em;border:1px solid var(--rule);color:var(--muted);padding:2.5px 7px;border-radius:2px}
+.tag.pos{border-color:#2F4A38;color:var(--moss)}
+.tag.neg{border-color:#4A2F2A;color:var(--rust)}
+.tag.reg{border-color:#2C3D4E;color:var(--cold)}
+.tag.src{border:none;padding-left:0;color:var(--faint)}
+
+/* Ketten */
+.chain{border-left:2px solid var(--signal);padding:2px 0 26px 20px}
+.chain:last-child{padding-bottom:6px}
+.chain-trigger{font-family:var(--display);font-weight:600;font-size:17px;letter-spacing:-.012em;margin-bottom:14px;line-height:1.3}
+.links{display:flex;flex-wrap:wrap;gap:0}
+.link{flex:1 1 168px;min-width:150px;padding-right:20px;position:relative}
+.link::after{content:"";position:absolute;right:8px;top:8px;width:5px;height:5px;border-top:1px solid var(--faint);border-right:1px solid var(--faint);transform:rotate(45deg)}
+.link:last-child{padding-right:0}
+.link:last-child::after{display:none}
+.link-ord{font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;color:var(--faint);text-transform:uppercase;margin-bottom:5px}
+.link-txt{font-size:14.5px;font-weight:300;line-height:1.42;color:#BCC6D2}
+.chain-out{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:15px;padding-top:12px;border-top:1px solid var(--rule-soft)}
+.conf{font-family:var(--mono);font-size:10px;color:var(--faint);margin-left:auto}
+
+/* Anklickbarer Ticker */
+.tk{font-family:var(--mono);font-weight:600;color:var(--paper);background:none;border:none;padding:0;cursor:pointer;font-size:inherit;border-bottom:1px dotted var(--faint)}
+.tk:hover{color:var(--signal);border-bottom-color:var(--signal)}
+
+/* Kalender */
+.evt{display:grid;grid-template-columns:14px 1fr;gap:0 13px;padding-bottom:17px;position:relative}
+.evt-mark{position:relative;padding-top:6px}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--rule);display:block}
+.dot.mid{background:var(--cold)}
+.dot.high{background:var(--signal);box-shadow:0 0 0 3px rgba(232,163,61,.16)}
+.evt-line{position:absolute;left:3px;top:17px;bottom:-17px;width:1px;background:var(--rule-soft)}
+.evt:last-child .evt-line{display:none}
+.evt-when{font-family:var(--mono);font-size:10.5px;color:var(--muted);letter-spacing:.06em;margin-bottom:2px}
+.evt-when i{font-style:normal;color:var(--cold)}
+.evt-what{font-family:var(--display);font-weight:600;font-size:14.5px;letter-spacing:-.01em;margin-bottom:3px}
+.evt-meta{font-family:var(--mono);font-size:11px;color:var(--faint);line-height:1.45}
+.evt-meta b{color:var(--paper);font-weight:500}
+
+/* Gesprächslage */
+.talk{padding-bottom:15px;margin-bottom:15px;border-bottom:1px solid var(--rule-soft)}
+.talk:last-of-type{border-bottom:none;margin-bottom:4px}
+.talk-top{display:flex;align-items:baseline;gap:8px;margin-bottom:8px}
+.talk-n{font-family:var(--mono);font-size:10.5px;color:var(--faint);margin-left:auto}
+.split{display:flex;height:3px;background:var(--rule);margin-bottom:5px}
+.split i{display:block;height:100%}
+.split .b{background:var(--moss)} .split .s{background:var(--rust)}
+.split-lab{display:flex;justify-content:space-between;font-family:var(--mono);font-size:9.5px;color:var(--faint);margin-bottom:8px}
+.talk-th{font-size:13.5px;font-weight:300;line-height:1.42;color:#BCC6D2}
+.hint{font-family:var(--mono);font-size:10.5px;color:var(--faint);line-height:1.55;margin-top:6px}
+
+/* Matrix */
+.mx-scroll{overflow-x:auto}
+.matrix{width:100%;border-collapse:collapse;font-family:var(--mono);font-size:12px;min-width:640px}
+.matrix th{text-align:left;font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);font-weight:400;padding:0 10px 10px 0;border-bottom:1px solid var(--rule);vertical-align:bottom}
+.matrix th.c,.matrix td.c{text-align:center;padding-right:0;width:58px}
+.matrix td{padding:11px 10px 11px 0;border-bottom:1px solid var(--rule-soft);vertical-align:middle}
+.matrix td.sym{width:66px}
+.matrix td.read{font-family:var(--body);font-size:14px;font-weight:300;color:#BCC6D2;line-height:1.4}
+.m-pos{color:var(--moss);font-size:14px}
+.m-neg{color:var(--rust);font-size:14px}
+.m-neu{color:var(--faint);font-size:14px}
+.m-group{font-family:var(--mono);font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:var(--signal);padding:20px 0 6px}
+.m-group.quiet{color:var(--faint)}
+
+/* Leerverkaufsregister */
+.sv-head{display:grid;grid-template-columns:58px 1fr 138px 92px;gap:14px;font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);padding-bottom:10px;border-bottom:1px solid var(--rule)}
+.sv-head span:nth-child(3){text-align:right}
+.sv-row{display:grid;grid-template-columns:58px 1fr 138px 92px;gap:14px;align-items:center;padding:12px 0;border-bottom:1px solid var(--rule-soft)}
+.sv-date{font-family:var(--mono);font-size:10.5px;color:var(--faint);line-height:1.35}
+.sv-date i{font-style:normal;display:block;color:var(--cold);font-size:9px;letter-spacing:.08em}
+.sv-issuer{font-family:var(--display);font-weight:600;font-size:15px;letter-spacing:-.01em;line-height:1.2}
+.sv-holder{font-family:var(--mono);font-size:11px;color:var(--muted);margin-top:2px}
+.sv-size{text-align:right}
+.sv-pct{font-family:var(--mono);font-size:14px;font-weight:500}
+.sv-prev{font-family:var(--mono);font-size:10px;color:var(--faint)}
+.sv-bar{height:3px;background:var(--rule);margin-top:5px}
+.sv-bar i{display:block;height:100%;background:var(--rust)}
+.sv-bar.dn i{background:var(--moss)}
+.st{font-family:var(--mono);font-size:9.5px;letter-spacing:.08em;padding:3px 7px;border-radius:2px;border:1px solid var(--rule);color:var(--muted);white-space:nowrap;display:inline-block}
+.st.neu{border-color:var(--signal);color:var(--signal)}
+.st.auf{border-color:#4A2F2A;color:var(--rust)}
+.st.red{border-color:#2F4A38;color:var(--moss)}
+.sv-agg{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--rule-soft);border:1px solid var(--rule);margin-top:22px}
+.agg{background:var(--ink2);padding:14px 15px}
+.agg-l{font-family:var(--mono);font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);margin-bottom:7px}
+.agg-v{font-family:var(--mono);font-size:19px;font-weight:500;letter-spacing:-.02em;margin-bottom:3px}
+.agg-s{font-family:var(--mono);font-size:10px;color:var(--muted);line-height:1.4}
+
+/* Durchbrüche + Gegenthese */
+.brk{padding-bottom:19px}
+.brk h4{font-family:var(--display);font-weight:600;font-size:15.5px;line-height:1.3;margin-bottom:5px}
+.brk p{font-size:14.5px;font-weight:300;color:#BCC6D2;line-height:1.45;margin-bottom:8px}
+.versus{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--rule-soft);border:1px solid var(--rule)}
+.vs-side{background:var(--ink2);padding:17px 18px}
+.vs-label{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-bottom:9px}
+.vs-side.counter .vs-label{color:var(--signal)}
+.vs-side p{font-size:15px;font-weight:300;line-height:1.5;color:#BCC6D2}
+
+/* Schublade */
+.backdrop{position:fixed;inset:0;background:rgba(8,12,18,.72);opacity:0;pointer-events:none;transition:opacity .2s;z-index:40}
+.backdrop.on{opacity:1;pointer-events:auto}
+.drawer{position:fixed;top:0;right:0;bottom:0;width:min(500px,92vw);background:var(--ink2);border-left:1px solid var(--rule);z-index:50;transform:translateX(100%);transition:transform .26s cubic-bezier(.4,0,.2,1);overflow-y:auto;padding:26px 30px 60px}
+.drawer.on{transform:translateX(0)}
+.dr-close{position:absolute;top:20px;right:24px;background:none;border:1px solid var(--rule);color:var(--muted);font-family:var(--mono);font-size:11px;padding:4px 9px;border-radius:2px;cursor:pointer}
+.dr-close:hover{color:var(--paper);border-color:var(--faint)}
+.dr-sym{font-family:var(--mono);font-size:13px;color:var(--signal);letter-spacing:.06em;margin-bottom:5px}
+.dr-name{font-family:var(--display);font-weight:600;font-size:23px;letter-spacing:-.018em;line-height:1.18;margin-bottom:4px;padding-right:60px}
+.dr-where{font-family:var(--mono);font-size:10.5px;color:var(--faint);letter-spacing:.05em;margin-bottom:16px}
+.dr-biz{font-size:15px;font-weight:300;line-height:1.5;color:#BCC6D2;padding-bottom:18px;border-bottom:1px solid var(--rule)}
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--rule-soft);border-bottom:1px solid var(--rule)}
+.kpi{background:var(--ink2);padding:12px 2px 13px}
+.kpi-l{font-family:var(--mono);font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);margin-bottom:4px}
+.kpi-v{font-family:var(--mono);font-size:15px;font-weight:500}
+.dr-h{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);margin:22px 0 9px}
+.dr-h.bull{color:var(--moss)} .dr-h.bear{color:var(--rust)}
+.dr-p{font-size:15px;font-weight:300;line-height:1.52;color:#BCC6D2}
+.dr-list{list-style:none}
+.dr-list li{font-size:14.5px;font-weight:300;color:#BCC6D2;line-height:1.45;padding:0 0 9px 15px;position:relative}
+.dr-list li::before{content:"";position:absolute;left:0;top:9px;width:4px;height:1px;background:var(--faint)}
+.dr-src{display:grid;grid-template-columns:1fr auto;gap:7px 12px;font-family:var(--mono);font-size:11.5px;align-items:center}
+.dr-src span:first-child{color:var(--muted)}
+.dr-foot{font-family:var(--mono);font-size:10px;color:var(--faint);line-height:1.6;margin-top:24px;padding-top:14px;border-top:1px solid var(--rule)}
+
+footer{border-top:1px solid var(--rule);margin-top:42px;padding-top:18px}
+.foot-txt{font-family:var(--mono);font-size:10.5px;color:var(--faint);line-height:1.7;max-width:70ch}
+
+@media (max-width:980px){
+  .grid{grid-template-columns:1fr}
+  .col-right{border-left:none;padding-left:0;margin-left:0;border-top:1px solid var(--rule);margin-top:14px}
+  .regime{grid-template-columns:repeat(3,1fr)}
+}
+@media (max-width:560px){
+  .wrap{padding:0 18px}
+  .regime{grid-template-columns:repeat(2,1fr)}
+  .versus{grid-template-columns:1fr}
+  .story{grid-template-columns:26px 1fr;gap:0 10px}
+  .link{flex:1 1 100%;padding-right:0;padding-bottom:13px}
+  .link::after{display:none}
+  .drawer{padding:24px 20px 60px}
+  .sv-head{display:none}
+  .sv-row{grid-template-columns:1fr 108px;gap:8px 12px}
+  .sv-row>div:first-child{grid-column:1/-1}
+  .sv-agg{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+<style>
+.leer{font-family:var(--mono);font-size:11px;color:var(--faint);padding:8px 0}
+.laed{font-family:var(--mono);font-size:12px;color:var(--muted);padding:60px 24px;text-align:center}
+</style>
+</head>
+<body>
+<div id="app"><p class="laed">Daten werden geladen …</p></div>
+
+<div class="backdrop" id="bd"></div>
+<aside class="drawer" id="dr" role="dialog" aria-modal="true" tabindex="-1"></aside>
+
+<script>
+const E = s => String(s??"").replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+const REG = {us:"USA", eu:"EUROPA", dach:"DACH", glob:"GLOBAL", global:"GLOBAL"};
+const WOCHENTAG = ["So","Mo","Di","Mi","Do","Fr","Sa"];
+let D = null;
+
+function farbe(w){ return w>=75?"max" : w>=55?"hot" : ""; }
+function dklasse(d){ return d>0?"up" : d<0?"dn" : ""; }
+function dtext(d){ return d===0?"±0" : (d>0?"+":"")+d; }
+
+function datumLabel(iso){
+  const h=new Date(), d=new Date(iso+"T12:00:00");
+  const tage=Math.round((d-new Date(h.getFullYear(),h.getMonth(),h.getDate()))/864e5);
+  if(tage===0) return "HEUTE";
+  if(tage===1) return "MORGEN";
+  return WOCHENTAG[d.getDay()].toUpperCase()+" · "+String(d.getDate()).padStart(2,"0")+"."+String(d.getMonth()+1).padStart(2,"0");
+}
+
+/* ---------------- Bausteine ---------------- */
+function regimeHtml(r){
+  const spur = (k,s) => `<div class="row"><span class="row-lab">${k.toUpperCase()}</span><div>
+      <div class="track"><i class="fill ${farbe(s.wert)}" style="width:${s.wert}%"></i></div>
+      <div class="gauge-read"><span class="gauge-val">${s.wert}</span>
+      <span class="gauge-d ${dklasse(s.delta)}">${dtext(s.delta)}</span></div></div></div>`;
+  const fuss = r.differenz!=null
+    ? `<div class="spread">Differenz <b>${r.differenz}</b> · Perzentil gegen ${E(r.fenster)}</div>`
+    : `<div class="spread">Perzentil gegen ${E(r.fenster)}</div>`;
+  return `<div class="gauge"><div class="gauge-name">${E(r.name)}</div>
+    ${Object.entries(r.spuren).map(([k,s])=>spur(k,s)).join("")}${fuss}</div>`;
+}
+
+function clusterHtml(c,i){
+  const t = (a,k) => (a||[]).map(x=>`<span class="tag ${k}">${E(x)}</span>`).join("");
+  return `<article class="story" data-region="${E(c.region)}">
+    <div class="story-idx">${String(i+1).padStart(2,"0")}</div><div>
+    <h3>${E(c.titel)}</h3><p>${E(c.text||c.anriss)}</p>
+    <div class="tags"><span class="tag reg">${REG[c.region]||"GLOBAL"}</span>
+    ${t(c.positiv,"pos")}${t(c.negativ,"neg")}
+    <span class="tag src">${c.anzahl} Meldungen · ${E(c.quellen.slice(0,3).join(", "))}</span>
+    </div></div></article>`;
+}
+
+function ketteHtml(k){
+  const g = (o,t) => `<div class="link"><div class="link-ord">${o}</div><div class="link-txt">${E(t)}</div></div>`;
+  const t = (a,c) => (a||[]).map(x=>`<span class="tag ${c}">${E(x)}</span>`).join("");
+  return `<div class="chain"><div class="chain-trigger">${E(k.ausloeser)}</div>
+    <div class="links">${g("Direkt",k.direkt)}${g("2. Ordnung",k.zweite)}${g("3. Ordnung",k.dritte)}</div>
+    <div class="chain-out">${t(k.positiv,"pos")}${t(k.negativ,"neg")}
+    <span class="conf">Konfidenz: ${E(k.konfidenz||"—")}</span></div></div>`;
+}
+
+function matrixHtml(zeilen,gruppe){
+  const teil = zeilen.filter(z=>z.gruppe===gruppe);
+  if(!teil.length) return "";
+  const sp = ["Analysten","Newsletter","Reddit","Insider","Shorts"];
+  const z = zeilen[0] ? Object.keys(zeilen[0].quellen) : sp;
+  const sym = v => v>0?'<span class="m-pos">▲</span>' : v<0?'<span class="m-neg">▼</span>' : '<span class="m-neu">–</span>';
+  const lesart = r => {
+    const p=Object.entries(r.quellen).filter(([,v])=>v>0).map(([k])=>k);
+    const n=Object.entries(r.quellen).filter(([,v])=>v<0).map(([k])=>k);
+    if(gruppe==="divergenz") return `${p.join(", ")||"—"} gegen ${n.join(", ")||"—"}`;
+    return p.length>=3 ? "Alle verfügbaren Quellen zeigen in eine Richtung." : "Überwiegend einheitlich.";
+  };
+  return `<div class="m-group ${gruppe==="konsens"?"quiet":""}">${
+      gruppe==="konsens"?"Breiter Konsens — meist schon eingepreist":"Divergenz — hier sitzt die Information"}</div>
+    <div class="mx-scroll"><table class="matrix"><thead><tr><th>Ticker</th>
+    ${z.map(h=>`<th class="c">${E(h)}</th>`).join("")}<th>Lesart</th></tr></thead><tbody>
+    ${teil.map(r=>`<tr data-region="${E(r.region)}">
+      <td class="sym"><button class="tk" data-tk="${E(r.ticker)}">${E(r.ticker)}</button></td>
+      ${z.map(h=>`<td class="c">${sym(r.quellen[h]||0)}</td>`).join("")}
+      <td class="read">${E(lesart(r))}</td></tr>`).join("")}
+    </tbody></table></div>`;
+}
+
+function shortHtml(p){
+  const st = {neu:["neu","Neu"], aufgestockt:["auf","Aufgestockt"],
+              reduziert:["red","Reduziert"], geschlossen:["red","Unter 0,5 %"],
+              bestand:["","Bestand"]}[p.status] || ["","—"];
+  const breite = Math.min(100, p.prozent/1.5*100);
+  const zuvor = p.zuvor!=null ? `zuvor ${p.zuvor.toFixed(2).replace(".",",")} %` : "Erstmeldung";
+  const runter = p.status==="reduziert"||p.status==="geschlossen";
+  return `<div class="sv-row" data-region="${p.land==="DE"?"dach":"eu"}">
+    <div class="sv-date">${E((p.datum||"").slice(8,10))}.${E((p.datum||"").slice(5,7))}.<i>${E(p.land||"")}</i></div>
+    <div><div class="sv-issuer">${E(p.emittent)}</div><div class="sv-holder">${E(p.halter)}</div></div>
+    <div class="sv-size"><div class="sv-pct">${p.prozent.toFixed(2).replace(".",",")} %</div>
+      <div class="sv-prev">${E(zuvor)}</div>
+      <div class="sv-bar ${runter?"dn":""}"><i style="width:${breite}%"></i></div></div>
+    <div><span class="st ${st[0]}">${st[1]}</span></div></div>`;
+}
+
+function terminHtml(t){
+  const punkt = t.wucht==="hoch"?"high":t.wucht==="mittel"?"mid":"";
+  const k = t.konsens ? `Konsens <b>${E(t.konsens)}</b>` : "kein Konsens hinterlegt";
+  return `<div class="evt" data-region="${E(t.region)}">
+    <div class="evt-mark"><span class="dot ${punkt}"></span><span class="evt-line"></span></div>
+    <div><div class="evt-when">${datumLabel(t.datum)}${t.zeit?" · "+E(t.zeit):""} · <i>${(REG[t.region]||"").slice(0,3)}</i></div>
+    <div class="evt-what">${E(t.was)}</div><div class="evt-meta">${k}</div></div></div>`;
+}
+
+function talkHtml(g){
+  return `<div class="talk"><div class="talk-top">
+    <button class="tk" data-tk="${E(g.ticker)}">$${E(g.ticker)}</button>
+    <span class="talk-n">${g.erwaehnungen} Erw. · ${g.kommentare.toLocaleString("de")} Komm.</span></div>
+    <div class="split"><i class="b" style="width:${g.bullisch}%"></i><i class="s" style="width:${g.baerisch}%"></i></div>
+    <div class="split-lab"><span>${g.bullisch} % bullisch</span><span>${g.baerisch} % bärisch</span></div>
+    <p class="talk-th">${E(g.subs.join(", "))}${g.einseitigkeit>0.7?" — auffällig einseitig.":""}</p></div>`;
+}
+
+/* ---------------- Seite ---------------- */
+function abschnitt(titel, notiz, inhalt, leer){
+  return `<section><div class="sec-head"><span class="sec-title">${titel}</span>
+    <span class="sec-note">${notiz}</span></div>
+    ${inhalt || `<p class="leer">${leer}</p>`}</section>`;
+}
+
+function zeichnen(){
+  const s = D.synthese || {};
+  const stand = new Date(D.stand);
+  const kopf = `<header class="masthead"><div class="wrap">
+    <div class="mast-row"><div class="wordmark">SIG<span>N</span>AL</div>
+    <div class="stamp">${stand.toLocaleString("de-DE",{weekday:"short",day:"2-digit",month:"short",hour:"2-digit",minute:"2-digit"}).toUpperCase()}
+    ${D.llm_aktiv?"":' · <span class="demo-badge">OHNE KI-VERDICHTUNG</span>'}</div></div>
+    <h1 class="synthesis">${E(s.kern||"—")}</h1>
+    <p class="synthesis-sub">${E(s.erlaeuterung||"")}</p>
+    <div class="filters"><span class="lab">Region</span>
+      <button class="chip" data-f="alle" aria-pressed="true">Alle</button>
+      <button class="chip" data-f="us" aria-pressed="false">USA</button>
+      <button class="chip" data-f="eu" aria-pressed="false">Europa</button>
+      <button class="chip" data-f="dach" aria-pressed="false">DACH</button></div>
+    <div class="regime">${D.regime.map(regimeHtml).join("")}</div>
+  </div></header>`;
+
+  const kz = D.shorts_kennzahlen || {};
+  const aggr = kz.gesamt ? `<div class="sv-agg">
+    <div class="agg"><div class="agg-l">Neu seit letztem Lauf</div><div class="agg-v">${kz.neu_diese_woche??0}</div>
+      <div class="agg-s">von ${kz.gesamt} offenen Positionen</div></div>
+    <div class="agg"><div class="agg-l">Meistgeshortet</div><div class="agg-v">${E((kz.meistgeshortet?.name||"—").slice(0,14))}</div>
+      <div class="agg-s">${kz.meistgeshortet?.summe??0} % gesamt</div></div>
+    <div class="agg"><div class="agg-l">Aktivster Halter</div><div class="agg-v">${E((kz.aktivster_halter?.name||"—").slice(0,12))}</div>
+      <div class="agg-s">${kz.aktivster_halter?.anzahl??0} offene Positionen</div></div></div>` : "";
+
+  const links = abschnitt("Verdichtet", `${D.meldungen_gesamt} Meldungen → ${D.cluster.length} Cluster`,
+      D.cluster.map(clusterHtml).join(""), "Keine Meldungen abrufbar.")
+    + abschnitt("Wirkungsketten", "2. und 3. Ordnung · maschinell",
+      D.ketten.map(ketteHtml).join(""), "Kein Sprachmodell konfiguriert.")
+    + abschnitt("Konsens-Matrix", `${D.matrix.length} Werte · 5 Quellen`,
+      matrixHtml(D.matrix,"divergenz") + matrixHtml(D.matrix,"konsens"), "Noch keine Daten.")
+    + abschnitt("Leerverkaufsregister", "Bundesanzeiger · AFM · FCA",
+      D.shorts.map(shortHtml).join("") + aggr,
+      "Register nicht erreichbar — Ursache steht im Actions-Protokoll.")
+    + (D.gegenthese ? `<section><div class="sec-head"><span class="sec-title">Konsens gegen Gegenthese</span>
+        <span class="sec-note">maschinell gesucht</span></div><div class="versus">
+        <div class="vs-side"><div class="vs-label">Was alle sagen</div><p>${E(D.gegenthese.konsens)}</p></div>
+        <div class="vs-side counter"><div class="vs-label">Was dagegen spricht</div><p>${E(D.gegenthese.gegen)}</p></div>
+        </div></section>` : "");
+
+  const rechts = abschnitt("Ansteht", "14 Tage · beide Regionen",
+      D.termine.map(terminHtml).join(""), "Keine Termine hinterlegt.")
+    + abschnitt("Gesprächslage", "global, ungefiltert",
+      D.gespraech.map(talkHtml).join(""), "Reddit nicht erreichbar.");
+
+  document.getElementById("app").innerHTML = kopf +
+    `<div class="wrap"><div class="grid"><div class="col-main">${links}</div>
+     <div class="col-right">${rechts}</div></div>
+     <footer><p class="foot-txt">
+     Aktualisiert alle drei Stunden über GitHub Actions. Regimewerte sind Perzentilränge
+     gegen die eigene Historie, keine Prognosen. Leerverkaufsdaten aus den nationalen
+     Registern; Umstellung auf die zentrale ESAP-Schnittstelle, sobald diese verfügbar ist.<br>
+     Verdichtung, Wirkungsketten, Gegenthesen und Ticker-Profile sind maschinell erzeugte
+     Hypothesen — sie sind dafür da, geprüft zu werden, nicht dafür, geglaubt zu werden.
+     Keine Anlageberatung.</p></footer></div>`;
+
+  verdrahten();
+}
+
+/* ---------------- Schublade und Filter ---------------- */
+const dr = document.getElementById("dr"), bd = document.getElementById("bd");
+let letzterFokus = null;
+
+function oeffnen(k){
+  const p = D.profile[k] || Object.values(D.profile).find(x=>x.ticker.split(".")[0]===k);
+  if(!p) return;
+  letzterFokus = document.activeElement;
+  dr.innerHTML = `<button class="dr-close" id="dc">Schließen</button>
+    <div class="dr-sym">${E(p.ticker)}</div>
+    <h2 class="dr-name">${E(p.name)}</h2>
+    <div class="dr-where">${E(p.wo)}</div>
+    <p class="dr-biz">${E(p.geschaeft)}</p>
+    <div class="kpis">${p.kpi.map(k=>`<div class="kpi"><div class="kpi-l">${E(k[0])}</div>
+      <div class="kpi-v">${E(k[1])}</div></div>`).join("")}</div>
+    ${p.dafuer?`<div class="dr-h bull">Was dafür spricht</div><p class="dr-p">${E(p.dafuer)}</p>`:""}
+    ${p.dagegen?`<div class="dr-h bear">Was dagegen spricht</div><p class="dr-p">${E(p.dagegen)}</p>`:""}
+    ${p.katalysatoren?.length?`<div class="dr-h">Anstehende Katalysatoren</div>
+      <ul class="dr-list">${p.katalysatoren.map(c=>`<li>${E(c)}</li>`).join("")}</ul>`:""}
+    <div class="dr-h">Quellenaufschlüsselung</div>
+    <div class="dr-src">${p.quellen.map(q=>`<span>${E(q[0])}</span><span>${E(q[1])}</span>`).join("")}</div>
+    <p class="dr-foot">Kennzahlen aus öffentlichen Marktdaten, Einschätzungen maschinell
+    erzeugt aus der Quellenlage dieses Laufs. Keine Anlageempfehlung.</p>`;
+  dr.classList.add("on"); bd.classList.add("on");
+  document.getElementById("dc").onclick = schliessen;
+  dr.focus();
+}
+function schliessen(){
+  dr.classList.remove("on"); bd.classList.remove("on");
+  if(letzterFokus) letzterFokus.focus();
+}
+function verdrahten(){
+  document.querySelectorAll(".chip").forEach(c=>{
+    c.onclick = () => {
+      document.querySelectorAll(".chip").forEach(x=>x.setAttribute("aria-pressed","false"));
+      c.setAttribute("aria-pressed","true");
+      const f = c.dataset.f;
+      document.querySelectorAll("[data-region]").forEach(el=>{
+        el.style.display = (f==="alle"||el.dataset.region===f) ? "" : "none";
+      });
+    };
+  });
+}
+document.addEventListener("click", e => {
+  const b = e.target.closest(".tk");
+  if(b) oeffnen(b.dataset.tk);
+});
+bd.onclick = schliessen;
+document.addEventListener("keydown", e => { if(e.key==="Escape") schliessen(); });
+
+fetch("data.json?v=" + Date.now())
+  .then(r => r.ok ? r.json() : Promise.reject(r.status))
+  .then(j => { D = j; zeichnen(); })
+  .catch(e => {
+    document.getElementById("app").innerHTML =
+      `<p class="laed">Noch keine Daten. Führe den Workflow einmal manuell aus
+       (Actions → signal → Run workflow), dann erscheint hier das Dashboard.<br><br>${E(e)}</p>`;
+  });
+</script>
+</body>
+</html>
