@@ -1,9 +1,9 @@
 {
- "stand": "2026-08-25T20:00",
- "lauf": "2026082520",
+ "stand": "2026-08-26T06:04",
+ "lauf": "2026082606",
  "synthese": {
-  "kern": "Die Meldungen verbinden wirtschaftliche Krisen, Handelskonflikte und demografische Führungswechsel, während der Markt die Liquiditätsknappheit verkennt.",
-  "erlaeuterung": "Zentral ist die Kombination aus schwächerer US‑Liquidität, steigenden Zöllen und dem Verlust erfahrener Unternehmensführer. Diese Faktoren könnten das Vertrauen in die konjunkturelle Erholung dämpfen, obwohl Risikoappetit und geopolitische Spannungen hoch bleiben."
+  "kern": "Markt überbewertet Unternehmensoptimismus, verkennt gleichzeitig steigenden geopolitischen Druck und sinkende Euro‑Liquidität.",
+  "erlaeuterung": "Handelsstreit, VW‑Krise und russische Bargeldflucht verdeutlichen strukturelle Risiken, die im aktuellen Aufschwung kaum beachtet werden. Bei gleichzeitig hohem Risikoappetit (83 %) und null‑Euro‑Liquidität könnte ein plötzlicher Schock die Marktstimmung rasch kippen."
  },
  "regime": [
   {
@@ -11,15 +11,15 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 76,
-     "delta": 4
+     "wert": 75,
+     "delta": 1
     },
     "eur": {
      "wert": 89,
      "delta": -5
     }
    },
-   "differenz": 13
+   "differenz": 14
   },
   {
    "name": "wachstum",
@@ -36,15 +36,15 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 52,
-     "delta": -2
+     "wert": 50,
+     "delta": -6
     },
     "eur": {
-     "wert": 72,
-     "delta": -4
+     "wert": 71,
+     "delta": -5
     }
    },
-   "differenz": 20
+   "differenz": 21
   },
   {
    "name": "risikoappetit",
@@ -76,68 +76,13 @@
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 96,
-     "delta": 5
+     "wert": 95,
+     "delta": 2
     }
    }
   }
  ],
  "cluster": [
-  {
-   "id": "f60d414c",
-   "titel": "Unternehmer Klaus-Michael Kühne im Alter von 89 Jahren gestorben",
-   "anriss": "Er galt als einer der einflussreichsten Geschäftsmänner und als einer der reichsten Deutschen: Klaus-Michael Kühne ist im Alter von 89 Jahren gestorben. Der gebürtige Hamburger förderte auch Sport und Kultur.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 10,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/tod-kuehne-100.html",
-    "https://www.spiegel.de/wirtschaft/klaus-michael-kuehne-wo-der-milliardaer-in-hamburg-seine-finger-mit-im-spiel-hatte-a-44123d15-0c3b-42c8-a23f-b1d3a7531647#ref=rss",
-    "https://www.spiegel.de/wirtschaft/klaus-michael-kuehne-ist-tot-der-knausrige-wohltaeter-nachruf-a-87f5c3c8-d6cb-4a81-a020-308c15f8cb71#ref=rss",
-    "https://www.spiegel.de/wirtschaft/klaus-michael-kuehne-ist-tot-a-68c2b264-cc8b-48ba-a6ec-40c3feae33ad#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/was-unternehmer-von-kuehne-und-seiner-generation-lernen-koennen-201157156.html"
-   ],
-   "punkte": 28,
-   "text": "Klaus‑Michael Kühne, Gründer und langjähriger Kopf des Logistikunternehmens Kühne + Nagel, ist im Alter von 89 Jahren verstorben. Sein Tod könnte kurzfristig Unsicherheit bei Logistik‑ und Schifffahrtsunternehmen sowie bei Sponsoring‑Partnern im Sportbereich erzeugen.",
-   "positiv": [],
-   "negativ": [
-    "Logistik‑ und Schifffahrtsaktien",
-    "Sport‑Sponsoring‑Projekte"
-   ]
-  },
-  {
-   "id": "e831fa10",
-   "titel": "Wie tief steckt VW in der Krise?",
-   "anriss": "Beim Autobauer Volkswagen hat die Serie von Betriebsversammlungen begonnen, in denen es um die Sparpläne geht. Was steht dabei zur Debatte? Und warum kämpft der Konzern überhaupt mit so massiven wirtschaftlichen Problemen?",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 8,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/unternehmen/vw-krise-106.html",
-    "https://www.tagesschau.de/wirtschaft/unternehmen/vw-china-136.html",
-    "https://www.spiegel.de/wirtschaft/volkswagen-vw-chef-oliver-blume-stellt-sich-belegschaft-betriebsrat-sieht-vertrauenskrise-a-c72f4623-7479-42d9-9d27-cc8e863c77ce#ref=rss",
-    "https://www.spiegel.de/wirtschaft/unternehmen/volkswagen-olaf-lies-geht-auf-konfrontationskurs-mit-oliver-blume-a-ecf63f42-c117-4449-b870-35e1c704cbcb#ref=rss",
-    "https://www.spiegel.de/wirtschaft/unternehmen/volkswagen-vw-chef-oliver-blume-stellt-umbauplaene-in-wolfsburg-emden-und-zwickau-vor-a-cd5297a6-2c98-49ea-8eb6-ee65a45c353a#ref=rss"
-   ],
-   "punkte": 24,
-   "text": "Volkswagen hat eine Reihe von Betriebsversammlungen einberufen, um Sparmaßnahmen zu diskutieren, weil das Unternehmen mit einer anhaltenden Krise konfrontiert ist. Die anhaltende Unsicherheit belastet die Aktie des Konzerns, Zulieferer und den deutschen Automobilsektor insgesamt.",
-   "positiv": [],
-   "negativ": [
-    "Volkswagen‑Aktie",
-    "Automobil‑Zulieferer",
-    "Deutscher Automobilsektor"
-   ]
-  },
   {
    "id": "baababbb",
    "titel": "Handelsstreit mit Kanada: USA verdoppeln Zölle auf Autos",
@@ -149,139 +94,240 @@
     "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 6,
+   "anzahl": 7,
    "links": [
     "https://www.tagesschau.de/wirtschaft/weltwirtschaft/zollstreit-usa-kanada-104.html",
     "https://www.spiegel.de/wirtschaft/kanada-verhaengt-vergeltungszoelle-gegen-usa-von-bis-zu-50-prozent-a-c10a04d1-6db8-49e2-a584-8b3c59d01fb1#ref=rss",
     "https://www.spiegel.de/wirtschaft/usa-und-kanada-kann-premier-mark-carney-den-handelskrieg-mit-den-usa-gewinnen-a-9a3375f4-f75b-46cd-9644-e1ac6ab7fff9#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/kanada-kuendigt-vergeltungszoelle-auf-us-produkte-im-wert-von-20-milliarden-dollar-an-201158714.html",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/kanada-und-usa-wie-carney-seine-strategie-gegen-trump-aendert-accg-201156088.html"
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/mark-carney-im-handelskrieg-kanadas-haerte-gegen-trump-201158966.html",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/kanada-kuendigt-vergeltungszoelle-auf-us-produkte-im-wert-von-20-milliarden-dollar-an-201158714.html"
    ],
-   "punkte": 20,
-   "text": "Die USA haben die Zölle auf Fahrzeuge und Autoteile aus Kanada deutlich erhöht, was den bilateralen Handel zwischen beiden Ländern stark beeinträchtigt. Canadian‑Auto‑Hersteller und deren Zulieferer stehen vor höheren Kosten, während US‑Hersteller von einem Wettbewerbs­vorteil profitieren könnten.",
+   "punkte": 22,
+   "text": "Die USA haben die Zölle auf Fahrzeuge und Autoteile aus Kanada verdoppelt, was die Importkosten für kanadische Produkte in die USA stark erhöht. Der Schritt verschärft den Handelskonflikt zwischen beiden Ländern und dürfte die Lieferketten in der nordamerikanischen Automobilindustrie belasten.",
    "positiv": [
-    "US‑Automobilhersteller"
+    "US‑Automobilhersteller (durch Wettbewerbs­vorteil)"
    ],
    "negativ": [
-    "Kanadische Auto‑ und Teilehersteller",
-    "Kanadische Zulieferer"
+    "Kanadische Auto‑ und Teileexporte",
+    "US‑Importeure von kanadischen Fahrzeugen"
    ]
   },
   {
-   "id": "b08c0b40",
-   "titel": "Die Wirtschaft schöpft wieder Hoffnung - das sind die Gründe",
-   "anriss": "Lange Zeit zeigten die Wirtschaftsdaten in Deutschland vor allem nach unten. Nun machen die jüngsten Konjunkturzahlen etwas Hoffnung. Wie kommt das? Und ist diese Entwicklung auch wirklich nachhaltig?",
+   "id": "e831fa10",
+   "titel": "Wie tief steckt VW in der Krise?",
+   "anriss": "Beim Autobauer Volkswagen hat die Serie von Betriebsversammlungen begonnen, in denen es um die Sparpläne geht. Was steht dabei zur Debatte? Und warum kämpft der Konzern überhaupt mit so massiven wirtschaftlichen Problemen?",
    "region": "dach",
    "quellen": [
     "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 4,
+   "anzahl": 7,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/konjunktur/konjunkturdaten-wirtschaft-faq-100.html",
-    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-zinsen-rendite-100.html",
-    "https://www.spiegel.de/wirtschaft/bip-deutsche-wirtschaft-waechst-im-zweiten-quartal-staerker-als-gedacht-a-b16bceee-2277-4b38-bdda-8e75bd304ea7#ref=rss",
-    "https://www.manager-magazin.de/politik/deutsche-wirtschaft-waechst-staerker-als-erwartet-a-a01cfc95-c959-40cf-84ec-6148c79e0c39#ref=rss"
+    "https://www.tagesschau.de/wirtschaft/unternehmen/vw-krise-106.html",
+    "https://www.tagesschau.de/inland/regional/niedersachsen/cavallo-fordert-zukunftsperspektiven-von-vw-konzernspitze,vw-1336.html",
+    "https://www.spiegel.de/wirtschaft/volkswagen-vw-chef-oliver-blume-stellt-sich-belegschaft-betriebsrat-sieht-vertrauenskrise-a-c72f4623-7479-42d9-9d27-cc8e863c77ce#ref=rss",
+    "https://www.spiegel.de/wirtschaft/unternehmen/volkswagen-olaf-lies-geht-auf-konfrontationskurs-mit-oliver-blume-a-ecf63f42-c117-4449-b870-35e1c704cbcb#ref=rss",
+    "https://www.spiegel.de/wirtschaft/unternehmen/volkswagen-vw-chef-oliver-blume-stellt-umbauplaene-in-wolfsburg-emden-und-zwickau-vor-a-cd5297a6-2c98-49ea-8eb6-ee65a45c353a#ref=rss"
    ],
-   "punkte": 14,
-   "text": "Neueste Konjunkturdaten aus Deutschland zeigen eine Verbesserung von Produktion, Auftragslage und BIP‑Wachstum, was das Vertrauen in die Wirtschaft stärkt. Diese Aufwärtsdynamik dürfte die deutschen Aktienmärkte beflügeln, während die Renditen von Staatsanleihen unter Druck geraten könnten.",
-   "positiv": [
-    "Deutsche Aktien",
-    "Zyklische Branchen"
-   ],
+   "punkte": 20,
+   "text": "Volkswagen führt Betriebsversammlungen ein, um Sparpläne zu diskutieren, weil das Unternehmen weiterhin mit erheblichen finanziellen Belastungen kämpft. Die anhaltende Krise belastet die Unternehmensbewertung und das Vertrauen in die deutsche Automobilindustrie.",
+   "positiv": [],
    "negativ": [
-    "Deutsche Staatsanleihen (Preise)"
+    "Volkswagen-Aktie",
+    "Deutsche Automobilbranche"
    ]
   },
   {
-   "id": "dcb5cd5a",
-   "titel": "Kabinettsklausur: Merz will mehr Wachstum ermöglichen",
-   "anriss": "Bei der Kabinettsklausur in Neuhardenberg geht es zum Auftakt um die Stärkung der schwächelnden deutschen Wirtschaft. Kanzler Merz sieht keinen Grund, \"uns kleinzumachen\".",
+   "id": "16ea5a94",
+   "titel": "SpaceX plant neuen Raketen-Startplatz in Louisiana",
+   "anriss": "SpaceX will nach den Sternen greifen - und das bald noch regelmäßiger. Das Unternehmen plant in Louisiana einen neuen Weltraumbahnhof. Tech-Milliardär Musk träumt bereits vom größten Startplatz der Erde.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
     "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft"
+    "Tagesschau Wirtschaft",
+    "heise"
    ],
-   "anzahl": 3,
+   "anzahl": 5,
    "links": [
-    "https://www.tagesschau.de/inland/kabinettsklausur-union-spd-100.html",
-    "https://www.spiegel.de/wirtschaft/kuenstliche-intelligenz-cohere-chef-gomez-sieht-deutschland-als-ki-gewinner-a-fc53dd9c-5876-40db-b474-85709c0768de#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/friedrich-merz-in-neuhardenberg-ein-boeses-omen-fuer-den-kanzler-accg-201143067.html"
+    "https://www.tagesschau.de/wirtschaft/unternehmen/spacex-weltraumbahnhof-100.html",
+    "https://www.spiegel.de/wirtschaft/unternehmen/spacex-will-100-milliarden-dollar-in-neuen-weltraumbahnhof-stecken-a-b1ce23e1-09cc-4614-9ece-20d46d43bdc6#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-spacex-will-100-milliarden-us-dollar-in-neuen-weltraumbahnhof-stecken-faz-200452404.html",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/spacex-weltraumbahnhof-in-lousiana-so-teuer-sind-die-plaene-201159172.html",
+    "https://www.heise.de/news/30-Billionen-US-Dollar-Anthropic-will-der-Boerse-gigantischen-Markt-versprechen-11425803.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
-   "punkte": 12,
-   "text": "Bei der Kabinettsklausur in Neuhardenberg geht es zum Auftakt um die Stärkung der schwächelnden deutschen Wirtschaft. Kanzler Merz sieht keinen Grund, \"uns kleinzumachen\".",
+   "punkte": 18,
+   "text": "SpaceX plant den Bau eines neuen Weltraumbahnhofs in Louisiana, um die Startkapazität zu erhöhen und die Frequenz von Missionen zu steigern. Das Projekt stärkt die US‑Raumfahrtindustrie und kann regionale Wirtschaftseffekte in Louisiana erzeugen.",
+   "positiv": [
+    "US‑Raumfahrt- und Startdienstleistungssektor",
+    "Louisiana‑Wirtschaft"
+   ],
+   "negativ": []
+  },
+  {
+   "id": "d597ccf4",
+   "titel": "Firmen werden optimistischer - das Beispiel des Kabelherstellers Lapp",
+   "anriss": "Die Stimmung in der deutschen Wirtschaft hat sich aufgehellt, der ifo-Geschäftsklimaindex steigt. Der Kabelhersteller Lapp aus Stuttgart spürt das ebenfalls. Erfolgreich ist das Unternehmen mit einer Abkehr von seinen Wurzeln. Von Laura Bisch.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 5,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/unternehmen/lapp-kabel-100.html",
+    "https://www.tagesschau.de/wirtschaft/konjunktur/bip-q2-2026-100.html",
+    "https://www.spiegel.de/wirtschaft/bip-deutsche-wirtschaft-waechst-im-zweiten-quartal-staerker-als-gedacht-a-b16bceee-2277-4b38-bdda-8e75bd304ea7#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/ifo-geschaeftsklima-deutschland-auf-kurs-zu-mehr-wachstum-accg-201157288.html",
+    "https://www.manager-magazin.de/politik/deutsche-wirtschaft-waechst-staerker-als-erwartet-a-a01cfc95-c959-40cf-84ec-6148c79e0c39#ref=rss"
+   ],
+   "punkte": 18,
+   "text": "Der ifo‑Geschäftsklimaindex zeigt eine Aufhellung der Stimmung in der deutschen Wirtschaft, was sich im positiven Ergebnis des Kabelherstellers Lapp widerspiegelt. Das Unternehmen verzeichnet steigende Aufträge und verbessert damit die Perspektiven für die deutsche Industrie‑ und Fertigungsbranche.",
+   "positiv": [
+    "Deutsche Industrie‑ und Fertigungsbranche",
+    "Kabelhersteller Lapp"
+   ],
+   "negativ": []
+  },
+  {
+   "id": "3fc1db5d",
+   "titel": "Dolly Parton has died",
+   "anriss": "https://www.cnn.com/2026/08/25/entertainment/dolly-parton-de... https://www.nytimes.com/2026/08/25/arts/music/dolly-parton-d... , https://archive.ph/w4vsE https://www.hollywoodreporter.com/music/music-news/dolly-par... Comments URL: https://news.ycombinator.com/item?id=49438052 Points: 1360 # Commen",
+   "region": "global",
+   "quellen": [
+    "Hacker News Top"
+   ],
+   "anzahl": 12,
+   "links": [
+    "https://www.theguardian.com/music/2026/aug/25/dolly-parton-country-singer-dead",
+    "https://groups.google.com/a/mozilla.org/g/dev-platform/c/3YMV4MS34KA?pli=1",
+    "https://github.com/zedeus/nitter/issues/1442",
+    "https://arxiv.org/abs/2608.21590",
+    "https://rorz.io/writing/my-friend-aaron"
+   ],
+   "punkte": 14,
+   "text": "https://www.cnn.com/2026/08/25/entertainment/dolly-parton-de... https://www.nytimes.com/2026/08/25/arts/music/dolly-parton-d... , https://archive.ph/w4vsE https://www.hollywoodreporter.com/music/music-news/dolly-par... C",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "05465bf7",
-   "titel": "Wie Apfelbauern mit Hitze und Trockenheit umgehen",
-   "anriss": "Der heimische Apfelanbau kämpft nicht nur mit günstiger Konkurrenz aus dem Ausland: Auch Hitze und ausbleibender Regen belasten Betriebe. Wie Apfelbauern damit umgehen und was in Zukunft helfen könnte. Von M. Holzreiter.",
+   "id": "197f428f",
+   "titel": "Börse am 26. August: Sieben Punkte, die für Anleger heute wichtig sind",
+   "anriss": "Nach einem schwachen Wochenstart legte der Dax am Dienstag wieder zu. Heute richten sich alle Blicke auf Nvidia – aber auch auf ein wichtiges Inflationsmaß in den USA.",
    "region": "dach",
    "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.tagesschau.de/wissen/klima/apfelbau-hitze-klimawandel-100.html",
-    "https://www.spiegel.de/wirtschaft/niedrigwasser-am-rhein-trockenheit-gefaehrdet-industrie-an-den-ufern-a-615037e4-a791-4450-aec7-3aa45732a72f#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/duerrehilfen-warum-der-staat-nicht-jedes-wetterrisiko-abfedern-sollte-201154222.html"
-   ],
-   "punkte": 12,
-   "text": "Der heimische Apfelanbau kämpft nicht nur mit günstiger Konkurrenz aus dem Ausland: Auch Hitze und ausbleibender Regen belasten Betriebe. Wie Apfelbauern damit umgehen und was in Zukunft helfen könnte. Von M. Holzreiter.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "bfe2fc9f",
-   "titel": "Zuckersteuer soll auch Lightgetränke treffen – CSU-Ministerium widerspricht",
-   "anriss": "Lars Klingbeils Finanzministerium hat Eckpunkte für eine Zuckersteuer auf Getränke vorgelegt. Auch alkoholfreies Bier und Fruchtsäfte wären betroffen. Das Landwirtschaftsministerium hat nach SPIEGEL-Informationen Widerstand angekündigt.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
+    "Handelsblatt Finanzen",
     "manager magazin"
    ],
    "anzahl": 3,
    "links": [
-    "https://www.spiegel.de/wirtschaft/service/zuckersteuer-soll-auch-light-getraenke-treffen-csu-ministerium-widerspricht-a-85bb79b9-01cd-41b1-a918-5e45abf1d6df#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/einkommensteuerreform-klingbeils-entwurf-enttaeuscht-201153370.html",
-    "https://www.manager-magazin.de/politik/deutschland/zuckersteuer-ernaehrungsminister-alois-rainer-blockiert-plaene-des-finanzressorts-a-76f2f8e0-e2d7-44ea-9992-1e9845ac915c#ref=rss"
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sieben-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-asiens-boersen-uneinheitlich-warten-auf-nvidia-zahlen/100249717.html",
+    "https://www.manager-magazin.de/finanzen/boerse/boerse-dax-vor-nvidia-zahlen-ueber-26-000-punkten-oelpreise-geben-nach-a-e9f14f3b-a055-40b2-b8c5-f713aeef2cd0#ref=rss"
    ],
    "punkte": 12,
-   "text": "Lars Klingbeils Finanzministerium hat Eckpunkte für eine Zuckersteuer auf Getränke vorgelegt. Auch alkoholfreies Bier und Fruchtsäfte wären betroffen. Das Landwirtschaftsministerium hat nach SPIEGEL-Informationen Widerst",
+   "text": "Nach einem schwachen Wochenstart legte der Dax am Dienstag wieder zu. Heute richten sich alle Blicke auf Nvidia – aber auch auf ein wichtiges Inflationsmaß in den USA.",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "e8d7ac6f",
-   "titel": "Deutsche Bahn: Rund jeder zwölfte Fernzug hatte einen Ausfall",
-   "anriss": "Zugverspätungen sind ärgerlich – noch schlimmer ist es, wenn Züge komplett oder auf einem Teil der Strecke ausfallen. Auch in dieser Kategorie fährt die Bahn traurige Rekorde ein.",
+   "id": "ba9447ff",
+   "titel": "Dax aktuell: Dax schließt nach positiven Konjunkturaussichten im Plus",
+   "anriss": "Die markigen Ankündigungen des US-Finanzministers zu Iran-Sanktionen haben Anleger wenig unbeeindruckt – der Ölpreis notierte sogar tiefer. Positive Impulse gab eine Stimmungsumfrage.",
    "region": "dach",
    "quellen": [
-    "SPIEGEL Wirtschaft",
-    "heise",
-    "manager magazin"
+    "Handelsblatt Finanzen"
    ],
    "anzahl": 3,
    "links": [
-    "https://www.spiegel.de/wirtschaft/deutsche-bahn-jeder-zwoelfte-fernzug-faellt-im-ersten-halbjahr-aus-a-deae314f-ca15-490d-806d-6741e4ddc1ab#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/mobilitaet/deutsche-bahn-jeder-zwoelfte-fernzug-faellt-im-ersten-halbjahr-aus-a-85c0567f-b457-49de-bb7a-6160fa7ea144#ref=rss",
-    "https://www.heise.de/news/Deutsche-Bahn-Fernverkehr-mit-hoher-Ausfallquote-im-ersten-Halbjahr-11424791.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-nach-positiven-konjunkturaussichten-im-plus/100249478.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-us-boersen-schliessen-positiv-kanada-zoelle-lassen-anleger-kalt/100249585.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-nach-bessents-auftritt-weiter-wenig-bewegung-an-den-us-boersen/100249337.html"
    ],
-   "punkte": 12,
-   "text": "Zugverspätungen sind ärgerlich – noch schlimmer ist es, wenn Züge komplett oder auf einem Teil der Strecke ausfallen. Auch in dieser Kategorie fährt die Bahn traurige Rekorde ein.",
+   "punkte": 11,
+   "text": "Die markigen Ankündigungen des US-Finanzministers zu Iran-Sanktionen haben Anleger wenig unbeeindruckt – der Ölpreis notierte sogar tiefer. Positive Impulse gab eine Stimmungsumfrage.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "a2b3809f",
+   "titel": "Russland: Zunahme von mehr als 29 Milliarden Euro seit Januar: Warum Russen Milliarden an Bargeld abheben",
+   "anriss": "Die Russen horten Bargeld. Gleichzeitig steigen die Belastungen der Unternehmen, das Haushaltsdefizit wächst und die Finanzreserven schrumpfen. Was dahintersteckt.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "Handelsblatt Finanzen"
+   ],
+   "anzahl": 2,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/russland-warum-russen-milliarden-an-bargeld-abheben/100249206.html",
+    "https://www.faz.net/aktuell/wirtschaft/was-unternehmer-von-kuehne-und-seiner-generation-lernen-koennen-201157156.html"
+   ],
+   "punkte": 9,
+   "text": "Die Russen horten Bargeld. Gleichzeitig steigen die Belastungen der Unternehmen, das Haushaltsdefizit wächst und die Finanzreserven schrumpfen. Was dahintersteckt.",
    "positiv": [],
    "negativ": []
   }
  ],
- "ketten": [],
- "gegenthese": null,
+ "ketten": [
+  {
+   "ausloeser": "USA verdoppeln Zölle auf kanadische Pkw-Importe ab 1. Oktober 2026",
+   "direkt": "Kanadische Automobilhersteller (z. B. Magna International) verlieren Marktanteile in den USA, Lagerbestände steigen",
+   "zweite": "Kanadische Zulieferer (z. B. Linamar, Martinrea) reduzieren Produktion, Lieferengpässe bei europäischen Automobilherstellern, die kanadische Komponenten nutzen",
+   "dritte": "Europäische Autohersteller (VW, Stellantis, Renault) sehen steigende Kosten und geringere Margen; Logistikunternehmen (DHL, DB Schenker) profitieren von vermehrten Umschichtungen der Lieferketten nach Europa",
+   "positiv": [
+    "DHL (Logistik)",
+    "Deutsche Bahn (Logistik)",
+    "Rheinmetall (Verteidigung – höhere Nachfrage nach inländischer Produktion)"
+   ],
+   "negativ": [
+    "Volkswagen AG",
+    "Stellantis NV",
+    "Renault SA",
+    "Magna International Inc.",
+    "Linamar Corp."
+   ],
+   "konfidenz": "mittel"
+  },
+  {
+   "ausloeser": "SpaceX eröffnet 2027 einen neuen Raketenstartplatz in Louisiana (Cypress Bayou Launch Complex)",
+   "direkt": "Startkapazität von SpaceX erhöht sich um ca. 30 %; Preis für LEO‑Satellitenstarts sinkt",
+   "zweite": "Europäische Satellitenhersteller (Airbus Defence and Space, Thales Alenia Space) verlieren potenzielle Aufträge für kommerzielle Satellitenstarts an SpaceX",
+   "dritte": "Europäische Telekommunikationsunternehmen (Deutsche Telekom, Vodafone) prüfen günstigere SpaceX‑Launch‑Optionen, was zu einer Neubewertung ihrer Satelliten‑Investitionspläne führt; gleichzeitig steigt die Nachfrage nach europäischen Bodenstation‑Betreibern (z. B. KSAT) für die Integration von SpaceX‑Satelliten",
+   "positiv": [
+    "KSAT (Bodenstation‑Dienstleistungen)",
+    "ArianeGroup (potenzielle Kooperationen für Schwerlastraketen)",
+    "Deutsche Telekom (Kostenreduktion bei Satelliten‑Launches)"
+   ],
+   "negativ": [
+    "Airbus Defence and Space",
+    "Thales Alenia Space",
+    "European Space Agency (indirekt über geringere Auftragslage)"
+   ],
+   "konfidenz": "hoch"
+  }
+ ],
+ "gegenthese": {
+  "konsens": "Die Märkte erwarten, dass die US‑Kanada‑Zollverdopplung die Autoindustrie kurzfristig belastet, VW‑Probleme begrenzt bleiben, SpaceX‑Standort in Louisiana das US‑Start‑Segment stärkt, Lapp‑Optimismus die Kabelbranche belebt, DAX dank Konjunkturplus weiter steigt.",
+  "gegen": "Die Zölle könnten Lieferketten stark stören, VW‑Verluste tiefer sein, SpaceX‑Standort birgt politische/Umwelt‑Risiken, Lapp‑Aufschwung ist fragil, DAX‑Aufwärtstrend überbewertet, Russland‑Bargeldabflüsse signalisieren systemische Instabilität."
+ },
  "matrix": [
+  {
+   "ticker": "SU.PA",
+   "name": "SCHNEIDER ELECTRIC SE",
+   "region": "eu",
+   "quellen": {
+    "Analysten": 1,
+    "Newsletter": 0,
+    "Reddit": 0,
+    "Insider": 0,
+    "Shorts": -1
+   },
+   "gruppe": "divergenz"
+  },
   {
    "ticker": "GEV",
    "name": "GE Vernova Inc.",
@@ -361,19 +407,6 @@
    "gruppe": "gemischt"
   },
   {
-   "ticker": "SU.PA",
-   "name": "SCHNEIDER ELECTRIC SE",
-   "region": "eu",
-   "quellen": {
-    "Analysten": 1,
-    "Newsletter": 0,
-    "Reddit": 0,
-    "Insider": 0,
-    "Shorts": 0
-   },
-   "gruppe": "gemischt"
-  },
-  {
    "ticker": "CCJ",
    "name": "Cameco Corporation",
    "region": "us",
@@ -418,7 +451,7 @@
     ],
     [
      "Newsletter",
-     "nicht erwaehnt"
+     "in 1 Clustern"
     ],
     [
      "Reddit",
@@ -482,13 +515,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Rheinmetall profitiert von stark steigenden Verteidigungsausgaben in Deutschland und Europa, was das Orderbuch in den Segmenten Vehicle Systems und Weapon & Ammunition deutlich erhöht. Das Umsatzwachstum von +69 % und ein Analystenkonsens von 18 Kauf‑Empfehlungen unterstützen die positive Sicht.",
-   "dagegen": "Das Kurs‑Gewinn‑Verhältnis von 20,9 liegt über dem Branchendurchschnitt, was die Bewertung relativ hoch erscheinen lässt. Die Abhängigkeit von staatlichen Rüstungsetats erhöht das Risiko bei politischen Kurswechseln, und das jüngste Umsatzwachstum könnte nach dem Abschwung der Kriegsnachfrage nachlassen.",
-   "katalysatoren": [
-    "Erhöhung des deutschen Bundesverteidigungsbudgets 2025",
-    "Auslieferung neuer Leopard‑2‑Aufrüstungen und weiterer gepanzerter Fahrzeuge",
-    "Quartalsbericht Q3 2026 mit Fokus auf Auftragseingang und Margenentwicklung"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "ASML.AS": {
    "ticker": "ASML.AS",
@@ -551,7 +580,7 @@
     ],
     [
      "KGV (erw.)",
-     "24,5"
+     "24,6"
     ],
     [
      "Umsatzwachstum",
@@ -569,7 +598,7 @@
     ],
     [
      "Newsletter",
-     "in 29 Clustern"
+     "in 19 Clustern"
     ],
     [
      "Reddit",
@@ -596,11 +625,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "246.7 Mrd"
+     "246.8 Mrd"
     ],
     [
      "KGV (erw.)",
-     "36,8"
+     "36,9"
     ],
     [
      "Umsatzwachstum",
@@ -649,7 +678,7 @@
     ],
     [
      "KGV (erw.)",
-     "56,6"
+     "56,8"
     ],
     [
      "Umsatzwachstum",
@@ -694,7 +723,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "114.7 Mrd"
+     "114.8 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -788,273 +817,273 @@
  "shorts": [
   {
    "land": "UK",
-   "halter": "AlphaGen Capital Limited",
-   "emittent": "1SPATIAL PLC",
-   "prozent": 1.42,
-   "datum": "2013-05-29",
-   "status": "bestand",
-   "zuvor": null
+   "halter": "Anavio Capital Partners LLP",
+   "emittent": "Canadian Overseas Petroleum Limited",
+   "prozent": 23.8,
+   "datum": "2024-01-08",
+   "status": "aufgestockt",
+   "zuvor": 0.7
   },
   {
    "land": "UK",
-   "halter": "AlphaGen Capital Limited",
-   "emittent": "1SPATIAL PLC",
-   "prozent": 0.71,
-   "datum": "2013-05-24",
-   "status": "bestand",
-   "zuvor": null
+   "halter": "Vanquish Finance Investments Corp",
+   "emittent": "PEOPLE'S OPERATOR PLC (THE)",
+   "prozent": 19.74,
+   "datum": "2017-12-14",
+   "status": "aufgestockt",
+   "zuvor": 11.98
   },
   {
    "land": "UK",
-   "halter": "Bronte Capital Management Pty Ltd",
-   "emittent": "4d Pharma",
-   "prozent": 0.44,
-   "datum": "2022-03-18",
-   "status": "bestand",
-   "zuvor": null
+   "halter": "Anavio Capital Partners LLP",
+   "emittent": "Canadian Overseas Petroleum Limited",
+   "prozent": 18.1,
+   "datum": "2024-01-05",
+   "status": "aufgestockt",
+   "zuvor": 0.7
   },
   {
    "land": "UK",
-   "halter": "Bronte Capital Management Pty Ltd",
-   "emittent": "4d Pharma",
-   "prozent": 0.5,
-   "datum": "2022-01-24",
-   "status": "bestand",
-   "zuvor": null
+   "halter": "Anavio Capital Partners LLP",
+   "emittent": "Canadian Overseas Petroleum Limited",
+   "prozent": 18.0,
+   "datum": "2023-10-06",
+   "status": "aufgestockt",
+   "zuvor": 0.7
   },
   {
    "land": "UK",
-   "halter": "Bronte Capital Management Pty Ltd",
-   "emittent": "4d Pharma",
-   "prozent": 0.49,
-   "datum": "2022-01-12",
-   "status": "bestand",
-   "zuvor": null
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 16.85,
+   "datum": "2019-07-05",
+   "status": "aufgestockt",
+   "zuvor": 0.53
   },
   {
    "land": "UK",
-   "halter": "Bronte Capital Management Pty Ltd",
-   "emittent": "4d Pharma",
-   "prozent": 0.5,
-   "datum": "2021-12-02",
-   "status": "bestand",
-   "zuvor": null
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 16.76,
+   "datum": "2019-07-04",
+   "status": "aufgestockt",
+   "zuvor": 0.53
   },
   {
    "land": "UK",
-   "halter": "Citadel Advisors LLC",
-   "emittent": "4d Pharma",
-   "prozent": 0.42,
-   "datum": "2021-02-26",
-   "status": "bestand",
-   "zuvor": null
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 16.73,
+   "datum": "2020-01-31",
+   "status": "aufgestockt",
+   "zuvor": 0.53
   },
   {
    "land": "UK",
-   "halter": "Citadel Advisors LLC",
-   "emittent": "4d Pharma",
-   "prozent": 0.54,
-   "datum": "2021-02-25",
-   "status": "bestand",
-   "zuvor": null
+   "halter": "Anavio Capital Partners LLP",
+   "emittent": "Canadian Overseas Petroleum Limited",
+   "prozent": 16.7,
+   "datum": "2023-10-05",
+   "status": "aufgestockt",
+   "zuvor": 0.7
   },
   {
    "land": "UK",
-   "halter": "Citadel Advisors LLC",
-   "emittent": "4d Pharma",
-   "prozent": 0.64,
-   "datum": "2021-02-23",
-   "status": "bestand",
-   "zuvor": null
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 16.69,
+   "datum": "2020-02-29",
+   "status": "aufgestockt",
+   "zuvor": 0.53
   },
   {
    "land": "UK",
-   "halter": "Citadel Advisors LLC",
-   "emittent": "4d Pharma",
-   "prozent": 0.56,
-   "datum": "2021-02-22",
-   "status": "bestand",
-   "zuvor": null
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 16.64,
+   "datum": "2019-07-03",
+   "status": "aufgestockt",
+   "zuvor": 0.53
   },
   {
    "land": "UK",
-   "halter": "Citadel Advisors LLC",
-   "emittent": "4d Pharma",
-   "prozent": 0.46,
-   "datum": "2021-02-19",
-   "status": "bestand",
-   "zuvor": null
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 16.53,
+   "datum": "2019-06-28",
+   "status": "aufgestockt",
+   "zuvor": 0.53
   },
   {
    "land": "UK",
-   "halter": "Citadel Advisors LLC",
-   "emittent": "4d Pharma",
-   "prozent": 0.58,
-   "datum": "2021-02-17",
-   "status": "bestand",
-   "zuvor": null
+   "halter": "Citadel Securities GP LLC",
+   "emittent": "Biodexa Pharmaceuticals PLC",
+   "prozent": 16.48,
+   "datum": "2023-03-31",
+   "status": "aufgestockt",
+   "zuvor": 8.09
   },
   {
    "land": "UK",
-   "halter": "Citadel Advisors LLC",
-   "emittent": "4d Pharma",
-   "prozent": 0.61,
-   "datum": "2021-02-12",
-   "status": "bestand",
-   "zuvor": null
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 16.42,
+   "datum": "2019-07-01",
+   "status": "aufgestockt",
+   "zuvor": 0.53
   },
   {
    "land": "UK",
-   "halter": "Citadel Advisors LLC",
-   "emittent": "4d Pharma",
-   "prozent": 0.59,
-   "datum": "2021-02-11",
-   "status": "bestand",
-   "zuvor": null
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 16.41,
+   "datum": "2019-06-27",
+   "status": "aufgestockt",
+   "zuvor": 0.53
   },
   {
    "land": "UK",
-   "halter": "Citadel Advisors LLC",
-   "emittent": "4d Pharma",
-   "prozent": 0.61,
-   "datum": "2021-02-09",
-   "status": "bestand",
-   "zuvor": null
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 16.29,
+   "datum": "2019-06-26",
+   "status": "aufgestockt",
+   "zuvor": 0.53
   },
   {
    "land": "UK",
-   "halter": "Citadel Advisors LLC",
-   "emittent": "4d Pharma",
-   "prozent": 0.55,
-   "datum": "2021-02-08",
-   "status": "bestand",
-   "zuvor": null
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 16.16,
+   "datum": "2019-06-25",
+   "status": "aufgestockt",
+   "zuvor": 0.53
   },
   {
    "land": "UK",
-   "halter": "Citadel Advisors LLC",
-   "emittent": "4d Pharma",
-   "prozent": 0.48,
-   "datum": "2021-02-05",
-   "status": "bestand",
-   "zuvor": null
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 16.03,
+   "datum": "2019-06-24",
+   "status": "aufgestockt",
+   "zuvor": 0.53
   },
   {
    "land": "UK",
-   "halter": "Citadel Advisors LLC",
-   "emittent": "4d Pharma",
-   "prozent": 0.54,
-   "datum": "2021-01-29",
-   "status": "bestand",
-   "zuvor": null
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 15.9,
+   "datum": "2019-06-21",
+   "status": "aufgestockt",
+   "zuvor": 0.53
   },
   {
    "land": "UK",
-   "halter": "Citadel Advisors LLC",
-   "emittent": "4d Pharma",
-   "prozent": 0.47,
-   "datum": "2021-01-28",
-   "status": "bestand",
-   "zuvor": null
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 15.78,
+   "datum": "2019-06-20",
+   "status": "aufgestockt",
+   "zuvor": 0.53
   },
   {
    "land": "UK",
-   "halter": "Citadel Advisors LLC",
-   "emittent": "4d Pharma",
-   "prozent": 0.55,
-   "datum": "2021-01-22",
-   "status": "bestand",
-   "zuvor": null
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 15.65,
+   "datum": "2019-06-19",
+   "status": "aufgestockt",
+   "zuvor": 0.53
   },
   {
    "land": "UK",
-   "halter": "Citadel Advisors LLC",
-   "emittent": "4d Pharma",
-   "prozent": 0.49,
-   "datum": "2021-01-20",
-   "status": "bestand",
-   "zuvor": null
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 15.52,
+   "datum": "2019-06-18",
+   "status": "aufgestockt",
+   "zuvor": 0.53
   },
   {
    "land": "UK",
-   "halter": "Citadel Advisors LLC",
-   "emittent": "4d Pharma",
-   "prozent": 0.58,
-   "datum": "2021-01-18",
-   "status": "bestand",
-   "zuvor": null
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 15.17,
+   "datum": "2019-06-17",
+   "status": "aufgestockt",
+   "zuvor": 0.53
   },
   {
    "land": "UK",
-   "halter": "Citadel Advisors LLC",
-   "emittent": "4d Pharma",
-   "prozent": 0.6,
-   "datum": "2021-01-15",
-   "status": "bestand",
-   "zuvor": null
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 14.83,
+   "datum": "2019-06-14",
+   "status": "aufgestockt",
+   "zuvor": 0.53
   },
   {
    "land": "UK",
-   "halter": "Citadel Advisors LLC",
-   "emittent": "4d Pharma",
-   "prozent": 0.42,
-   "datum": "2020-12-22",
-   "status": "bestand",
-   "zuvor": null
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 14.49,
+   "datum": "2019-06-13",
+   "status": "aufgestockt",
+   "zuvor": 0.53
   },
   {
    "land": "UK",
-   "halter": "Citadel Advisors LLC",
-   "emittent": "4d Pharma",
-   "prozent": 0.59,
-   "datum": "2020-12-21",
-   "status": "bestand",
-   "zuvor": null
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 14.29,
+   "datum": "2019-06-12",
+   "status": "aufgestockt",
+   "zuvor": 0.53
   },
   {
    "land": "UK",
-   "halter": "Citadel Advisors LLC",
-   "emittent": "4d Pharma",
-   "prozent": 0.45,
-   "datum": "2020-12-18",
-   "status": "bestand",
-   "zuvor": null
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 14.08,
+   "datum": "2019-06-11",
+   "status": "aufgestockt",
+   "zuvor": 0.53
   },
   {
    "land": "UK",
-   "halter": "Citadel Advisors LLC",
-   "emittent": "4d Pharma",
-   "prozent": 0.56,
-   "datum": "2020-12-17",
-   "status": "bestand",
-   "zuvor": null
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 13.82,
+   "datum": "2019-06-10",
+   "status": "aufgestockt",
+   "zuvor": 0.53
   },
   {
    "land": "UK",
-   "halter": "Citadel Advisors LLC",
-   "emittent": "4d Pharma",
-   "prozent": 0.44,
-   "datum": "2020-12-11",
-   "status": "bestand",
-   "zuvor": null
+   "halter": "GUEVOURA FUND LTD",
+   "emittent": "HAMMERSON PLC",
+   "prozent": 13.78,
+   "datum": "2020-09-24",
+   "status": "aufgestockt",
+   "zuvor": 0.57
   },
   {
    "land": "UK",
-   "halter": "Citadel Advisors LLC",
-   "emittent": "4d Pharma",
-   "prozent": 0.61,
-   "datum": "2020-12-10",
-   "status": "bestand",
-   "zuvor": null
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 13.68,
+   "datum": "2019-06-07",
+   "status": "aufgestockt",
+   "zuvor": 0.53
   },
   {
    "land": "UK",
-   "halter": "Citadel Advisors LLC",
-   "emittent": "4d Pharma",
-   "prozent": 0.53,
-   "datum": "2020-12-04",
-   "status": "bestand",
-   "zuvor": null
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 13.5,
+   "datum": "2019-06-06",
+   "status": "aufgestockt",
+   "zuvor": 0.53
   }
  ],
  "shorts_kennzahlen": {
@@ -1071,14 +1100,6 @@
  },
  "gespraech": [],
  "termine": [
-  {
-   "datum": "2026-08-25",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
   {
    "datum": "2026-08-26",
    "zeit": "",
@@ -1166,8 +1187,16 @@
    "was": "Job Openings and Labor Turnover Survey",
    "konsens": "",
    "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-02",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 198,
- "llm_aktiv": false
+ "meldungen_gesamt": 177,
+ "llm_aktiv": true
 }
