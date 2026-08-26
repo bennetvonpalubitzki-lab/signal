@@ -1,9 +1,9 @@
 {
- "stand": "2026-08-26T11:16",
- "lauf": "2026082611",
+ "stand": "2026-08-26T16:39",
+ "lauf": "2026082616",
  "synthese": {
-  "kern": "Alle Meldungen drehen sich um strukturelle Risiken und politische Eingriffe, die die Marktstimmung unterschätzen.",
-  "erlaeuterung": "Von SpaceX‑Standortentscheidungen über VW‑Krise bis zu Steuer‑ und Handelskonflikten zeigen sich regulatorische und geopolitische Belastungen. Der Markt fokussiert weiterhin auf kurzfristige Daten, vernachlässigt jedoch die langfristigen Auswirkungen dieser politischen Spannungen."
+  "kern": "Alle Meldungen drehen sich um steigende regulatorische und geopolitische Risiken, die der Markt bislang unterschätzt.",
+  "erlaeuterung": "Steigende Steuerlasten, neue US‑Kanada‑Zölle, Rechtsstreitigkeiten und geopolitische Spannungen erhöhen das makroökonomische Risiko. Trotz hoher Perzentilwerte bei Zinsdruck und Risikoappetit bleibt die Marktliquidität niedrig, was potenzielle Korrekturen begünstigt."
  },
  "regime": [
   {
@@ -36,15 +36,15 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 50,
-     "delta": -6
+     "wert": 55,
+     "delta": -1
     },
     "eur": {
-     "wert": 69,
-     "delta": -7
+     "wert": 73,
+     "delta": -3
     }
    },
-   "differenz": 19
+   "differenz": 18
   },
   {
    "name": "risikoappetit",
@@ -52,7 +52,7 @@
    "spuren": {
     "glob": {
      "wert": 82,
-     "delta": -3
+     "delta": 0
     }
    }
   },
@@ -84,9 +84,9 @@
  ],
  "cluster": [
   {
-   "id": "16ea5a94",
-   "titel": "SpaceX plant neuen Raketen-Startplatz in Louisiana",
-   "anriss": "SpaceX will nach den Sternen greifen - und das bald noch regelmäßiger. Das Unternehmen plant in Louisiana einen neuen Weltraumbahnhof. Tech-Milliardär Musk träumt bereits vom größten Startplatz der Erde.",
+   "id": "e831fa10",
+   "titel": "Wie tief steckt VW in der Krise?",
+   "anriss": "Beim Autobauer Volkswagen hat die Serie von Betriebsversammlungen begonnen, in denen es um die Sparpläne geht. Was steht dabei zur Debatte? Und warum kämpft der Konzern überhaupt mit so massiven wirtschaftlichen Problemen?",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
@@ -95,53 +95,20 @@
     "heise",
     "manager magazin"
    ],
-   "anzahl": 6,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/unternehmen/spacex-weltraumbahnhof-100.html",
-    "https://www.spiegel.de/wirtschaft/unternehmen/spacex-will-100-milliarden-dollar-in-neuen-weltraumbahnhof-stecken-a-b1ce23e1-09cc-4614-9ece-20d46d43bdc6#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/spacex-weltraumbahnhof-in-lousiana-so-teuer-sind-die-plaene-201159172.html",
-    "https://www.manager-magazin.de/unternehmen/tech/spacex-plant-weltraumbahnhof-in-louisiana-fuer-100-milliarden-dollar-a-f64573e1-ef64-416f-84d7-a293cda59ab3#ref=rss",
-    "https://www.heise.de/news/SpaceX-will-100-Milliarden-US-Dollar-in-neuen-Weltraumbahnhof-stecken-11425928.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 22,
-   "text": "SpaceX plant den Bau eines neuen Weltraumbahnhofs in Louisiana, um die Startfrequenz zu erhöhen und langfristig größere Missionen zu ermöglichen. Der Standort soll die Infrastruktur für wiederverwendbare Raketen erweitern und die Präsenz des Unternehmens in den USA stärken.",
-   "positiv": [
-    "Raumfahrt‑ und Satellitenstart‑Dienstleister",
-    "Bau‑ und Infrastrukturunternehmen in Louisiana",
-    "Lokale Wirtschaft"
-   ],
-   "negativ": [
-    "Konkurrenten im europäischen und russischen Startmarkt"
-   ]
-  },
-  {
-   "id": "e831fa10",
-   "titel": "Wie tief steckt VW in der Krise?",
-   "anriss": "Beim Autobauer Volkswagen hat die Serie von Betriebsversammlungen begonnen, in denen es um die Sparpläne geht. Was steht dabei zur Debatte? Und warum kämpft der Konzern überhaupt mit so massiven wirtschaftlichen Problemen?",
-   "region": "dach",
-   "quellen": [
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 6,
+   "anzahl": 8,
    "links": [
     "https://www.tagesschau.de/wirtschaft/unternehmen/vw-krise-106.html",
     "https://www.spiegel.de/wirtschaft/unternehmen/vw-will-management-um-ein-viertel-verkleinern-a-cd43b928-7d21-4ecf-935d-01ad78b0c047#ref=rss",
     "https://www.spiegel.de/wirtschaft/volkswagen-vw-chef-oliver-blume-stellt-sich-belegschaft-betriebsrat-sieht-vertrauenskrise-a-c72f4623-7479-42d9-9d27-cc8e863c77ce#ref=rss",
     "https://www.spiegel.de/wirtschaft/unternehmen/volkswagen-olaf-lies-geht-auf-konfrontationskurs-mit-oliver-blume-a-ecf63f42-c117-4449-b870-35e1c704cbcb#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/mobilitaet/volkswagen-worueber-beim-autobauer-gestritten-wird-abrechnung-mit-dem-chef-a-34c93dde-cca8-40ff-9197-b5b13c5068e0#ref=rss"
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/vw-betriebsversammlungen-chef-blume-eilt-mit-dem-vw-flieger-von-werk-zu-werk-accg-201160837.html"
    ],
-   "punkte": 18,
-   "text": "Volkswagen befindet sich in einer tiefen Krise, die durch mehrere Betriebsversammlungen und umfangreiche Sparpläne gekennzeichnet ist. Die Diskussionen drehen sich um Kostensenkungen, Produktionsanpassungen und die Sicherung der Liquidität des Konzerns.",
-   "positiv": [
-    "Kosten‑ und Effizienz‑Beratungsfirmen",
-    "Unternehmen im Bereich Elektromobilitäts‑Zulieferung (falls Umstellung unterstützt)"
-   ],
+   "punkte": 26,
+   "text": "Volkswagen hat mit einer Reihe von Betriebsversammlungen begonnen, um umfangreiche Spar‑ und Restrukturierungsmaßnahmen zu diskutieren. Die Ankündigungen deuten auf anhaltende Gewinn‑ und Liquiditätsprobleme hin, die den Konzern und die deutsche Automobilbranche belasten.",
+   "positiv": [],
    "negativ": [
-    "VW‑Aktien",
-    "Zulieferer mit hohem Anteil an Verbrennungsmotor‑Komponenten",
-    "Automobil‑Branche allgemein"
+    "Volkswagen‑Aktie",
+    "Automobilzulieferer"
    ]
   },
   {
@@ -153,76 +120,78 @@
     "FAZ Wirtschaft",
     "Handelsblatt Finanzen",
     "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 4,
+   "anzahl": 5,
    "links": [
     "https://www.handelsblatt.com/finanzen/steuern-recht/steuern/steuern-neuer-hoechstwert-bei-erbschaft-und-schenkungsteuer/100249769.html",
+    "https://www.tagesschau.de/wirtschaft/finanzen/erbschaftssteuer-staatseinnahmen-100.html",
     "https://www.spiegel.de/wirtschaft/soziales/erbschaftsteuer-grosserben-zahlen-2025-nur-zwei-prozent-auf-betriebsvermoegen-a-c69663b7-28da-4a2d-af0b-45f336f4755b#ref=rss",
     "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-bill-gates-nennt-ki-angriffe-von-openai-schockierend-und-will-globale-regeln-wie-fuer-atomwaffen-faz-200452404.html",
     "https://www.manager-magazin.de/politik/deutschland/erbschaft-und-schenkungsteuer-neuer-hoechstwert-bei-erbschaft-und-schenkungsteuer-a-9fb41f6c-3bfb-47df-b131-426e321f6de4#ref=rss"
    ],
-   "punkte": 17,
-   "text": "Die Erbschaft‑ und Schenkungsteuer in Deutschland hat einen Rekordhöchstwert erreicht, was die steuerliche Belastung von Vermögensübertragungen stark erhöht. Der Anstieg resultiert aus einer Kombination von Gesetzesänderungen und gestiegenen Bewertungsgrundlagen für Vermögen.",
-   "positiv": [
-    "Steuerberatungs‑ und Nachfolgeplanungs‑Unternehmen",
-    "Vermögensverwaltungs‑Firmen, die Beratungsbedarf erhöhen"
-   ],
+   "punkte": 21,
+   "text": "Die Erbschaft‑ und Schenkungsteuer in Deutschland hat im vergangenen Jahr einen Rekordwert erreicht, getrieben durch höhere Bewertungsgrundlagen und steigende Vermögenswerte. Der Anstieg erhöht die Kosten für Vermögensübertragungen und kann die Nachfrage nach hochpreisigen Immobilien und Luxusgütern dämpfen.",
+   "positiv": [],
    "negativ": [
-    "Luxus‑Güter‑ und Immobilienmarkt (nachfrage‑dämpfend)",
-    "Vermögende Privatpersonen mit geplanten Übertragungen"
+    "Immobilien‑Luxussegment",
+    "Vermögensverwaltungs‑Dienstleistungen"
    ]
   },
   {
-   "id": "b08c0b40",
-   "titel": "Die Wirtschaft schöpft wieder Hoffnung - das sind die Gründe",
-   "anriss": "Lange Zeit zeigten die Wirtschaftsdaten in Deutschland vor allem nach unten. Nun machen die jüngsten Konjunkturzahlen etwas Hoffnung. Wie kommt das? Und ist diese Entwicklung auch wirklich nachhaltig?",
+   "id": "33ecf896",
+   "titel": "Meta und US-Staaten einigen sich auf Milliarden-Vergleich",
+   "anriss": "Es war ein viel beachtetes Verfahren, in dem US-Staaten Meta vorgeworfen haben, jugendliche Nutzer abhängig zu machen. Nun stimmte der Social-Media-Konzern einem Milliardenvergleich zu, der auch weitere Schutzmechanismen vorsieht.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft"
+    "Tagesschau Wirtschaft",
+    "heise",
+    "manager magazin"
    ],
    "anzahl": 5,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/konjunktur/konjunkturdaten-wirtschaft-faq-100.html",
-    "https://www.tagesschau.de/wirtschaft/konjunktur/bip-q2-2026-100.html",
-    "https://www.spiegel.de/wirtschaft/exportwirtschaft-stimmung-laut-ifo-so-gut-wie-zuletzt-anfang-2022-a-04c0cc69-9f9c-4623-b1b3-1948606c42af#ref=rss",
-    "https://www.spiegel.de/wirtschaft/bip-deutsche-wirtschaft-waechst-im-zweiten-quartal-staerker-als-gedacht-a-b16bceee-2277-4b38-bdda-8e75bd304ea7#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/ifo-geschaeftsklima-deutschland-auf-kurs-zu-mehr-wachstum-accg-201157288.html"
+    "https://www.tagesschau.de/ausland/amerika/usa-meta-staaten-einigung-100.html",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/meta-zahlt-17-milliarden-dollar-in-social-media-prozess-201161465.html",
+    "https://www.manager-magazin.de/unternehmen/meta-facebook-konzern-zahlt-16-7-milliarden-dollar-im-us-jugendschutzstreit-a-8f36a68c-971c-414c-b64d-8acefa6ad930#ref=rss",
+    "https://www.heise.de/news/Gefahr-fuer-Jugendliche-Meta-legt-US-Rechtsstreit-gegen-Milliardenzahlung-bei-11426981.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "https://www.heise.de/news/Uber-Eltern-sollen-Fahrten-von-Jugendlichen-per-Livestream-mitverfolgen-koennen-11426141.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
-   "punkte": 16,
-   "text": "Jüngste Konjunkturdaten aus Deutschland zeigen eine Aufwärtsbewegung, die das Vertrauen in die Wirtschaft wieder stärkt. Die Verbesserung beruht auf steigenden Auftragseingängen, besserer Industrieproduktion und einer moderateren Arbeitsmarktlage.",
+   "punkte": 18,
+   "text": "Meta hat sich mit mehreren US‑Bundesstaaten auf einen Vergleich in Milliardenhöhe geeinigt, wodurch das Unternehmen seine laufenden Rechtsstreitigkeiten beendet. Die Einigung reduziert das rechtliche Risiko und dürfte das Vertrauen der Investoren in die Meta‑Aktie stärken.",
    "positiv": [
-    "Deutsche Aktien (insbesondere Industrie‑ und Exportsektor)",
-    "Konsumgüter‑ und Dienstleistungsunternehmen",
-    "Exportorientierte Unternehmen"
+    "Meta‑Aktie"
    ],
-   "negativ": [
-    "Kurzfristige Short‑Positionen auf den DAX",
-    "Unternehmen, die stark von einer anhaltenden Rezession profitiert haben"
-   ]
+   "negativ": []
   },
   {
-   "id": "6987af0f",
-   "titel": "Nikkei, Kospi, CSI 300: Asiens Börsen schließen kaum verändert – Warten auf Nvidia-Zahlen",
-   "anriss": "Anleger in Asien warten derzeit ab. Dabei dominieren zwei Themen den Markt: Entwicklungen im Iran-Krieg sowie Quartalszahlen eines wichtigen US-Techunternehmens.",
+   "id": "16ea5a94",
+   "titel": "SpaceX plant neuen Raketen-Startplatz in Louisiana",
+   "anriss": "SpaceX will nach den Sternen greifen - und das bald noch regelmäßiger. Das Unternehmen plant in Louisiana einen neuen Weltraumbahnhof. Tech-Milliardär Musk träumt bereits vom größten Startplatz der Erde.",
    "region": "dach",
    "quellen": [
-    "Handelsblatt Finanzen",
-    "Tagesschau Wirtschaft"
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "heise",
+    "manager magazin"
    ],
    "anzahl": 4,
    "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-kospi-csi-300-asiens-boersen-schliessen-kaum-veraendert-warten-auf-nvidia-zahlen/100249717.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-notiert-unveraendert-sap-ist-der-groesste-verlierer/100249757.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sieben-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
-    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-boerse-dax-dow-jones-nvidia-100.html"
+    "https://www.tagesschau.de/wirtschaft/unternehmen/spacex-weltraumbahnhof-100.html",
+    "https://www.spiegel.de/wirtschaft/unternehmen/spacex-will-100-milliarden-dollar-in-neuen-weltraumbahnhof-stecken-a-b1ce23e1-09cc-4614-9ece-20d46d43bdc6#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/tech/spacex-plant-weltraumbahnhof-in-louisiana-fuer-100-milliarden-dollar-a-f64573e1-ef64-416f-84d7-a293cda59ab3#ref=rss",
+    "https://www.heise.de/news/SpaceX-will-100-Milliarden-US-Dollar-in-neuen-Weltraumbahnhof-stecken-11425928.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
-   "punkte": 15,
-   "text": "Anleger in Asien warten derzeit ab. Dabei dominieren zwei Themen den Markt: Entwicklungen im Iran-Krieg sowie Quartalszahlen eines wichtigen US-Techunternehmens.",
-   "positiv": [],
-   "negativ": []
+   "punkte": 16,
+   "text": "SpaceX plant den Bau eines neuen Weltraumbahnhofs in Louisiana, um die Startfrequenz zu erhöhen und die Infrastruktur für zukünftige Missionen auszubauen. Die Erweiterung stärkt SpaceX‑s Marktposition und kann Wettbewerber im Launch‑Dienstleistungssegment unter Druck setzen.",
+   "positiv": [
+    "SpaceX",
+    "US‑Luft- und Raumfahrtindustrie"
+   ],
+   "negativ": [
+    "Konkurrenten im Satelliten‑Startgeschäft"
+   ]
   },
   {
    "id": "81bd6f94",
@@ -234,63 +203,121 @@
     "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft"
    ],
-   "anzahl": 3,
+   "anzahl": 5,
    "links": [
     "https://www.tagesschau.de/ausland/amerika/kanada-zoelle-100.html",
     "https://www.spiegel.de/wirtschaft/kanada-verhaengt-vergeltungszoelle-gegen-usa-von-bis-zu-50-prozent-a-c10a04d1-6db8-49e2-a584-8b3c59d01fb1#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/kanadische-unternehmen-im-zollstreit-mit-den-usa-accg-201156030.html"
+    "https://www.spiegel.de/wirtschaft/usa-und-kanada-kann-premier-mark-carney-den-handelskrieg-mit-den-usa-gewinnen-a-9a3375f4-f75b-46cd-9644-e1ac6ab7fff9#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/mark-carney-im-handelskrieg-kanadas-haerte-gegen-trump-201158966.html",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/zollstreit-zwischen-kanada-und-usa-neue-zoelle-von-donald-trump-accg-201156030.html"
    ],
-   "punkte": 12,
+   "punkte": 16,
    "text": "Gegenzölle von bis zu 50 Prozent auf bestimmte Importe aus den Vereinigten Staaten: So lautet die Antwort der kanadischen Regierung auf die neuen US-Zölle. Der Konflikt zwischen den Nachbarstaaten spitzt sich zu.",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "cf4486d1",
-   "titel": "Queryable Executables",
-   "anriss": "Article URL: https://fzakaria.com/2026/08/24/actually-queryable-executables Comments URL: https://news.ycombinator.com/item?id=49442589 Points: 204 # Comments: 56",
-   "region": "global",
+   "id": "291cc807",
+   "titel": "Deutschlands Exporteure fassen Mut",
+   "anriss": "In der Exportwirtschaft herrscht so viel Optimismus wie seit Jahren nicht mehr. Besonders der KI-Boom und ein starkes Europageschäft haben zu dem Stimmungsumschwung geführt, wie Umfragen des ifo-Instituts zeigen.",
+   "region": "dach",
    "quellen": [
-    "Hacker News Top"
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft"
    ],
-   "anzahl": 10,
+   "anzahl": 4,
    "links": [
-    "https://fzakaria.com/2026/08/24/actually-queryable-executables",
-    "https://github.com/zedeus/nitter/issues/1442",
-    "https://arxiv.org/abs/2608.21590",
-    "https://e360.yale.edu/digest/bomb-fishing-coral-reefs",
-    "https://www.imkylelambert.com/articles/building-a-backyard-office-the-build-and-cost-breakdown"
+    "https://www.tagesschau.de/wirtschaft/konjunktur/exporte-zuversicht-eu-100.html",
+    "https://www.tagesschau.de/wirtschaft/konjunktur/bip-q2-2026-100.html",
+    "https://www.spiegel.de/wirtschaft/exportwirtschaft-stimmung-laut-ifo-so-gut-wie-zuletzt-anfang-2022-a-04c0cc69-9f9c-4623-b1b3-1948606c42af#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/ifo-geschaeftsklima-deutschland-auf-kurs-zu-mehr-wachstum-accg-201157288.html"
    ],
-   "punkte": 12,
-   "text": "Article URL: https://fzakaria.com/2026/08/24/actually-queryable-executables Comments URL: https://news.ycombinator.com/item?id=49442589 Points: 204 # Comments: 56",
+   "punkte": 14,
+   "text": "In der Exportwirtschaft herrscht so viel Optimismus wie seit Jahren nicht mehr. Besonders der KI-Boom und ein starkes Europageschäft haben zu dem Stimmungsumschwung geführt, wie Umfragen des ifo-Instituts zeigen.",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "24f9bee0",
-   "titel": "USA und Kanada: Kann Premier Mark Carney den Handelskrieg mit den USA gewinnen?",
-   "anriss": "Neue 50-Prozent-Zölle hat US-Präsident Donald Trump gegen Kanada angekündigt. Doch Mark Carney gibt sich kämpferisch. Rückhalt bekommt der Premier des Nachbarlandes aus der Bevölkerung.",
+   "id": "a780ff2b",
+   "titel": "Dax aktuell: Dax kaum bewegt – SAP ist der größte Verlierer",
+   "anriss": "Nvidia-Zahlen, Jackson Hole und Inflationsdaten: Am deutschen Aktienmarkt warten Anleger derzeit auf Impulse. Allerdings bleibt ein aktueller Trend intakt.",
    "region": "dach",
    "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft"
+    "Handelsblatt Finanzen"
+   ],
+   "anzahl": 2,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-kaum-bewegt-sap-ist-der-groesste-verlierer/100249757.html",
+    "https://www.handelsblatt.com/finanzen/geldpolitik/jackson-hole-fed-chef-warsh-steht-inwyoming-vor-einer-bewaehrungsprobe/100249153.html"
+   ],
+   "punkte": 12,
+   "text": "Nvidia-Zahlen, Jackson Hole und Inflationsdaten: Am deutschen Aktienmarkt warten Anleger derzeit auf Impulse. Allerdings bleibt ein aktueller Trend intakt.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "b5c2db37",
+   "titel": "Kryptomarkt: Revolut legt Euro-Stablecoins auf",
+   "anriss": "Mit dem Stablecoin EURR will die britische Digitalbank Revolut digitale Zahlungen vereinfachen. Zunächst ist der Token für Kunden in drei europäischen Ländern verfügbar.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "heise"
    ],
    "anzahl": 3,
    "links": [
-    "https://www.spiegel.de/wirtschaft/usa-und-kanada-kann-premier-mark-carney-den-handelskrieg-mit-den-usa-gewinnen-a-9a3375f4-f75b-46cd-9644-e1ac6ab7fff9#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/trumps-zoelle-treffen-seine-treuesten-waehler-201157635.html",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/mark-carney-im-handelskrieg-kanadas-haerte-gegen-trump-201158966.html"
+    "https://www.handelsblatt.com/finanzen/geldpolitik/kryptomarkt-revolut-legt-euro-stablecoins-auf/100249878.html",
+    "https://www.handelsblatt.com/finanzen/geldpolitik/digitalwaehrung-bundesbank-vorstand-fuer-integration-des-digitalen-euro-in-wero/100249782.html",
+    "https://www.heise.de/news/Bundesbank-Wero-und-digitalen-Euro-verzahnen-11426362.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
-   "punkte": 10,
-   "text": "Neue 50-Prozent-Zölle hat US-Präsident Donald Trump gegen Kanada angekündigt. Doch Mark Carney gibt sich kämpferisch. Rückhalt bekommt der Premier des Nachbarlandes aus der Bevölkerung.",
+   "punkte": 12,
+   "text": "Mit dem Stablecoin EURR will die britische Digitalbank Revolut digitale Zahlungen vereinfachen. Zunächst ist der Token für Kunden in drei europäischen Ländern verfügbar.",
    "positiv": [],
    "negativ": []
   }
  ],
- "ketten": [],
+ "ketten": [
+  {
+   "ausloeser": "SpaceX eröffnet im zweiten Quartal 2027 einen neuen Raketen‑Startplatz in Louisiana",
+   "direkt": "Produktionsvolumen von Raketenteilen in den USA steigt, insbesondere für Aluminium‑ und Titan‑Legierungen sowie Hochleistungselektronik",
+   "zweite": "Nachfrage nach diesen Rohstoffen und Vorprodukten in Europa steigt, weil SpaceX Teile von europäischen Lieferanten (z. B. Airbus Defence, Safran, Thyssenkrupp) bezieht, um Lieferketten zu diversifizieren",
+   "dritte": "Aktien von europäischen Luft‑ und Raumfahrtunternehmen (Airbus, Safran, MTU Aero Engines) erleben Kursdruck durch Konkurrenz, während Rohstoff‑ETFs auf Aluminium (e.g. LME‑Aluminium‑ETF) und Titan (z. B. iShares MSCI Global Metals & Mining) Kursgewinne verzeichnen; gleichzeitig stärkt der US‑Dollar gegenüber dem Euro durch erhöhte Exporterlöse",
+   "positiv": [
+    "Aluminium‑ETFs (z. B. LME‑Aluminium‑ETF)",
+    "Titan‑ETFs (z. B. iShares MSCI Global Metals & Mining)",
+    "US‑Dollar‑Index"
+   ],
+   "negativ": [
+    "Airbus SE",
+    "Safran SA",
+    "MTU Aero Engines AG",
+    "Euro‑Stoxx‑50"
+   ],
+   "konfidenz": "mittel"
+  },
+  {
+   "ausloeser": "Kanada kündigt im August 2027 Vergeltungszölle von bis zu 50 % auf US‑Industriegüter an",
+   "direkt": "US‑Exportvolumen nach Kanada fällt um geschätzte 20 % im ersten Halbjahr, insbesondere bei Automobil‑ und Maschinenbau‑Komponenten",
+   "zweite": "US‑Hersteller verlagern Produktionskapazitäten in die EU, um den kanadischen Markt über Drittstaaten zu bedienen; dadurch steigen die Importe von US‑Industriegütern nach Deutschland, Frankreich und den Niederlanden",
+   "dritte": "Deutsche und französische Industrie‑Aktien (z. B. Volkswagen, Siemens, Schneider Electric) profitieren von höheren Auftragsvolumina, während US‑Industrie‑ETFs (z. B. Industrial Select Sector SPDR) unter Druck geraten; gleichzeitig steigt die Volatilität im CAD/EUR‑Wechselkurs, was europäische Export‑ und Import‑Kredite belastet",
+   "positiv": [
+    "Volkswagen AG",
+    "Siemens AG",
+    "Schneider Electric SE",
+    "Euro‑Stoxx‑50‑Industrie‑Subindex"
+   ],
+   "negativ": [
+    "Industrial Select Sector SPDR Fund (XLI)",
+    "US‑Industrie‑Aktien (z. B. Caterpillar, General Electric)",
+    "CAD/EUR‑Wechselkurs (Abwertung des CAD)"
+   ],
+   "konfidenz": "hoch"
+  }
+ ],
  "gegenthese": {
-  "konsens": "Markt erwartet leichte Erholung, getrieben von US‑Technologie‑Ergebnissen und Asien‑Stabilität, während geopolitische Risiken und steigende Steuern das Wachstum bremsen.",
-  "gegen": "Risiko von Handelskonflikten, höhere Zölle und schwache Unternehmensgewinne könnten die Erholung schnell zunichtemachen."
+  "konsens": "VW in tiefer Krise, Erbschaftsteuer hoch, Meta‑Vergleich reduziert US‑Risiko, SpaceX‑Louisiana positiv, Kanadas Zölle belasten Handel, Exporteure optimistisch, DAX seitwärts, SAP schwach, Revolut führt Euro‑Stablecoin ein.",
+  "gegen": "Gegenargument: VW‑Krise könnte durch neue Elektro‑Strategie schneller enden; Erbschaftsteuer wirkt kaum auf Konsum; Meta‑Vergleich löst nicht alle Rechtsrisiken; SpaceX‑Standort birgt politische Risiken; Kanadas Zölle könnten im Dialog fallen; DAX‑Stagnation ist kurzfristig; SAP‑Verlust ist zyklisch; Stablecoins stehen vor strenger Regulierung."
  },
  "matrix": [
   {
@@ -407,11 +434,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "129.0 Mrd"
+     "128.6 Mrd"
     ],
     [
      "KGV (erw.)",
-     "24,5"
+     "24,4"
     ],
     [
      "Umsatzwachstum",
@@ -456,11 +483,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "52.5 Mrd"
+     "53.1 Mrd"
     ],
     [
      "KGV (erw.)",
-     "21,0"
+     "21,3"
     ],
     [
      "Umsatzwachstum",
@@ -505,7 +532,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "575.4 Mrd"
+     "575.2 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -554,11 +581,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "167.8 Mrd"
+     "168.2 Mrd"
     ],
     [
      "KGV (erw.)",
-     "24,7"
+     "24,8"
     ],
     [
      "Umsatzwachstum",
@@ -576,7 +603,7 @@
     ],
     [
      "Newsletter",
-     "in 20 Clustern"
+     "in 19 Clustern"
     ],
     [
      "Reddit",
@@ -603,11 +630,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "246.8 Mrd"
+     "251.0 Mrd"
     ],
     [
      "KGV (erw.)",
-     "36,9"
+     "37,5"
     ],
     [
      "Umsatzwachstum",
@@ -652,11 +679,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "46.6 Mrd"
+     "46.8 Mrd"
     ],
     [
      "KGV (erw.)",
-     "56,8"
+     "57,0"
     ],
     [
      "Umsatzwachstum",
@@ -689,13 +716,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Cameco profitiert von steigender weltweiter Uran‑Nachfrage, insbesondere durch den Ausbau von Kernkraft in Asien und die Wiederbelebung von US‑Reaktoren. Analysten bewerten das Unternehmen mehrheitlich mit Kauf, das Kursziel liegt bei 130 USD, und das Unternehmen verfügt über etablierte Mine‑ und Verarbeitungsanlagen.",
-   "dagegen": "Das Unternehmen weist ein hohes erwartetes KGV von 56,8 und ein rückläufiges Umsatzwachstum von –7 % auf, was auf schwächere Preise und mögliche regulatorische Risiken hindeutet. Die Quellenlage ist dünn: Newsletter und Reddit erwähnen das Unternehmen kaum, was die Marktliquidität einschränken könnte.",
-   "katalysatoren": [
-    "US‑Staatliche Unterstützung für Uranpreise (Uran‑Preisstützungsprogramm)",
-    "Neuer Liefervertrag mit europäischen Versorgern",
-    "Wiederinbetriebnahme der Cigar Lake Mine nach Wartungsarbeiten"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "FCX": {
    "ticker": "FCX",
@@ -705,11 +728,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "114.8 Mrd"
+     "112.6 Mrd"
     ],
     [
      "KGV (erw.)",
-     "19,4"
+     "19,0"
     ],
     [
      "Umsatzwachstum",
@@ -754,11 +777,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "5.160.3 Mrd"
+     "5.080.7 Mrd"
     ],
     [
      "KGV (erw.)",
-     "16,3"
+     "16,0"
     ],
     [
      "Umsatzwachstum",
@@ -797,6 +820,42 @@
   }
  },
  "shorts": [
+  {
+   "land": "NL",
+   "halter": "Caisse de dépôt et placement du Québec",
+   "emittent": "IMCD N.V.",
+   "prozent": 0.69,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "Syquant Capital",
+   "emittent": "Basic-Fit N.V.",
+   "prozent": 0.57,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "Point72 Asset Management, L.P.",
+   "emittent": "BE Semiconductor Industries N.V.",
+   "prozent": 0.54,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "Citadel Securities (Europe) Limited",
+   "emittent": "NSI N.V.",
+   "prozent": 0.51,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
   {
    "land": "UK",
    "halter": "Anavio Capital Partners LLP",
@@ -1030,46 +1089,10 @@
    "datum": "2019-06-11",
    "status": "aufgestockt",
    "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 13.82,
-   "datum": "2019-06-10",
-   "status": "aufgestockt",
-   "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "GUEVOURA FUND LTD",
-   "emittent": "HAMMERSON PLC",
-   "prozent": 13.78,
-   "datum": "2020-09-24",
-   "status": "aufgestockt",
-   "zuvor": 0.57
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 13.68,
-   "datum": "2019-06-07",
-   "status": "aufgestockt",
-   "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 13.5,
-   "datum": "2019-06-06",
-   "status": "aufgestockt",
-   "zuvor": 0.53
   }
  ],
  "shorts_kennzahlen": {
-  "neu_diese_woche": 0,
+  "neu_diese_woche": 4,
   "meistgeshortet": {
    "name": "Premier Oil PLC",
    "summe": 2145.63
@@ -1082,14 +1105,6 @@
  },
  "gespraech": [],
  "termine": [
-  {
-   "datum": "2026-08-26",
-   "zeit": "",
-   "region": "us",
-   "was": "Debt to Gross Domestic Product Ratios",
-   "konsens": "",
-   "wucht": "hoch"
-  },
   {
    "datum": "2026-08-26",
    "zeit": "",
@@ -1111,6 +1126,14 @@
    "zeit": "",
    "region": "us",
    "was": "Personal Income and Outlays",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-08-26",
+   "zeit": "",
+   "region": "us",
+   "was": "Debt to Gross Domestic Product Ratios",
    "konsens": "",
    "wucht": "hoch"
   },
@@ -1179,6 +1202,6 @@
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 173,
- "llm_aktiv": false
+ "meldungen_gesamt": 178,
+ "llm_aktiv": true
 }
