@@ -1,9 +1,9 @@
 {
- "stand": "2026-08-28T02:13",
- "lauf": "2026082802",
+ "stand": "2026-08-28T21:22",
+ "lauf": "2026082821",
  "synthese": {
-  "kern": "Der Tag verbindet KI‑Boom‑Euphorie mit drohender Liquiditätsknappheit und unterschätzten Energie‑Risiken.",
-  "erlaeuterung": "Während Unternehmen wie Nvidia und Salesforce dank KI‑Anwendungen starkes Gewinnwachstum melden, zeigen Regime‑Indikatoren eine stark rückläufige US‑Liquidität und kritische Gasspeicher‑Situation in Europa. Der Markt fokussiert derzeit vor allem die positiven KI‑Nachrichten und vernachlässigt dabei die Risiken aus Liquiditätsengpässen und geopolitischer Energieunsicherheit."
+  "kern": "Markt fokussiert Geldpolitik, übersieht breiten Risiko‑Appetit und geopolitische Stabilität trotz hoher Regimewerte.",
+  "erlaeuterung": "Während Zentralbanken Zinserhöhungen prüfen, zeigen die Regimewerte für Risikoappetit (91) und Geopolitik (92) weiterhin Stärke. Der Markt vernachlässigt damit mögliche Unterstützung für Risiko‑Assets, was die aktuelle Preisvolatilität dämpfen könnte."
  },
  "regime": [
   {
@@ -11,15 +11,15 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 74,
-     "delta": 1
+     "wert": 76,
+     "delta": 2
     },
     "eur": {
      "wert": 89,
      "delta": -5
     }
    },
-   "differenz": 15
+   "differenz": 13
   },
   {
    "name": "wachstum",
@@ -37,22 +37,22 @@
    "spuren": {
     "us": {
      "wert": 55,
-     "delta": 0
+     "delta": -1
     },
     "eur": {
-     "wert": 74,
-     "delta": -4
+     "wert": 73,
+     "delta": -5
     }
    },
-   "differenz": 19
+   "differenz": 18
   },
   {
    "name": "risikoappetit",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 88,
-     "delta": 10
+     "wert": 91,
+     "delta": 11
     }
    }
   },
@@ -61,207 +61,219 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 41,
-     "delta": -2
+     "wert": 42,
+     "delta": -1
     },
     "eur": {
      "wert": 0,
      "delta": -1
     }
    },
-   "differenz": 41
+   "differenz": 42
   },
   {
    "name": "geopolitik",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 94,
-     "delta": 1
+     "wert": 92,
+     "delta": -3
     }
    }
   }
  ],
  "cluster": [
   {
-   "id": "0fe3c3a1",
-   "titel": "Kann Vergleich mit Meta als Vorlage für andere sozialen Medien dienen?",
-   "anriss": "Im Streit um mehr Jugendschutz hat der Meta-Konzern in den USA einem Vergleich zugestimmt. Doch die Umsetzung der Maßnahmen birgt Hürden. Und Meta fordert: Plattformen wie YouTube und TikTok müssen nachziehen. Von Reinhard Spiegelhauer.",
+   "id": "a430f266",
+   "titel": "Geldpolitik: „Wir müssen sicher sein, dass die Inflation sich auf unser Ziel zubewegt“ – Warsh offen für Zinserhöhung",
+   "anriss": "Beim Notenbank-Treffen in Jackson Hole gab sich Warsh überraschend „falkenhaft“. Und er rückte die Bedeutung der Geldmenge wieder in den Fokus. Ein Überblick über die wichtigsten Punkte.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "Handelsblatt Finanzen",
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 10,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/geldpolitik/geldpolitik-jackson-hole-fed-chef-warsh-signalisiert-zinserhoehung/100249152.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-dow-jones-schliesst-fast-unveraendert-paypal-aktie-bricht-ein/100250403.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-erreicht-nach-warsh-rede-neuen-rekord/100250296.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sieben-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-yen-hang-seng-asiens-boersen-vor-us-notenbankertreffen-uneinheitlich/100250268.html"
+   ],
+   "punkte": 43,
+   "text": "Federal Reserve‑Vorsitzender Warsh betonte beim Jackson‑Hole‑Treffen die Notwendigkeit, die Inflation zum Ziel zu führen, und signalisierte damit eine mögliche Zinserhöhung. Gleichzeitig rückte er die Geldmenge wieder stärker in den Fokus, was die Erwartung einer restriktiveren Geldpolitik verstärkt.",
+   "positiv": [
+    "Banken (+)",
+    "US‑Dollar (+)"
+   ],
+   "negativ": [
+    "Zins‑empfindliche Aktien (-)",
+    "Anleihenpreise (-)"
+   ]
+  },
+  {
+   "id": "522aedbf",
+   "titel": "Wo es trotz Konjunkturflaute noch Jobs gibt",
+   "anriss": "Jahrelang kein Wachstum, das schlägt längst auch auf den Arbeitsmarkt durch. Hinzu kommt der Strukturwandel in der Industrie, der auch Arbeitsplätze kostet. Wo fallen Stellen weg - und wo gibt es neue? Von E. Birkenstock.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft"
+   ],
+   "anzahl": 5,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/lichtblicke-am-arbeitsmarkt-100.html",
+    "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/mehr-als-drei-millionen-arbeitslose-august-100.html",
+    "https://www.spiegel.de/wirtschaft/arbeitslosenzahl-steigt-auf-3-061-millionen-a-03702718-6350-4e2d-b030-80743bbee80b#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/bundesagentur-fuer-arbeit-sechs-millionen-auslaender-beschaeftigt-201167779.html",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/keine-besserung-in-sicht-zahl-der-arbeitslosen-steigt-im-august-auf-3-061-millionen-accg-201167458.html"
+   ],
+   "punkte": 16,
+   "text": "Trotz anhaltender Konjunkturflaute gibt es in einigen Sektoren weiterhin Beschäftigung, während struktureller Wandel in der Industrie Arbeitsplätze vernichtet. Wachstums‑ und Beschäftigungspotenzial zeigen sich vor allem in erneuerbaren Energien, Gesundheits‑ und IT‑Dienstleistungen, während traditionelle Fertigung und Kohle‑Industrie schrumpfen.",
+   "positiv": [
+    "Erneuerbare Energien (+)",
+    "Gesundheitswesen (+)",
+    "IT‑Dienstleistungen (+)"
+   ],
+   "negativ": [
+    "Traditionelle Industrie (-)",
+    "Kohle‑ und Bergbausektor (-)"
+   ]
+  },
+  {
+   "id": "063ccb53",
+   "titel": "Leitzins: Inflation in Frankreich und Spanien zieht an – EZB‑Zinserhöhung erwartet",
+   "anriss": "Die Inflation in Frankreich und Spanien hat im August deutlich angezogen und erhöht den Druck auf die EZB. Experten rechnen deshalb mit einer weiteren Zinserhöhung im September.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "SPIEGEL Wirtschaft"
+   ],
+   "anzahl": 2,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/banken-versicherungen/leitzins-inflation-in-frankreich-und-spanien-zieht-an-ezbzinserhoehung-erwartet/100250363.html",
+    "https://www.spiegel.de/wirtschaft/shein-co-frankreich-erhebt-sondergebuehr-fuer-wegwerfmode-a-241ae085-030d-43b3-a7d5-0c4e9bc48890#ref=rss"
+   ],
+   "punkte": 13,
+   "text": "Die Inflation in Frankreich und Spanien hat im August deutlich zugenommen, was den Druck auf die Europäische Zentralbank erhöht, die im September voraussichtlich den Leitzins anheben wird. Eine weitere Zinserhöhung würde die Kreditkosten im Euroraum erhöhen und die Geldpolitik weiter straffen.",
+   "positiv": [
+    "Banken im Euroraum (+)",
+    "Euro‑Kurzfristzinsen (+)"
+   ],
+   "negativ": [
+    "Euro‑Bonds (-)",
+    "Euro‑Währung (-)",
+    "Zins‑sensible Aktien (-)"
+   ]
+  },
+  {
+   "id": "046915eb",
+   "titel": "Verbraucherschützer fordern nach Meta-Vergleich Konsequenzen",
+   "anriss": "In den USA hat der Facebook-Mutterkonzern nach einem Prozess um Social-Media-Sucht von Kindern Änderungen versprochen. Verbraucherschützer fordern nun auch Konsequenzen in Deutschland.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
     "Tagesschau Wirtschaft",
     "heise"
    ],
-   "anzahl": 4,
+   "anzahl": 3,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/digitales/usa-meta-vergleich-jugendschutz-100.html",
+    "https://www.tagesschau.de/inland/gesellschaft/social-media-jugendliche-104.html",
     "https://www.faz.net/aktuell/wirtschaft/unternehmen/meta-vergleich-die-geduld-mit-big-tech-schwindet-201164573.html",
-    "https://www.heise.de/news/Riegel-vor-Instagram-Metas-Milliarden-Vergleich-erzwingt-harte-Zugangssperren-11432281.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-    "https://www.heise.de/news/Umfrage-der-TK-Haelfte-der-Teenager-fuer-Social-Media-Altersgrenzen-11431405.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+    "https://www.heise.de/news/Meta-Vergleich-in-den-USA-sollte-Plattform-Design-auch-hier-veraendern-11432856.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
-   "punkte": 14,
-   "text": "Meta hat in den USA einem Vergleich zugestimmt, der strengere Jugendschutz‑Maßnahmen auf seiner Plattform vorsieht. Das Unternehmen fordert, dass vergleichbare Vorgaben auch für YouTube (Alphabet) und TikTok (ByteDance) gelten, was regulatorischen Druck auf die gesamte Social‑Media‑Branche erhöht.",
+   "punkte": 12,
+   "text": "Verbraucherschützer fordern in Deutschland Konsequenzen für Meta, nachdem das Unternehmen in den USA nach einem Prozess zu Kindersucht‑Problematik Änderungen zugesagt hat. Die erhöhte regulatorische Aufmerksamkeit könnte das Geschäft von Meta belasten und gleichzeitig Chancen für Wettbewerber im Social‑Media‑ und Werbemarkt schaffen.",
    "positiv": [
-    "Meta (MSFT)",
-    "Compliance‑Technologie‑Anbieter"
+    "Konkurrenten im Social‑Media‑Sektor (+)",
+    "Datenschutz‑Dienstleister (+)"
    ],
    "negativ": [
-    "Alphabet (GOOGL)",
-    "ByteDance (privat)",
-    "Social‑Media‑Branche allgemein"
+    "Meta Platforms (+)",
+    "Online‑Werbeumsatz von Meta (-)"
    ]
   },
   {
-   "id": "aed6e36c",
-   "titel": "Technologie: Mit KI gegen Preisschocks: Unternehmen testen neue Prognosemodelle für Rohstoffe",
-   "anriss": "Rohstoffpreise werden zunehmend schwankungsanfällig – und für Einkäufer zum Kostenrisiko. Deshalb setzen immer mehr Unternehmen auf Künstliche Intelligenz. Aber wie treffsicher ist diese?",
+   "id": "fcc38cb9",
+   "titel": "Hendrik Holt: Windkraft-Betrüger nach Freigang in Berlin auf der Flucht",
+   "anriss": "Mit Windparks, die es nicht gab, hat Hendrik Holt Energiekonzerne um Millionen Euro betrogen. Dafür sitzt er eine Freiheitsstrafe ab. Nun ist er von einem Freigang aus der JVA nicht zurückgekehrt, die Fahndung läuft.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.spiegel.de/wirtschaft/hendrik-holt-windkraft-betrueger-nach-freigang-in-berlin-auf-der-flucht-a-931715d6-b03c-4206-82fc-1cb534f5d4b7#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/hendrik-holt-fluechtig-liebesgruesse-aus-moskau-auf-instagram-201168104.html",
+    "https://www.manager-magazin.de/lifestyle/leute/hendrik-holt-verurteilter-windkraft-betrueger-nach-freigang-geflohen-a-43801a85-28fc-4a3a-8f7f-0998a24fb208#ref=rss"
+   ],
+   "punkte": 12,
+   "text": "Mit Windparks, die es nicht gab, hat Hendrik Holt Energiekonzerne um Millionen Euro betrogen. Dafür sitzt er eine Freiheitsstrafe ab. Nun ist er von einem Freigang aus der JVA nicht zurückgekehrt, die Fahndung läuft.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "29fd6222",
+   "titel": "GLM-5.3 is now open-weight",
+   "anriss": "https://twitter.com/Zai_org/status/2093354097122455713 https://z.ai/blog/glm-5.3 Comments URL: https://news.ycombinator.com/item?id=49479878 Points: 471 # Comments: 171",
+   "region": "global",
+   "quellen": [
+    "Hacker News Top"
+   ],
+   "anzahl": 9,
+   "links": [
+    "https://huggingface.co/zai-org/GLM-5.3",
+    "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html",
+    "https://en.refund4freedom.org/",
+    "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released",
+    "https://www.inventati.org/"
+   ],
+   "punkte": 11,
+   "text": "https://twitter.com/Zai_org/status/2093354097122455713 https://z.ai/blog/glm-5.3 Comments URL: https://news.ycombinator.com/item?id=49479878 Points: 471 # Comments: 171",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "736706bc",
+   "titel": "Interview: Währungsexperte Robin Brooks: „Der Markt wird das Finanzministerium testen“",
+   "anriss": "Der Ökonom der Brookings Institution über den Machtkampf zwischen dem US-Finanzministerium und den Anleihemärkten und warum sich Politiker von Mario Draghi inspirieren lassen sollten.",
    "region": "dach",
    "quellen": [
     "Handelsblatt Finanzen",
-    "SPIEGEL Wirtschaft",
-    "heise"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/rohstoffe-unternehmen-testen-ki-prognosemodelle-fuer-rohstoffe/100248818.html",
-    "https://www.spiegel.de/wirtschaft/deutsche-industrie-us-kaeufer-uebernehmen-immer-mehr-unternehmen-a-68d4cdf8-fdeb-4e88-b5e6-cceb48c89d43#ref=rss",
-    "https://www.heise.de/news/iX-Workshop-Sicherer-Betrieb-von-Windows-11-im-Unternehmen-11415586.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 13,
-   "text": "Unternehmen setzen vermehrt Künstliche Intelligenz ein, um kurzfristige Rohstoffpreisschocks zu prognostizieren und Beschaffungsrisiken zu reduzieren. Die Wirksamkeit der Modelle ist noch nicht eindeutig belegt, sodass die Auswirkungen auf Rohstoffproduzenten und -händler unsicher bleiben.",
-   "positiv": [
-    "KI‑Software‑ und Cloud‑Anbieter (z. B. Microsoft, NVIDIA)"
-   ],
-   "negativ": [
-    "Rohstoffproduzenten (z. B. BHP, Rio Tinto)",
-    "Traditionelle Rohstoff‑Händler"
-   ]
-  },
-  {
-   "id": "cf831d8c",
-   "titel": "Wirtschaft vor acht vom 27.08.2026",
-   "anriss": "Wirtschaft vor acht vom 27.08.2026",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "Tagesschau Wirtschaft"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.tagesschau.de/video/video-1638498.html",
-    "https://www.tagesschau.de/multimedia/sendung/tagesschau24/boerselive/video-1638130.html",
-    "https://www.tagesschau.de/wirtschaft/weltwirtschaft/iran-krieg-alltag-folgen-100.html",
-    "https://www.faz.net/aktuell/wirtschaft/hanks-welt/macht-hitze-arm-das-haengt-von-der-reaktion-ab-201146514.html"
-   ],
-   "punkte": 12,
-   "text": "Der Beitrag \"Wirtschaft vor acht\" vom 27.08.2026 enthält keine konkreten inhaltlichen Angaben, die eine Bewertung von Anlagen oder Branchen ermöglichen würden. Die Faktenlage ist zu dünn, um fundierte Einschätzungen zu geben.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "497dd1af",
-   "titel": "Interview mit Robin Brooks: „Der Markt wird das Finanzministerium testen“",
-   "anriss": "Der Währungsexperte der Brookings Institution über den Machtkampf zwischen dem US-Finanzministerium und den Anleihemärkten und warum sich Politiker von Mario Draghi inspirieren lassen sollten.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "Handelsblatt Finanzen"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/schulden-der-markt-wird-das-finanzministerium-testen/100249741.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/anleihen/usa-wie-amerikas-schuldenexperiment-investoren-aufschreckt/100249301.html",
-    "https://www.faz.net/aktuell/wirtschaft/zuckersteuer-klingbeil-stoppt-plaene-fuer-zero-getraenke-201159955.html"
-   ],
-   "punkte": 12,
-   "text": "Im Interview erklärt Robin Brooks, dass das US‑Finanzministerium zunehmend in Konflikt mit den Anleihemärkten gerät, weil es die Zinsentwicklung aktiv steuern will. Diese Spannungen könnten die Renditen von US‑Staatsanleihen nach oben treiben und sichere Häfen wie Gold begünstigen.",
-   "positiv": [
-    "Gold (XAU)",
-    "Defensiv‑Aktien (z. B. Utilities)"
-   ],
-   "negativ": [
-    "US‑Staatsanleihen (TLT)",
-    "Zins‑sensible Aktien (z. B. Immobilien)"
-   ]
-  },
-  {
-   "id": "0536c693",
-   "titel": "Rostock: Schwarz-Gruppe baut riesiges Rechenzentrum",
-   "anriss": "Die für ihre Ketten Lidl und Kaufland bekannte Schwarz-Gruppe will 5,6 Milliarden Euro in den Bau eines Rechenzentrums bei Rostock stecken. Gibt das Ministerpräsidentin Schwesig vor der Landtagswahl Rückenwind?",
-   "region": "dach",
-   "quellen": [
-    "SPIEGEL Wirtschaft",
-    "manager magazin"
+    "SPIEGEL Wirtschaft"
    ],
    "anzahl": 2,
    "links": [
-    "https://www.spiegel.de/wirtschaft/unternehmen/schwarz-gruppe-baut-riesiges-rechenzentrum-bei-rostock-a-2ebdb5bb-33e6-4f2a-ab51-acffad5cb5c9#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/schwarz-gruppe-konzern-baut-riesiges-rechenzentrum-bei-rostock-a-0b6f55b6-7efc-4c13-a7df-271f7abe7eef#ref=rss"
+    "https://www.handelsblatt.com/finanzen/maerkte/schulden-der-markt-wird-das-finanzministerium-testen/100249741.html",
+    "https://www.spiegel.de/wirtschaft/hohe-spritpreise-finanzminister-lars-klingbeil-will-oelkonzerne-zur-kasse-bitten-doch-die-eu-zieht-bisher-nicht-mit-a-ea593195-05a5-4269-ba3e-8555330d4e9c#ref=rss"
    ],
-   "punkte": 12,
-   "text": "Die für ihre Ketten Lidl und Kaufland bekannte Schwarz-Gruppe will 5,6 Milliarden Euro in den Bau eines Rechenzentrums bei Rostock stecken. Gibt das Ministerpräsidentin Schwesig vor der Landtagswahl Rückenwind?",
+   "punkte": 9,
+   "text": "Der Ökonom der Brookings Institution über den Machtkampf zwischen dem US-Finanzministerium und den Anleihemärkten und warum sich Politiker von Mario Draghi inspirieren lassen sollten.",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "85eaab7f",
-   "titel": "VW-Aufsichtsrat Olaf Lies: »Massenhafte Entlassungen können nicht die Lösung sein«",
-   "anriss": "Die Fronten zwischen Vorstand und Beschäftigten bei Volkswagen sind verhärtet. Niedersachsens Ministerpräsident und VW-Aufsichtsrat Olaf Lies verlangt von der Führung ein »tragfähiges Zukunftskonzept«.",
+   "id": "c9cdd61c",
+   "titel": "Künstliche Intelligenz: Einzigartiger Pakt: Singapurs Banken versprechen KI-Umbau ohne Massenentlassungen",
+   "anriss": "Die Finanzmetropole sieht sich als einer der globalen KI‑Vorreiter. Die Politik sorgt sich vor Jobverlusten. Staat, Banken und Gewerkschaft sollen das gemeinsam verhindern.",
    "region": "dach",
    "quellen": [
-    "SPIEGEL Wirtschaft",
-    "heise",
-    "manager magazin"
+    "Handelsblatt Finanzen",
+    "heise"
    ],
-   "anzahl": 3,
+   "anzahl": 2,
    "links": [
-    "https://www.spiegel.de/wirtschaft/vw-aufsichtsrat-olaf-lies-massenhafte-entlassungen-koennen-nicht-die-loesung-sein-a-899ae761-3f2e-49db-829c-1eee982c74a8#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/mobilitaet/volkswagen-niedersachsen-prueft-einstieg-im-werk-osnabrueck-a-1e983f14-4195-4566-ac8f-e430707cabc4#ref=rss",
-    "https://www.heise.de/news/Niedersachsen-prueft-Einstieg-bei-VW-Osnabrueck-11431589.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+    "https://www.handelsblatt.com/finanzen/ki-singapurs-banken-versprechen-ki-umbau-ohne-massenentlassungen/100250302.html",
+    "https://www.heise.de/news/Massiver-Umbau-gekippt-Meta-wollte-KI-nativ-werden-und-scheiterte-11434074.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
-   "punkte": 12,
-   "text": "Die Fronten zwischen Vorstand und Beschäftigten bei Volkswagen sind verhärtet. Niedersachsens Ministerpräsident und VW-Aufsichtsrat Olaf Lies verlangt von der Führung ein »tragfähiges Zukunftskonzept«.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "01e819c3",
-   "titel": "Nvidia verdoppelt innerhalb eines Jahres Umsatz und Gewinn",
-   "anriss": "Der US-Chiphersteller Nvidia jagt weiter Rekorde: Für das vergangene Quartal meldet das Unternehmen einen Umsatz von 96 Milliarden US-Dollar. Das ist mehr als doppelt so viel wie im gleichen Zeitraum vor einem Jahr.",
-   "region": "dach",
-   "quellen": [
-    "SPIEGEL Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.spiegel.de/wirtschaft/nvidia-verdoppelt-innerhalb-eines-jahres-umsatz-und-gewinn-a-c33ff1ce-d12c-4c24-befb-b3f48e7798fd#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/tech/nvidia-zahlen-jensen-huang-stellt-quartalszahlen-von-ki-chiphersteller-vor-finanzierungsdeals-in-der-kritik-a-6f148834-fd9a-4496-8c05-09836ab9e495#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/tech/nvidia-chiphersteller-plant-12-9-milliarden-uebernahme-von-hugging-face-a-420a5a29-e3e2-4923-9fad-886ff7c1c7cc#ref=rss"
-   ],
-   "punkte": 10,
-   "text": "Der US-Chiphersteller Nvidia jagt weiter Rekorde: Für das vergangene Quartal meldet das Unternehmen einen Umsatz von 96 Milliarden US-Dollar. Das ist mehr als doppelt so viel wie im gleichen Zeitraum vor einem Jahr.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "54e1c335",
-   "titel": "Salesforce: Aktie steigt nach Anhebung der Jahresziele dank KI-Boom",
-   "anriss": "KI sorgt bei Salesforce weiter für Rückenwind: Der US-Softwarekonzern erhöht nach einem starken Quartal seine Jahresprognose und setzt auf wachsende Nachfrage nach seinen neuen KI-Angeboten.",
-   "region": "dach",
-   "quellen": [
-    "heise",
-    "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.manager-magazin.de/unternehmen/tech/salesforce-aktie-steigt-nach-anhebung-der-jahresziele-dank-ki-boom-a-64f86958-425d-4a90-96c2-4b33815b348e#ref=rss",
-    "https://www.heise.de/news/Salesforce-Claude-wird-zur-neuen-CRM-Oberflaeche-11431870.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-    "https://www.heise.de/news/Anthropic-spendiert-seiner-KI-Claude-einen-eigenen-Browser-11431667.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 10,
-   "text": "KI sorgt bei Salesforce weiter für Rückenwind: Der US-Softwarekonzern erhöht nach einem starken Quartal seine Jahresprognose und setzt auf wachsende Nachfrage nach seinen neuen KI-Angeboten.",
+   "punkte": 9,
+   "text": "Die Finanzmetropole sieht sich als einer der globalen KI‑Vorreiter. Die Politik sorgt sich vor Jobverlusten. Staat, Banken und Gewerkschaft sollen das gemeinsam verhindern.",
    "positiv": [],
    "negativ": []
   }
@@ -383,11 +395,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "127.8 Mrd"
+     "127.4 Mrd"
     ],
     [
      "KGV (erw.)",
-     "24,3"
+     "24,2"
     ],
     [
      "Umsatzwachstum",
@@ -405,7 +417,7 @@
     ],
     [
      "Newsletter",
-     "in 4 Clustern"
+     "in 5 Clustern"
     ],
     [
      "Reddit",
@@ -420,13 +432,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die Aktie profitiert von starkem Umsatzwachstum von +18 % und einem moderaten KGV von 24,3, was im Branchenvergleich attraktiv erscheint. Analysten bewerten das Unternehmen überwiegend positiv (19 Buy, 4 Hold, 2 Sell). Das Kursziel von 197 € impliziert weiteres Aufwärtspotenzial.",
-   "dagegen": "Trotz Wachstum bleibt das KGV relativ hoch, was auf eine mögliche Überbewertung hindeuten könnte. Fehlende Insider‑Informationen und keine Short‑Positionen deuten auf Unsicherheit hin. Der Anteil der Verkaufsmeinungen (2 Verkauf) widerspricht dem überwiegenden Kauf‑Consensus.",
-   "katalysatoren": [
-    "Auslieferung der nächsten Generation von Gasturbinen im zweiten Quartal",
-    "Steigerung der Offshore‑Windaufträge bei Siemens Gamesa im Jahresende",
-    "Einführung neuer digitaler Service‑Plattformen für industrielle Kunden"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "RHM.DE": {
    "ticker": "RHM.DE",
@@ -436,11 +444,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "54.8 Mrd"
+     "53.9 Mrd"
     ],
     [
      "KGV (erw.)",
-     "21,9"
+     "21,6"
     ],
     [
      "Umsatzwachstum",
@@ -485,11 +493,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "570.9 Mrd"
+     "574.0 Mrd"
     ],
     [
      "KGV (erw.)",
-     "28,8"
+     "28,9"
     ],
     [
      "Umsatzwachstum",
@@ -534,11 +542,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "167.2 Mrd"
+     "169.6 Mrd"
     ],
     [
      "KGV (erw.)",
-     "24,7"
+     "25,0"
     ],
     [
      "Umsatzwachstum",
@@ -556,7 +564,7 @@
     ],
     [
      "Newsletter",
-     "in 16 Clustern"
+     "in 11 Clustern"
     ],
     [
      "Reddit",
@@ -571,9 +579,13 @@
      "1648,06 % ueber 1700 Halter"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "Schneider Electric profitiert von starkem Umsatzwachstum (+10 %) und breiter Marktposition in Energie‑Management und Industrieautomation. Analysten‑Consensus (22 Buy, 2 Hold) und ein Kursziel von 326 € deuten auf erwartete Gewinnsteigerungen und Bewertungs‑Aufwärtsraum hin.",
+   "dagegen": "Trotz positiver Analystenmeinungen weist das extrem hohe Short‑Interest (≈ 1.600 % über 1.700 Halter) auf erhebliche Skepsis hin. Das forward‑KGV von 25 erscheint im Vergleich zu Branchen‑Peers hoch, und die geringe Reddit‑Präsenz lässt auf begrenzte Retail‑Nachfrage schließen.",
+   "katalysatoren": [
+    "Quartalsbericht Q3 2024 mit erwarteter Umsatz‑ und Gewinnsteigerung",
+    "Markteinführung neuer Micro‑Grid‑Lösungen für erneuerbare Energien",
+    "Abschluss einer strategischen Akquisition im Bereich Smart‑Building‑Technologie"
+   ]
   },
   "GEV": {
    "ticker": "GEV",
@@ -583,11 +595,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "254.0 Mrd"
+     "242.9 Mrd"
     ],
     [
      "KGV (erw.)",
-     "37,9"
+     "36,3"
     ],
     [
      "Umsatzwachstum",
@@ -632,11 +644,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "46.3 Mrd"
+     "43.6 Mrd"
     ],
     [
      "KGV (erw.)",
-     "56,6"
+     "53,2"
     ],
     [
      "Umsatzwachstum",
@@ -681,11 +693,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "112.6 Mrd"
+     "109.8 Mrd"
     ],
     [
      "KGV (erw.)",
-     "19,0"
+     "18,5"
     ],
     [
      "Umsatzwachstum",
@@ -730,15 +742,15 @@
    "kpi": [
     [
      "Marktkap.",
-     "5.505.0 Mrd"
+     "5.253.2 Mrd"
     ],
     [
      "KGV (erw.)",
-     "15,7"
+     "14,2"
     ],
     [
      "Umsatzwachstum",
-     "+85 %"
+     "+106 %"
     ],
     [
      "Kursziel",
@@ -793,9 +805,54 @@
   },
   {
    "land": "NL",
+   "halter": "Capital Fund Management S.A.",
+   "emittent": "IMCD N.V.",
+   "prozent": 0.8,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "Canada Pension Plan Investment Board",
+   "emittent": "Signify N.V.",
+   "prozent": 0.75,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "Citadel Advisors LLC",
+   "emittent": "Sligro Food Group N.V.",
+   "prozent": 0.72,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "Capital Fund Management S.A.",
+   "emittent": "TKH Group N.V.",
+   "prozent": 0.7,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
    "halter": "BlackRock Financial Management, Inc.",
    "emittent": "Akzo Nobel N.V.",
    "prozent": 0.59,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "Capital Fund Management S.A.",
+   "emittent": "The Magnum Ice Cream Company N.V.",
+   "prozent": 0.58,
    "datum": "",
    "status": "neu",
    "zuvor": null
@@ -823,6 +880,24 @@
    "halter": "Two Sigma Investments, LP",
    "emittent": "AMG Critical Materials N.V.",
    "prozent": 0.5,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "BlackRock Advisors, LLC",
+   "emittent": "IMCD N.V.",
+   "prozent": 0.49,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "Two Sigma Investments, LP",
+   "emittent": "AMG Critical Materials N.V.",
+   "prozent": 0.49,
    "datum": "",
    "status": "neu",
    "zuvor": null
@@ -979,80 +1054,17 @@
    "datum": "2019-06-24",
    "status": "aufgestockt",
    "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 15.9,
-   "datum": "2019-06-21",
-   "status": "aufgestockt",
-   "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 15.78,
-   "datum": "2019-06-20",
-   "status": "aufgestockt",
-   "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 15.65,
-   "datum": "2019-06-19",
-   "status": "aufgestockt",
-   "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 15.52,
-   "datum": "2019-06-18",
-   "status": "aufgestockt",
-   "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 15.17,
-   "datum": "2019-06-17",
-   "status": "aufgestockt",
-   "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 14.83,
-   "datum": "2019-06-14",
-   "status": "aufgestockt",
-   "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 14.49,
-   "datum": "2019-06-13",
-   "status": "aufgestockt",
-   "zuvor": 0.53
   }
  ],
  "shorts_kennzahlen": {
-  "neu_diese_woche": 6,
+  "neu_diese_woche": 13,
   "meistgeshortet": {
    "name": "Premier Oil PLC",
    "summe": 2145.63
   },
   "aktivster_halter": {
    "name": "Marshall Wace LLP",
-   "anzahl": 14038
+   "anzahl": 14036
   },
   "gesamt": 107395
  },
@@ -1155,6 +1167,6 @@
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 145,
+ "meldungen_gesamt": 165,
  "llm_aktiv": false
 }
