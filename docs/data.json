@@ -1,9 +1,9 @@
 {
- "stand": "2026-08-26T16:39",
- "lauf": "2026082616",
+ "stand": "2026-08-28T02:13",
+ "lauf": "2026082802",
  "synthese": {
-  "kern": "Alle Meldungen drehen sich um steigende regulatorische und geopolitische Risiken, die der Markt bislang unterschätzt.",
-  "erlaeuterung": "Steigende Steuerlasten, neue US‑Kanada‑Zölle, Rechtsstreitigkeiten und geopolitische Spannungen erhöhen das makroökonomische Risiko. Trotz hoher Perzentilwerte bei Zinsdruck und Risikoappetit bleibt die Marktliquidität niedrig, was potenzielle Korrekturen begünstigt."
+  "kern": "Der Tag verbindet KI‑Boom‑Euphorie mit drohender Liquiditätsknappheit und unterschätzten Energie‑Risiken.",
+  "erlaeuterung": "Während Unternehmen wie Nvidia und Salesforce dank KI‑Anwendungen starkes Gewinnwachstum melden, zeigen Regime‑Indikatoren eine stark rückläufige US‑Liquidität und kritische Gasspeicher‑Situation in Europa. Der Markt fokussiert derzeit vor allem die positiven KI‑Nachrichten und vernachlässigt dabei die Risiken aus Liquiditätsengpässen und geopolitischer Energieunsicherheit."
  },
  "regime": [
   {
@@ -11,7 +11,7 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 75,
+     "wert": 74,
      "delta": 1
     },
     "eur": {
@@ -19,15 +19,15 @@
      "delta": -5
     }
    },
-   "differenz": 14
+   "differenz": 15
   },
   {
    "name": "wachstum",
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 82,
-     "delta": 17
+     "wert": 84,
+     "delta": 12
     }
    }
   },
@@ -37,22 +37,22 @@
    "spuren": {
     "us": {
      "wert": 55,
-     "delta": -1
+     "delta": 0
     },
     "eur": {
-     "wert": 73,
-     "delta": -3
+     "wert": 74,
+     "delta": -4
     }
    },
-   "differenz": 18
+   "differenz": 19
   },
   {
    "name": "risikoappetit",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 82,
-     "delta": 0
+     "wert": 88,
+     "delta": 10
     }
    }
   },
@@ -61,264 +61,213 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 42,
-     "delta": -1
+     "wert": 41,
+     "delta": -2
     },
     "eur": {
      "wert": 0,
      "delta": -1
     }
    },
-   "differenz": 42
+   "differenz": 41
   },
   {
    "name": "geopolitik",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 95,
-     "delta": 2
+     "wert": 94,
+     "delta": 1
     }
    }
   }
  ],
  "cluster": [
   {
-   "id": "e831fa10",
-   "titel": "Wie tief steckt VW in der Krise?",
-   "anriss": "Beim Autobauer Volkswagen hat die Serie von Betriebsversammlungen begonnen, in denen es um die Sparpläne geht. Was steht dabei zur Debatte? Und warum kämpft der Konzern überhaupt mit so massiven wirtschaftlichen Problemen?",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "heise",
-    "manager magazin"
-   ],
-   "anzahl": 8,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/unternehmen/vw-krise-106.html",
-    "https://www.spiegel.de/wirtschaft/unternehmen/vw-will-management-um-ein-viertel-verkleinern-a-cd43b928-7d21-4ecf-935d-01ad78b0c047#ref=rss",
-    "https://www.spiegel.de/wirtschaft/volkswagen-vw-chef-oliver-blume-stellt-sich-belegschaft-betriebsrat-sieht-vertrauenskrise-a-c72f4623-7479-42d9-9d27-cc8e863c77ce#ref=rss",
-    "https://www.spiegel.de/wirtschaft/unternehmen/volkswagen-olaf-lies-geht-auf-konfrontationskurs-mit-oliver-blume-a-ecf63f42-c117-4449-b870-35e1c704cbcb#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/vw-betriebsversammlungen-chef-blume-eilt-mit-dem-vw-flieger-von-werk-zu-werk-accg-201160837.html"
-   ],
-   "punkte": 26,
-   "text": "Volkswagen hat mit einer Reihe von Betriebsversammlungen begonnen, um umfangreiche Spar‑ und Restrukturierungsmaßnahmen zu diskutieren. Die Ankündigungen deuten auf anhaltende Gewinn‑ und Liquiditätsprobleme hin, die den Konzern und die deutsche Automobilbranche belasten.",
-   "positiv": [],
-   "negativ": [
-    "Volkswagen‑Aktie",
-    "Automobilzulieferer"
-   ]
-  },
-  {
-   "id": "7080166b",
-   "titel": "Steuern: Neuer Höchstwert bei Erbschaft- und Schenkungsteuer",
-   "anriss": "Die festgesetzte Erbschaft- und Schenkungsteuer in Deutschland erreicht einen Rekordwert. Was steckt hinter dem starken Anstieg im vergangenen Jahr?",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "Handelsblatt Finanzen",
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 5,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/steuern-recht/steuern/steuern-neuer-hoechstwert-bei-erbschaft-und-schenkungsteuer/100249769.html",
-    "https://www.tagesschau.de/wirtschaft/finanzen/erbschaftssteuer-staatseinnahmen-100.html",
-    "https://www.spiegel.de/wirtschaft/soziales/erbschaftsteuer-grosserben-zahlen-2025-nur-zwei-prozent-auf-betriebsvermoegen-a-c69663b7-28da-4a2d-af0b-45f336f4755b#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-bill-gates-nennt-ki-angriffe-von-openai-schockierend-und-will-globale-regeln-wie-fuer-atomwaffen-faz-200452404.html",
-    "https://www.manager-magazin.de/politik/deutschland/erbschaft-und-schenkungsteuer-neuer-hoechstwert-bei-erbschaft-und-schenkungsteuer-a-9fb41f6c-3bfb-47df-b131-426e321f6de4#ref=rss"
-   ],
-   "punkte": 21,
-   "text": "Die Erbschaft‑ und Schenkungsteuer in Deutschland hat im vergangenen Jahr einen Rekordwert erreicht, getrieben durch höhere Bewertungsgrundlagen und steigende Vermögenswerte. Der Anstieg erhöht die Kosten für Vermögensübertragungen und kann die Nachfrage nach hochpreisigen Immobilien und Luxusgütern dämpfen.",
-   "positiv": [],
-   "negativ": [
-    "Immobilien‑Luxussegment",
-    "Vermögensverwaltungs‑Dienstleistungen"
-   ]
-  },
-  {
-   "id": "33ecf896",
-   "titel": "Meta und US-Staaten einigen sich auf Milliarden-Vergleich",
-   "anriss": "Es war ein viel beachtetes Verfahren, in dem US-Staaten Meta vorgeworfen haben, jugendliche Nutzer abhängig zu machen. Nun stimmte der Social-Media-Konzern einem Milliardenvergleich zu, der auch weitere Schutzmechanismen vorsieht.",
+   "id": "0fe3c3a1",
+   "titel": "Kann Vergleich mit Meta als Vorlage für andere sozialen Medien dienen?",
+   "anriss": "Im Streit um mehr Jugendschutz hat der Meta-Konzern in den USA einem Vergleich zugestimmt. Doch die Umsetzung der Maßnahmen birgt Hürden. Und Meta fordert: Plattformen wie YouTube und TikTok müssen nachziehen. Von Reinhard Spiegelhauer.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
     "Tagesschau Wirtschaft",
-    "heise",
-    "manager magazin"
-   ],
-   "anzahl": 5,
-   "links": [
-    "https://www.tagesschau.de/ausland/amerika/usa-meta-staaten-einigung-100.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/meta-zahlt-17-milliarden-dollar-in-social-media-prozess-201161465.html",
-    "https://www.manager-magazin.de/unternehmen/meta-facebook-konzern-zahlt-16-7-milliarden-dollar-im-us-jugendschutzstreit-a-8f36a68c-971c-414c-b64d-8acefa6ad930#ref=rss",
-    "https://www.heise.de/news/Gefahr-fuer-Jugendliche-Meta-legt-US-Rechtsstreit-gegen-Milliardenzahlung-bei-11426981.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-    "https://www.heise.de/news/Uber-Eltern-sollen-Fahrten-von-Jugendlichen-per-Livestream-mitverfolgen-koennen-11426141.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 18,
-   "text": "Meta hat sich mit mehreren US‑Bundesstaaten auf einen Vergleich in Milliardenhöhe geeinigt, wodurch das Unternehmen seine laufenden Rechtsstreitigkeiten beendet. Die Einigung reduziert das rechtliche Risiko und dürfte das Vertrauen der Investoren in die Meta‑Aktie stärken.",
-   "positiv": [
-    "Meta‑Aktie"
-   ],
-   "negativ": []
-  },
-  {
-   "id": "16ea5a94",
-   "titel": "SpaceX plant neuen Raketen-Startplatz in Louisiana",
-   "anriss": "SpaceX will nach den Sternen greifen - und das bald noch regelmäßiger. Das Unternehmen plant in Louisiana einen neuen Weltraumbahnhof. Tech-Milliardär Musk träumt bereits vom größten Startplatz der Erde.",
-   "region": "dach",
-   "quellen": [
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "heise",
-    "manager magazin"
+    "heise"
    ],
    "anzahl": 4,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/unternehmen/spacex-weltraumbahnhof-100.html",
-    "https://www.spiegel.de/wirtschaft/unternehmen/spacex-will-100-milliarden-dollar-in-neuen-weltraumbahnhof-stecken-a-b1ce23e1-09cc-4614-9ece-20d46d43bdc6#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/tech/spacex-plant-weltraumbahnhof-in-louisiana-fuer-100-milliarden-dollar-a-f64573e1-ef64-416f-84d7-a293cda59ab3#ref=rss",
-    "https://www.heise.de/news/SpaceX-will-100-Milliarden-US-Dollar-in-neuen-Weltraumbahnhof-stecken-11425928.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 16,
-   "text": "SpaceX plant den Bau eines neuen Weltraumbahnhofs in Louisiana, um die Startfrequenz zu erhöhen und die Infrastruktur für zukünftige Missionen auszubauen. Die Erweiterung stärkt SpaceX‑s Marktposition und kann Wettbewerber im Launch‑Dienstleistungssegment unter Druck setzen.",
-   "positiv": [
-    "SpaceX",
-    "US‑Luft- und Raumfahrtindustrie"
-   ],
-   "negativ": [
-    "Konkurrenten im Satelliten‑Startgeschäft"
-   ]
-  },
-  {
-   "id": "81bd6f94",
-   "titel": "Kanada kündigt Vergeltungszölle gegen USA von bis zu 50 Prozent an",
-   "anriss": "Gegenzölle von bis zu 50 Prozent auf bestimmte Importe aus den Vereinigten Staaten: So lautet die Antwort der kanadischen Regierung auf die neuen US-Zölle. Der Konflikt zwischen den Nachbarstaaten spitzt sich zu.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft"
-   ],
-   "anzahl": 5,
-   "links": [
-    "https://www.tagesschau.de/ausland/amerika/kanada-zoelle-100.html",
-    "https://www.spiegel.de/wirtschaft/kanada-verhaengt-vergeltungszoelle-gegen-usa-von-bis-zu-50-prozent-a-c10a04d1-6db8-49e2-a584-8b3c59d01fb1#ref=rss",
-    "https://www.spiegel.de/wirtschaft/usa-und-kanada-kann-premier-mark-carney-den-handelskrieg-mit-den-usa-gewinnen-a-9a3375f4-f75b-46cd-9644-e1ac6ab7fff9#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/mark-carney-im-handelskrieg-kanadas-haerte-gegen-trump-201158966.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/zollstreit-zwischen-kanada-und-usa-neue-zoelle-von-donald-trump-accg-201156030.html"
-   ],
-   "punkte": 16,
-   "text": "Gegenzölle von bis zu 50 Prozent auf bestimmte Importe aus den Vereinigten Staaten: So lautet die Antwort der kanadischen Regierung auf die neuen US-Zölle. Der Konflikt zwischen den Nachbarstaaten spitzt sich zu.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "291cc807",
-   "titel": "Deutschlands Exporteure fassen Mut",
-   "anriss": "In der Exportwirtschaft herrscht so viel Optimismus wie seit Jahren nicht mehr. Besonders der KI-Boom und ein starkes Europageschäft haben zu dem Stimmungsumschwung geführt, wie Umfragen des ifo-Instituts zeigen.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/konjunktur/exporte-zuversicht-eu-100.html",
-    "https://www.tagesschau.de/wirtschaft/konjunktur/bip-q2-2026-100.html",
-    "https://www.spiegel.de/wirtschaft/exportwirtschaft-stimmung-laut-ifo-so-gut-wie-zuletzt-anfang-2022-a-04c0cc69-9f9c-4623-b1b3-1948606c42af#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/ifo-geschaeftsklima-deutschland-auf-kurs-zu-mehr-wachstum-accg-201157288.html"
+    "https://www.tagesschau.de/wirtschaft/digitales/usa-meta-vergleich-jugendschutz-100.html",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/meta-vergleich-die-geduld-mit-big-tech-schwindet-201164573.html",
+    "https://www.heise.de/news/Riegel-vor-Instagram-Metas-Milliarden-Vergleich-erzwingt-harte-Zugangssperren-11432281.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "https://www.heise.de/news/Umfrage-der-TK-Haelfte-der-Teenager-fuer-Social-Media-Altersgrenzen-11431405.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
    "punkte": 14,
-   "text": "In der Exportwirtschaft herrscht so viel Optimismus wie seit Jahren nicht mehr. Besonders der KI-Boom und ein starkes Europageschäft haben zu dem Stimmungsumschwung geführt, wie Umfragen des ifo-Instituts zeigen.",
-   "positiv": [],
-   "negativ": []
+   "text": "Meta hat in den USA einem Vergleich zugestimmt, der strengere Jugendschutz‑Maßnahmen auf seiner Plattform vorsieht. Das Unternehmen fordert, dass vergleichbare Vorgaben auch für YouTube (Alphabet) und TikTok (ByteDance) gelten, was regulatorischen Druck auf die gesamte Social‑Media‑Branche erhöht.",
+   "positiv": [
+    "Meta (MSFT)",
+    "Compliance‑Technologie‑Anbieter"
+   ],
+   "negativ": [
+    "Alphabet (GOOGL)",
+    "ByteDance (privat)",
+    "Social‑Media‑Branche allgemein"
+   ]
   },
   {
-   "id": "a780ff2b",
-   "titel": "Dax aktuell: Dax kaum bewegt – SAP ist der größte Verlierer",
-   "anriss": "Nvidia-Zahlen, Jackson Hole und Inflationsdaten: Am deutschen Aktienmarkt warten Anleger derzeit auf Impulse. Allerdings bleibt ein aktueller Trend intakt.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen"
-   ],
-   "anzahl": 2,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-kaum-bewegt-sap-ist-der-groesste-verlierer/100249757.html",
-    "https://www.handelsblatt.com/finanzen/geldpolitik/jackson-hole-fed-chef-warsh-steht-inwyoming-vor-einer-bewaehrungsprobe/100249153.html"
-   ],
-   "punkte": 12,
-   "text": "Nvidia-Zahlen, Jackson Hole und Inflationsdaten: Am deutschen Aktienmarkt warten Anleger derzeit auf Impulse. Allerdings bleibt ein aktueller Trend intakt.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "b5c2db37",
-   "titel": "Kryptomarkt: Revolut legt Euro-Stablecoins auf",
-   "anriss": "Mit dem Stablecoin EURR will die britische Digitalbank Revolut digitale Zahlungen vereinfachen. Zunächst ist der Token für Kunden in drei europäischen Ländern verfügbar.",
+   "id": "aed6e36c",
+   "titel": "Technologie: Mit KI gegen Preisschocks: Unternehmen testen neue Prognosemodelle für Rohstoffe",
+   "anriss": "Rohstoffpreise werden zunehmend schwankungsanfällig – und für Einkäufer zum Kostenrisiko. Deshalb setzen immer mehr Unternehmen auf Künstliche Intelligenz. Aber wie treffsicher ist diese?",
    "region": "dach",
    "quellen": [
     "Handelsblatt Finanzen",
+    "SPIEGEL Wirtschaft",
     "heise"
    ],
    "anzahl": 3,
    "links": [
-    "https://www.handelsblatt.com/finanzen/geldpolitik/kryptomarkt-revolut-legt-euro-stablecoins-auf/100249878.html",
-    "https://www.handelsblatt.com/finanzen/geldpolitik/digitalwaehrung-bundesbank-vorstand-fuer-integration-des-digitalen-euro-in-wero/100249782.html",
-    "https://www.heise.de/news/Bundesbank-Wero-und-digitalen-Euro-verzahnen-11426362.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+    "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/rohstoffe-unternehmen-testen-ki-prognosemodelle-fuer-rohstoffe/100248818.html",
+    "https://www.spiegel.de/wirtschaft/deutsche-industrie-us-kaeufer-uebernehmen-immer-mehr-unternehmen-a-68d4cdf8-fdeb-4e88-b5e6-cceb48c89d43#ref=rss",
+    "https://www.heise.de/news/iX-Workshop-Sicherer-Betrieb-von-Windows-11-im-Unternehmen-11415586.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 13,
+   "text": "Unternehmen setzen vermehrt Künstliche Intelligenz ein, um kurzfristige Rohstoffpreisschocks zu prognostizieren und Beschaffungsrisiken zu reduzieren. Die Wirksamkeit der Modelle ist noch nicht eindeutig belegt, sodass die Auswirkungen auf Rohstoffproduzenten und -händler unsicher bleiben.",
+   "positiv": [
+    "KI‑Software‑ und Cloud‑Anbieter (z. B. Microsoft, NVIDIA)"
+   ],
+   "negativ": [
+    "Rohstoffproduzenten (z. B. BHP, Rio Tinto)",
+    "Traditionelle Rohstoff‑Händler"
+   ]
+  },
+  {
+   "id": "cf831d8c",
+   "titel": "Wirtschaft vor acht vom 27.08.2026",
+   "anriss": "Wirtschaft vor acht vom 27.08.2026",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "Tagesschau Wirtschaft"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.tagesschau.de/video/video-1638498.html",
+    "https://www.tagesschau.de/multimedia/sendung/tagesschau24/boerselive/video-1638130.html",
+    "https://www.tagesschau.de/wirtschaft/weltwirtschaft/iran-krieg-alltag-folgen-100.html",
+    "https://www.faz.net/aktuell/wirtschaft/hanks-welt/macht-hitze-arm-das-haengt-von-der-reaktion-ab-201146514.html"
    ],
    "punkte": 12,
-   "text": "Mit dem Stablecoin EURR will die britische Digitalbank Revolut digitale Zahlungen vereinfachen. Zunächst ist der Token für Kunden in drei europäischen Ländern verfügbar.",
+   "text": "Der Beitrag \"Wirtschaft vor acht\" vom 27.08.2026 enthält keine konkreten inhaltlichen Angaben, die eine Bewertung von Anlagen oder Branchen ermöglichen würden. Die Faktenlage ist zu dünn, um fundierte Einschätzungen zu geben.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "497dd1af",
+   "titel": "Interview mit Robin Brooks: „Der Markt wird das Finanzministerium testen“",
+   "anriss": "Der Währungsexperte der Brookings Institution über den Machtkampf zwischen dem US-Finanzministerium und den Anleihemärkten und warum sich Politiker von Mario Draghi inspirieren lassen sollten.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "Handelsblatt Finanzen"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/schulden-der-markt-wird-das-finanzministerium-testen/100249741.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/anleihen/usa-wie-amerikas-schuldenexperiment-investoren-aufschreckt/100249301.html",
+    "https://www.faz.net/aktuell/wirtschaft/zuckersteuer-klingbeil-stoppt-plaene-fuer-zero-getraenke-201159955.html"
+   ],
+   "punkte": 12,
+   "text": "Im Interview erklärt Robin Brooks, dass das US‑Finanzministerium zunehmend in Konflikt mit den Anleihemärkten gerät, weil es die Zinsentwicklung aktiv steuern will. Diese Spannungen könnten die Renditen von US‑Staatsanleihen nach oben treiben und sichere Häfen wie Gold begünstigen.",
+   "positiv": [
+    "Gold (XAU)",
+    "Defensiv‑Aktien (z. B. Utilities)"
+   ],
+   "negativ": [
+    "US‑Staatsanleihen (TLT)",
+    "Zins‑sensible Aktien (z. B. Immobilien)"
+   ]
+  },
+  {
+   "id": "0536c693",
+   "titel": "Rostock: Schwarz-Gruppe baut riesiges Rechenzentrum",
+   "anriss": "Die für ihre Ketten Lidl und Kaufland bekannte Schwarz-Gruppe will 5,6 Milliarden Euro in den Bau eines Rechenzentrums bei Rostock stecken. Gibt das Ministerpräsidentin Schwesig vor der Landtagswahl Rückenwind?",
+   "region": "dach",
+   "quellen": [
+    "SPIEGEL Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 2,
+   "links": [
+    "https://www.spiegel.de/wirtschaft/unternehmen/schwarz-gruppe-baut-riesiges-rechenzentrum-bei-rostock-a-2ebdb5bb-33e6-4f2a-ab51-acffad5cb5c9#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/schwarz-gruppe-konzern-baut-riesiges-rechenzentrum-bei-rostock-a-0b6f55b6-7efc-4c13-a7df-271f7abe7eef#ref=rss"
+   ],
+   "punkte": 12,
+   "text": "Die für ihre Ketten Lidl und Kaufland bekannte Schwarz-Gruppe will 5,6 Milliarden Euro in den Bau eines Rechenzentrums bei Rostock stecken. Gibt das Ministerpräsidentin Schwesig vor der Landtagswahl Rückenwind?",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "85eaab7f",
+   "titel": "VW-Aufsichtsrat Olaf Lies: »Massenhafte Entlassungen können nicht die Lösung sein«",
+   "anriss": "Die Fronten zwischen Vorstand und Beschäftigten bei Volkswagen sind verhärtet. Niedersachsens Ministerpräsident und VW-Aufsichtsrat Olaf Lies verlangt von der Führung ein »tragfähiges Zukunftskonzept«.",
+   "region": "dach",
+   "quellen": [
+    "SPIEGEL Wirtschaft",
+    "heise",
+    "manager magazin"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.spiegel.de/wirtschaft/vw-aufsichtsrat-olaf-lies-massenhafte-entlassungen-koennen-nicht-die-loesung-sein-a-899ae761-3f2e-49db-829c-1eee982c74a8#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/mobilitaet/volkswagen-niedersachsen-prueft-einstieg-im-werk-osnabrueck-a-1e983f14-4195-4566-ac8f-e430707cabc4#ref=rss",
+    "https://www.heise.de/news/Niedersachsen-prueft-Einstieg-bei-VW-Osnabrueck-11431589.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 12,
+   "text": "Die Fronten zwischen Vorstand und Beschäftigten bei Volkswagen sind verhärtet. Niedersachsens Ministerpräsident und VW-Aufsichtsrat Olaf Lies verlangt von der Führung ein »tragfähiges Zukunftskonzept«.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "01e819c3",
+   "titel": "Nvidia verdoppelt innerhalb eines Jahres Umsatz und Gewinn",
+   "anriss": "Der US-Chiphersteller Nvidia jagt weiter Rekorde: Für das vergangene Quartal meldet das Unternehmen einen Umsatz von 96 Milliarden US-Dollar. Das ist mehr als doppelt so viel wie im gleichen Zeitraum vor einem Jahr.",
+   "region": "dach",
+   "quellen": [
+    "SPIEGEL Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.spiegel.de/wirtschaft/nvidia-verdoppelt-innerhalb-eines-jahres-umsatz-und-gewinn-a-c33ff1ce-d12c-4c24-befb-b3f48e7798fd#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/tech/nvidia-zahlen-jensen-huang-stellt-quartalszahlen-von-ki-chiphersteller-vor-finanzierungsdeals-in-der-kritik-a-6f148834-fd9a-4496-8c05-09836ab9e495#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/tech/nvidia-chiphersteller-plant-12-9-milliarden-uebernahme-von-hugging-face-a-420a5a29-e3e2-4923-9fad-886ff7c1c7cc#ref=rss"
+   ],
+   "punkte": 10,
+   "text": "Der US-Chiphersteller Nvidia jagt weiter Rekorde: Für das vergangene Quartal meldet das Unternehmen einen Umsatz von 96 Milliarden US-Dollar. Das ist mehr als doppelt so viel wie im gleichen Zeitraum vor einem Jahr.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "54e1c335",
+   "titel": "Salesforce: Aktie steigt nach Anhebung der Jahresziele dank KI-Boom",
+   "anriss": "KI sorgt bei Salesforce weiter für Rückenwind: Der US-Softwarekonzern erhöht nach einem starken Quartal seine Jahresprognose und setzt auf wachsende Nachfrage nach seinen neuen KI-Angeboten.",
+   "region": "dach",
+   "quellen": [
+    "heise",
+    "manager magazin"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.manager-magazin.de/unternehmen/tech/salesforce-aktie-steigt-nach-anhebung-der-jahresziele-dank-ki-boom-a-64f86958-425d-4a90-96c2-4b33815b348e#ref=rss",
+    "https://www.heise.de/news/Salesforce-Claude-wird-zur-neuen-CRM-Oberflaeche-11431870.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "https://www.heise.de/news/Anthropic-spendiert-seiner-KI-Claude-einen-eigenen-Browser-11431667.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 10,
+   "text": "KI sorgt bei Salesforce weiter für Rückenwind: Der US-Softwarekonzern erhöht nach einem starken Quartal seine Jahresprognose und setzt auf wachsende Nachfrage nach seinen neuen KI-Angeboten.",
    "positiv": [],
    "negativ": []
   }
  ],
- "ketten": [
-  {
-   "ausloeser": "SpaceX eröffnet im zweiten Quartal 2027 einen neuen Raketen‑Startplatz in Louisiana",
-   "direkt": "Produktionsvolumen von Raketenteilen in den USA steigt, insbesondere für Aluminium‑ und Titan‑Legierungen sowie Hochleistungselektronik",
-   "zweite": "Nachfrage nach diesen Rohstoffen und Vorprodukten in Europa steigt, weil SpaceX Teile von europäischen Lieferanten (z. B. Airbus Defence, Safran, Thyssenkrupp) bezieht, um Lieferketten zu diversifizieren",
-   "dritte": "Aktien von europäischen Luft‑ und Raumfahrtunternehmen (Airbus, Safran, MTU Aero Engines) erleben Kursdruck durch Konkurrenz, während Rohstoff‑ETFs auf Aluminium (e.g. LME‑Aluminium‑ETF) und Titan (z. B. iShares MSCI Global Metals & Mining) Kursgewinne verzeichnen; gleichzeitig stärkt der US‑Dollar gegenüber dem Euro durch erhöhte Exporterlöse",
-   "positiv": [
-    "Aluminium‑ETFs (z. B. LME‑Aluminium‑ETF)",
-    "Titan‑ETFs (z. B. iShares MSCI Global Metals & Mining)",
-    "US‑Dollar‑Index"
-   ],
-   "negativ": [
-    "Airbus SE",
-    "Safran SA",
-    "MTU Aero Engines AG",
-    "Euro‑Stoxx‑50"
-   ],
-   "konfidenz": "mittel"
-  },
-  {
-   "ausloeser": "Kanada kündigt im August 2027 Vergeltungszölle von bis zu 50 % auf US‑Industriegüter an",
-   "direkt": "US‑Exportvolumen nach Kanada fällt um geschätzte 20 % im ersten Halbjahr, insbesondere bei Automobil‑ und Maschinenbau‑Komponenten",
-   "zweite": "US‑Hersteller verlagern Produktionskapazitäten in die EU, um den kanadischen Markt über Drittstaaten zu bedienen; dadurch steigen die Importe von US‑Industriegütern nach Deutschland, Frankreich und den Niederlanden",
-   "dritte": "Deutsche und französische Industrie‑Aktien (z. B. Volkswagen, Siemens, Schneider Electric) profitieren von höheren Auftragsvolumina, während US‑Industrie‑ETFs (z. B. Industrial Select Sector SPDR) unter Druck geraten; gleichzeitig steigt die Volatilität im CAD/EUR‑Wechselkurs, was europäische Export‑ und Import‑Kredite belastet",
-   "positiv": [
-    "Volkswagen AG",
-    "Siemens AG",
-    "Schneider Electric SE",
-    "Euro‑Stoxx‑50‑Industrie‑Subindex"
-   ],
-   "negativ": [
-    "Industrial Select Sector SPDR Fund (XLI)",
-    "US‑Industrie‑Aktien (z. B. Caterpillar, General Electric)",
-    "CAD/EUR‑Wechselkurs (Abwertung des CAD)"
-   ],
-   "konfidenz": "hoch"
-  }
- ],
- "gegenthese": {
-  "konsens": "VW in tiefer Krise, Erbschaftsteuer hoch, Meta‑Vergleich reduziert US‑Risiko, SpaceX‑Louisiana positiv, Kanadas Zölle belasten Handel, Exporteure optimistisch, DAX seitwärts, SAP schwach, Revolut führt Euro‑Stablecoin ein.",
-  "gegen": "Gegenargument: VW‑Krise könnte durch neue Elektro‑Strategie schneller enden; Erbschaftsteuer wirkt kaum auf Konsum; Meta‑Vergleich löst nicht alle Rechtsrisiken; SpaceX‑Standort birgt politische Risiken; Kanadas Zölle könnten im Dialog fallen; DAX‑Stagnation ist kurzfristig; SAP‑Verlust ist zyklisch; Stablecoins stehen vor strenger Regulierung."
- },
+ "ketten": [],
+ "gegenthese": null,
  "matrix": [
   {
    "ticker": "SU.PA",
@@ -434,11 +383,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "128.6 Mrd"
+     "127.8 Mrd"
     ],
     [
      "KGV (erw.)",
-     "24,4"
+     "24,3"
     ],
     [
      "Umsatzwachstum",
@@ -456,7 +405,7 @@
     ],
     [
      "Newsletter",
-     "in 2 Clustern"
+     "in 4 Clustern"
     ],
     [
      "Reddit",
@@ -471,9 +420,13 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "Die Aktie profitiert von starkem Umsatzwachstum von +18 % und einem moderaten KGV von 24,3, was im Branchenvergleich attraktiv erscheint. Analysten bewerten das Unternehmen überwiegend positiv (19 Buy, 4 Hold, 2 Sell). Das Kursziel von 197 € impliziert weiteres Aufwärtspotenzial.",
+   "dagegen": "Trotz Wachstum bleibt das KGV relativ hoch, was auf eine mögliche Überbewertung hindeuten könnte. Fehlende Insider‑Informationen und keine Short‑Positionen deuten auf Unsicherheit hin. Der Anteil der Verkaufsmeinungen (2 Verkauf) widerspricht dem überwiegenden Kauf‑Consensus.",
+   "katalysatoren": [
+    "Auslieferung der nächsten Generation von Gasturbinen im zweiten Quartal",
+    "Steigerung der Offshore‑Windaufträge bei Siemens Gamesa im Jahresende",
+    "Einführung neuer digitaler Service‑Plattformen für industrielle Kunden"
+   ]
   },
   "RHM.DE": {
    "ticker": "RHM.DE",
@@ -483,11 +436,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "53.1 Mrd"
+     "54.8 Mrd"
     ],
     [
      "KGV (erw.)",
-     "21,3"
+     "21,9"
     ],
     [
      "Umsatzwachstum",
@@ -532,11 +485,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "575.2 Mrd"
+     "570.9 Mrd"
     ],
     [
      "KGV (erw.)",
-     "29,0"
+     "28,8"
     ],
     [
      "Umsatzwachstum",
@@ -581,11 +534,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "168.2 Mrd"
+     "167.2 Mrd"
     ],
     [
      "KGV (erw.)",
-     "24,8"
+     "24,7"
     ],
     [
      "Umsatzwachstum",
@@ -603,7 +556,7 @@
     ],
     [
      "Newsletter",
-     "in 19 Clustern"
+     "in 16 Clustern"
     ],
     [
      "Reddit",
@@ -630,11 +583,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "251.0 Mrd"
+     "254.0 Mrd"
     ],
     [
      "KGV (erw.)",
-     "37,5"
+     "37,9"
     ],
     [
      "Umsatzwachstum",
@@ -652,7 +605,7 @@
     ],
     [
      "Newsletter",
-     "in 1 Clustern"
+     "nicht erwaehnt"
     ],
     [
      "Reddit",
@@ -679,11 +632,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "46.8 Mrd"
+     "46.3 Mrd"
     ],
     [
      "KGV (erw.)",
-     "57,0"
+     "56,6"
     ],
     [
      "Umsatzwachstum",
@@ -758,7 +711,7 @@
     ],
     [
      "Insider",
-     "0 Kaeufe / 8 Verkaeufe"
+     "0 Kaeufe / 9 Verkaeufe"
     ],
     [
      "Shorts",
@@ -777,11 +730,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "5.080.7 Mrd"
+     "5.505.0 Mrd"
     ],
     [
      "KGV (erw.)",
-     "16,0"
+     "15,7"
     ],
     [
      "Umsatzwachstum",
@@ -789,13 +742,13 @@
     ],
     [
      "Kursziel",
-     "305 USD"
+     "306 USD"
     ]
    ],
    "quellen": [
     [
      "Analysten",
-     "59 Kauf / 2 Halten / 1 Verkauf"
+     "58 Kauf / 2 Halten / 1 Verkauf"
     ],
     [
      "Newsletter",
@@ -822,36 +775,54 @@
  "shorts": [
   {
    "land": "NL",
-   "halter": "Caisse de dépôt et placement du Québec",
-   "emittent": "IMCD N.V.",
-   "prozent": 0.69,
+   "halter": "Citadel Advisors LLC",
+   "emittent": "Pharming Group N.V.",
+   "prozent": 0.97,
    "datum": "",
    "status": "neu",
    "zuvor": null
   },
   {
    "land": "NL",
-   "halter": "Syquant Capital",
-   "emittent": "Basic-Fit N.V.",
-   "prozent": 0.57,
+   "halter": "JPMorgan Asset Management (UK) Ltd.",
+   "emittent": "Sligro Food Group N.V.",
+   "prozent": 0.83,
    "datum": "",
    "status": "neu",
    "zuvor": null
   },
   {
    "land": "NL",
-   "halter": "Point72 Asset Management, L.P.",
+   "halter": "BlackRock Financial Management, Inc.",
+   "emittent": "Akzo Nobel N.V.",
+   "prozent": 0.59,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "AQR Capital Management, LLC",
    "emittent": "BE Semiconductor Industries N.V.",
-   "prozent": 0.54,
+   "prozent": 0.52,
    "datum": "",
    "status": "neu",
    "zuvor": null
   },
   {
    "land": "NL",
-   "halter": "Citadel Securities (Europe) Limited",
-   "emittent": "NSI N.V.",
-   "prozent": 0.51,
+   "halter": "Capital Fund Management S.A.",
+   "emittent": "DSM-Firmenich AG",
+   "prozent": 0.5,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "Two Sigma Investments, LP",
+   "emittent": "AMG Critical Materials N.V.",
+   "prozent": 0.5,
    "datum": "",
    "status": "neu",
    "zuvor": null
@@ -1071,80 +1042,22 @@
    "datum": "2019-06-13",
    "status": "aufgestockt",
    "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 14.29,
-   "datum": "2019-06-12",
-   "status": "aufgestockt",
-   "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 14.08,
-   "datum": "2019-06-11",
-   "status": "aufgestockt",
-   "zuvor": 0.53
   }
  ],
  "shorts_kennzahlen": {
-  "neu_diese_woche": 4,
+  "neu_diese_woche": 6,
   "meistgeshortet": {
    "name": "Premier Oil PLC",
    "summe": 2145.63
   },
   "aktivster_halter": {
    "name": "Marshall Wace LLP",
-   "anzahl": 14040
+   "anzahl": 14038
   },
   "gesamt": 107395
  },
  "gespraech": [],
  "termine": [
-  {
-   "datum": "2026-08-26",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-08-26",
-   "zeit": "",
-   "region": "us",
-   "was": "Gross Domestic Product",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-08-26",
-   "zeit": "",
-   "region": "us",
-   "was": "Personal Income and Outlays",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-08-26",
-   "zeit": "",
-   "region": "us",
-   "was": "Debt to Gross Domestic Product Ratios",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-08-27",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
   {
    "datum": "2026-08-28",
    "zeit": "",
@@ -1200,8 +1113,48 @@
    "was": "FOMC Press Release",
    "konsens": "",
    "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-03",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-04",
+   "zeit": "",
+   "region": "us",
+   "was": "Employment Situation",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-04",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-05",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-06",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 178,
- "llm_aktiv": true
+ "meldungen_gesamt": 145,
+ "llm_aktiv": false
 }
