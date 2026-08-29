@@ -1,9 +1,9 @@
 {
- "stand": "2026-08-29T16:02",
- "lauf": "2026082916",
+ "stand": "2026-08-29T19:02",
+ "lauf": "2026082919",
  "synthese": {
-  "kern": "Markt fokussiert Zinserwartungen, übersieht wachsende geopolitische und sektorale Risiken bei gleichzeitig hohem Risikoappetit.",
-  "erlaeuterung": "Die Geldpolitik bleibt im Zentrum, während geopolitische Entwicklungen wie der Iran‑Konflikt und der venezolanische Öl‑Deal neue Unsicherheiten schaffen. Gleichzeitig erhöhen steigende Inflationsdrucke in Europa und US‑Arbeitsmarkt‑Resilienz das Risiko einer erneuten Finanz‑Repression, das vom Markt kaum beachtet wird."
+  "kern": "Markt vernachlässigt steigende geopolitische Spannungen und drohende Zinserhöhungen trotz hoher Risikoappetitswerte.",
+  "erlaeuterung": "Die Meldungen verbinden Geldpolitik, geopolitische Konflikte und Rohstoffansprüche, was auf eine bevorstehende Verschärfung der Rahmenbedingungen hindeutet. Der Markt fokussiert sich auf kurzfristige Liquiditäts- und Wachstumsdaten, übersieht jedoch das kumulative Risiko aus Inflation, Zinserhöhungen und geopolitischer Unsicherheit."
  },
  "regime": [
   {
@@ -36,12 +36,12 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 56,
-     "delta": 1
+     "wert": 55,
+     "delta": -1
     },
     "eur": {
-     "wert": 75,
-     "delta": -3
+     "wert": 74,
+     "delta": -4
     }
    },
    "differenz": 19
@@ -76,8 +76,8 @@
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 94,
-     "delta": 1
+     "wert": 92,
+     "delta": -3
     }
    }
   }
@@ -103,14 +103,14 @@
     "https://www.spiegel.de/wirtschaft/kevin-warsh-neuer-us-notenbankchef-signalisiert-bereitschaft-zu-zinserhoehung-a-8a9b09ea-6211-4dd3-98e0-cda5319ba1b9#ref=rss"
    ],
    "punkte": 33,
-   "text": "Fed‑Vorsitzender Warsh signalisierte beim Jackson‑Hole‑Treffen eine mögliche Zinserhöhung und rückte die Geldmenge wieder stärker in den Fokus. Damit steigt das Risiko für steigende US‑Zinsen und einen stärkeren US‑Dollar.",
+   "text": "Fed‑Vorsitzender Warsh signalisierte beim Jackson‑Hole‑Treffen, dass die Geldmenge wieder stärker in den Fokus der Geldpolitik rückt und er offen für eine weitere Zinserhöhung ist. Damit könnte die US‑Zinskurve weiter ansteigen und der US‑Dollar gegenüber anderen Währungen an Stärke gewinnen.",
    "positiv": [
-    "US‑Dollar",
-    "Kurzfristige US‑Staatsanleihen"
+    "US‑Dollar (Stärkung)",
+    "Kurzfristige Geldmarkt‑Instrumente (Nachfrage)"
    ],
    "negativ": [
-    "US‑Aktien (zinsabhängige Sektoren)",
-    "Langfristige US‑Anleihen"
+    "US‑Staatsanleihen (Kursverlust)",
+    "Aktien‑Markt (Druck)"
    ]
   },
   {
@@ -132,13 +132,15 @@
     "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/keine-besserung-in-sicht-zahl-der-arbeitslosen-steigt-im-august-auf-3-061-millionen-accg-201167458.html"
    ],
    "punkte": 16,
-   "text": "Trotz anhaltender Konjunkturflaute gibt es in einigen Branchen weiterhin Beschäftigung, während struktureller Wandel in der Industrie Arbeitsplätze kostet. Die Verlagerung begünstigt wachsende Sektoren wie erneuerbare Energien und digitale Dienstleistungen, während traditionelle Fertigung und Kohle rückläufig sind.",
+   "text": "Trotz anhaltender Konjunkturflaute gibt es in Deutschland weiterhin Beschäftigung in Gesundheits‑ und IT‑Dienstleistungen sowie im Bereich erneuerbarer Energien, während traditionelle Industrie‑ und Kohlebranchen Stellen abbauen. Der strukturelle Wandel reduziert Arbeitsplätze in der Fertigung, schafft aber neue Möglichkeiten in zukunftsorientierten Sektoren.",
    "positiv": [
-    "Erneuerbare‑Energien‑Unternehmen",
-    "IT‑Dienstleister"
+    "Gesundheitswesen (Beschäftigungszuwachs)",
+    "IT‑Dienstleistungen (Beschäftigungszuwachs)",
+    "Erneuerbare Energien (Beschäftigungszuwachs)"
    ],
    "negativ": [
-    "Traditionelle Industrie‑ und Kohleunternehmen"
+    "Traditionelle Industrie (Stellenabbau)",
+    "Kohlebergbau (Stellenabbau)"
    ]
   },
   {
@@ -158,9 +160,15 @@
     "https://www.manager-magazin.de/politik/weltwirtschaft/venezuela-usa-sichern-sich-riesige-oelvorkommen-im-krisenstaat-a-94c865b7-d927-494d-81be-2365c7e37625#ref=rss"
    ],
    "punkte": 13,
-   "text": "Ein von Präsident Trump angekündigter Deal soll den USA Zugang zu 65 Mrd. Barrel venezolanischem Öl verschaffen, nachdem US‑Spezialkräfte Maduro festgenommen hatten. Die Meldung ist spekulativ und lässt keine klaren Auswirkungen auf Ölpreise oder Unternehmen erkennen.",
-   "positiv": [],
-   "negativ": []
+   "text": "Ein von Präsident Trump angekündigter Deal sieht vor, dass die USA bis zu 65 Mrd. Barrel venezolanisches Öl beziehen, nachdem US‑Spezialkräfte den ehemaligen Präsidenten Maduro festgenommen haben. Der potenzielle Import erhöht das Angebot für US‑Raffinerien, birgt jedoch geopolitische Risiken und könnte den Weltölpreis belasten.",
+   "positiv": [
+    "US‑Raffinerien (Zulauf)",
+    "Venezolanische Ölproduktion (Umsatz)"
+   ],
+   "negativ": [
+    "Weltweiter Rohölpreis (Druck)",
+    "Unternehmen mit starkem Engagement in Sanktionen (Risiko)"
+   ]
   },
   {
    "id": "063ccb53",
@@ -177,56 +185,15 @@
     "https://www.spiegel.de/wirtschaft/shein-co-frankreich-erhebt-sondergebuehr-fuer-wegwerfmode-a-241ae085-030d-43b3-a7d5-0c4e9bc48890#ref=rss"
    ],
    "punkte": 13,
-   "text": "Die jüngste Beschleunigung der Inflation in Frankreich und Spanien erhöht den Druck auf die EZB, im September die Leitzinsen zu erhöhen. Erwartete Zinserhöhungen belasten den Euro und zinssensible europäische Aktien, während Banken von höheren Margen profitieren könnten.",
+   "text": "Die Inflation in Frankreich und Spanien ist im August deutlich gestiegen, was den Druck auf die Europäische Zentralbank erhöht, im September erneut die Leitzinsen anzuheben. Eine weitere Zinserhöhung dürfte den Euro schwächen, die Renditen europäischer Staatsanleihen erhöhen und die Margen europäischer Banken verbessern.",
    "positiv": [
-    "Europäische Banken"
+    "Europäische Banken (Nettokreditmargen)",
+    "Kurzfristige Euro‑Staatsanleihen (Rendite)"
    ],
    "negativ": [
-    "Euro",
-    "Zinssensible europäische Aktien (z. B. Immobilien, Konsumgüter)"
+    "Euro (Kurs)",
+    "Euro‑Zone‑Aktien (Bewertung)"
    ]
-  },
-  {
-   "id": "b1206bc6",
-   "titel": "Wie Unternehmen ihre Mitarbeiter vor Hitze am Arbeitsplatz schützen",
-   "anriss": "Hitze ist ein Wirtschaftsfaktor - auch weil die Produktivität sinkt, wenn die Temperaturen über das erträgliche Maß steigen. Was Unternehmen tun können, um ihre Beschäftigten zu schützen. Von Max Kell.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/verbraucher/hitzeschutz-bei-der-arbeit-100.html",
-    "https://www.faz.net/aktuell/wirtschaft/wahl-in-sachsen-anhalt-ist-die-afd-eine-alternative-fuer-die-wirtschaft-accg-201152410.html",
-    "https://www.manager-magazin.de/politik/weltwirtschaft/usa-wirtschaft-unternehmensgewinne-steigen-anteil-der-arbeiter-sinkt-a-d20a4f15-04af-4bd9-804a-fc4dc7847b51#ref=rss"
-   ],
-   "punkte": 12,
-   "text": "Hitze ist ein Wirtschaftsfaktor - auch weil die Produktivität sinkt, wenn die Temperaturen über das erträgliche Maß steigen. Was Unternehmen tun können, um ihre Beschäftigten zu schützen. Von Max Kell.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "be875133",
-   "titel": "Debian votes to allow \"responsible use of generative AI\"",
-   "anriss": "Article URL: https://lwn.net/Articles/1091231/ Comments URL: https://news.ycombinator.com/item?id=49489982 Points: 200 # Comments: 138",
-   "region": "global",
-   "quellen": [
-    "Hacker News Top"
-   ],
-   "anzahl": 10,
-   "links": [
-    "https://lwn.net/Articles/1091231/",
-    "https://www.bbc.com/news/articles/cn45vdxyvvlo",
-    "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
-    "https://pwning.systems/posts/llm-memory-program-analysis/",
-    "https://github.com/Lakr233/vphone-cli"
-   ],
-   "punkte": 12,
-   "text": "Article URL: https://lwn.net/Articles/1091231/ Comments URL: https://news.ycombinator.com/item?id=49489982 Points: 200 # Comments: 138",
-   "positiv": [],
-   "negativ": []
   },
   {
    "id": "7f55f237",
@@ -249,27 +216,107 @@
    "negativ": []
   },
   {
-   "id": "fbb85e83",
-   "titel": "Richterin hebt Sanktion gegen KI-Konzern Anthropic auf",
-   "anriss": "Anthropic-CEO Dario Amodei hat im Streit mit dem US-Verteidigungsministerium einen Etappensieg errungen. Ein Gericht hat verfügt, dass die Einstufung der KI-Firma als „Lieferkettenrisiko“ durch das Pentagon unrechtmäßig war.",
+   "id": "c9cdd61c",
+   "titel": "Künstliche Intelligenz: Einzigartiger Pakt: Singapurs Banken versprechen KI-Umbau ohne Massenentlassungen",
+   "anriss": "Die Finanzmetropole sieht sich als einer der globalen KI‑Vorreiter. Die Politik sorgt sich vor Jobverlusten. Staat, Banken und Gewerkschaft sollen das gemeinsam verhindern.",
    "region": "dach",
    "quellen": [
-    "heise",
-    "manager magazin"
+    "Handelsblatt Finanzen",
+    "heise"
    ],
-   "anzahl": 3,
+   "anzahl": 2,
    "links": [
-    "https://www.manager-magazin.de/unternehmen/tech/us-gericht-stoppt-sperrung-von-ki-firma-anthropic-durch-pentagon-a-d1b24980-32b6-499e-98f5-7d0ad5d8851c#ref=rss",
-    "https://www.heise.de/news/Gerichtsurteil-Anthropic-muss-runter-von-der-schwarzen-Liste-des-Pentagons-11434421.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-    "https://www.heise.de/news/KI-Update-kompakt-Starmind-Anthropic-vs-Pentagon-Ox-Alpha-Spider-Man-11432862.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+    "https://www.handelsblatt.com/finanzen/ki-singapurs-banken-versprechen-ki-umbau-ohne-massenentlassungen/100250302.html",
+    "https://www.heise.de/news/Massiver-Umbau-gekippt-Meta-wollte-KI-nativ-werden-und-scheiterte-11434074.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
-   "punkte": 10,
-   "text": "Anthropic-CEO Dario Amodei hat im Streit mit dem US-Verteidigungsministerium einen Etappensieg errungen. Ein Gericht hat verfügt, dass die Einstufung der KI-Firma als „Lieferkettenrisiko“ durch das Pentagon unrechtmäßig ",
+   "punkte": 9,
+   "text": "Die Finanzmetropole sieht sich als einer der globalen KI‑Vorreiter. Die Politik sorgt sich vor Jobverlusten. Staat, Banken und Gewerkschaft sollen das gemeinsam verhindern.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "be875133",
+   "titel": "Debian votes to allow \"responsible use of generative AI\"",
+   "anriss": "Article URL: https://lwn.net/Articles/1091231/ Comments URL: https://news.ycombinator.com/item?id=49489982 Points: 431 # Comments: 360",
+   "region": "global",
+   "quellen": [
+    "Hacker News Top"
+   ],
+   "anzahl": 7,
+   "links": [
+    "https://lwn.net/Articles/1091231/",
+    "https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing",
+    "https://pwning.systems/posts/llm-memory-program-analysis/",
+    "https://github.com/Lakr233/vphone-cli",
+    "https://anil.recoil.org/notes/rumour-is-the-exploit"
+   ],
+   "punkte": 9,
+   "text": "Article URL: https://lwn.net/Articles/1091231/ Comments URL: https://news.ycombinator.com/item?id=49489982 Points: 431 # Comments: 360",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "493ea3de",
+   "titel": "Amerikaner besorgt wegen wirtschaftlicher Folgen des Iran-Kriegs",
+   "anriss": "Was als kurzer Feldzug geplant war, entwickelt sich zum Desaster für US-Präsident Trump. Die Amerikaner spüren die Folgen des Iran-Kriegs längst im Alltag - sei es im Supermarkt oder an der Zapfsäule. Von Anne Schneider.",
+   "region": "dach",
+   "quellen": [
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft"
+   ],
+   "anzahl": 2,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/weltwirtschaft/iran-krieg-folgen-usa-100.html",
+    "https://www.spiegel.de/wirtschaft/iran-krieg-rund-400-schiffe-stecken-noch-im-persischen-golf-fest-a-4d1065f9-2c99-4a25-9627-bd56c02d3fe5#ref=rss"
+   ],
+   "punkte": 8,
+   "text": "Was als kurzer Feldzug geplant war, entwickelt sich zum Desaster für US-Präsident Trump. Die Amerikaner spüren die Folgen des Iran-Kriegs längst im Alltag - sei es im Supermarkt oder an der Zapfsäule. Von Anne Schneider.",
    "positiv": [],
    "negativ": []
   }
  ],
- "ketten": [],
+ "ketten": [
+  {
+   "ausloeser": "EZB erhöht den Leitzins im Juni 2024 um 25 Basispunkte",
+   "direkt": "Kurzfristige Aufwertung des Euro gegenüber dem US‑Dollar",
+   "zweite": "Importierte Rohstoffe werden für europäische Unternehmen günstiger, während Exportpreise in Drittländern steigen",
+   "dritte": "Gewinnmargen von europäischen Industrie‑ und Konsumgüterherstellern verbessern sich, während europäische Tourismus‑ und Luftfahrtunternehmen höhere Kosten für ausländische Reisende tragen",
+   "positiv": [
+    "Euro (EUR/USD)",
+    "Deutsche Bank (DBK.DE)",
+    "Siemens (SIE.DE)",
+    "BASF (BAS.DE)",
+    "Stoxx 600 Energy‑Index (nach niedrigeren Rohstoffpreisen)"
+   ],
+   "negativ": [
+    "Airbus (AIR.PA)",
+    "Lufthansa (LHA.DE)",
+    "Euro‑Stoxx 50 Travel‑ und Leisure‑Komponente",
+    "Deutsche Börse (DB1.DE) – wegen geringerer Handelsvolumina im Ausland"
+   ],
+   "konfidenz": "hoch"
+  },
+  {
+   "ausloeser": "USA verhängen umfassende Sanktionen, die den Export von 65 Mrd. Barrel venezolanischem Öl an die USA blockieren",
+   "direkt": "Weltweiter Ölpreis‑Schock, Brent‑Crude steigt um ca. 5 % innerhalb von 2 Wochen",
+   "zweite": "Kosten für Treibstoffe und energieintensive Produkte in Europa steigen, Inflationsdruck in den Kernländern Frankreich und Spanien nimmt zu",
+   "dritte": "EZB sieht sich gezwungen, die Zinsausblick‑Prognose zu revidieren und signalisiert mögliche weitere Zinserhöhungen; gleichzeitig steigt das Interesse an europäischen erneuerbaren‑Energie‑ und Gas‑Infrastruktur‑Aktien als Absicherung gegen fossile Preisvolatilität",
+   "positiv": [
+    "Eni (ENI.MI) – wegen höherer Margen bei Öl‑Exporten",
+    "TotalEnergies (TTE.PA) – kurzfristig höhere Einnahmen",
+    "Vestas (VWS.CO) – Nachfrage nach Windenergie‑Projekten",
+    "Ørsted (ORSTED.CO) – Ausbau von Offshore‑Wind in Europa",
+    "Euro‑Stoxx 600 Utilities‑Index (nach erneuerbaren Energien)"
+   ],
+   "negativ": [
+    "Air France‑KLM (AF.PA) – höhere Treibstoffkosten",
+    "Deutsche Post DHL (DPW.DE) – steigende Logistikkosten",
+    "Stoxx 600 Consumer‑Discretionary‑Index (wegen sinkender Kaufkraft)",
+    "Euro‑Stoxx 600 Financials (wegen möglicher Kreditrisiken bei höheren Zinsen)"
+   ],
+   "konfidenz": "mittel"
+  }
+ ],
  "gegenthese": null,
  "matrix": [
   {
@@ -423,13 +470,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die Mehrheit der Analysten (19 Kauf‑Empfehlungen) sieht Wachstumspotenzial: Umsatz +18 % und ein starkes Markt‑Cap von 127,4 Mrd. €. Das Kursziel von 197 € impliziert weiteres Kursplus. Segmente wie Gas Services und Grid Technologies profitieren von der Energiewende und steigender Nachfrage nach flexiblen Kraftwerken.",
-   "dagegen": "Das erweiterte KGV von 24,2 deutet auf eine teure Bewertung hin. Trotz überwiegend positiver Analystenmeinungen gibt es 2 Verkaufsempfehlungen, was einen Widerspruch zu den 19 Kauf‑Ratings darstellt. Fehlende Insider‑Informationen und keine Short‑Positionen lassen Unsicherheit über die Nachhaltigkeit des Aufwärtstrends bestehen.",
-   "katalysatoren": [
-    "Auslieferung und Inbetriebnahme neuer Gasturbinen‑Modelle im zweiten Quartal",
-    "Abschluss von Großaufträgen im Grid‑Technologies‑Segment, insbesondere für Offshore‑Netze",
-    "Zertifizierung und Serienstart der nächsten Generation von Siemens‑Gamesa‑Windturbinen"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "RHM.DE": {
    "ticker": "RHM.DE",
@@ -665,7 +708,7 @@
     ],
     [
      "Insider",
-     "0 Kaeufe / 0 Verkaeufe"
+     "keine Meldungen"
     ],
     [
      "Shorts",
@@ -1158,6 +1201,6 @@
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 136,
- "llm_aktiv": false
+ "meldungen_gesamt": 128,
+ "llm_aktiv": true
 }
