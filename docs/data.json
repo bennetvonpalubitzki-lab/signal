@@ -1,9 +1,9 @@
 {
- "stand": "2026-08-28T21:58",
- "lauf": "2026082821",
+ "stand": "2026-08-29T07:02",
+ "lauf": "2026082907",
  "synthese": {
-  "kern": "Alle Meldungen kreisen um steigenden Inflationsdruck und drohende Zinsanhebungen, während der Markt die sinkende Liquidität verkennt.",
-  "erlaeuterung": "Zentralbanken signalisieren weitere Straffungen, was das Risikoappetit‑Perzentil auf 91 hält, jedoch bleibt die US‑Liquidität bei 42. Investoren fokussieren aktuelle Themen wie KI oder Energie, übersehen jedoch die Kombination aus hohem Zinsdruck und nahezu null Euro‑Liquidität."
+  "kern": "Alle Meldungen drehen sich um steigenden politischen und geldpolitischen Druck, den der Markt trotz hoher Risikoappetits unterschätzt.",
+  "erlaeuterung": "Zentralbanken signalisieren weitere Zinserhöhungen, während geopolitische Spannungen und ein Öl‑Claim die Unsicherheit erhöhen. Gleichzeitig zeigen niedrige Liquiditätswerte und ein Null‑Perzentil in Europa, dass Marktteilnehmer die potenzielle Volatilität vernachlässigen."
  },
  "regime": [
   {
@@ -36,23 +36,23 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 55,
-     "delta": -1
+     "wert": 56,
+     "delta": 1
     },
     "eur": {
-     "wert": 73,
-     "delta": -5
+     "wert": 75,
+     "delta": -3
     }
    },
-   "differenz": 18
+   "differenz": 19
   },
   {
    "name": "risikoappetit",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 91,
-     "delta": 11
+     "wert": 90,
+     "delta": 14
     }
    }
   },
@@ -76,8 +76,8 @@
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 92,
-     "delta": -3
+     "wert": 94,
+     "delta": 1
     }
    }
   }
@@ -104,14 +104,14 @@
     "https://www.tagesschau.de/wirtschaft/weltwirtschaft/fed-warsh-rede-100.html"
    ],
    "punkte": 40,
-   "text": "Federal Reserve‑Vorsitzender Jerome Warsh betonte beim Jackson‑Hole‑Treffen die Notwendigkeit, dass die Inflation sich wieder dem Ziel annähert, und signalisierte damit eine mögliche Zinserhöhung. Gleichzeitig rückte er die Geldmenge stärker in den Fokus, was auf eine aktivere monetäre Straffung hindeuten könnte.",
+   "text": "Federal Reserve‑Vorsitzender Jerome Warsh sprach beim Jackson‑Hole‑Treffen überraschend falkenhaft und signalisierte, dass die Geldpolitik weiter straff bleiben könnte, um die Inflation wieder zum Ziel zu führen. Er betonte zudem erneut die Bedeutung der Geldmenge als Indikator für künftige Entscheidungen.",
    "positiv": [
-    "US‑Dollar (aufwärts)",
-    "Banken‑Aktien (aufwärts)"
+    "US‑Banken (höhere Zinsen erhöhen die Nettozinsspanne)",
+    "US‑Dollar (Zinsausblick stärkt die Währung)"
    ],
    "negativ": [
-    "Staatsanleihen (abwärts)",
-    "Zins‑sensible Konsumgüter (abwärts)"
+    "US‑Anleihen (steigende Renditen drücken die Kurse)",
+    "US‑Aktien (höhere Zinsen belasten Bewertungen, besonders wachstumsorientierte Titel)"
    ]
   },
   {
@@ -133,15 +133,14 @@
     "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/keine-besserung-in-sicht-zahl-der-arbeitslosen-steigt-im-august-auf-3-061-millionen-accg-201167458.html"
    ],
    "punkte": 16,
-   "text": "Trotz anhaltender Konjunkturflaute gibt es in einigen Bereichen weiterhin Beschäftigung, während struktureller Wandel in der Industrie Arbeitsplätze vernichtet. Besonders betroffen sind traditionelle Fertigung und Kohle, während erneuerbare Energien, digitale Dienstleistungen und Gesundheitswesen neue Stellen schaffen.",
+   "text": "Trotz anhaltender Konjunkturflaute zeigen einige Sektoren weiterhin Beschäftigungszuwächse, während der strukturelle Wandel in der Industrie Arbeitsplätze abbaut. Die Analyse hebt die Branchen hervor, in denen Stellen wegfallen, und jene, die trotz des Abschwungs neue Jobs schaffen.",
    "positiv": [
-    "Erneuerbare‑Energien‑Unternehmen (aufwärts)",
-    "Gesundheits‑ und Pflegesektor (aufwärts)",
-    "IT‑Dienstleister (aufwärts)"
+    "Informationstechnologie und digitale Dienstleistungen (weiterhin stabile bzw. wachsende Beschäftigung)",
+    "Erneuerbare Energien (Ausbau von Projekten schafft neue Stellen)"
    ],
    "negativ": [
-    "Kohle‑ und Schwerindustrie (abwärts)",
-    "Traditionelle Fertigungsunternehmen (abwärts)"
+    "Traditionelle Industrie (Automobil, Maschinenbau – Stellenabbau durch Automatisierung und Konkurrenzdruck)",
+    "Kohle‑ und Schwerindustrie (weiterer Rückgang der Beschäftigung)"
    ]
   },
   {
@@ -159,82 +158,54 @@
     "https://www.spiegel.de/wirtschaft/shein-co-frankreich-erhebt-sondergebuehr-fuer-wegwerfmode-a-241ae085-030d-43b3-a7d5-0c4e9bc48890#ref=rss"
    ],
    "punkte": 13,
-   "text": "Die Inflation in Frankreich und Spanien ist im August deutlich gestiegen, wodurch der Druck auf die Europäische Zentralbank zunimmt, die Zinsen im September zu erhöhen. Experten erwarten daher eine weitere Straffung der Geldpolitik im Euroraum.",
+   "text": "Die Inflation in Frankreich und Spanien ist im August deutlich angestiegen, was den Druck auf die Europäische Zentralbank erhöht, im September erneut die Leitzinsen zu erhöhen. Experten erwarten daher eine weitere geldpolitische Straffung, um die Preisentwicklung zu dämpfen.",
    "positiv": [
-    "Euro‑Zone‑Banken (aufwärts)",
-    "Kurzfristige Euro‑Anleihen (aufwärts)"
+    "Europäische Banken (höhere Zinsen verbessern die Zinsmarge)",
+    "Kurzfristige Euro‑Cash‑Instrumente (ziehen von höheren Renditen)"
    ],
    "negativ": [
-    "Euro (abwärts)",
-    "Euro‑Staatsanleihen (abwärts)",
-    "Frankreich‑ und Spanien‑Aktien (abwärts)"
+    "Euro‑Staatsanleihen (steigende Renditen drücken die Kurse)",
+    "Euro‑Währung (erwartete Zinsanhebung kann kurzfristig zu Volatilität führen)",
+    "Immobilien‑Sektor in der Eurozone (höhere Finanzierungskosten belasten die Nachfrage)"
    ]
   },
   {
-   "id": "046915eb",
-   "titel": "Verbraucherschützer fordern nach Meta-Vergleich Konsequenzen",
-   "anriss": "In den USA hat der Facebook-Mutterkonzern nach einem Prozess um Social-Media-Sucht von Kindern Änderungen versprochen. Verbraucherschützer fordern nun auch Konsequenzen in Deutschland.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "heise"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.tagesschau.de/inland/gesellschaft/social-media-jugendliche-104.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/meta-vergleich-die-geduld-mit-big-tech-schwindet-201164573.html",
-    "https://www.heise.de/news/Meta-Vergleich-in-den-USA-sollte-Plattform-Design-auch-hier-veraendern-11432856.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 12,
-   "text": "Nach einem US‑Gerichtsverfahren, in dem Meta Änderungen zur Bekämpfung von Social‑Media‑Sucht bei Kindern zugesagt hat, fordern Verbraucherschützer nun auch in Deutschland Konsequenzen. Die Diskussion könnte zu strengeren Regulierungen für Plattformen führen.",
-   "positiv": [
-    "Datenschutz‑ und RegTech‑Unternehmen (aufwärts)"
-   ],
-   "negativ": [
-    "Meta Platforms (abwärts)",
-    "Weitere Social‑Media‑Konglomerate (abwärts)"
-   ]
-  },
-  {
-   "id": "fcc38cb9",
-   "titel": "Hendrik Holt: Windkraft-Betrüger nach Freigang in Berlin auf der Flucht",
-   "anriss": "Mit Windparks, die es nicht gab, hat Hendrik Holt Energiekonzerne um Millionen Euro betrogen. Dafür sitzt er eine Freiheitsstrafe ab. Nun ist er von einem Freigang aus der JVA nicht zurückgekehrt, die Fahndung läuft.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.spiegel.de/wirtschaft/hendrik-holt-windkraft-betrueger-nach-freigang-in-berlin-auf-der-flucht-a-931715d6-b03c-4206-82fc-1cb534f5d4b7#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/hendrik-holt-fluechtig-liebesgruesse-aus-moskau-auf-instagram-201168104.html",
-    "https://www.manager-magazin.de/lifestyle/leute/hendrik-holt-verurteilter-windkraft-betrueger-nach-freigang-geflohen-a-43801a85-28fc-4a3a-8f7f-0998a24fb208#ref=rss"
-   ],
-   "punkte": 12,
-   "text": "Mit Windparks, die es nicht gab, hat Hendrik Holt Energiekonzerne um Millionen Euro betrogen. Dafür sitzt er eine Freiheitsstrafe ab. Nun ist er von einem Freigang aus der JVA nicht zurückgekehrt, die Fahndung läuft.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "29fd6222",
-   "titel": "GLM-5.3 is now open-weight",
-   "anriss": "https://twitter.com/Zai_org/status/2093354097122455713 https://z.ai/blog/glm-5.3 Comments URL: https://news.ycombinator.com/item?id=49479878 Points: 490 # Comments: 178",
+   "id": "e1de25ac",
+   "titel": "Our decision on Cursor following its acquisition by SpaceX",
+   "anriss": "Article URL: https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/ Comments URL: https://news.ycombinator.com/item?id=49486172 Points: 390 # Comments: 165",
    "region": "global",
    "quellen": [
     "Hacker News Top"
    ],
    "anzahl": 9,
    "links": [
+    "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
+    "https://github.com/Lakr233/vphone-cli",
+    "https://anil.recoil.org/notes/rumour-is-the-exploit",
     "https://huggingface.co/zai-org/GLM-5.3",
-    "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html",
-    "https://en.refund4freedom.org/",
-    "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released",
-    "https://www.inventati.org/"
+    "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html"
    ],
    "punkte": 11,
-   "text": "https://twitter.com/Zai_org/status/2093354097122455713 https://z.ai/blog/glm-5.3 Comments URL: https://news.ycombinator.com/item?id=49479878 Points: 490 # Comments: 178",
+   "text": "Article URL: https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/ Comments URL: https://news.ycombinator.com/item?id=49486172 Points: 390 # Comments: 165",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "f84c2a20",
+   "titel": "Rohstoff-Deal: Trump beansprucht 65 Milliarden Barrel venezolanisches Öl für die USA",
+   "anriss": "Anfang des Jahres nahmen US-Spezialkräfte Venezuelas langjährigen Staatschef Nicolás Maduro fest. Nun soll es eine Vereinbarung über Ölvorkommen des Landes geben.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "Handelsblatt Finanzen"
+   ],
+   "anzahl": 2,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/rohstoff-deal-trump-usa-sichern-sich-riesige-oelvorkommen-in-venezuela/100250481.html",
+    "https://www.faz.net/aktuell/wirtschaft/venezuela-donald-trump-greift-nach-dem-oel-des-landes-201168478.html"
+   ],
+   "punkte": 9,
+   "text": "Anfang des Jahres nahmen US-Spezialkräfte Venezuelas langjährigen Staatschef Nicolás Maduro fest. Nun soll es eine Vereinbarung über Ölvorkommen des Landes geben.",
    "positiv": [],
    "negativ": []
   },
@@ -258,57 +229,74 @@
    "negativ": []
   },
   {
-   "id": "c9cdd61c",
-   "titel": "Künstliche Intelligenz: Einzigartiger Pakt: Singapurs Banken versprechen KI-Umbau ohne Massenentlassungen",
-   "anriss": "Die Finanzmetropole sieht sich als einer der globalen KI‑Vorreiter. Die Politik sorgt sich vor Jobverlusten. Staat, Banken und Gewerkschaft sollen das gemeinsam verhindern.",
+   "id": "c1aff786",
+   "titel": "Geldanlage: Vorfreude auf GTA VI – was das für Gaming-Aktien bedeutet",
+   "anriss": "Der Gaming-Markt entwickelt sich solide, die Aktien stehen aber unter Druck. Das lang erwartete Computerspiel GTA VI könnte für neue Impulse sorgen. Anleger sollten aber vorsichtig sein.",
    "region": "dach",
    "quellen": [
-    "Handelsblatt Finanzen",
-    "heise"
+    "FAZ Wirtschaft",
+    "Handelsblatt Finanzen"
    ],
    "anzahl": 2,
    "links": [
-    "https://www.handelsblatt.com/finanzen/ki-singapurs-banken-versprechen-ki-umbau-ohne-massenentlassungen/100250302.html",
-    "https://www.heise.de/news/Massiver-Umbau-gekippt-Meta-wollte-KI-nativ-werden-und-scheiterte-11434074.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+    "https://www.handelsblatt.com/finanzen/maerkte/aktien/geldanlage-vorfreude-auf-gta-vi-was-das-fuer-gaming-aktien-bedeutet/100249561.html",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/gamescom-2024-wie-gta-6-der-messe-die-show-stiehlt-201168384.html"
    ],
    "punkte": 9,
-   "text": "Die Finanzmetropole sieht sich als einer der globalen KI‑Vorreiter. Die Politik sorgt sich vor Jobverlusten. Staat, Banken und Gewerkschaft sollen das gemeinsam verhindern.",
+   "text": "Der Gaming-Markt entwickelt sich solide, die Aktien stehen aber unter Druck. Das lang erwartete Computerspiel GTA VI könnte für neue Impulse sorgen. Anleger sollten aber vorsichtig sein.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "b1206bc6",
+   "titel": "Wie Unternehmen ihre Mitarbeiter vor Hitze am Arbeitsplatz schützen",
+   "anriss": "Hitze ist ein Wirtschaftsfaktor - auch weil die Produktivität sinkt, wenn die Temperaturen über das erträgliche Maß steigen. Was Unternehmen tun können, um ihre Beschäftigten zu schützen. Von Max Kell.",
+   "region": "dach",
+   "quellen": [
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 2,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/verbraucher/hitzeschutz-bei-der-arbeit-100.html",
+    "https://www.manager-magazin.de/politik/weltwirtschaft/usa-wirtschaft-unternehmensgewinne-steigen-anteil-der-arbeiter-sinkt-a-d20a4f15-04af-4bd9-804a-fc4dc7847b51#ref=rss"
+   ],
+   "punkte": 8,
+   "text": "Hitze ist ein Wirtschaftsfaktor - auch weil die Produktivität sinkt, wenn die Temperaturen über das erträgliche Maß steigen. Was Unternehmen tun können, um ihre Beschäftigten zu schützen. Von Max Kell.",
    "positiv": [],
    "negativ": []
   }
  ],
  "ketten": [
   {
-   "ausloeser": "EZB erhöht den Leitzins im Juni 2024 um 25 Basispunkte, weil die Inflation in Frankreich und Spanien wieder über das Ziel von 2 % steigt",
-   "direkt": "Kurzfristige Euro‑Staatsanleihen (z. B. DE‑Bund, FR‑OAT, ES‑Bono) verlieren an Kurs, Renditen steigen; der Euro gegenüber dem US‑Dollar festigt sich",
-   "zweite": "Finanzinstitute mit hoher Zinsabhängigkeit (Deutsche Bank, BNP Paribas, Santander) profitieren von verbesserten Zinsmargen, gleichzeitig steigen ihre Refinanzierungskosten",
-   "dritte": "Euro‑Stoxx‑50 reagiert gemischt: Finanzsektor‑Gewichte (Banken, Versicherer) steigen, während zinssensible Sektoren (Immobilien‑REITs, Versorger, Konsumgüter mit hohen Dividenden) unter Druck geraten",
+   "ausloeser": "EZB erhöht den Leitzins im nächsten Sitzungsquartal um 25 Basispunkte, weil die Inflation in Frankreich und Spanien weiter anzieht",
+   "direkt": "Kurzfristige Zinsen in der Eurozone steigen, der Euro gewinnt gegenüber anderen Währungen an Wert",
+   "zweite": "Exportorientierte Unternehmen aus Deutschland, Frankreich und den Niederlanden (Automobil, Maschinenbau, Chemie) sehen höhere Finanzierungskosten und einen stärkeren Euro, was ihre Wettbewerbsfähigkeit belastet",
+   "dritte": "Aktienkurse dieser Sektoren fallen, Unternehmensanleihen mit mittlerer Laufzeit verlieren an Wert, während Banken von höheren Nettozinsmargen profitieren",
    "positiv": [
-    "Kurzlaufende Euro‑Staatsanleihen (bis 2 Jahre)",
-    "Bankaktien (Deutsche Bank, BNP Paribas, Santander)",
-    "Zins‑Swap‑Positionen, die von steigenden Zinsen profitieren"
+    "Deutsche Bank, BNP Paribas, ING – höhere Zinsmargen",
+    "Kurzlaufende Euro‑Staatsanleihen (z. B. 2‑Jahres‑Bund, 2‑Jahres‑Französische Anleihe) – Kurszuwachs bei steigenden Renditen"
    ],
    "negativ": [
-    "Langlaufende Euro‑Staatsanleihen (10‑Jahres‑ und länger)",
-    "Euro‑REITs (z. B. Vonovia, Unibail‑Rodamco)",
-    "Versorger‑ und Konsumgüter‑Aktien mit hohen Dividenden (z. B. E.ON, Danone)"
+    "DAX‑Automobilhersteller (z. B. Volkswagen, BMW, Daimler)",
+    "STOXX Europe 600 Industrie‑ und Maschinenbausektor",
+    "Euro‑Corporate‑High‑Yield‑Bonds – Kursverlust"
    ],
    "konfidenz": "hoch"
   },
   {
-   "ausloeser": "EU verabschiedet im Herbst 2024 ein verbindliches KI‑Risikomanagement‑Regime, ausgelöst durch den Singapur‑Pakt, der Banken KI‑Umstellungen ohne Massenentlassungen verspricht",
-   "direkt": "FinTech‑Unternehmen in Europa (N26, Revolut, Klarna) müssen umfangreiche Compliance‑Systeme einführen, was zu höheren operativen Kosten und kurzfristigem Kursdruck führt",
-   "zweite": "Traditionelle Banken (ING, Santander, UniCredit) nutzen ihre größeren Ressourcen, um KI‑Lösungen als Service anzubieten, wodurch ihre Erträge aus Beratungs‑ und Technologie‑Dienstleistungen steigen",
-   "dritte": "Der europäische Technologie‑ETF (z. B. iShares MSCI Europe Tech) erfährt eine Umlagerung: Hersteller von KI‑Hardware (ASML, Infineon) profitieren von steigender Nachfrage nach leistungsfähigen Chips, während reine KI‑Service‑Provider (z. B. Celonis) unter Druck geraten",
+   "ausloeser": "SpaceX schließt die Übernahme von Cursor (KI‑Plattform) ab und integriert die Technologie in das Starlink‑Satellitennetz",
+   "direkt": "Nachfrage nach Hochleistungs‑Halbleitern und EUV‑Lithographie‑Equipment für KI‑optimierte Satellitenchips steigt stark",
+   "zweite": "ASML verzeichnet ein deutliches Auftragsvolumen‑Ups, die Lieferkette für Halbleiter‑Wafer wird intensiver ausgelastet, europäische Chip‑Foundries (z. B. Infineon) erhöhen ihre Produktionskapazitäten",
+   "dritte": "Technologie‑Aktien im STOXX Europe 600 Technology Index steigen, während europäische Telekom‑ und Kabelanbieter (z. B. Deutsche Telekom, Orange) unter Druck geraten, weil sie ihre Netze für die neue KI‑Satelliten‑Kommunikation modernisieren müssen",
    "positiv": [
-    "Halbleiter‑ und Chip‑Hersteller (ASML, Infineon)",
-    "Banken mit etablierten IT‑Abteilungen (ING, Santander, UniCredit)",
-    "ETF‑Positionen in europäischer Halbleiter‑Industrie"
+    "ASML – Auftragszuwachs bei EUV‑Systemen",
+    "Infineon Technologies – höhere Chip‑Absatzvolumen",
+    "STOXX Europe 600 Technology Index – Kurszuwachs"
    ],
    "negativ": [
-    "FinTech‑Aktien (N26, Revolut, Klarna)",
-    "KI‑Service‑ und Plattform‑Unternehmen (Celonis, TeamViewer)",
-    "ETF‑Positionen, die stark in europäische FinTech‑Firmen gewichtet sind"
+    "Deutsche Telekom, Orange, Vodafone – steigende CAPEX‑Belastung, mögliche Margenverringerung",
+    "Europäische Cloud‑Anbieter (z. B. OVH) – Wettbewerbsdruck durch KI‑gestützte Satelliten‑Konnektivität"
    ],
    "konfidenz": "mittel"
   }
@@ -451,7 +439,7 @@
     ],
     [
      "Newsletter",
-     "in 5 Clustern"
+     "in 4 Clustern"
     ],
     [
      "Reddit",
@@ -466,9 +454,13 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "Die Analystenmeinung ist überwiegend positiv (19 Kauf‑Empfehlungen). Das Umsatzwachstum von +18 % und ein Kursziel von 197 € deuten auf erwartete Ertragssteigerungen hin. Das breite Segmentportfolio (Gas, Grid, Industrie, Gamesa) bietet Diversifikation und potenzielle Synergien.",
+   "dagegen": "Zwei Analysten empfehlen Verkauf, und das KGV von 24,2 gilt als relativ hoch, was auf eine mögliche Überbewertung hindeutet. Reddit‑Diskussionen sind kaum vorhanden, was auf geringes Interesse der Retail‑Investoren schließen lässt. Fehlende Insider‑Informationen und keine Short‑Positionen reduzieren zusätzliche Markt‑Signals.",
+   "katalysatoren": [
+    "Auslieferung und Inbetriebnahme neuer Gasturbinen‑ und Dampfturbinenprojekte im 2. Quartal",
+    "Vertragserweiterungen im Grid‑Technologies‑Segment, insbesondere für digitale Netzlösungen",
+    "Steigerung der Produktionskapazität und Lieferungen von Siemens‑Gamesa‑Windturbinen nach Genehmigungszusage"
+   ]
   },
   "RHM.DE": {
    "ticker": "RHM.DE",
@@ -598,7 +590,7 @@
     ],
     [
      "Newsletter",
-     "in 11 Clustern"
+     "in 12 Clustern"
     ],
     [
      "Reddit",
@@ -678,7 +670,7 @@
     ],
     [
      "KGV (erw.)",
-     "53,2"
+     "53,1"
     ],
     [
      "Umsatzwachstum",
@@ -776,7 +768,7 @@
     ],
     [
      "KGV (erw.)",
-     "14,3"
+     "14,2"
     ],
     [
      "Umsatzwachstum",
@@ -815,123 +807,6 @@
   }
  },
  "shorts": [
-  {
-   "land": "NL",
-   "halter": "Citadel Advisors LLC",
-   "emittent": "Pharming Group N.V.",
-   "prozent": 0.97,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "JPMorgan Asset Management (UK) Ltd.",
-   "emittent": "Sligro Food Group N.V.",
-   "prozent": 0.83,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "Capital Fund Management S.A.",
-   "emittent": "IMCD N.V.",
-   "prozent": 0.8,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "Canada Pension Plan Investment Board",
-   "emittent": "Signify N.V.",
-   "prozent": 0.75,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "Citadel Advisors LLC",
-   "emittent": "Sligro Food Group N.V.",
-   "prozent": 0.72,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "Capital Fund Management S.A.",
-   "emittent": "TKH Group N.V.",
-   "prozent": 0.7,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "BlackRock Financial Management, Inc.",
-   "emittent": "Akzo Nobel N.V.",
-   "prozent": 0.59,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "Capital Fund Management S.A.",
-   "emittent": "The Magnum Ice Cream Company N.V.",
-   "prozent": 0.58,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "AQR Capital Management, LLC",
-   "emittent": "BE Semiconductor Industries N.V.",
-   "prozent": 0.52,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "Capital Fund Management S.A.",
-   "emittent": "DSM-Firmenich AG",
-   "prozent": 0.5,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "Two Sigma Investments, LP",
-   "emittent": "AMG Critical Materials N.V.",
-   "prozent": 0.5,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "BlackRock Advisors, LLC",
-   "emittent": "IMCD N.V.",
-   "prozent": 0.49,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "Two Sigma Investments, LP",
-   "emittent": "AMG Critical Materials N.V.",
-   "prozent": 0.49,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
   {
    "land": "UK",
    "halter": "Anavio Capital Partners LLP",
@@ -1084,10 +959,127 @@
    "datum": "2019-06-24",
    "status": "aufgestockt",
    "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 15.9,
+   "datum": "2019-06-21",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 15.78,
+   "datum": "2019-06-20",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 15.65,
+   "datum": "2019-06-19",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 15.52,
+   "datum": "2019-06-18",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 15.17,
+   "datum": "2019-06-17",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 14.83,
+   "datum": "2019-06-14",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 14.49,
+   "datum": "2019-06-13",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 14.29,
+   "datum": "2019-06-12",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 14.08,
+   "datum": "2019-06-11",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 13.82,
+   "datum": "2019-06-10",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "GUEVOURA FUND LTD",
+   "emittent": "HAMMERSON PLC",
+   "prozent": 13.78,
+   "datum": "2020-09-24",
+   "status": "aufgestockt",
+   "zuvor": 0.57
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 13.68,
+   "datum": "2019-06-07",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 13.5,
+   "datum": "2019-06-06",
+   "status": "aufgestockt",
+   "zuvor": 0.53
   }
  ],
  "shorts_kennzahlen": {
-  "neu_diese_woche": 13,
+  "neu_diese_woche": 0,
   "meistgeshortet": {
    "name": "Premier Oil PLC",
    "summe": 2145.63
@@ -1100,14 +1092,6 @@
  },
  "gespraech": [],
  "termine": [
-  {
-   "datum": "2026-08-28",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
   {
    "datum": "2026-08-29",
    "zeit": "",
@@ -1195,8 +1179,16 @@
    "was": "FOMC Press Release",
    "konsens": "",
    "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-07",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 165,
+ "meldungen_gesamt": 130,
  "llm_aktiv": true
 }
