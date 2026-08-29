@@ -1,9 +1,9 @@
 {
- "stand": "2026-08-29T13:02",
- "lauf": "2026082913",
+ "stand": "2026-08-29T16:02",
+ "lauf": "2026082916",
  "synthese": {
-  "kern": "Zinsdruck steigt, geopolitische Spannungen erhöhen Risiko, Markt unterschätzt mögliche weitere Straffung und finanzielle Repression.",
-  "erlaeuterung": "Die Geldpolitik in den USA und der Eurozone zeigt Anzeichen für weitere Zinserhöhungen, während geopolitische Entwicklungen das Risiko erhöhen. Trotz dieser Signale bleibt die Marktliquidität niedrig und die Gefahr einer erneuten finanziellen Repression wird kaum bepreist."
+  "kern": "Markt fokussiert Zinserwartungen, übersieht wachsende geopolitische und sektorale Risiken bei gleichzeitig hohem Risikoappetit.",
+  "erlaeuterung": "Die Geldpolitik bleibt im Zentrum, während geopolitische Entwicklungen wie der Iran‑Konflikt und der venezolanische Öl‑Deal neue Unsicherheiten schaffen. Gleichzeitig erhöhen steigende Inflationsdrucke in Europa und US‑Arbeitsmarkt‑Resilienz das Risiko einer erneuten Finanz‑Repression, das vom Markt kaum beachtet wird."
  },
  "regime": [
   {
@@ -51,8 +51,8 @@
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 90,
-     "delta": 14
+     "wert": 91,
+     "delta": 11
     }
    }
   },
@@ -89,13 +89,12 @@
    "anriss": "Beim Notenbank-Treffen in Jackson Hole gab sich Warsh überraschend „falkenhaft“. Und er rückte die Bedeutung der Geldmenge wieder in den Fokus. Ein Überblick über die wichtigsten Punkte.",
    "region": "dach",
    "quellen": [
-    "FAZ Wirtschaft",
     "Handelsblatt Finanzen",
     "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 8,
+   "anzahl": 7,
    "links": [
     "https://www.handelsblatt.com/finanzen/geldpolitik/geldpolitik-jackson-hole-fed-chef-warsh-signalisiert-zinserhoehung/100249152.html",
     "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-dow-jones-schliesst-fast-unveraendert-warsh-aussagen-bremsen/100250403.html",
@@ -103,15 +102,15 @@
     "https://www.tagesschau.de/wirtschaft/weltwirtschaft/fed-warsh-rede-100.html",
     "https://www.spiegel.de/wirtschaft/kevin-warsh-neuer-us-notenbankchef-signalisiert-bereitschaft-zu-zinserhoehung-a-8a9b09ea-6211-4dd3-98e0-cda5319ba1b9#ref=rss"
    ],
-   "punkte": 37,
-   "text": "Federal Reserve‑Vorsitzender Jerome Powell betonte beim Jackson‑Hole‑Treffen, dass die Geldmenge wieder stärker in den Fokus rücken müsse und signalisierte Offenheit für eine weitere Zinserhöhung, falls die Inflation nicht schneller zum Ziel zurückkehrt. Damit wird die Erwartung von steigenden US‑Zinsen verstärkt, was die Renditen von Staats‑ und Unternehmensanleihen nach oben treiben dürfte.",
+   "punkte": 33,
+   "text": "Fed‑Vorsitzender Warsh signalisierte beim Jackson‑Hole‑Treffen eine mögliche Zinserhöhung und rückte die Geldmenge wieder stärker in den Fokus. Damit steigt das Risiko für steigende US‑Zinsen und einen stärkeren US‑Dollar.",
    "positiv": [
-    "Banken (+)",
-    "US‑Dollar (+)"
+    "US‑Dollar",
+    "Kurzfristige US‑Staatsanleihen"
    ],
    "negativ": [
-    "Langlauf‑Anleihen (-)",
-    "Zins‑sensibler Immobiliensektor (-)"
+    "US‑Aktien (zinsabhängige Sektoren)",
+    "Langfristige US‑Anleihen"
    ]
   },
   {
@@ -133,15 +132,13 @@
     "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/keine-besserung-in-sicht-zahl-der-arbeitslosen-steigt-im-august-auf-3-061-millionen-accg-201167458.html"
    ],
    "punkte": 16,
-   "text": "Trotz anhaltender Konjunkturflaute zeigen sich in einigen Bereichen weiterhin stabile Beschäftigungszahlen, während struktureller Wandel in der Industrie traditionelle Fertigungs‑ und Kohlearbeitsplätze reduziert. Wachstumspotenzial besteht vor allem in Technologie, Gesundheitswesen und erneuerbaren Energien, wo neue Stellen entstehen.",
+   "text": "Trotz anhaltender Konjunkturflaute gibt es in einigen Branchen weiterhin Beschäftigung, während struktureller Wandel in der Industrie Arbeitsplätze kostet. Die Verlagerung begünstigt wachsende Sektoren wie erneuerbare Energien und digitale Dienstleistungen, während traditionelle Fertigung und Kohle rückläufig sind.",
    "positiv": [
-    "Technologie‑Unternehmen (+)",
-    "Gesundheitssektor (+)",
-    "Erneuerbare‑Energien (+)"
+    "Erneuerbare‑Energien‑Unternehmen",
+    "IT‑Dienstleister"
    ],
    "negativ": [
-    "Traditionelle Industrie (-)",
-    "Kohlebergbau (-)"
+    "Traditionelle Industrie‑ und Kohleunternehmen"
    ]
   },
   {
@@ -161,14 +158,9 @@
     "https://www.manager-magazin.de/politik/weltwirtschaft/venezuela-usa-sichern-sich-riesige-oelvorkommen-im-krisenstaat-a-94c865b7-d927-494d-81be-2365c7e37625#ref=rss"
    ],
    "punkte": 13,
-   "text": "Ein von Donald Trump propagierter Deal sieht vor, dass die USA 65 Mrd. Barrel venezolanisches Öl übernehmen sollen, nachdem US‑Spezialkräfte den ehemaligen Präsidenten Nicolás Maduro festgenommen haben. Die Meldung ist spekulativ, die rechtliche Durchsetzbarkeit und die tatsächliche Ölmenge bleiben unklar, wodurch die Auswirkungen auf die Märkte unsicher sind.",
-   "positiv": [
-    "US‑Raffinerien (potenziell +)"
-   ],
-   "negativ": [
-    "Venezolanische Ölindustrie (unsicher/–)",
-    "Energie‑Preisvolatilität (–)"
-   ]
+   "text": "Ein von Präsident Trump angekündigter Deal soll den USA Zugang zu 65 Mrd. Barrel venezolanischem Öl verschaffen, nachdem US‑Spezialkräfte Maduro festgenommen hatten. Die Meldung ist spekulativ und lässt keine klaren Auswirkungen auf Ölpreise oder Unternehmen erkennen.",
+   "positiv": [],
+   "negativ": []
   },
   {
    "id": "063ccb53",
@@ -185,35 +177,54 @@
     "https://www.spiegel.de/wirtschaft/shein-co-frankreich-erhebt-sondergebuehr-fuer-wegwerfmode-a-241ae085-030d-43b3-a7d5-0c4e9bc48890#ref=rss"
    ],
    "punkte": 13,
-   "text": "Die Inflation in Frankreich und Spanien ist im August deutlich gestiegen, was den Druck auf die Europäische Zentralbank erhöht, im September erneut die Leitzinsen anzuheben. Ein solcher Schritt würde die Renditen von Euro‑Staatsanleihen erhöhen und den Euro stärken, während zinsabhängige Aktien und Immobilienmärkte belastet werden.",
+   "text": "Die jüngste Beschleunigung der Inflation in Frankreich und Spanien erhöht den Druck auf die EZB, im September die Leitzinsen zu erhöhen. Erwartete Zinserhöhungen belasten den Euro und zinssensible europäische Aktien, während Banken von höheren Margen profitieren könnten.",
    "positiv": [
-    "Euro‑Banken (+)",
-    "Euro‑Währung (+)"
+    "Europäische Banken"
    ],
    "negativ": [
-    "Euro‑Staatsanleihen (-)",
-    "Zins‑sensible Aktien (-)",
-    "Immobilienfonds (-)"
+    "Euro",
+    "Zinssensible europäische Aktien (z. B. Immobilien, Konsumgüter)"
    ]
   },
   {
-   "id": "e1de25ac",
-   "titel": "Our decision on Cursor following its acquisition by SpaceX",
-   "anriss": "Article URL: https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/ Comments URL: https://news.ycombinator.com/item?id=49486172 Points: 605 # Comments: 343",
+   "id": "b1206bc6",
+   "titel": "Wie Unternehmen ihre Mitarbeiter vor Hitze am Arbeitsplatz schützen",
+   "anriss": "Hitze ist ein Wirtschaftsfaktor - auch weil die Produktivität sinkt, wenn die Temperaturen über das erträgliche Maß steigen. Was Unternehmen tun können, um ihre Beschäftigten zu schützen. Von Max Kell.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/verbraucher/hitzeschutz-bei-der-arbeit-100.html",
+    "https://www.faz.net/aktuell/wirtschaft/wahl-in-sachsen-anhalt-ist-die-afd-eine-alternative-fuer-die-wirtschaft-accg-201152410.html",
+    "https://www.manager-magazin.de/politik/weltwirtschaft/usa-wirtschaft-unternehmensgewinne-steigen-anteil-der-arbeiter-sinkt-a-d20a4f15-04af-4bd9-804a-fc4dc7847b51#ref=rss"
+   ],
+   "punkte": 12,
+   "text": "Hitze ist ein Wirtschaftsfaktor - auch weil die Produktivität sinkt, wenn die Temperaturen über das erträgliche Maß steigen. Was Unternehmen tun können, um ihre Beschäftigten zu schützen. Von Max Kell.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "be875133",
+   "titel": "Debian votes to allow \"responsible use of generative AI\"",
+   "anriss": "Article URL: https://lwn.net/Articles/1091231/ Comments URL: https://news.ycombinator.com/item?id=49489982 Points: 200 # Comments: 138",
    "region": "global",
    "quellen": [
     "Hacker News Top"
    ],
-   "anzahl": 9,
+   "anzahl": 10,
    "links": [
+    "https://lwn.net/Articles/1091231/",
+    "https://www.bbc.com/news/articles/cn45vdxyvvlo",
     "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
-    "https://github.com/Lakr233/vphone-cli",
-    "https://anil.recoil.org/notes/rumour-is-the-exploit",
-    "https://huggingface.co/zai-org/GLM-5.3",
-    "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html"
+    "https://pwning.systems/posts/llm-memory-program-analysis/",
+    "https://github.com/Lakr233/vphone-cli"
    ],
-   "punkte": 11,
-   "text": "Article URL: https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/ Comments URL: https://news.ycombinator.com/item?id=49486172 Points: 605 # Comments: 343",
+   "punkte": 12,
+   "text": "Article URL: https://lwn.net/Articles/1091231/ Comments URL: https://news.ycombinator.com/item?id=49489982 Points: 200 # Comments: 138",
    "positiv": [],
    "negativ": []
   },
@@ -238,40 +249,22 @@
    "negativ": []
   },
   {
-   "id": "493ea3de",
-   "titel": "Amerikaner besorgt wegen wirtschaftlicher Folgen des Iran-Kriegs",
-   "anriss": "Was als kurzer Feldzug geplant war, entwickelt sich zum Desaster für US-Präsident Trump. Die Amerikaner spüren die Folgen des Iran-Kriegs längst im Alltag - sei es im Supermarkt oder an der Zapfsäule. Von Anne Schneider.",
+   "id": "fbb85e83",
+   "titel": "Richterin hebt Sanktion gegen KI-Konzern Anthropic auf",
+   "anriss": "Anthropic-CEO Dario Amodei hat im Streit mit dem US-Verteidigungsministerium einen Etappensieg errungen. Ein Gericht hat verfügt, dass die Einstufung der KI-Firma als „Lieferkettenrisiko“ durch das Pentagon unrechtmäßig war.",
    "region": "dach",
    "quellen": [
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft"
-   ],
-   "anzahl": 2,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/weltwirtschaft/iran-krieg-folgen-usa-100.html",
-    "https://www.spiegel.de/wirtschaft/iran-krieg-rund-400-schiffe-stecken-noch-im-persischen-golf-fest-a-4d1065f9-2c99-4a25-9627-bd56c02d3fe5#ref=rss"
-   ],
-   "punkte": 8,
-   "text": "Was als kurzer Feldzug geplant war, entwickelt sich zum Desaster für US-Präsident Trump. Die Amerikaner spüren die Folgen des Iran-Kriegs längst im Alltag - sei es im Supermarkt oder an der Zapfsäule. Von Anne Schneider.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "b1206bc6",
-   "titel": "Wie Unternehmen ihre Mitarbeiter vor Hitze am Arbeitsplatz schützen",
-   "anriss": "Hitze ist ein Wirtschaftsfaktor - auch weil die Produktivität sinkt, wenn die Temperaturen über das erträgliche Maß steigen. Was Unternehmen tun können, um ihre Beschäftigten zu schützen. Von Max Kell.",
-   "region": "dach",
-   "quellen": [
-    "Tagesschau Wirtschaft",
+    "heise",
     "manager magazin"
    ],
-   "anzahl": 2,
+   "anzahl": 3,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/verbraucher/hitzeschutz-bei-der-arbeit-100.html",
-    "https://www.manager-magazin.de/politik/weltwirtschaft/usa-wirtschaft-unternehmensgewinne-steigen-anteil-der-arbeiter-sinkt-a-d20a4f15-04af-4bd9-804a-fc4dc7847b51#ref=rss"
+    "https://www.manager-magazin.de/unternehmen/tech/us-gericht-stoppt-sperrung-von-ki-firma-anthropic-durch-pentagon-a-d1b24980-32b6-499e-98f5-7d0ad5d8851c#ref=rss",
+    "https://www.heise.de/news/Gerichtsurteil-Anthropic-muss-runter-von-der-schwarzen-Liste-des-Pentagons-11434421.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "https://www.heise.de/news/KI-Update-kompakt-Starmind-Anthropic-vs-Pentagon-Ox-Alpha-Spider-Man-11432862.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
-   "punkte": 8,
-   "text": "Hitze ist ein Wirtschaftsfaktor - auch weil die Produktivität sinkt, wenn die Temperaturen über das erträgliche Maß steigen. Was Unternehmen tun können, um ihre Beschäftigten zu schützen. Von Max Kell.",
+   "punkte": 10,
+   "text": "Anthropic-CEO Dario Amodei hat im Streit mit dem US-Verteidigungsministerium einen Etappensieg errungen. Ein Gericht hat verfügt, dass die Einstufung der KI-Firma als „Lieferkettenrisiko“ durch das Pentagon unrechtmäßig ",
    "positiv": [],
    "negativ": []
   }
@@ -430,9 +423,13 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "Die Mehrheit der Analysten (19 Kauf‑Empfehlungen) sieht Wachstumspotenzial: Umsatz +18 % und ein starkes Markt‑Cap von 127,4 Mrd. €. Das Kursziel von 197 € impliziert weiteres Kursplus. Segmente wie Gas Services und Grid Technologies profitieren von der Energiewende und steigender Nachfrage nach flexiblen Kraftwerken.",
+   "dagegen": "Das erweiterte KGV von 24,2 deutet auf eine teure Bewertung hin. Trotz überwiegend positiver Analystenmeinungen gibt es 2 Verkaufsempfehlungen, was einen Widerspruch zu den 19 Kauf‑Ratings darstellt. Fehlende Insider‑Informationen und keine Short‑Positionen lassen Unsicherheit über die Nachhaltigkeit des Aufwärtstrends bestehen.",
+   "katalysatoren": [
+    "Auslieferung und Inbetriebnahme neuer Gasturbinen‑Modelle im zweiten Quartal",
+    "Abschluss von Großaufträgen im Grid‑Technologies‑Segment, insbesondere für Offshore‑Netze",
+    "Zertifizierung und Serienstart der nächsten Generation von Siemens‑Gamesa‑Windturbinen"
+   ]
   },
   "RHM.DE": {
    "ticker": "RHM.DE",
@@ -562,7 +559,7 @@
     ],
     [
      "Newsletter",
-     "in 14 Clustern"
+     "in 12 Clustern"
     ],
     [
      "Reddit",
@@ -779,6 +776,24 @@
   }
  },
  "shorts": [
+  {
+   "land": "NL",
+   "halter": "Goldman Sachs Asset Management International",
+   "emittent": "PostNL N.V.",
+   "prozent": 0.62,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "D. E. Shaw & Co., L.P.",
+   "emittent": "ARCADIS N.V.",
+   "prozent": 0.53,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
   {
    "land": "UK",
    "halter": "Anavio Capital Partners LLP",
@@ -1030,35 +1045,17 @@
    "datum": "2020-09-24",
    "status": "aufgestockt",
    "zuvor": 0.57
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 13.68,
-   "datum": "2019-06-07",
-   "status": "aufgestockt",
-   "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 13.5,
-   "datum": "2019-06-06",
-   "status": "aufgestockt",
-   "zuvor": 0.53
   }
  ],
  "shorts_kennzahlen": {
-  "neu_diese_woche": 0,
+  "neu_diese_woche": 2,
   "meistgeshortet": {
    "name": "Premier Oil PLC",
    "summe": 2145.63
   },
   "aktivster_halter": {
    "name": "Marshall Wace LLP",
-   "anzahl": 14036
+   "anzahl": 14037
   },
   "gesamt": 107395
  },
@@ -1161,6 +1158,6 @@
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 137,
+ "meldungen_gesamt": 136,
  "llm_aktiv": false
 }
