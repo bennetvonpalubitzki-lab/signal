@@ -1,9 +1,9 @@
 {
- "stand": "2026-08-29T19:02",
- "lauf": "2026082919",
+ "stand": "2026-08-30T07:02",
+ "lauf": "2026083007",
  "synthese": {
-  "kern": "Markt vernachlässigt steigende geopolitische Spannungen und drohende Zinserhöhungen trotz hoher Risikoappetitswerte.",
-  "erlaeuterung": "Die Meldungen verbinden Geldpolitik, geopolitische Konflikte und Rohstoffansprüche, was auf eine bevorstehende Verschärfung der Rahmenbedingungen hindeutet. Der Markt fokussiert sich auf kurzfristige Liquiditäts- und Wachstumsdaten, übersieht jedoch das kumulative Risiko aus Inflation, Zinserhöhungen und geopolitischer Unsicherheit."
+  "kern": "Markt fokussiert Zinserwartungen, übersieht wachsende geopolitische und regulatorische Risiken, die Risikoappetit dämpfen.",
+  "erlaeuterung": "Die Meldungen verbinden Geldpolitik, geopolitische Spannungen und verstärkte Regulierungsinitiativen, was die Unsicherheit erhöht. Trotz hoher Risikoappetit‑Perzentile vernachlässigt der Markt die kumulative Wirkung dieser Faktoren auf Liquidität und Wachstum."
  },
  "regime": [
   {
@@ -40,11 +40,11 @@
      "delta": -1
     },
     "eur": {
-     "wert": 74,
-     "delta": -4
+     "wert": 73,
+     "delta": -5
     }
    },
-   "differenz": 19
+   "differenz": 18
   },
   {
    "name": "risikoappetit",
@@ -76,8 +76,8 @@
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 92,
-     "delta": -3
+     "wert": 93,
+     "delta": -2
     }
    }
   }
@@ -90,57 +90,47 @@
    "region": "dach",
    "quellen": [
     "Handelsblatt Finanzen",
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
+    "Tagesschau Wirtschaft"
    ],
-   "anzahl": 7,
+   "anzahl": 2,
    "links": [
     "https://www.handelsblatt.com/finanzen/geldpolitik/geldpolitik-jackson-hole-fed-chef-warsh-signalisiert-zinserhoehung/100249152.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-dow-jones-schliesst-fast-unveraendert-warsh-aussagen-bremsen/100250403.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-erreicht-nach-warsh-rede-neuen-rekord/100250296.html",
-    "https://www.tagesschau.de/wirtschaft/weltwirtschaft/fed-warsh-rede-100.html",
-    "https://www.spiegel.de/wirtschaft/kevin-warsh-neuer-us-notenbankchef-signalisiert-bereitschaft-zu-zinserhoehung-a-8a9b09ea-6211-4dd3-98e0-cda5319ba1b9#ref=rss"
+    "https://www.tagesschau.de/wirtschaft/weltwirtschaft/fed-warsh-rede-100.html"
    ],
-   "punkte": 33,
-   "text": "Fed‑Vorsitzender Warsh signalisierte beim Jackson‑Hole‑Treffen, dass die Geldmenge wieder stärker in den Fokus der Geldpolitik rückt und er offen für eine weitere Zinserhöhung ist. Damit könnte die US‑Zinskurve weiter ansteigen und der US‑Dollar gegenüber anderen Währungen an Stärke gewinnen.",
+   "punkte": 13,
+   "text": "Fed‑Offizieller Warsh betonte beim Jackson‑Hole‑Treffen, dass die Geldpolitik nur dann weiter straffen werde, wenn die Inflation eindeutig auf das Ziel zuläuft, und stellte die Geldmenge wieder stärker in den Vordergrund. Er signalisierte damit Offenheit für eine weitere Zinserhöhung, falls die Preisentwicklung nicht schneller zurückgeht.",
    "positiv": [
-    "US‑Dollar (Stärkung)",
-    "Kurzfristige Geldmarkt‑Instrumente (Nachfrage)"
+    "US‑Dollar (Kurzfrist‑Aufwertung)"
    ],
    "negativ": [
-    "US‑Staatsanleihen (Kursverlust)",
-    "Aktien‑Markt (Druck)"
+    "Kurzlaufende Staatsanleihen",
+    "Zins‑sensitve Aktien (z. B. Immobilien, Konsumgüter)"
    ]
   },
   {
-   "id": "522aedbf",
-   "titel": "Wo es trotz Konjunkturflaute noch Jobs gibt",
-   "anriss": "Jahrelang kein Wachstum, das schlägt längst auch auf den Arbeitsmarkt durch. Hinzu kommt der Strukturwandel in der Industrie, der auch Arbeitsplätze kostet. Wo fallen Stellen weg - und wo gibt es neue? Von E. Birkenstock.",
-   "region": "dach",
+   "id": "9a830001",
+   "titel": "Lawmakers added $1 to car insurance policies. That money paid for Flock cameras",
+   "anriss": "Article URL: https://www.texastribune.org/2026/08/28/texas-flock-cameras-auto-insurance-fee-mvcpa-grants/ Comments URL: https://news.ycombinator.com/item?id=49494182 Points: 242 # Comments: 128",
+   "region": "global",
    "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft"
+    "Hacker News Top"
    ],
-   "anzahl": 5,
+   "anzahl": 6,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/lichtblicke-am-arbeitsmarkt-100.html",
-    "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/mehr-als-drei-millionen-arbeitslose-august-100.html",
-    "https://www.spiegel.de/wirtschaft/arbeitslosenzahl-steigt-auf-3-061-millionen-a-03702718-6350-4e2d-b030-80743bbee80b#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/bundesagentur-fuer-arbeit-sechs-millionen-auslaender-beschaeftigt-201167779.html",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/keine-besserung-in-sicht-zahl-der-arbeitslosen-steigt-im-august-auf-3-061-millionen-accg-201167458.html"
+    "https://www.texastribune.org/2026/08/28/texas-flock-cameras-auto-insurance-fee-mvcpa-grants/",
+    "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/",
+    "https://www.theguardian.com/us-news/2026/aug/29/trump-dhs-1509-summons-records-journalists-nonprofits",
+    "https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity",
+    "https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing"
    ],
-   "punkte": 16,
-   "text": "Trotz anhaltender Konjunkturflaute gibt es in Deutschland weiterhin Beschäftigung in Gesundheits‑ und IT‑Dienstleistungen sowie im Bereich erneuerbarer Energien, während traditionelle Industrie‑ und Kohlebranchen Stellen abbauen. Der strukturelle Wandel reduziert Arbeitsplätze in der Fertigung, schafft aber neue Möglichkeiten in zukunftsorientierten Sektoren.",
+   "punkte": 12,
+   "text": "Der texanische Gesetzgeber hat eine zusätzliche Gebühr von einem Dollar pro Kfz‑Versicherungspolice eingeführt, um die Finanzierung von Flock‑Kameras für die Verkehrssicherheit zu sichern. Die Maßnahme erhöht die Kosten für Versicherungsnehmer, während Anbieter von Kamerasystemen von den zusätzlichen Einnahmen profitieren.",
    "positiv": [
-    "Gesundheitswesen (Beschäftigungszuwachs)",
-    "IT‑Dienstleistungen (Beschäftigungszuwachs)",
-    "Erneuerbare Energien (Beschäftigungszuwachs)"
+    "Hersteller von Fahrzeug‑Kamerasystemen"
    ],
    "negativ": [
-    "Traditionelle Industrie (Stellenabbau)",
-    "Kohlebergbau (Stellenabbau)"
+    "Versicherungsnehmer (höhere Prämien)",
+    "Versicherungsunternehmen (Kostensteigerung)"
    ]
   },
   {
@@ -149,170 +139,153 @@
    "anriss": "Anfang des Jahres nahmen US-Spezialkräfte Venezuelas langjährigen Staatschef Nicolás Maduro fest. Nun soll es eine Vereinbarung über Ölvorkommen des Landes geben.",
    "region": "dach",
    "quellen": [
-    "FAZ Wirtschaft",
     "Handelsblatt Finanzen",
     "manager magazin"
    ],
-   "anzahl": 3,
+   "anzahl": 2,
    "links": [
     "https://www.handelsblatt.com/finanzen/maerkte/rohstoff-deal-trump-usa-sichern-sich-riesige-oelvorkommen-in-venezuela/100250481.html",
-    "https://www.faz.net/aktuell/wirtschaft/venezuela-donald-trump-greift-nach-dem-oel-des-landes-201168478.html",
     "https://www.manager-magazin.de/politik/weltwirtschaft/venezuela-usa-sichern-sich-riesige-oelvorkommen-im-krisenstaat-a-94c865b7-d927-494d-81be-2365c7e37625#ref=rss"
    ],
-   "punkte": 13,
-   "text": "Ein von Präsident Trump angekündigter Deal sieht vor, dass die USA bis zu 65 Mrd. Barrel venezolanisches Öl beziehen, nachdem US‑Spezialkräfte den ehemaligen Präsidenten Maduro festgenommen haben. Der potenzielle Import erhöht das Angebot für US‑Raffinerien, birgt jedoch geopolitische Risiken und könnte den Weltölpreis belasten.",
-   "positiv": [
-    "US‑Raffinerien (Zulauf)",
-    "Venezolanische Ölproduktion (Umsatz)"
-   ],
+   "punkte": 9,
+   "text": "Nach der Festnahme des venezolanischen Präsidenten Nicolás Maduro behauptet Präsident Trump, dass die USA Anspruch auf 65 Milliarden Barrel venezolanisches Öl erheben. Die Aussage ist bislang nicht durch offizielle Vereinbarungen bestätigt, sodass die Auswirkungen auf die Öl‑Märkte spekulativ bleiben.",
+   "positiv": [],
    "negativ": [
-    "Weltweiter Rohölpreis (Druck)",
-    "Unternehmen mit starkem Engagement in Sanktionen (Risiko)"
+    "Venezolanische Öl‑Exportindustrie (politisches Risiko)"
    ]
   },
   {
-   "id": "063ccb53",
-   "titel": "Leitzins: Inflation in Frankreich und Spanien zieht an – EZB‑Zinserhöhung erwartet",
-   "anriss": "Die Inflation in Frankreich und Spanien hat im August deutlich angezogen und erhöht den Druck auf die EZB. Experten rechnen deshalb mit einer weiteren Zinserhöhung im September.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "SPIEGEL Wirtschaft"
-   ],
-   "anzahl": 2,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/banken-versicherungen/leitzins-inflation-in-frankreich-und-spanien-zieht-an-ezbzinserhoehung-erwartet/100250363.html",
-    "https://www.spiegel.de/wirtschaft/shein-co-frankreich-erhebt-sondergebuehr-fuer-wegwerfmode-a-241ae085-030d-43b3-a7d5-0c4e9bc48890#ref=rss"
-   ],
-   "punkte": 13,
-   "text": "Die Inflation in Frankreich und Spanien ist im August deutlich gestiegen, was den Druck auf die Europäische Zentralbank erhöht, im September erneut die Leitzinsen anzuheben. Eine weitere Zinserhöhung dürfte den Euro schwächen, die Renditen europäischer Staatsanleihen erhöhen und die Margen europäischer Banken verbessern.",
-   "positiv": [
-    "Europäische Banken (Nettokreditmargen)",
-    "Kurzfristige Euro‑Staatsanleihen (Rendite)"
-   ],
-   "negativ": [
-    "Euro (Kurs)",
-    "Euro‑Zone‑Aktien (Bewertung)"
-   ]
-  },
-  {
-   "id": "7f55f237",
-   "titel": "Gamescom: „GTA 6“ stellt die Gamescom in den Schatten",
-   "anriss": "Die Gaming-Branche steht wirtschaftlich unter Druck. Zwar unterstreicht der Besuch des Bundespräsidenten die Relevanz der Gamescom. Doch ein Spiel stiehlt der Messe die Show.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "heise"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/gamescom-2024-wie-gta-6-der-messe-die-show-stiehlt-201168384.html",
-    "https://www.heise.de/news/Spiele-fuer-alle-Indie-Highlights-auf-der-Gamescom-11433024.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-    "https://www.heise.de/hintergrund/Gamescom-dev-Wie-KI-Agenten-die-Zukunft-der-Spieleentwicklung-beeinflussen-11432506.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus"
-   ],
-   "punkte": 10,
-   "text": "Die Gaming-Branche steht wirtschaftlich unter Druck. Zwar unterstreicht der Besuch des Bundespräsidenten die Relevanz der Gamescom. Doch ein Spiel stiehlt der Messe die Show.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "c9cdd61c",
-   "titel": "Künstliche Intelligenz: Einzigartiger Pakt: Singapurs Banken versprechen KI-Umbau ohne Massenentlassungen",
-   "anriss": "Die Finanzmetropole sieht sich als einer der globalen KI‑Vorreiter. Die Politik sorgt sich vor Jobverlusten. Staat, Banken und Gewerkschaft sollen das gemeinsam verhindern.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "heise"
-   ],
-   "anzahl": 2,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/ki-singapurs-banken-versprechen-ki-umbau-ohne-massenentlassungen/100250302.html",
-    "https://www.heise.de/news/Massiver-Umbau-gekippt-Meta-wollte-KI-nativ-werden-und-scheiterte-11434074.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 9,
-   "text": "Die Finanzmetropole sieht sich als einer der globalen KI‑Vorreiter. Die Politik sorgt sich vor Jobverlusten. Staat, Banken und Gewerkschaft sollen das gemeinsam verhindern.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "be875133",
-   "titel": "Debian votes to allow \"responsible use of generative AI\"",
-   "anriss": "Article URL: https://lwn.net/Articles/1091231/ Comments URL: https://news.ycombinator.com/item?id=49489982 Points: 431 # Comments: 360",
-   "region": "global",
-   "quellen": [
-    "Hacker News Top"
-   ],
-   "anzahl": 7,
-   "links": [
-    "https://lwn.net/Articles/1091231/",
-    "https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing",
-    "https://pwning.systems/posts/llm-memory-program-analysis/",
-    "https://github.com/Lakr233/vphone-cli",
-    "https://anil.recoil.org/notes/rumour-is-the-exploit"
-   ],
-   "punkte": 9,
-   "text": "Article URL: https://lwn.net/Articles/1091231/ Comments URL: https://news.ycombinator.com/item?id=49489982 Points: 431 # Comments: 360",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "493ea3de",
-   "titel": "Amerikaner besorgt wegen wirtschaftlicher Folgen des Iran-Kriegs",
-   "anriss": "Was als kurzer Feldzug geplant war, entwickelt sich zum Desaster für US-Präsident Trump. Die Amerikaner spüren die Folgen des Iran-Kriegs längst im Alltag - sei es im Supermarkt oder an der Zapfsäule. Von Anne Schneider.",
+   "id": "33d78574",
+   "titel": "Iran-Krieg: Rund 400 Schiffe stecken noch im Persischen Golf fest",
+   "anriss": "Die Straße von Hormus sei vollständig geöffnet, behauptet US-Präsident Donald Trump. Neue Zahlen der Weltschifffahrtsorganisation zeigen etwas anderes. Iran räumt derweil schwere wirtschaftliche Schäden durch den Krieg ein.",
    "region": "dach",
    "quellen": [
     "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft"
+    "manager magazin"
    ],
    "anzahl": 2,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/weltwirtschaft/iran-krieg-folgen-usa-100.html",
-    "https://www.spiegel.de/wirtschaft/iran-krieg-rund-400-schiffe-stecken-noch-im-persischen-golf-fest-a-4d1065f9-2c99-4a25-9627-bd56c02d3fe5#ref=rss"
+    "https://www.spiegel.de/wirtschaft/iran-krieg-rund-400-schiffe-stecken-noch-im-persischen-golf-fest-a-4d1065f9-2c99-4a25-9627-bd56c02d3fe5#ref=rss",
+    "https://www.manager-magazin.de/politik/weltwirtschaft/iran-krieg-rund-400-schiffe-und-6000-seeleute-stecken-noch-im-persischen-golf-fest-a-0327c1f8-528c-4068-ae6e-fce6a2af3328#ref=rss"
    ],
    "punkte": 8,
-   "text": "Was als kurzer Feldzug geplant war, entwickelt sich zum Desaster für US-Präsident Trump. Die Amerikaner spüren die Folgen des Iran-Kriegs längst im Alltag - sei es im Supermarkt oder an der Zapfsäule. Von Anne Schneider.",
+   "text": "Rund 400 Schiffe sind nach Angaben der Weltschifffahrtsorganisation weiterhin im Persischen Golf festgefahren, obwohl US‑Präsident Trump die Straße von Hormus als vollständig geöffnet bezeichnet. Die anhaltende Blockade belastet die globale Schifffahrt und den Öltransport, was zu höheren Frachtraten und Unsicherheit für die betroffenen Unternehmen führt.",
+   "positiv": [],
+   "negativ": [
+    "Schifffahrts- und Tanker‑Indizes",
+    "Öl‑Transport‑Kosten",
+    "Iranische Wirtschaft (weiterer Druck)"
+   ]
+  },
+  {
+   "id": "9f813573",
+   "titel": "China: Wie groß die Spionagegefahr bei Autos aus der Volksrepublik ist",
+   "anriss": "Autos aus China filmen Straßen, Gebäude und Menschen: Ein Risiko, sagen deutsche Sicherheitsbehörden. Wie man der Gefahr begegnen kann, zeigt ausgerechnet die Volksrepublik selbst.",
+   "region": "dach",
+   "quellen": [
+    "SPIEGEL Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 2,
+   "links": [
+    "https://www.spiegel.de/wirtschaft/china-wie-gross-die-spionagegefahr-bei-autos-aus-der-volksrepublik-ist-a-a713c544-b763-459e-892f-5a7d2f4d8dbe#ref=rss",
+    "https://www.manager-magazin.de/politik/weltwirtschaft/wie-chinas-roboter-der-konkurrenz-davonlaufen-a-13f59cc1-37bb-4cf5-8340-d5c99ef65e30#ref=rss"
+   ],
+   "punkte": 8,
+   "text": "Autos aus China filmen Straßen, Gebäude und Menschen: Ein Risiko, sagen deutsche Sicherheitsbehörden. Wie man der Gefahr begegnen kann, zeigt ausgerechnet die Volksrepublik selbst.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "366e8753",
+   "titel": "USA: Einwanderungsbehörde ICE bestellt Roboterhunde bei Boston Dynamics",
+   "anriss": "Bei ihren umstrittenen Abschieberazzien könnte die US-Einwanderungsbehörde ICE bald hundeähnliche Roboter nutzen. Die kommen auch in Deutschland bereits zum Einsatz.",
+   "region": "dach",
+   "quellen": [
+    "SPIEGEL Wirtschaft",
+    "heise"
+   ],
+   "anzahl": 2,
+   "links": [
+    "https://www.spiegel.de/wirtschaft/usa-einwanderungsbehoerde-ice-bestellt-roboterhunde-bei-boston-dynamics-a-5569ba2a-0465-45c1-b2dd-bd6266e97bed#ref=rss",
+    "https://www.heise.de/news/Microduck-Der-Entenroboter-aus-Frankreich-11434210.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 8,
+   "text": "Bei ihren umstrittenen Abschieberazzien könnte die US-Einwanderungsbehörde ICE bald hundeähnliche Roboter nutzen. Die kommen auch in Deutschland bereits zum Einsatz.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "c9355013",
+   "titel": "Spritpreise: So stark beeinflussen sie unsere Inflationserwartung",
+   "anriss": "Kein Preis ist im Straßenbild so präsent wie die Notierungen an den Säulen der Tankstellen. Wie steigende Spritpreise die Inflationsdynamik antreiben – und was die Notenbanken damit zu tun haben.",
+   "region": "dach",
+   "quellen": [
+    "manager magazin"
+   ],
+   "anzahl": 1,
+   "links": [
+    "https://www.manager-magazin.de/politik/deutschland/preise-pumpen-psychologie-a-54678d9f-4762-4b05-a007-86ae5dc120d2#ref=rss"
+   ],
+   "punkte": 8,
+   "text": "Kein Preis ist im Straßenbild so präsent wie die Notierungen an den Säulen der Tankstellen. Wie steigende Spritpreise die Inflationsdynamik antreiben – und was die Notenbanken damit zu tun haben.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "6f76282e",
+   "titel": "Siemens: CEO Roland Busch warnt vor zu viel Regulierung bei KI",
+   "anriss": "Siemens-Chef Roland Busch ist von den positiven Effekten der künstlichen Intelligenz überzeugt. Auch sei der KI-Boom keine Blase. Busch warnt im Rennen um die Führungsrolle bei KI-Technologien zugleich vor zu vielen Vorschriften aus Brüssel.",
+   "region": "dach",
+   "quellen": [
+    "heise",
+    "manager magazin"
+   ],
+   "anzahl": 2,
+   "links": [
+    "https://www.manager-magazin.de/unternehmen/tech/siemens-ceo-roland-busch-warnt-vor-zu-viel-regulierung-bei-ki-a-63be5e38-d0f3-44b4-835d-ac185d68ea9d#ref=rss",
+    "https://www.heise.de/news/Siemens-Chef-warnt-vor-zu-viel-Regulierung-bei-KI-11434313.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 8,
+   "text": "Siemens-Chef Roland Busch ist von den positiven Effekten der künstlichen Intelligenz überzeugt. Auch sei der KI-Boom keine Blase. Busch warnt im Rennen um die Führungsrolle bei KI-Technologien zugleich vor zu vielen Vors",
    "positiv": [],
    "negativ": []
   }
  ],
  "ketten": [
   {
-   "ausloeser": "EZB erhöht den Leitzins im Juni 2024 um 25 Basispunkte",
-   "direkt": "Kurzfristige Aufwertung des Euro gegenüber dem US‑Dollar",
-   "zweite": "Importierte Rohstoffe werden für europäische Unternehmen günstiger, während Exportpreise in Drittländern steigen",
-   "dritte": "Gewinnmargen von europäischen Industrie‑ und Konsumgüterherstellern verbessern sich, während europäische Tourismus‑ und Luftfahrtunternehmen höhere Kosten für ausländische Reisende tragen",
+   "ausloeser": "Federal Reserve erhöht den Leitzins im nächsten Meeting um 25 Basispunkte",
+   "direkt": "US‑Zinskurve steigt, US‑Dollar stärkt sich gegenüber dem Euro, Rohstoffpreise (insbesondere Öl) fallen leicht",
+   "zweite": "Euro‑Wechselkurs schwächt, europäische Export‑ und Industrieaktien (z. B. DAX‑Kernwerte) verlieren an Attraktivität, europäische Anleihezinsen steigen",
+   "dritte": "Erwartungen an die Geldpolitik der EZB lockern sich, Inflationsdruck in der Eurozone wird als geringer eingeschätzt, Risiko‑aversion steigt und Anleger flüchten in sichere Häfen",
    "positiv": [
-    "Euro (EUR/USD)",
-    "Deutsche Bank (DBK.DE)",
-    "Siemens (SIE.DE)",
-    "BASF (BAS.DE)",
-    "Stoxx 600 Energy‑Index (nach niedrigeren Rohstoffpreisen)"
+    "Gold (z. B. Xetra‑Gold‑ETF)",
+    "Europäische Versorgungs‑ und Telekommunikationsunternehmen (z. B. EON, Deutsche Telekom)",
+    "Kurzfristige Euro‑Staatsanleihen mit hoher Bonität (DE10Y, FR10Y)",
+    "Defensive Konsumgüter (z. B. Nestlé, Unilever)"
    ],
    "negativ": [
-    "Airbus (AIR.PA)",
-    "Lufthansa (LHA.DE)",
-    "Euro‑Stoxx 50 Travel‑ und Leisure‑Komponente",
-    "Deutsche Börse (DB1.DE) – wegen geringerer Handelsvolumina im Ausland"
+    "Euro‑Stoxx 50 und DAX‑Index",
+    "Exportorientierte Industrie‑ und Automobilhersteller (z. B. Volkswagen, BMW, Siemens)",
+    "Rohstoff‑bezogene Unternehmen (z. B. BASF, Linde)",
+    "Euro‑Währung (EUR/USD)"
    ],
    "konfidenz": "hoch"
   },
   {
-   "ausloeser": "USA verhängen umfassende Sanktionen, die den Export von 65 Mrd. Barrel venezolanischem Öl an die USA blockieren",
-   "direkt": "Weltweiter Ölpreis‑Schock, Brent‑Crude steigt um ca. 5 % innerhalb von 2 Wochen",
-   "zweite": "Kosten für Treibstoffe und energieintensive Produkte in Europa steigen, Inflationsdruck in den Kernländern Frankreich und Spanien nimmt zu",
-   "dritte": "EZB sieht sich gezwungen, die Zinsausblick‑Prognose zu revidieren und signalisiert mögliche weitere Zinserhöhungen; gleichzeitig steigt das Interesse an europäischen erneuerbaren‑Energie‑ und Gas‑Infrastruktur‑Aktien als Absicherung gegen fossile Preisvolatilität",
+   "ausloeser": "China verschärft die Daten‑ und Sicherheitspflichten für ausländische Automobilhersteller, was zu einer EU‑weit einheitlichen Verschärfung der Auto‑Datenschutz‑Regulierung führt",
+   "direkt": "Deutsche Automobilhersteller (VW, BMW, Mercedes‑Benz) müssen zusätzliche Compliance‑Kosten für Daten‑Sicherheits‑ und Lieferketten‑Audits tragen, Lieferverzögerungen bei chinesischen Komponenten entstehen",
+   "zweite": "Gewinnmargen der europäischen Autohersteller sinken, Aktienkurse der betroffenen Unternehmen fallen, europäische Zulieferer für elektronische Komponenten (z. B. Infineon, Bosch) sehen geringere Aufträge aus China",
+   "dritte": "Investoren verlagern Kapital in Unternehmen mit geringerer Abhängigkeit von chinesischen Märkten, europäische Cyber‑Security‑ und Daten‑Management‑Firmen (z. B. SAP, TeamViewer, Atos) profitieren von steigender Nachfrage nach Compliance‑Lösungen",
    "positiv": [
-    "Eni (ENI.MI) – wegen höherer Margen bei Öl‑Exporten",
-    "TotalEnergies (TTE.PA) – kurzfristig höhere Einnahmen",
-    "Vestas (VWS.CO) – Nachfrage nach Windenergie‑Projekten",
-    "Ørsted (ORSTED.CO) – Ausbau von Offshore‑Wind in Europa",
-    "Euro‑Stoxx 600 Utilities‑Index (nach erneuerbaren Energien)"
+    "Europäische Cyber‑Security‑ und IT‑Dienstleister (SAP, TeamViewer, Atos)",
+    "Europäische Zulieferer mit Fokus auf lokale Produktion (z. B. Continental, ZF Friedrichshafen)",
+    "Defensive Konsumgüter‑ETFs, die nicht stark von China abhängig sind"
    ],
    "negativ": [
-    "Air France‑KLM (AF.PA) – höhere Treibstoffkosten",
-    "Deutsche Post DHL (DPW.DE) – steigende Logistikkosten",
-    "Stoxx 600 Consumer‑Discretionary‑Index (wegen sinkender Kaufkraft)",
-    "Euro‑Stoxx 600 Financials (wegen möglicher Kreditrisiken bei höheren Zinsen)"
+    "Deutsche Automobilhersteller (Volkswagen, BMW, Mercedes‑Benz)",
+    "Europäische Halbleiter‑ und Elektronik‑Zulieferer mit hohem China‑Umsatz (Infineon, Bosch)",
+    "EU‑Auto‑ETF (z. B. iShares MSCI Europe Automobiles & Parts UCITS ETF)"
    ],
    "konfidenz": "mittel"
   }
@@ -455,7 +428,7 @@
     ],
     [
      "Newsletter",
-     "in 3 Clustern"
+     "in 1 Clustern"
     ],
     [
      "Reddit",
@@ -543,13 +516,13 @@
     ],
     [
      "Kursziel",
-     "2001 EUR"
+     "2021 EUR"
     ]
    ],
    "quellen": [
     [
      "Analysten",
-     "39 Kauf / 4 Halten / 1 Verkauf"
+     "38 Kauf / 4 Halten / 1 Verkauf"
     ],
     [
      "Newsletter",
@@ -602,7 +575,7 @@
     ],
     [
      "Newsletter",
-     "in 12 Clustern"
+     "in 5 Clustern"
     ],
     [
      "Reddit",
@@ -788,7 +761,7 @@
     ],
     [
      "Kursziel",
-     "306 USD"
+     "323 USD"
     ]
    ],
    "quellen": [
@@ -819,24 +792,6 @@
   }
  },
  "shorts": [
-  {
-   "land": "NL",
-   "halter": "Goldman Sachs Asset Management International",
-   "emittent": "PostNL N.V.",
-   "prozent": 0.62,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "D. E. Shaw & Co., L.P.",
-   "emittent": "ARCADIS N.V.",
-   "prozent": 0.53,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
   {
    "land": "UK",
    "halter": "Anavio Capital Partners LLP",
@@ -1088,10 +1043,28 @@
    "datum": "2020-09-24",
    "status": "aufgestockt",
    "zuvor": 0.57
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 13.68,
+   "datum": "2019-06-07",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 13.5,
+   "datum": "2019-06-06",
+   "status": "aufgestockt",
+   "zuvor": 0.53
   }
  ],
  "shorts_kennzahlen": {
-  "neu_diese_woche": 2,
+  "neu_diese_woche": 0,
   "meistgeshortet": {
    "name": "Premier Oil PLC",
    "summe": 2145.63
@@ -1104,14 +1077,6 @@
  },
  "gespraech": [],
  "termine": [
-  {
-   "datum": "2026-08-29",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
   {
    "datum": "2026-08-30",
    "zeit": "",
@@ -1199,8 +1164,16 @@
    "was": "FOMC Press Release",
    "konsens": "",
    "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-08",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 128,
+ "meldungen_gesamt": 57,
  "llm_aktiv": true
 }
