@@ -1,9 +1,9 @@
 {
- "stand": "2026-08-31T07:03",
- "lauf": "2026083107",
+ "stand": "2026-08-31T10:03",
+ "lauf": "2026083110",
  "synthese": {
-  "kern": "Makro‑Risiken dominieren, während strukturelle Belastungen – Energiepreise, Rechtsunsicherheit – im Hintergrund verblassen.",
-  "erlaeuterung": "Die Meldungen verbinden steigende Energie‑ und Kraftstoffpreise, geopolitische Spannungen und regulatorische Unsicherheiten, die die Risikoappetit‑ und Liquiditätswerte belasten. Der Markt konzentriert sich auf Zins‑ und Inflationsängste, vernachlässigt jedoch die langfristigen Belastungen durch hohe Stromkosten und Rechtsrisiken."
+  "kern": "Globale Unsicherheit über Geldströme, Inflation und geopolitische Risiken wird von kurzfristigen Marktbewegungen überdeckt.",
+  "erlaeuterung": "Investoren fokussieren sich auf steigende Zinsdruck‑Indikatoren, volatile Ölpreise und einzelne Unternehmens‑Events, während strukturelle Kapitalflüsse und geopolitische Spannungen vernachlässigt werden. Dies birgt das Risiko, dass breitere makroökonomische Trends erst später Preisbewegungen korrigieren."
  },
  "regime": [
   {
@@ -36,23 +36,23 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 56,
-     "delta": 2
+     "wert": 57,
+     "delta": 3
     },
     "eur": {
-     "wert": 75,
-     "delta": -2
+     "wert": 74,
+     "delta": -3
     }
    },
-   "differenz": 19
+   "differenz": 17
   },
   {
    "name": "risikoappetit",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 91,
-     "delta": 11
+     "wert": 87,
+     "delta": 10
     }
    }
   },
@@ -84,28 +84,78 @@
  ],
  "cluster": [
   {
-   "id": "dcb5323b",
-   "titel": "Deutschland hat unter G20-Staaten die höchsten Strompreise",
-   "anriss": "Seit Langem beklagen Wirtschaftsverbände den im internationalen Vergleich hohen Strompreis in Deutschland. Eine Analyse des Portals Verivox hat nun ergeben: Unter den G20-Ländern ist Strom hierzulande am teuersten.",
+   "id": "d0118875",
+   "titel": "Rasanter Anstieg bei ausländischen Investitionen in Deutschland",
+   "anriss": "Deutschland bleibt für ausländische Unternehmen attraktiv - ihre Direktinvestitionen sind einer Studie zufolge im vergangenen Jahr deutlich gestiegen. Allerdings hat sich verändert, woher das Geld kommt.",
    "region": "dach",
    "quellen": [
     "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 3,
+   "anzahl": 4,
    "links": [
+    "https://www.tagesschau.de/wirtschaft/konjunktur/iw-auslaendische-investitionen-100.html",
     "https://www.tagesschau.de/wirtschaft/verbraucher/deutschland-strompreise-vergleich-100.html",
     "https://www.spiegel.de/wirtschaft/deutsche-wirtschaft-ist-wieder-attraktiv-fuer-investoren-a-737da937-ed76-4c89-821d-174c2f926496#ref=rss",
     "https://www.manager-magazin.de/politik/weltwirtschaft/iw-studie-deutsche-wirtschaft-ist-wieder-attraktiv-fuer-investoren-a-ced454b2-672d-4a65-af96-7b53f424fb14#ref=rss"
    ],
-   "punkte": 12,
-   "text": "Eine Analyse von Verivox zeigt, dass Deutschland innerhalb der G20 die höchsten Strompreise hat. Die hohen Kosten belasten insbesondere energieintensive Unternehmen und private Verbraucher, während Anbieter erneuerbarer Energien von steigender Nachfrage profitieren könnten.",
+   "punkte": 14,
+   "text": "Ausländische Direktinvestitionen in Deutschland sind im vergangenen Jahr deutlich gestiegen, wobei sich die Herkunftsländer der Mittel verändert haben. Die Entwicklung unterstreicht die anhaltende Attraktivität des deutschen Standorts für ausländische Unternehmen.",
    "positiv": [
-    "Erneuerbare‑Energien‑Anbieter"
+    "Ausländische Direktinvestitionen (FDI) nach Deutschland",
+    "Deutsche Unternehmenswerte"
+   ],
+   "negativ": []
+  },
+  {
+   "id": "afa9762b",
+   "titel": "Gaming-Branche kämpft trotz Rekordzahlen um Anschluss an Weltspitze",
+   "anriss": "Die Games-Branche boomt, doch deutsche Studios kämpfen trotz Rekordzahlen um den Anschluss an die Weltspitze. Wo sind die Hürden für heimische Entwickler? Jan Koch zieht Bilanz der Spielemesse Gamescom.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "heise"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/digitales/gamescom-240.html",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/so-war-die-gamescom-2026-accg-201169762.html",
+    "https://www.heise.de/news/Besucherzahl-der-Gamescom-naehert-sich-ihrem-Allzeit-Hoch-11434875.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 12,
+   "text": "Die globale Gaming‑Branche verzeichnet Rekordumsätze, während deutsche Studios trotz guter Zahlen Schwierigkeiten haben, das internationale Spitzenniveau zu erreichen. Hürden wie Finanzierung, Skalierbarkeit und Internationalisierung bremsen die Wettbewerbsfähigkeit heimischer Entwickler.",
+   "positiv": [
+    "Weltweiter Gaming‑Markt"
    ],
    "negativ": [
-    "Stromverbraucher (Industrie, Haushalte)"
+    "Deutsche Spieleentwickler",
+    "Deutsche Gaming‑Branche"
+   ]
+  },
+  {
+   "id": "458da8f6",
+   "titel": "Dax aktuell: Dax notiert im Minus – Ölpreis steigt",
+   "anriss": "Der Dax steuert weiter auf die Rekordmarke von 27.000 Punkten zu. Anlegerinnen können am Montag auf neue Konjunkturdaten aus Deutschland hoffen.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "manager magazin"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-notiert-im-minus-oelpreis-steigt/100250724.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sieben-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
+    "https://www.manager-magazin.de/finanzen/boerse/boerse-moderator-dax-ruecksetzer-nach-rekordhoch-a-cec5a803-e5c8-41c9-b024-87e5e2788c5c#ref=rss"
+   ],
+   "punkte": 12,
+   "text": "Der DAX notiert aktuell im Minus, obwohl er sich weiter Richtung einer historischen Marke von 27.000 Punkten bewegt. Gleichzeitig steigt der Ölpreis, was die Rohstoffmärkte beflügelt, aber die deutsche Konjunktur‑Ausblick‑Daten am Montag könnten die Stimmung beeinflussen.",
+   "positiv": [
+    "Ölpreis"
+   ],
+   "negativ": [
+    "DAX"
    ]
   },
   {
@@ -125,12 +175,33 @@
     "https://www.heise.de/news/Lake-America-statt-Lake-Ontario-Google-Maps-folgt-Donald-Trumps-Vorgabe-11434755.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
    "punkte": 12,
-   "text": "Ein ehemaliger Teleprompter‑Mitarbeiter des Weißen Hauses wurde wegen Insiderhandels zu einer Geldstrafe von 173.000 USD verurteilt. Der Vorfall erhöht das regulatorische Risiko für den US‑Aktienmarkt und kann das Vertrauen in Unternehmen, die stark von politischen Aussagen abhängen, mindern.",
+   "text": "Ein ehemaliger Teleprompter‑Mitarbeiter des Weißen Hauses hat wegen Insiderhandels eine Geldstrafe von 173.000 USD erhalten. Der Vorfall erhöht das politische Risiko‑ und Compliance‑Bewusstsein und kann das Vertrauen in US‑Aktien kurzfristig belasten.",
    "positiv": [],
    "negativ": [
-    "US‑Aktienmarkt",
-    "Finanzdienstleister (Handelsplattformen)"
+    "US-Aktien",
+    "Politisches Risiko in den USA"
    ]
+  },
+  {
+   "id": "8ff81479",
+   "titel": "Disaffection at Work: Employee Responses to Job-Related Information",
+   "anriss": "arXiv:2608.27538v1 Announce Type: new Abstract: Quiet quitting reflects a form of worker disaffection that operates along the intensive margin of labor supply rather than through job exit. We study how alternative workplace narratives shape workers' behavioral responses using a randomized survey exp",
+   "region": "global",
+   "quellen": [
+    "arXiv q-fin"
+   ],
+   "anzahl": 10,
+   "links": [
+    "https://arxiv.org/abs/2608.27538",
+    "https://arxiv.org/abs/2608.27575",
+    "https://arxiv.org/abs/2608.27598",
+    "https://arxiv.org/abs/2608.27734",
+    "https://arxiv.org/abs/2608.27980"
+   ],
+   "punkte": 12,
+   "text": "arXiv:2608.27538v1 Announce Type: new Abstract: Quiet quitting reflects a form of worker disaffection that operates along the intensive margin of labor supply rather than through job exit. We study how alternative workpl",
+   "positiv": [],
+   "negativ": []
   },
   {
    "id": "a825556b",
@@ -146,17 +217,13 @@
     "https://www.heise.de/news/Chinesischer-Speicherhersteller-CXMT-verklagt-Pentagon-wegen-schwarzer-Liste-11434739.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
    "punkte": 10,
-   "text": "Nvidia hat die geplante Umsatzbeteiligung an KI‑Servern eingestellt und sieht sich einer Klage wegen einer Pentagon‑Blacklist gegenüber. Zusätzlich klagen CXMT und mehrere Musikverlage gegen die Blacklist‑Entscheidung bzw. gegen Anthropic, was die betroffenen Unternehmen unter Druck setzt.",
+   "text": "Keine Umsatzbeteiligung an KI-Servern + CXMT-Klage gegen schwarze Liste + Musikverlage gegen Anthropic + Rückschau auf IFA-Jahrhundert + DLSS 5 als Spiele-Mod",
    "positiv": [],
-   "negativ": [
-    "Nvidia",
-    "CXMT (Chinesischer Chiphersteller)",
-    "Anthropic"
-   ]
+   "negativ": []
   },
   {
-   "id": "ec940f1b",
-   "titel": "Nikkei, Yen, Hang Seng: Zinssorgen und Nahost-Konflikt drücken asiatische Börsen ins Minus",
+   "id": "f536cd1e",
+   "titel": "Nikkei, Yen, Hang Seng: Zinssorgen und Nahost-Konflikt: Asiatische Börsen schließen im Minus",
    "anriss": "Die Angst vor einer Zinswende und der erneut eskalierende Militärkonflikt im Nahen Osten haben die asiatischen Börsen zum Wochenauftakt belastet.",
    "region": "dach",
    "quellen": [
@@ -165,94 +232,38 @@
    ],
    "anzahl": 2,
    "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-yen-hang-seng-zinssorgen-und-nahost-konflikt-druecken-asiatische-boersen-ins-minus/100250695.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-yen-hang-seng-asiatische-boersen-schliessen-im-minus/100250695.html",
     "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-iran-geldanlage-102.html"
    ],
    "punkte": 9,
-   "text": "Zinsängste und die Eskalation des Nahost‑Konflikts haben die asiatischen Börsen zu Kursverlusten geführt, wobei der Nikkei, der Hang Seng und der Yen betroffen sind. Die Unsicherheit belastet die regionalen Aktienmärkte und erhöht die Volatilität in der Region.",
+   "text": "Die Angst vor einer Zinswende und der erneut eskalierende Militärkonflikt im Nahen Osten haben die asiatischen Börsen zum Wochenauftakt belastet.",
    "positiv": [],
-   "negativ": [
-    "Asiatische Aktienmärkte (Nikkei, Hang Seng)",
-    "Yen (Verlust durch Risikoaversion)"
-   ]
+   "negativ": []
   },
   {
-   "id": "afa9762b",
-   "titel": "Gaming-Branche kämpft trotz Rekordzahlen um Anschluss an Weltspitze",
-   "anriss": "Die Games-Branche boomt, doch deutsche Studios kämpfen trotz Rekordzahlen um den Anschluss an die Weltspitze. Wo sind die Hürden für heimische Entwickler? Jan Koch zieht Bilanz der Spielemesse Gamescom.",
+   "id": "e6e0e88d",
+   "titel": "Immobilien: Chinesische Immobilienaktien geben wegen neuen Finanzierungsregeln nach",
+   "anriss": "Die chinesische Finanzaufsicht reagiert auf den kriselnden Immobilienmarkt mit neuen Regeln. Der Nachteil: Sie belasten laut Experten die Investitionskapazitäten von Unternehmen.",
    "region": "dach",
    "quellen": [
-    "FAZ Wirtschaft",
-    "Tagesschau Wirtschaft"
+    "Handelsblatt Finanzen"
    ],
    "anzahl": 2,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/digitales/gamescom-240.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/so-war-die-gamescom-2026-accg-201169762.html"
+    "https://www.handelsblatt.com/finanzen/immobilien/china-immobilienaktien-geben-wegen-neuen-finanzierungsregeln-nach/100250776.html",
+    "https://www.handelsblatt.com/finanzen/immobilien/extremwetter-diese-fassade-soll-immobilien-in-staedten-vor-starkregen-schuetzen/100241425.html"
    ],
    "punkte": 8,
-   "text": "Die Games-Branche boomt, doch deutsche Studios kämpfen trotz Rekordzahlen um den Anschluss an die Weltspitze. Wo sind die Hürden für heimische Entwickler? Jan Koch zieht Bilanz der Spielemesse Gamescom.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "3bad57a6",
-   "titel": "Business-Ticker: US-Notenbankchef verschreckt Asiens Börsen",
-   "anriss": "Börsen fürchten steigende US-Zinsen +++ Biontech stoppt Darmkrebs-Studie +++ Was passiert mit den Filialen der insolventen Baumarktkette Hellweg? +++ Chemieindustrie bewertet Geschäftslage erstmals seit vier Jahren positiv +++ Neuigkeiten im Unternehmen-Liveblog.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft"
-   ],
-   "anzahl": 1,
-   "links": [
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-us-notenbankpraesident-schickt-asiens-boersen-auf-talfahrt-faz-200452404.html"
-   ],
-   "punkte": 8,
-   "text": "Börsen fürchten steigende US-Zinsen +++ Biontech stoppt Darmkrebs-Studie +++ Was passiert mit den Filialen der insolventen Baumarktkette Hellweg? +++ Chemieindustrie bewertet Geschäftslage erstmals seit vier Jahren posit",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "c9355013",
-   "titel": "Spritpreise: So stark beeinflussen sie unsere Inflationserwartung",
-   "anriss": "Kein Preis ist im Straßenbild so präsent wie die Notierungen an den Säulen der Tankstellen. Wie steigende Spritpreise die Inflationsdynamik antreiben – und was die Notenbanken damit zu tun haben.",
-   "region": "dach",
-   "quellen": [
-    "manager magazin"
-   ],
-   "anzahl": 1,
-   "links": [
-    "https://www.manager-magazin.de/politik/deutschland/preise-pumpen-psychologie-a-54678d9f-4762-4b05-a007-86ae5dc120d2#ref=rss"
-   ],
-   "punkte": 8,
-   "text": "Kein Preis ist im Straßenbild so präsent wie die Notierungen an den Säulen der Tankstellen. Wie steigende Spritpreise die Inflationsdynamik antreiben – und was die Notenbanken damit zu tun haben.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "8ff81479",
-   "titel": "Disaffection at Work: Employee Responses to Job-Related Information",
-   "anriss": "arXiv:2608.27538v1 Announce Type: new Abstract: Quiet quitting reflects a form of worker disaffection that operates along the intensive margin of labor supply rather than through job exit. We study how alternative workplace narratives shape workers' behavioral responses using a randomized survey exp",
-   "region": "global",
-   "quellen": [
-    "arXiv q-fin"
-   ],
-   "anzahl": 6,
-   "links": [
-    "https://arxiv.org/abs/2608.27538",
-    "https://arxiv.org/abs/2608.27575",
-    "https://arxiv.org/abs/2608.27598",
-    "https://arxiv.org/abs/2608.27980",
-    "https://arxiv.org/abs/2608.28397"
-   ],
-   "punkte": 8,
-   "text": "arXiv:2608.27538v1 Announce Type: new Abstract: Quiet quitting reflects a form of worker disaffection that operates along the intensive margin of labor supply rather than through job exit. We study how alternative workpl",
+   "text": "Die chinesische Finanzaufsicht reagiert auf den kriselnden Immobilienmarkt mit neuen Regeln. Der Nachteil: Sie belasten laut Experten die Investitionskapazitäten von Unternehmen.",
    "positiv": [],
    "negativ": []
   }
  ],
  "ketten": [],
- "gegenthese": null,
+ "gegenthese": {
+  "konsens": "Markt ist risk‑avers, DAX und Asien‑Indizes im Minus, Fokus auf makro‑politische Risiken und regulatorische Eingriffe.",
+  "gegen": "Trotz kurzfristiger Schwäche zeigen Fundamentaldaten wie steigende Auslandsinvestitionen, Rekord‑Gaming‑Umsätze und anhaltende Nachfrage nach Rechenzentren robuste Wachstumspotenziale."
+ },
  "matrix": [
   {
    "ticker": "SU.PA",
@@ -368,11 +379,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "127.4 Mrd"
+     "123.3 Mrd"
     ],
     [
      "KGV (erw.)",
-     "24,2"
+     "23,4"
     ],
     [
      "Umsatzwachstum",
@@ -405,13 +416,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Analysten‑Stimmungsbild ist stark positiv (19 Kauf‑Empfehlungen). Umsatzwachstum von +18 % zeigt operative Stärke. Das Kurs‑Gewinn‑Verhältnis von 24,2 liegt im Branchendurchschnitt. Das Kursziel von 197 € impliziert weiteres Aufwärtspotenzial. Segmente Gas Services und Grid Technologies profitieren von steigender Energie‑Nachfrage.",
-   "dagegen": "Hohe Verschuldung und Margendruck belasten die Bilanz. Wind‑Turbinen‑Qualitätsprobleme könnten das Vertrauen in Siemens Gamesa schwächen. Das KGV von 24,2 kann als überbewertet gelten, wenn das Wachstum nachlässt. Widerspruch: Analysten sind bullish, während Newsletter‑ und Reddit‑Präsenz gering ist, was auf geringe Markt‑Aufmerksamkeit hindeutet.",
-   "katalysatoren": [
-    "Zulassung und Serienstart der neuen 4.X‑Windturbine",
-    "Abschluss großer Service‑Verträge für Gasturbinen in Asien",
-    "Umsetzung des Kosten‑ und Digitalisierungsprogramms im Segment Transformation of Industry"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "RHM.DE": {
    "ticker": "RHM.DE",
@@ -421,11 +428,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "53.9 Mrd"
+     "53.0 Mrd"
     ],
     [
      "KGV (erw.)",
-     "21,6"
+     "21,2"
     ],
     [
      "Umsatzwachstum",
@@ -470,11 +477,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "574.0 Mrd"
+     "568.1 Mrd"
     ],
     [
      "KGV (erw.)",
-     "28,9"
+     "28,6"
     ],
     [
      "Umsatzwachstum",
@@ -519,11 +526,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "169.6 Mrd"
+     "168.8 Mrd"
     ],
     [
      "KGV (erw.)",
-     "25,0"
+     "24,9"
     ],
     [
      "Umsatzwachstum",
@@ -541,7 +548,7 @@
     ],
     [
      "Newsletter",
-     "in 6 Clustern"
+     "in 8 Clustern"
     ],
     [
      "Reddit",
@@ -590,7 +597,7 @@
     ],
     [
      "Newsletter",
-     "nicht erwaehnt"
+     "in 1 Clustern"
     ],
     [
      "Reddit",
@@ -1140,6 +1147,6 @@
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 77,
+ "meldungen_gesamt": 102,
  "llm_aktiv": false
 }
