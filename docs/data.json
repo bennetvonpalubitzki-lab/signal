@@ -1,9 +1,9 @@
 {
- "stand": "2026-08-31T10:03",
- "lauf": "2026083110",
+ "stand": "2026-08-31T13:04",
+ "lauf": "2026083113",
  "synthese": {
-  "kern": "Globale Unsicherheit über Geldströme, Inflation und geopolitische Risiken wird von kurzfristigen Marktbewegungen überdeckt.",
-  "erlaeuterung": "Investoren fokussieren sich auf steigende Zinsdruck‑Indikatoren, volatile Ölpreise und einzelne Unternehmens‑Events, während strukturelle Kapitalflüsse und geopolitische Spannungen vernachlässigt werden. Dies birgt das Risiko, dass breitere makroökonomische Trends erst später Preisbewegungen korrigieren."
+  "kern": "Globale Inflation, steigende Investitionen und geopolitische Risiken überlagern schwächelnde Liquidität und Energieunsicherheit.",
+  "erlaeuterung": "Während die Märkte den starken Investitionsfluss nach Deutschland und die Rekordzahlen im Gaming feiern, vernachlässigen sie die anhaltende Liquiditätsknappheit und die Risiken im Energiesektor. Zusätzlich belasten steigende Inflation, geopolitische Spannungen und rückläufige US‑Liquidität die Risikobereitschaft, was die aktuelle Marktstimmung trübt."
  },
  "regime": [
   {
@@ -51,8 +51,8 @@
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 87,
-     "delta": 10
+     "wert": 86,
+     "delta": 9
     }
    }
   },
@@ -84,6 +84,36 @@
  ],
  "cluster": [
   {
+   "id": "f96ce197",
+   "titel": "Inflation: Teuerung in Deutschland steigt im August auf 2,9 Prozent",
+   "anriss": "Nach einem Zwischentief ist die Inflation wieder auf dem Vormarsch. Auch in anderen Teilen der Euro-Zone zieht die Teuerung im August wieder an.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 5,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/geldpolitik/inflation-teuerung-in-deutschland-steigt-im-august-auf-29-prozent/100248643.html",
+    "https://www.tagesschau.de/wirtschaft/konjunktur/inflation-august-anstieg-100.html",
+    "https://www.spiegel.de/wirtschaft/teure-energie-treibt-inflation-niedrigwasser-trifft-nrw-verbraucher-a-28d28417-8bab-4d60-98dd-58d50cbe4155#ref=rss",
+    "https://www.manager-magazin.de/politik/deutschland/spritpreise-so-stark-beeinflussen-sie-unsere-inflationserwartung-a-54678d9f-4762-4b05-a007-86ae5dc120d2#ref=rss",
+    "https://www.manager-magazin.de/politik/deutschland/inflation-steigende-energiepreise-treiben-teuerungsrate-auf-2-9-prozent-a-a61c253f-8fd8-4ccf-856b-f0166bf92d47#ref=rss"
+   ],
+   "punkte": 23,
+   "text": "Die Verbraucherpreisrate in Deutschland ist im August auf 2,9 % gestiegen, nachdem sie im Vorquartal ein Zwischentief verzeichnet hatte. Auch in mehreren Euro‑Zonen‑Ländern ist die Teuerung im gleichen Zeitraum wieder angezogen.",
+   "positiv": [
+    "Rohstoffe (Preissteigerung)",
+    "Inflationsgeschützte Anleihen (Kurszuwachs)"
+   ],
+   "negativ": [
+    "Nominale Staatsanleihen (Kursverlust)",
+    "Euro (Abwertung gegenüber USD)"
+   ]
+  },
+  {
    "id": "d0118875",
    "titel": "Rasanter Anstieg bei ausländischen Investitionen in Deutschland",
    "anriss": "Deutschland bleibt für ausländische Unternehmen attraktiv - ihre Direktinvestitionen sind einer Studie zufolge im vergangenen Jahr deutlich gestiegen. Allerdings hat sich verändert, woher das Geld kommt.",
@@ -97,14 +127,14 @@
    "links": [
     "https://www.tagesschau.de/wirtschaft/konjunktur/iw-auslaendische-investitionen-100.html",
     "https://www.tagesschau.de/wirtschaft/verbraucher/deutschland-strompreise-vergleich-100.html",
-    "https://www.spiegel.de/wirtschaft/deutsche-wirtschaft-ist-wieder-attraktiv-fuer-investoren-a-737da937-ed76-4c89-821d-174c2f926496#ref=rss",
+    "https://www.spiegel.de/wirtschaft/deutsche-wirtschaft-ist-wieder-attraktiv-fuer-investoren-fusionen-uebernahmen-beteiligungen-a-737da937-ed76-4c89-821d-174c2f926496#ref=rss",
     "https://www.manager-magazin.de/politik/weltwirtschaft/iw-studie-deutsche-wirtschaft-ist-wieder-attraktiv-fuer-investoren-a-ced454b2-672d-4a65-af96-7b53f424fb14#ref=rss"
    ],
    "punkte": 14,
-   "text": "Ausländische Direktinvestitionen in Deutschland sind im vergangenen Jahr deutlich gestiegen, wobei sich die Herkunftsländer der Mittel verändert haben. Die Entwicklung unterstreicht die anhaltende Attraktivität des deutschen Standorts für ausländische Unternehmen.",
+   "text": "Ausländische Direktinvestitionen in Deutschland haben im vergangenen Jahr deutlich zugenommen, wobei sich die Herkunftsländer der Mittel verschoben haben. Deutschland bleibt damit ein attraktiver Standort für internationale Unternehmen.",
    "positiv": [
-    "Ausländische Direktinvestitionen (FDI) nach Deutschland",
-    "Deutsche Unternehmenswerte"
+    "Deutsche Industrie‑ und Exportaktien (Nachfragezuwachs)",
+    "Immobilienmarkt (Investitionszufluss)"
    ],
    "negativ": []
   },
@@ -125,37 +155,12 @@
     "https://www.heise.de/news/Besucherzahl-der-Gamescom-naehert-sich-ihrem-Allzeit-Hoch-11434875.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
    "punkte": 12,
-   "text": "Die globale Gaming‑Branche verzeichnet Rekordumsätze, während deutsche Studios trotz guter Zahlen Schwierigkeiten haben, das internationale Spitzenniveau zu erreichen. Hürden wie Finanzierung, Skalierbarkeit und Internationalisierung bremsen die Wettbewerbsfähigkeit heimischer Entwickler.",
+   "text": "Die globale Gaming‑Branche verzeichnet Rekordumsätze, doch deutsche Studios verlieren gegenüber internationalen Wettbewerbern an Marktanteilen. Jan Koch identifiziert strukturelle Hürden, die den Anschluss an die Weltspitze erschweren.",
    "positiv": [
-    "Weltweiter Gaming‑Markt"
+    "Weltweite Gaming‑Aktien (Umsatzwachstum)"
    ],
    "negativ": [
-    "Deutsche Spieleentwickler",
-    "Deutsche Gaming‑Branche"
-   ]
-  },
-  {
-   "id": "458da8f6",
-   "titel": "Dax aktuell: Dax notiert im Minus – Ölpreis steigt",
-   "anriss": "Der Dax steuert weiter auf die Rekordmarke von 27.000 Punkten zu. Anlegerinnen können am Montag auf neue Konjunkturdaten aus Deutschland hoffen.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-notiert-im-minus-oelpreis-steigt/100250724.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sieben-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
-    "https://www.manager-magazin.de/finanzen/boerse/boerse-moderator-dax-ruecksetzer-nach-rekordhoch-a-cec5a803-e5c8-41c9-b024-87e5e2788c5c#ref=rss"
-   ],
-   "punkte": 12,
-   "text": "Der DAX notiert aktuell im Minus, obwohl er sich weiter Richtung einer historischen Marke von 27.000 Punkten bewegt. Gleichzeitig steigt der Ölpreis, was die Rohstoffmärkte beflügelt, aber die deutsche Konjunktur‑Ausblick‑Daten am Montag könnten die Stimmung beeinflussen.",
-   "positiv": [
-    "Ölpreis"
-   ],
-   "negativ": [
-    "DAX"
+    "Deutsche Spieleentwickler‑Aktien (Wettbewerbsnachteil)"
    ]
   },
   {
@@ -171,15 +176,14 @@
    "anzahl": 3,
    "links": [
     "https://www.spiegel.de/wirtschaft/donald-trump-teleprompter-mitarbeiter-zahlt-173-000-dollar-wegen-insiderhandels-a-bc56d2c5-0327-4714-b822-7d05352a5fa2#ref=rss",
-    "https://www.manager-magazin.de/politik/weltwirtschaft/iran-krieg-rund-400-schiffe-und-6000-seeleute-stecken-noch-im-persischen-golf-fest-a-0327c1f8-528c-4068-ae6e-fce6a2af3328#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/mobilitaet/general-motors-gm-plant-milliardeninvestition-in-kanada-trotz-zolldrohungen-a-c38d9271-93ac-4bff-8370-23f4a6ef7abc#ref=rss",
     "https://www.heise.de/news/Lake-America-statt-Lake-Ontario-Google-Maps-folgt-Donald-Trumps-Vorgabe-11434755.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
    "punkte": 12,
-   "text": "Ein ehemaliger Teleprompter‑Mitarbeiter des Weißen Hauses hat wegen Insiderhandels eine Geldstrafe von 173.000 USD erhalten. Der Vorfall erhöht das politische Risiko‑ und Compliance‑Bewusstsein und kann das Vertrauen in US‑Aktien kurzfristig belasten.",
+   "text": "Ein ehemaliger Teleprompter‑Mitarbeiter des Weißen Hauses wurde wegen Insiderhandels zu einer Geldstrafe von 173.000 USD verurteilt. Der Vorfall wirft ein Licht auf mögliche Compliance‑Risiken im politischen Umfeld der USA.",
    "positiv": [],
    "negativ": [
-    "US-Aktien",
-    "Politisches Risiko in den USA"
+    "US‑Aktienmarkt (kurzfristige Unsicherheit)"
    ]
   },
   {
@@ -204,6 +208,46 @@
    "negativ": []
   },
   {
+   "id": "44111e7f",
+   "titel": "Pflegekassen im ersten Halbjahr mit 770 Millionen Euro Minus",
+   "anriss": "Die Pflegekassen haben im ersten Halbjahr ein Minus von 770 Millionen Euro eingefahren. Der Spitzenverband warnt: Schon im Oktober könnten die Einnahmen nicht mehr reichen, um Pflegeleistungen voll zu finanzieren.",
+   "region": "dach",
+   "quellen": [
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/finanzen/pflegeversicherung-defizit-ausgaben-100.html",
+    "https://www.spiegel.de/wirtschaft/pflegeversicherung-was-der-weckruf-der-kassen-bedeutet-a-c56f78f5-4f35-4066-a990-7c7d1235ba40#ref=rss",
+    "https://www.spiegel.de/wirtschaft/pflegeversicherung-den-kassen-geht-das-geld-aus-a-1e453255-e306-4eb7-b6cb-4888b13c89f6#ref=rss"
+   ],
+   "punkte": 10,
+   "text": "Die Pflegekassen haben im ersten Halbjahr ein Minus von 770 Millionen Euro eingefahren. Der Spitzenverband warnt: Schon im Oktober könnten die Einnahmen nicht mehr reichen, um Pflegeleistungen voll zu finanzieren.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "dc563960",
+   "titel": "OHB: Raumfahrtkonzern erhält Milliardenauftrag für EU-Satellitennetz IRIS",
+   "anriss": "Das europäische Satellitennetzwerk IRIS soll ab 2030 eine krisenfeste Kommunikation für Regierungen und Wirtschaft gewährleisten. OHB-Chef Marco Fuchs hat sich bei dem umfangreichen Projekt nun einen Milliardenauftrag gesichert.",
+   "region": "dach",
+   "quellen": [
+    "heise",
+    "manager magazin"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.manager-magazin.de/unternehmen/industrie/ohb-raumfahrtkonzern-erhaelt-milliardenauftrag-fuer-eu-satellitennetz-iris-a-ab742589-05f2-496d-a933-a412eb06272f#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/tech/airbus-us-satellitengeschaeft-soll-fuer-europaeischen-marktfuehrer-weichen-a-0ba0e717-b1f0-4603-9911-247636934dc3#ref=rss",
+    "https://www.heise.de/news/Sicheres-Netz-aus-dem-All-OHB-bekommt-Milliardenauftrag-fuer-Iris2-11435376.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 10,
+   "text": "Das europäische Satellitennetzwerk IRIS soll ab 2030 eine krisenfeste Kommunikation für Regierungen und Wirtschaft gewährleisten. OHB-Chef Marco Fuchs hat sich bei dem umfangreichen Projekt nun einen Milliardenauftrag ge",
+   "positiv": [],
+   "negativ": []
+  },
+  {
    "id": "a825556b",
    "titel": "Montag: Nvidias Rechenzentrumsförderung gestoppt, Klage wegen Pentagon-Blacklist",
    "anriss": "Keine Umsatzbeteiligung an KI-Servern + CXMT-Klage gegen schwarze Liste + Musikverlage gegen Anthropic + Rückschau auf IFA-Jahrhundert + DLSS 5 als Spiele-Mod",
@@ -220,49 +264,52 @@
    "text": "Keine Umsatzbeteiligung an KI-Servern + CXMT-Klage gegen schwarze Liste + Musikverlage gegen Anthropic + Rückschau auf IFA-Jahrhundert + DLSS 5 als Spiele-Mod",
    "positiv": [],
    "negativ": []
-  },
-  {
-   "id": "f536cd1e",
-   "titel": "Nikkei, Yen, Hang Seng: Zinssorgen und Nahost-Konflikt: Asiatische Börsen schließen im Minus",
-   "anriss": "Die Angst vor einer Zinswende und der erneut eskalierende Militärkonflikt im Nahen Osten haben die asiatischen Börsen zum Wochenauftakt belastet.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "Tagesschau Wirtschaft"
-   ],
-   "anzahl": 2,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-yen-hang-seng-asiatische-boersen-schliessen-im-minus/100250695.html",
-    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-iran-geldanlage-102.html"
-   ],
-   "punkte": 9,
-   "text": "Die Angst vor einer Zinswende und der erneut eskalierende Militärkonflikt im Nahen Osten haben die asiatischen Börsen zum Wochenauftakt belastet.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "e6e0e88d",
-   "titel": "Immobilien: Chinesische Immobilienaktien geben wegen neuen Finanzierungsregeln nach",
-   "anriss": "Die chinesische Finanzaufsicht reagiert auf den kriselnden Immobilienmarkt mit neuen Regeln. Der Nachteil: Sie belasten laut Experten die Investitionskapazitäten von Unternehmen.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen"
-   ],
-   "anzahl": 2,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/immobilien/china-immobilienaktien-geben-wegen-neuen-finanzierungsregeln-nach/100250776.html",
-    "https://www.handelsblatt.com/finanzen/immobilien/extremwetter-diese-fassade-soll-immobilien-in-staedten-vor-starkregen-schuetzen/100241425.html"
-   ],
-   "punkte": 8,
-   "text": "Die chinesische Finanzaufsicht reagiert auf den kriselnden Immobilienmarkt mit neuen Regeln. Der Nachteil: Sie belasten laut Experten die Investitionskapazitäten von Unternehmen.",
-   "positiv": [],
-   "negativ": []
   }
  ],
- "ketten": [],
+ "ketten": [
+  {
+   "ausloeser": "EU‑Kommission genehmigt im Q4 2026 ein zusätzliches Fördervolumen von 10 Mrd. € für den europäischen Halbleiter‑ und Chip‑Fertigungssektor im Rahmen des Chips‑Acts",
+   "direkt": "Auftragseingänge bei europäischen Halbleiter‑Equipment‑Herstellern (z. B. ASML, ASM International) und Chip‑Designern (Infineon, STMicroelectronics) steigen deutlich",
+   "zweite": "Erwartete Umsatz‑ und Gewinnsteigerungen führen zu höheren Analysten‑Prognosen und einer Neubewertung der Unternehmen im Sektor",
+   "dritte": "Aktienkurse der betroffenen Unternehmen steigen; gleichzeitig wird die Wettbewerbsposition von US‑Chip‑Herstellern mit starkem EU‑Marktanteil (z. B. Nvidia, AMD) geschwächt, was zu Kursverlusten führen kann",
+   "positiv": [
+    "ASML Holding NV",
+    "ASM International NV",
+    "Infineon Technologies AG",
+    "STMicroelectronics NV",
+    "iShares MSCI Europe Semiconductor UCITS ETF (IS3N)"
+   ],
+   "negativ": [
+    "Nvidia Corp. (ADR)",
+    "Advanced Micro Devices Inc. (ADR)",
+    "iShares MSCI Europe Technology UCITS ETF (IUIT)"
+   ],
+   "konfidenz": "hoch"
+  },
+  {
+   "ausloeser": "Bundesregierung beschließt im Frühjahr 2027 eine Beitragserhöhung von 15 % für die Pflegekassen, um das Halbjahresdefizit von 770 Mio. € auszugleichen",
+   "direkt": "Arbeitnehmer und Unternehmen sehen höhere Lohn‑ bzw. Beitragsabzüge, was das verfügbare Nettoeinkommen reduziert",
+   "zweite": "Konsumzurückhaltung bei nicht‑lebensnotwendigen Gütern und Dienstleistungen, insbesondere im Automobil‑ und Freizeitsegment",
+   "dritte": "Aktien von deutschen Konsum‑ und Automobilherstellern geraten unter Druck; gleichzeitig profitieren Unternehmen im Gesundheits‑ und Pflegesektor von höheren Einnahmen aus den Pflegekassen",
+   "positiv": [
+    "Fresenius SE & Co. KGaA",
+    "Siemens Healthineers AG",
+    "AOK – Die Gesundheitskasse (indirekt über Versicherungs‑ETF)",
+    "iShares MSCI Europe Health Care UCITS ETF (IHYG)"
+   ],
+   "negativ": [
+    "Volkswagen AG",
+    "BMW AG",
+    "Adidas AG",
+    "Deutsche Post AG (wegen geringerer Paketvolumen im Privatsektor)",
+    "iShares MSCI Europe Consumer Discretionary UCITS ETF (IUSR)"
+   ],
+   "konfidenz": "mittel"
+  }
+ ],
  "gegenthese": {
-  "konsens": "Markt ist risk‑avers, DAX und Asien‑Indizes im Minus, Fokus auf makro‑politische Risiken und regulatorische Eingriffe.",
-  "gegen": "Trotz kurzfristiger Schwäche zeigen Fundamentaldaten wie steigende Auslandsinvestitionen, Rekord‑Gaming‑Umsätze und anhaltende Nachfrage nach Rechenzentren robuste Wachstumspotenziale."
+  "konsens": "Die Märkte sehen die aktuelle Inflationsrate von 2,9 % als Zeichen für eine beginnende Preisstabilisierung und bewerten den starken Zufluss ausländischer Direktinvestitionen sowie den IRIS‑Auftrag als Unterstützung für Wachstum.",
+  "gegen": "Gegenargument ist die anhaltende Belastung der Pflegekassen und die Unsicherheit durch regulatorische Eingriffe (z. B. Nvidia‑Klage) sowie geopolitische Risiken, die die Finanzlage und das Investitionsklima schwächen könnten."
  },
  "matrix": [
   {
@@ -379,11 +426,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "123.3 Mrd"
+     "121.4 Mrd"
     ],
     [
      "KGV (erw.)",
-     "23,4"
+     "23,1"
     ],
     [
      "Umsatzwachstum",
@@ -477,7 +524,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "568.1 Mrd"
+     "567.9 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -526,11 +573,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "168.8 Mrd"
+     "168.5 Mrd"
     ],
     [
      "KGV (erw.)",
-     "24,9"
+     "24,8"
     ],
     [
      "Umsatzwachstum",
@@ -597,7 +644,7 @@
     ],
     [
      "Newsletter",
-     "in 1 Clustern"
+     "nicht erwaehnt"
     ],
     [
      "Reddit",
@@ -1051,102 +1098,14 @@
  "gespraech": [],
  "termine": [
   {
-   "datum": "2026-08-31",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-01",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-01",
-   "zeit": "",
-   "region": "us",
-   "was": "Job Openings and Labor Turnover Survey",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-02",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-03",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-04",
-   "zeit": "",
-   "region": "us",
-   "was": "Employment Situation",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-04",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-05",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-06",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-07",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-08",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-09",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
+   "datum": "2026-09-10",
+   "zeit": "14:15",
+   "region": "eu",
+   "was": "EZB-Zinsentscheid",
+   "konsens": "keine Aenderung",
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 102,
- "llm_aktiv": false
+ "meldungen_gesamt": 120,
+ "llm_aktiv": true
 }
