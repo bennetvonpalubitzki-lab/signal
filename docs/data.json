@@ -1,9 +1,9 @@
 {
- "stand": "2026-08-31T13:04",
- "lauf": "2026083113",
+ "stand": "2026-08-31T16:04",
+ "lauf": "2026083116",
  "synthese": {
-  "kern": "Globale Inflation, steigende Investitionen und geopolitische Risiken überlagern schwächelnde Liquidität und Energieunsicherheit.",
-  "erlaeuterung": "Während die Märkte den starken Investitionsfluss nach Deutschland und die Rekordzahlen im Gaming feiern, vernachlässigen sie die anhaltende Liquiditätsknappheit und die Risiken im Energiesektor. Zusätzlich belasten steigende Inflation, geopolitische Spannungen und rückläufige US‑Liquidität die Risikobereitschaft, was die aktuelle Marktstimmung trübt."
+  "kern": "Markt fokussiert Inflation und Zinsdruck, übersieht breiten Investitionsboom und geopolitische Risiken im Energiesektor.",
+  "erlaeuterung": "Während die Preise über 3 % steigen, fließen ausländische Gelder stark nach Deutschland, was die Liquidität stärkt. Gleichzeitig erhöhen geopolitische Spannungen und sinkende Liquidität in den USA das Risiko für riskante Anlagen."
  },
  "regime": [
   {
@@ -36,23 +36,23 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 57,
-     "delta": 3
+     "wert": 58,
+     "delta": 4
     },
     "eur": {
      "wert": 74,
      "delta": -3
     }
    },
-   "differenz": 17
+   "differenz": 16
   },
   {
    "name": "risikoappetit",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 86,
-     "delta": 9
+     "wert": 88,
+     "delta": 7
     }
    }
   },
@@ -84,9 +84,9 @@
  ],
  "cluster": [
   {
-   "id": "f96ce197",
-   "titel": "Inflation: Teuerung in Deutschland steigt im August auf 2,9 Prozent",
-   "anriss": "Nach einem Zwischentief ist die Inflation wieder auf dem Vormarsch. Auch in anderen Teilen der Euro-Zone zieht die Teuerung im August wieder an.",
+   "id": "9f93f0f9",
+   "titel": "Verbraucherpreise: Liste der Preistreiber wird länger: Inflation wieder auf Kurs über drei Prozent",
+   "anriss": "Die Preise in Deutschland steigen wieder schneller. Das liegt hauptsächlich an den hohen Preisen für Energie. Deren sprunghafter Anstieg hat laut Statistikern vor allem eine Ursache.",
    "region": "dach",
    "quellen": [
     "Handelsblatt Finanzen",
@@ -98,19 +98,20 @@
    "links": [
     "https://www.handelsblatt.com/finanzen/geldpolitik/inflation-teuerung-in-deutschland-steigt-im-august-auf-29-prozent/100248643.html",
     "https://www.tagesschau.de/wirtschaft/konjunktur/inflation-august-anstieg-100.html",
-    "https://www.spiegel.de/wirtschaft/teure-energie-treibt-inflation-niedrigwasser-trifft-nrw-verbraucher-a-28d28417-8bab-4d60-98dd-58d50cbe4155#ref=rss",
+    "https://www.spiegel.de/wirtschaft/deutschland-teure-energie-treibt-inflation-niedrigwasser-trifft-nrw-verbraucher-a-28d28417-8bab-4d60-98dd-58d50cbe4155#ref=rss",
     "https://www.manager-magazin.de/politik/deutschland/spritpreise-so-stark-beeinflussen-sie-unsere-inflationserwartung-a-54678d9f-4762-4b05-a007-86ae5dc120d2#ref=rss",
     "https://www.manager-magazin.de/politik/deutschland/inflation-steigende-energiepreise-treiben-teuerungsrate-auf-2-9-prozent-a-a61c253f-8fd8-4ccf-856b-f0166bf92d47#ref=rss"
    ],
    "punkte": 23,
-   "text": "Die Verbraucherpreisrate in Deutschland ist im August auf 2,9 % gestiegen, nachdem sie im Vorquartal ein Zwischentief verzeichnet hatte. Auch in mehreren Euro‑Zonen‑Ländern ist die Teuerung im gleichen Zeitraum wieder angezogen.",
+   "text": "Die Verbraucherpreise in Deutschland steigen wieder über drei Prozent, getrieben vor allem von einem sprunghaften Anstieg der Energiepreise. Die Statistikbehörden sehen den hohen Energiepreis als Hauptursache für die aktuelle Beschleunigung der Inflation.",
    "positiv": [
-    "Rohstoffe (Preissteigerung)",
-    "Inflationsgeschützte Anleihen (Kurszuwachs)"
+    "Energieerzeuger ↑",
+    "Rohstoffunternehmen ↑"
    ],
    "negativ": [
-    "Nominale Staatsanleihen (Kursverlust)",
-    "Euro (Abwertung gegenüber USD)"
+    "Konsumgüter‑Hersteller ↓",
+    "Einzelhandel ↓",
+    "Inflationsgeschützte Anleihen ↓"
    ]
   },
   {
@@ -119,24 +120,79 @@
    "anriss": "Deutschland bleibt für ausländische Unternehmen attraktiv - ihre Direktinvestitionen sind einer Studie zufolge im vergangenen Jahr deutlich gestiegen. Allerdings hat sich verändert, woher das Geld kommt.",
    "region": "dach",
    "quellen": [
+    "FAZ Wirtschaft",
     "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 4,
+   "anzahl": 5,
    "links": [
     "https://www.tagesschau.de/wirtschaft/konjunktur/iw-auslaendische-investitionen-100.html",
-    "https://www.tagesschau.de/wirtschaft/verbraucher/deutschland-strompreise-vergleich-100.html",
     "https://www.spiegel.de/wirtschaft/deutsche-wirtschaft-ist-wieder-attraktiv-fuer-investoren-fusionen-uebernahmen-beteiligungen-a-737da937-ed76-4c89-821d-174c2f926496#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/technologischer-fortschritt-das-deutschland-der-zukunft-ist-laengst-da-201167652.html",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/auslandsinvestitionen-in-deutschland-steigen-um-50-prozent-201174865.html",
     "https://www.manager-magazin.de/politik/weltwirtschaft/iw-studie-deutsche-wirtschaft-ist-wieder-attraktiv-fuer-investoren-a-ced454b2-672d-4a65-af96-7b53f424fb14#ref=rss"
    ],
-   "punkte": 14,
-   "text": "Ausländische Direktinvestitionen in Deutschland haben im vergangenen Jahr deutlich zugenommen, wobei sich die Herkunftsländer der Mittel verschoben haben. Deutschland bleibt damit ein attraktiver Standort für internationale Unternehmen.",
+   "punkte": 18,
+   "text": "Ausländische Direktinvestitionen in Deutschland haben im vergangenen Jahr deutlich zugenommen, was die Attraktivität des Standorts für internationale Unternehmen bestätigt. Die Herkunft der Mittel verschiebt sich dabei stärker hin zu Asien und Nordamerika.",
    "positiv": [
-    "Deutsche Industrie‑ und Exportaktien (Nachfragezuwachs)",
-    "Immobilienmarkt (Investitionszufluss)"
+    "Deutsche Industrie‑ und Technologiewerte ↑",
+    "Immobilienmarkt ↑",
+    "DAX‑Index ↑"
    ],
    "negativ": []
+  },
+  {
+   "id": "3a76bb7e",
+   "titel": "Versicherung: Übernahme bei US-Versicherern: Aon übernimmt USI Insurance",
+   "anriss": "Für 17 Milliarden Dollar übernimmt Aon den US-Versicherungsmakler USI und stärkt damit sein Geschäft mit mittelständischen Kunden. Für Großaktionär KKR wird der Deal zum Milliardengewinn.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "Handelsblatt Finanzen"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/banken-versicherungen/versicherung-uebernahme-bei-us-versicherern-aon-uebernimmt-usi-insurance/100250875.html",
+    "https://www.handelsblatt.com/finanzen/banken-versicherungen/versicherer/versicherung-allianz-erwaegt-milliardenkauf-von-britischem-pannendienst/100250782.html",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/allianz-und-aa-uebernahme-des-pannendiensts-fuer-fuenf-milliarden-201175383.html"
+   ],
+   "punkte": 16,
+   "text": "Aon übernimmt den US-Versicherungsmakler USI für 17 Milliarden Dollar und stärkt damit seine Position im mittelständischen Kundengeschäft. Der Großaktionär KKR erzielt aus dem Deal einen Milliardengewinn.",
+   "positiv": [
+    "Aon ↑",
+    "KKR ↑"
+   ],
+   "negativ": [
+    "USI‑Mitarbeiter und -Kunden Unsicherheit ↓",
+    "Konkurrenten im Versicherungs‑Brokerage‑Sektor ↓"
+   ]
+  },
+  {
+   "id": "44111e7f",
+   "titel": "Pflegekassen im ersten Halbjahr mit 770 Millionen Euro Minus",
+   "anriss": "Die Pflegekassen haben im ersten Halbjahr ein Minus von 770 Millionen Euro eingefahren. Der Spitzenverband warnt: Schon im Oktober könnten die Einnahmen nicht mehr reichen, um Pflegeleistungen voll zu finanzieren.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/finanzen/pflegeversicherung-defizit-ausgaben-100.html",
+    "https://www.spiegel.de/wirtschaft/pflegeversicherung-was-der-weckruf-der-kassen-bedeutet-a-c56f78f5-4f35-4066-a990-7c7d1235ba40#ref=rss",
+    "https://www.spiegel.de/wirtschaft/pflegeversicherung-den-kassen-geht-das-geld-aus-es-herrscht-alarmstufe-rot-a-1e453255-e306-4eb7-b6cb-4888b13c89f6#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/pflegekassen-finanzluecke-von-4-4-milliarden-euro-waechst-201174951.html"
+   ],
+   "punkte": 14,
+   "text": "Die deutschen Pflegekassen haben im ersten Halbjahr ein Defizit von 770 Millionen Euro erwirtschaftet, wobei ein weiterer Einnahmeausfall im Oktober befürchtet wird. Der Spitzenverband warnt, dass die Kassen künftig nicht mehr ausreichend Mittel für die vollständige Erbringung von Pflegeleistungen haben könnten.",
+   "positiv": [],
+   "negativ": [
+    "Pflegekassen ↓",
+    "Pflegedienstleister ↑ Kostenrisiko ↓",
+    "Gesundheits‑ und Sozialversicherungsaktien ↓"
+   ]
   },
   {
    "id": "afa9762b",
@@ -155,13 +211,9 @@
     "https://www.heise.de/news/Besucherzahl-der-Gamescom-naehert-sich-ihrem-Allzeit-Hoch-11434875.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
    "punkte": 12,
-   "text": "Die globale Gaming‑Branche verzeichnet Rekordumsätze, doch deutsche Studios verlieren gegenüber internationalen Wettbewerbern an Marktanteilen. Jan Koch identifiziert strukturelle Hürden, die den Anschluss an die Weltspitze erschweren.",
-   "positiv": [
-    "Weltweite Gaming‑Aktien (Umsatzwachstum)"
-   ],
-   "negativ": [
-    "Deutsche Spieleentwickler‑Aktien (Wettbewerbsnachteil)"
-   ]
+   "text": "Die Games-Branche boomt, doch deutsche Studios kämpfen trotz Rekordzahlen um den Anschluss an die Weltspitze. Wo sind die Hürden für heimische Entwickler? Jan Koch zieht Bilanz der Spielemesse Gamescom.",
+   "positiv": [],
+   "negativ": []
   },
   {
    "id": "f3f63a05",
@@ -180,11 +232,9 @@
     "https://www.heise.de/news/Lake-America-statt-Lake-Ontario-Google-Maps-folgt-Donald-Trumps-Vorgabe-11434755.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
    "punkte": 12,
-   "text": "Ein ehemaliger Teleprompter‑Mitarbeiter des Weißen Hauses wurde wegen Insiderhandels zu einer Geldstrafe von 173.000 USD verurteilt. Der Vorfall wirft ein Licht auf mögliche Compliance‑Risiken im politischen Umfeld der USA.",
+   "text": "Wer im Voraus weiß, was der US-Präsident sagen wird, kann damit viel Geld verdienen. Ein Mitarbeiter des Weißen Hauses konnte dieser Versuchung nicht widerstehen. Am Ende war das kein gutes Geschäft.",
    "positiv": [],
-   "negativ": [
-    "US‑Aktienmarkt (kurzfristige Unsicherheit)"
-   ]
+   "negativ": []
   },
   {
    "id": "8ff81479",
@@ -208,28 +258,8 @@
    "negativ": []
   },
   {
-   "id": "44111e7f",
-   "titel": "Pflegekassen im ersten Halbjahr mit 770 Millionen Euro Minus",
-   "anriss": "Die Pflegekassen haben im ersten Halbjahr ein Minus von 770 Millionen Euro eingefahren. Der Spitzenverband warnt: Schon im Oktober könnten die Einnahmen nicht mehr reichen, um Pflegeleistungen voll zu finanzieren.",
-   "region": "dach",
-   "quellen": [
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/finanzen/pflegeversicherung-defizit-ausgaben-100.html",
-    "https://www.spiegel.de/wirtschaft/pflegeversicherung-was-der-weckruf-der-kassen-bedeutet-a-c56f78f5-4f35-4066-a990-7c7d1235ba40#ref=rss",
-    "https://www.spiegel.de/wirtschaft/pflegeversicherung-den-kassen-geht-das-geld-aus-a-1e453255-e306-4eb7-b6cb-4888b13c89f6#ref=rss"
-   ],
-   "punkte": 10,
-   "text": "Die Pflegekassen haben im ersten Halbjahr ein Minus von 770 Millionen Euro eingefahren. Der Spitzenverband warnt: Schon im Oktober könnten die Einnahmen nicht mehr reichen, um Pflegeleistungen voll zu finanzieren.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "dc563960",
-   "titel": "OHB: Raumfahrtkonzern erhält Milliardenauftrag für EU-Satellitennetz IRIS",
+   "id": "a5bf0b16",
+   "titel": "Starlink-Alternative: OHB erhält Milliardenauftrag für EU-Satellitennetz IRIS",
    "anriss": "Das europäische Satellitennetzwerk IRIS soll ab 2030 eine krisenfeste Kommunikation für Regierungen und Wirtschaft gewährleisten. OHB-Chef Marco Fuchs hat sich bei dem umfangreichen Projekt nun einen Milliardenauftrag gesichert.",
    "region": "dach",
    "quellen": [
@@ -246,71 +276,10 @@
    "text": "Das europäische Satellitennetzwerk IRIS soll ab 2030 eine krisenfeste Kommunikation für Regierungen und Wirtschaft gewährleisten. OHB-Chef Marco Fuchs hat sich bei dem umfangreichen Projekt nun einen Milliardenauftrag ge",
    "positiv": [],
    "negativ": []
-  },
-  {
-   "id": "a825556b",
-   "titel": "Montag: Nvidias Rechenzentrumsförderung gestoppt, Klage wegen Pentagon-Blacklist",
-   "anriss": "Keine Umsatzbeteiligung an KI-Servern + CXMT-Klage gegen schwarze Liste + Musikverlage gegen Anthropic + Rückschau auf IFA-Jahrhundert + DLSS 5 als Spiele-Mod",
-   "region": "global",
-   "quellen": [
-    "heise"
-   ],
-   "anzahl": 2,
-   "links": [
-    "https://www.heise.de/news/Montag-Nvidias-Rechenzentrumsfoerderung-gestoppt-Klage-wegen-Pentagon-Blacklist-11434749.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-    "https://www.heise.de/news/Chinesischer-Speicherhersteller-CXMT-verklagt-Pentagon-wegen-schwarzer-Liste-11434739.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 10,
-   "text": "Keine Umsatzbeteiligung an KI-Servern + CXMT-Klage gegen schwarze Liste + Musikverlage gegen Anthropic + Rückschau auf IFA-Jahrhundert + DLSS 5 als Spiele-Mod",
-   "positiv": [],
-   "negativ": []
   }
  ],
- "ketten": [
-  {
-   "ausloeser": "EU‑Kommission genehmigt im Q4 2026 ein zusätzliches Fördervolumen von 10 Mrd. € für den europäischen Halbleiter‑ und Chip‑Fertigungssektor im Rahmen des Chips‑Acts",
-   "direkt": "Auftragseingänge bei europäischen Halbleiter‑Equipment‑Herstellern (z. B. ASML, ASM International) und Chip‑Designern (Infineon, STMicroelectronics) steigen deutlich",
-   "zweite": "Erwartete Umsatz‑ und Gewinnsteigerungen führen zu höheren Analysten‑Prognosen und einer Neubewertung der Unternehmen im Sektor",
-   "dritte": "Aktienkurse der betroffenen Unternehmen steigen; gleichzeitig wird die Wettbewerbsposition von US‑Chip‑Herstellern mit starkem EU‑Marktanteil (z. B. Nvidia, AMD) geschwächt, was zu Kursverlusten führen kann",
-   "positiv": [
-    "ASML Holding NV",
-    "ASM International NV",
-    "Infineon Technologies AG",
-    "STMicroelectronics NV",
-    "iShares MSCI Europe Semiconductor UCITS ETF (IS3N)"
-   ],
-   "negativ": [
-    "Nvidia Corp. (ADR)",
-    "Advanced Micro Devices Inc. (ADR)",
-    "iShares MSCI Europe Technology UCITS ETF (IUIT)"
-   ],
-   "konfidenz": "hoch"
-  },
-  {
-   "ausloeser": "Bundesregierung beschließt im Frühjahr 2027 eine Beitragserhöhung von 15 % für die Pflegekassen, um das Halbjahresdefizit von 770 Mio. € auszugleichen",
-   "direkt": "Arbeitnehmer und Unternehmen sehen höhere Lohn‑ bzw. Beitragsabzüge, was das verfügbare Nettoeinkommen reduziert",
-   "zweite": "Konsumzurückhaltung bei nicht‑lebensnotwendigen Gütern und Dienstleistungen, insbesondere im Automobil‑ und Freizeitsegment",
-   "dritte": "Aktien von deutschen Konsum‑ und Automobilherstellern geraten unter Druck; gleichzeitig profitieren Unternehmen im Gesundheits‑ und Pflegesektor von höheren Einnahmen aus den Pflegekassen",
-   "positiv": [
-    "Fresenius SE & Co. KGaA",
-    "Siemens Healthineers AG",
-    "AOK – Die Gesundheitskasse (indirekt über Versicherungs‑ETF)",
-    "iShares MSCI Europe Health Care UCITS ETF (IHYG)"
-   ],
-   "negativ": [
-    "Volkswagen AG",
-    "BMW AG",
-    "Adidas AG",
-    "Deutsche Post AG (wegen geringerer Paketvolumen im Privatsektor)",
-    "iShares MSCI Europe Consumer Discretionary UCITS ETF (IUSR)"
-   ],
-   "konfidenz": "mittel"
-  }
- ],
- "gegenthese": {
-  "konsens": "Die Märkte sehen die aktuelle Inflationsrate von 2,9 % als Zeichen für eine beginnende Preisstabilisierung und bewerten den starken Zufluss ausländischer Direktinvestitionen sowie den IRIS‑Auftrag als Unterstützung für Wachstum.",
-  "gegen": "Gegenargument ist die anhaltende Belastung der Pflegekassen und die Unsicherheit durch regulatorische Eingriffe (z. B. Nvidia‑Klage) sowie geopolitische Risiken, die die Finanzlage und das Investitionsklima schwächen könnten."
- },
+ "ketten": [],
+ "gegenthese": null,
  "matrix": [
   {
    "ticker": "SU.PA",
@@ -426,11 +395,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "121.4 Mrd"
+     "121.0 Mrd"
     ],
     [
      "KGV (erw.)",
-     "23,1"
+     "23,0"
     ],
     [
      "Umsatzwachstum",
@@ -448,7 +417,7 @@
     ],
     [
      "Newsletter",
-     "in 2 Clustern"
+     "nicht erwaehnt"
     ],
     [
      "Reddit",
@@ -475,11 +444,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "53.0 Mrd"
+     "51.8 Mrd"
     ],
     [
      "KGV (erw.)",
-     "21,2"
+     "20,8"
     ],
     [
      "Umsatzwachstum",
@@ -524,11 +493,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "567.9 Mrd"
+     "557.6 Mrd"
     ],
     [
      "KGV (erw.)",
-     "28,6"
+     "28,1"
     ],
     [
      "Umsatzwachstum",
@@ -573,11 +542,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "168.5 Mrd"
+     "165.6 Mrd"
     ],
     [
      "KGV (erw.)",
-     "24,8"
+     "24,4"
     ],
     [
      "Umsatzwachstum",
@@ -595,7 +564,7 @@
     ],
     [
      "Newsletter",
-     "in 8 Clustern"
+     "in 10 Clustern"
     ],
     [
      "Reddit",
@@ -610,9 +579,13 @@
      "1648,06 % ueber 1700 Halter"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "Dafür spricht die globale Marktposition im Energiemanagement, ein diversifiziertes Portfolio aus Industrieautomation, Gebäudetechnik und erneuerbaren‑Energielösungen sowie ein Umsatzwachstum von 10 % und ein von Analysten durchschnittlich empfohlenes Kursziel von 326 EUR, das über dem aktuellen Kurs liegt.",
+   "dagegen": "Entgegen steht ein extrem hohes Short‑Interest von über 1.600 % bei rund 1.700 Aktionären, das auf erhebliche Skepsis gegenüber Bewertung und zukünftigen Margen hindeutet. Fehlende Insider‑Transaktionen und kaum Diskussionen auf Reddit verstärken das Bild. Der Widerspruch zwischen 22 Kauf‑Empfehlungen und der Short‑Position ist bemerkbar.",
+   "katalysatoren": [
+    "Veröffentlichung der Quartalsergebnisse Q3 2024",
+    "Abschluss eines Großauftrags für ein Wind‑Microgrid‑Projekt",
+    "Einführung einer neuen IoT‑Plattform für Gebäudeautomation"
+   ]
   },
   "GEV": {
    "ticker": "GEV",
@@ -622,11 +595,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "242.9 Mrd"
+     "237.5 Mrd"
     ],
     [
      "KGV (erw.)",
-     "36,3"
+     "35,5"
     ],
     [
      "Umsatzwachstum",
@@ -671,11 +644,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "43.6 Mrd"
+     "42.7 Mrd"
     ],
     [
      "KGV (erw.)",
-     "53,4"
+     "52,4"
     ],
     [
      "Umsatzwachstum",
@@ -720,11 +693,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "109.8 Mrd"
+     "108.6 Mrd"
     ],
     [
      "KGV (erw.)",
-     "18,5"
+     "18,3"
     ],
     [
      "Umsatzwachstum",
@@ -769,11 +742,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "5.253.2 Mrd"
+     "5.294.7 Mrd"
     ],
     [
      "KGV (erw.)",
-     "14,2"
+     "14,3"
     ],
     [
      "Umsatzwachstum",
@@ -812,6 +785,51 @@
   }
  },
  "shorts": [
+  {
+   "land": "NL",
+   "halter": "Walleye Capital LLC",
+   "emittent": "Pharming Group N.V.",
+   "prozent": 0.95,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "Pentwater Capital Management LP",
+   "emittent": "Akzo Nobel N.V.",
+   "prozent": 0.51,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "AQR Capital Management, LLC",
+   "emittent": "Akzo Nobel N.V.",
+   "prozent": 0.49,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "BlackRock Financial Management, Inc.",
+   "emittent": "PostNL N.V.",
+   "prozent": 0.49,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "Millennium Capital Partners LLP",
+   "emittent": "Alfen N.V.",
+   "prozent": 0.48,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
   {
    "land": "UK",
    "halter": "Anavio Capital Partners LLP",
@@ -1036,62 +1054,17 @@
    "datum": "2019-06-12",
    "status": "aufgestockt",
    "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 14.08,
-   "datum": "2019-06-11",
-   "status": "aufgestockt",
-   "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 13.82,
-   "datum": "2019-06-10",
-   "status": "aufgestockt",
-   "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "GUEVOURA FUND LTD",
-   "emittent": "HAMMERSON PLC",
-   "prozent": 13.78,
-   "datum": "2020-09-24",
-   "status": "aufgestockt",
-   "zuvor": 0.57
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 13.68,
-   "datum": "2019-06-07",
-   "status": "aufgestockt",
-   "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 13.5,
-   "datum": "2019-06-06",
-   "status": "aufgestockt",
-   "zuvor": 0.53
   }
  ],
  "shorts_kennzahlen": {
-  "neu_diese_woche": 0,
+  "neu_diese_woche": 5,
   "meistgeshortet": {
    "name": "Premier Oil PLC",
    "summe": 2145.63
   },
   "aktivster_halter": {
    "name": "Marshall Wace LLP",
-   "anzahl": 14037
+   "anzahl": 14034
   },
   "gesamt": 107395
  },
@@ -1106,6 +1079,6 @@
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 120,
- "llm_aktiv": true
+ "meldungen_gesamt": 134,
+ "llm_aktiv": false
 }
