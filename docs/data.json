@@ -1,9 +1,9 @@
 {
- "stand": "2026-08-31T04:35",
- "lauf": "2026083104",
+ "stand": "2026-08-31T07:03",
+ "lauf": "2026083107",
  "synthese": {
-  "kern": "Regulierungs- und geopolitische Schocks belasten Tech, Energie und Inflation, Markt verkennt kumulative Risiko.",
-  "erlaeuterung": "Entscheidungen zu Nvidia, Energiepreise und Handelsstreitigkeiten zeigen, dass politische Eingriffe die Unternehmensgewinne und Inflationsdynamik stärker beeinflussen als erwartet. Der Markt fokussiert kurzfristige Zahlen, übersieht die langfristige Unsicherheit durch regulatorische und geopolitische Entwicklungen."
+  "kern": "Makro‑Risiken dominieren, während strukturelle Belastungen – Energiepreise, Rechtsunsicherheit – im Hintergrund verblassen.",
+  "erlaeuterung": "Die Meldungen verbinden steigende Energie‑ und Kraftstoffpreise, geopolitische Spannungen und regulatorische Unsicherheiten, die die Risikoappetit‑ und Liquiditätswerte belasten. Der Markt konzentriert sich auf Zins‑ und Inflationsängste, vernachlässigt jedoch die langfristigen Belastungen durch hohe Stromkosten und Rechtsrisiken."
  },
  "regime": [
   {
@@ -76,13 +76,62 @@
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 91,
-     "delta": -4
+     "wert": 92,
+     "delta": -3
     }
    }
   }
  ],
  "cluster": [
+  {
+   "id": "dcb5323b",
+   "titel": "Deutschland hat unter G20-Staaten die höchsten Strompreise",
+   "anriss": "Seit Langem beklagen Wirtschaftsverbände den im internationalen Vergleich hohen Strompreis in Deutschland. Eine Analyse des Portals Verivox hat nun ergeben: Unter den G20-Ländern ist Strom hierzulande am teuersten.",
+   "region": "dach",
+   "quellen": [
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/verbraucher/deutschland-strompreise-vergleich-100.html",
+    "https://www.spiegel.de/wirtschaft/deutsche-wirtschaft-ist-wieder-attraktiv-fuer-investoren-a-737da937-ed76-4c89-821d-174c2f926496#ref=rss",
+    "https://www.manager-magazin.de/politik/weltwirtschaft/iw-studie-deutsche-wirtschaft-ist-wieder-attraktiv-fuer-investoren-a-ced454b2-672d-4a65-af96-7b53f424fb14#ref=rss"
+   ],
+   "punkte": 12,
+   "text": "Eine Analyse von Verivox zeigt, dass Deutschland innerhalb der G20 die höchsten Strompreise hat. Die hohen Kosten belasten insbesondere energieintensive Unternehmen und private Verbraucher, während Anbieter erneuerbarer Energien von steigender Nachfrage profitieren könnten.",
+   "positiv": [
+    "Erneuerbare‑Energien‑Anbieter"
+   ],
+   "negativ": [
+    "Stromverbraucher (Industrie, Haushalte)"
+   ]
+  },
+  {
+   "id": "f3f63a05",
+   "titel": "Donald Trump: Teleprompter-Mitarbeiter zahlt 173.000 Dollar wegen Insiderhandels",
+   "anriss": "Wer im Voraus weiß, was der US-Präsident sagen wird, kann damit viel Geld verdienen. Ein Mitarbeiter des Weißen Hauses konnte dieser Versuchung nicht widerstehen. Am Ende war das kein gutes Geschäft.",
+   "region": "dach",
+   "quellen": [
+    "SPIEGEL Wirtschaft",
+    "heise",
+    "manager magazin"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.spiegel.de/wirtschaft/donald-trump-teleprompter-mitarbeiter-zahlt-173-000-dollar-wegen-insiderhandels-a-bc56d2c5-0327-4714-b822-7d05352a5fa2#ref=rss",
+    "https://www.manager-magazin.de/politik/weltwirtschaft/iran-krieg-rund-400-schiffe-und-6000-seeleute-stecken-noch-im-persischen-golf-fest-a-0327c1f8-528c-4068-ae6e-fce6a2af3328#ref=rss",
+    "https://www.heise.de/news/Lake-America-statt-Lake-Ontario-Google-Maps-folgt-Donald-Trumps-Vorgabe-11434755.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 12,
+   "text": "Ein ehemaliger Teleprompter‑Mitarbeiter des Weißen Hauses wurde wegen Insiderhandels zu einer Geldstrafe von 173.000 USD verurteilt. Der Vorfall erhöht das regulatorische Risiko für den US‑Aktienmarkt und kann das Vertrauen in Unternehmen, die stark von politischen Aussagen abhängen, mindern.",
+   "positiv": [],
+   "negativ": [
+    "US‑Aktienmarkt",
+    "Finanzdienstleister (Handelsplattformen)"
+   ]
+  },
   {
    "id": "a825556b",
    "titel": "Montag: Nvidias Rechenzentrumsförderung gestoppt, Klage wegen Pentagon-Blacklist",
@@ -97,39 +146,34 @@
     "https://www.heise.de/news/Chinesischer-Speicherhersteller-CXMT-verklagt-Pentagon-wegen-schwarzer-Liste-11434739.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
    "punkte": 10,
-   "text": "Nvidia hat die staatliche Förderung für Rechenzentren verloren und sieht sich gleichzeitig einer Klage wegen einer Pentagon‑Blacklist ausgesetzt; das Unternehmen erhält zudem keine Umsatzbeteiligung mehr an KI‑Server‑Verkäufen. Parallel dazu klagt der chinesische Chip‑Hersteller CXMT gegen die schwarze Liste, während Musikverlage rechtlich gegen das KI‑Start‑up Anthropic vorgehen.",
-   "positiv": [
-    "Musikverlage: positiv (potenzielle Lizenz‑Einnahmen)",
-    "Globale KI‑Server‑Markt: neutral‑bis‑positiv (nachfragegetrieben)"
-   ],
+   "text": "Nvidia hat die geplante Umsatzbeteiligung an KI‑Servern eingestellt und sieht sich einer Klage wegen einer Pentagon‑Blacklist gegenüber. Zusätzlich klagen CXMT und mehrere Musikverlage gegen die Blacklist‑Entscheidung bzw. gegen Anthropic, was die betroffenen Unternehmen unter Druck setzt.",
+   "positiv": [],
    "negativ": [
-    "Nvidia‑Aktie: negativ (Verlust von Subventionen und Rechtsrisiko)",
-    "CXMT: negativ (Rechtsstreit)",
-    "Anthropic: negativ (Rechtsstreit mit Verlagen)"
+    "Nvidia",
+    "CXMT (Chinesischer Chiphersteller)",
+    "Anthropic"
    ]
   },
   {
-   "id": "dcb5323b",
-   "titel": "Deutschland hat unter G20-Staaten die höchsten Strompreise",
-   "anriss": "Seit Langem beklagen Wirtschaftsverbände den im internationalen Vergleich hohen Strompreis in Deutschland. Eine Analyse des Portals Verivox hat nun ergeben: Unter den G20-Ländern ist Strom hierzulande am teuersten.",
+   "id": "ec940f1b",
+   "titel": "Nikkei, Yen, Hang Seng: Zinssorgen und Nahost-Konflikt drücken asiatische Börsen ins Minus",
+   "anriss": "Die Angst vor einer Zinswende und der erneut eskalierende Militärkonflikt im Nahen Osten haben die asiatischen Börsen zum Wochenauftakt belastet.",
    "region": "dach",
    "quellen": [
-    "Tagesschau Wirtschaft",
-    "heise"
+    "Handelsblatt Finanzen",
+    "Tagesschau Wirtschaft"
    ],
    "anzahl": 2,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/verbraucher/deutschland-strompreise-vergleich-100.html",
-    "https://www.heise.de/news/Wie-resilient-ist-Deutschland-Kritische-Infrastrukturen-im-Belastungstest-11434459.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-yen-hang-seng-zinssorgen-und-nahost-konflikt-druecken-asiatische-boersen-ins-minus/100250695.html",
+    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-iran-geldanlage-102.html"
    ],
-   "punkte": 8,
-   "text": "Eine Analyse von Verivox bestätigt, dass Deutschland innerhalb der G20‑Staaten die höchsten Strompreise für Endverbraucher zahlt. Die hohen Kosten belasten Unternehmen und Haushalte, während Energieversorger von höheren Einnahmen profitieren können.",
-   "positiv": [
-    "Energieversorger (DE): positiv (höhere Erlöse)"
-   ],
+   "punkte": 9,
+   "text": "Zinsängste und die Eskalation des Nahost‑Konflikts haben die asiatischen Börsen zu Kursverlusten geführt, wobei der Nikkei, der Hang Seng und der Yen betroffen sind. Die Unsicherheit belastet die regionalen Aktienmärkte und erhöht die Volatilität in der Region.",
+   "positiv": [],
    "negativ": [
-    "Deutsche Industrie‑ und Haushaltsverbraucher: negativ (Kostenbelastung)",
-    "Deutsche Export‑Wettbewerbsfähigkeit: negativ (Preisnachteil)"
+    "Asiatische Aktienmärkte (Nikkei, Hang Seng)",
+    "Yen (Verlust durch Risikoaversion)"
    ]
   },
   {
@@ -147,53 +191,24 @@
     "https://www.faz.net/aktuell/wirtschaft/unternehmen/so-war-die-gamescom-2026-accg-201169762.html"
    ],
    "punkte": 8,
-   "text": "Die globale Games‑Branche verzeichnet Rekordumsätze, doch deutsche Studios bleiben hinter internationalen Konkurrenten zurück und kämpfen um Marktanteile. Hauptgründe sind Fachkräftemangel, fehlende Skaleneffekte und begrenzter Zugang zu internationalen Vertriebsnetzen.",
-   "positiv": [
-    "Weltweiter Gaming‑Markt: positiv (Wachstum)"
-   ],
-   "negativ": [
-    "Deutsche Spieleentwickler: negativ (Marktanteilsverlust)",
-    "Investitionen in deutsche Gaming‑Studios: negativ (höheres Risiko)"
-   ]
-  },
-  {
-   "id": "f3f63a05",
-   "titel": "Donald Trump: Teleprompter-Mitarbeiter zahlt 173.000 Dollar wegen Insiderhandels",
-   "anriss": "Wer im Voraus weiß, was der US-Präsident sagen wird, kann damit viel Geld verdienen. Ein Mitarbeiter des Weißen Hauses konnte dieser Versuchung nicht widerstehen. Am Ende war das kein gutes Geschäft.",
-   "region": "dach",
-   "quellen": [
-    "SPIEGEL Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 2,
-   "links": [
-    "https://www.spiegel.de/wirtschaft/donald-trump-teleprompter-mitarbeiter-zahlt-173-000-dollar-wegen-insiderhandels-a-bc56d2c5-0327-4714-b822-7d05352a5fa2#ref=rss",
-    "https://www.manager-magazin.de/politik/weltwirtschaft/iran-krieg-rund-400-schiffe-und-6000-seeleute-stecken-noch-im-persischen-golf-fest-a-0327c1f8-528c-4068-ae6e-fce6a2af3328#ref=rss"
-   ],
-   "punkte": 8,
-   "text": "Ein ehemaliger Teleprompter‑Mitarbeiter des Weißen Hauses musste 173.000 USD Strafe zahlen, weil er Insider‑Informationen zum geplanten Redetext von Präsident Donald Trump missbraucht hatte. Der Vorfall erhöht das regulatorische Risiko für Personen mit Zugang zu politischen Vorabinformationen.",
+   "text": "Die Games-Branche boomt, doch deutsche Studios kämpfen trotz Rekordzahlen um den Anschluss an die Weltspitze. Wo sind die Hürden für heimische Entwickler? Jan Koch zieht Bilanz der Spielemesse Gamescom.",
    "positiv": [],
-   "negativ": [
-    "US‑Politik‑Risiko: negativ (Erhöhte Unsicherheit)",
-    "Vertrauen in White‑House‑Personal: negativ"
-   ]
+   "negativ": []
   },
   {
-   "id": "991a3e23",
-   "titel": "Zollstreit in amerika: Wie Donald Trump Kanada reformiert",
-   "anriss": "Das Verhältnis zwischen Kanada und USA ist am Tiefpunkt. Für das kleine Nachbarland hat das auch Vorteile.",
+   "id": "3bad57a6",
+   "titel": "Business-Ticker: US-Notenbankchef verschreckt Asiens Börsen",
+   "anriss": "Börsen fürchten steigende US-Zinsen +++ Biontech stoppt Darmkrebs-Studie +++ Was passiert mit den Filialen der insolventen Baumarktkette Hellweg? +++ Chemieindustrie bewertet Geschäftslage erstmals seit vier Jahren positiv +++ Neuigkeiten im Unternehmen-Liveblog.",
    "region": "dach",
    "quellen": [
-    "FAZ Wirtschaft",
-    "manager magazin"
+    "FAZ Wirtschaft"
    ],
-   "anzahl": 2,
+   "anzahl": 1,
    "links": [
-    "https://www.faz.net/aktuell/wirtschaft/mark-carney-wie-donald-trump-kanada-gerettet-hat-201166279.html",
-    "https://www.manager-magazin.de/unternehmen/mobilitaet/general-motors-gm-plant-milliardeninvestition-in-kanada-trotz-zolldrohungen-a-c38d9271-93ac-4bff-8370-23f4a6ef7abc#ref=rss"
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-us-notenbankpraesident-schickt-asiens-boersen-auf-talfahrt-faz-200452404.html"
    ],
    "punkte": 8,
-   "text": "Das Verhältnis zwischen Kanada und USA ist am Tiefpunkt. Für das kleine Nachbarland hat das auch Vorteile.",
+   "text": "Börsen fürchten steigende US-Zinsen +++ Biontech stoppt Darmkrebs-Studie +++ Was passiert mit den Filialen der insolventen Baumarktkette Hellweg? +++ Chemieindustrie bewertet Geschäftslage erstmals seit vier Jahren posit",
    "positiv": [],
    "negativ": []
   },
@@ -215,41 +230,23 @@
    "negativ": []
   },
   {
-   "id": "97773137",
-   "titel": "“I just chose words carefully”",
-   "anriss": "Article URL: https://unsung.aresluna.org/i-just-chose-words-carefully/ Comments URL: https://news.ycombinator.com/item?id=49503601 Points: 422 # Comments: 106",
+   "id": "8ff81479",
+   "titel": "Disaffection at Work: Employee Responses to Job-Related Information",
+   "anriss": "arXiv:2608.27538v1 Announce Type: new Abstract: Quiet quitting reflects a form of worker disaffection that operates along the intensive margin of labor supply rather than through job exit. We study how alternative workplace narratives shape workers' behavioral responses using a randomized survey exp",
    "region": "global",
    "quellen": [
-    "Hacker News Top"
+    "arXiv q-fin"
    ],
    "anzahl": 6,
    "links": [
-    "https://unsung.aresluna.org/i-just-chose-words-carefully/",
-    "https://www.haiku-os.org/news/2026-08-26_haiku_r1_beta6",
-    "https://0xcc.io/posts/omarchy-root-creds/",
-    "https://greenlightning.eu/diy/hacking-ikea-furniture/",
-    "https://www.qubes-os.org/news/2026/08/29/qsb-118/"
+    "https://arxiv.org/abs/2608.27538",
+    "https://arxiv.org/abs/2608.27575",
+    "https://arxiv.org/abs/2608.27598",
+    "https://arxiv.org/abs/2608.27980",
+    "https://arxiv.org/abs/2608.28397"
    ],
    "punkte": 8,
-   "text": "Article URL: https://unsung.aresluna.org/i-just-chose-words-carefully/ Comments URL: https://news.ycombinator.com/item?id=49503601 Points: 422 # Comments: 106",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "2b22c822",
-   "titel": "Chipproduktion: Der überraschende KI-Gewinner Singapur",
-   "anriss": "Jeder zehnte Chip auf der Welt kommt aus Singapur. Ausgerechnet das Finanzzentrum, das vor Künstlicher Intelligenz zittert, profitiert von deren Boom.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft"
-   ],
-   "anzahl": 2,
-   "links": [
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/singapur-als-ki-gewinner-chips-und-milliarden-investments-201168080.html",
-    "https://www.faz.net/aktuell/wirtschaft/bill-gates-warnt-wir-sind-auf-die-kuenstliche-intelligenz-nicht-vorbereitet-accg-201170877.html"
-   ],
-   "punkte": 6,
-   "text": "Jeder zehnte Chip auf der Welt kommt aus Singapur. Ausgerechnet das Finanzzentrum, das vor Künstlicher Intelligenz zittert, profitiert von deren Boom.",
+   "text": "arXiv:2608.27538v1 Announce Type: new Abstract: Quiet quitting reflects a form of worker disaffection that operates along the intensive margin of labor supply rather than through job exit. We study how alternative workpl",
    "positiv": [],
    "negativ": []
   }
@@ -408,9 +405,13 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "Analysten‑Stimmungsbild ist stark positiv (19 Kauf‑Empfehlungen). Umsatzwachstum von +18 % zeigt operative Stärke. Das Kurs‑Gewinn‑Verhältnis von 24,2 liegt im Branchendurchschnitt. Das Kursziel von 197 € impliziert weiteres Aufwärtspotenzial. Segmente Gas Services und Grid Technologies profitieren von steigender Energie‑Nachfrage.",
+   "dagegen": "Hohe Verschuldung und Margendruck belasten die Bilanz. Wind‑Turbinen‑Qualitätsprobleme könnten das Vertrauen in Siemens Gamesa schwächen. Das KGV von 24,2 kann als überbewertet gelten, wenn das Wachstum nachlässt. Widerspruch: Analysten sind bullish, während Newsletter‑ und Reddit‑Präsenz gering ist, was auf geringe Markt‑Aufmerksamkeit hindeutet.",
+   "katalysatoren": [
+    "Zulassung und Serienstart der neuen 4.X‑Windturbine",
+    "Abschluss großer Service‑Verträge für Gasturbinen in Asien",
+    "Umsetzung des Kosten‑ und Digitalisierungsprogramms im Segment Transformation of Industry"
+   ]
   },
   "RHM.DE": {
    "ticker": "RHM.DE",
@@ -540,7 +541,7 @@
     ],
     [
      "Newsletter",
-     "in 4 Clustern"
+     "in 6 Clustern"
     ],
     [
      "Reddit",
@@ -620,7 +621,7 @@
     ],
     [
      "KGV (erw.)",
-     "53,1"
+     "53,4"
     ],
     [
      "Umsatzwachstum",
@@ -653,13 +654,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Cameco profitiert von langfristig steigender Nachfrage nach Kernenergie, insbesondere in den USA, Europa und Asien. Das Unternehmen deckt die gesamte Wertschöpfungskette von Exploration bis Fuel Services und besitzt das Westinghouse‑Geschäft, das von Small‑Modular‑Reactor‑Projekten profitieren könnte. Analysten bewerten die Aktie überwiegend mit Kauf.",
-   "dagegen": "Umsatz fällt um 7 % und das KGV von 53,1 signalisiert eine hohe Bewertung. Fehlende Insider‑Transaktionen und kaum Diskussion in Newslettern oder Reddit deuten auf geringe Marktaufmerksamkeit hin. Zudem birgt die Uran‑Preisvolatilität regulatorische und geopolitische Risiken.",
-   "katalysatoren": [
-    "Q3‑Ergebnis mit Umsatz‑ und Preis‑Guidance",
-    "Vertrag für Westinghouse‑SMR‑Technologie",
-    "Anstieg der Uran‑Spot‑Preise durch Wiederinbetriebnahme von Kernkraftwerken"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "FCX": {
    "ticker": "FCX",
@@ -1143,6 +1140,6 @@
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 57,
+ "meldungen_gesamt": 77,
  "llm_aktiv": false
 }
