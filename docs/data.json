@@ -1,9 +1,9 @@
 {
- "stand": "2026-08-31T16:04",
- "lauf": "2026083116",
+ "stand": "2026-08-31T19:03",
+ "lauf": "2026083119",
  "synthese": {
-  "kern": "Markt fokussiert Inflation und Zinsdruck, übersieht breiten Investitionsboom und geopolitische Risiken im Energiesektor.",
-  "erlaeuterung": "Während die Preise über 3 % steigen, fließen ausländische Gelder stark nach Deutschland, was die Liquidität stärkt. Gleichzeitig erhöhen geopolitische Spannungen und sinkende Liquidität in den USA das Risiko für riskante Anlagen."
+  "kern": "Alle Meldungen betonen steigende Kosten und strukturelle Belastungen, die der Markt zugunsten von Zinsängsten vernachlässigt.",
+  "erlaeuterung": "Inflation über 3 % und Defizite bei Pflegekassen erhöhen fiskalische Risiken, während Investitionen und M&A das Bild trüben. Gleichzeitig sinkende Liquidität in den USA und geopolitische Spannungen belasten die Marktstimmung, obwohl strukturelle Schwächen kaum bepreist werden."
  },
  "regime": [
   {
@@ -36,15 +36,15 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 58,
-     "delta": 4
+     "wert": 59,
+     "delta": 5
     },
     "eur": {
      "wert": 74,
      "delta": -3
     }
    },
-   "differenz": 16
+   "differenz": 15
   },
   {
    "name": "risikoappetit",
@@ -61,15 +61,15 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 42,
-     "delta": -1
+     "wert": 37,
+     "delta": -5
     },
     "eur": {
      "wert": 0,
      "delta": -1
     }
    },
-   "differenz": 42
+   "differenz": 37
   },
   {
    "name": "geopolitik",
@@ -98,20 +98,20 @@
    "links": [
     "https://www.handelsblatt.com/finanzen/geldpolitik/inflation-teuerung-in-deutschland-steigt-im-august-auf-29-prozent/100248643.html",
     "https://www.tagesschau.de/wirtschaft/konjunktur/inflation-august-anstieg-100.html",
+    "https://www.tagesschau.de/wirtschaft/verbraucher/deutschland-strompreise-vergleich-100.html",
     "https://www.spiegel.de/wirtschaft/deutschland-teure-energie-treibt-inflation-niedrigwasser-trifft-nrw-verbraucher-a-28d28417-8bab-4d60-98dd-58d50cbe4155#ref=rss",
-    "https://www.manager-magazin.de/politik/deutschland/spritpreise-so-stark-beeinflussen-sie-unsere-inflationserwartung-a-54678d9f-4762-4b05-a007-86ae5dc120d2#ref=rss",
     "https://www.manager-magazin.de/politik/deutschland/inflation-steigende-energiepreise-treiben-teuerungsrate-auf-2-9-prozent-a-a61c253f-8fd8-4ccf-856b-f0166bf92d47#ref=rss"
    ],
    "punkte": 23,
-   "text": "Die Verbraucherpreise in Deutschland steigen wieder über drei Prozent, getrieben vor allem von einem sprunghaften Anstieg der Energiepreise. Die Statistikbehörden sehen den hohen Energiepreis als Hauptursache für die aktuelle Beschleunigung der Inflation.",
+   "text": "Die Verbraucherpreise in Deutschland steigen wieder schneller und liegen nun über drei Prozent, getrieben vor allem durch stark steigende Energiepreise. Der Preisanstieg erhöht die Inflationserwartungen und belastet preisempfindliche Konsumgüter und Anleihen.",
    "positiv": [
-    "Energieerzeuger ↑",
+    "Energie‑Sektor ↑",
     "Rohstoffunternehmen ↑"
    ],
    "negativ": [
-    "Konsumgüter‑Hersteller ↓",
-    "Einzelhandel ↓",
-    "Inflationsgeschützte Anleihen ↓"
+    "Konsumgüter‑Aktien ↓",
+    "Anleihen (inflationsgeschützt) ↓",
+    "Inflationsindex ↓"
    ]
   },
   {
@@ -129,18 +129,20 @@
    "links": [
     "https://www.tagesschau.de/wirtschaft/konjunktur/iw-auslaendische-investitionen-100.html",
     "https://www.spiegel.de/wirtschaft/deutsche-wirtschaft-ist-wieder-attraktiv-fuer-investoren-fusionen-uebernahmen-beteiligungen-a-737da937-ed76-4c89-821d-174c2f926496#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/technologischer-fortschritt-das-deutschland-der-zukunft-ist-laengst-da-201167652.html",
+    "https://www.faz.net/aktuell/wirtschaft/klimaschutz-warum-unternehmen-kaum-investieren-201175021.html",
     "https://www.faz.net/aktuell/wirtschaft/unternehmen/auslandsinvestitionen-in-deutschland-steigen-um-50-prozent-201174865.html",
     "https://www.manager-magazin.de/politik/weltwirtschaft/iw-studie-deutsche-wirtschaft-ist-wieder-attraktiv-fuer-investoren-a-ced454b2-672d-4a65-af96-7b53f424fb14#ref=rss"
    ],
    "punkte": 18,
-   "text": "Ausländische Direktinvestitionen in Deutschland haben im vergangenen Jahr deutlich zugenommen, was die Attraktivität des Standorts für internationale Unternehmen bestätigt. Die Herkunft der Mittel verschiebt sich dabei stärker hin zu Asien und Nordamerika.",
+   "text": "Ausländische Direktinvestitionen in Deutschland haben im vergangenen Jahr deutlich zugenommen, was die Attraktivität des Standorts für internationale Unternehmen bestätigt. Die Investitionen konzentrieren sich vermehrt auf Industrie‑ und Technologiebereiche, während andere Länder im Wettbewerb zurückfallen.",
    "positiv": [
-    "Deutsche Industrie‑ und Technologiewerte ↑",
-    "Immobilienmarkt ↑",
-    "DAX‑Index ↑"
+    "Deutsche Industrie‑Aktien ↑",
+    "Technologie‑Sektor ↑",
+    "FDI‑Flows nach Deutschland ↑"
    ],
-   "negativ": []
+   "negativ": [
+    "Wettbewerber‑Länder ↓"
+   ]
   },
   {
    "id": "3a76bb7e",
@@ -158,14 +160,14 @@
     "https://www.faz.net/aktuell/wirtschaft/unternehmen/allianz-und-aa-uebernahme-des-pannendiensts-fuer-fuenf-milliarden-201175383.html"
    ],
    "punkte": 16,
-   "text": "Aon übernimmt den US-Versicherungsmakler USI für 17 Milliarden Dollar und stärkt damit seine Position im mittelständischen Kundengeschäft. Der Großaktionär KKR erzielt aus dem Deal einen Milliardengewinn.",
+   "text": "Aon übernimmt den US-Versicherungsmakler USI für 17 Milliarden Dollar und stärkt damit sein Geschäft mit mittelständischen Kunden in den USA. Der Deal generiert für den Großaktionär KKR einen Milliardengewinn und verbessert Aons Marktposition im Versicherungs‑Brokerage‑Segment.",
    "positiv": [
     "Aon ↑",
-    "KKR ↑"
+    "USI‑Aktionäre ↑",
+    "Versicherungs‑Brokerage‑Branche ↑"
    ],
    "negativ": [
-    "USI‑Mitarbeiter und -Kunden Unsicherheit ↓",
-    "Konkurrenten im Versicherungs‑Brokerage‑Sektor ↓"
+    "Konkurrenten im US‑Versicherungsmarkt ↓"
    ]
   },
   {
@@ -186,53 +188,53 @@
     "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/pflegekassen-finanzluecke-von-4-4-milliarden-euro-waechst-201174951.html"
    ],
    "punkte": 14,
-   "text": "Die deutschen Pflegekassen haben im ersten Halbjahr ein Defizit von 770 Millionen Euro erwirtschaftet, wobei ein weiterer Einnahmeausfall im Oktober befürchtet wird. Der Spitzenverband warnt, dass die Kassen künftig nicht mehr ausreichend Mittel für die vollständige Erbringung von Pflegeleistungen haben könnten.",
+   "text": "Die Pflegekassen verzeichneten im ersten Halbjahr ein Defizit von 770 Millionen Euro, und es wird befürchtet, dass die Einnahmen im Oktober nicht mehr ausreichen, um die Pflegeleistungen vollständig zu finanzieren. Das Defizit belastet die finanzielle Stabilität des Pflegesystems und erhöht das Risiko für private Pflegeanbieter.",
    "positiv": [],
    "negativ": [
     "Pflegekassen ↓",
-    "Pflegedienstleister ↑ Kostenrisiko ↓",
-    "Gesundheits‑ und Sozialversicherungsaktien ↓"
+    "Pflege‑Dienstleister ↓",
+    "Sozialversicherungs‑Finanzen ↓"
    ]
   },
   {
-   "id": "afa9762b",
-   "titel": "Gaming-Branche kämpft trotz Rekordzahlen um Anschluss an Weltspitze",
-   "anriss": "Die Games-Branche boomt, doch deutsche Studios kämpfen trotz Rekordzahlen um den Anschluss an die Weltspitze. Wo sind die Hürden für heimische Entwickler? Jan Koch zieht Bilanz der Spielemesse Gamescom.",
+   "id": "645ff82d",
+   "titel": "Immobilien: Union Invest Real Estate baut um – und Stellen ab",
+   "anriss": "Der Hamburger Immobilienfondsmanager stellt sich neu auf, dabei fallen Arbeitsplätze weg. Das Unternehmen will in Zukunft auf Mieterträge statt Bewertungsaufschläge setzen.",
    "region": "dach",
    "quellen": [
-    "FAZ Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "heise"
+    "Handelsblatt Finanzen",
+    "manager magazin"
    ],
-   "anzahl": 3,
+   "anzahl": 4,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/digitales/gamescom-240.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/so-war-die-gamescom-2026-accg-201169762.html",
-    "https://www.heise.de/news/Besucherzahl-der-Gamescom-naehert-sich-ihrem-Allzeit-Hoch-11434875.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+    "https://www.handelsblatt.com/finanzen/immobilien/immobilien-union-invest-real-estate-baut-um-und-stellen-ab/100250920.html",
+    "https://www.handelsblatt.com/finanzen/immobilien/china-immobilienaktien-geben-wegen-neuen-finanzierungsregeln-nach/100250776.html",
+    "https://www.manager-magazin.de/finanzen/union-investment-tochter-real-estate-streicht-stellen-im-sparprogramm-reshape-a-c9e3c9be-a80e-4eee-9530-3a96a79fff40#ref=rss",
+    "https://www.manager-magazin.de/ueber-uns/neuer-chef-bei-apple-turnaround-bei-gea-jobabbau-bei-union-investment-das-war-montag-31-8-2026-a-fd7da810-8f7d-42fc-860a-01ba7c0dac06#ref=rss"
    ],
-   "punkte": 12,
-   "text": "Die Games-Branche boomt, doch deutsche Studios kämpfen trotz Rekordzahlen um den Anschluss an die Weltspitze. Wo sind die Hürden für heimische Entwickler? Jan Koch zieht Bilanz der Spielemesse Gamescom.",
+   "punkte": 14,
+   "text": "Der Hamburger Immobilienfondsmanager stellt sich neu auf, dabei fallen Arbeitsplätze weg. Das Unternehmen will in Zukunft auf Mieterträge statt Bewertungsaufschläge setzen.",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "f3f63a05",
-   "titel": "Donald Trump: Teleprompter-Mitarbeiter zahlt 173.000 Dollar wegen Insiderhandels",
-   "anriss": "Wer im Voraus weiß, was der US-Präsident sagen wird, kann damit viel Geld verdienen. Ein Mitarbeiter des Weißen Hauses konnte dieser Versuchung nicht widerstehen. Am Ende war das kein gutes Geschäft.",
+   "id": "c6e4b28e",
+   "titel": "Business-Ticker: VW-Gewerkschafter warnt: „Dann wird der Werkboden an allen Standorten brennen“",
+   "anriss": "Hensoldt soll indische Lufttaxis fliegen lassen +++ OHB baut 18 Satelliten für die EU +++ Eli Lilly übernimmt Biotechfirma für mehrere Milliarden +++ Neuigkeiten im Unternehmen-Liveblog.",
    "region": "dach",
    "quellen": [
-    "SPIEGEL Wirtschaft",
+    "FAZ Wirtschaft",
     "heise",
     "manager magazin"
    ],
    "anzahl": 3,
    "links": [
-    "https://www.spiegel.de/wirtschaft/donald-trump-teleprompter-mitarbeiter-zahlt-173-000-dollar-wegen-insiderhandels-a-bc56d2c5-0327-4714-b822-7d05352a5fa2#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/mobilitaet/general-motors-gm-plant-milliardeninvestition-in-kanada-trotz-zolldrohungen-a-c38d9271-93ac-4bff-8370-23f4a6ef7abc#ref=rss",
-    "https://www.heise.de/news/Lake-America-statt-Lake-Ontario-Google-Maps-folgt-Donald-Trumps-Vorgabe-11434755.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-vw-gewerkschafter-groeger-warnt-dann-wird-der-werkboden-an-allen-standorten-brennen-faz-200452404.html",
+    "https://www.manager-magazin.de/unternehmen/industrie/ohb-raumfahrtkonzern-erhaelt-milliardenauftrag-fuer-eu-satellitennetz-iris-a-ab742589-05f2-496d-a933-a412eb06272f#ref=rss",
+    "https://www.heise.de/news/Sicheres-Netz-aus-dem-All-OHB-bekommt-Milliardenauftrag-fuer-Iris2-11435376.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
    "punkte": 12,
-   "text": "Wer im Voraus weiß, was der US-Präsident sagen wird, kann damit viel Geld verdienen. Ein Mitarbeiter des Weißen Hauses konnte dieser Versuchung nicht widerstehen. Am Ende war das kein gutes Geschäft.",
+   "text": "Hensoldt soll indische Lufttaxis fliegen lassen +++ OHB baut 18 Satelliten für die EU +++ Eli Lilly übernimmt Biotechfirma für mehrere Milliarden +++ Neuigkeiten im Unternehmen-Liveblog.",
    "positiv": [],
    "negativ": []
   },
@@ -258,27 +260,71 @@
    "negativ": []
   },
   {
-   "id": "a5bf0b16",
-   "titel": "Starlink-Alternative: OHB erhält Milliardenauftrag für EU-Satellitennetz IRIS",
-   "anriss": "Das europäische Satellitennetzwerk IRIS soll ab 2030 eine krisenfeste Kommunikation für Regierungen und Wirtschaft gewährleisten. OHB-Chef Marco Fuchs hat sich bei dem umfangreichen Projekt nun einen Milliardenauftrag gesichert.",
+   "id": "f536cd1e",
+   "titel": "Nikkei, Yen, Hang Seng: Zinssorgen und Nahost-Konflikt: Asiatische Börsen schließen im Minus",
+   "anriss": "Die Angst vor einer Zinswende und der erneut eskalierende Militärkonflikt im Nahen Osten haben die asiatischen Börsen zum Wochenauftakt belastet.",
    "region": "dach",
    "quellen": [
-    "heise",
-    "manager magazin"
+    "Handelsblatt Finanzen",
+    "Tagesschau Wirtschaft"
    ],
-   "anzahl": 3,
+   "anzahl": 2,
    "links": [
-    "https://www.manager-magazin.de/unternehmen/industrie/ohb-raumfahrtkonzern-erhaelt-milliardenauftrag-fuer-eu-satellitennetz-iris-a-ab742589-05f2-496d-a933-a412eb06272f#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/tech/airbus-us-satellitengeschaeft-soll-fuer-europaeischen-marktfuehrer-weichen-a-0ba0e717-b1f0-4603-9911-247636934dc3#ref=rss",
-    "https://www.heise.de/news/Sicheres-Netz-aus-dem-All-OHB-bekommt-Milliardenauftrag-fuer-Iris2-11435376.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-yen-hang-seng-asiatische-boersen-schliessen-im-minus/100250695.html",
+    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-iran-geldanlage-102.html"
    ],
-   "punkte": 10,
-   "text": "Das europäische Satellitennetzwerk IRIS soll ab 2030 eine krisenfeste Kommunikation für Regierungen und Wirtschaft gewährleisten. OHB-Chef Marco Fuchs hat sich bei dem umfangreichen Projekt nun einen Milliardenauftrag ge",
+   "punkte": 9,
+   "text": "Die Angst vor einer Zinswende und der erneut eskalierende Militärkonflikt im Nahen Osten haben die asiatischen Börsen zum Wochenauftakt belastet.",
    "positiv": [],
    "negativ": []
   }
  ],
- "ketten": [],
+ "ketten": [
+  {
+   "ausloeser": "EU-Kommission verabschiedet ein neues, deutlich strengeres Emissionshandelssystem für die Industrie (geplante Gesetzgebung, noch nicht in Kraft).",
+   "direkt": "Deutsche Industrieunternehmen erhalten höhere CO₂‑Zertifikatskosten und müssen zusätzliche Investitionen in Emissionsminderung tätigen.",
+   "zweite": "Gewinnmargen von energieintensiven Sektoren (Automobil, Chemie, Stahl) sinken, Aktienkurse dieser Unternehmen fallen und Analysten senken ihre Gewinnprognosen.",
+   "dritte": "Kapital fließt aus den betroffenen Branchen in klimafreundliche Anlagen – europäische Renewable‑Energy‑Aktien, grüne Anleihen und ESG‑Fonds gewinnen an Attraktivität.",
+   "positiv": [
+    "iShares MSCI Europe ESG Leaders UCITS ETF",
+    "Deutsche grüne Bundesanleihen 2030",
+    "Siemens Energy AG (Erneuerbare‑Energie‑Sparte)",
+    "Vestas Wind Systems A/S (EU‑exponiert)",
+    "Enel SpA (grüne Infrastruktur)"
+   ],
+   "negativ": [
+    "Volkswagen AG",
+    "BMW AG",
+    "Daimler Truck Holding AG",
+    "BASF SE",
+    "ThyssenKrupp AG",
+    "iShares MSCI Europe Industrials UCITS ETF"
+   ],
+   "konfidenz": "hoch"
+  },
+  {
+   "ausloeser": "US-Notenbank (Fed) erhöht den Leitzins um 50 Basispunkte, während der Nahost‑Konflikt die globale Risikowahrnehmung verschärft.",
+   "direkt": "Kapitalabflüsse aus Schwellenländern verstärken die Attraktivität sicherer Anlagen; ausländische Direktinvestitionen in Deutschland sinken kurzfristig um rund 15 % gegenüber dem Vorquartal.",
+   "zweite": "Bau- und Immobilienprojekte in Deutschland erhalten weniger Fremdfinanzierung; Unternehmen wie Union Invest Real Estate reduzieren Neubaupläne und kündigen Stellenabbau an.",
+   "dritte": "Europäische Immobilien‑REITs und Bau‑Aktien erleben Kursrückgänge, während deutsche Staatsanleihen (Bunds) und sichere Währungen (Schweizer Franken) Kursgewinne verzeichnen; Anleger suchen nach Liquidität und Sicherheit.",
+   "positiv": [
+    "iShares Core € Govt Bond UCITS ETF (Deutsche Bundesanleihen)",
+    "Xtrackers II EUR Corporate Bond UCITS ETF (hochwertige Unternehmensanleihen)",
+    "Swiss National Bank CHF‑Bonds",
+    "Gold ETC (z. B. Xetra‑Gold)",
+    "Deutsche Telekom AG (defensiver Sektor, Dividendenzahler)"
+   ],
+   "negativ": [
+    "Union Investment Real Estate GmbH",
+    "Vonovia SE",
+    "Deutsche Wohnen SE",
+    "LEG Immobilien AG",
+    "Bilfinger SE (Bau‑ und Industrie‑Dienstleistungen)",
+    "iShares MSCI Europe Real Estate UCITS ETF"
+   ],
+   "konfidenz": "mittel"
+  }
+ ],
  "gegenthese": null,
  "matrix": [
   {
@@ -564,7 +610,7 @@
     ],
     [
      "Newsletter",
-     "in 10 Clustern"
+     "in 13 Clustern"
     ],
     [
      "Reddit",
@@ -579,13 +625,9 @@
      "1648,06 % ueber 1700 Halter"
     ]
    ],
-   "dafuer": "Dafür spricht die globale Marktposition im Energiemanagement, ein diversifiziertes Portfolio aus Industrieautomation, Gebäudetechnik und erneuerbaren‑Energielösungen sowie ein Umsatzwachstum von 10 % und ein von Analysten durchschnittlich empfohlenes Kursziel von 326 EUR, das über dem aktuellen Kurs liegt.",
-   "dagegen": "Entgegen steht ein extrem hohes Short‑Interest von über 1.600 % bei rund 1.700 Aktionären, das auf erhebliche Skepsis gegenüber Bewertung und zukünftigen Margen hindeutet. Fehlende Insider‑Transaktionen und kaum Diskussionen auf Reddit verstärken das Bild. Der Widerspruch zwischen 22 Kauf‑Empfehlungen und der Short‑Position ist bemerkbar.",
-   "katalysatoren": [
-    "Veröffentlichung der Quartalsergebnisse Q3 2024",
-    "Abschluss eines Großauftrags für ein Wind‑Microgrid‑Projekt",
-    "Einführung einer neuen IoT‑Plattform für Gebäudeautomation"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "GEV": {
    "ticker": "GEV",
@@ -595,7 +637,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "237.5 Mrd"
+     "237.9 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -693,11 +735,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "108.6 Mrd"
+     "107.9 Mrd"
     ],
     [
      "KGV (erw.)",
-     "18,3"
+     "18,2"
     ],
     [
      "Umsatzwachstum",
@@ -742,7 +784,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "5.294.7 Mrd"
+     "5.285.2 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -1071,14 +1113,102 @@
  "gespraech": [],
  "termine": [
   {
-   "datum": "2026-09-10",
-   "zeit": "14:15",
-   "region": "eu",
-   "was": "EZB-Zinsentscheid",
-   "konsens": "keine Aenderung",
+   "datum": "2026-08-31",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-01",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-01",
+   "zeit": "",
+   "region": "us",
+   "was": "Job Openings and Labor Turnover Survey",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-02",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-03",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-04",
+   "zeit": "",
+   "region": "us",
+   "was": "Employment Situation",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-04",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-05",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-06",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-07",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-08",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-09",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 134,
- "llm_aktiv": false
+ "meldungen_gesamt": 131,
+ "llm_aktiv": true
 }
