@@ -1,9 +1,9 @@
 {
- "stand": "2026-08-31T19:03",
- "lauf": "2026083119",
+ "stand": "2026-09-01T04:39",
+ "lauf": "2026090104",
  "synthese": {
-  "kern": "Alle Meldungen betonen steigende Kosten und strukturelle Belastungen, die der Markt zugunsten von Zinsängsten vernachlässigt.",
-  "erlaeuterung": "Inflation über 3 % und Defizite bei Pflegekassen erhöhen fiskalische Risiken, während Investitionen und M&A das Bild trüben. Gleichzeitig sinkende Liquidität in den USA und geopolitische Spannungen belasten die Marktstimmung, obwohl strukturelle Schwächen kaum bepreist werden."
+  "kern": "Markt überbetont ausländische Kapitalzuflüsse und Optimismus, während Inflation, Liquiditätsengpässe und strukturelle Defizite übersehen werden.",
+  "erlaeuterung": "Die aktuelle Datenlage zeigt steigenden Zinsdruck, anhaltende Inflation über 3 % und sinkende Liquidität in den USA und Europa. Trotzdessen lenken hohe ausländische Investitionen und positive Risikoappetit‑Indikatoren die Aufmerksamkeit von den strukturellen Schwächen."
  },
  "regime": [
   {
@@ -11,15 +11,15 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 76,
-     "delta": 2
+     "wert": 77,
+     "delta": 1
     },
     "eur": {
      "wert": 89,
      "delta": -5
     }
    },
-   "differenz": 13
+   "differenz": 12
   },
   {
    "name": "wachstum",
@@ -37,11 +37,11 @@
    "spuren": {
     "us": {
      "wert": 59,
-     "delta": 5
+     "delta": 8
     },
     "eur": {
      "wert": 74,
-     "delta": -3
+     "delta": 0
     }
    },
    "differenz": 15
@@ -51,8 +51,8 @@
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 88,
-     "delta": 7
+     "wert": 89,
+     "delta": 8
     }
    }
   },
@@ -94,24 +94,47 @@
     "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 5,
+   "anzahl": 4,
    "links": [
     "https://www.handelsblatt.com/finanzen/geldpolitik/inflation-teuerung-in-deutschland-steigt-im-august-auf-29-prozent/100248643.html",
     "https://www.tagesschau.de/wirtschaft/konjunktur/inflation-august-anstieg-100.html",
-    "https://www.tagesschau.de/wirtschaft/verbraucher/deutschland-strompreise-vergleich-100.html",
     "https://www.spiegel.de/wirtschaft/deutschland-teure-energie-treibt-inflation-niedrigwasser-trifft-nrw-verbraucher-a-28d28417-8bab-4d60-98dd-58d50cbe4155#ref=rss",
     "https://www.manager-magazin.de/politik/deutschland/inflation-steigende-energiepreise-treiben-teuerungsrate-auf-2-9-prozent-a-a61c253f-8fd8-4ccf-856b-f0166bf92d47#ref=rss"
    ],
-   "punkte": 23,
-   "text": "Die Verbraucherpreise in Deutschland steigen wieder schneller und liegen nun über drei Prozent, getrieben vor allem durch stark steigende Energiepreise. Der Preisanstieg erhöht die Inflationserwartungen und belastet preisempfindliche Konsumgüter und Anleihen.",
-   "positiv": [
-    "Energie‑Sektor ↑",
-    "Rohstoffunternehmen ↑"
-   ],
+   "punkte": 21,
+   "text": "Die Verbraucherpreise in Deutschland steigen wieder über 3 % Jahresinflation, getrieben vor allem von stark steigenden Energiepreisen. Der Preisdruck belastet Kaufkraft und dürfte die Realrenditen von Anleihen sowie die Margen im Konsumgüter‑ und Einzelhandelssektor belasten.",
+   "positiv": [],
    "negativ": [
-    "Konsumgüter‑Aktien ↓",
-    "Anleihen (inflationsgeschützt) ↓",
-    "Inflationsindex ↓"
+    "Anleihen",
+    "Konsumgüter",
+    "Einzelhandel"
+   ]
+  },
+  {
+   "id": "4d6b704e",
+   "titel": "Störung bei Microsoft: Maildienst Outlook lahmgelegt",
+   "anriss": "Microsoft-Nutzer weltweit haben aktuell erhebliche Probleme, auf ihre E-Mails des Dienstes Outlook zuzugreifen. Sowohl der Login als auch der Empfang und Versand von Mails sind betroffen.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "heise"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/technologie/microsoft-stoerung-100.html",
+    "https://www.spiegel.de/wirtschaft/service/microsoft-outlook-weltweite-stoerung-legt-e-mail-verkehr-lahm-a-8feb937f-4003-4f60-8fe7-38d46290941d#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/microsoft-stoerung-cloud-fehler-blockiert-zugriff-auf-outlook-postfaecher-201176989.html",
+    "https://www.heise.de/news/Ausfall-von-Exchange-Online-Microsoft-untersucht-den-Vorfall-11435865.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 16,
+   "text": "Ein technisches Problem hat den Outlook‑Maildienst von Microsoft weltweit lahmgelegt, sodass Login, Versand und Empfang von E‑Mails stark eingeschränkt sind. Der Ausfall kann kurzfristig das Vertrauen in Microsoft‑Cloud‑Dienste schwächen und die Aktienkurse des Unternehmens belasten.",
+   "positiv": [],
+   "negativ": [
+    "Microsoft",
+    "Cloud‑Dienstleister",
+    "IT‑Dienstleistungssektor"
    ]
   },
   {
@@ -125,24 +148,21 @@
     "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 5,
+   "anzahl": 4,
    "links": [
     "https://www.tagesschau.de/wirtschaft/konjunktur/iw-auslaendische-investitionen-100.html",
     "https://www.spiegel.de/wirtschaft/deutsche-wirtschaft-ist-wieder-attraktiv-fuer-investoren-fusionen-uebernahmen-beteiligungen-a-737da937-ed76-4c89-821d-174c2f926496#ref=rss",
     "https://www.faz.net/aktuell/wirtschaft/klimaschutz-warum-unternehmen-kaum-investieren-201175021.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/auslandsinvestitionen-in-deutschland-steigen-um-50-prozent-201174865.html",
     "https://www.manager-magazin.de/politik/weltwirtschaft/iw-studie-deutsche-wirtschaft-ist-wieder-attraktiv-fuer-investoren-a-ced454b2-672d-4a65-af96-7b53f424fb14#ref=rss"
    ],
-   "punkte": 18,
-   "text": "Ausländische Direktinvestitionen in Deutschland haben im vergangenen Jahr deutlich zugenommen, was die Attraktivität des Standorts für internationale Unternehmen bestätigt. Die Investitionen konzentrieren sich vermehrt auf Industrie‑ und Technologiebereiche, während andere Länder im Wettbewerb zurückfallen.",
+   "punkte": 16,
+   "text": "Ausländische Direktinvestitionen in Deutschland sind im vergangenen Jahr deutlich gestiegen, was die Attraktivität des Standorts für internationale Unternehmen bestätigt. Der Zufluss von Kapital dürfte insbesondere die deutschen Industrie‑ und Immobilienwerte unterstützen.",
    "positiv": [
-    "Deutsche Industrie‑Aktien ↑",
-    "Technologie‑Sektor ↑",
-    "FDI‑Flows nach Deutschland ↑"
+    "Deutsche Industrie",
+    "Immobilien",
+    "Deutsche Aktien"
    ],
-   "negativ": [
-    "Wettbewerber‑Länder ↓"
-   ]
+   "negativ": []
   },
   {
    "id": "3a76bb7e",
@@ -160,14 +180,13 @@
     "https://www.faz.net/aktuell/wirtschaft/unternehmen/allianz-und-aa-uebernahme-des-pannendiensts-fuer-fuenf-milliarden-201175383.html"
    ],
    "punkte": 16,
-   "text": "Aon übernimmt den US-Versicherungsmakler USI für 17 Milliarden Dollar und stärkt damit sein Geschäft mit mittelständischen Kunden in den USA. Der Deal generiert für den Großaktionär KKR einen Milliardengewinn und verbessert Aons Marktposition im Versicherungs‑Brokerage‑Segment.",
+   "text": "Aon übernimmt den US-Versicherungsmakler USI für 17 Mrd. USD und stärkt damit sein Geschäft mit mittelständischen Kunden. Der Deal ist für Aon positiv, während USI‑Aktionäre von der Übernahme profitieren, jedoch kann die Konsolidierung im US‑Versicherungsmarkt Wettbewerbsdruck erhöhen.",
    "positiv": [
-    "Aon ↑",
-    "USI‑Aktionäre ↑",
-    "Versicherungs‑Brokerage‑Branche ↑"
+    "Aon",
+    "Versicherungs‑Makler‑Geschäft"
    ],
    "negativ": [
-    "Konkurrenten im US‑Versicherungsmarkt ↓"
+    "US‑Versicherungs‑Wettbewerb"
    ]
   },
   {
@@ -188,13 +207,30 @@
     "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/pflegekassen-finanzluecke-von-4-4-milliarden-euro-waechst-201174951.html"
    ],
    "punkte": 14,
-   "text": "Die Pflegekassen verzeichneten im ersten Halbjahr ein Defizit von 770 Millionen Euro, und es wird befürchtet, dass die Einnahmen im Oktober nicht mehr ausreichen, um die Pflegeleistungen vollständig zu finanzieren. Das Defizit belastet die finanzielle Stabilität des Pflegesystems und erhöht das Risiko für private Pflegeanbieter.",
+   "text": "Die Pflegekassen haben im ersten Halbjahr ein Minus von 770 Millionen Euro eingefahren. Der Spitzenverband warnt: Schon im Oktober könnten die Einnahmen nicht mehr reichen, um Pflegeleistungen voll zu finanzieren.",
    "positiv": [],
-   "negativ": [
-    "Pflegekassen ↓",
-    "Pflege‑Dienstleister ↓",
-    "Sozialversicherungs‑Finanzen ↓"
-   ]
+   "negativ": []
+  },
+  {
+   "id": "0c44bc93",
+   "titel": "John Ternus: Heute übernimmt Tim Cooks Nachfolger – das kommt auf ihn zu",
+   "anriss": "Der amerikanische Apple-Konzern schlägt ein neues Kapitel auf. Es geht um das nächste iPhone, Künstliche Intelligenz und mehr.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "heise",
+    "manager magazin"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/john-ternus-loest-tim-cook-als-apple-chef-ab-accg-201175005.html",
+    "https://www.manager-magazin.de/unternehmen/tech/apple-vor-diesen-herausforderungen-steht-der-neue-ceo-john-ternus-a-1a9b8e87-a061-4783-aa98-dc0b890fdb64#ref=rss",
+    "https://www.heise.de/news/Letzter-Tag-fuer-Tim-Cook-Ab-morgen-uebernimmt-John-Ternus-als-Apple-CEO-11435143.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 12,
+   "text": "Der amerikanische Apple-Konzern schlägt ein neues Kapitel auf. Es geht um das nächste iPhone, Künstliche Intelligenz und mehr.",
+   "positiv": [],
+   "negativ": []
   },
   {
    "id": "645ff82d",
@@ -205,127 +241,42 @@
     "Handelsblatt Finanzen",
     "manager magazin"
    ],
-   "anzahl": 4,
+   "anzahl": 3,
    "links": [
     "https://www.handelsblatt.com/finanzen/immobilien/immobilien-union-invest-real-estate-baut-um-und-stellen-ab/100250920.html",
-    "https://www.handelsblatt.com/finanzen/immobilien/china-immobilienaktien-geben-wegen-neuen-finanzierungsregeln-nach/100250776.html",
     "https://www.manager-magazin.de/finanzen/union-investment-tochter-real-estate-streicht-stellen-im-sparprogramm-reshape-a-c9e3c9be-a80e-4eee-9530-3a96a79fff40#ref=rss",
     "https://www.manager-magazin.de/ueber-uns/neuer-chef-bei-apple-turnaround-bei-gea-jobabbau-bei-union-investment-das-war-montag-31-8-2026-a-fd7da810-8f7d-42fc-860a-01ba7c0dac06#ref=rss"
    ],
-   "punkte": 14,
+   "punkte": 11,
    "text": "Der Hamburger Immobilienfondsmanager stellt sich neu auf, dabei fallen Arbeitsplätze weg. Das Unternehmen will in Zukunft auf Mieterträge statt Bewertungsaufschläge setzen.",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "c6e4b28e",
-   "titel": "Business-Ticker: VW-Gewerkschafter warnt: „Dann wird der Werkboden an allen Standorten brennen“",
-   "anriss": "Hensoldt soll indische Lufttaxis fliegen lassen +++ OHB baut 18 Satelliten für die EU +++ Eli Lilly übernimmt Biotechfirma für mehrere Milliarden +++ Neuigkeiten im Unternehmen-Liveblog.",
+   "id": "a469406b",
+   "titel": "Aktien: Verhaltener Börsenstart für chinesischen Modehändler Shein",
+   "anriss": "Der chinesische Online-Modehändler ist nach langem Vorlauf in Hongkong an die Börse gegangen. Die erste Kursentwicklung illustriert: Die Zeit der Euphorie im E-Commerce ist vorerst vorbei.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
-    "heise",
-    "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-vw-gewerkschafter-groeger-warnt-dann-wird-der-werkboden-an-allen-standorten-brennen-faz-200452404.html",
-    "https://www.manager-magazin.de/unternehmen/industrie/ohb-raumfahrtkonzern-erhaelt-milliardenauftrag-fuer-eu-satellitennetz-iris-a-ab742589-05f2-496d-a933-a412eb06272f#ref=rss",
-    "https://www.heise.de/news/Sicheres-Netz-aus-dem-All-OHB-bekommt-Milliardenauftrag-fuer-Iris2-11435376.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 12,
-   "text": "Hensoldt soll indische Lufttaxis fliegen lassen +++ OHB baut 18 Satelliten für die EU +++ Eli Lilly übernimmt Biotechfirma für mehrere Milliarden +++ Neuigkeiten im Unternehmen-Liveblog.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "8ff81479",
-   "titel": "Disaffection at Work: Employee Responses to Job-Related Information",
-   "anriss": "arXiv:2608.27538v1 Announce Type: new Abstract: Quiet quitting reflects a form of worker disaffection that operates along the intensive margin of labor supply rather than through job exit. We study how alternative workplace narratives shape workers' behavioral responses using a randomized survey exp",
-   "region": "global",
-   "quellen": [
-    "arXiv q-fin"
-   ],
-   "anzahl": 10,
-   "links": [
-    "https://arxiv.org/abs/2608.27538",
-    "https://arxiv.org/abs/2608.27575",
-    "https://arxiv.org/abs/2608.27598",
-    "https://arxiv.org/abs/2608.27734",
-    "https://arxiv.org/abs/2608.27980"
-   ],
-   "punkte": 12,
-   "text": "arXiv:2608.27538v1 Announce Type: new Abstract: Quiet quitting reflects a form of worker disaffection that operates along the intensive margin of labor supply rather than through job exit. We study how alternative workpl",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "f536cd1e",
-   "titel": "Nikkei, Yen, Hang Seng: Zinssorgen und Nahost-Konflikt: Asiatische Börsen schließen im Minus",
-   "anriss": "Die Angst vor einer Zinswende und der erneut eskalierende Militärkonflikt im Nahen Osten haben die asiatischen Börsen zum Wochenauftakt belastet.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "Tagesschau Wirtschaft"
+    "Handelsblatt Finanzen"
    ],
    "anzahl": 2,
    "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-yen-hang-seng-asiatische-boersen-schliessen-im-minus/100250695.html",
-    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-iran-geldanlage-102.html"
+    "https://www.handelsblatt.com/finanzen/maerkte/aktien-verhaltener-boersenstart-fuer-chinesischen-modehaendler-shein/100250878.html",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/shein-verpatzt-boersengang-in-hongkong-aktie-verliert-accg-201177318.html"
    ],
    "punkte": 9,
-   "text": "Die Angst vor einer Zinswende und der erneut eskalierende Militärkonflikt im Nahen Osten haben die asiatischen Börsen zum Wochenauftakt belastet.",
+   "text": "Der chinesische Online-Modehändler ist nach langem Vorlauf in Hongkong an die Börse gegangen. Die erste Kursentwicklung illustriert: Die Zeit der Euphorie im E-Commerce ist vorerst vorbei.",
    "positiv": [],
    "negativ": []
   }
  ],
- "ketten": [
-  {
-   "ausloeser": "EU-Kommission verabschiedet ein neues, deutlich strengeres Emissionshandelssystem für die Industrie (geplante Gesetzgebung, noch nicht in Kraft).",
-   "direkt": "Deutsche Industrieunternehmen erhalten höhere CO₂‑Zertifikatskosten und müssen zusätzliche Investitionen in Emissionsminderung tätigen.",
-   "zweite": "Gewinnmargen von energieintensiven Sektoren (Automobil, Chemie, Stahl) sinken, Aktienkurse dieser Unternehmen fallen und Analysten senken ihre Gewinnprognosen.",
-   "dritte": "Kapital fließt aus den betroffenen Branchen in klimafreundliche Anlagen – europäische Renewable‑Energy‑Aktien, grüne Anleihen und ESG‑Fonds gewinnen an Attraktivität.",
-   "positiv": [
-    "iShares MSCI Europe ESG Leaders UCITS ETF",
-    "Deutsche grüne Bundesanleihen 2030",
-    "Siemens Energy AG (Erneuerbare‑Energie‑Sparte)",
-    "Vestas Wind Systems A/S (EU‑exponiert)",
-    "Enel SpA (grüne Infrastruktur)"
-   ],
-   "negativ": [
-    "Volkswagen AG",
-    "BMW AG",
-    "Daimler Truck Holding AG",
-    "BASF SE",
-    "ThyssenKrupp AG",
-    "iShares MSCI Europe Industrials UCITS ETF"
-   ],
-   "konfidenz": "hoch"
-  },
-  {
-   "ausloeser": "US-Notenbank (Fed) erhöht den Leitzins um 50 Basispunkte, während der Nahost‑Konflikt die globale Risikowahrnehmung verschärft.",
-   "direkt": "Kapitalabflüsse aus Schwellenländern verstärken die Attraktivität sicherer Anlagen; ausländische Direktinvestitionen in Deutschland sinken kurzfristig um rund 15 % gegenüber dem Vorquartal.",
-   "zweite": "Bau- und Immobilienprojekte in Deutschland erhalten weniger Fremdfinanzierung; Unternehmen wie Union Invest Real Estate reduzieren Neubaupläne und kündigen Stellenabbau an.",
-   "dritte": "Europäische Immobilien‑REITs und Bau‑Aktien erleben Kursrückgänge, während deutsche Staatsanleihen (Bunds) und sichere Währungen (Schweizer Franken) Kursgewinne verzeichnen; Anleger suchen nach Liquidität und Sicherheit.",
-   "positiv": [
-    "iShares Core € Govt Bond UCITS ETF (Deutsche Bundesanleihen)",
-    "Xtrackers II EUR Corporate Bond UCITS ETF (hochwertige Unternehmensanleihen)",
-    "Swiss National Bank CHF‑Bonds",
-    "Gold ETC (z. B. Xetra‑Gold)",
-    "Deutsche Telekom AG (defensiver Sektor, Dividendenzahler)"
-   ],
-   "negativ": [
-    "Union Investment Real Estate GmbH",
-    "Vonovia SE",
-    "Deutsche Wohnen SE",
-    "LEG Immobilien AG",
-    "Bilfinger SE (Bau‑ und Industrie‑Dienstleistungen)",
-    "iShares MSCI Europe Real Estate UCITS ETF"
-   ],
-   "konfidenz": "mittel"
-  }
- ],
- "gegenthese": null,
+ "ketten": [],
+ "gegenthese": {
+  "konsens": "Inflation bleibt über 3 %, ausländische Kapitalflüsse stärken Deutschland, Outlook‑Störung wird kurzfristig eingedämmt, Aon‑Deal konsolidiert US‑Versicherungsmarkt, Pflegekassendefizit belastet Finanzen, Tim Cooks Nachfolger stabilisiert, Union Invest senkt Kosten, Shein‑Aktien verhalten.",
+  "gegen": "Inflationsdruck könnte durch Energiepreise weiter steigen, ausländische Investitionen sind volatil, Outlook‑Ausfall zeigt Abhängigkeit von Cloud‑Anbietern, Aon‑Deal birgt Regulierungs‑ und Integrationsrisiken, Pflegekassen‑Defizit ist strukturell, Apple‑Führungssprung birgt Unsicherheit, Union Invest‑Umstrukturierung kann Erträge mindern, Shein‑Bewertung bleibt spekulativ."
+ },
  "matrix": [
   {
    "ticker": "SU.PA",
@@ -610,7 +561,7 @@
     ],
     [
      "Newsletter",
-     "in 13 Clustern"
+     "in 17 Clustern"
     ],
     [
      "Reddit",
@@ -637,11 +588,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "237.9 Mrd"
+     "239.3 Mrd"
     ],
     [
      "KGV (erw.)",
-     "35,5"
+     "35,7"
     ],
     [
      "Umsatzwachstum",
@@ -686,11 +637,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "42.7 Mrd"
+     "43.0 Mrd"
     ],
     [
      "KGV (erw.)",
-     "52,4"
+     "52,7"
     ],
     [
      "Umsatzwachstum",
@@ -735,11 +686,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "107.9 Mrd"
+     "108.8 Mrd"
     ],
     [
      "KGV (erw.)",
-     "18,2"
+     "18,3"
     ],
     [
      "Umsatzwachstum",
@@ -784,11 +735,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "5.285.2 Mrd"
+     "5.331.2 Mrd"
     ],
     [
      "KGV (erw.)",
-     "14,3"
+     "14,4"
     ],
     [
      "Umsatzwachstum",
@@ -827,51 +778,6 @@
   }
  },
  "shorts": [
-  {
-   "land": "NL",
-   "halter": "Walleye Capital LLC",
-   "emittent": "Pharming Group N.V.",
-   "prozent": 0.95,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "Pentwater Capital Management LP",
-   "emittent": "Akzo Nobel N.V.",
-   "prozent": 0.51,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "AQR Capital Management, LLC",
-   "emittent": "Akzo Nobel N.V.",
-   "prozent": 0.49,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "BlackRock Financial Management, Inc.",
-   "emittent": "PostNL N.V.",
-   "prozent": 0.49,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "Millennium Capital Partners LLP",
-   "emittent": "Alfen N.V.",
-   "prozent": 0.48,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
   {
    "land": "UK",
    "halter": "Anavio Capital Partners LLP",
@@ -1096,10 +1002,55 @@
    "datum": "2019-06-12",
    "status": "aufgestockt",
    "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 14.08,
+   "datum": "2019-06-11",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 13.82,
+   "datum": "2019-06-10",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "GUEVOURA FUND LTD",
+   "emittent": "HAMMERSON PLC",
+   "prozent": 13.78,
+   "datum": "2020-09-24",
+   "status": "aufgestockt",
+   "zuvor": 0.57
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 13.68,
+   "datum": "2019-06-07",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 13.5,
+   "datum": "2019-06-06",
+   "status": "aufgestockt",
+   "zuvor": 0.53
   }
  ],
  "shorts_kennzahlen": {
-  "neu_diese_woche": 5,
+  "neu_diese_woche": 0,
   "meistgeshortet": {
    "name": "Premier Oil PLC",
    "summe": 2145.63
@@ -1112,14 +1063,6 @@
  },
  "gespraech": [],
  "termine": [
-  {
-   "datum": "2026-08-31",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
   {
    "datum": "2026-09-01",
    "zeit": "",
@@ -1207,8 +1150,16 @@
    "was": "FOMC Press Release",
    "konsens": "",
    "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-10",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 131,
- "llm_aktiv": true
+ "meldungen_gesamt": 159,
+ "llm_aktiv": false
 }
