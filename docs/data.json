@@ -1,9 +1,9 @@
 {
- "stand": "2026-09-01T16:34",
- "lauf": "2026090116",
+ "stand": "2026-09-01T19:04",
+ "lauf": "2026090119",
  "synthese": {
-  "kern": "Inflationsdruck dominiert, während Markt die drohende Liquiditätsverknappung und geopolitische Unsicherheit unterschätzt.",
-  "erlaeuterung": "Steigende Verbraucherpreise im Euroraum über 3 % treiben Zinsängste an und belasten den DAX. Gleichzeitig zeigen niedrige US‑Liquidität und hohes geopolitisches Risiko, dass die Marktstimmung über die strukturellen Schwächen hinwegsehen könnte."
+  "kern": "Globale Unsicherheit über Inflation, Energiepreise und regulatorische Risiken dominiert, während Märkte die geopolitische Belastung unterschätzen.",
+  "erlaeuterung": "Steigende Inflation im Euroraum, volatile Ölpreise nach US-Angriffen und zunehmende Rechtsstreitigkeiten belasten das Risikoappetit. Der Markt fokussiert kurzfristige Aktienbewegungen, vernachlässigt jedoch die langfristige Belastung durch Energie- und geopolitische Spannungen."
  },
  "regime": [
   {
@@ -36,23 +36,23 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 61,
-     "delta": 10
+     "wert": 62,
+     "delta": 11
     },
     "eur": {
      "wert": 79,
      "delta": 5
     }
    },
-   "differenz": 18
+   "differenz": 17
   },
   {
    "name": "risikoappetit",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 86,
-     "delta": 3
+     "wert": 80,
+     "delta": -3
     }
    }
   },
@@ -61,82 +61,83 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 37,
-     "delta": -5
+     "wert": 41,
+     "delta": -1
     },
     "eur": {
      "wert": 1,
      "delta": 1
     }
    },
-   "differenz": 36
+   "differenz": 40
   },
   {
    "name": "geopolitik",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 91,
-     "delta": -4
+     "wert": 90,
+     "delta": -5
     }
    }
   }
  ],
  "cluster": [
   {
+   "id": "635bda3a",
+   "titel": "Dow Jones, S&P 500, Nasdaq: Wall Street im Minus – Ölpreise steigen nach US-Angriffen",
+   "anriss": "Ölpreise und Anleiherenditen steigen weiter. Das wirft den Fokus auf die Geldpolitik in den USA. Unterdessen könnte die US-Notenbank Fed in ein Dilemma kommen.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 8,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-wall-street-im-minus-oelpreise-steigen-nach-us-angriffen/100251215.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-unter-26.000er-marke-inflationssorgen-druecken-kurse/100251017.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-csi-300-hang-seng-asienboersen-schliessen-kaum-veraendert/100250989.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/anleihen/anleihen-nervositaet-am-bondmarkt-renditen-auf-mehrjaehrigem-hoechststand/100251033.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sieben-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html"
+   ],
+   "punkte": 31,
+   "text": "Die US‑Aktienindizes Dow Jones, S&P 500 und Nasdaq schließen im Minus, während die Ölpreise und die Renditen von US‑Staatsanleihen weiter steigen. Die Entwicklung richtet die Aufmerksamkeit erneut auf die US‑Geldpolitik und könnte die Federal Reserve vor ein Zins‑Dilemma stellen.",
+   "positiv": [
+    "Ölpreise ↑",
+    "Anleiherenditen ↑"
+   ],
+   "negativ": [
+    "US‑Aktienindizes ↓"
+   ]
+  },
+  {
    "id": "038866e8",
    "titel": "Verbraucherpreise: Inflation im Euro-Raum springt über drei Prozent – Sorgen vor neuem Gaspreisschock",
    "anriss": "﻿Die Inflation entfernt sich deutlich vom Zielwert der Notenbank. Eine Zinserhöhung der Europäischen Zentralbank in der nächsten Woche gilt als sehr wahrscheinlich.",
    "region": "dach",
    "quellen": [
+    "FAZ Wirtschaft",
     "Handelsblatt Finanzen",
     "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 6,
+   "anzahl": 7,
    "links": [
     "https://www.handelsblatt.com/finanzen/geldpolitik/inflation-33-prozent-teuerung-im-euro-raum-zieht-deutlich-an/100248647.html",
     "https://www.tagesschau.de/wirtschaft/energie/gas-speicher-preise-100.html",
     "https://www.tagesschau.de/wirtschaft/konjunktur/inflation-august-anstieg-100.html",
     "https://www.spiegel.de/wirtschaft/service/inflation-duerfte-laut-wirtschaftsforschern-2027-bei-drei-prozent-liegen-a-d4b5f964-bd1f-4984-8b8d-4750c17eedd0#ref=rss",
-    "https://www.manager-magazin.de/politik/europa/energiepreisschock-treibt-inflation-auf-3-3-prozent-a-e0613fc1-7c4f-4b2f-bc99-5b9b996b1748#ref=rss"
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/inflationssprung-die-ezb-muss-dringend-handeln-201178620.html"
    ],
-   "punkte": 25,
-   "text": "Die Verbraucherpreise im Euroraum liegen nun über 3 % und entfernen sich deutlich vom Ziel der EZB. Die Erwartung einer Zinserhöhung der EZB in der kommenden Woche steigt damit stark an.",
-   "positiv": [
-    "Euro‑Zone‑Kurzfristzinsen (steigend)"
-   ],
+   "punkte": 29,
+   "text": "Im Euroraum hat die Verbraucherpreisrate die 3‑Prozent‑Marke überschritten, was die Inflation deutlich vom Ziel der EZB entfernt. Vor diesem Hintergrund wird in der kommenden Woche mit hoher Wahrscheinlichkeit eine Zinserhöhung der Europäischen Zentralbank erwartet.",
+   "positiv": [],
    "negativ": [
-    "Euro‑Zone‑Staatsanleihen (Kursverlust)",
-    "Euro‑Zone‑Aktien (Abwärtsdruck)"
-   ]
-  },
-  {
-   "id": "fbf0460b",
-   "titel": "Dax aktuell: Dax schließt unter 26.000er-Marke – Inflationssorgen drücken Kurse",
-   "anriss": "Anleger im deutschen Leitindex zeigen sich zu Beginn des neuen Monats zurückhaltend. Steigende Zinsen am Anleihemarkt und hohe Ölpreise belasten den Dax.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "manager magazin"
-   ],
-   "anzahl": 6,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-unter-26.000er-marke-inflationssorgen-druecken-kurse/100251017.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-csi-300-hang-seng-asienboersen-schliessen-kaum-veraendert/100250989.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/anleihen/anleihen-nervositaet-am-bondmarkt-renditen-auf-mehrjaehrigem-hoechststand/100251033.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sieben-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
-    "https://www.manager-magazin.de/finanzen/boerse/japan-rendite-zehnjaehriger-staatsanleihen-auf-rekordhoch-a-539ca011-2901-446c-b6ec-0e26fcee561f#ref=rss"
-   ],
-   "punkte": 24,
-   "text": "Der DAX schloss den Handelstag unter der 26.000‑Marke, weil Inflationssorgen und steigende Anleihezinsen die Stimmung dämpfen. Hohe Ölpreise verstärken den Druck auf den deutschen Leitindex.",
-   "positiv": [
-    "Deutsche Staatsanleihen‑Renditen (steigend)"
-   ],
-   "negativ": [
-    "DAX (Rückgang)",
-    "Deutsche Aktien (Abwärtsdruck)"
+    "Euro‑Inflation ↑",
+    "Euro‑Staatsanleihen ↓ (Preis)",
+    "Zins‑Erwartungen ↑"
    ]
   },
   {
@@ -154,17 +155,17 @@
    "anzahl": 5,
    "links": [
     "https://www.handelsblatt.com/finanzen/maerkte/aktien-verhaltener-boersenstart-fuer-chinesischen-modehaendler-shein/100250878.html",
-    "https://www.tagesschau.de/wirtschaft/unternehmen/shein-ipo-boersengang-hongkong-100.html",
+    "https://www.tagesschau.de/wirtschaft/unternehmen/shein-temu-online-handel-china-100.html",
     "https://www.spiegel.de/wirtschaft/unternehmen/shein-shoppingplattform-rutscht-beim-boersendebuet-ins-minus-a-9b10cf90-8e79-48da-b5a0-f72eaff2031d#ref=rss",
     "https://www.faz.net/aktuell/wirtschaft/unternehmen/sheins-boersengang-sky-xu-verliert-milliarden-durch-fehler-201177940.html",
     "https://www.manager-magazin.de/unternehmen/handel/shein-modehaendler-enttaeuscht-zum-boersenstart-weiter-erhebliche-risiken-a-13ca284b-9e67-4cbf-aede-ba3f5cdcd58f#ref=rss"
    ],
    "punkte": 21,
-   "text": "Shein, der chinesische Online‑Modehändler, startete nach dem Börsengang in Hongkong verhalten und verzeichnete Kursverluste. Das deutet darauf hin, dass die Euphorie im E‑Commerce‑Sektor nachlässt.",
+   "text": "Der chinesische Online‑Modehändler Shein ist nach einem langen Vorlauf an der Börse in Hongkong gelistet, verzeichnet jedoch einen verhaltenen Kursverlauf. Das deutet darauf hin, dass die Euphorie im E‑Commerce‑Sektor nachlässt.",
    "positiv": [],
    "negativ": [
-    "Shein‑Aktie (Rückgang)",
-    "E‑Commerce‑Branche (Abwärtsdruck)"
+    "Shein‑Aktie ↔ (verhaltener Start)",
+    "E‑Commerce‑Branche ↓"
    ]
   },
   {
@@ -186,31 +187,11 @@
     "https://www.heise.de/news/Aus-Grossbritannien-Apple-kauft-erstmals-bereits-laufende-TV-Serie-11435837.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
    "punkte": 16,
-   "text": "Apple gibt die Geschäftsführung von Tim Cook an John Ternus weiter, der künftig das Unternehmen leiten wird. Konkrete Auswirkungen auf Apple‑Aktien oder die Technologiebranche lassen sich zum jetzigen Zeitpunkt nicht ableiten.",
+   "text": "Apple gibt die Nachfolge von Tim Cook an John Ternus weiter, der künftig die operative Führung des Unternehmens übernehmen wird. Der Wechsel wird von den Märkten bislang neutral aufgenommen, ohne klare Kursbewegungen.",
    "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "66828e96",
-   "titel": "Lars Klingbeil versus Katherina Reiche: Streit wegen »Opposition in Regierung«",
-   "anriss": "Am Mittwoch soll das Kabinett die Einkommensteuerreform beschließen. Nicht ausreichend sei die, hieß es aus dem Wirtschaftsministerium. Finanzminister Klingbeil reagiert genervt.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft"
-   ],
-   "anzahl": 5,
-   "links": [
-    "https://www.spiegel.de/wirtschaft/lars-klingbeil-versus-katherina-reiche-streit-wegen-opposition-in-regierung-a-9d42f329-5f21-4db7-b741-916e3bee769c#ref=rss",
-    "https://www.spiegel.de/wirtschaft/lars-klingbeil-wirtschaftsministerium-wirft-finanzminister-heimliche-steuererhoehung-vor-a-11292b8a-1699-44f6-892b-ab30d87b8a44#ref=rss",
-    "https://www.spiegel.de/wirtschaft/lars-klingbeil-in-den-usa-eklat-um-russische-teilnahme-am-g20-treffen-a-b89de68f-0ae4-4827-8558-672848c35de2#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/nach-kritik-an-steuerplaenen-klingbeil-weist-reiche-zurecht-201179593.html",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/g-20-treffen-europaeer-schliessen-russischen-finanzminister-von-gruppenfoto-aus-201176730.html"
-   ],
-   "punkte": 14,
-   "text": "Am Mittwoch soll das Kabinett die Einkommensteuerreform beschließen. Nicht ausreichend sei die, hieß es aus dem Wirtschaftsministerium. Finanzminister Klingbeil reagiert genervt.",
-   "positiv": [],
-   "negativ": []
+   "negativ": [
+    "Apple‑Aktie ↔ (keine eindeutige Richtung)"
+   ]
   },
   {
    "id": "00428409",
@@ -230,6 +211,27 @@
    ],
    "punkte": 12,
    "text": "Mit manipulierten Auktionen für Online-Werbung soll sich Amazon zweistellige Milliardenbeträge erschlichen haben. Das wirft die US-Wettbewerbsbehörder FTC dem Konzern vor - und klagt zusammen mit 22 Bundesstaaten.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "66828e96",
+   "titel": "Lars Klingbeil versus Katherina Reiche: Streit wegen »Opposition in Regierung«",
+   "anriss": "Am Mittwoch soll das Kabinett die Einkommensteuerreform beschließen. Nicht ausreichend sei die, hieß es aus dem Wirtschaftsministerium. Finanzminister Klingbeil reagiert genervt.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.spiegel.de/wirtschaft/lars-klingbeil-versus-katherina-reiche-streit-wegen-opposition-in-regierung-a-9d42f329-5f21-4db7-b741-916e3bee769c#ref=rss",
+    "https://www.spiegel.de/wirtschaft/lars-klingbeil-wirtschaftsministerium-wirft-finanzminister-heimliche-steuererhoehung-vor-a-11292b8a-1699-44f6-892b-ab30d87b8a44#ref=rss",
+    "https://www.spiegel.de/wirtschaft/lars-klingbeil-in-den-usa-eklat-um-russische-teilnahme-am-g20-treffen-a-b89de68f-0ae4-4827-8558-672848c35de2#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/nach-kritik-an-steuerplaenen-klingbeil-weist-reiche-zurecht-201179593.html"
+   ],
+   "punkte": 12,
+   "text": "Am Mittwoch soll das Kabinett die Einkommensteuerreform beschließen. Nicht ausreichend sei die, hieß es aus dem Wirtschaftsministerium. Finanzminister Klingbeil reagiert genervt.",
    "positiv": [],
    "negativ": []
   },
@@ -254,22 +256,22 @@
    "negativ": []
   },
   {
-   "id": "d0118875",
-   "titel": "Rasanter Anstieg bei ausländischen Investitionen in Deutschland",
-   "anriss": "Deutschland bleibt für ausländische Unternehmen attraktiv - ihre Direktinvestitionen sind einer Studie zufolge im vergangenen Jahr deutlich gestiegen. Allerdings hat sich verändert, woher das Geld kommt.",
+   "id": "70bd2364",
+   "titel": "Wirtschaft vor acht vom 01.09.2026",
+   "anriss": "Wirtschaft vor acht vom 01.09.2026",
    "region": "dach",
    "quellen": [
-    "Tagesschau Wirtschaft",
-    "heise"
+    "FAZ Wirtschaft",
+    "Tagesschau Wirtschaft"
    ],
    "anzahl": 3,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/konjunktur/iw-auslaendische-investitionen-100.html",
-    "https://www.heise.de/news/KI-Skalierung-Investitionen-steigen-Erfolg-bleibt-aus-11436471.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-    "https://www.heise.de/news/Ostdeutsche-Automobilindustrie-zwischen-Tesla-Investitionen-und-VW-Krise-11436343.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+    "https://www.tagesschau.de/video/video-1641172.html",
+    "https://www.tagesschau.de/multimedia/sendung/tagesschau24/boerselive/video-1640148.html",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/wahl-sachsen-anhalt-2026-afd-bedroht-wirtschaft-201173338.html"
    ],
    "punkte": 10,
-   "text": "Deutschland bleibt für ausländische Unternehmen attraktiv - ihre Direktinvestitionen sind einer Studie zufolge im vergangenen Jahr deutlich gestiegen. Allerdings hat sich verändert, woher das Geld kommt.",
+   "text": "Wirtschaft vor acht vom 01.09.2026",
    "positiv": [],
    "negativ": []
   }
@@ -526,13 +528,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "ASML dominiert den EUV-Markt, das einzige Unternehmen mit produktionsreifen 13,5 nm‑Lichtquellen. Das Umsatzwachstum von +21 % bestätigt steigende Chipnachfrage, insbesondere für KI und Automotive. Analysten bewerten das Unternehmen überwiegend positiv (38 Buy, 4 Hold, 1 Sell). Das Kursziel von 2021 EUR spiegelt langfristiges Aufwärtspotenzial.",
-   "dagegen": "Ein KGV von 27,8 liegt über dem Branchendurchschnitt und könnte die Bewertung überhöhen. Die Nachfrage nach Halbleitern ist konjunkturabhängig, bei Abschwächung könnte das Wachstum bremsen. Geopolitische Spannungen, insbesondere US‑Exportbeschränkungen für China, könnten das Kundenportfolio einschränken.",
-   "katalysatoren": [
-    "Q3‑Ergebnisbericht (Oktober 2026)",
-    "Auslieferung der High‑NA EUV‑Generation ab 2025",
-    "Neue Großaufträge von TSMC und Samsung für 2026‑2027"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "SU.PA": {
    "ticker": "SU.PA",
@@ -564,7 +562,7 @@
     ],
     [
      "Newsletter",
-     "in 24 Clustern"
+     "in 21 Clustern"
     ],
     [
      "Reddit",
@@ -591,11 +589,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "236.0 Mrd"
+     "238.4 Mrd"
     ],
     [
      "KGV (erw.)",
-     "35,3"
+     "35,7"
     ],
     [
      "Umsatzwachstum",
@@ -640,11 +638,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "42.0 Mrd"
+     "42.1 Mrd"
     ],
     [
      "KGV (erw.)",
-     "51,4"
+     "51,5"
     ],
     [
      "Umsatzwachstum",
@@ -689,11 +687,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "105.7 Mrd"
+     "105.1 Mrd"
     ],
     [
      "KGV (erw.)",
-     "17,8"
+     "17,7"
     ],
     [
      "Umsatzwachstum",
@@ -707,7 +705,7 @@
    "quellen": [
     [
      "Analysten",
-     "18 Kauf / 4 Halten / 1 Verkauf"
+     "19 Kauf / 3 Halten / 1 Verkauf"
     ],
     [
      "Newsletter",
@@ -738,11 +736,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "5.301.5 Mrd"
+     "5.249.6 Mrd"
     ],
     [
      "KGV (erw.)",
-     "14,3"
+     "14,1"
     ],
     [
      "Umsatzwachstum",
@@ -1163,6 +1161,6 @@
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 190,
+ "meldungen_gesamt": 193,
  "llm_aktiv": false
 }
