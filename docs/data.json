@@ -1,9 +1,9 @@
 {
- "stand": "2026-09-02T07:03",
- "lauf": "2026090207",
+ "stand": "2026-09-02T10:03",
+ "lauf": "2026090210",
  "synthese": {
-  "kern": "Globale Unsicherheit durch Energiepreisschock, Inflation und regulatorische Risiken dominiert, während Märkte Liquiditätsengpässe übersehen.",
-  "erlaeuterung": "Der Ölpreisanstieg nach US-Angriffen treibt Inflationsängste im Euroraum und erhöht den Zinsdruck. Gleichzeitig belasten Rechtsstreitigkeiten, geopolitische Spannungen und geringe US‑Liquidität die Risikobereitschaft, was von Anlegern unterschätzt wird."
+  "kern": "Markt fokussiert auf Inflation und Energiepreise, übersieht wachsende geopolitische Risiken und regulatorische Unsicherheiten.",
+  "erlaeuterung": "Während steigende Verbraucherpreise und Ölpreise die Märkte dominieren, erhöhen sich gleichzeitig geopolitische Spannungen und rechtliche Auseinandersetzungen, die das Risiko erhöhen. Diese Faktoren könnten die aktuelle Marktstabilität unterminieren, obwohl sie bislang kaum in den Preisbewegungen reflektiert werden."
  },
  "regime": [
   {
@@ -40,19 +40,19 @@
      "delta": 11
     },
     "eur": {
-     "wert": 80,
-     "delta": 7
+     "wert": 79,
+     "delta": 6
     }
    },
-   "differenz": 17
+   "differenz": 16
   },
   {
    "name": "risikoappetit",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 82,
-     "delta": -1
+     "wert": 79,
+     "delta": -5
     }
    }
   },
@@ -84,30 +84,32 @@
  ],
  "cluster": [
   {
-   "id": "97162c18",
-   "titel": "Nikkei, Kospi, Topix: Ölpreisschock nach US-Angriffen drückt asiatische Märkte",
-   "anriss": "Anleger in Asien agieren vorsichtig. Dabei dominieren zwei Themen den Markt: die Entwicklungen im Iran-Krieg sowie der Anstieg globaler Anleiherenditen.",
+   "id": "fdf94407",
+   "titel": "Dax aktuell: Dax baut Minus aus – Ölpreis nähert sich 100-Dollar-Marke",
+   "anriss": "Am deutschen Aktienmarkt bestimmen insbesondere zwei Themen die Lage: der Ölpreis und der Anleihemarkt. Dafür dürften Anleger heute in die USA schauen.",
    "region": "dach",
    "quellen": [
     "Handelsblatt Finanzen",
-    "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 7,
+   "anzahl": 8,
    "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-baut-minus-aus-oelpreis-naehert-sich-100-dollar-marke/100251397.html",
     "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-kospi-topix-oelpreisschock-nach-us-angriffen-drueckt-asiatische-maerkte/100251353.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sechs-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
     "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-unter-26.000er-marke-inflationssorgen-druecken-kurse/100251017.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-wall-street-schliesst-im-minus-oelpreise-steigen-nach-us-angriffen/100251215.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-csi-300-hang-seng-asienboersen-schliessen-kaum-veraendert/100250989.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/anleihen/anleihen-nervositaet-am-bondmarkt-renditen-auf-mehrjaehrigem-hoechststand/100251033.html"
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-wall-street-schliesst-im-minus-oelpreise-steigen-nach-us-angriffen/100251215.html"
    ],
-   "punkte": 29,
-   "text": "Ein plötzlicher Anstieg der Ölpreise nach US‑Militäroperationen belastet die asiatischen Leitindizes Nikkei, Kospi und Topix, wodurch die Kurse fallen. Gleichzeitig dominieren die Entwicklungen im Iran‑Konflikt und die steigenden globalen Anleiherenditen die Marktstimmung.",
-   "positiv": [],
+   "punkte": 31,
+   "text": "Der DAX baut weiter Verluste aus, während der Ölpreis sich der 100‑Dollar‑Marke nähert. Anleger richten ihr Augenmerk vermehrt auf die USA, weil der Anleihemarkt und die steigenden Ölpreise die deutschen Aktien belasten.",
+   "positiv": [
+    "Öl (Preis‑Aufwärts)",
+    "US‑Aktien (potenziell Aufwärts)"
+   ],
    "negativ": [
-    "Asiatische Aktienindizes (Nikkei, Kospi, Topix)",
-    "Energiepreise (Öl)",
-    "Globale Anleihen (steigende Renditen)"
+    "DAX (Abwärts)",
+    "Deutsche Aktien (Abwärts)",
+    "Europäische Anleihen (Abwärts)"
    ]
   },
   {
@@ -122,21 +124,23 @@
     "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 6,
+   "anzahl": 7,
    "links": [
     "https://www.handelsblatt.com/finanzen/geldpolitik/inflation-33-prozent-teuerung-im-euro-raum-zieht-deutlich-an/100248647.html",
+    "https://www.tagesschau.de/wirtschaft/konjunktur/inflation-ezb-renditen-anleihen-preise-100.html",
     "https://www.tagesschau.de/wirtschaft/energie/gas-speicher-preise-100.html",
     "https://www.spiegel.de/wirtschaft/service/inflation-duerfte-laut-wirtschaftsforschern-2027-bei-drei-prozent-liegen-a-d4b5f964-bd1f-4984-8b8d-4750c17eedd0#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/inflationssprung-die-ezb-muss-dringend-handeln-201178620.html",
-    "https://www.manager-magazin.de/politik/weltwirtschaft/iran-konflikt-gegenseitige-militaerschlaege-treiben-oelpreise-nach-oben-a-6a43e859-bc55-44b7-b86c-f10490315b05#ref=rss"
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/inflationssprung-die-ezb-muss-dringend-handeln-201178620.html"
    ],
-   "punkte": 27,
-   "text": "Die Verbraucherpreisrate im Euroraum hat die 3‑Prozent‑Marke überschritten, was die Inflation deutlich vom EZB‑Ziel entfernt. Vor diesem Hintergrund wird eine weitere Leitzinserhöhung der Europäischen Zentralbank in der kommenden Woche als sehr wahrscheinlich eingeschätzt.",
-   "positiv": [],
+   "punkte": 29,
+   "text": "Die Verbraucherpreise im Euroraum liegen nun über 3 % und entfernen sich deutlich vom Inflationsziel der EZB. Eine weitere Zinserhöhung der Europäischen Zentralbank in der kommenden Woche gilt als sehr wahrscheinlich.",
+   "positiv": [
+    "Euro (mögliche Aufwertung)"
+   ],
    "negativ": [
-    "Eurozone-Staatsanleihen (Kursverlust)",
-    "Euro (Wertverlust)",
-    "Zins‑Sensitive Anlagen (steigende Zinsen)"
+    "Euro‑Zone‑Anleihen (Abwärts)",
+    "Euro‑Zone‑Aktien (Abwärts)",
+    "Verbraucher (inflationsbedingt Abwärts)"
    ]
   },
   {
@@ -158,38 +162,61 @@
     "https://www.heise.de/news/Werbepreise-Amazon-com-weist-Betrugsvorwurf-von-sich-11437537.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
    "punkte": 16,
-   "text": "Die US‑Wettbewerbsbehörde FTC und 22 Bundesstaaten klagen Amazon wegen mutmaßlicher Manipulation von Online‑Werbeauktionen an, bei denen zweistellige Milliardenbeträge ergänzt worden sein sollen. Das Verfahren könnte die Reputation und die Geschäftstätigkeit von Amazon im Werbemarkt beeinträchtigen.",
-   "positiv": [],
+   "text": "Die US‑Wettbewerbsbehörde FTC und 22 Bundesstaaten klagen Amazon wegen mutmaßlicher Manipulation von Online‑Werbeauktionen an, die zweistellige Milliardenbeträge gekostet haben sollen. Das Verfahren belastet das Unternehmen und das gesamte digitale Werbegeschäft.",
+   "positiv": [
+    "Konkurrenten im Online‑Advertising (potenziell Aufwärts)"
+   ],
    "negativ": [
-    "Amazon-Aktie",
-    "Online‑Werbemarkt",
-    "E‑Commerce‑Branche"
+    "Amazon‑Aktie (Abwärts)",
+    "Digital‑Advertising‑Markt (Abwärts)"
    ]
   },
   {
-   "id": "a469406b",
-   "titel": "Aktien: Verhaltener Börsenstart für chinesischen Modehändler Shein",
-   "anriss": "Der chinesische Online-Modehändler ist nach langem Vorlauf in Hongkong an die Börse gegangen. Die erste Kursentwicklung illustriert: Die Zeit der Euphorie im E-Commerce ist vorerst vorbei.",
+   "id": "e214f0fe",
+   "titel": "Banken-Gipfel: Vor Wahl in Sachsen-Anhalt – Deutsche-Bank-Chef Sewing warnt vor „Abschottung“ und „Nationalismus“",
+   "anriss": "Ein Erstarken populistischer Parteien ist aus Sicht des Deutsche-Bank-Chefs ein Risiko für den Wohlstand in Deutschland. Die Bundesregierung fordert er zur Umsetzung des Reformpakets auf.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
     "Handelsblatt Finanzen",
-    "Tagesschau Wirtschaft"
+    "manager magazin"
    ],
    "anzahl": 3,
    "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/aktien-verhaltener-boersenstart-fuer-chinesischen-modehaendler-shein/100250878.html",
-    "https://www.tagesschau.de/wirtschaft/unternehmen/shein-temu-online-handel-china-100.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/sheins-boersengang-sky-xu-verliert-milliarden-durch-fehler-201177940.html"
+    "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/deutsche-bank-christian-sewing-warnt-vor-abschottung-und-nationalismus/100250180.html",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/wahl-sachsen-anhalt-2026-afd-bedroht-wirtschaft-201173338.html",
+    "https://www.manager-magazin.de/politik/deutschland/landtagswahl-in-sachsen-anhalt-deutsche-bank-chef-christian-sewing-warnt-vor-afd-mehrheit-a-2f556392-8305-4021-b4dc-7678d87c7257#ref=rss"
    ],
    "punkte": 13,
-   "text": "Der chinesische Online‑Modehändler Shein hat nach einem langen Vorlauf in Hongkong den Börsengang vollzogen, doch der Kursverlauf bleibt verhalten und zeigt keine Euphorie mehr. Das deutet darauf hin, dass das bisherige Hochgefühl im E‑Commerce‑Sektor nachlässt.",
-   "positiv": [],
+   "text": "Deutsche‑Bank‑Chef Christian Sewing warnt vor einer Abschottung und dem Erstarken populistischer Parteien als Risiko für den Wohlstand in Deutschland. Er fordert die Bundesregierung, das Reformpaket konsequent umzusetzen, um die wirtschaftliche Stabilität zu sichern.",
+   "positiv": [
+    "Reformpaket (potenziell Aufwärts)"
+   ],
    "negativ": [
-    "Shein-Aktie",
-    "E‑Commerce‑Branche",
-    "Hongkong-Aktienmarkt (Vertrauensverlust)"
+    "Deutsche Banken (Risiko‑Abwärts)",
+    "Deutsche Aktien (Risiko‑Abwärts)"
    ]
+  },
+  {
+   "id": "2ff59ce5",
+   "titel": "John Ternus übernimmt bei Apple",
+   "anriss": "Tim Cook hat als CEO und \"Gesicht\" von Apple in den vergangenen Jahren den Konzern geprägt. Jetzt übergibt er den Stab an John Ternus. Wer ist der Neue? Von Antje Sieb.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "heise"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/unternehmen/apple-ceo-ternus-100.html",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/john-ternus-loest-tim-cook-als-apple-chef-ab-accg-201175005.html",
+    "https://www.heise.de/news/Neuer-Apple-Chef-Das-verdient-John-Ternus-im-ersten-Jahr-11436955.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 12,
+   "text": "Tim Cook hat als CEO und \"Gesicht\" von Apple in den vergangenen Jahren den Konzern geprägt. Jetzt übergibt er den Stab an John Ternus. Wer ist der Neue? Von Antje Sieb.",
+   "positiv": [],
+   "negativ": []
   },
   {
    "id": "39bf75b0",
@@ -213,61 +240,43 @@
    "negativ": []
   },
   {
-   "id": "30a0d380",
-   "titel": "Börse am 2. September: Sechs Punkte, die für Anleger heute wichtig sind",
-   "anriss": "Beim Dax mehren sich derzeit die Verluste. Hinzu kommt ein historisch gesehen schwacher Börsenmonat. Anleger dürften am heutigen Mittwoch insbesondere in ein anderes Land blicken.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "Tagesschau Wirtschaft"
-   ],
-   "anzahl": 2,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sechs-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
-    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-geldanlage-inflation-100.html"
-   ],
-   "punkte": 9,
-   "text": "Beim Dax mehren sich derzeit die Verluste. Hinzu kommt ein historisch gesehen schwacher Börsenmonat. Anleger dürften am heutigen Mittwoch insbesondere in ein anderes Land blicken.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "7faf6459",
-   "titel": "Schweizer Großbank: UBS und Finanzministerin unzufrieden mit Kapitalvorschlag",
-   "anriss": "Die UBS kritisiert die geplante Lockerung der Kapitalvorgaben als weiterhin zu teuer. Die Schweizer Finanzministerin Keller-Sutter hält dagegen und fordert strengere Regeln für die Großbank.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "heise"
-   ],
-   "anzahl": 2,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/schweizer-grossbank-ubs-und-finanzministerin-unzufrieden-mit-kapitalvorschlag/100251241.html",
-    "https://www.heise.de/news/Schweizer-E-ID-Justizminister-Jans-verhindert-geheimen-Amazon-Deal-11437433.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 9,
-   "text": "Die UBS kritisiert die geplante Lockerung der Kapitalvorgaben als weiterhin zu teuer. Die Schweizer Finanzministerin Keller-Sutter hält dagegen und fordert strengere Regeln für die Großbank.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "632349aa",
-   "titel": "The ChatGPT/Codex app bundles a full copy of LibreOffice",
-   "anriss": "Article URL: https://simonwillison.net/2026/Sep/1/codex-libreoffice/ Comments URL: https://news.ycombinator.com/item?id=49527396 Points: 359 # Comments: 157",
+   "id": "75650c16",
+   "titel": "True Rate of Unemployment",
+   "anriss": "Article URL: https://www.lisep.org/tru Comments URL: https://news.ycombinator.com/item?id=49530989 Points: 232 # Comments: 187",
    "region": "global",
    "quellen": [
     "Hacker News Top"
    ],
-   "anzahl": 7,
+   "anzahl": 9,
    "links": [
+    "https://www.lisep.org/tru",
+    "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+    "https://lws.io/blog/my-local-model-setup/",
     "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
-    "https://danluu.com/zitron/",
-    "https://ersc.io/blog/martin-joins-ersc",
-    "https://www.worldlabs.ai/blog/atlas",
-    "https://moviescenemap.com/"
+    "https://danluu.com/zitron/"
    ],
-   "punkte": 9,
-   "text": "Article URL: https://simonwillison.net/2026/Sep/1/codex-libreoffice/ Comments URL: https://news.ycombinator.com/item?id=49527396 Points: 359 # Comments: 157",
+   "punkte": 11,
+   "text": "Article URL: https://www.lisep.org/tru Comments URL: https://news.ycombinator.com/item?id=49530989 Points: 232 # Comments: 187",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "0e03f9f6",
+   "titel": "Reform im Kabinett: Das soll sich bei der Einkommensteuer ändern",
+   "anriss": "Union und SPD wollen ein zentrales Finanzvorhaben auf den Weg bringen - Entlastungen bei der Steuer vor allem für kleinere Einkommen. Wie die konkreten Maßnahmen aussehen und was die Steuerreform bringen soll.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "Tagesschau Wirtschaft"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.tagesschau.de/inland/innenpolitik/einkommensteuer-reform-folgen-100.html",
+    "https://www.tagesschau.de/wirtschaft/verbraucher/ruhestaendler-ost-west-100.html",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/rente-im-ost-west-vergleich-was-zeigen-die-neuen-zahlen-201178170.html"
+   ],
+   "punkte": 10,
+   "text": "Union und SPD wollen ein zentrales Finanzvorhaben auf den Weg bringen - Entlastungen bei der Steuer vor allem für kleinere Einkommen. Wie die konkreten Maßnahmen aussehen und was die Steuerreform bringen soll.",
    "positiv": [],
    "negativ": []
   }
@@ -389,11 +398,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "120.0 Mrd"
+     "120.4 Mrd"
     ],
     [
      "KGV (erw.)",
-     "22,8"
+     "22,9"
     ],
     [
      "Umsatzwachstum",
@@ -438,11 +447,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "50.4 Mrd"
+     "50.1 Mrd"
     ],
     [
      "KGV (erw.)",
-     "20,2"
+     "20,1"
     ],
     [
      "Umsatzwachstum",
@@ -487,11 +496,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "551.3 Mrd"
+     "550.3 Mrd"
     ],
     [
      "KGV (erw.)",
-     "27,8"
+     "27,7"
     ],
     [
      "Umsatzwachstum",
@@ -536,11 +545,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "162.0 Mrd"
+     "161.1 Mrd"
     ],
     [
      "KGV (erw.)",
-     "23,9"
+     "23,8"
     ],
     [
      "Umsatzwachstum",
@@ -558,7 +567,7 @@
     ],
     [
      "Newsletter",
-     "in 14 Clustern"
+     "in 13 Clustern"
     ],
     [
      "Reddit",
@@ -701,7 +710,7 @@
    "quellen": [
     [
      "Analysten",
-     "19 Kauf / 3 Halten / 1 Verkauf"
+     "18 Kauf / 4 Halten / 1 Verkauf"
     ],
     [
      "Newsletter",
@@ -1157,6 +1166,6 @@
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 168,
+ "meldungen_gesamt": 178,
  "llm_aktiv": false
 }
