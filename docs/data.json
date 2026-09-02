@@ -1,9 +1,9 @@
 {
- "stand": "2026-09-02T10:03",
- "lauf": "2026090210",
+ "stand": "2026-09-02T13:04",
+ "lauf": "2026090213",
  "synthese": {
-  "kern": "Markt fokussiert auf Inflation und Energiepreise, übersieht wachsende geopolitische Risiken und regulatorische Unsicherheiten.",
-  "erlaeuterung": "Während steigende Verbraucherpreise und Ölpreise die Märkte dominieren, erhöhen sich gleichzeitig geopolitische Spannungen und rechtliche Auseinandersetzungen, die das Risiko erhöhen. Diese Faktoren könnten die aktuelle Marktstabilität unterminieren, obwohl sie bislang kaum in den Preisbewegungen reflektiert werden."
+  "kern": "Markt fokussiert Rohstoffspitzen, übersieht wachsende geopolitische und regulatorische Risiken für Risikoappetit.",
+  "erlaeuterung": "Preisexplosionen bei Energie und Metallen treiben Inflationserwartungen, während Banken‑ und Steuerreformen geopolitische Unsicherheit verstärken. Der Markt vernachlässigt mögliche Abschottungstendenzen und regulatorische Belastungen, die die Liquidität und den Risikoappetit dämpfen könnten."
  },
  "regime": [
   {
@@ -36,23 +36,23 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 63,
-     "delta": 11
+     "wert": 62,
+     "delta": 10
     },
     "eur": {
      "wert": 79,
      "delta": 6
     }
    },
-   "differenz": 16
+   "differenz": 17
   },
   {
    "name": "risikoappetit",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 79,
-     "delta": -5
+     "wert": 82,
+     "delta": -2
     }
    }
   },
@@ -84,38 +84,9 @@
  ],
  "cluster": [
   {
-   "id": "fdf94407",
-   "titel": "Dax aktuell: Dax baut Minus aus – Ölpreis nähert sich 100-Dollar-Marke",
-   "anriss": "Am deutschen Aktienmarkt bestimmen insbesondere zwei Themen die Lage: der Ölpreis und der Anleihemarkt. Dafür dürften Anleger heute in die USA schauen.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "manager magazin"
-   ],
-   "anzahl": 8,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-baut-minus-aus-oelpreis-naehert-sich-100-dollar-marke/100251397.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-kospi-topix-oelpreisschock-nach-us-angriffen-drueckt-asiatische-maerkte/100251353.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sechs-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-unter-26.000er-marke-inflationssorgen-druecken-kurse/100251017.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-wall-street-schliesst-im-minus-oelpreise-steigen-nach-us-angriffen/100251215.html"
-   ],
-   "punkte": 31,
-   "text": "Der DAX baut weiter Verluste aus, während der Ölpreis sich der 100‑Dollar‑Marke nähert. Anleger richten ihr Augenmerk vermehrt auf die USA, weil der Anleihemarkt und die steigenden Ölpreise die deutschen Aktien belasten.",
-   "positiv": [
-    "Öl (Preis‑Aufwärts)",
-    "US‑Aktien (potenziell Aufwärts)"
-   ],
-   "negativ": [
-    "DAX (Abwärts)",
-    "Deutsche Aktien (Abwärts)",
-    "Europäische Anleihen (Abwärts)"
-   ]
-  },
-  {
-   "id": "038866e8",
-   "titel": "Verbraucherpreise: Inflation im Euro-Raum springt über drei Prozent – Sorgen vor neuem Gaspreisschock",
-   "anriss": "﻿Die Inflation entfernt sich deutlich vom Zielwert der Notenbank. Eine Zinserhöhung der Europäischen Zentralbank in der nächsten Woche gilt als sehr wahrscheinlich.",
+   "id": "4f0f874c",
+   "titel": "Rohstoffe: Plus 20 Prozent – El Niño und Irankrieg sorgen bei diesen drei Rohstoffen für Preissprünge",
+   "anriss": "Vor allem Agrarrohstoffe legten im August stark zu – ein entsprechender Index stieg so stark wie seit Juli 2012 nicht mehr. Das sind die Gewinner und Verlierer des Monats.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
@@ -126,49 +97,44 @@
    ],
    "anzahl": 7,
    "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/rohstoffe-el-nino-und-irankrieg-sorgen-bei-drei-rohstoffen-fuer-preisspruenge/100249513.html",
     "https://www.handelsblatt.com/finanzen/geldpolitik/inflation-33-prozent-teuerung-im-euro-raum-zieht-deutlich-an/100248647.html",
     "https://www.tagesschau.de/wirtschaft/konjunktur/inflation-ezb-renditen-anleihen-preise-100.html",
     "https://www.tagesschau.de/wirtschaft/energie/gas-speicher-preise-100.html",
-    "https://www.spiegel.de/wirtschaft/service/inflation-duerfte-laut-wirtschaftsforschern-2027-bei-drei-prozent-liegen-a-d4b5f964-bd1f-4984-8b8d-4750c17eedd0#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/inflationssprung-die-ezb-muss-dringend-handeln-201178620.html"
+    "https://www.spiegel.de/wirtschaft/service/inflation-duerfte-laut-wirtschaftsforschern-2027-bei-drei-prozent-liegen-a-d4b5f964-bd1f-4984-8b8d-4750c17eedd0#ref=rss"
    ],
-   "punkte": 29,
-   "text": "Die Verbraucherpreise im Euroraum liegen nun über 3 % und entfernen sich deutlich vom Inflationsziel der EZB. Eine weitere Zinserhöhung der Europäischen Zentralbank in der kommenden Woche gilt als sehr wahrscheinlich.",
+   "punkte": 30,
+   "text": "Im August stiegen drei Rohstoffe stark an, getrieben von El Niño‑Effekten und dem Iran‑Krieg, wobei Agrarrohstoffe besonders stark zulegten. Der entsprechende Rohstoff‑Index erreichte den höchsten Zuwachs seit Juli 2012.",
    "positiv": [
-    "Euro (mögliche Aufwertung)"
+    "Agrarrohstoffe ↑"
    ],
-   "negativ": [
-    "Euro‑Zone‑Anleihen (Abwärts)",
-    "Euro‑Zone‑Aktien (Abwärts)",
-    "Verbraucher (inflationsbedingt Abwärts)"
-   ]
+   "negativ": []
   },
   {
-   "id": "00428409",
-   "titel": "US-Behörde FTC und Bundesstaaten verklagen Amazon",
-   "anriss": "Mit manipulierten Auktionen für Online-Werbung soll sich Amazon zweistellige Milliardenbeträge erschlichen haben. Das wirft die US-Wettbewerbsbehörder FTC dem Konzern vor - und klagt zusammen mit 22 Bundesstaaten.",
+   "id": "0e03f9f6",
+   "titel": "Reform im Kabinett: Das soll sich bei der Einkommensteuer ändern",
+   "anriss": "Union und SPD wollen ein zentrales Finanzvorhaben auf den Weg bringen - Entlastungen bei der Steuer vor allem für kleinere Einkommen. Wie die konkreten Maßnahmen aussehen und was die Steuerreform bringen soll.",
    "region": "dach",
    "quellen": [
+    "FAZ Wirtschaft",
     "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "heise",
-    "manager magazin"
+    "Tagesschau Wirtschaft"
    ],
-   "anzahl": 4,
+   "anzahl": 6,
    "links": [
-    "https://www.tagesschau.de/ausland/amerika/klage-amazon-werbeeinnahmen-100.html",
-    "https://www.spiegel.de/wirtschaft/unternehmen/amazon-us-wettbewerbshueter-klagen-wegen-verteuerter-werbeplaetze-vor-a-e69597e1-819b-4fbf-adfd-ec54ac861ac1#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/tech/amazon-onlinehaendler-wegen-moeglicher-preismanipulation-bei-werbung-verklagt-a-ba5decdf-d6d8-4e91-a375-2a3fd1e822bf#ref=rss",
-    "https://www.heise.de/news/Werbepreise-Amazon-com-weist-Betrugsvorwurf-von-sich-11437537.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+    "https://www.tagesschau.de/inland/innenpolitik/einkommensteuer-reform-folgen-100.html",
+    "https://www.spiegel.de/wirtschaft/soziales/kabinettsbeschluss-zur-einkommensteuer-so-berechnen-sie-die-entlastung-fuer-ihr-gehalt-a-d402d122-94fa-4ff6-8d9d-ab6d4bee9eab#ref=rss",
+    "https://www.spiegel.de/wirtschaft/eu-kommission-genehmigt-deutsche-milliarden-fuer-gaskraftwerke-a-8a6e7407-812a-4d10-af17-cadcc9f10e9a#ref=rss",
+    "https://www.spiegel.de/wirtschaft/lars-klingbeil-versus-katherina-reiche-streit-wegen-opposition-in-regierung-a-9d42f329-5f21-4db7-b741-916e3bee769c#ref=rss",
+    "https://www.spiegel.de/wirtschaft/lars-klingbeil-wirtschaftsministerium-wirft-finanzminister-heimliche-steuererhoehung-vor-a-11292b8a-1699-44f6-892b-ab30d87b8a44#ref=rss"
    ],
-   "punkte": 16,
-   "text": "Die US‑Wettbewerbsbehörde FTC und 22 Bundesstaaten klagen Amazon wegen mutmaßlicher Manipulation von Online‑Werbeauktionen an, die zweistellige Milliardenbeträge gekostet haben sollen. Das Verfahren belastet das Unternehmen und das gesamte digitale Werbegeschäft.",
+   "punkte": 18,
+   "text": "Union und SPD planen ein zentrales Finanzvorhaben, das die Einkommensteuer reformieren und vor allem Haushalte mit niedrigen Einkommen entlasten soll. Die konkreten Maßnahmen sind noch nicht finalisiert, sodass die Auswirkungen auf die Staatsfinanzen unklar bleiben.",
    "positiv": [
-    "Konkurrenten im Online‑Advertising (potenziell Aufwärts)"
+    "Niedrige Einkommen ↑ (Steuerentlastung)"
    ],
    "negativ": [
-    "Amazon‑Aktie (Abwärts)",
-    "Digital‑Advertising‑Markt (Abwärts)"
+    "Staatsfinanzen ↓ (geringere Steuereinnahmen)"
    ]
   },
   {
@@ -179,22 +145,22 @@
    "quellen": [
     "FAZ Wirtschaft",
     "Handelsblatt Finanzen",
+    "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 3,
+   "anzahl": 4,
    "links": [
     "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/deutsche-bank-christian-sewing-warnt-vor-abschottung-und-nationalismus/100250180.html",
+    "https://www.tagesschau.de/wirtschaft/unternehmen/deutsche-bank-chef-sewing-warnung-afd-regierung-100.html",
     "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/wahl-sachsen-anhalt-2026-afd-bedroht-wirtschaft-201173338.html",
     "https://www.manager-magazin.de/politik/deutschland/landtagswahl-in-sachsen-anhalt-deutsche-bank-chef-christian-sewing-warnt-vor-afd-mehrheit-a-2f556392-8305-4021-b4dc-7678d87c7257#ref=rss"
    ],
-   "punkte": 13,
-   "text": "Deutsche‑Bank‑Chef Christian Sewing warnt vor einer Abschottung und dem Erstarken populistischer Parteien als Risiko für den Wohlstand in Deutschland. Er fordert die Bundesregierung, das Reformpaket konsequent umzusetzen, um die wirtschaftliche Stabilität zu sichern.",
-   "positiv": [
-    "Reformpaket (potenziell Aufwärts)"
-   ],
+   "punkte": 17,
+   "text": "Auf dem Banken‑Gipfel warnt Deutsche‑Bank‑Chef Christian Sewing vor einer Abschottung und dem Erstarken populistischer Parteien, die das Wirtschaftswachstum gefährden könnten. Er fordert die Bundesregierung auf, das Reformpaket konsequent umzusetzen.",
+   "positiv": [],
    "negativ": [
-    "Deutsche Banken (Risiko‑Abwärts)",
-    "Deutsche Aktien (Risiko‑Abwärts)"
+    "Deutsche‑Bank‑Aktien ↓ (politisches Risiko)",
+    "Deutsche Wirtschaft ↓ (Gefahr durch Populismus)"
    ]
   },
   {
@@ -205,84 +171,110 @@
    "quellen": [
     "FAZ Wirtschaft",
     "Tagesschau Wirtschaft",
-    "heise"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/unternehmen/apple-ceo-ternus-100.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/john-ternus-loest-tim-cook-als-apple-chef-ab-accg-201175005.html",
-    "https://www.heise.de/news/Neuer-Apple-Chef-Das-verdient-John-Ternus-im-ersten-Jahr-11436955.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 12,
-   "text": "Tim Cook hat als CEO und \"Gesicht\" von Apple in den vergangenen Jahren den Konzern geprägt. Jetzt übergibt er den Stab an John Ternus. Wer ist der Neue? Von Antje Sieb.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "39bf75b0",
-   "titel": "Lars Klingbeil kritisiert »Opposition in Regierung« nach Vorwürfen des Wirtschaftsministeriums",
-   "anriss": "Am Mittwoch soll das Kabinett die Einkommensteuerreform beschließen. Nicht ausreichend sei die, hieß es aus dem Wirtschaftsministerium. Finanzminister Klingbeil reagiert genervt.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft"
+    "heise",
+    "manager magazin"
    ],
    "anzahl": 4,
    "links": [
-    "https://www.spiegel.de/wirtschaft/lars-klingbeil-versus-katherina-reiche-streit-wegen-opposition-in-regierung-a-9d42f329-5f21-4db7-b741-916e3bee769c#ref=rss",
-    "https://www.spiegel.de/wirtschaft/lars-klingbeil-wirtschaftsministerium-wirft-finanzminister-heimliche-steuererhoehung-vor-a-11292b8a-1699-44f6-892b-ab30d87b8a44#ref=rss",
-    "https://www.spiegel.de/wirtschaft/lars-klingbeil-in-den-usa-eklat-um-russische-teilnahme-am-g20-treffen-a-b89de68f-0ae4-4827-8558-672848c35de2#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/nach-kritik-an-steuerplaenen-klingbeil-weist-reiche-zurecht-201179593.html"
+    "https://www.tagesschau.de/wirtschaft/unternehmen/apple-ceo-ternus-100.html",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/john-ternus-loest-tim-cook-als-apple-chef-ab-accg-201175005.html",
+    "https://www.manager-magazin.de/unternehmen/tech/apple-ex-ceo-tim-cook-verdient-fast-so-viel-wie-nachfolger-john-ternus-a-5a4d3708-1b30-4094-8b87-2f2e6cf2f4f3#ref=rss",
+    "https://www.heise.de/news/Neuer-Apple-Chef-Das-verdient-John-Ternus-im-ersten-Jahr-11436955.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
-   "punkte": 12,
-   "text": "Am Mittwoch soll das Kabinett die Einkommensteuerreform beschließen. Nicht ausreichend sei die, hieß es aus dem Wirtschaftsministerium. Finanzminister Klingbeil reagiert genervt.",
+   "punkte": 16,
+   "text": "Apple hat John Ternus zum neuen CEO ernannt, während Tim Cook das Unternehmen nach mehreren Jahren als Gesicht und Führungskraft verlässt. Die Marktreaktion auf die Führungswechsel ist bislang nicht eindeutig beurteilbar.",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "75650c16",
-   "titel": "True Rate of Unemployment",
-   "anriss": "Article URL: https://www.lisep.org/tru Comments URL: https://news.ycombinator.com/item?id=49530989 Points: 232 # Comments: 187",
-   "region": "global",
+   "id": "f0a167a4",
+   "titel": "Dax aktuell: Dax baut Minus aus – Gaspreis steigt weiter",
+   "anriss": "Am deutschen Aktienmarkt bestimmen insbesondere zwei Themen die Lage: der Ölpreis und der Anleihemarkt. Dafür dürften Anleger heute in die USA schauen.",
+   "region": "dach",
    "quellen": [
-    "Hacker News Top"
+    "Handelsblatt Finanzen"
    ],
-   "anzahl": 9,
+   "anzahl": 3,
    "links": [
-    "https://www.lisep.org/tru",
-    "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
-    "https://lws.io/blog/my-local-model-setup/",
-    "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
-    "https://danluu.com/zitron/"
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-baut-minus-aus-gaspreis-steigt-weiter/100251397.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sechs-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-unter-26.000er-marke-inflationssorgen-druecken-kurse/100251017.html"
    ],
-   "punkte": 11,
-   "text": "Article URL: https://www.lisep.org/tru Comments URL: https://news.ycombinator.com/item?id=49530989 Points: 232 # Comments: 187",
+   "punkte": 15,
+   "text": "Am deutschen Aktienmarkt bestimmen insbesondere zwei Themen die Lage: der Ölpreis und der Anleihemarkt. Dafür dürften Anleger heute in die USA schauen.",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "0e03f9f6",
-   "titel": "Reform im Kabinett: Das soll sich bei der Einkommensteuer ändern",
-   "anriss": "Union und SPD wollen ein zentrales Finanzvorhaben auf den Weg bringen - Entlastungen bei der Steuer vor allem für kleinere Einkommen. Wie die konkreten Maßnahmen aussehen und was die Steuerreform bringen soll.",
+   "id": "70bd2364",
+   "titel": "Wirtschaft vor acht vom 01.09.2026",
+   "anriss": "Wirtschaft vor acht vom 01.09.2026",
+   "region": "dach",
+   "quellen": [
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.tagesschau.de/video/video-1641172.html",
+    "https://www.tagesschau.de/multimedia/sendung/tagesschau24/boerselive/video-1641326.html",
+    "https://www.spiegel.de/wirtschaft/konjunktur-wachstumsprognose-von-diw-mehr-als-verdoppelt-a-667e8761-d48e-4116-af97-f36ae6676530#ref=rss",
+    "https://www.manager-magazin.de/politik/deutschland/konjunktur-wachstumsprognose-von-diw-mehr-als-verdoppelt-a-14f6f499-c0c9-4d35-9ee8-2d72a1a04f0a#ref=rss"
+   ],
+   "punkte": 14,
+   "text": "Wirtschaft vor acht vom 01.09.2026",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "ef8a9cb3",
+   "titel": "Immobilien: Kauf einer Mietwohnung – Das verdienen Vermieter tatsächlich",
+   "anriss": "Viele Deutsche träumen davon, ihre Altersvorsorge mit einer vermieteten Immobilie zu sichern. Doch wieviel Rendite ist wirklich drin? Das Handelsblatt hat nachgerechnet.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
+    "Handelsblatt Finanzen",
     "Tagesschau Wirtschaft"
    ],
    "anzahl": 3,
    "links": [
-    "https://www.tagesschau.de/inland/innenpolitik/einkommensteuer-reform-folgen-100.html",
-    "https://www.tagesschau.de/wirtschaft/verbraucher/ruhestaendler-ost-west-100.html",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/rente-im-ost-west-vergleich-was-zeigen-die-neuen-zahlen-201178170.html"
+    "https://www.handelsblatt.com/finanzen/immobilien/immobilien-lohnt-sich-eine-vermietete-wohnung-als-altersvorsorge/100180922.html",
+    "https://www.tagesschau.de/inland/gesellschaft/mehr-als-eine-million-wohnungen-fehlen-100.html",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/deutscher-mieterbund-wohnkosten-belasten-millionen-mieter-201178403.html"
+   ],
+   "punkte": 13,
+   "text": "Viele Deutsche träumen davon, ihre Altersvorsorge mit einer vermieteten Immobilie zu sichern. Doch wieviel Rendite ist wirklich drin? Das Handelsblatt hat nachgerechnet.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "2241b234",
+   "titel": "FBI Probes Service Selling 153M+ Drivers Licenses",
+   "anriss": "Article URL: https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/ Comments URL: https://news.ycombinator.com/item?id=49529621 Points: 281 # Comments: 145",
+   "region": "global",
+   "quellen": [
+    "Hacker News Top"
+   ],
+   "anzahl": 8,
+   "links": [
+    "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+    "https://lws.io/blog/my-local-model-setup/",
+    "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+    "https://danluu.com/zitron/",
+    "https://ersc.io/blog/martin-joins-ersc"
    ],
    "punkte": 10,
-   "text": "Union und SPD wollen ein zentrales Finanzvorhaben auf den Weg bringen - Entlastungen bei der Steuer vor allem für kleinere Einkommen. Wie die konkreten Maßnahmen aussehen und was die Steuerreform bringen soll.",
+   "text": "Article URL: https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/ Comments URL: https://news.ycombinator.com/item?id=49529621 Points: 281 # Comments: 145",
    "positiv": [],
    "negativ": []
   }
  ],
  "ketten": [],
- "gegenthese": null,
+ "gegenthese": {
+  "konsens": "Markt preist El‑Niño‑ und Iran‑Krieg‑Risiken ein, erwartet steigende Rohstoffpreise, schwächeres DAX‑Momentum, steigende Gaspreise, vorsichtige Haltung gegenüber Banken, und dass Mietrenditen in der Praxis niedriger sind.",
+  "gegen": "Preissprünge könnten kurzfristig sein, geopolitische Spannungen könnten abkühlen, Inflationsdruck könnte nachlassen, DAX‑Erholung möglich, Gasmarkt volatil, Mietrenditen können je nach Lage stark variieren."
+ },
  "matrix": [
   {
    "ticker": "SU.PA",
@@ -398,11 +390,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "120.4 Mrd"
+     "121.0 Mrd"
     ],
     [
      "KGV (erw.)",
-     "22,9"
+     "23,0"
     ],
     [
      "Umsatzwachstum",
@@ -410,7 +402,7 @@
     ],
     [
      "Kursziel",
-     "197 EUR"
+     "196 EUR"
     ]
    ],
    "quellen": [
@@ -420,7 +412,7 @@
     ],
     [
      "Newsletter",
-     "in 2 Clustern"
+     "in 1 Clustern"
     ],
     [
      "Reddit",
@@ -447,11 +439,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "50.1 Mrd"
+     "50.7 Mrd"
     ],
     [
      "KGV (erw.)",
-     "20,1"
+     "20,3"
     ],
     [
      "Umsatzwachstum",
@@ -465,7 +457,7 @@
    "quellen": [
     [
      "Analysten",
-     "18 Kauf / 2 Halten / 1 Verkauf"
+     "18 Kauf / 3 Halten / 0 Verkauf"
     ],
     [
      "Newsletter",
@@ -496,11 +488,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "550.3 Mrd"
+     "551.1 Mrd"
     ],
     [
      "KGV (erw.)",
-     "27,7"
+     "27,8"
     ],
     [
      "Umsatzwachstum",
@@ -545,11 +537,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "161.1 Mrd"
+     "162.7 Mrd"
     ],
     [
      "KGV (erw.)",
-     "23,8"
+     "24,0"
     ],
     [
      "Umsatzwachstum",
@@ -567,7 +559,7 @@
     ],
     [
      "Newsletter",
-     "in 13 Clustern"
+     "in 14 Clustern"
     ],
     [
      "Reddit",
@@ -616,7 +608,7 @@
     ],
     [
      "Newsletter",
-     "nicht erwaehnt"
+     "in 1 Clustern"
     ],
     [
      "Reddit",
@@ -647,7 +639,7 @@
     ],
     [
      "KGV (erw.)",
-     "51,2"
+     "51,1"
     ],
     [
      "Umsatzwachstum",
@@ -655,13 +647,13 @@
     ],
     [
      "Kursziel",
-     "129 USD"
+     "130 USD"
     ]
    ],
    "quellen": [
     [
      "Analysten",
-     "20 Kauf / 2 Halten / 0 Verkauf"
+     "19 Kauf / 2 Halten / 0 Verkauf"
     ],
     [
      "Newsletter",
@@ -753,13 +745,13 @@
     ],
     [
      "Kursziel",
-     "323 USD"
+     "326 USD"
     ]
    ],
    "quellen": [
     [
      "Analysten",
-     "58 Kauf / 2 Halten / 1 Verkauf"
+     "57 Kauf / 2 Halten / 1 Verkauf"
     ],
     [
      "Newsletter",
@@ -1166,6 +1158,6 @@
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 178,
+ "meldungen_gesamt": 174,
  "llm_aktiv": false
 }
