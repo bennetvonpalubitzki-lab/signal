@@ -1,9 +1,9 @@
 {
- "stand": "2026-09-02T13:04",
- "lauf": "2026090213",
+ "stand": "2026-09-02T16:03",
+ "lauf": "2026090216",
  "synthese": {
-  "kern": "Markt fokussiert Rohstoffspitzen, übersieht wachsende geopolitische und regulatorische Risiken für Risikoappetit.",
-  "erlaeuterung": "Preisexplosionen bei Energie und Metallen treiben Inflationserwartungen, während Banken‑ und Steuerreformen geopolitische Unsicherheit verstärken. Der Markt vernachlässigt mögliche Abschottungstendenzen und regulatorische Belastungen, die die Liquidität und den Risikoappetit dämpfen könnten."
+  "kern": "Politische Unsicherheit, Steuerreformen und Rohstoffschocks treiben Risikoappetit, während Markt Liquidität und geopolitische Risiken unterschätzt.",
+  "erlaeuterung": "Der Banken‑Gipfel, Steuerdebatten und drastische Rohstoffpreisanstiege erhöhen die Unsicherheit und pushen den Risikoappetit trotz hoher Perzentilwerte. Gleichzeitig bleibt die extreme Liquiditätsknappheit in Europa und das geopolitische Risiko im Fokus, das vom Markt kaum bepreist wird."
  },
  "regime": [
   {
@@ -36,12 +36,12 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 62,
-     "delta": 10
+     "wert": 63,
+     "delta": 11
     },
     "eur": {
-     "wert": 79,
-     "delta": 6
+     "wert": 80,
+     "delta": 7
     }
    },
    "differenz": 17
@@ -51,8 +51,8 @@
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 82,
-     "delta": -2
+     "wert": 85,
+     "delta": 1
     }
    }
   },
@@ -76,38 +76,35 @@
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 90,
-     "delta": -4
+     "wert": 91,
+     "delta": -3
     }
    }
   }
  ],
  "cluster": [
   {
-   "id": "4f0f874c",
-   "titel": "Rohstoffe: Plus 20 Prozent – El Niño und Irankrieg sorgen bei diesen drei Rohstoffen für Preissprünge",
-   "anriss": "Vor allem Agrarrohstoffe legten im August stark zu – ein entsprechender Index stieg so stark wie seit Juli 2012 nicht mehr. Das sind die Gewinner und Verlierer des Monats.",
+   "id": "35489093",
+   "titel": "Banken-Gipfel: Sewing zu AfD‑Programm: „Gift für den deutschen Wohlstand“",
+   "anriss": "Der Vorstandschef der Deutschen Bank warnt im Vorfeld der Landtagswahl in Sachsen-Anhalt vor den Folgen eines AfD-Aufstiegs. Auch zur Commerzbank-Übernahme durch Unicredit äußert er sich.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
     "Handelsblatt Finanzen",
-    "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 7,
+   "anzahl": 5,
    "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/rohstoffe-el-nino-und-irankrieg-sorgen-bei-drei-rohstoffen-fuer-preisspruenge/100249513.html",
-    "https://www.handelsblatt.com/finanzen/geldpolitik/inflation-33-prozent-teuerung-im-euro-raum-zieht-deutlich-an/100248647.html",
-    "https://www.tagesschau.de/wirtschaft/konjunktur/inflation-ezb-renditen-anleihen-preise-100.html",
-    "https://www.tagesschau.de/wirtschaft/energie/gas-speicher-preise-100.html",
-    "https://www.spiegel.de/wirtschaft/service/inflation-duerfte-laut-wirtschaftsforschern-2027-bei-drei-prozent-liegen-a-d4b5f964-bd1f-4984-8b8d-4750c17eedd0#ref=rss"
+    "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/deutsche-bank-sewing-zu-afdprogramm-gift-fuer-den-deutschen-wohlstand/100250851.html",
+    "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/deutsche-bank-christian-sewing-warnt-vor-abschottung-und-nationalismus/100250180.html",
+    "https://www.tagesschau.de/wirtschaft/unternehmen/deutsche-bank-chef-sewing-warnung-afd-regierung-100.html",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/wahl-sachsen-anhalt-2026-afd-bedroht-wirtschaft-201173338.html",
+    "https://www.manager-magazin.de/politik/deutschland/landtagswahl-in-sachsen-anhalt-deutsche-bank-chef-christian-sewing-warnt-vor-afd-mehrheit-a-2f556392-8305-4021-b4dc-7678d87c7257#ref=rss"
    ],
-   "punkte": 30,
-   "text": "Im August stiegen drei Rohstoffe stark an, getrieben von El Niño‑Effekten und dem Iran‑Krieg, wobei Agrarrohstoffe besonders stark zulegten. Der entsprechende Rohstoff‑Index erreichte den höchsten Zuwachs seit Juli 2012.",
-   "positiv": [
-    "Agrarrohstoffe ↑"
-   ],
+   "punkte": 20,
+   "text": "Der Vorstandschef der Deutschen Bank warnt im Vorfeld der Landtagswahl in Sachsen-Anhalt vor den Folgen eines AfD-Aufstiegs. Auch zur Commerzbank-Übernahme durch Unicredit äußert er sich.",
+   "positiv": [],
    "negativ": []
   },
   {
@@ -120,27 +117,23 @@
     "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft"
    ],
-   "anzahl": 6,
+   "anzahl": 7,
    "links": [
     "https://www.tagesschau.de/inland/innenpolitik/einkommensteuer-reform-folgen-100.html",
     "https://www.spiegel.de/wirtschaft/soziales/kabinettsbeschluss-zur-einkommensteuer-so-berechnen-sie-die-entlastung-fuer-ihr-gehalt-a-d402d122-94fa-4ff6-8d9d-ab6d4bee9eab#ref=rss",
-    "https://www.spiegel.de/wirtschaft/eu-kommission-genehmigt-deutsche-milliarden-fuer-gaskraftwerke-a-8a6e7407-812a-4d10-af17-cadcc9f10e9a#ref=rss",
     "https://www.spiegel.de/wirtschaft/lars-klingbeil-versus-katherina-reiche-streit-wegen-opposition-in-regierung-a-9d42f329-5f21-4db7-b741-916e3bee769c#ref=rss",
-    "https://www.spiegel.de/wirtschaft/lars-klingbeil-wirtschaftsministerium-wirft-finanzminister-heimliche-steuererhoehung-vor-a-11292b8a-1699-44f6-892b-ab30d87b8a44#ref=rss"
+    "https://www.spiegel.de/wirtschaft/lars-klingbeil-wirtschaftsministerium-wirft-finanzminister-heimliche-steuererhoehung-vor-a-11292b8a-1699-44f6-892b-ab30d87b8a44#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/einkommensteuerreform-lars-klingbeil-lobt-kabinettsbeschluss-201182317.html"
    ],
-   "punkte": 18,
-   "text": "Union und SPD planen ein zentrales Finanzvorhaben, das die Einkommensteuer reformieren und vor allem Haushalte mit niedrigen Einkommen entlasten soll. Die konkreten Maßnahmen sind noch nicht finalisiert, sodass die Auswirkungen auf die Staatsfinanzen unklar bleiben.",
-   "positiv": [
-    "Niedrige Einkommen ↑ (Steuerentlastung)"
-   ],
-   "negativ": [
-    "Staatsfinanzen ↓ (geringere Steuereinnahmen)"
-   ]
+   "punkte": 20,
+   "text": "Union und SPD wollen ein zentrales Finanzvorhaben auf den Weg bringen - Entlastungen bei der Steuer vor allem für kleinere Einkommen. Wie die konkreten Maßnahmen aussehen und was die Steuerreform bringen soll.",
+   "positiv": [],
+   "negativ": []
   },
   {
-   "id": "e214f0fe",
-   "titel": "Banken-Gipfel: Vor Wahl in Sachsen-Anhalt – Deutsche-Bank-Chef Sewing warnt vor „Abschottung“ und „Nationalismus“",
-   "anriss": "Ein Erstarken populistischer Parteien ist aus Sicht des Deutsche-Bank-Chefs ein Risiko für den Wohlstand in Deutschland. Die Bundesregierung fordert er zur Umsetzung des Reformpakets auf.",
+   "id": "4f0f874c",
+   "titel": "Rohstoffe: Plus 20 Prozent – El Niño und Irankrieg sorgen bei diesen drei Rohstoffen für Preissprünge",
+   "anriss": "Vor allem Agrarrohstoffe legten im August stark zu – ein entsprechender Index stieg so stark wie seit Juli 2012 nicht mehr. Das sind die Gewinner und Verlierer des Monats.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
@@ -150,18 +143,36 @@
    ],
    "anzahl": 4,
    "links": [
-    "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/deutsche-bank-christian-sewing-warnt-vor-abschottung-und-nationalismus/100250180.html",
-    "https://www.tagesschau.de/wirtschaft/unternehmen/deutsche-bank-chef-sewing-warnung-afd-regierung-100.html",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/wahl-sachsen-anhalt-2026-afd-bedroht-wirtschaft-201173338.html",
-    "https://www.manager-magazin.de/politik/deutschland/landtagswahl-in-sachsen-anhalt-deutsche-bank-chef-christian-sewing-warnt-vor-afd-mehrheit-a-2f556392-8305-4021-b4dc-7678d87c7257#ref=rss"
+    "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/rohstoffe-el-nino-und-irankrieg-sorgen-bei-drei-rohstoffen-fuer-preisspruenge/100249513.html",
+    "https://www.tagesschau.de/wirtschaft/energie/gas-speicher-preise-100.html",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/inflationssprung-die-ezb-muss-dringend-handeln-201178620.html",
+    "https://www.manager-magazin.de/politik/weltwirtschaft/iran-konflikt-gegenseitige-militaerschlaege-treiben-oelpreise-nach-oben-a-6a43e859-bc55-44b7-b86c-f10490315b05#ref=rss"
    ],
    "punkte": 17,
-   "text": "Auf dem Banken‑Gipfel warnt Deutsche‑Bank‑Chef Christian Sewing vor einer Abschottung und dem Erstarken populistischer Parteien, die das Wirtschaftswachstum gefährden könnten. Er fordert die Bundesregierung auf, das Reformpaket konsequent umzusetzen.",
+   "text": "Vor allem Agrarrohstoffe legten im August stark zu – ein entsprechender Index stieg so stark wie seit Juli 2012 nicht mehr. Das sind die Gewinner und Verlierer des Monats.",
    "positiv": [],
-   "negativ": [
-    "Deutsche‑Bank‑Aktien ↓ (politisches Risiko)",
-    "Deutsche Wirtschaft ↓ (Gefahr durch Populismus)"
-   ]
+   "negativ": []
+  },
+  {
+   "id": "b24b0377",
+   "titel": "Goldreserven: Notenbank der Niederlande verlagert Gold von Nordamerika nach London",
+   "anriss": "Ein Teil der niederländischen Goldreserven liegt künftig in London. 86 Tonnen wechseln vom Standort Nordamerika. Die Notenbank verspricht sich davon mehr Flexibilität in Krisenzeiten.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "SPIEGEL Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/goldreserven-notenbank-der-niederlande-verlagert-gold-von-nordamerika-nach-london/100251542.html",
+    "https://www.spiegel.de/wirtschaft/notenbank-der-niederlande-verlagert-gold-von-nordamerika-nach-grossbritannien-a-8101b67d-8254-439a-a6e4-5a9df0fa60ff#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/banken/gold-niederlaendische-zentralbank-bringt-86-tonnen-gold-zur-bank-of-england-a-9909d744-5339-4972-84c1-ea0987d68ff9#ref=rss"
+   ],
+   "punkte": 17,
+   "text": "Ein Teil der niederländischen Goldreserven liegt künftig in London. 86 Tonnen wechseln vom Standort Nordamerika. Die Notenbank verspricht sich davon mehr Flexibilität in Krisenzeiten.",
+   "positiv": [],
+   "negativ": []
   },
   {
    "id": "2ff59ce5",
@@ -169,7 +180,6 @@
    "anriss": "Tim Cook hat als CEO und \"Gesicht\" von Apple in den vergangenen Jahren den Konzern geprägt. Jetzt übergibt er den Stab an John Ternus. Wer ist der Neue? Von Antje Sieb.",
    "region": "dach",
    "quellen": [
-    "FAZ Wirtschaft",
     "Tagesschau Wirtschaft",
     "heise",
     "manager magazin"
@@ -177,53 +187,12 @@
    "anzahl": 4,
    "links": [
     "https://www.tagesschau.de/wirtschaft/unternehmen/apple-ceo-ternus-100.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/john-ternus-loest-tim-cook-als-apple-chef-ab-accg-201175005.html",
     "https://www.manager-magazin.de/unternehmen/tech/apple-ex-ceo-tim-cook-verdient-fast-so-viel-wie-nachfolger-john-ternus-a-5a4d3708-1b30-4094-8b87-2f2e6cf2f4f3#ref=rss",
+    "https://www.heise.de/news/John-Ternus-hat-bei-Apple-als-CEO-uebernommen-Memo-an-Mitarbeiter-X-Account-11437865.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
     "https://www.heise.de/news/Neuer-Apple-Chef-Das-verdient-John-Ternus-im-ersten-Jahr-11436955.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
-   "punkte": 16,
-   "text": "Apple hat John Ternus zum neuen CEO ernannt, während Tim Cook das Unternehmen nach mehreren Jahren als Gesicht und Führungskraft verlässt. Die Marktreaktion auf die Führungswechsel ist bislang nicht eindeutig beurteilbar.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "f0a167a4",
-   "titel": "Dax aktuell: Dax baut Minus aus – Gaspreis steigt weiter",
-   "anriss": "Am deutschen Aktienmarkt bestimmen insbesondere zwei Themen die Lage: der Ölpreis und der Anleihemarkt. Dafür dürften Anleger heute in die USA schauen.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-baut-minus-aus-gaspreis-steigt-weiter/100251397.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sechs-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-unter-26.000er-marke-inflationssorgen-druecken-kurse/100251017.html"
-   ],
-   "punkte": 15,
-   "text": "Am deutschen Aktienmarkt bestimmen insbesondere zwei Themen die Lage: der Ölpreis und der Anleihemarkt. Dafür dürften Anleger heute in die USA schauen.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "70bd2364",
-   "titel": "Wirtschaft vor acht vom 01.09.2026",
-   "anriss": "Wirtschaft vor acht vom 01.09.2026",
-   "region": "dach",
-   "quellen": [
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.tagesschau.de/video/video-1641172.html",
-    "https://www.tagesschau.de/multimedia/sendung/tagesschau24/boerselive/video-1641326.html",
-    "https://www.spiegel.de/wirtschaft/konjunktur-wachstumsprognose-von-diw-mehr-als-verdoppelt-a-667e8761-d48e-4116-af97-f36ae6676530#ref=rss",
-    "https://www.manager-magazin.de/politik/deutschland/konjunktur-wachstumsprognose-von-diw-mehr-als-verdoppelt-a-14f6f499-c0c9-4d35-9ee8-2d72a1a04f0a#ref=rss"
-   ],
    "punkte": 14,
-   "text": "Wirtschaft vor acht vom 01.09.2026",
+   "text": "Tim Cook hat als CEO und \"Gesicht\" von Apple in den vergangenen Jahren den Konzern geprägt. Jetzt übergibt er den Stab an John Ternus. Wer ist der Neue? Von Antje Sieb.",
    "positiv": [],
    "negativ": []
   },
@@ -249,32 +218,50 @@
    "negativ": []
   },
   {
-   "id": "2241b234",
-   "titel": "FBI Probes Service Selling 153M+ Drivers Licenses",
-   "anriss": "Article URL: https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/ Comments URL: https://news.ycombinator.com/item?id=49529621 Points: 281 # Comments: 145",
-   "region": "global",
+   "id": "eaddf703",
+   "titel": "Banken-Gipfel: „Sollten es nicht verbaseln“: Orlopp deutet möglichen Rückzug im Kontext der Unicredit-Übernahme an",
+   "anriss": "Die Commerzbank-Chefin lässt erstmals durchblicken, dass sie Deutschlands zweitgrößtes Institut verlassen dürfte, falls sie sich mit Unicredit nicht auf eine gemeinsame Strategie einigt.",
+   "region": "dach",
    "quellen": [
-    "Hacker News Top"
+    "Handelsblatt Finanzen",
+    "SPIEGEL Wirtschaft",
+    "manager magazin"
    ],
-   "anzahl": 8,
+   "anzahl": 3,
    "links": [
-    "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
-    "https://lws.io/blog/my-local-model-setup/",
-    "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
-    "https://danluu.com/zitron/",
-    "https://ersc.io/blog/martin-joins-ersc"
+    "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/commerzbank-uebernahme-durch-unicredit-orlopp-deutet-moeglichen-rueckzug-an/100249933.html",
+    "https://www.spiegel.de/wirtschaft/unternehmen/commerzbank-chefin-bettina-orlopp-bestaetigt-gespraeche-mit-unicredit-a-c8b5245f-fc48-45a8-9cef-cc54cc3013bc#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/banken/commerzbank-bettina-orlopp-dringt-auf-gemeinsame-strategie-mit-unicredit-a-5d70abd9-55b3-4b72-8ae9-cec6425444d4#ref=rss"
    ],
-   "punkte": 10,
-   "text": "Article URL: https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/ Comments URL: https://news.ycombinator.com/item?id=49529621 Points: 281 # Comments: 145",
+   "punkte": 13,
+   "text": "Die Commerzbank-Chefin lässt erstmals durchblicken, dass sie Deutschlands zweitgrößtes Institut verlassen dürfte, falls sie sich mit Unicredit nicht auf eine gemeinsame Strategie einigt.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "9e99d172",
+   "titel": "Stellenabbau bei Uber trifft auch Führungskräfte",
+   "anriss": "Der US-Fahrdienstvermittler Uber will rund 3.300 Stellen streichen. Besonders Führungskräfte sollen davon betroffen sein. Von Gabi Biesinger.",
+   "region": "dach",
+   "quellen": [
+    "Tagesschau Wirtschaft",
+    "heise",
+    "manager magazin"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/unternehmen/uber-stellenabbau-100.html",
+    "https://www.manager-magazin.de/unternehmen/tech/uber-ceo-dara-khosrowshahi-streicht-weltweit-3300-stellen-besonders-management-betroffen-a-ec8ceeec-3c8c-488a-822b-18740333286a#ref=rss",
+    "https://www.heise.de/news/Trotz-guter-Geschaeftslage-Uber-streicht-weltweit-3300-Stellen-11438907.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 12,
+   "text": "Der US-Fahrdienstvermittler Uber will rund 3.300 Stellen streichen. Besonders Führungskräfte sollen davon betroffen sein. Von Gabi Biesinger.",
    "positiv": [],
    "negativ": []
   }
  ],
  "ketten": [],
- "gegenthese": {
-  "konsens": "Markt preist El‑Niño‑ und Iran‑Krieg‑Risiken ein, erwartet steigende Rohstoffpreise, schwächeres DAX‑Momentum, steigende Gaspreise, vorsichtige Haltung gegenüber Banken, und dass Mietrenditen in der Praxis niedriger sind.",
-  "gegen": "Preissprünge könnten kurzfristig sein, geopolitische Spannungen könnten abkühlen, Inflationsdruck könnte nachlassen, DAX‑Erholung möglich, Gasmarkt volatil, Mietrenditen können je nach Lage stark variieren."
- },
+ "gegenthese": null,
  "matrix": [
   {
    "ticker": "SU.PA",
@@ -412,7 +399,7 @@
     ],
     [
      "Newsletter",
-     "in 1 Clustern"
+     "in 3 Clustern"
     ],
     [
      "Reddit",
@@ -439,11 +426,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "50.7 Mrd"
+     "50.9 Mrd"
     ],
     [
      "KGV (erw.)",
-     "20,3"
+     "20,4"
     ],
     [
      "Umsatzwachstum",
@@ -488,11 +475,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "551.1 Mrd"
+     "555.3 Mrd"
     ],
     [
      "KGV (erw.)",
-     "27,8"
+     "28,0"
     ],
     [
      "Umsatzwachstum",
@@ -500,13 +487,13 @@
     ],
     [
      "Kursziel",
-     "2021 EUR"
+     "2033 EUR"
     ]
    ],
    "quellen": [
     [
      "Analysten",
-     "38 Kauf / 4 Halten / 1 Verkauf"
+     "39 Kauf / 3 Halten / 1 Verkauf"
     ],
     [
      "Newsletter",
@@ -537,11 +524,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "162.7 Mrd"
+     "161.2 Mrd"
     ],
     [
      "KGV (erw.)",
-     "24,0"
+     "23,8"
     ],
     [
      "Umsatzwachstum",
@@ -559,7 +546,7 @@
     ],
     [
      "Newsletter",
-     "in 14 Clustern"
+     "in 13 Clustern"
     ],
     [
      "Reddit",
@@ -586,11 +573,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "239.3 Mrd"
+     "243.4 Mrd"
     ],
     [
      "KGV (erw.)",
-     "35,8"
+     "36,5"
     ],
     [
      "Umsatzwachstum",
@@ -635,11 +622,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "41.9 Mrd"
+     "41.7 Mrd"
     ],
     [
      "KGV (erw.)",
-     "51,1"
+     "50,8"
     ],
     [
      "Umsatzwachstum",
@@ -684,11 +671,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "104.1 Mrd"
+     "105.4 Mrd"
     ],
     [
      "KGV (erw.)",
-     "17,5"
+     "17,8"
     ],
     [
      "Umsatzwachstum",
@@ -733,11 +720,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "5.250.5 Mrd"
+     "5.489.6 Mrd"
     ],
     [
      "KGV (erw.)",
-     "14,1"
+     "14,8"
     ],
     [
      "Umsatzwachstum",
@@ -776,6 +763,60 @@
   }
  },
  "shorts": [
+  {
+   "land": "NL",
+   "halter": "Two Sigma Investments, LP",
+   "emittent": "Pharming Group N.V.",
+   "prozent": 1.28,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "Actus Ray Partners Limited",
+   "emittent": "Fugro N.V.",
+   "prozent": 0.8,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "PDT Partners, LLC",
+   "emittent": "PostNL N.V.",
+   "prozent": 0.71,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "AQR Capital Management, LLC",
+   "emittent": "Adyen N.V.",
+   "prozent": 0.51,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "AQR Capital Management, LLC",
+   "emittent": "Aalberts N.V.",
+   "prozent": 0.5,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "Algert Global, LLC",
+   "emittent": "Fugro N.V.",
+   "prozent": 0.48,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
   {
    "land": "UK",
    "halter": "Anavio Capital Partners LLP",
@@ -991,164 +1032,22 @@
    "datum": "2019-06-13",
    "status": "aufgestockt",
    "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 14.29,
-   "datum": "2019-06-12",
-   "status": "aufgestockt",
-   "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 14.08,
-   "datum": "2019-06-11",
-   "status": "aufgestockt",
-   "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 13.82,
-   "datum": "2019-06-10",
-   "status": "aufgestockt",
-   "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "GUEVOURA FUND LTD",
-   "emittent": "HAMMERSON PLC",
-   "prozent": 13.78,
-   "datum": "2020-09-24",
-   "status": "aufgestockt",
-   "zuvor": 0.57
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 13.68,
-   "datum": "2019-06-07",
-   "status": "aufgestockt",
-   "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 13.5,
-   "datum": "2019-06-06",
-   "status": "aufgestockt",
-   "zuvor": 0.53
   }
  ],
  "shorts_kennzahlen": {
-  "neu_diese_woche": 0,
+  "neu_diese_woche": 6,
   "meistgeshortet": {
    "name": "Premier Oil PLC",
    "summe": 2145.63
   },
   "aktivster_halter": {
    "name": "Marshall Wace LLP",
-   "anzahl": 14036
+   "anzahl": 14032
   },
   "gesamt": 107394
  },
  "gespraech": [],
  "termine": [
-  {
-   "datum": "2026-09-02",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-03",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-04",
-   "zeit": "",
-   "region": "us",
-   "was": "Employment Situation",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-04",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-05",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-06",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-07",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-08",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-09",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-10",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-10",
-   "zeit": "",
-   "region": "us",
-   "was": "Producer Price Index",
-   "konsens": "",
-   "wucht": "hoch"
-  },
   {
    "datum": "2026-09-10",
    "zeit": "14:15",
@@ -1156,8 +1055,16 @@
    "was": "EZB-Zinsentscheid",
    "konsens": "keine Aenderung",
    "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-16",
+   "zeit": "20:00",
+   "region": "us",
+   "was": "Fed-Zinsentscheid",
+   "konsens": "-25 Bp",
+   "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 174,
+ "meldungen_gesamt": 179,
  "llm_aktiv": false
 }
