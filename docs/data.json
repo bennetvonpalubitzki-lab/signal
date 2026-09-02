@@ -1,9 +1,9 @@
 {
- "stand": "2026-09-01T19:04",
- "lauf": "2026090119",
+ "stand": "2026-09-02T04:40",
+ "lauf": "2026090204",
  "synthese": {
-  "kern": "Globale Unsicherheit über Inflation, Energiepreise und regulatorische Risiken dominiert, während Märkte die geopolitische Belastung unterschätzen.",
-  "erlaeuterung": "Steigende Inflation im Euroraum, volatile Ölpreise nach US-Angriffen und zunehmende Rechtsstreitigkeiten belasten das Risikoappetit. Der Markt fokussiert kurzfristige Aktienbewegungen, vernachlässigt jedoch die langfristige Belastung durch Energie- und geopolitische Spannungen."
+  "kern": "Alle Meldungen drehen sich um steigende Inflations‑ und Energiepreise sowie regulatorische Belastungen, die der Markt unterschätzt.",
+  "erlaeuterung": "Inflationssprünge im Euroraum und Ölpreisschocks erhöhen den Zinsdruck, während rechtliche Schritte gegen Tech‑Giganten und Kreditrating‑Risiken zusätzliche Unsicherheit erzeugen. Der Markt fokussiert sich auf einzelne Ereignisse, vernachlässigt jedoch die kumulative Belastung von Energiepreis‑Volatilität und steigenden Finanzierungskosten für Staaten und Unternehmen."
  },
  "regime": [
   {
@@ -11,15 +11,15 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 77,
-     "delta": 1
+     "wert": 78,
+     "delta": 3
     },
     "eur": {
      "wert": 89,
      "delta": -5
     }
    },
-   "differenz": 12
+   "differenz": 11
   },
   {
    "name": "wachstum",
@@ -36,12 +36,12 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 62,
+     "wert": 63,
      "delta": 11
     },
     "eur": {
-     "wert": 79,
-     "delta": 5
+     "wert": 80,
+     "delta": 7
     }
    },
    "differenz": 17
@@ -51,8 +51,8 @@
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 80,
-     "delta": -3
+     "wert": 82,
+     "delta": -1
     }
    }
   },
@@ -77,40 +77,12 @@
    "spuren": {
     "glob": {
      "wert": 90,
-     "delta": -5
+     "delta": -4
     }
    }
   }
  ],
  "cluster": [
-  {
-   "id": "635bda3a",
-   "titel": "Dow Jones, S&P 500, Nasdaq: Wall Street im Minus – Ölpreise steigen nach US-Angriffen",
-   "anriss": "Ölpreise und Anleiherenditen steigen weiter. Das wirft den Fokus auf die Geldpolitik in den USA. Unterdessen könnte die US-Notenbank Fed in ein Dilemma kommen.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 8,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-wall-street-im-minus-oelpreise-steigen-nach-us-angriffen/100251215.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-unter-26.000er-marke-inflationssorgen-druecken-kurse/100251017.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-csi-300-hang-seng-asienboersen-schliessen-kaum-veraendert/100250989.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/anleihen/anleihen-nervositaet-am-bondmarkt-renditen-auf-mehrjaehrigem-hoechststand/100251033.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sieben-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html"
-   ],
-   "punkte": 31,
-   "text": "Die US‑Aktienindizes Dow Jones, S&P 500 und Nasdaq schließen im Minus, während die Ölpreise und die Renditen von US‑Staatsanleihen weiter steigen. Die Entwicklung richtet die Aufmerksamkeit erneut auf die US‑Geldpolitik und könnte die Federal Reserve vor ein Zins‑Dilemma stellen.",
-   "positiv": [
-    "Ölpreise ↑",
-    "Anleiherenditen ↑"
-   ],
-   "negativ": [
-    "US‑Aktienindizes ↓"
-   ]
-  },
   {
    "id": "038866e8",
    "titel": "Verbraucherpreise: Inflation im Euro-Raum springt über drei Prozent – Sorgen vor neuem Gaspreisschock",
@@ -123,21 +95,53 @@
     "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 7,
+   "anzahl": 5,
    "links": [
     "https://www.handelsblatt.com/finanzen/geldpolitik/inflation-33-prozent-teuerung-im-euro-raum-zieht-deutlich-an/100248647.html",
     "https://www.tagesschau.de/wirtschaft/energie/gas-speicher-preise-100.html",
-    "https://www.tagesschau.de/wirtschaft/konjunktur/inflation-august-anstieg-100.html",
     "https://www.spiegel.de/wirtschaft/service/inflation-duerfte-laut-wirtschaftsforschern-2027-bei-drei-prozent-liegen-a-d4b5f964-bd1f-4984-8b8d-4750c17eedd0#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/inflationssprung-die-ezb-muss-dringend-handeln-201178620.html"
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/inflationssprung-die-ezb-muss-dringend-handeln-201178620.html",
+    "https://www.manager-magazin.de/politik/europa/energiepreisschock-treibt-inflation-auf-3-3-prozent-a-e0613fc1-7c4f-4b2f-bc99-5b9b996b1748#ref=rss"
    ],
-   "punkte": 29,
-   "text": "Im Euroraum hat die Verbraucherpreisrate die 3‑Prozent‑Marke überschritten, was die Inflation deutlich vom Ziel der EZB entfernt. Vor diesem Hintergrund wird in der kommenden Woche mit hoher Wahrscheinlichkeit eine Zinserhöhung der Europäischen Zentralbank erwartet.",
-   "positiv": [],
+   "punkte": 25,
+   "text": "Die Verbraucherpreise im Euroraum liegen jetzt über 3 % und entfernen sich deutlich vom Inflationsziel der EZB. Angesichts des drohenden Gaspreisschocks wird eine Zinserhöhung der Europäischen Zentralbank in der kommenden Woche als sehr wahrscheinlich eingeschätzt.",
+   "positiv": [
+    "Banken (↑)",
+    "Zins‑sensible Finanzprodukte (↑)"
+   ],
    "negativ": [
-    "Euro‑Inflation ↑",
-    "Euro‑Staatsanleihen ↓ (Preis)",
-    "Zins‑Erwartungen ↑"
+    "Euro (↓)",
+    "Verbraucher‑güter‑Sektor (↓)",
+    "Euroraum‑Staatsanleihen (↓)"
+   ]
+  },
+  {
+   "id": "97162c18",
+   "titel": "Nikkei, Kospi, Topix: Ölpreisschock nach US-Angriffen drückt asiatische Märkte",
+   "anriss": "Anleger in Asien agieren vorsichtig. Dabei dominieren zwei Themen den Markt: die Entwicklungen im Iran-Krieg sowie der Anstieg globaler Anleiherenditen.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "manager magazin"
+   ],
+   "anzahl": 5,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-kospi-topix-oelpreisschock-nach-us-angriffen-drueckt-asiatische-maerkte/100251353.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-wall-street-schliesst-im-minus-oelpreise-steigen-nach-us-angriffen/100251215.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-csi-300-hang-seng-asienboersen-schliessen-kaum-veraendert/100250989.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/anleihen/anleihen-nervositaet-am-bondmarkt-renditen-auf-mehrjaehrigem-hoechststand/100251033.html",
+    "https://www.manager-magazin.de/finanzen/boerse/japan-rendite-zehnjaehriger-staatsanleihen-auf-rekordhoch-a-539ca011-2901-446c-b6ec-0e26fcee561f#ref=rss"
+   ],
+   "punkte": 22,
+   "text": "Ein plötzlicher Ölpreisanstieg nach US‑Militäroperationen drückt die asiatischen Leitindizes Nikkei, Kospi und Topix. Die Märkte bleiben vorsichtig, während die Entwicklungen im Iran‑Krieg und steigende globale Anleiherenditen das Sentiment belasten.",
+   "positiv": [
+    "Öl‑ und Energieunternehmen (↑)",
+    "Rohstoff‑ETFs (↑)"
+   ],
+   "negativ": [
+    "Asiatische Aktien (↓)",
+    "Technologie‑ und Export‑Sektoren in Asien (↓)",
+    "Globale Anleiherenditen (↑) – indirekt belastend für Anleihekurse"
    ]
   },
   {
@@ -161,36 +165,43 @@
     "https://www.manager-magazin.de/unternehmen/handel/shein-modehaendler-enttaeuscht-zum-boersenstart-weiter-erhebliche-risiken-a-13ca284b-9e67-4cbf-aede-ba3f5cdcd58f#ref=rss"
    ],
    "punkte": 21,
-   "text": "Der chinesische Online‑Modehändler Shein ist nach einem langen Vorlauf an der Börse in Hongkong gelistet, verzeichnet jedoch einen verhaltenen Kursverlauf. Das deutet darauf hin, dass die Euphorie im E‑Commerce‑Sektor nachlässt.",
-   "positiv": [],
+   "text": "Der chinesische Online‑Modehändler Shein hat nach einem langen Vorlauf in Hongkong den Börsengang vollzogen, verzeichnet jedoch einen zurückhaltenden Kursstart. Das Ergebnis deutet darauf hin, dass die Euphorie im E‑Commerce‑Sektor vorerst nachgelassen hat.",
+   "positiv": [
+    "Hongkong‑Börse (↑) – erhöhtes IPO‑Volumen"
+   ],
    "negativ": [
-    "Shein‑Aktie ↔ (verhaltener Start)",
-    "E‑Commerce‑Branche ↓"
+    "Shein‑Aktie (↓)",
+    "E‑Commerce‑Branche (↓)",
+    "Online‑Mode‑Unternehmen (↓)"
    ]
   },
   {
-   "id": "2ff59ce5",
-   "titel": "John Ternus übernimmt bei Apple",
-   "anriss": "Tim Cook hat als CEO und \"Gesicht\" von Apple in den vergangenen Jahren den Konzern geprägt. Jetzt übergibt er den Stab an John Ternus. Wer ist der Neue? Von Antje Sieb.",
+   "id": "30a0d380",
+   "titel": "Börse am 2. September: Sechs Punkte, die für Anleger heute wichtig sind",
+   "anriss": "Beim Dax mehren sich derzeit die Verluste. Hinzu kommt ein historisch gesehen schwacher Börsenmonat. Anleger dürften am heutigen Mittwoch insbesondere in ein anderes Land blicken.",
    "region": "dach",
    "quellen": [
-    "FAZ Wirtschaft",
+    "Handelsblatt Finanzen",
     "Tagesschau Wirtschaft",
-    "heise",
     "manager magazin"
    ],
    "anzahl": 4,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/unternehmen/apple-ceo-ternus-100.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/john-ternus-loest-tim-cook-als-apple-chef-ab-accg-201175005.html",
-    "https://www.manager-magazin.de/unternehmen/tech/apple-der-neue-ceo-startet-diese-probleme-muss-er-unbedingt-anpacken-a-1a9b8e87-a061-4783-aa98-dc0b890fdb64#ref=rss",
-    "https://www.heise.de/news/Aus-Grossbritannien-Apple-kauft-erstmals-bereits-laufende-TV-Serie-11435837.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sechs-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-unter-26.000er-marke-inflationssorgen-druecken-kurse/100251017.html",
+    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-geldanlage-inflation-100.html",
+    "https://www.manager-magazin.de/finanzen/boerse/boerse-dax-am-dienstag-mit-verlusten-erwartet-a-bae8e73f-6123-4931-91a1-b7851c210739#ref=rss"
    ],
-   "punkte": 16,
-   "text": "Apple gibt die Nachfolge von Tim Cook an John Ternus weiter, der künftig die operative Führung des Unternehmens übernehmen wird. Der Wechsel wird von den Märkten bislang neutral aufgenommen, ohne klare Kursbewegungen.",
-   "positiv": [],
+   "punkte": 20,
+   "text": "Der DAX verliert weiter an Boden und befindet sich in einem historisch schwachen Börsenmonat. Anleger könnten vermehrt in ausländische Märkte umschichten, um die anhaltende Schwäche auszugleichen.",
+   "positiv": [
+    "Ausländische Aktien/ETFs (↑)",
+    "Defensive Sektoren außerhalb Deutschlands (↑)"
+   ],
    "negativ": [
-    "Apple‑Aktie ↔ (keine eindeutige Richtung)"
+    "DAX (↓)",
+    "Deutsche Large‑Cap‑Aktien (↓)",
+    "Deutsch‑zentrierte Investmentfonds (↓)"
    ]
   },
   {
@@ -201,16 +212,39 @@
    "quellen": [
     "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft",
+    "heise",
     "manager magazin"
    ],
-   "anzahl": 3,
+   "anzahl": 4,
    "links": [
     "https://www.tagesschau.de/ausland/amerika/klage-amazon-werbeeinnahmen-100.html",
     "https://www.spiegel.de/wirtschaft/unternehmen/amazon-us-wettbewerbshueter-klagen-wegen-verteuerter-werbeplaetze-vor-a-e69597e1-819b-4fbf-adfd-ec54ac861ac1#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/tech/amazon-onlinehaendler-wegen-moeglicher-preismanipulation-bei-werbung-verklagt-a-ba5decdf-d6d8-4e91-a375-2a3fd1e822bf#ref=rss"
+    "https://www.manager-magazin.de/unternehmen/tech/amazon-onlinehaendler-wegen-moeglicher-preismanipulation-bei-werbung-verklagt-a-ba5decdf-d6d8-4e91-a375-2a3fd1e822bf#ref=rss",
+    "https://www.heise.de/news/Werbepreise-Amazon-com-weist-Betrugsvorwurf-von-sich-11437537.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 16,
+   "text": "Mit manipulierten Auktionen für Online-Werbung soll sich Amazon zweistellige Milliardenbeträge erschlichen haben. Das wirft die US-Wettbewerbsbehörder FTC dem Konzern vor - und klagt zusammen mit 22 Bundesstaaten.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "5d289ef7",
+   "titel": "Mieterbund: 1,4 Millionen Wohnungen fehlen",
+   "anriss": "Steigende Mieten belasten viele Menschen in Deutschland. Nach einer Umfrage des Mieterbundes hat fast ein Drittel der Mieter Angst, sich den Betrag zukünftig nicht mehr leisten zu können. Gleichzeitig fehlt das Geld an anderer Stelle.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "heise"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.tagesschau.de/inland/gesellschaft/mehr-als-eine-million-wohnungen-fehlen-100.html",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/deutscher-mieterbund-wohnkosten-belasten-millionen-mieter-201178403.html",
+    "https://www.heise.de/news/E-Bike-Boom-Fast-jeder-Dritte-in-Deutschland-besitzt-ein-Elektrorad-11437143.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
    "punkte": 12,
-   "text": "Mit manipulierten Auktionen für Online-Werbung soll sich Amazon zweistellige Milliardenbeträge erschlichen haben. Das wirft die US-Wettbewerbsbehörder FTC dem Konzern vor - und klagt zusammen mit 22 Bundesstaaten.",
+   "text": "Steigende Mieten belasten viele Menschen in Deutschland. Nach einer Umfrage des Mieterbundes hat fast ein Drittel der Mieter Angst, sich den Betrag zukünftig nicht mehr leisten zu können. Gleichzeitig fehlt das Geld an a",
    "positiv": [],
    "negativ": []
   },
@@ -236,48 +270,31 @@
    "negativ": []
   },
   {
-   "id": "5d289ef7",
-   "titel": "Mieterbund: 1,4 Millionen Wohnungen fehlen",
-   "anriss": "Steigende Mieten belasten viele Menschen in Deutschland. Nach einer Umfrage des Mieterbundes hat fast ein Drittel der Mieter Angst, sich den Betrag zukünftig nicht mehr leisten zu können. Gleichzeitig fehlt das Geld an anderer Stelle.",
+   "id": "213ed497",
+   "titel": "Deutschland muss laut Bundesbankchef Joachim Nagel hart für AAA-Rating arbeiten",
+   "anriss": "Die Schuldenlast steigt, das Wachstum stagniert: Am Kapitalmarkt wird deshalb seit Wochen diskutiert, ob Deutschland seine Topbonität verlieren könnte. Bundesbankchef Nagel sieht Schwarz-Rot vor einer Herausforderung.",
    "region": "dach",
    "quellen": [
-    "FAZ Wirtschaft",
-    "Tagesschau Wirtschaft"
+    "SPIEGEL Wirtschaft",
+    "manager magazin"
    ],
    "anzahl": 3,
    "links": [
-    "https://www.tagesschau.de/inland/gesellschaft/mehr-als-eine-million-wohnungen-fehlen-100.html",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/deutscher-mieterbund-wohnkosten-belasten-millionen-mieter-201178403.html",
-    "https://www.faz.net/aktuell/wirtschaft/immobilien-wohnen/mieten-vermieten/immobilien-kein-schadensersatz-bei-unwirksamer-kuendigung-accg-201069276.html"
+    "https://www.spiegel.de/wirtschaft/deutschland-muss-laut-bundesbankchef-joachim-nagel-hart-fuer-aaa-rating-arbeiten-a-cb861474-272a-4e5a-8e19-4509bde4384b#ref=rss",
+    "https://www.spiegel.de/wirtschaft/arbeitsmarkt-teilzeitquote-in-deutschland-erreicht-neuen-hoechststand-a-5dc7d7dd-d27e-4063-b440-2cab9df48d5a#ref=rss",
+    "https://www.manager-magazin.de/politik/deutschland/arbeitsmarkt-warum-deutschland-jetzt-eine-agenda-arbeit-braucht-a-041292ca-b1cb-4b9e-be3f-5fa08aafc16d#ref=rss"
    ],
    "punkte": 10,
-   "text": "Steigende Mieten belasten viele Menschen in Deutschland. Nach einer Umfrage des Mieterbundes hat fast ein Drittel der Mieter Angst, sich den Betrag zukünftig nicht mehr leisten zu können. Gleichzeitig fehlt das Geld an a",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "70bd2364",
-   "titel": "Wirtschaft vor acht vom 01.09.2026",
-   "anriss": "Wirtschaft vor acht vom 01.09.2026",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "Tagesschau Wirtschaft"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.tagesschau.de/video/video-1641172.html",
-    "https://www.tagesschau.de/multimedia/sendung/tagesschau24/boerselive/video-1640148.html",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/wahl-sachsen-anhalt-2026-afd-bedroht-wirtschaft-201173338.html"
-   ],
-   "punkte": 10,
-   "text": "Wirtschaft vor acht vom 01.09.2026",
+   "text": "Die Schuldenlast steigt, das Wachstum stagniert: Am Kapitalmarkt wird deshalb seit Wochen diskutiert, ob Deutschland seine Topbonität verlieren könnte. Bundesbankchef Nagel sieht Schwarz-Rot vor einer Herausforderung.",
    "positiv": [],
    "negativ": []
   }
  ],
  "ketten": [],
- "gegenthese": null,
+ "gegenthese": {
+  "konsens": "Marktteilnehmer sehen die jüngste Inflation über 3 % im Euroraum und den Ölpreisanstieg nach US‑Angriffen als Haupt‑Risiko für die Geldpolitik und die Aktienmärkte, was zu vorsichtiger Stimmung führt.",
+  "gegen": "Gegenargument: Kerninflationsdaten zeigen erste Entspannung, Ölpreis‑Schock könnte kurzfristig sein, und regulatorische bzw. politische Risiken (Amazon‑Klage, Wohnungs‑Mangel) haben begrenzte unmittelbare Preis‑Auswirkungen."
+ },
  "matrix": [
   {
    "ticker": "SU.PA",
@@ -562,7 +579,7 @@
     ],
     [
      "Newsletter",
-     "in 21 Clustern"
+     "in 14 Clustern"
     ],
     [
      "Reddit",
@@ -589,11 +606,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "238.4 Mrd"
+     "239.3 Mrd"
     ],
     [
      "KGV (erw.)",
-     "35,7"
+     "35,8"
     ],
     [
      "Umsatzwachstum",
@@ -638,11 +655,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "42.1 Mrd"
+     "41.9 Mrd"
     ],
     [
      "KGV (erw.)",
-     "51,5"
+     "51,2"
     ],
     [
      "Umsatzwachstum",
@@ -650,7 +667,7 @@
     ],
     [
      "Kursziel",
-     "130 USD"
+     "129 USD"
     ]
    ],
    "quellen": [
@@ -687,11 +704,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "105.1 Mrd"
+     "104.1 Mrd"
     ],
     [
      "KGV (erw.)",
-     "17,7"
+     "17,5"
     ],
     [
      "Umsatzwachstum",
@@ -736,7 +753,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "5.249.6 Mrd"
+     "5.250.5 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -779,33 +796,6 @@
   }
  },
  "shorts": [
-  {
-   "land": "NL",
-   "halter": "Davidson Kempner Capital Management LP",
-   "emittent": "Akzo Nobel N.V.",
-   "prozent": 1.81,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "AQR Capital Management, LLC",
-   "emittent": "IMCD N.V.",
-   "prozent": 0.5,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "BlackRock Advisors, LLC",
-   "emittent": "IMCD N.V.",
-   "prozent": 0.5,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
   {
    "land": "UK",
    "halter": "Anavio Capital Partners LLP",
@@ -1048,10 +1038,37 @@
    "datum": "2019-06-10",
    "status": "aufgestockt",
    "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "GUEVOURA FUND LTD",
+   "emittent": "HAMMERSON PLC",
+   "prozent": 13.78,
+   "datum": "2020-09-24",
+   "status": "aufgestockt",
+   "zuvor": 0.57
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 13.68,
+   "datum": "2019-06-07",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 13.5,
+   "datum": "2019-06-06",
+   "status": "aufgestockt",
+   "zuvor": 0.53
   }
  ],
  "shorts_kennzahlen": {
-  "neu_diese_woche": 3,
+  "neu_diese_woche": 0,
   "meistgeshortet": {
    "name": "Premier Oil PLC",
    "summe": 2145.63
@@ -1064,22 +1081,6 @@
  },
  "gespraech": [],
  "termine": [
-  {
-   "datum": "2026-09-01",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-01",
-   "zeit": "",
-   "region": "us",
-   "was": "Job Openings and Labor Turnover Survey",
-   "konsens": "",
-   "wucht": "hoch"
-  },
   {
    "datum": "2026-09-02",
    "zeit": "",
@@ -1159,8 +1160,24 @@
    "was": "FOMC Press Release",
    "konsens": "",
    "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-10",
+   "zeit": "",
+   "region": "us",
+   "was": "Producer Price Index",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-10",
+   "zeit": "14:15",
+   "region": "eu",
+   "was": "EZB-Zinsentscheid",
+   "konsens": "keine Aenderung",
+   "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 193,
+ "meldungen_gesamt": 167,
  "llm_aktiv": false
 }
