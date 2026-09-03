@@ -1,9 +1,9 @@
 {
- "stand": "2026-09-03T16:04",
- "lauf": "2026090316",
+ "stand": "2026-09-03T19:04",
+ "lauf": "2026090319",
  "synthese": {
-  "kern": "Alle Meldungen betonen steigende regulatorische und geopolitische Unsicherheit, die vom Markt zugunsten von Wachstumserwartungen vernachlässigt wird.",
-  "erlaeuterung": "Politische Abschottung, verschärfte Steuerprüfungen und Änderungen in der Geldpolitik erhöhen das systemische Risiko. Trotz hoher Regimewerte für Wachstum und Risikoappetit unterschätzt der Markt die kombinierten regulatorischen und geopolitischen Belastungen."
+  "kern": "Alle Meldungen betonen wachsende Unsicherheit bei Wachstum, Politik und Technologie, während Märkte den steigenden Risikoappetit ignorieren.",
+  "erlaeuterung": "Wirtschaftsinstitute heben Prognosen, geopolitische Spannungen und regulatorische Eingriffe, doch die Marktpreise spiegeln kaum die steigende Risikoaversion wider. Investoren übersehen, dass die Kombination aus höherem Zinsdruck, geopolitischer Unsicherheit und technologischem Wandel langfristige Volatilität erhöhen könnte."
  },
  "regime": [
   {
@@ -36,23 +36,23 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 62,
-     "delta": 6
+     "wert": 63,
+     "delta": 7
     },
     "eur": {
      "wert": 80,
      "delta": 5
     }
    },
-   "differenz": 18
+   "differenz": 17
   },
   {
    "name": "risikoappetit",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 87,
-     "delta": -1
+     "wert": 89,
+     "delta": 1
     }
    }
   },
@@ -84,9 +84,9 @@
  ],
  "cluster": [
   {
-   "id": "061cc180",
-   "titel": "Deutsche-Bank-Chef warnt vor Abschottung und Nationalismus",
-   "anriss": "Deutsche-Bank-Chef Christian Sewing hat vor der Landtagswahl in Sachsen-Anhalt vor dem Aufstieg populistischer Parteien gewarnt. Wirtschaftlich und gesellschaftlich stehe viel auf dem Spiel.",
+   "id": "a8b2b18a",
+   "titel": "Wirtschaftsinstitute korrigieren Wachstumsprognosen nach oben",
+   "anriss": "Es soll wieder bergauf gehen in der Wirtschaft: Mehrere Forschungsinstitute heben ihre Prognose für das aktuelle Jahr deutlich an. Doch die Inflation bleibt hoch - und könnte zur Belastung werden.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
@@ -94,21 +94,55 @@
     "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 7,
+   "anzahl": 6,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/unternehmen/deutsche-bank-chef-sewing-warnung-afd-regierung-100.html",
-    "https://www.spiegel.de/wirtschaft/soziales/sachsen-anhalt-wo-das-bundesland-wirtschaftlich-zurueckliegt-und-fuehrt-a-fbcd3b79-eef6-47ee-af9b-b6b2e0aacdac#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/wahl-sachsen-anhalt-2026-was-ein-afd-sieg-bedeuten-koennte-201184104.html",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/wahl-sachsen-anhalt-2026-wer-pflegt-die-alten-ohne-fachkraefte-201180017.html",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/remigration-wie-die-afd-sachsen-anhalts-wirtschaft-schadet-201182459.html"
+    "https://www.tagesschau.de/wirtschaft/konjunktur/wirtschaftsinstitute-herbstprognose-100.html",
+    "https://www.spiegel.de/wirtschaft/unternehmen/ifo-kiel-institut-rwi-fuehrende-oekonomen-rechnen-mit-deutlich-besserer-konjunktur-im-land-a-0593bdd6-fcec-4910-8cbf-2e461daf8f9f#ref=rss",
+    "https://www.spiegel.de/wirtschaft/konjunktur-wachstumsprognose-von-diw-mehr-als-verdoppelt-a-667e8761-d48e-4116-af97-f36ae6676530#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/deutsche-wirtschaft-die-normalitaet-ist-schwaches-wachstum-201188090.html",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/deutschlands-wachstumsgrenzen-was-2028-auf-uns-zukommt-201188225.html"
    ],
-   "punkte": 22,
-   "text": "Deutsche‑Bank‑Chef Christian Sewing warnt vor einer zunehmenden Abschottung und dem Aufstieg populistischer Parteien vor der Landtagswahl in Sachsen‑Anhalt. Er betont, dass sowohl die Wirtschaft als auch das gesellschaftliche Klima stark gefährdet seien.",
-   "positiv": [],
+   "punkte": 20,
+   "text": "Mehrere Wirtschaftsforschungsinstitute haben ihre Wachstumsprognose für das laufende Jahr deutlich nach oben korrigiert. Gleichzeitig warnen sie, dass die Inflation weiterhin hoch bleibt und damit die Geldpolitik belasten könnte.",
+   "positiv": [
+    "Aktien (zyklische Sektoren) ↑",
+    "Immobilien (nachhaltiges Wachstum) ↑"
+   ],
    "negativ": [
-    "Banken‑Aktien ↓",
-    "Deutsche‑Bank‑Aktie ↓",
-    "Euro‑Staatsanleihen ↑ (Flucht in Sicherheit)"
+    "Staatsanleihen (steigende Zinsen) ↓",
+    "Geldmarkt‑Instrumente ↓",
+    "Konsumgüter (inflationsbedingte Kosten) ↓"
+   ]
+  },
+  {
+   "id": "0922f90c",
+   "titel": "Warum die Zukunft der VW-Werke wohl noch länger ungewiss bleibt",
+   "anriss": "Freitag soll der VW-Aufsichtsrat über den Sparkurs und mögliche Werksschließungen beraten. Doch es gibt viel Streit und Drohkulissen. Ein Kompromiss ist nicht in Sicht - und einigen scheint das ganz recht zu sein. Von A. Deutskens.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 6,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/unternehmen/vw-aufsichtsrat-streit-werksschliessungen-100.html",
+    "https://www.spiegel.de/wirtschaft/unternehmen/volkswagen-in-der-krise-aufsichtsrat-stimmt-sanierungsplan-zu-a-15d54295-2f6a-421c-b2f2-5c4aafbd8945#ref=rss",
+    "https://www.spiegel.de/wirtschaft/unternehmen/vw-krise-bei-volkswagen-droht-jetzt-die-maximale-eskalation-a-a5a1972b-cdb1-4212-822d-ad9980e7f3a5#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/vw-aufsichtsrat-einigt-sich-einstimmig-auf-sanierungsplan-201189729.html",
+    "https://www.manager-magazin.de/unternehmen/mobilitaet/volkswagen-krise-die-hoechst-gefaehrliche-lage-vor-dem-gipfel-des-aufsichtsrats-a-491260f2-808b-4525-9821-722a58cc3ea0#ref=rss"
+   ],
+   "punkte": 20,
+   "text": "Der Aufsichtsrat von Volkswagen wird am Freitag über weitere Sparmaßnahmen und mögliche Werksschließungen beraten, wobei die Diskussionen bislang keinen Kompromiss ergeben haben. Der anhaltende Streit erhöht die Unsicherheit für das Unternehmen und seine Zulieferkette.",
+   "positiv": [
+    "Elektromobilitäts‑Start‑ups ↑ (potenzielle Marktanteilsgewinne)",
+    "Dienstleister für Restrukturierung ↑"
+   ],
+   "negativ": [
+    "VW‑Aktie ↓",
+    "Automobilzulieferer (insbesondere konventionelle Antriebe) ↓",
+    "Produktionsstandorte in Deutschland ↓"
    ]
   },
   {
@@ -130,130 +164,40 @@
     "https://www.faz.net/aktuell/wirtschaft/lars-klingbeil-und-die-steuerreform-die-ihren-namen-nicht-verdient-201183084.html"
    ],
    "punkte": 17,
-   "text": "Das Finanzamt wird die Steuererklärungen für das Jahr 2025 stärker prüfen, insbesondere bei Fällen, die nicht automatisch bearbeitet werden. Steuerzahler müssen mit intensiveren Rückfragen rechnen, während Steuerberater von erhöhtem Beratungsbedarf profitieren könnten.",
+   "text": "Das Finanzamt wird bei der Bearbeitung von Steuererklärungen für das Jahr 2025 verstärkt Einzelfälle prüfen und bei Unstimmigkeiten gezielt nachhaken. Steuerpflichtige sollten daher besonders auf Vollständigkeit und Plausibilität ihrer Angaben achten.",
    "positiv": [
-    "Steuerberatungs‑Dienstleistungen ↑"
+    "Steuerberatungs‑ und Rechtsdienstleister ↑ (nachgefragte Expertise)"
    ],
-   "negativ": [
-    "Privatpersonen (Steuerlast) ↑",
-    "Steuer‑Software‑Anbieter (wenn automatisierte Prozesse reduziert werden) ↓"
-   ]
+   "negativ": []
   },
   {
-   "id": "a8b2b18a",
-   "titel": "Wirtschaftsinstitute korrigieren Wachstumsprognosen nach oben",
-   "anriss": "Es soll wieder bergauf gehen in der Wirtschaft: Mehrere Forschungsinstitute heben ihre Prognose für das aktuelle Jahr deutlich an. Doch die Inflation bleibt hoch - und könnte zur Belastung werden.",
+   "id": "061cc180",
+   "titel": "Deutsche-Bank-Chef warnt vor Abschottung und Nationalismus",
+   "anriss": "Deutsche-Bank-Chef Christian Sewing hat vor der Landtagswahl in Sachsen-Anhalt vor dem Aufstieg populistischer Parteien gewarnt. Wirtschaftlich und gesellschaftlich stehe viel auf dem Spiel.",
    "region": "dach",
    "quellen": [
+    "FAZ Wirtschaft",
     "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft",
     "manager magazin"
    ],
    "anzahl": 4,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/konjunktur/wirtschaftsinstitute-herbstprognose-100.html",
-    "https://www.spiegel.de/wirtschaft/unternehmen/ifo-kiel-institut-rwi-fuehrende-oekonomen-rechnen-mit-deutlich-besserer-konjunktur-im-land-a-0593bdd6-fcec-4910-8cbf-2e461daf8f9f#ref=rss",
-    "https://www.spiegel.de/wirtschaft/konjunktur-wachstumsprognose-von-diw-mehr-als-verdoppelt-a-667e8761-d48e-4116-af97-f36ae6676530#ref=rss",
-    "https://www.manager-magazin.de/politik/weltwirtschaft/timo-wollmershaeuser-torsten-schmidt-fuehrende-oekonomen-heben-wachstumsprognose-an-a-53ea99f2-dc7f-4422-8cb5-e921deea32c1#ref=rss"
+    "https://www.tagesschau.de/wirtschaft/unternehmen/deutsche-bank-chef-sewing-warnung-afd-regierung-100.html",
+    "https://www.spiegel.de/wirtschaft/soziales/sachsen-anhalt-wo-das-bundesland-wirtschaftlich-zurueckliegt-und-fuehrt-a-fbcd3b79-eef6-47ee-af9b-b6b2e0aacdac#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/wahl-sachsen-anhalt-2026-wer-pflegt-die-alten-ohne-fachkraefte-201180017.html",
+    "https://www.manager-magazin.de/politik/deutschland/afd-in-sachsen-anhalt-welche-loecher-die-partei-in-den-haushalt-reissen-wuerde-a-617a7022-3399-4524-a45a-8de8125c3b12#ref=rss"
    ],
-   "punkte": 14,
-   "text": "Mehrere Wirtschaftsforschungsinstitute haben ihre Wachstumsprognosen für das laufende Jahr nach oben korrigiert, sehen jedoch weiterhin eine hohe Inflation als Belastungsfaktor. Die optimistischere Konjunktur erwartet eine Erholung, während die Preissteigerungen die Geldpolitik unter Druck halten.",
+   "punkte": 16,
+   "text": "Deutsche‑Bank‑Chef Christian Sewing warnt vor den wirtschaftlichen Folgen von Abschottung und zunehmendem Nationalismus im Vorfeld der Landtagswahl in Sachsen‑Anhalt. Er betont, dass sowohl die Wirtschaft als auch die Gesellschaft stark von einer offenen Handelspolitik abhängig sind.",
    "positiv": [
-    "Zyklische Aktien (Industrie, Konsum) ↑",
-    "Rohstoff‑Aktien ↑"
+    "Exportorientierte Unternehmen (offene Märkte) ↑"
    ],
    "negativ": [
-    "Inflationsgeschützte Anleihen ↓",
-    "Kurzfristige Staatsanleihen (Zinsrisiko) ↓"
+    "Deutsche‑Bank‑Aktie (politisches Risiko) ↓",
+    "Branchen mit hoher Exportquote (z. B. Maschinenbau) ↓",
+    "Unternehmen mit starkem Inlandsfokus (bei zunehmendem Protektionismus) ↓"
    ]
-  },
-  {
-   "id": "0922f90c",
-   "titel": "Warum die Zukunft der VW-Werke wohl noch länger ungewiss bleibt",
-   "anriss": "Freitag soll der VW-Aufsichtsrat über den Sparkurs und mögliche Werksschließungen beraten. Doch es gibt viel Streit und Drohkulissen. Ein Kompromiss ist nicht in Sicht - und einigen scheint das ganz recht zu sein. Von A. Deutskens.",
-   "region": "dach",
-   "quellen": [
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/unternehmen/vw-aufsichtsrat-streit-werksschliessungen-100.html",
-    "https://www.spiegel.de/wirtschaft/unternehmen/vw-krise-bei-volkswagen-droht-jetzt-die-maximale-eskalation-a-a5a1972b-cdb1-4212-822d-ad9980e7f3a5#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/mobilitaet/volkswagen-krise-die-hoechst-gefaehrliche-lage-vor-dem-gipfel-des-aufsichtsrats-a-491260f2-808b-4525-9821-722a58cc3ea0#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/mobilitaet/volkswagen-marianne-heiss-kehrt-in-den-aufsichtsrat-zurueck-a-7f53958c-0aa8-48a1-8220-ed84ad8a2342#ref=rss"
-   ],
-   "punkte": 14,
-   "text": "Der Aufsichtsrat von Volkswagen wird am Freitag über einen Sparkurs und mögliche Werksschließungen beraten, wobei die Diskussion von starkem Widerstand und keiner Einigung geprägt ist. Die Unsicherheit über die Zukunft der VW‑Produktionsstandorte belastet die Aktie und die Zuliefererbranche.",
-   "positiv": [],
-   "negativ": [
-    "VW‑Aktie ↓",
-    "Automobil‑Zulieferer‑Aktien ↓",
-    "Industrie‑Arbeitsplätze ↓"
-   ]
-  },
-  {
-   "id": "2773741e",
-   "titel": "Geldpolitik: Isabel Schnabel steht vor Wechsel nach Washington – Großumbau an EZB-Spitze rückt näher",
-   "anriss": "Die Deutsche könnte die Zentralbank nach Informationen des Handelsblatts vor Ablauf ihrer Amtszeit verlassen und zum IWF gehen. Das hat Auswirkungen auf die Nachfolge von EZB-Präsidentin Lagarde.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "Handelsblatt Finanzen",
-    "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/geldpolitik/ezb-isabel-schnabel-steht-vor-wechsel-zum-iwf1234/100251581.html",
-    "https://www.faz.net/aktuell/wirtschaft/ezb-direktorin-schnabel-koennte-zum-iwf-wechseln-accg-201187893.html",
-    "https://www.manager-magazin.de/unternehmen/banken/europaeische-zentralbank-isabel-schnabel-vor-wechsel-zum-iwf-a-61aa0f6c-8b46-49ea-b460-b1f23a11eaa5#ref=rss"
-   ],
-   "punkte": 13,
-   "text": "Die Deutsche könnte die Zentralbank nach Informationen des Handelsblatts vor Ablauf ihrer Amtszeit verlassen und zum IWF gehen. Das hat Auswirkungen auf die Nachfolge von EZB-Präsidentin Lagarde.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "2d2c51e3",
-   "titel": "Hedgefonds Elliott beflügelt die Telekom-Aktie",
-   "anriss": "Die Telekom-Aktie ist im Aufwind: Grund ist die wachsende Beteiligung des US-Hedgefonds Elliott am Bonner Konzern. Was wird aus der Fusion mit der US-Tochter T-Mobile?",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/finanzen/mb-mittag-telekom-102.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-trump-regierung-unterstuetzt-openai-gegen-die-new-york-times-faz-200452404.html",
-    "https://www.manager-magazin.de/unternehmen/tech/deutsche-telekom-aktivist-elliott-steigt-ein-und-stellt-sich-gegen-t-mobile-us-fusion-a-0e364453-2309-4e12-a908-791a10c08fc3#ref=rss"
-   ],
-   "punkte": 12,
-   "text": "Die Telekom-Aktie ist im Aufwind: Grund ist die wachsende Beteiligung des US-Hedgefonds Elliott am Bonner Konzern. Was wird aus der Fusion mit der US-Tochter T-Mobile?",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "c9fa41e1",
-   "titel": "Immobilien: Raus in 14 Tagen? Wann Vermieter im Eiltempo kündigen dürfen",
-   "anriss": "Vor allem in den Metropolen kommen zunehmend möblierte Wohnungen auf den Markt. Was für Vermieter attraktiv ist, kann für Mieter beim Kündigungsschutz Fallstricke bieten. Ein Überblick.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "Handelsblatt Finanzen"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/immobilien/immobilien-raus-in-14-tagen-wann-vermieter-im-eiltempo-kuendigen-duerfen/100246818.html",
-    "https://www.handelsblatt.com/finanzen/immobilien/immobilien-guenstige-wohnungen-so-lassen-sich-die-kosten-im-neubau-senken-1/100249354.html",
-    "https://www.faz.net/aktuell/wirtschaft/immobilien-wohnen/bauen-kaufen/sylt-hat-die-immobilienkrise-kaeufer-wittern-ihre-chance-accg-201154663.html"
-   ],
-   "punkte": 12,
-   "text": "Vor allem in den Metropolen kommen zunehmend möblierte Wohnungen auf den Markt. Was für Vermieter attraktiv ist, kann für Mieter beim Kündigungsschutz Fallstricke bieten. Ein Überblick.",
-   "positiv": [],
-   "negativ": []
   },
   {
    "id": "f05682f3",
@@ -273,47 +217,110 @@
    "text": "Die niederländische Notenbank hat 86 Tonnen Goldreserven von New York und Ottawa nach London verlagert. Die Bundesbank sieht noch keinen Handlungsbedarf.",
    "positiv": [],
    "negativ": []
+  },
+  {
+   "id": "7a131794",
+   "titel": "Künstliche Intelligenz: Nvidia kauft Hugging Face",
+   "anriss": "Hugging Face ist kürzlich als Hackingopfer bekannt geworden und wird künftig zu den wertvollsten Unternehmen der Welt gehören. Nvidia wird der Zukauf helfen, seine ohnehin schon zentrale Rolle im KI-Geschäft auszubauen.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "heise",
+    "manager magazin"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/nvidia-uebernimmt-hugging-face-fuer-12-9-milliarden-dollar-201188341.html",
+    "https://www.manager-magazin.de/unternehmen/tech/nvidia-uebernimmt-hugging-face-fuer-13-milliarden-dollar-a-98f64408-b85a-4f20-8b1e-fc94437fd055#ref=rss",
+    "https://www.heise.de/news/Nvidia-uebernimmt-Hugging-Face-fuer-12-93-Milliarden-US-Dollar-11440209.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 12,
+   "text": "Hugging Face ist kürzlich als Hackingopfer bekannt geworden und wird künftig zu den wertvollsten Unternehmen der Welt gehören. Nvidia wird der Zukauf helfen, seine ohnehin schon zentrale Rolle im KI-Geschäft auszubauen.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "994d608a",
+   "titel": "Geldanlage: Die neuen Weltraum-ETFs enttäuschen – was bringen Themenfonds wirklich?",
+   "anriss": "In den vergangenen Monaten sind gleich mehrere Börsenfonds speziell für Weltraumaktien auf den Markt gekommen. Nicht nur die jüngsten Renditen mahnen aber zur Vorsicht, meint Martin Müller.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/anlagestrategie/kolumnen/geldanlage-die-neuen-weltraum-etfs-enttaeuschen/100250772.html",
+    "https://www.handelsblatt.com/finanzen/anlagestrategie/fonds-etf/geldanlage-gewinne-sichern-bei-einzelaktien-worauf-profis-achten/100246441.html",
+    "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/anlage-drei-aktien-mit-denen-anleger-auf-abnehmmedikamente-setzen-koennen/100245572.html"
+   ],
+   "punkte": 11,
+   "text": "In den vergangenen Monaten sind gleich mehrere Börsenfonds speziell für Weltraumaktien auf den Markt gekommen. Nicht nur die jüngsten Renditen mahnen aber zur Vorsicht, meint Martin Müller.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "97964767",
+   "titel": "Altersvorsorgedepot: „Kunden bis zum Tod“: Scalable setzt auf Billigangebot – und bringt Bewegung in die Branche",
+   "anriss": "Bis 2031 könnten 150 Milliarden Euro in Altersvorsorgedepots fließen. Banken hoffen auf einen Investmentboom. Daran zu verdienen, wird für viele Geldhäuser aber anspruchsvoll.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/altersvorsorgedepot-banken-erwarten-milliarden-zufluesse-aber-kaum-gewinn1234/100250893.html",
+    "https://www.handelsblatt.com/finanzen/banken-versicherungen/versicherer/ranking-die-besten-fondsgebundenen-rentenversicherungen/100244602.html",
+    "https://www.handelsblatt.com/finanzen/anlagestrategie/altersvorsorgedepot-fuer-wen-lohnt-sich-der-nachfolger-der-riester-rente/100222434.html"
+   ],
+   "punkte": 11,
+   "text": "Bis 2031 könnten 150 Milliarden Euro in Altersvorsorgedepots fließen. Banken hoffen auf einen Investmentboom. Daran zu verdienen, wird für viele Geldhäuser aber anspruchsvoll.",
+   "positiv": [],
+   "negativ": []
   }
  ],
  "ketten": [
   {
-   "ausloeser": "Der CEO der Deutschen Bank veröffentlicht in den nächsten Wochen eine detaillierte Analyse, wonach ein Anstieg protektionistischer Maßnahmen in der EU‑Handelspolitik innerhalb von 12 Monaten wahrscheinlich ist.",
-   "direkt": "EU‑Kommission kündigt ein neues Paket von Importzöllen auf ausgewählte Industrieprodukte aus Drittstaaten an.",
-   "zweite": "Deutsche Exportunternehmen, insbesondere im Maschinen- und Automobilsektor, sehen steigende Kosten und geringere Auftragsvolumina; gleichzeitig profitieren heimische Lieferanten von einer Verlagerung der Beschaffung.",
-   "dritte": "Die erwarteten Gewinnrückgänge bei exportorientierten Unternehmen führen zu einer Neubewertung von Euro‑Stoxx‑50‑Aktien, während Unternehmen mit starkem Inlandsfokus (z. B. Versorgungs‑ und Konsumgüter) Kursgewinne verzeichnen.",
+   "ausloeser": "Nvidia schließt die Übernahme von Hugging Face bis Ende 2026 ab",
+   "direkt": "Integration von Hugging Face‑Modellen in Nvidia‑Hardware beschleunigt die Verbreitung von generativen KI‑Anwendungen in Unternehmen",
+   "zweite": "Europäische Unternehmen aus den Bereichen Cloud‑Services, Industrie‑4.0 und Finanz‑IT erhöhen ihre Investitionen in Nvidia‑GPU‑Server, um die neuen KI‑Modelle zu betreiben",
+   "dritte": "Steigende Nachfrage nach Halbleiter‑ und Rechenzentrum‑Infrastruktur führt zu höheren Aufträgen für europäische Chip‑ und Ausrüstungshersteller sowie zu einer Neubewertung von KI‑bezogenen Aktien",
    "positiv": [
-    "Deutsche Versorgungsunternehmen (z. B. E.ON, RWE)",
-    "Konsumgüterhersteller mit hohem Inlandsanteil (z. B. Henkel, Beiersdorf)",
-    "EU‑Staatsanleihen mit kurzer Laufzeit (geringere Zinsrisiken bei schwächerer Konjunktur)"
+    "ASML Holding (Halbleiter‑Lithographie)",
+    "Infineon Technologies (Halbleiter)",
+    "Deutsche Telekom (Cloud‑ und KI‑Dienstleistungen)",
+    "SAP SE (Enterprise‑Software mit KI‑Modulen)",
+    "iShares MSCI Europe Information Technology UCITS ETF"
    ],
    "negativ": [
-    "Exportorientierte Industrieaktien (z. B. Siemens, Volkswagen, BASF)",
-    "Euro‑Stoxx‑50‑Index insgesamt",
-    "Euro‑Währung (Vertrauensverlust in EU‑Handelspolitik)"
-   ],
-   "konfidenz": "mittel"
-  },
-  {
-   "ausloeser": "Isabel Schnabel wird innerhalb der nächsten drei Monate zur Leiterin des Federal Reserve System in Washington berufen, wodurch die EZB‑Spitze neu besetzt werden muss.",
-   "direkt": "Die EZB ernennt einen neuen Präsidenten, der für eine restriktivere Geldpolitik und schnellere Zinsanhebungen eintritt, um die Inflation zu bekämpfen.",
-   "zweite": "Kurzfristig steigen die Renditen von Euro‑Staatsanleihen, insbesondere von Ländern mit bereits hohen Inflationsraten (Italien, Spanien); gleichzeitig fällt der Euro gegenüber dem US‑Dollar, weil die Markterwartungen an die US‑Zinspolitik anpassen.",
-   "dritte": "Höhere Zinskosten belasten stark verschuldeten Unternehmen im Euroraum, insbesondere im Immobilien‑ und Finanzsektor, während Banken von höheren Nettozinsmargen profitieren; inflationsgeschützte Anleihen (Euro‑BTP‑Futures) gewinnen an Attraktivität.",
-   "positiv": [
-    "Großbanken im Euroraum (z. B. BNP Paribas, Banco Santander)",
-    "Kurzfristige Euro‑Staatsanleihen mit hoher Liquidität (z. B. deutsche Bundesanleihen 2‑Jahres)",
-    "Inflationsindexierte Anleihen (Euro‑BTP‑Futures, französische OATi)"
-   ],
-   "negativ": [
-    "Unternehmen mit hohem Fremdkapitalanteil (z. B. Immobilienfonds, REITs wie Vonovia)",
-    "Euro‑Stoxx‑50‑Aktien mit hoher Leverage‑Exponierung (z. B. Credit Suisse‑ähnliche Geschäftsmodelle, obwohl nicht EU‑ansässig, analog für europäische Banken)",
-    "Euro‑Währung (weiterer Abwertungsdruck)"
+    "European Steel Producers (z. B. Thyssenkrupp) – mögliche Umschichtung von Kapitalkosten",
+    "Energieversorger mit hohem Kohleanteil (z. B. RWE) – geringere Attraktivität gegenüber wachstumsstarken Tech‑Aktien",
+    "Traditionelle Automobilhersteller ohne KI‑Strategie (z. B. PSA) – mögliche Marktanteilsverluste"
    ],
    "konfidenz": "hoch"
+  },
+  {
+   "ausloeser": "EU‑Kommission leitet im Q4 2026 eine umfassende Prüfung von thematischen Weltraum‑ETFs wegen mangelnder Transparenz und hoher Kosten ein",
+   "direkt": "Regulatorische Klarstellung führt zu einer vorübergehenden Aussetzung von Neuemissionen und zu Rücknahmen von Anlegergeldern aus betroffenen Fonds",
+   "zweite": "Kapitalabflüsse aus Weltraum‑ETFs fließen in breitere Technologie‑ oder Nachhaltigkeits‑ETFs, die von der EU‑Aufsicht als transparenter eingestuft werden",
+   "dritte": "Unternehmen, die bisher über Weltraum‑ETFs stark gewichtet waren (z. B. Airbus Defence & Space, Thales Alenia Space) erleben sinkende Aktienkurse, während breitere europäische Technologie‑ und Infrastruktur‑Aktien von den Zuflüssen profitieren",
+   "positiv": [
+    "Airbus SE (insbesondere Defence & Space‑Sparte) – langfristig stabil, profitiert von staatlichen Raumfahrtaufträgen",
+    "iShares Digitalisation UCITS ETF (breitere Tech‑Aussetzung)",
+    "Vanguard FTSE All‑World UCITS ETF (Diversifikation)",
+    "Deutsche Börse AG (Handelsplattform für neue ETFs)"
+   ],
+   "negativ": [
+    "Weltraum‑Spezial‑ETFs (z. B. L&G Space Exploration UCITS ETF)",
+    "Thales Group (Raumfahrt‑Geschäftsanteil)",
+    "Kleinstunternehmen im Satelliten‑Start‑Segment (z. B. Rocket Factory AG)",
+    "Anleger, die ausschließlich in thematische Weltraum‑Fonds investiert haben"
+   ],
+   "konfidenz": "mittel"
   }
  ],
  "gegenthese": {
-  "konsens": "Markt erwartet leicht höhere Wachstumsprognosen, stabile Geldpolitik trotz möglicher EZB‑Spitzenwechsel, positive Reaktion auf Elliott‑Aktivismus bei Telekom, Abschwächung des deutschen Immobilienmarktes, Goldverlagerung als logistisches Manöver.",
-  "gegen": "Zunehmender Protektionismus, steigende Steuerprüfungen, Inflationsrisiko und Unsicherheit über EZB‑Führung könnten Wachstum und Risikoappetit dämpfen."
+  "konsens": "Wirtschaftsinstitute heben deutsche Wachstumsprognosen, während Anleger vorsichtig bleiben wegen Unternehmensunsicherheiten (VW), regulatorischer Risiken und geopolitischer Spannungen.",
+  "gegen": "Risiken bleiben hoch: schwache Binnennachfrage, Lieferkettenprobleme, mögliche Steuererhöhungen und protektionistische Tendenzen könnten das Wachstum dämpfen."
  },
  "matrix": [
   {
@@ -467,12 +474,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Analysten‑Stimmungsbild ist stark positiv (19 Buy, 4 Hold, 2 Sell). Umsatzwachstum von +18 % und ein Kursziel von 196 € deuten auf erhebliches Aufwärtspotenzial hin. Das Unternehmen profitiert von steigender Nachfrage nach Gasturbinen, digitalen Services und erneuerbaren Energielösungen.",
-   "dagegen": "KGV von 23,4 gilt als relativ hoch, was auf teure Bewertung hindeutet. Das Windsegment ist mit Lieferverzögerungen und Kostenüberschreitungen belastet, während die globale Dekarbonisierung den Gas‑Turbinen‑Absatz langfristig dämpfen könnte. Fehlende Insider‑Aktivität und geringe Short‑Positionen lassen Unsicherheit über Marktmeinung vermuten.",
+   "dafuer": "Starkes Umsatzwachstum von 18 % und diversifiziertes Segment‑Portfolio (Turbinen, Grid, Digitalisierung) bieten Wachstumspotenzial. Das erwartete KGV von 23,4 ist im Branchendurchschnitt, Kursziel 196 € impliziert Aufwärtspotenzial. Mehrheitliche Analystenempfehlungen (19‑Kauf) signalisieren positive Marktstimmung.",
+   "dagegen": "Das aktuelle KGV von 23,4 deutet auf eine teure Bewertung hin. Das Unternehmen ist stark von Gas‑ und Turbinenmärkten abhängig, die durch regulatorische Änderungen und schwankende Energiepreise belastet werden. Fehlende Insider‑Transaktionen und geringe Short‑Positionen bieten keinen klaren Negativsignal, doch Unsicherheit bleibt.",
    "katalysatoren": [
-    "Auslieferung und Inbetriebnahme der nächsten Generation von Siemens‑Gamesa‑Windturbinen (z. B. SG 14‑236)",
-    "Abschluss großer Service‑ und Wartungsverträge für Gasturbinen, insbesondere in Asien",
-    "Veröffentlichung der Q3‑2024‑Ergebnisse und mögliche Anpassung der Dividendenpolitik"
+    "Auslieferung neuer 5‑MW‑Windturbinen von Siemens Gamesa im kommenden Quartal",
+    "Abschluss mehrjähriger Service‑ und Wartungsverträge für Gasturbinen in Asien",
+    "Rollout der Digitalisierungsplattform für Grid‑Technologien, erwartete Kundenakzeptanz im zweiten Halbjahr"
    ]
   },
   "RHM.DE": {
@@ -520,12 +527,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Analysten bewerten Rheinmetall stark (18 Kauf‑Empfehlungen, 3 Halte). Das Unternehmen profitiert von steigenden Verteidigungsbudgets, insbesondere in Europa und den USA, und verzeichnet ein außergewöhnliches Umsatzwachstum von 69 %. Das erwartete KGV von 20 deutet auf moderate Bewertung im Vergleich zum Branchenumfeld hin.",
-   "dagegen": "Es gibt kaum öffentliche Meinungen von Newslettern, Reddit oder Insidern, was die Transparenz der Marktstimmung einschränkt. Fehlende Short‑Positionen könnten auf geringe Skepsis, aber auch auf mangelnde Liquidität hindeuten. Das Kursziel von 1.679 € ist stark nach oben gerichtet und könnte überoptimistisch sein.",
+   "dafuer": "Rheinmetall verzeichnet ein starkes Umsatzwachstum von 69 % und profitiert von steigenden Verteidigungsausgaben in Europa und den USA. Das Unternehmen deckt mit Vehicle Systems, Weapon & Ammunition und Electronic Solutions mehrere Marktsegmente, was die Umsatzbasis diversifiziert und langfristige Auftragsbücher stärkt.",
+   "dagegen": "Ein erwartetes KGV von 20 impliziert eine relativ hohe Bewertung, die bei nachlassender Rüstungsausgaben oder Lieferkettenproblemen schnell korrigiert werden könnte. Die Abhängigkeit von staatlichen Aufträgen erhöht das Risiko politischer Entscheidungen, und ein Mangel an Transparenz zu Shorts oder Insider‑Aktivitäten lässt Unsicherheit über mögliche Kursdrucke bestehen.",
    "katalysatoren": [
-    "Veröffentlichung des Jahresberichts 2025 mit detaillierten Auftragszahlen",
-    "Entscheidungen über Rüstungsaufträge in den USA und NATO‑Ländern im Q3 2025",
-    "Einführung neuer elektronischer Verteidigungssysteme im Vehicle‑Systems‑Segment"
+    "Erhöhung des deutschen Verteidigungsbudgets 2025",
+    "Zuteilung eines US‑Vertrags für neue gepanzerte Fahrzeuge",
+    "EU‑Exportgenehmigung für ein neues CBRN‑Schutzsystem"
    ]
   },
   "ASML.AS": {
@@ -573,12 +580,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die starke Marktposition von ASML im EUV‑Lithografie‑Segment, ein Umsatzwachstum von 21 % und ein breiter Kundenstamm (TSMC, Samsung) unterstützen die positive Analystenmeinung (39 Buy). Das Unternehmen profitiert von der anhaltenden Chip‑Nachfrage und von staatlichen Förderprogrammen für Halbleiter.",
-   "dagegen": "Ein KGV von 27,5 deutet auf eine hohe Bewertung hin; bei einer möglichen Abschwächung der Chip‑Nachfrage könnte die Aktie überhitzt sein. Zudem birgt die Abhängigkeit von wenigen Großkunden und die langen Entwicklungszyklen von EUV‑Systemen operative Risiken.",
+   "dafuer": "ASML dominiert den EUV-Lithografie‑Markt, wo kaum Ersatztechnologien existieren. Das Unternehmen verzeichnet ein starkes Umsatzwachstum von 21 % und profitiert von anhaltender Nachfrage nach fortschrittlichen Halbleitern. Analysten sehen mit einem Kursziel von 2.033 € erhebliches Aufwärtspotenzial.",
+   "dagegen": "Trotz Marktführerschaft ist ASML mit einem forward KGV von 27,5 relativ hoch bewertet, was bei einer Abschwächung der Chip‑Nachfrage das Risiko birgt. Das Geschäft ist kapitalintensiv, stark konjunkturell abhängig und geopolitischen Spannungen, insbesondere US‑China‑Restriktionen, ausgesetzt.",
    "katalysatoren": [
-    "Q3‑2026 Ergebnisveröffentlichung",
-    "Auslieferung des NXT:2000 EUV‑Systems an TSMC",
-    "EU‑Förderprogramm für Halbleiterfertigung (CHIPS‑Act‑ähnlich)"
+    "Quartalsbericht Q3‑2024",
+    "Auslieferung der NXT:2000‑EU‑Systeme an Kunden",
+    "Neue Aufträge von TSMC oder Samsung für 3‑nm‑Prozesse"
    ]
   },
   "SU.PA": {
@@ -611,7 +618,7 @@
     ],
     [
      "Newsletter",
-     "in 13 Clustern"
+     "in 17 Clustern"
     ],
     [
      "Reddit",
@@ -626,9 +633,13 @@
      "1648,06 % ueber 1700 Halter"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "Marktkapitalisierung von 161,5 Mrd. €, Umsatzwachstum von +10 % und ein diversifiziertes Portfolio (Energie‑Management, Industrie‑Automation, Smart‑Building) stärken die Marktposition. Analysten‑Consensus von 22 Buy‑Ratings und ein Kursziel von 326 € deuten auf erwartete Kurssteigerungen hin.",
+   "dagegen": "Das extrem hohe Short‑Interest (1648 % über 1.700 Halter) widerspricht dem Analysten‑Optimismus und signalisiert Skepsis. Reddit‑Erwähnungen sind kaum vorhanden, KGV (erw.) von 23,8 ist relativ hoch, und es gibt keine Insider‑Meldungen, die positive Impulse geben könnten.",
+   "katalysatoren": [
+    "Q3‑Ergebnisveröffentlichung (Erwartungen zu Umsatz‑ und Gewinnentwicklung)",
+    "Markteinführung neuer Micro‑Grid‑Lösungen für erneuerbare Energien",
+    "EU‑Regulierung für Energieeffizienz in Gebäuden, die Nachfrage nach Smart‑Building‑Technologien steigern könnte"
+   ]
   },
   "GEV": {
    "ticker": "GEV",
@@ -638,7 +649,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "250.9 Mrd"
+     "251.1 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -675,13 +686,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Analysten‑Stimmungsbild ist stark positiv (30 Kauf‑, 7 Halte‑Empfehlungen, kein Verkauf). Das Unternehmen weist ein hohes Umsatzwachstum von +22 % und ein relativ hohes erwartetes KGV von 37,6 auf, was auf erwartete Gewinnsteigerungen hindeutet. Das Kursziel von 1.236 USD spiegelt optimistische Erwartungen wider.",
-   "dagegen": "Insider‑Transaktionen zeigen 4 Verkäufe bei null Käufen, was ein negatives Signal für das Management‑Vertrauen sein kann. Reddit‑Erwähnungen sind kaum vorhanden, was auf geringe Markt‑Aufmerksamkeit hindeutet. Das sehr hohe KGV könnte überbewertet sein, insbesondere bei einem Marktwert von 250,9 Mrd USD.",
-   "katalysatoren": [
-    "Abschluss und Inbetriebnahme neuer Wind‑ und Power‑Projekte in den USA und Europa",
-    "Vertragliche Lieferungen von Großbatteriespeichern für erneuerbare Energien",
-    "Ergebnisse der nächsten Quartalszahlen, insbesondere Umsatz‑ und Margenentwicklung"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "CCJ": {
    "ticker": "CCJ",
@@ -691,11 +698,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "43.8 Mrd"
+     "43.6 Mrd"
     ],
     [
      "KGV (erw.)",
-     "53,3"
+     "53,1"
     ],
     [
      "Umsatzwachstum",
@@ -740,7 +747,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "104.1 Mrd"
+     "103.9 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -789,11 +796,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "5.484.0 Mrd"
+     "5.537.9 Mrd"
     ],
     [
      "KGV (erw.)",
-     "14,7"
+     "14,9"
     ],
     [
      "Umsatzwachstum",
@@ -1118,86 +1125,6 @@
  "gespraech": [],
  "termine": [
   {
-   "datum": "2026-09-03",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-04",
-   "zeit": "",
-   "region": "us",
-   "was": "Employment Situation",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-04",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-05",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-06",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-07",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-08",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-09",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-10",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-10",
-   "zeit": "",
-   "region": "us",
-   "was": "Producer Price Index",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
    "datum": "2026-09-10",
    "zeit": "14:15",
    "region": "eu",
@@ -1206,11 +1133,11 @@
    "wucht": "hoch"
   },
   {
-   "datum": "2026-09-11",
-   "zeit": "",
+   "datum": "2026-09-16",
+   "zeit": "20:00",
    "region": "us",
-   "was": "Consumer Price Index",
-   "konsens": "",
+   "was": "Fed-Zinsentscheid",
+   "konsens": "-25 Bp",
    "wucht": "hoch"
   }
  ],
