@@ -1,9 +1,9 @@
 {
- "stand": "2026-09-04T04:40",
- "lauf": "2026090404",
+ "stand": "2026-09-04T07:04",
+ "lauf": "2026090407",
  "synthese": {
-  "kern": "Kosten- und Lieferkettenstress versus optimistisches Wachstum und Zinspausen‑Erwartungen, die Markt verkennt.",
-  "erlaeuterung": "Unternehmenssparer wie VW senken Ausgaben, während Institute das Wachstum nach oben korrigieren und die Märkte auf Zinspausen hoffen. Gleichzeitig treiben geopolitische Energiepreise und struktureller Kostendruck die Liquidität und das Risiko‑Appetit‑Profil nach unten."
+  "kern": "Liquidity scarcity und geopolitische Spannungen werden von den Märkten unterschätzt.",
+  "erlaeuterung": "Trotz hohen Risikoappetits und starkem Zinsdruck zeigen die Regimewerte eine extrem niedrige Liquidität, besonders im Euroraum. Die Vielzahl von Themen – von Energie‑Sabotage über EZB‑Umstrukturierung bis zu geopolitischen Fokus‑Messen – verdeutlicht, dass Marktteilnehmer das Zusammenspiel von Liquiditätsengpässen und geopolitischen Risiken vernachlässigen."
  },
  "regime": [
   {
@@ -36,15 +36,15 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 63,
-     "delta": 8
+     "wert": 62,
+     "delta": 7
     },
     "eur": {
      "wert": 80,
      "delta": 6
     }
    },
-   "differenz": 17
+   "differenz": 18
   },
   {
    "name": "risikoappetit",
@@ -84,71 +84,82 @@
  ],
  "cluster": [
   {
-   "id": "343d3959",
-   "titel": "VW-Aufsichtsrat beschließt Sparmaßnahmen - 50.000 Stellen weg",
-   "anriss": "Einen Tag früher als geplant hat der VW-Aufsichtsrat einem Sparplan zugestimmt: 50.000 Jobs sollen wegfallen, und vier Werke stehen vor dem Aus, wenn keine alternative Verwendung für sie gefunden wird.",
+   "id": "7e2bf067",
+   "titel": "Das sind die Punkte des VW-Sparplans",
+   "anriss": "Abbau von Zehntausenden Stellen, vier Werke auf der Kippe - und das ist noch nicht alles. VW hat ein gigantisches Sparprogramm auf den Weg gebracht. Was der Konzern plant - und was Experten dazu sagen. Ein Überblick.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
     "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft",
-    "heise",
     "manager magazin"
    ],
    "anzahl": 7,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/unternehmen/vw-sparplaene-100.html",
-    "https://www.tagesschau.de/wirtschaft/unternehmen/vw-aufsichtsrat-streit-werksschliessungen-100.html",
+    "https://www.tagesschau.de/wirtschaft/unternehmen/vw-sparplan-102.html",
+    "https://www.spiegel.de/wirtschaft/das-sind-die-wichtigsten-punkte-im-vw-sparpaket-a-d2ba74f1-a7b8-4fae-bf8b-350194a9a000#ref=rss",
     "https://www.spiegel.de/wirtschaft/unternehmen/volkswagen-in-der-krise-aufsichtsrat-stimmt-sanierungsplan-zu-a-15d54295-2f6a-421c-b2f2-5c4aafbd8945#ref=rss",
     "https://www.spiegel.de/wirtschaft/unternehmen/vw-krise-bei-volkswagen-droht-jetzt-die-maximale-eskalation-a-a5a1972b-cdb1-4212-822d-ad9980e7f3a5#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/vw-aufsichtsrat-einigt-sich-einstimmig-auf-sanierungsplan-201189729.html"
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/ueberraschung-vw-aufsichtsrat-einigt-sich-einstimmig-auf-sanierungsplan-201189729.html"
    ],
-   "punkte": 24,
-   "text": "Einen Tag früher als geplant hat der VW-Aufsichtsrat einem Sparplan zugestimmt: 50.000 Jobs sollen wegfallen, und vier Werke stehen vor dem Aus, wenn keine alternative Verwendung für sie gefunden wird.",
-   "positiv": [],
-   "negativ": []
+   "punkte": 22,
+   "text": "Volkswagen hat ein umfassendes Sparprogramm angekündigt, das den Abbau von Zehntausenden Stellen und die Stilllegung von vier Werken vorsieht. Das Vorgehen erhöht den Kostendruck, birgt aber das Potenzial, die Marge langfristig zu stabilisieren.",
+   "positiv": [
+    "Kostenstruktur von VW (Verbesserung)"
+   ],
+   "negativ": [
+    "VW-Aktie",
+    "Automobilproduktion",
+    "Zulieferer"
+   ]
   },
   {
-   "id": "a8b2b18a",
-   "titel": "Wirtschaftsinstitute korrigieren Wachstumsprognosen nach oben",
-   "anriss": "Es soll wieder bergauf gehen in der Wirtschaft: Mehrere Forschungsinstitute heben ihre Prognose für das aktuelle Jahr deutlich an. Doch die Inflation bleibt hoch - und könnte zur Belastung werden.",
+   "id": "872e9632",
+   "titel": "Börse am 4. September: Sechs Punkte, die für Anleger heute wichtig sind",
+   "anriss": "Der Dax beendet seine Verlustserie am Donnerstagabend mit einem Plus. Am Freitag stehen US-Arbeitsmarkt, Konjunkturdaten und der VW-Sanierungsplan im Fokus.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sechs-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-im-plus-und-knapp-ueber-26.000-punkte-marke/100251682.html",
+    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-leitzins-geldanlage-100.html",
+    "https://www.manager-magazin.de/finanzen/boerse/boerse-vw-aktie-zieht-an-dax-stabilisiert-a-db79da6e-1ca3-4b68-bddb-b837bb188153#ref=rss"
+   ],
+   "punkte": 16,
+   "text": "Der DAX beendete am Donnerstagabend seine Verlustserie mit einem Plus, während die Märkte am Freitag US‑Arbeitsmarktdaten, Konjunkturkennzahlen und den VW‑Sanierungsplan im Fokus haben. Die positiven Kursbewegungen stärken das Vertrauen in den europäischen Aktienmarkt, während die US‑Daten noch unklar bleiben.",
+   "positiv": [
+    "DAX"
+   ],
+   "negativ": [
+    "US-Arbeitsmarkt (Unsicherheit)",
+    "VW-Aktie (Kurzfristige Volatilität)"
+   ]
+  },
+  {
+   "id": "66467279",
+   "titel": "Wirtschaft vor acht vom 03.09.2026",
+   "anriss": "Wirtschaft vor acht vom 03.09.2026",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
     "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
+    "Tagesschau Wirtschaft"
    ],
    "anzahl": 5,
    "links": [
+    "https://www.tagesschau.de/video/video-1642330.html",
+    "https://www.tagesschau.de/multimedia/sendung/tagesschau24/boerselive/video-1641874.html",
     "https://www.tagesschau.de/wirtschaft/konjunktur/wirtschaftsinstitute-herbstprognose-100.html",
     "https://www.spiegel.de/wirtschaft/unternehmen/ifo-kiel-institut-rwi-fuehrende-oekonomen-rechnen-mit-deutlich-besserer-konjunktur-im-land-a-0593bdd6-fcec-4910-8cbf-2e461daf8f9f#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/deutsche-wirtschaft-die-normalitaet-ist-schwaches-wachstum-201188090.html",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/deutschlands-wachstumsgrenzen-was-2028-auf-uns-zukommt-201188225.html",
-    "https://www.manager-magazin.de/politik/weltwirtschaft/timo-wollmershaeuser-torsten-schmidt-fuehrende-oekonomen-heben-wachstumsprognose-an-a-53ea99f2-dc7f-4422-8cb5-e921deea32c1#ref=rss"
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/deutschlands-wachstumsgrenzen-was-2028-auf-uns-zukommt-201188225.html"
    ],
-   "punkte": 18,
-   "text": "Es soll wieder bergauf gehen in der Wirtschaft: Mehrere Forschungsinstitute heben ihre Prognose für das aktuelle Jahr deutlich an. Doch die Inflation bleibt hoch - und könnte zur Belastung werden.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "b1cd9df8",
-   "titel": "Dow Jones, S&P 500, Nasdaq: Dow schließt 1,2 Prozent höher – Hoffnungen auf Zinspause",
-   "anriss": "Ist eine Zinserhöhung doch noch nicht ausgemacht? Zwei hochrangige Notenbanker sprechen sich dagegen aus. Das verändert die Kalkulation an den Märkten.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-dow-schliesst-12-prozent-hoeher-hoffnungen-auf-zinspause/100251832.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-im-plus-und-knapp-ueber-26.000-punkte-marke/100251682.html",
-    "https://www.manager-magazin.de/finanzen/boerse/boerse-dax-erholt-sich-oelpreise-sinken-a-746c306e-aba1-4ef5-ac41-45fbf0529ab9#ref=rss"
-   ],
-   "punkte": 12,
-   "text": "Ist eine Zinserhöhung doch noch nicht ausgemacht? Zwei hochrangige Notenbanker sprechen sich dagegen aus. Das verändert die Kalkulation an den Märkten.",
+   "punkte": 16,
+   "text": "Die Sendung „Wirtschaft vor acht“ vom 3. September 2026 liefert keine konkreten inhaltlichen Details, sodass keine eindeutigen Aussagen zu betroffenen Anlagen oder Branchen möglich sind. Die Faktenlage ist zu dünn, um Richtungen zu bestimmen.",
    "positiv": [],
    "negativ": []
   },
@@ -169,30 +180,12 @@
     "https://www.manager-magazin.de/politik/deutschland/afd-in-sachsen-anhalt-welche-loecher-die-partei-in-den-haushalt-reissen-wuerde-a-617a7022-3399-4524-a45a-8de8125c3b12#ref=rss"
    ],
    "punkte": 12,
-   "text": "Viele Menschen in Sachsen-Anhalt hadern mit der wirtschaftlichen Lage in ihrer Heimat. Ein Blick in die Statistiken zeigt, dass dieses Gefühl oft berechtigt ist. Doch in einigen Disziplinen ist das Land auch Spitzenreite",
+   "text": "Statistiken zeigen, dass Sachsen‑Anhalt im Vergleich zu anderen Bundesländern wirtschaftlich zurückliegt, was das regionale Investitionsklima belastet. Die schwache Wirtschaftsleistung wirkt sich negativ auf lokale Unternehmen und Arbeitsplätze aus.",
    "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "7a131794",
-   "titel": "Künstliche Intelligenz: Nvidia kauft Hugging Face",
-   "anriss": "Hugging Face ist kürzlich als Hackingopfer bekannt geworden und wird künftig zu den wertvollsten Unternehmen der Welt gehören. Nvidia wird der Zukauf helfen, seine ohnehin schon zentrale Rolle im KI-Geschäft auszubauen.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "heise",
-    "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/nvidia-uebernimmt-hugging-face-fuer-12-9-milliarden-dollar-201188341.html",
-    "https://www.manager-magazin.de/unternehmen/tech/nvidia-uebernimmt-hugging-face-fuer-13-milliarden-dollar-a-98f64408-b85a-4f20-8b1e-fc94437fd055#ref=rss",
-    "https://www.heise.de/news/Nvidia-uebernimmt-Hugging-Face-fuer-12-93-Milliarden-US-Dollar-11440209.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 12,
-   "text": "Hugging Face ist kürzlich als Hackingopfer bekannt geworden und wird künftig zu den wertvollsten Unternehmen der Welt gehören. Nvidia wird der Zukauf helfen, seine ohnehin schon zentrale Rolle im KI-Geschäft auszubauen.",
-   "positiv": [],
-   "negativ": []
+   "negativ": [
+    "Sachsen‑Anhalt‑Wirtschaft",
+    "Regionale Unternehmen"
+   ]
   },
   {
    "id": "994d608a",
@@ -214,27 +207,8 @@
    "negativ": []
   },
   {
-   "id": "97964767",
-   "titel": "Altersvorsorgedepot: „Kunden bis zum Tod“: Scalable setzt auf Billigangebot – und bringt Bewegung in die Branche",
-   "anriss": "Bis 2031 könnten 150 Milliarden Euro in Altersvorsorgedepots fließen. Banken hoffen auf einen Investmentboom. Daran zu verdienen, wird für viele Geldhäuser aber anspruchsvoll.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/altersvorsorgedepot-banken-erwarten-milliarden-zufluesse-aber-kaum-gewinn1234/100250893.html",
-    "https://www.handelsblatt.com/finanzen/banken-versicherungen/versicherer/ranking-die-besten-fondsgebundenen-rentenversicherungen/100244602.html",
-    "https://www.handelsblatt.com/finanzen/anlagestrategie/altersvorsorgedepot-fuer-wen-lohnt-sich-der-nachfolger-der-riester-rente/100222434.html"
-   ],
-   "punkte": 11,
-   "text": "Bis 2031 könnten 150 Milliarden Euro in Altersvorsorgedepots fließen. Banken hoffen auf einen Investmentboom. Daran zu verdienen, wird für viele Geldhäuser aber anspruchsvoll.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "4c2c8f86",
-   "titel": "Inflation: Japan – Konsum bricht überraschend stark ein",
+   "id": "9a149f37",
+   "titel": "Inflation: Konsum in Japan bricht überraschend stark ein",
    "anriss": "Steigende Lebenshaltungskosten setzen Japans Verbraucher zunehmend unter Druck. Die schwache Binnennachfrage könnte auch für die anstehende Zinsentscheidung der Notenbank eine Rolle spielen.",
    "region": "dach",
    "quellen": [
@@ -242,18 +216,56 @@
    ],
    "anzahl": 1,
    "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/inflation-japan-konsum-bricht-ueberraschend-stark-ein/100251940.html"
+    "https://www.handelsblatt.com/finanzen/geldpolitik/inflation-konsum-in-japan-bricht-ueberraschend-stark-ein/100251940.html"
    ],
    "punkte": 9,
    "text": "Steigende Lebenshaltungskosten setzen Japans Verbraucher zunehmend unter Druck. Die schwache Binnennachfrage könnte auch für die anstehende Zinsentscheidung der Notenbank eine Rolle spielen.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "2773741e",
+   "titel": "Geldpolitik: Isabel Schnabel steht vor Wechsel nach Washington – Großumbau an EZB-Spitze rückt näher",
+   "anriss": "Die Deutsche könnte die Zentralbank nach Informationen des Handelsblatts vor Ablauf ihrer Amtszeit verlassen und zum IWF gehen. Das hat Auswirkungen auf die Nachfolge von EZB-Präsidentin Lagarde.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "manager magazin"
+   ],
+   "anzahl": 2,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/geldpolitik/ezb-isabel-schnabel-steht-vor-wechsel-zum-iwf1234/100251581.html",
+    "https://www.manager-magazin.de/unternehmen/banken/europaeische-zentralbank-isabel-schnabel-vor-wechsel-zum-iwf-a-61aa0f6c-8b46-49ea-b460-b1f23a11eaa5#ref=rss"
+   ],
+   "punkte": 9,
+   "text": "Die Deutsche könnte die Zentralbank nach Informationen des Handelsblatts vor Ablauf ihrer Amtszeit verlassen und zum IWF gehen. Das hat Auswirkungen auf die Nachfolge von EZB-Präsidentin Lagarde.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "9c9c26b7",
+   "titel": "ARD-DeutschlandTrend: Mehrheit will staatliche Hilfen für Autoindustrie",
+   "anriss": "Deutschlands Autoindustrie steckt in der Krise. Verantwortung dafür sehen die Menschen laut ARD-DeutschlandTrend bei den Herstellern selbst. Trotzdem sprechen sie sich dafür aus, der Branche zu helfen.",
+   "region": "dach",
+   "quellen": [
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft"
+   ],
+   "anzahl": 2,
+   "links": [
+    "https://www.tagesschau.de/inland/deutschlandtrend/deutschlandtrend-september-automobilindustrie-102.html",
+    "https://www.spiegel.de/wirtschaft/afd-in-ostdeutschland-vier-von-zehn-deutschen-sehen-den-westen-als-zahlmeister-a-308350d2-c220-4fe0-adaf-98a384c7d8a0#ref=rss"
+   ],
+   "punkte": 8,
+   "text": "Deutschlands Autoindustrie steckt in der Krise. Verantwortung dafür sehen die Menschen laut ARD-DeutschlandTrend bei den Herstellern selbst. Trotzdem sprechen sie sich dafür aus, der Branche zu helfen.",
    "positiv": [],
    "negativ": []
   }
  ],
  "ketten": [],
  "gegenthese": {
-  "konsens": "Der Konsens ist, dass die US‑Aktienmärkte von Hoffnungen auf eine Zinspause profitieren, KI‑Aktien wie Nvidia weiter steigen, während europäische Industrie‑ und Automobilsektoren wegen Restrukturierungen und schwächerem Wachstum unter Druck stehen.",
-  "gegen": "Gegenargument: Die anhaltend hohe Inflation und mögliche restriktivere Geldpolitik, gepaart mit schwächerer globaler Nachfrage und Bewertungsüberhängen, könnten die erwartete Zinspause verhindern und das Wachstum weiter dämpfen."
+  "konsens": "Anleger erwarten stabile deutsche Kurse, EZB‑Wechsel, wenig Mehrwert bei Weltraum‑ETFs, und befürworten staatliche Auto‑Hilfen.",
+  "gegen": "Thema‑ETFs überbewerten Hype, Japan‑Konsumabschwung signalisiert globale Nachfrageprobleme, und strukturelle Schwächen in Sachsen‑Anhalt zeigen langfristige Wachstumsrisiken."
  },
  "matrix": [
   {
@@ -392,7 +404,7 @@
     ],
     [
      "Newsletter",
-     "in 3 Clustern"
+     "in 4 Clustern"
     ],
     [
      "Reddit",
@@ -407,12 +419,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die Analystenmehrheit (19 Kauf‑Empfehlungen) sieht in Siemens Energy ein starkes Umsatzwachstum von 18 % und ein Kursziel von 196 €, das über dem aktuellen Kurs liegt. Das Unternehmen profitiert von steigender Nachfrage nach Gasturbinen, Netzinfrastruktur und Windenergie‑Lösungen.",
-   "dagegen": "Ein KGV von 23,4 deutet auf eine mögliche Überbewertung hin, besonders wenn das Wachstum nicht nachhaltig ist. Die geringe Aufmerksamkeit auf Reddit und das Fehlen von Insider‑Informationen können Unsicherheit signalisieren. Zudem besteht das Risiko von Lieferketten‑Störungen und regulatorischen Änderungen im Energiesektor.",
+   "dafuer": "Dafür spricht das robuste Umsatzwachstum von +18 % und ein erwartetes KGV von 23,4, das im Branchenvergleich moderat ist. Die Mehrheit der Analysten (19 Buy) bewertet das Unternehmen positiv, und das Kursziel von 196 € impliziert weiteres Aufwärtspotenzial.",
+   "dagegen": "Ein Gegenargument ist die hohe Marktkapitalisierung von 123,7 Mrd. €, die das Unternehmen teuer macht. Das KGV von 23,4 könnte überbewertet sein, wenn die erwarteten Wachstumsraten nicht halten. Zudem fehlt breitere Marktmeinung: Reddit kaum Diskussion, keine Insider‑ oder Short‑Aktivität, was Unsicherheit signalisiert.",
    "katalysatoren": [
-    "Auslieferung und Inbetriebnahme neuer Siemens‑Gamesa‑Windparks in Europa und Nordamerika",
-    "Vertragsabschluss für Service‑ und Wartungsprogramme großer Gasturbinen‑Flotten",
-    "Einführung digitaler Smart‑Grid‑Lösungen und Ausbau von Netztechnologien"
+    "Abschluss großer Gas‑Turbinen‑Aufträge in Asien",
+    "Beschleunigter Roll‑out von Siemens Gamesa‑Windparks nach EU‑Subventionsentscheidungen",
+    "Einführung einer digitalen Serviceplattform zur Kraftwerksoptimierung"
    ]
   },
   "RHM.DE": {
@@ -460,12 +472,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Rheinmetall verzeichnet ein starkes Umsatzwachstum von +69 % und ein moderates KGV von 20,0. Die Analysten‑Stimmung ist überwiegend positiv (18 Buy, 3 Hold). Das Kursziel von 1.679 € liegt über dem aktuellen Kurs, was Aufwärtspotenzial signalisiert.",
-   "dagegen": "Die Bewertung ist im Vergleich zu anderen Rüstungsunternehmen hoch, und das Unternehmen ist stark von staatlichen Verteidigungsausgaben abhängig. Es gibt kaum ergänzende Meinungen aus Newslettern, Reddit oder Insider‑Quellen, was die Informationsbasis dünn macht und Unsicherheiten erhöht.",
+   "dafuer": "Die Analystenmehrheit (18 Kauf, 3 Halten) spricht für Rheinmetall, unterstützt durch ein starkes Umsatzwachstum von +69 % und ein moderates KGV von 20, was im Vergleich zur Branche attraktiv erscheint. Die Diversifizierung in Fahrzeug‑, Waffen‑ und Elektronik‑Segmente reduziert konjunkturelle Risiken.",
+   "dagegen": "Gegenargumente sind die relativ hohe Bewertung (KGV 20) bei unsicherer Rüstungsnachfrage, Abhängigkeit von staatlichen Verteidigungsbudgets und geopolitischen Spannungen. Die fehlende Insider‑Aktivität und das geringe Medieninteresse deuten auf eine dünne Informationsbasis hin.",
    "katalysatoren": [
-    "Vertragsabschluss für neue Panzerplattformen in Europa",
-    "Erhöhte Verteidigungsbudgets in den USA und NATO‑Ländern",
-    "Ausweitung des Elektronik‑Solutions‑Segments durch Aufträge im Bereich Cyber‑ und Sensorik"
+    "Verteidigungsbudget‑Entscheidungen des deutschen Bundes (2025)",
+    "Auftrag für neue Leopard‑2‑Kampfpanzer oder andere Fahrzeugplattformen",
+    "Ausweitung des Elektronik‑Segments durch NATO‑Projekt oder Exportgenehmigungen"
    ]
   },
   "ASML.AS": {
@@ -547,7 +559,7 @@
     ],
     [
      "Newsletter",
-     "in 16 Clustern"
+     "in 11 Clustern"
     ],
     [
      "Reddit",
@@ -596,7 +608,7 @@
     ],
     [
      "Newsletter",
-     "in 1 Clustern"
+     "nicht erwaehnt"
     ],
     [
      "Reddit",
@@ -660,13 +672,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Analysten‑Stimmungsbild stark positiv (19 Buy, 2 Hold). Cameco ist einer der weltweit größten Uranproduzenten, profitiert von steigender Nachfrage nach Kernenergie und hat ein diversifiziertes Geschäftsmodell (Uran, Fuel Services, Westinghouse). Kurzpositionen sind kaum vorhanden, was das Risiko von Kursdruck reduziert.",
-   "dagegen": "KGV von 53,2 deutet auf überbewertete Aktie hin; Umsatz‑Rückgang von ‑7 % signalisiert schwächere Nachfrage oder operative Probleme. Der Uranpreis ist volatil und stark von politischen Entscheidungen zu Kernenergie abhängig. Hohe Marktkapitalisierung erhöht die Sensitivität gegenüber makroökonomischen Schwankungen.",
-   "katalysatoren": [
-    "Q3‑Ergebnisveröffentlichung mit Ausblick auf Uran‑Preisentwicklung",
-    "Vertragserweiterungen oder neue Lieferungen im Westinghouse‑Segment",
-    "Ankündigungen zu Reaktivierungen von Kernkraftwerken in Europa/USA, die die Uran‑Nachfrage erhöhen"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "FCX": {
    "ticker": "FCX",
@@ -755,7 +763,7 @@
     ],
     [
      "Insider",
-     "0 Kaeufe / 9 Verkaeufe"
+     "0 Kaeufe / 10 Verkaeufe"
     ],
     [
      "Shorts",
@@ -1150,6 +1158,6 @@
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 154,
+ "meldungen_gesamt": 145,
  "llm_aktiv": false
 }
