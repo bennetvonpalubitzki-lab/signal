@@ -1,9 +1,9 @@
 {
- "stand": "2026-09-04T16:05",
- "lauf": "2026090416",
+ "stand": "2026-09-04T19:03",
+ "lauf": "2026090419",
  "synthese": {
-  "kern": "Der Tag ist geprägt von fiskalpolitischen Machtkämpfen und unterschätzter Liquiditätsknappheit in Europa.",
-  "erlaeuterung": "Während US‑Daten und das VW‑Sparpaket die Aufmerksamkeit dominieren, zeigen die Regimewerte extreme Liquiditätsdefizite im Euroraum. Investoren vernachlässigen damit das Risiko, dass geringe Geldversorgung die Aktien‑ und Anleihemärkte bei weiteren Schocks stärker belasten könnte."
+  "kern": "Strukturelle Belastungen in Wirtschaft, Technologie und Infrastruktur werden vom Markt zugunsten von Liquiditäts‑ und Zinsdaten unterschätzt.",
+  "erlaeuterung": "Der Fokus liegt auf Zinsdruck, Risikoappetit und Liquidität, während operative Engpässe bei VW, Energieeffizienz und Infrastruktur zunehmend Risiken bergen. Diese unterschätzten strukturellen Spannungen könnten die aktuelle Marktstabilität und die Bewertung von Staats- und Unternehmensanleihen belasten."
  },
  "regime": [
   {
@@ -36,15 +36,15 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 63,
-     "delta": 8
+     "wert": 64,
+     "delta": 9
     },
     "eur": {
      "wert": 80,
      "delta": 6
     }
    },
-   "differenz": 17
+   "differenz": 16
   },
   {
    "name": "risikoappetit",
@@ -62,7 +62,7 @@
    "spuren": {
     "us": {
      "wert": 41,
-     "delta": 0
+     "delta": -1
     },
     "eur": {
      "wert": 1,
@@ -76,8 +76,8 @@
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 92,
-     "delta": 0
+     "wert": 91,
+     "delta": -1
     }
    }
   }
@@ -103,55 +103,16 @@
     "https://www.faz.net/aktuell/wirtschaft/unternehmen/sanierungsplan-fuer-volkswagen-punktsieg-fuer-blume-201194114.html"
    ],
    "punkte": 26,
-   "text": "Volkswagens Vorstand drückt den gewaltigsten Sparplan der Unternehmensgeschichte durch – weil er bereit war, schmutziger zu agieren als IG Metall und Politik. Europas größter Autokonzern wird nie mehr so sein, wie er war",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "1cb4904e",
-   "titel": "Dax aktuell: Dax schließt unverändert – US-Arbeitsmarktdaten überraschen",
-   "anriss": "Der Dax gewinnt leicht und entfernt sich in kleinen Schritten von der 26.000-Punkte-Marke. Die überraschend stärker ausfallenden US‑Daten können entscheidend sein.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
+   "text": "Der VW‑Vorstand hat das bislang größte Sparprogramm des Unternehmens beschlossen, das massive Stellenabbau‑ und Werksschließungen vorsieht. Das Vorgehen wird als aggressiver als das der IG Metall und der Politik beschrieben.",
+   "positiv": [
+    "VW‑Cash‑Flow",
+    "Kostenstruktur von VW"
    ],
-   "anzahl": 5,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-unveraendert-us-arbeitsmarktdaten-ueberraschen/100251977.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sechs-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-im-plus-und-knapp-ueber-26.000-punkte-marke/100251682.html",
-    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-leitzins-geldanlage-100.html",
-    "https://www.manager-magazin.de/finanzen/boerse/boerse-vw-aktie-zieht-an-dax-stabilisiert-a-db79da6e-1ca3-4b68-bddb-b837bb188153#ref=rss"
-   ],
-   "punkte": 19,
-   "text": "Der Dax gewinnt leicht und entfernt sich in kleinen Schritten von der 26.000-Punkte-Marke. Die überraschend stärker ausfallenden US‑Daten können entscheidend sein.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "6bbc484f",
-   "titel": "Sachsen-Anhalt: Wo das Bundesland wirtschaftlich zurückliegt – und führt",
-   "anriss": "Viele Menschen in Sachsen-Anhalt hadern mit der wirtschaftlichen Lage in ihrer Heimat. Ein Blick in die Statistiken zeigt, dass dieses Gefühl oft berechtigt ist. Doch in einigen Disziplinen ist das Land auch Spitzenreiter.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 6,
-   "links": [
-    "https://www.spiegel.de/wirtschaft/soziales/sachsen-anhalt-wo-das-bundesland-wirtschaftlich-zurueckliegt-und-fuehrt-a-fbcd3b79-eef6-47ee-af9b-b6b2e0aacdac#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/sven-schulze-wirtschaftspolitik-fuer-sachsen-anhalt-accg-201166386.html",
-    "https://www.manager-magazin.de/politik/deutschland/landtagswahl-sachsen-anhalt-so-steht-es-um-die-wirtschaft-in-sachsen-anhalt-wirklich-a-cff550ba-5e20-4571-92d6-d20c21410cdf#ref=rss",
-    "https://www.manager-magazin.de/ueber-uns/einigung-bei-volkswagen-wahl-in-sachsen-anhalt-ki-weltmodelle-das-war-freitag-04-09-2026-a-af2d69f0-40cb-4f0d-b423-a2f0555fa075#ref=rss",
-    "https://www.manager-magazin.de/politik/deutschland/afd-in-sachsen-anhalt-womit-unternehmen-bei-einer-regierungsuebernahme-rechnen-sollten-a-55ea7a14-5004-4b1e-8295-f39e452ebf9c#ref=rss"
-   ],
-   "punkte": 18,
-   "text": "Viele Menschen in Sachsen-Anhalt hadern mit der wirtschaftlichen Lage in ihrer Heimat. Ein Blick in die Statistiken zeigt, dass dieses Gefühl oft berechtigt ist. Doch in einigen Disziplinen ist das Land auch Spitzenreite",
-   "positiv": [],
-   "negativ": []
+   "negativ": [
+    "VW‑Aktie",
+    "Automobilzulieferer",
+    "Beschäftigung im Automobilsektor"
+   ]
   },
   {
    "id": "368e55e6",
@@ -170,31 +131,40 @@
     "https://www.heise.de/news/KI-Boom-als-Risiko-Norwegens-Staatsfonds-spielt-Crash-Szenarien-durch-11441868.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
    "punkte": 17,
-   "text": "Der 2,3 Billionen Dollar schwere Fonds will den Anteil an Staatsanleihen im Portfolio deutlich verringern. Das Kapital soll in andere Anleiheformen fließen.",
-   "positiv": [],
-   "negativ": []
+   "text": "Der norwegische Staatsfonds plant, den Anteil von US‑Staatsanleihen in seinem 2,3 Billionen‑Dollar‑Portfolio deutlich zu reduzieren und das freigewordene Kapital in andere Anleiheklassen zu investieren. Damit wird die Nachfrage nach US‑Treasuries voraussichtlich sinken, während alternative Anleihen stärker nachgefragt werden.",
+   "positiv": [
+    "Alternative Anleihen (z. B. Unternehmens‑ und Schwellenländer‑Bonds)"
+   ],
+   "negativ": [
+    "US‑Staatsanleihen",
+    "US‑Treasury‑Markt"
+   ]
   },
   {
-   "id": "d86aefa8",
-   "titel": "Taxi ohne Lenkrad: Tesla stellt \"Cybercab\" vor",
-   "anriss": "Der US-Elektroautobauer Tesla hat im Bundesstaat Texas sein neues \"Cybercab\" vorgestellt und mit ersten Fahrten begonnen. Die fahrerlosen Taxis werden zunächst in einigen Gegenden in Austin angeboten.",
+   "id": "6bbc484f",
+   "titel": "Sachsen-Anhalt: Wo das Bundesland wirtschaftlich zurückliegt – und führt",
+   "anriss": "Viele Menschen in Sachsen-Anhalt hadern mit der wirtschaftlichen Lage in ihrer Heimat. Ein Blick in die Statistiken zeigt, dass dieses Gefühl oft berechtigt ist. Doch in einigen Disziplinen ist das Land auch Spitzenreiter.",
    "region": "dach",
    "quellen": [
-    "FAZ Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "heise"
+    "SPIEGEL Wirtschaft",
+    "manager magazin"
    ],
-   "anzahl": 4,
+   "anzahl": 5,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/unternehmen/tesla-cybercab-taxi-ohne-lenkrad-100.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/teslas-cybercab-robotaxis-jetzt-auf-den-strassen-in-austin-201189998.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/tesla-cybercab-elon-musk-robotaxi-im-ersten-einsatz-201195067.html",
-    "https://www.heise.de/news/Tesla-startet-Cybercab-Robotaxi-in-Austin-NHTSA-leitet-Audit-ein-11441713.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+    "https://www.spiegel.de/wirtschaft/soziales/sachsen-anhalt-wo-das-bundesland-wirtschaftlich-zurueckliegt-und-fuehrt-a-fbcd3b79-eef6-47ee-af9b-b6b2e0aacdac#ref=rss",
+    "https://www.manager-magazin.de/politik/deutschland/landtagswahl-sachsen-anhalt-so-steht-es-um-die-wirtschaft-in-sachsen-anhalt-wirklich-a-cff550ba-5e20-4571-92d6-d20c21410cdf#ref=rss",
+    "https://www.manager-magazin.de/ueber-uns/einigung-bei-volkswagen-wahl-in-sachsen-anhalt-ki-weltmodelle-das-war-freitag-04-09-2026-a-af2d69f0-40cb-4f0d-b423-a2f0555fa075#ref=rss",
+    "https://www.manager-magazin.de/politik/deutschland/afd-in-sachsen-anhalt-womit-unternehmen-bei-einer-regierungsuebernahme-rechnen-sollten-a-55ea7a14-5004-4b1e-8295-f39e452ebf9c#ref=rss",
+    "https://www.manager-magazin.de/politik/deutschland/afd-in-sachsen-anhalt-welche-loecher-die-partei-in-den-haushalt-reissen-wuerde-a-617a7022-3399-4524-a45a-8de8125c3b12#ref=rss"
    ],
    "punkte": 14,
-   "text": "Der US-Elektroautobauer Tesla hat im Bundesstaat Texas sein neues \"Cybercab\" vorgestellt und mit ersten Fahrten begonnen. Die fahrerlosen Taxis werden zunächst in einigen Gegenden in Austin angeboten.",
+   "text": "Statistiken zeigen, dass Sachsen‑Anhalt in vielen wirtschaftlichen Kennzahlen hinter dem Bundesdurchschnitt zurückbleibt, wobei einzelne Branchen Ausnahmen bilden. Die anhaltende Unterperformance wirkt sich negativ auf die regionale Investitionsattraktivität aus.",
    "positiv": [],
-   "negativ": []
+   "negativ": [
+    "Sachsen‑Anhalt‑Aktien",
+    "Immobilienmarkt im Land",
+    "Regionale KMU"
+   ]
   },
   {
    "id": "7e2bf067",
@@ -213,7 +183,35 @@
     "https://www.manager-magazin.de/unternehmen/mobilitaet/volkswagen-arbeitsministerin-baerbel-bas-fordert-erhalt-bedrohter-vw-werke-a-67051da0-4dfc-4f67-a8d6-ad08cd7122f1#ref=rss"
    ],
    "punkte": 12,
-   "text": "Abbau von Zehntausenden Stellen, vier Werke auf der Kippe - und das ist noch nicht alles. VW hat ein gigantisches Sparprogramm auf den Weg gebracht. Was der Konzern plant - und was Experten dazu sagen. Ein Überblick.",
+   "text": "Der VW‑Sparplan umfasst den Abbau von Zehntausenden Stellen und die mögliche Schließung von vier Werken, ergänzt durch weitere Kostensenkungsmaßnahmen. Experten sehen darin ein tiefgreifendes Restrukturierungsprogramm mit weitreichenden Folgen für Beschäftigte und Zulieferer.",
+   "positiv": [
+    "VW‑Kostenstruktur",
+    "Langfristige Rentabilität von VW"
+   ],
+   "negativ": [
+    "VW‑Mitarbeiter",
+    "Werkstandorte",
+    "Zulieferer‑Kette"
+   ]
+  },
+  {
+   "id": "d86aefa8",
+   "titel": "Taxi ohne Lenkrad: Tesla stellt \"Cybercab\" vor",
+   "anriss": "Der US-Elektroautobauer Tesla hat im Bundesstaat Texas sein neues \"Cybercab\" vorgestellt und mit ersten Fahrten begonnen. Die fahrerlosen Taxis werden zunächst in einigen Gegenden in Austin angeboten.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "heise"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/unternehmen/tesla-cybercab-taxi-ohne-lenkrad-100.html",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/tesla-cybercab-elon-musk-robotaxi-im-ersten-einsatz-201195067.html",
+    "https://www.heise.de/news/Tesla-startet-Cybercab-Robotaxi-in-Austin-NHTSA-leitet-Audit-ein-11441713.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 12,
+   "text": "Der US-Elektroautobauer Tesla hat im Bundesstaat Texas sein neues \"Cybercab\" vorgestellt und mit ersten Fahrten begonnen. Die fahrerlosen Taxis werden zunächst in einigen Gegenden in Austin angeboten.",
    "positiv": [],
    "negativ": []
   },
@@ -255,12 +253,33 @@
    "text": "Für junge Menschen ist der Weg zur eigenen Immobilie schwieriger geworden. Wie erfüllen sie sich ihren Traum trotzdem? Eine dem Handelsblatt vorliegende Studie gibt Auskunft.",
    "positiv": [],
    "negativ": []
+  },
+  {
+   "id": "4be33402",
+   "titel": "Insolvenzen in Deutschland: Zahl der Großinsolvenzen steigt",
+   "anriss": "Die Belebung der Konjunktur kommt für viele Unternehmen zu spät. Besorgniserregend ist die Zahl der Schwergewichte, die Insolvenz anmelden – besonders in der Autoindustrie.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.spiegel.de/wirtschaft/insolvenzen-zunehmend-mehr-grossunternehmen-melden-insolvenz-an-a-69929cc4-a486-4c65-8799-05fad3132be8#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/wirecard-insolvenz-michael-jaffe-mahnt-glaeubiger-zur-geduld-201182221.html",
+    "https://www.manager-magazin.de/unternehmen/mobilitaet/trotz-besserer-konjunktur-grosspleiten-nehmen-zu-autoindustrie-spitzenreiter-a-d457748c-01b7-4ba2-b2be-6006cf4ec40b#ref=rss"
+   ],
+   "punkte": 12,
+   "text": "Die Belebung der Konjunktur kommt für viele Unternehmen zu spät. Besorgniserregend ist die Zahl der Schwergewichte, die Insolvenz anmelden – besonders in der Autoindustrie.",
+   "positiv": [],
+   "negativ": []
   }
  ],
  "ketten": [],
  "gegenthese": {
-  "konsens": "Markt sieht das VW‑Sparpaket als notwendige Kostenreduktion, DAX‑Stabilität trotz US‑Arbeitsmarktdaten, Norwegens Fonds reduziert US‑Staatsanleihen, Tesla‑Cybercab als Innovations‑Nischenfahrzeug, leichte Aufwärtskorrektur der Wachstumsprognosen und steigende Immobilienpreise durch höhere Energieeffizienz.",
-  "gegen": "Kritiker befürchten, dass das Sparpaket VW‑Investitionen bremst, DAX‑Stabilität trügerisch ist, Anleihenabbau Zinsrisiken erhöht, Cybercab regulatorische Hürden hat, Wachstumsprognosen überoptimistisch und Energieeffizienz die Baukosten unverhältnismäßig steigen lässt."
+  "konsens": "VW‑Sparpaket stärkt Gewinn, US‑Anleihen‑Abbau belastet Kurse, Wachstum wird nach oben korrigiert, Energieeffizienz treibt Immobilienpreise, Insolvenzen steigen leicht.",
+  "gegen": "Risiken: VW‑Sparplan könnte Cash‑Flow belasten, Anleihen‑Abbau könnte durch andere Käufer kompensiert werden, Wachstumsprognosen überoptimistisch, Energieeffizienz‑Kosten könnten Nachfrage dämpfen, Insolvenzen könnten stärker steigen."
  },
  "matrix": [
   {
@@ -438,7 +457,7 @@
     ],
     [
      "Kursziel",
-     "1679 EUR"
+     "1670 EUR"
     ]
    ],
    "quellen": [
@@ -463,9 +482,13 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "Starkes Umsatzwachstum von +69 % zeigt steigende Nachfrage, besonders im Fahrzeug‑ und Rüstungsgeschäft. Die breite Segment‑Diversifikation (Vehicle Systems, Weapon & Ammunition, Electronic Solutions) reduziert Konjunktur‑Risiken. Mit einem KGV von 19,3 liegt die Bewertung im Branchendurchschnitt, das Kursziel von 1.670 € impliziert weiteres Aufwärtspotenzial.",
+   "dagegen": "Abhängigkeit von staatlichen Rüstungsausgaben macht das Unternehmen anfällig für politische Entscheidungen und Haushaltskürzungen. Das KGV von 19,3 kann im Vergleich zu defensiven Wettbewerbern als überbewertet gelten. Trotz 18 Kauf‑Empfehlungen fehlt breitere Markt‑Aufmerksamkeit: Newsletter, Reddit und Insider‑Meldungen erwähnen Rheinmetall kaum, was auf Unsicherheit hindeutet.",
+   "katalysatoren": [
+    "Erhöhung des deutschen Verteidigungsbudgets 2025, das potenziell neue Aufträge für Vehicle Systems generiert.",
+    "Auslieferungs‑ und Produktionsstart neuer gepanzerter Fahrzeugplattformen (z. B. Puma, Boxer) im vierten Quartal 2024.",
+    "Verträge im Electronic‑Solutions‑Segment mit NATO‑Partnern, voraussichtlich 2024/25."
+   ]
   },
   "ASML.AS": {
    "ticker": "ASML.AS",
@@ -512,12 +535,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die überwiegende Analystenmeinung (39 Buy, 3 Hold, 1 Sell) spricht für ASML. Das Unternehmen verzeichnet ein Umsatzwachstum von +21 % und hält mit 563,6 Mrd. € die größte Marktkapitalisierung im Halbleiter‑Equipment‑Sektor. Das Kursziel von 2 033 € impliziert eine signifikante Aufwärts‑Bewertung.",
-   "dagegen": "Gegenargumente sind das relativ hohe KGV von 28,4, das auf teure Bewertung hindeutet, sowie das Fehlen von Insider‑ oder Short‑Informationen, was Unsicherheit über mögliche Kursdrucke signalisiert. Ein einzelner Analyst empfiehlt Verkauf, was auf Bedenken hinsichtlich Lieferketten‑Risiken und möglicher regulatorischer Beschränkungen, etwa im China‑Handel, hinweisen könnte.",
+   "dafuer": "ASML dominiert den EUV-Markt, hat kaum direkte Konkurrenz und profitiert von steigender Chipnachfrage. Das Umsatzwachstum von +21 % und ein Kursziel von 2.033 € impliziert weiteres Aufwärtspotenzial. Der hohe Marktwert und die starke Analysten‑Buy‑Empfehlung unterstützen die positive Sicht.",
+   "dagegen": "Dennoch ist das KGV von 28,4 relativ hoch für ein etabliertes Unternehmen, was die Bewertung belastet. Die Nachfrage nach Halbleitern ist konjunkturell und geopolitisch volatil, insbesondere wegen Exportbeschränkungen nach China. Zudem birgt die Abhängigkeit von wenigen Großkunden ein Konzentrationsrisiko.",
    "katalysatoren": [
-    "Markteinführung des High‑NA EUV‑Systems (NXE:3400) im zweiten Halbjahr 2026",
-    "Großaufträge von TSMC und Intel für neue Fertigungsprozesse ab 2027",
-    "Entspannung von Exportbeschränkungen nach EU‑USA‑Abkommen, die chinesische Kunden wieder bedienen"
+    "Einführung des High‑NA‑EUV‑Systems (voraussichtlich 2025)",
+    "Quartalsbericht Q3 2024 mit erwarteter Umsatzsteigerung",
+    "Bestätigung neuer Großaufträge von TSMC, Samsung oder Intel"
    ]
   },
   "SU.PA": {
@@ -577,11 +600,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "251.4 Mrd"
+     "250.7 Mrd"
     ],
     [
      "KGV (erw.)",
-     "37,3"
+     "37,2"
     ],
     [
      "Umsatzwachstum",
@@ -626,11 +649,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "43.8 Mrd"
+     "43.9 Mrd"
     ],
     [
      "KGV (erw.)",
-     "53,2"
+     "53,3"
     ],
     [
      "Umsatzwachstum",
@@ -638,13 +661,13 @@
     ],
     [
      "Kursziel",
-     "130 USD"
+     "131 USD"
     ]
    ],
    "quellen": [
     [
      "Analysten",
-     "19 Kauf / 2 Halten / 0 Verkauf"
+     "20 Kauf / 2 Halten / 0 Verkauf"
     ],
     [
      "Newsletter",
@@ -675,7 +698,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "104.6 Mrd"
+     "104.5 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -712,9 +735,13 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "FCX verfügt über ein breites Portfolio an Kupfer‑ und Goldminen, die von steigender Nachfrage nach Kupfer für die Energiewende profitieren. Das aktuelle KGV von 17,6 liegt im Branchenvergleich moderat, und 18 Analysten empfehlen Kauf, was auf optimistische Ertrags‑ und Preisannahmen hindeutet.",
+   "dagegen": "Der Umsatz ist um 7 % gesunken, und Insider‑Verkäufe (0 Käufe, 9 Verkäufe) signalisieren mögliche Bedenken hinsichtlich der kurzfristigen Perspektive. Das Unternehmen ist geopolitisch exponiert (Indonesien, USA) und trägt hohe Kapitalkosten, während die Analystenmeinung (4 Halte, 1 Verkauf) nicht einheitlich ist.",
+   "katalysatoren": [
+    "Entwicklung der Kupferpreise und mögliche Preissteigerungen",
+    "Produktionssteigerung bzw. Kostensenkung im Grasberg‑ oder Morenci‑Komplex",
+    "Ankündigung von Asset‑Verkäufen oder strategischen Partnerschaften"
+   ]
   },
   "NVDA": {
    "ticker": "NVDA",
@@ -724,7 +751,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "5.572.6 Mrd"
+     "5.563.2 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -736,7 +763,7 @@
     ],
     [
      "Kursziel",
-     "326 USD"
+     "327 USD"
     ]
    ],
    "quellen": [
@@ -1053,6 +1080,78 @@
  "gespraech": [],
  "termine": [
   {
+   "datum": "2026-09-04",
+   "zeit": "",
+   "region": "us",
+   "was": "Employment Situation",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-04",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-05",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-06",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-07",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-08",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-09",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-10",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-10",
+   "zeit": "",
+   "region": "us",
+   "was": "Producer Price Index",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
    "datum": "2026-09-10",
    "zeit": "14:15",
    "region": "eu",
@@ -1061,14 +1160,22 @@
    "wucht": "hoch"
   },
   {
-   "datum": "2026-09-16",
-   "zeit": "20:00",
+   "datum": "2026-09-11",
+   "zeit": "",
    "region": "us",
-   "was": "Fed-Zinsentscheid",
-   "konsens": "-25 Bp",
+   "was": "Consumer Price Index",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-11",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 181,
+ "meldungen_gesamt": 172,
  "llm_aktiv": false
 }
