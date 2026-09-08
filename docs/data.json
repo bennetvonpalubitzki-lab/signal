@@ -1,9 +1,9 @@
 {
- "stand": "2026-09-08T13:05",
- "lauf": "2026090813",
+ "stand": "2026-09-08T16:04",
+ "lauf": "2026090816",
  "synthese": {
-  "kern": "Regulatorische und geopolitische Belastungen überlagern die positive Risikoappetit‑Stimmung, aber der Markt unterschätzt deren Einfluss.",
-  "erlaeuterung": "Zentralbanken zeigen hohen Zinsdruck, während geopolitische Risiken und regulatorische Eingriffe in Energie, Rüstung und Banken zunehmen. Trotz hoher Risikoappetit‑Werte vernachlässigt der Markt die potenziellen Kosten aus Handelsspannungen, Klimapolitik und Finanzregulierung."
+  "kern": "Markt vernachlässigt wachsende fiskalische Belastungen und geopolitische Spannungen trotz starkem Risikoappetit.",
+  "erlaeuterung": "Die Meldungen verbinden innenpolitische Abschottung, Verteidigungs‑Expansion, Energie‑Umbruch und steigende Staatsverschuldung. Diese Faktoren erhöhen langfristige Zins‑ und Inflationsrisiken, die vom aktuellen positiven Risikoappetit kaum reflektiert werden."
  },
  "regime": [
   {
@@ -36,23 +36,23 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 64,
-     "delta": 3
+     "wert": 62,
+     "delta": 1
     },
     "eur": {
-     "wert": 81,
-     "delta": 2
+     "wert": 82,
+     "delta": 3
     }
    },
-   "differenz": 17
+   "differenz": 20
   },
   {
    "name": "risikoappetit",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 85,
-     "delta": 3
+     "wert": 84,
+     "delta": 2
     }
    }
   },
@@ -65,11 +65,11 @@
      "delta": -1
     },
     "eur": {
-     "wert": 1,
-     "delta": 1
+     "wert": 0,
+     "delta": -1
     }
    },
-   "differenz": 40
+   "differenz": 41
   },
   {
    "name": "geopolitik",
@@ -84,34 +84,59 @@
  ],
  "cluster": [
   {
-   "id": "8a4a92bc",
-   "titel": "Börse am 8. September: Fünf Punkte, die für Anleger heute wichtig sind",
-   "anriss": "Neue Angriffe im Iran-Krieg belasten die Märkte und die Ölpreise. Auch die Ergebnisse der Landtagswahl in Sachsen-Anhalt dämpften die Stimmung am Markt.",
+   "id": "ef1624fa",
+   "titel": "Wahl in Sachsen-Anhalt: Arbeitgeber warnen vor \"Klima der Abschottung\"",
+   "anriss": "Vertreter der deutschen Industrie und Ökonomen gehen davon aus, dass sich der AfD-Wahlsieg in Sachsen-Anhalt negativ auf die Wirtschaft auswirken könnte. An die Bundesregierung richten sie den Appell, am Reformkurs festzuhalten.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
-    "Handelsblatt Finanzen",
     "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 9,
+   "anzahl": 7,
    "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-fuenf-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/sachsen-anhalt-afdwahlsieg-das-ergebnis-ist-mehr-als-ein-warnsignal/100252564.html",
     "https://www.tagesschau.de/wirtschaft/konjunktur/sachsen-anhalt-wirtschaft-100.html",
-    "https://www.spiegel.de/wirtschaft/soziales/sachsen-anhalt-wirtschaftsweise-warnen-nach-afd-erfolg-vor-reformstopp-a-56cb5164-3aa9-403b-bb40-52e49f5dd2a9#ref=rss",
-    "https://www.spiegel.de/wirtschaft/sachsen-anhalt-arbeitgeber-warnen-nach-wahl-vor-klima-der-abschottung-a-50ac8f06-5885-4413-a0e1-9e660e84e9ce#ref=rss"
+    "https://www.spiegel.de/wirtschaft/soziales/sachsen-anhalt-wirtschaftsweise-warnen-nach-afd-erfolg-vor-aufschieben-der-reformen-a-56cb5164-3aa9-403b-bb40-52e49f5dd2a9#ref=rss",
+    "https://www.spiegel.de/wirtschaft/sachsen-anhalt-arbeitgeber-warnen-nach-wahl-vor-klima-der-abschottung-a-50ac8f06-5885-4413-a0e1-9e660e84e9ce#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/wahl-in-sachsen-anhalt-keine-zeit-fuer-eine-haengepartie-201201935.html",
+    "https://www.faz.net/aktuell/wirtschaft/wahl-sachsen-anhalt-2026-merz-sollte-seine-reformen-trotzdem-durchziehen-201200313.html"
    ],
-   "punkte": 30,
-   "text": "Neue Angriffe im Iran‑Krieg haben die globalen Märkte belastet und die Rohölpreise nach oben getrieben. Die Ergebnisse der Landtagswahl in Sachsen‑Anhalt haben die Stimmung an den deutschen Börsen weiter gedämpft.",
-   "positiv": [
-    "Rohöl"
-   ],
+   "punkte": 22,
+   "text": "Die AfD hat die Landtagswahl in Sachsen‑Anhalt gewonnen. Arbeitgeber und Vertreter der Industrie warnen, dass ein solches Ergebnis das Investitionsklima verschlechtern und die wirtschaftliche Entwicklung im Land bremsen könnte.",
+   "positiv": [],
    "negativ": [
-    "Deutsche Aktien",
-    "Euro‑Stoxx"
+    "Deutsche Industrie",
+    "Unternehmensinvestitionen in Sachsen‑Anhalt",
+    "DAX‑ähnliche Indizes mit starkem regionalen Bezug"
    ]
+  },
+  {
+   "id": "de879139",
+   "titel": "Französisches KI-Start-up Mistral sammelt drei Milliarden Euro ein",
+   "anriss": "In der bisher größten Finanzierungsrunde in Europa hat Mistral drei Milliarden Euro eingesammelt. Das französische Start-up setzt auf offene KI-Modelle und präsentiert sich als Gegenentwurf zu den US-Konzernen.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "heise",
+    "manager magazin"
+   ],
+   "anzahl": 5,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/unternehmen/mistral-kuenstliche-intelligenz-start-up-100.html",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-vw-erwaegt-den-verkauf-von-ducati-faz-200452404.html",
+    "https://www.manager-magazin.de/unternehmen/tech/the-exploration-company-muenchner-raumfahrt-start-up-sammelt-450-millionen-dollar-ein-a-13e0a3d2-71c1-4d21-9808-7cb5436c5b06#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/tech/mistral-franzoesisches-ki-start-up-sammelt-3-milliarden-dollar-ein-a-85519008-3e82-47d4-9fea-412ab3a2960d#ref=rss",
+    "https://www.heise.de/news/Drei-Milliarden-fuer-Mistral-Europas-KI-Hoffnung-will-zur-Spitze-aufschliessen-11445122.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 18,
+   "text": "Das französische KI‑Start‑up Mistral hat in einer europäischen Finanzierungsrunde 3 Milliarden Euro eingesammelt – die bislang größte Kapitalaufnahme in Europa. Das Unternehmen setzt auf offene KI‑Modelle und positioniert sich als Gegenstück zu US‑Anbietern.",
+   "positiv": [
+    "Europäische KI‑ und Technologie‑Start‑ups",
+    "Venture‑Capital‑Fonds mit Fokus auf KI"
+   ],
+   "negativ": []
   },
   {
    "id": "272a33bc",
@@ -133,13 +158,46 @@
     "https://www.manager-magazin.de/unternehmen/mobilitaet/volkswagen-vw-werk-in-osnabrueck-wird-ruestungsstandort-a-8a1b2a36-20ab-485f-bcb1-15a7b1feded5#ref=rss"
    ],
    "punkte": 18,
-   "text": "Volkswagen plant den Verkauf seines Werks Osnabrück an den Finanzinvestor Aurelius und das Land Niedersachsen, um dort Rüstungsgüter zu fertigen. Der Umbau könnte bis zu 75 % der Arbeitsplätze betreffen und die Automobilproduktion am Standort beenden.",
+   "text": "Volkswagen plant, das Werk Osnabrück an den Finanzinvestor Aurelius und das Land Niedersachsen zu veräußern, um dort künftig Rüstungsgüter zu fertigen. Laut Angaben könnten bis zu drei Viertel der derzeitigen Arbeitsplätze wegfallen, was die lokale Automobilproduktion stark beeinträchtigt.",
    "positiv": [
-    "Rüstungsindustrie"
+    "Verteidigungs‑ und Rüstungsindustrie",
+    "Aurelius (Finanzinvestor)"
    ],
    "negativ": [
-    "Volkswagen‑Aktie",
-    "Automobilsektor"
+    "Volkswagen‑Werk Osnabrück",
+    "Automobilzulieferer in der Region",
+    "Beschäftigte des Werks"
+   ]
+  },
+  {
+   "id": "a6d91273",
+   "titel": "Anteil Erneuerbarer Energien an Stromerzeugung auf Rekordhoch",
+   "anriss": "Der Anteil Erneuerbarer Energien an der deutschen Stromerzeugung hat im ersten Halbjahr einen neuen Höchststand erreicht. Fast 60 Prozent des eingespeisten Stroms stammten aus erneuerbaren Quellen.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "heise"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/energie/stromerzeugung-erneuerbare-energien-106.html",
+    "https://www.spiegel.de/wirtschaft/service/energiewende-anteil-erneuerbarer-energien-an-deutscher-stromerzeugung-auf-rekordhoch-a-7c155ef0-083a-453d-8a77-c0537b8242ab#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/energiekosten-gerhard-cromme-sieht-ein-preisstrukturproblem-201202680.html",
+    "https://www.heise.de/news/Energie-in-Deutschland-Stromimporte-stark-gesunken-exporte-gewachsen-11441433.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 16,
+   "text": "Im ersten Halbjahr 2024 erreichte der Anteil erneuerbarer Energien an der deutschen Stromerzeugung fast 60 % – ein neuer Höchststand. Der Trend stärkt Unternehmen aus den Bereichen Wind, Solar und Speicher, während konventionelle Kraftwerke weiter an Marktanteilen verlieren.",
+   "positiv": [
+    "Erneuerbare‑Energie‑Unternehmen (Wind, Solar, Speicher)",
+    "Grüne Anleihen",
+    "Nachhaltigkeits‑ETFs"
+   ],
+   "negativ": [
+    "Kohlekraftwerke",
+    "Gaskraftwerke",
+    "Unternehmen mit hohem Anteil fossiler Stromerzeugung"
    ]
   },
   {
@@ -156,101 +214,51 @@
    "anzahl": 4,
    "links": [
     "https://www.tagesschau.de/wirtschaft/weltwirtschaft/kanada-usa-gegenzoelle-100.html",
-    "https://www.spiegel.de/wirtschaft/unternehmen/handelsstreit-mit-usa-kanada-setzt-gegenzoelle-in-kraft-trump-droht-bombardier-a-efb205c8-ec95-443c-92bf-a1e4ef6911a9#ref=rss",
+    "https://www.spiegel.de/wirtschaft/unternehmen/handelsstreit-mit-usa-kanada-setzt-gegenzoelle-in-kraft-donald-trump-droht-bombardier-a-efb205c8-ec95-443c-92bf-a1e4ef6911a9#ref=rss",
     "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/donald-trump-droht-bombardier-kein-zugang-zum-us-markt-accg-201205832.html",
     "https://www.manager-magazin.de/politik/weltwirtschaft/bombardier-trump-droht-flugzeugbauer-aus-kanada-nach-gegenzoellen-a-4935c056-c79d-40fb-b3b3-50d2d499afac#ref=rss"
    ],
    "punkte": 16,
-   "text": "Kanada hat Gegenzölle auf ausgewählte US‑Importe eingeführt, was die Handelsbeziehungen zwischen beiden Ländern weiter belastet. Präsident Trump hat im Gegenzug den kanadischen Flugzeughersteller Bombardier kritisiert.",
+   "text": "Der Zollstreit in Nordamerika geht in die nächste Phase: Kanada erhebt ab sofort Gegenzölle auf bestimmte US-Importe. US-Präsident Trump drohte unterdessen dem kanadischen Flugzeughersteller Bombardier.",
    "positiv": [],
-   "negativ": [
-    "Kanadische Exporte",
-    "US‑Exportsektor",
-    "Bombardier‑Aktie"
-   ]
+   "negativ": []
   },
   {
-   "id": "6b844d94",
-   "titel": "Banken: Santorini-Prozess beschäftigt Deutsche Bank weiter – Bank-Dokument wird für Kläger zur Blaupause",
-   "anriss": "Mit der Einigung ist das Kapitel für das Institut nicht abgeschlossen. Vier weitere Ex-Banker klagen in London und berufen sich auf Gerichtsdokumente, die von der Bank stammen.",
+   "id": "bb69f1d5",
+   "titel": "Schweiz: Ehemaliger Spitzenbankier Pierre Mirabaud wegen Bestechung und Geldwäsche verurteilt",
+   "anriss": "Der ehemalige Teilhaber einer der ältesten Schweizer Privatbanken hat zugegeben, mehr als 80 Millionen Schweizer Franken an Schmiergeld gezahlt zu haben. Ins Gefängnis muss der 77-Jährige aber nicht.",
    "region": "dach",
    "quellen": [
-    "Handelsblatt Finanzen",
     "SPIEGEL Wirtschaft",
     "manager magazin"
    ],
    "anzahl": 4,
    "links": [
-    "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/banken-deutsche-bank-einigt-sich-mit-deutschem-santorini-klaeger1234/100252558.html",
+    "https://www.spiegel.de/wirtschaft/schweiz-ehemaliger-spitzenbankier-pierre-mirabaud-wegen-bestechung-und-geldwaesche-verurteilt-a-9480eff5-05a0-4522-9dc1-b31456606c5d#ref=rss",
     "https://www.spiegel.de/wirtschaft/deutsche-bank-erzielt-vergleich-mit-ex-manager-a-96edcf98-a23f-4105-a36a-4aeaf608a727#ref=rss",
     "https://www.manager-magazin.de/unternehmen/banken/banken-ex-teilhaber-der-schweizer-privatbank-mirabaud-gesteht-bestechung-in-millionenhoehe-a-505ab8f5-4759-4102-b8e9-9860d5c1fa28#ref=rss",
     "https://www.manager-magazin.de/unternehmen/banken/deutsche-bank-einigt-sich-mit-ex-investmentbanker-a-03b8b50e-4836-4c1f-9fac-f1a378199c2b#ref=rss"
    ],
-   "punkte": 15,
-   "text": "Der Santorini‑Prozess bleibt für die Deutsche Bank ein rechtliches Risiko, da vier ehemalige Banker in London Klage eingereicht haben und sich auf interne Bankdokumente berufen. Die Einigung aus dem ersten Verfahren hat das Risiko nicht vollständig eliminiert.",
-   "positiv": [],
-   "negativ": [
-    "Deutsche Bank‑Aktie",
-    "Bankensektor"
-   ]
-  },
-  {
-   "id": "a6d91273",
-   "titel": "Anteil Erneuerbarer Energien an Stromerzeugung auf Rekordhoch",
-   "anriss": "Der Anteil Erneuerbarer Energien an der deutschen Stromerzeugung hat im ersten Halbjahr einen neuen Höchststand erreicht. Fast 60 Prozent des eingespeisten Stroms stammten aus erneuerbaren Quellen.",
-   "region": "dach",
-   "quellen": [
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "heise"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/energie/stromerzeugung-erneuerbare-energien-106.html",
-    "https://www.spiegel.de/wirtschaft/service/energiewende-anteil-erneuerbarer-energien-an-deutscher-stromerzeugung-auf-rekordhoch-a-7c155ef0-083a-453d-8a77-c0537b8242ab#ref=rss",
-    "https://www.heise.de/news/Energie-in-Deutschland-Stromimporte-stark-gesunken-exporte-gewachsen-11441433.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
    "punkte": 12,
-   "text": "Der Anteil Erneuerbarer Energien an der deutschen Stromerzeugung hat im ersten Halbjahr einen neuen Höchststand erreicht. Fast 60 Prozent des eingespeisten Stroms stammten aus erneuerbaren Quellen.",
+   "text": "Der ehemalige Teilhaber einer der ältesten Schweizer Privatbanken hat zugegeben, mehr als 80 Millionen Schweizer Franken an Schmiergeld gezahlt zu haben. Ins Gefängnis muss der 77-Jährige aber nicht.",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "de879139",
-   "titel": "Französisches KI-Start-up Mistral sammelt drei Milliarden Euro ein",
-   "anriss": "In der bisher größten Finanzierungsrunde in Europa hat Mistral drei Milliarden Euro eingesammelt. Das französische Start-up setzt auf offene KI-Modelle und präsentiert sich als Gegenentwurf zu den US-Konzernen.",
-   "region": "dach",
-   "quellen": [
-    "Tagesschau Wirtschaft",
-    "heise",
-    "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/unternehmen/mistral-kuenstliche-intelligenz-start-up-100.html",
-    "https://www.manager-magazin.de/unternehmen/tech/mistral-franzoesisches-ki-start-up-sammelt-3-milliarden-dollar-ein-a-85519008-3e82-47d4-9fea-412ab3a2960d#ref=rss",
-    "https://www.heise.de/news/Drei-Milliarden-fuer-Mistral-Europas-KI-Hoffnung-will-zur-Spitze-aufschliessen-11445122.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 12,
-   "text": "In der bisher größten Finanzierungsrunde in Europa hat Mistral drei Milliarden Euro eingesammelt. Das französische Start-up setzt auf offene KI-Modelle und präsentiert sich als Gegenentwurf zu den US-Konzernen.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "71850349",
-   "titel": "Gasspeicher in Deutschland: Maximal 77 Prozent Füllstand vor dem Winter",
+   "id": "3dd72985",
+   "titel": "Gasspeicher in Deutschland: Maximal 77 Prozent Füllstand vor dem Winter möglich",
    "anriss": "Die deutschen Gasspeicher waren den Sommer über gefährlich leer. Jetzt steht fest: Mehr als 77 Prozent Füllstand sind bis zum Winter nicht mehr zu erreichen. Die Hoffnung liegt darauf, dass es nicht zu kalt wird.",
    "region": "dach",
    "quellen": [
+    "FAZ Wirtschaft",
     "SPIEGEL Wirtschaft",
-    "heise",
     "manager magazin"
    ],
    "anzahl": 3,
    "links": [
-    "https://www.spiegel.de/wirtschaft/gasspeicher-in-deutschland-maximal-77-prozent-fuellstand-vor-dem-winter-a-874ac9a2-a27b-417b-8134-64f458c30cff#ref=rss",
-    "https://www.manager-magazin.de/politik/deutschland/gasspeicher-in-deutschland-verband-warnt-vor-leeren-speichern-im-februar-a-d0d5a816-e59c-49e4-bec9-f08006114091#ref=rss",
-    "https://www.heise.de/news/Verband-Komplett-leere-Gasspeicher-im-Februar-sind-moeglich-11444697.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+    "https://www.spiegel.de/wirtschaft/gasspeicher-in-deutschland-maximal-77-prozent-fuellstand-vor-dem-winter-moeglich-a-874ac9a2-a27b-417b-8134-64f458c30cff#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/gasspeicher-in-deutschland-droht-ein-kalter-winter-201201819.html",
+    "https://www.manager-magazin.de/politik/deutschland/gasspeicher-in-deutschland-verband-warnt-vor-leeren-speichern-im-februar-a-d0d5a816-e59c-49e4-bec9-f08006114091#ref=rss"
    ],
    "punkte": 12,
    "text": "Die deutschen Gasspeicher waren den Sommer über gefährlich leer. Jetzt steht fest: Mehr als 77 Prozent Füllstand sind bis zum Winter nicht mehr zu erreichen. Die Hoffnung liegt darauf, dass es nicht zu kalt wird.",
@@ -280,8 +288,8 @@
  ],
  "ketten": [],
  "gegenthese": {
-  "konsens": "Die Märkte bewerten die meisten Themen als kurzfristig neutral bis leicht positiv, besonders Erneuerbare, Gasspeicher‑Füllstand und das KI‑Finanzierungsvolumen; geopolitische und regulatorische Risiken werden als begrenzt eingepreist.",
-  "gegen": "Gegenargument: Unklare Folgen der Rüstungsumstellung in Osnabrück, eskalierender US‑Kanada‑Handelskonflikt und mögliche Kostenexplosion bei der Pflegereform könnten die aktuelle Stabilität schnell untergraben."
+  "konsens": "Der Markt bewertet die Ereignisse als weitgehend neutral bis positiv: KI‑Finanzierung stärkt Tech, Erneuerbare erreichen Rekord, Gasspeicher ausreichend, VW‑Umwandlung wird als geringes Risiko gesehen; Handelskonflikt belastet leicht.",
+  "gegen": "Risiken überwiegen: Abschottungswarnungen in Sachsen‑Anhalt können Fachkräftemangel verstärken, Mistral‑Bewertung übertrieben, Rüstungsumwandlung erhöht regulatorische Risiken, erneuerbare Volatilität, Kanadas Gegenzölle könnten Exporten schaden, Gasspeicher knapp, Pflegereform unfinanziert."
  },
  "matrix": [
   {
@@ -398,11 +406,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "125.9 Mrd"
+     "126.7 Mrd"
     ],
     [
      "KGV (erw.)",
-     "23,8"
+     "24,0"
     ],
     [
      "Umsatzwachstum",
@@ -420,7 +428,7 @@
     ],
     [
      "Newsletter",
-     "in 3 Clustern"
+     "in 1 Clustern"
     ],
     [
      "Reddit",
@@ -435,12 +443,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Das Unternehmen profitiert von starkem Umsatzwachstum von 18 % und einem breiten Produktportfolio in Turbinen, Netzinfrastruktur und digitalen Services. Das erwartete KGV von 23,8 liegt im Branchenrahmen, während das Kursziel von 196 € ein Aufwärtspotenzial von rund 30 % gegenüber dem aktuellen Kurs impliziert.",
-   "dagegen": "Gegenstand sind das relativ hohe KGV von 23,8, das bei schwankender Auftragslage in der Wind- und Gasbranche das Risiko einer Überbewertung birgt. Zudem fehlen Insider‑Informationen und Shorts, was auf geringe Marktaktivität hindeutet; ein Teil der Analysten (2 Verkauf) bleibt skeptisch.",
+   "dafuer": "Die Analystenmehrheit (19 Kauf) spricht für Siemens Energy. Das Unternehmen verzeichnet ein starkes Umsatzwachstum von 18 % und profitiert von steigender Nachfrage nach Gas‑ und Dampfturbinen, Netztechnologien sowie erneuerbaren Windlösungen. Das Kursziel von 196 € impliziert erhebliches Aufwärtspotenzial gegenüber dem aktuellen Kurs.",
+   "dagegen": "Gegenseite: Zwei Analysten empfehlen Verkauf, kritisieren hohe Verschuldung, Margendruck und Risiken bei der Siemens‑Gamesa‑Windspindel. Das KGV von 24 gilt als relativ hoch für ein Unternehmen im Transformationsprozess. Zudem könnte die Energiewende die Nachfrage nach gasbasierten Turbinen langfristig dämpfen.",
    "katalysatoren": [
-    "Abschluss großer Gasturbinen‑Aufträge im zweiten Quartal 2024",
-    "Lieferstart neuer Siemens Gamesa Windturbinen nach behördlicher Genehmigung",
-    "Veröffentlichung des Q3‑2024‑Ergebnisses mit Fokus auf Margenentwicklung"
+    "Auslieferung und Inbetriebnahme der nächsten Generation von Siemens‑Gamesa‑Windturbinen, insbesondere Offshore‑Projekte.",
+    "Abschluss großer Service‑ und Wartungsverträge für Gasturbinen in Asien und Europa.",
+    "Fortschritte bei digitalen Energie‑Management‑Lösungen und mögliche EU‑Förderungen für Netzinfrastruktur‑Modernisierung."
    ]
   },
   "RHM.DE": {
@@ -451,7 +459,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "49.2 Mrd"
+     "49.1 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -488,12 +496,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Starkes Umsatzwachstum von +69 % zeigt steigende Nachfrage, insbesondere im Vehicle‑Systems‑Segment. Das Kurs‑Gewinn‑Verhältnis von 19,6 liegt im Branchendurchschnitt, was relativ attraktiv erscheint. Analysten bewerten die Aktie mit 18 Kauf‑ und 3 Halte‑Empfehlungen, was das Vertrauen in die Auftragslage widerspiegelt.",
-   "dagegen": "Gegenargumente: Das Kursziel von 1.670 € impliziert eine erhebliche Aufwärtsbewegung, die bei einem KGV von 19,6 bereits am oberen Ende der Branche liegt. Die Aktie ist stark von staatlichen Rüstungsausgaben abhängig; bei Budgetkürzungen oder politischen Änderungen könnte die Auftragslage sinken. Fehlende Insider‑Transaktionen und Shorts deuten auf geringe Marktmeinung zu möglichen Risiken hin.",
+   "dafuer": "Die Analystenmehrheit (18 Kauf, 3 Halten) sieht in Rheinmetall ein starkes Wachstumspotenzial, gestützt durch ein Umsatzplus von 69 % und ein Kursziel von 1.670 €, das die erwartete Aufwärtsdynamik widerspiegelt. Die breite geografische Präsenz und das diversifizierte Portfolio aus Fahrzeug‑, Waffen‑ und Elektronik‑Sektoren stärken die Position.",
+   "dagegen": "Gegenargumente sind die relativ hohe Bewertung (KGV 19,6) trotz konjunktureller Unsicherheiten, die Abhängigkeit von staatlichen Rüstungsausgaben und das geringe öffentliche Interesse (kaum Reddit‑Erwähnung, keine Insider‑ oder Short‑Aktivität). Ein möglicher Rückgang der Auftragslage würde die Margen belasten.",
    "katalysatoren": [
-    "Veröffentlichung des nächsten Quartalsberichts (voraussichtlich Q3 2026)",
-    "Entscheidung über Erhöhung des deutschen Verteidigungsbudgets für 2027",
-    "Vergabe eines Großauftrags für neue Panzer‑ oder Fahrzeugplattformen an internationale Kunden"
+    "Ankündigung neuer Rüstungsaufträge der Bundeswehr für 2025",
+    "Veröffentlichung des Quartalsberichts Q3 2024",
+    "Abschluss eines Joint‑Venture für elektronische Verteidigungssysteme mit einem US‑Partner"
    ]
   },
   "ASML.AS": {
@@ -504,11 +512,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "587.9 Mrd"
+     "583.1 Mrd"
     ],
     [
      "KGV (erw.)",
-     "29,6"
+     "29,4"
     ],
     [
      "Umsatzwachstum",
@@ -541,12 +549,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die Analystenmehrheit (39 Kauf, 3 Halten, 1 Verkauf) sieht ASML dank seiner marktführenden EUV‑Technologie, starkem Umsatzwachstum von 21 % und einer Marktkapitalisierung von 587,9 Mrd. €, als zukunftsfähig. Keine bekannten Short‑Positionen und positive Newsletter‑Cluster stärken das Bild.",
-   "dagegen": "Ein einzelner Verkauf und drei Halte‑Ratings widersprechen dem Konsens, deuten auf Bedenken hinsichtlich der hohen Bewertung (KGV 29,6) und der Abhängigkeit von konjunktureller Chipnachfrage hin. Fehlende Insider‑Meldungen und kaum Reddit‑Diskussion lassen Unsicherheit über Marktstimmung entstehen.",
+   "dafuer": "ASML profitiert von seiner Technologieführerschaft im EUV‑Lithografiesegment, das für die Fertigung von 3‑nm‑ und kleineren Chips unverzichtbar ist. Das Unternehmen verzeichnet ein starkes Umsatzwachstum von 21 % und ein robustes Kursziel von 2.042 €, was von 39 Analysten als Kauf eingestuft wird.",
+   "dagegen": "Trotz der Marktführerschaft ist ASML mit einem hohen KGV von 29,4 relativ teuer bewertet, was bei einer möglichen Abschwächung der Chipnachfrage die Rendite drücken könnte. Das Unternehmen ist stark von wenigen Großkunden abhängig und trägt hohe F&E‑Kosten. Fehlende Insider‑Informationen und geringe Retail‑Beachtung erhöhen das Unsicherheitsniveau.",
    "katalysatoren": [
-    "Markteinführung des High‑NA EUV‑Systems (geplant 2024/25)",
-    "Veröffentlichung des Q3‑2024‑Ergebnisses",
-    "Großaufträge von TSMC/Intel für 3‑nm‑ und 2‑nm‑Produktionen"
+    "Markteinführung des High‑NA EUV‑Systems (geplant für 2025)",
+    "Quartalsbericht Q3 2024 mit Umsatz‑ und Gewinn‑Guidance",
+    "Ausweitung der EUV‑Nutzung in chinesischen Halbleitungsfabriken (abhängig von Export‑Regulierungen)"
    ]
   },
   "SU.PA": {
@@ -557,11 +565,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "166.9 Mrd"
+     "168.4 Mrd"
     ],
     [
      "KGV (erw.)",
-     "24,6"
+     "24,7"
     ],
     [
      "Umsatzwachstum",
@@ -579,7 +587,7 @@
     ],
     [
      "Newsletter",
-     "in 8 Clustern"
+     "in 10 Clustern"
     ],
     [
      "Reddit",
@@ -594,9 +602,13 @@
      "1648,06 % ueber 1700 Halter"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "Schneider Electric profitiert von der globalen Energiewende: starkes Umsatzwachstum von +10 % und ein breites Portfolio aus Energiemanagement, Industrieautomation und Smart‑Building‑Lösungen. Das Kursziel von 326 EUR impliziert weiteres Aufwärtspotenzial, während das Forward‑KGV von 24,7 noch als moderat gilt.",
+   "dagegen": "Die Aktie weist ein extrem hohes Short‑Interest von 1648 % auf, was auf erhebliche Skepsis der Marktteilnehmer hindeutet. Das Forward‑KGV von 24,7 ist im Vergleich zur Branche relativ hoch, und das Fehlen von Insider‑Transaktionen lässt keine zusätzlichen positiven Signale erkennen.",
+   "katalysatoren": [
+    "Quartalsbericht Q3 2026 mit erwarteter Umsatzsteigerung",
+    "Markteinführung neuer Micro‑Grid‑ und Energiespeicherlösungen",
+    "Mögliche Akquisition im Bereich erneuerbare Energien oder Smart‑Building‑Technologie"
+   ]
   },
   "GEV": {
    "ticker": "GEV",
@@ -606,11 +618,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "250.9 Mrd"
+     "258.3 Mrd"
     ],
     [
      "KGV (erw.)",
-     "37,3"
+     "38,4"
     ],
     [
      "Umsatzwachstum",
@@ -628,7 +640,7 @@
     ],
     [
      "Newsletter",
-     "nicht erwaehnt"
+     "in 1 Clustern"
     ],
     [
      "Reddit",
@@ -643,13 +655,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Dafür spricht das robuste Umsatzwachstum von +22 % und die Diversifikation über Power, Wind und Electrification, die langfristige Nachfrage nach Energieinfrastruktur sichern. Die Analystenmehrheit (30 Buy, 7 Hold) signalisiert positive Einschätzungen, während das Fehlen von Short‑Positionen das Risiko von Abwärtsdruck mindert.",
-   "dagegen": "Dagegen steht das hohe forward KGV von 37,3, das die Aktie im Vergleich zu Branchenkollegen teuer erscheinen lässt. Insiderverkäufe (4) könnten auf Bedenken hinsichtlich kurzfristiger Aussichten hindeuten. Die geringe Aufmerksamkeit in Newslettern und auf Reddit deutet auf begrenztes Marktinteresse hin.",
-   "katalysatoren": [
-    "Q3‑2026 Ergebnisveröffentlichung (Erwartung von Umsatz‑ und Gewinnsteigerung)",
-    "Start der Serienproduktion neuer Offshore‑Windturbinen",
-    "Vertragliche Genehmigungen für neue Gaskraftwerke in Europa"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "CCJ": {
    "ticker": "CCJ",
@@ -659,11 +667,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "43.9 Mrd"
+     "45.1 Mrd"
     ],
     [
      "KGV (erw.)",
-     "53,2"
+     "54,8"
     ],
     [
      "Umsatzwachstum",
@@ -708,11 +716,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "104.4 Mrd"
+     "111.1 Mrd"
     ],
     [
      "KGV (erw.)",
-     "17,6"
+     "18,7"
     ],
     [
      "Umsatzwachstum",
@@ -757,11 +765,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "5.562.5 Mrd"
+     "5.461.9 Mrd"
     ],
     [
      "KGV (erw.)",
-     "14,8"
+     "14,6"
     ],
     [
      "Umsatzwachstum",
@@ -800,6 +808,15 @@
   }
  },
  "shorts": [
+  {
+   "land": "NL",
+   "halter": "Citadel Securities (Europe) Limited",
+   "emittent": "Avantium N.V.",
+   "prozent": 0.66,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
   {
    "land": "UK",
    "halter": "Anavio Capital Partners LLP",
@@ -1060,19 +1077,10 @@
    "datum": "2019-06-07",
    "status": "aufgestockt",
    "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 13.5,
-   "datum": "2019-06-06",
-   "status": "aufgestockt",
-   "zuvor": 0.53
   }
  ],
  "shorts_kennzahlen": {
-  "neu_diese_woche": 0,
+  "neu_diese_woche": 1,
   "meistgeshortet": {
    "name": "Premier Oil PLC",
    "summe": 2145.63
@@ -1182,6 +1190,6 @@
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 143,
+ "meldungen_gesamt": 130,
  "llm_aktiv": false
 }
