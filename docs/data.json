@@ -1,9 +1,9 @@
 {
- "stand": "2026-09-09T07:04",
- "lauf": "2026090907",
+ "stand": "2026-09-09T10:04",
+ "lauf": "2026090910",
  "synthese": {
-  "kern": "Geopolitische Spannungen, steigende Kosten und Verschuldungsrisiken bündeln sich, während der Markt die Liquiditätsknappheit unterschätzt.",
-  "erlaeuterung": "Handelskonflikte, chinesische Inflation, staatliche Zinslasten und sektorale Ausfälle erhöhen das makroökonomische Risiko. Trotz hoher Risikoappetitwerte übersehen Investoren die anhaltend niedrige US‑Liquidität und das Null‑Perzentil in Europa."
+  "kern": "Allianz aus fiskalischer Belastung, geopolitischer Spannungen und sektoraler Störungen.",
+  "erlaeuterung": "Die Meldungen zeigen gleichzeitig steigende Staatsschulden, neue Handelshemmnisse, Inflationsdruck in China und operative Störungen, die den Risikoappetit belasten. Der Markt fokussiert vor allem den DAX‑Druck und Ölpreis, vernachlässigt jedoch die kumulative Liquiditäts‑ und Zinsbelastung."
  },
  "regime": [
   {
@@ -40,19 +40,19 @@
      "delta": 0
     },
     "eur": {
-     "wert": 82,
-     "delta": 2
+     "wert": 83,
+     "delta": 3
     }
    },
-   "differenz": 19
+   "differenz": 20
   },
   {
    "name": "risikoappetit",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 82,
-     "delta": 0
+     "wert": 80,
+     "delta": -7
     }
    }
   },
@@ -84,34 +84,31 @@
  ],
  "cluster": [
   {
-   "id": "9b7803cd",
-   "titel": "Handelskonflikt mit den USA: Kanadas Gegenzölle in Kraft",
-   "anriss": "Der Zollstreit in Nordamerika geht in die nächste Phase: Kanada erhebt ab sofort Gegenzölle auf bestimmte US-Importe. US-Präsident Trump drohte unterdessen dem kanadischen Flugzeughersteller Bombardier.",
+   "id": "df2f7969",
+   "titel": "Großbank: Unicredit beteiligt sich an deutschem Finanz-Start-up",
+   "anriss": "Das italienische Geldhaus kündigt eine Beteiligung an VC Trade an. Mit dem Einstieg will Unicredit die internationale Expansion des Start-ups unterstützen.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
+    "Handelsblatt Finanzen",
     "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 6,
+   "anzahl": 5,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/weltwirtschaft/kanada-usa-gegenzoelle-100.html",
-    "https://www.spiegel.de/wirtschaft/usa-donald-trump-verhaengt-einfuhrverbot-fuer-viele-waren-aus-kanada-a-99242e4c-9a14-4674-b884-35151ef8c14c#ref=rss",
-    "https://www.spiegel.de/wirtschaft/unternehmen/handelsstreit-mit-usa-kanada-setzt-gegenzoelle-in-kraft-donald-trump-droht-bombardier-a-efb205c8-ec95-443c-92bf-a1e4ef6911a9#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/handelskrieg-usa-kuendigen-einfuhrverbot-fuer-waren-aus-kanada-an-accg-201208627.html",
-    "https://www.manager-magazin.de/politik/weltwirtschaft/usa-donald-trump-verhaengt-einfuhrverbot-fuer-viele-waren-aus-kanada-a-3a81fb19-8e3d-4fd0-8841-2d5216d7d57c#ref=rss"
+    "https://www.handelsblatt.com/finanzen/banken-versicherungen/grossbank-unicredit-beteiligt-sich-an-deutschem-finanz-start-up/100252943.html",
+    "https://www.spiegel.de/wirtschaft/christian-lindner-frueherer-finanzminister-investiert-in-steuer-start-up-a-223249a4-e0dd-4024-b107-648e0e70f41d#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/scott-bessent-amerikas-aggressiver-finanzminister-accg-201182974.html",
+    "https://www.manager-magazin.de/unternehmen/tech/limetax-ex-finanzminister-christian-lindner-steigt-beim-steuerberater-start-up-ein-a-22ee5cc3-00b0-45c6-826d-05507be9612d#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/banken/finance-briefing-christian-lindner-steigt-bei-limetax-ein-deutsche-bank-wero-unicredit-a-11b729fb-7e8d-4ceb-a6bc-8b6072077d87#ref=rss"
    ],
-   "punkte": 20,
-   "text": "Kanada hat ab sofort Gegenzölle auf ausgewählte US‑Importe eingeführt, was den bilateralen Handelsstreit weiter verschärft. Gleichzeitig drohte US‑Präsident Trump dem kanadischen Flugzeughersteller Bombardier mit weiteren Gegenmaßnahmen.",
+   "punkte": 19,
+   "text": "Die italienische Großbank UniCredit wird Anteile an dem deutschen FinTech‑Start‑up VC Trade erwerben. Der Kapitalzufluss soll die internationale Expansion von VC Trade finanzieren.",
    "positiv": [
-    "US‑Inlandsproduzenten von Ersatzgütern: up"
+    "VC Trade (Aktie) ↑",
+    "Deutsche FinTech‑Branche ↑"
    ],
-   "negativ": [
-    "Kanadische Exportindustrien (z. B. Agrar‑ und Automobilsektor): down",
-    "US‑Exporteuren nach Kanada: down",
-    "Bombardier und verbundene Zulieferer: down"
-   ]
+   "negativ": []
   },
   {
    "id": "bdd0023f",
@@ -130,15 +127,68 @@
     "https://www.spiegel.de/wirtschaft/service/energiewende-anteil-erneuerbarer-energien-an-deutscher-stromerzeugung-auf-rekordhoch-a-7c155ef0-083a-453d-8a77-c0537b8242ab#ref=rss"
    ],
    "punkte": 17,
-   "text": "Im August steigt die chinesische Verbraucherpreisrate, getrieben von hohen Energiepreisen, während die Erzeugerpreise ebenfalls anziehen. Die Inflation belastet die Kaufkraft der Verbraucher und könnte die Geldpolitik straffen.",
+   "text": "Im August steigt die Inflation in China, getrieben von höheren Energiepreisen, wodurch die Verbraucherpreise weiter zunehmen. Die höheren Lebenshaltungskosten belasten die Kaufkraft der chinesischen Konsumenten.",
    "positiv": [
-    "Energieunternehmen (Rohöl, Erdgas): up",
-    "Chinesische Produzenten mit Preissetzungsspielraum: up"
+    "Energie‑ und Rohstoffproduzenten ↑"
    ],
    "negativ": [
-    "Konsumgüterhersteller mit preissensiblen Produkten: down",
-    "Chinesische Aktien im Allgemeinen (bei erwarteter Zinserhöhung): down",
-    "Deutsche Importeure aus China: down"
+    "Chinesische Konsumgüter‑ und Einzelhandelsunternehmen ↓",
+    "Verbraucherausgaben in China ↓"
+   ]
+  },
+  {
+   "id": "25c73e40",
+   "titel": "Dax aktuell: Dax gerät unter Druck – Ölpreis steigt über 100-Dollar-Marke",
+   "anriss": "Der wechselhafte Kampf um die Marke von 26.000 Punkten wird derzeit nur von einem kleinen Teil der Investoren geführt. Möglicherweise wird sich das zeitnah ändern.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-geraet-unter-druck-oelpreis-steigt-ueber-100-dollar-marke/100253133.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-unveraendert-auftrieb-bei-bondrenditen/100252811.html",
+    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-jones-iran-102.html",
+    "https://www.manager-magazin.de/finanzen/boerse/boerse-dax-im-minus-beiersdorf-aktie-im-blick-wall-street-unter-druck-oelpreise-ziehen-weiter-an-a-96974463-c6d8-446a-b350-3649808ac481#ref=rss"
+   ],
+   "punkte": 16,
+   "text": "Der DAX gerät unter Druck, während der Brent‑Ölpreis die 100‑Dollar‑Marke überschreitet und die Diskussion um die 26.000‑Punkte‑Marke fortbesteht. Nur ein kleiner Teil der Investoren ist aktiv, was die Kursentwicklung weiter belastet.",
+   "positiv": [
+    "Öl‑ und Energieunternehmen ↑"
+   ],
+   "negativ": [
+    "DAX‑Index ↓",
+    "Deutsche Großunternehmen (z. B. Automobil, Industrie) ↓"
+   ]
+  },
+  {
+   "id": "9b7803cd",
+   "titel": "Handelskonflikt mit den USA: Kanadas Gegenzölle in Kraft",
+   "anriss": "Der Zollstreit in Nordamerika geht in die nächste Phase: Kanada erhebt ab sofort Gegenzölle auf bestimmte US-Importe. US-Präsident Trump drohte unterdessen dem kanadischen Flugzeughersteller Bombardier.",
+   "region": "dach",
+   "quellen": [
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 5,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/weltwirtschaft/kanada-usa-gegenzoelle-100.html",
+    "https://www.spiegel.de/wirtschaft/usa-donald-trump-verhaengt-einfuhrverbot-fuer-viele-waren-aus-kanada-a-99242e4c-9a14-4674-b884-35151ef8c14c#ref=rss",
+    "https://www.spiegel.de/wirtschaft/unternehmen/handelsstreit-mit-usa-kanada-setzt-gegenzoelle-in-kraft-donald-trump-droht-bombardier-a-efb205c8-ec95-443c-92bf-a1e4ef6911a9#ref=rss",
+    "https://www.manager-magazin.de/politik/weltwirtschaft/usa-donald-trump-verhaengt-einfuhrverbot-fuer-viele-waren-aus-kanada-a-3a81fb19-8e3d-4fd0-8841-2d5216d7d57c#ref=rss",
+    "https://www.manager-magazin.de/politik/weltwirtschaft/bombardier-trump-droht-flugzeugbauer-aus-kanada-nach-gegenzoellen-a-4935c056-c79d-40fb-b3b3-50d2d499afac#ref=rss"
+   ],
+   "punkte": 16,
+   "text": "Kanada hat Gegenzölle auf ausgewählte US‑Importe eingeführt, was den Handelsstreit in Nordamerika weiter verschärft. Der US‑Präsident hat zudem Drohungen gegen den kanadischen Flugzeughersteller Bombardier ausgesprochen.",
+   "positiv": [
+    "Kanadische Produzenten von Ersatzgütern ↑"
+   ],
+   "negativ": [
+    "US‑Exporteuren nach Kanada ↓",
+    "Bombardier (Aktie) ↓"
    ]
   },
   {
@@ -159,14 +209,9 @@
     "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/pflegereform-carsten-linnemann-vor-der-herkulesaufgabe-201200075.html"
    ],
    "punkte": 15,
-   "text": "Die bevorstehende Reform der deutschen Pflegeversicherung wird einige Leistungen für pflegende Angehörige noch in diesem Jahr verfügbar machen, bevor die neuen Regelungen greifen. Langfristig erwarten viele Angehörige finanzielle Einbußen, weil Leistungen reduziert werden.",
-   "positiv": [
-    "Dienstleister für private Pflege und Betreuungssoftware: up"
-   ],
-   "negativ": [
-    "Pflegende Angehörige und deren Haushalte: down",
-    "Versicherungsunternehmen im Pflegebereich: down"
-   ]
+   "text": "Die Pflegeversicherung wird reformiert. Für viele pflegende Angehörige dürfte das zu finanziellen Einbußen führen. Doch manche Leistungen können sie dieses Jahr noch nutzen. Eine Übersicht.",
+   "positiv": [],
+   "negativ": []
   },
   {
    "id": "f2be2b87",
@@ -186,40 +231,13 @@
     "https://www.faz.net/aktuell/wirtschaft/klingbeils-teufelskreis-jetzt-geht-es-um-den-haushalt-des-bundes-201187927.html"
    ],
    "punkte": 14,
-   "text": "Neue Berechnungen zeigen, dass die Zinslasten der öffentlichen Haushalte in den kommenden Jahren stark ansteigen werden, weil sowohl die Schuldenquote als auch die Zinsniveaus steigen. Der dadurch verringerte fiskalische Spielraum könnte die staatlichen Ausgaben bremsen.",
-   "positiv": [
-    "Banken und Finanzinstitute (höhere Zinsmargen): up"
-   ],
-   "negativ": [
-    "Staatsanleihen (Preisverlust bei steigenden Renditen): down",
-    "Unternehmen mit hoher Staatsabhängigkeit (z. B. Infrastruktur, Verteidigung): down"
-   ]
-  },
-  {
-   "id": "de879139",
-   "titel": "Französisches KI-Start-up Mistral sammelt drei Milliarden Euro ein",
-   "anriss": "In der bisher größten Finanzierungsrunde in Europa hat Mistral drei Milliarden Euro eingesammelt. Das französische Start-up setzt auf offene KI-Modelle und präsentiert sich als Gegenentwurf zu den US-Konzernen.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/unternehmen/mistral-kuenstliche-intelligenz-start-up-100.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-vw-erwaegt-den-verkauf-von-ducati-faz-200452404.html",
-    "https://www.manager-magazin.de/unternehmen/tech/the-exploration-company-muenchner-raumfahrt-start-up-sammelt-450-millionen-dollar-ein-a-13e0a3d2-71c1-4d21-9808-7cb5436c5b06#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/tech/mistral-franzoesisches-ki-start-up-sammelt-3-milliarden-dollar-ein-a-85519008-3e82-47d4-9fea-412ab3a2960d#ref=rss"
-   ],
-   "punkte": 14,
-   "text": "In der bisher größten Finanzierungsrunde in Europa hat Mistral drei Milliarden Euro eingesammelt. Das französische Start-up setzt auf offene KI-Modelle und präsentiert sich als Gegenentwurf zu den US-Konzernen.",
+   "text": "Nicht nur die Staatsschulden steigen, auch die Zinszahlungen klettern neuen Berechnungen zufolge in den kommenden Jahren deutlich nach oben. Das vermindert den Spielraum für den Haushalt. Von Till Bücker.",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "f7e602f6",
-   "titel": "Großbritannien: Airlines fordern Konsequenzen nach über 1000 Flugausfällen",
+   "id": "f7ff5ba6",
+   "titel": "Großbritannien: Mehr als 1000 Flugausfälle nach Störung der Flugsicherung",
    "anriss": "Wegen einer technischen Störung bei der Flugsicherung sind in Großbritannien zahlreiche Flüge ausgefallen. Betroffene Airlines fordern nun personelle Konsequenzen – während Fluggäste weiter Geduld brauchen.",
    "region": "dach",
    "quellen": [
@@ -240,52 +258,31 @@
    "negativ": []
   },
   {
-   "id": "08d8c5c9",
-   "titel": "Börse am 9. September: Sechs Punkte, die für Anleger heute wichtig sind",
-   "anriss": "Der Dax-Handel ist wieder geprägt durch sehr geringe Tagesumsätze. Am Mittwoch geht es zum Handelsstart aber voraussichtlich erneut unter 26.000 Punkte.",
+   "id": "92b04cdb",
+   "titel": "Steuern: Finanzministerium plant wohl neue Besteuerung von Kryptowerten ab 2027",
+   "anriss": "Bislang können Gewinne aus Kryptowerten nach einer Haltefrist von zwölf Monaten in der Regel steuerfrei bleiben. Laut einem Medienbericht könnte sich das bald ändern.",
    "region": "dach",
    "quellen": [
     "Handelsblatt Finanzen",
-    "Tagesschau Wirtschaft",
+    "SPIEGEL Wirtschaft",
     "manager magazin"
    ],
    "anzahl": 3,
    "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sechs-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
-    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-jones-iran-102.html",
-    "https://www.manager-magazin.de/finanzen/boerse/boerse-dax-im-minus-beiersdorf-aktie-im-blick-wall-street-unter-druck-oelpreise-ziehen-weiter-an-a-96974463-c6d8-446a-b350-3649808ac481#ref=rss"
+    "https://www.handelsblatt.com/finanzen/steuern-recht/steuern/steuern-finanzministerium-plant-wohl-besteuerung-von-kryptowerten-ab-2027-01/100253020.html",
+    "https://www.spiegel.de/wirtschaft/service/kryptosteuer-von-25-prozent-klingbeil-legt-gesetzesentwurf-vor-a-54a11da3-e838-4e28-be75-7f24f3ba8b39#ref=rss",
+    "https://www.manager-magazin.de/finanzen/geldanlage/geldanlage-was-klingbeils-griff-nach-den-kryptogewinnen-fuer-anleger-bedeutet-a-e36a1a53-7266-45dd-a10c-7f47a25d01f4#ref=rss"
    ],
    "punkte": 13,
-   "text": "Der Dax-Handel ist wieder geprägt durch sehr geringe Tagesumsätze. Am Mittwoch geht es zum Handelsstart aber voraussichtlich erneut unter 26.000 Punkte.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "71140626",
-   "titel": "Märkte Insight: Die Wahl in Sachsen-Anhalt droht später auf die Märkte durchzuschlagen",
-   "anriss": "Kurzfristig reagieren die Investoren kaum auf den Sieg der AfD in Sachsen-Anhalt. Das könnte sich schon bald ändern. Denn Deutschland steht auf dem Prüfstand, meint Michael Maisch.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "Handelsblatt Finanzen",
-    "SPIEGEL Wirtschaft"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/anlagestrategie/kolumnen/sachsen-anhalt-die-wahl-droht-spaeter-auf-die-maerkte-durchzuschlagen/100252379.html",
-    "https://www.spiegel.de/wirtschaft/soziales/sachsen-anhalt-wirtschaftsweise-warnen-nach-afd-erfolg-vor-aufschieben-der-reformen-a-56cb5164-3aa9-403b-bb40-52e49f5dd2a9#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/wahl-in-sachsen-anhalt-keine-zeit-fuer-eine-haengepartie-201201935.html"
-   ],
-   "punkte": 13,
-   "text": "Kurzfristig reagieren die Investoren kaum auf den Sieg der AfD in Sachsen-Anhalt. Das könnte sich schon bald ändern. Denn Deutschland steht auf dem Prüfstand, meint Michael Maisch.",
+   "text": "Bislang können Gewinne aus Kryptowerten nach einer Haltefrist von zwölf Monaten in der Regel steuerfrei bleiben. Laut einem Medienbericht könnte sich das bald ändern.",
    "positiv": [],
    "negativ": []
   }
  ],
  "ketten": [],
  "gegenthese": {
-  "konsens": "Markt sieht steigende Risiken: Kanadas Gegenzölle belasten Rohstoffpreise, Chinas August‑Inflation erhöht Sorge um Nachfrage, Staatsverschuldung treibt Zinslast, Mistral‑Finanzierung gilt als spekulativ, UK‑Flugausfälle drücken Airline‑Aktien.",
-  "gegen": "Datenlage dünn: Chinas Preisentwicklung könnte vorübergehend sein, Zinskurve flacht, Mistral‑Bewertung könnte durch KI‑Nachfrage gerechtfertigt sein, und Flugausfälle sind operativ bedingt, nicht regulatorisch."
+  "konsens": "Markt geht von weiter steigenden Zinsen aus, Inflationsdruck bleibt, Risikoaversion dominiert; DAX unter Druck, Öl‑Rally stärkt Rohstoffe, geopolitische Spannungen belasten Aktien.",
+  "gegen": "Argument: Die Datenlage zu Chinas Inflation und den kanadischen Gegenzöllen ist dünn; mögliche Gegenmaßnahmen könnten die Risiken reduzieren."
  },
  "matrix": [
   {
@@ -402,11 +399,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "126.7 Mrd"
+     "124.2 Mrd"
     ],
     [
      "KGV (erw.)",
-     "24,0"
+     "23,5"
     ],
     [
      "Umsatzwachstum",
@@ -424,7 +421,7 @@
     ],
     [
      "Newsletter",
-     "in 2 Clustern"
+     "in 3 Clustern"
     ],
     [
      "Reddit",
@@ -439,12 +436,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Siemens Energy verfügt über ein breites Produktportfolio (Gasturbinen, Grid‑Technologien, Siemens Gamesa) und verzeichnet ein starkes Umsatzwachstum von +18 %. Das Kurs‑Gewinn‑Verhältnis von 24 ist im Branchenvergleich moderat. Analysten‑Consensus ist eindeutig bullish (19 Buy), was auf Vertrauen in die langfristige Marktposition hindeutet.",
-   "dagegen": "Das KGV von 24 kann als relativ hoch angesehen werden, insbesondere bei Unsicherheiten in der Transformation zu erneuerbaren Energien. Trotz Analysten‑Buy‑Stimmung gibt es 2 Verkauf‑ und 4 Halten‑Empfehlungen, was auf Bedenken hinsichtlich Margen und Umsetzung hinweist. Reddit‑Erwähnungen sind kaum vorhanden, was auf geringe Retail‑Aufmerksamkeit schließen lässt.",
+   "dafuer": "Analysten sehen ein starkes Umsatzwachstum von +18 % und ein moderates KGV von 23,5 als Zeichen von Bewertungsattraktivität. Der Fokus auf Gas‑ und Dampfturbinen, digitale Services und die wachsende Nachfrage nach erneuerbaren Lösungen stärken das langfristige Marktpotenzial. Das Kursziel von 196 EUR spiegelt diese Erwartung wider.",
+   "dagegen": "Risiken bestehen in hoher Verschuldung, Lieferverzögerungen bei Siemens Gamesa‑Windturbinen und möglicher Margendruck durch steigende Rohstoffpreise. Das KGV von 23,5 könnte im Vergleich zu Wettbewerbern überbewertet sein. Trotz 19 Kauf‑ und nur 2 Verkaufs‑Ratings fehlt klare Marktstimmung, da Reddit kaum erwähnt wird.",
    "katalysatoren": [
-    "Auslieferung und Inbetriebnahme der nächsten Generation von Gasturbinen (z. B. SG‑8)",
-    "Gewinnung großer Grid‑Contracts für erneuerbare‑Energie‑Integration in Europa und Nordamerika",
-    "Steigerung der Offshore‑Wind‑Auftragsbücher von Siemens Gamesa und damit verbundene Lieferungen"
+    "Auslieferung neuer Gasturbinen‑Aufträge im Q3 2024",
+    "Start der Serienproduktion von Offshore‑Windturbinen bei Siemens Gamesa 2025",
+    "Veröffentlichung der Ergebnisse des Kosten‑ und Effizienzprogramms FY 2024"
    ]
   },
   "RHM.DE": {
@@ -455,11 +452,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "49.1 Mrd"
+     "47.4 Mrd"
     ],
     [
      "KGV (erw.)",
-     "19,6"
+     "18,9"
     ],
     [
      "Umsatzwachstum",
@@ -492,13 +489,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Dafür spricht das robuste Umsatzwachstum von +69 % und das diversifizierte Portfolio in Fahrzeugsystemen, Waffen und Elektronik, das weltweit agiert. Das Kurs‑Gewinn‑Verhältnis von 19,6 liegt im Branchenvergleich moderat. 18 Analysten bewerten die Aktie mit „Kauf“, was das Vertrauen in zukünftige Aufträge widerspiegelt.",
-   "dagegen": "Dagegen könnte die Bewertung als hoch empfunden werden, weil das KGV von 19,6 bei erwarteten steigenden Zinsen und möglicher Konjunkturabschwächung riskanter ist. Die Abhängigkeit von staatlichen Rüstungsaufträgen macht das Unternehmen anfällig für politische Entscheidungen und Exportbeschränkungen.",
-   "katalysatoren": [
-    "Veröffentlichung des deutschen Verteidigungsbudgets 2025",
-    "Quartalsbericht Q3 2026",
-    "Zusage für neue Schützenpanzer‑Aufträge"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "ASML.AS": {
    "ticker": "ASML.AS",
@@ -508,11 +501,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "583.1 Mrd"
+     "573.2 Mrd"
     ],
     [
      "KGV (erw.)",
-     "29,3"
+     "28,9"
     ],
     [
      "Umsatzwachstum",
@@ -530,7 +523,7 @@
     ],
     [
      "Newsletter",
-     "in 1 Clustern"
+     "nicht erwaehnt"
     ],
     [
      "Reddit",
@@ -545,9 +538,13 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "Die Analysten‑Stimmungszahl von 39 Käufen gegenüber nur einem Verkauf spricht für ASML. Das Unternehmen verzeichnet ein starkes Umsatzwachstum von 21 % und ein Kursziel von 2.033 EUR, deutlich über dem aktuellen Kurs. Marktführer im EUV‑Lithografie‑Segment und hohe Nachfrage nach fortschrittlichen Halbleitern stärken die Perspektiven.",
+   "dagegen": "Das Kurs‑Gewinn‑Verhältnis von 28,9 liegt über dem Branchendurchschnitt und könnte die Bewertung überhöhen. Eine mögliche Abschwächung der Chip‑Nachfrage oder Verzögerungen bei neuen EUV‑Systemen würden das Wachstum bremsen. Fehlende Insider‑Informationen und kaum Short‑Aktivität lassen Unsicherheit über die Preisentwicklung bestehen.",
+   "katalysatoren": [
+    "Einführung des nächsten EUV‑High‑NA‑Systems (geplant für 2025)",
+    "Quartalsbericht Q3 2024 mit Fokus auf Umsatz‑ und Margenentwicklung",
+    "Abschluss großer Kundenverträge (z. B. TSMC, Samsung) oder Erweiterung der Produktionskapazitäten"
+   ]
   },
   "SU.PA": {
    "ticker": "SU.PA",
@@ -557,11 +554,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "168.4 Mrd"
+     "164.3 Mrd"
     ],
     [
      "KGV (erw.)",
-     "24,7"
+     "24,1"
     ],
     [
      "Umsatzwachstum",
@@ -579,7 +576,7 @@
     ],
     [
      "Newsletter",
-     "in 13 Clustern"
+     "in 9 Clustern"
     ],
     [
      "Reddit",
@@ -594,13 +591,9 @@
      "1648,06 % ueber 1700 Halter"
     ]
    ],
-   "dafuer": "Analysten bewerten Schneider Electric stark (21 Kauf, 3 Halten) und sehen ein robustes Umsatzwachstum von 10 % sowie ein moderates KGV von 24,7. Das diversifizierte Portfolio in Energie‑Management, Industrie‑Automation und Gebäudetechnik bietet langfristige Nachfrage und stabile Cashflows.",
-   "dagegen": "Trotz positiver Analystenmeinungen gibt es ein extrem hohes Short‑Interest von über 1.700 % (1648 % über 1.700 Halter), was auf erhebliche Skepsis hinsichtlich Bewertung oder Wachstumsperspektiven hindeutet. Reddit erwähnt das Unternehmen kaum, was auf geringe Retail‑Aufmerksamkeit schließen lässt.",
-   "katalysatoren": [
-    "Q3‑Ergebnisbericht mit erwarteter Umsatzsteigerung",
-    "Einführung neuer IoT‑basierten Gebäudesteuerungslösungen",
-    "Abschluss von Großprojekten im Bereich erneuerbare Energien (Solar‑ und Wind‑Microgrids)"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "GEV": {
    "ticker": "GEV",
@@ -632,7 +625,7 @@
     ],
     [
      "Newsletter",
-     "in 2 Clustern"
+     "in 1 Clustern"
     ],
     [
      "Reddit",
@@ -647,9 +640,13 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "Die Mehrheit der Analysten (30 Kauf‑Empfehlungen) bewertet GE Vernova positiv. Das Unternehmen verzeichnet ein starkes Umsatzwachstum von 22 % und profitiert von seiner breiten Präsenz in Power, Wind und Electrification. Das hohe Markt‑ und Zukunftspotenzial im globalen Energiemarkt unterstützt die optimistische Sicht.",
+   "dagegen": "Gegen die positive Analystenmeinung spricht das Insider‑Verhalten: vier Verkäufe bei null Käufen deuten auf mögliche Bedenken. Das forward‑KGV von 38,4 ist hoch, das Unternehmen erscheint überbewertet. Reddit‑Erwähnungen sind kaum vorhanden, was auf schwaches Retail‑Interesse hindeutet.",
+   "katalysatoren": [
+    "Veröffentlichung des Q3‑Ergebnisberichts (voraussichtlich Q4 2026)",
+    "Einführung der neuen GE Haliade‑X‑Windturbine",
+    "EU‑ und US‑Subventionspakete für erneuerbare Energien"
+   ]
   },
   "CCJ": {
    "ticker": "CCJ",
@@ -671,7 +668,7 @@
     ],
     [
      "Kursziel",
-     "132 USD"
+     "131 USD"
     ]
    ],
    "quellen": [
@@ -1086,30 +1083,6 @@
  "gespraech": [],
  "termine": [
   {
-   "datum": "2026-09-09",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-10",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-10",
-   "zeit": "",
-   "region": "us",
-   "was": "Producer Price Index",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
    "datum": "2026-09-10",
    "zeit": "14:15",
    "region": "eu",
@@ -1118,70 +1091,14 @@
    "wucht": "hoch"
   },
   {
-   "datum": "2026-09-11",
-   "zeit": "",
-   "region": "us",
-   "was": "Consumer Price Index",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-11",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-11",
-   "zeit": "",
-   "region": "us",
-   "was": "Research Consumer Price Index",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-12",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-13",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-14",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-15",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
    "datum": "2026-09-16",
-   "zeit": "",
+   "zeit": "20:00",
    "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
+   "was": "Fed-Zinsentscheid",
+   "konsens": "-25 Bp",
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 150,
+ "meldungen_gesamt": 153,
  "llm_aktiv": false
 }
