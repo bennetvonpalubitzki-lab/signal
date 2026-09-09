@@ -1,9 +1,9 @@
 {
- "stand": "2026-09-09T10:04",
- "lauf": "2026090910",
+ "stand": "2026-09-09T13:05",
+ "lauf": "2026090913",
  "synthese": {
-  "kern": "Allianz aus fiskalischer Belastung, geopolitischer Spannungen und sektoraler Störungen.",
-  "erlaeuterung": "Die Meldungen zeigen gleichzeitig steigende Staatsschulden, neue Handelshemmnisse, Inflationsdruck in China und operative Störungen, die den Risikoappetit belasten. Der Markt fokussiert vor allem den DAX‑Druck und Ölpreis, vernachlässigt jedoch die kumulative Liquiditäts‑ und Zinsbelastung."
+  "kern": "Mehrere geopolitische und fiskalische Belastungen treffen gleichzeitig, während der Markt hauptsächlich Energie‑ und Inflationsdaten beachtet.",
+  "erlaeuterung": "China‑Inflation, US‑Rüstungsproduktion, kanadische Gegenzölle und steigende Zinslasten erhöhen das makroökonomische Risiko. Der Fokus auf Ölpreise und DAX‑Bewegungen blendet die wachsende fiskalische Belastung und regulatorische Eingriffe aus."
  },
  "regime": [
   {
@@ -51,8 +51,8 @@
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 80,
-     "delta": -7
+     "wert": 79,
+     "delta": -8
     }
    }
   },
@@ -84,33 +84,6 @@
  ],
  "cluster": [
   {
-   "id": "df2f7969",
-   "titel": "Großbank: Unicredit beteiligt sich an deutschem Finanz-Start-up",
-   "anriss": "Das italienische Geldhaus kündigt eine Beteiligung an VC Trade an. Mit dem Einstieg will Unicredit die internationale Expansion des Start-ups unterstützen.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "Handelsblatt Finanzen",
-    "SPIEGEL Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 5,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/banken-versicherungen/grossbank-unicredit-beteiligt-sich-an-deutschem-finanz-start-up/100252943.html",
-    "https://www.spiegel.de/wirtschaft/christian-lindner-frueherer-finanzminister-investiert-in-steuer-start-up-a-223249a4-e0dd-4024-b107-648e0e70f41d#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/scott-bessent-amerikas-aggressiver-finanzminister-accg-201182974.html",
-    "https://www.manager-magazin.de/unternehmen/tech/limetax-ex-finanzminister-christian-lindner-steigt-beim-steuerberater-start-up-ein-a-22ee5cc3-00b0-45c6-826d-05507be9612d#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/banken/finance-briefing-christian-lindner-steigt-bei-limetax-ein-deutsche-bank-wero-unicredit-a-11b729fb-7e8d-4ceb-a6bc-8b6072077d87#ref=rss"
-   ],
-   "punkte": 19,
-   "text": "Die italienische Großbank UniCredit wird Anteile an dem deutschen FinTech‑Start‑up VC Trade erwerben. Der Kapitalzufluss soll die internationale Expansion von VC Trade finanzieren.",
-   "positiv": [
-    "VC Trade (Aktie) ↑",
-    "Deutsche FinTech‑Branche ↑"
-   ],
-   "negativ": []
-  },
-  {
    "id": "bdd0023f",
    "titel": "Asien: Inflation in China zieht im August an – Energiepreise treiben Erzeugerpreise",
    "anriss": "Die geopolitischen Spannungen und die daraus resultierenden hohen Energiepreise setzen die chinesischen Verbraucher zunehmend unter Druck. Die Verbraucherpreise steigen.",
@@ -127,19 +100,45 @@
     "https://www.spiegel.de/wirtschaft/service/energiewende-anteil-erneuerbarer-energien-an-deutscher-stromerzeugung-auf-rekordhoch-a-7c155ef0-083a-453d-8a77-c0537b8242ab#ref=rss"
    ],
    "punkte": 17,
-   "text": "Im August steigt die Inflation in China, getrieben von höheren Energiepreisen, wodurch die Verbraucherpreise weiter zunehmen. Die höheren Lebenshaltungskosten belasten die Kaufkraft der chinesischen Konsumenten.",
+   "text": "Im August hat sich die Inflation in China beschleunigt, weil die Energiepreise sowohl die Erzeugerpreise als auch die Verbraucherpreise nach oben treiben. Der steigende Preisdruck belastet die Kaufkraft der chinesischen Konsumenten und könnte die Inlandsnachfrage dämpfen.",
    "positiv": [
-    "Energie‑ und Rohstoffproduzenten ↑"
+    "Energie‑Sektor (China)"
    ],
    "negativ": [
-    "Chinesische Konsumgüter‑ und Einzelhandelsunternehmen ↓",
-    "Verbraucherausgaben in China ↓"
+    "Konsumgüter‑Hersteller (China)",
+    "Chinesische Einzelhandelsaktien"
    ]
   },
   {
-   "id": "25c73e40",
-   "titel": "Dax aktuell: Dax gerät unter Druck – Ölpreis steigt über 100-Dollar-Marke",
-   "anriss": "Der wechselhafte Kampf um die Marke von 26.000 Punkten wird derzeit nur von einem kleinen Teil der Investoren geführt. Möglicherweise wird sich das zeitnah ändern.",
+   "id": "4f38169f",
+   "titel": "US-Rüstungsfirma will ab 2027 Langstrecken-Marschflugkörper in Sachsen bauen",
+   "anriss": "Das US-Unternehmen Covenant plant den Aufbau seines weltweit größten Produktionsstandorts bei Leipzig. Vom kommenden Jahr an soll dort der Langstrecken-Marschflugkörper \"Anthem\" gefertigt werden.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.tagesschau.de/inland/regional/sachsen/langstrecken-flugkoerper-anthem-produktion,covenant-ruestungsfirma-100.html",
+    "https://www.spiegel.de/wirtschaft/unternehmen/covenant-us-ruestungsfirma-will-marschflugkoerper-bei-leipzig-produzieren-a-2eed6447-3d20-4a89-89d6-e49f7ff24267#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-anthropic-forscher-warnt-ki-koennte-uns-bis-2030-alle-toeten-faz-200452404.html",
+    "https://www.manager-magazin.de/unternehmen/industrie/ruestungsindustrie-us-firma-covenant-plant-marschflugkoerperwerk-bei-leipzig-peter-thiel-investiert-a-47249fec-dcf1-436d-b33b-39e90e124f1b#ref=rss"
+   ],
+   "punkte": 16,
+   "text": "Das US‑Rüstungsunternehmen Covenant plant ab 2027 den Bau seines weltweit größten Produktionsstandorts für den Langstrecken‑Marschflugkörper „Anthem“ in der Nähe von Leipzig, Sachsen. Das Projekt erhöht die Auftragslage der deutschen Rüstungs‑ und Zulieferindustrie.",
+   "positiv": [
+    "Deutsche Rüstungs‑ und Luftfahrtzulieferer",
+    "Industrie‑Bau‑ und Maschinenbauunternehmen"
+   ],
+   "negativ": []
+  },
+  {
+   "id": "046a7334",
+   "titel": "Dax aktuell: Dax fällt auf tiefsten Stand seit Juli – Ölpreis steigt über 100-Dollar-Marke",
+   "anriss": "Anleger reagieren verunsichert auf weiter steigende Energiepreise im Zuge der erneuten Eskalation im Nahen Osten. Ausgehend vom Rekordhoch hat der Dax in kurzer Zeit 1000 Punkte verloren.",
    "region": "dach",
    "quellen": [
     "Handelsblatt Finanzen",
@@ -148,19 +147,19 @@
    ],
    "anzahl": 4,
    "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-geraet-unter-druck-oelpreis-steigt-ueber-100-dollar-marke/100253133.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-faellt-auf-tiefstand-seit-juli-oelpreis-ueber-100-dollar/100253133.html",
     "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-unveraendert-auftrieb-bei-bondrenditen/100252811.html",
-    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-jones-iran-102.html",
+    "https://www.tagesschau.de/wirtschaft/finanzen/marktbericht-oel-brent-100.html",
     "https://www.manager-magazin.de/finanzen/boerse/boerse-dax-im-minus-beiersdorf-aktie-im-blick-wall-street-unter-druck-oelpreise-ziehen-weiter-an-a-96974463-c6d8-446a-b350-3649808ac481#ref=rss"
    ],
    "punkte": 16,
-   "text": "Der DAX gerät unter Druck, während der Brent‑Ölpreis die 100‑Dollar‑Marke überschreitet und die Diskussion um die 26.000‑Punkte‑Marke fortbesteht. Nur ein kleiner Teil der Investoren ist aktiv, was die Kursentwicklung weiter belastet.",
+   "text": "Der DAX fiel auf den tiefsten Stand seit Juli und verlor innerhalb kurzer Zeit rund 1.000 Punkte, nachdem der Ölpreis die 100‑Dollar‑Marke überschritt und die Spannungen im Nahen Osten erneut zunahmen. Die steigenden Energiepreise belasten energieintensive deutsche Unternehmen und treiben die Marktstimmung nach unten.",
    "positiv": [
-    "Öl‑ und Energieunternehmen ↑"
+    "Energie‑ und Rohstoffunternehmen (global)"
    ],
    "negativ": [
-    "DAX‑Index ↓",
-    "Deutsche Großunternehmen (z. B. Automobil, Industrie) ↓"
+    "Deutsche Industrie‑ und Automobilaktien",
+    "DAX‑Index"
    ]
   },
   {
@@ -176,20 +175,65 @@
    "anzahl": 5,
    "links": [
     "https://www.tagesschau.de/wirtschaft/weltwirtschaft/kanada-usa-gegenzoelle-100.html",
+    "https://www.spiegel.de/wirtschaft/kanada-und-usa-im-handelskrieg-ottawa-laesst-sich-nicht-einschuechtern-a-2c8682ed-c9bd-41c8-bdb8-f1b17576b428#ref=rss",
     "https://www.spiegel.de/wirtschaft/usa-donald-trump-verhaengt-einfuhrverbot-fuer-viele-waren-aus-kanada-a-99242e4c-9a14-4674-b884-35151ef8c14c#ref=rss",
-    "https://www.spiegel.de/wirtschaft/unternehmen/handelsstreit-mit-usa-kanada-setzt-gegenzoelle-in-kraft-donald-trump-droht-bombardier-a-efb205c8-ec95-443c-92bf-a1e4ef6911a9#ref=rss",
     "https://www.manager-magazin.de/politik/weltwirtschaft/usa-donald-trump-verhaengt-einfuhrverbot-fuer-viele-waren-aus-kanada-a-3a81fb19-8e3d-4fd0-8841-2d5216d7d57c#ref=rss",
     "https://www.manager-magazin.de/politik/weltwirtschaft/bombardier-trump-droht-flugzeugbauer-aus-kanada-nach-gegenzoellen-a-4935c056-c79d-40fb-b3b3-50d2d499afac#ref=rss"
    ],
    "punkte": 16,
-   "text": "Kanada hat Gegenzölle auf ausgewählte US‑Importe eingeführt, was den Handelsstreit in Nordamerika weiter verschärft. Der US‑Präsident hat zudem Drohungen gegen den kanadischen Flugzeughersteller Bombardier ausgesprochen.",
-   "positiv": [
-    "Kanadische Produzenten von Ersatzgütern ↑"
-   ],
+   "text": "Kanada hat Gegenzölle auf ausgewählte US‑Importe eingeführt, wodurch der Handelskonflikt zwischen den beiden Ländern weiter eskaliert; gleichzeitig drohte US‑Präsident Trump dem kanadischen Flugzeughersteller Bombardier. Die Vergeltungsmaßnahmen belasten Exporteure beider Länder und insbesondere die Luftfahrtbranche.",
+   "positiv": [],
    "negativ": [
-    "US‑Exporteuren nach Kanada ↓",
-    "Bombardier (Aktie) ↓"
+    "Kanadische Exportindustrien",
+    "US‑Exporteuren nach Kanada",
+    "Bombardier und verwandte Luftfahrtunternehmen"
    ]
+  },
+  {
+   "id": "f7ff5ba6",
+   "titel": "Großbritannien: Mehr als 1000 Flugausfälle nach Störung der Flugsicherung",
+   "anriss": "Wegen einer technischen Störung bei der Flugsicherung sind in Großbritannien zahlreiche Flüge ausgefallen. Betroffene Airlines fordern nun personelle Konsequenzen – während Fluggäste weiter Geduld brauchen.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 5,
+   "links": [
+    "https://www.spiegel.de/wirtschaft/grossbritannien-airlines-fordern-konsequenzen-nach-ueber-1000-flugausfaellen-a-bf1cafcb-6797-4818-afbd-6f03c173d647#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/flugchaos-in-grossbritannien-auch-deutsche-fluege-fallen-aus-201207838.html",
+    "https://www.faz.net/aktuell/wirtschaft/auto-verkehr/grossbritannien-mit-systemproblemen-mehr-als-1300-flugausfaelle-accg-201208734.html",
+    "https://www.manager-magazin.de/unternehmen/mobilitaet/mclaren-sportwagenhersteller-plant-1000-neue-jobs-in-grossbritannien-a-819388dc-ef8b-4c0a-8c74-17344d431b34#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/mobilitaet/grossbritannien-mehr-als-1300-flugausfaelle-nach-stoerung-der-flugsicherung-a-b8554ab9-fa00-4e2f-8785-2444fa17c4df#ref=rss"
+   ],
+   "punkte": 16,
+   "text": "Wegen einer technischen Störung bei der Flugsicherung sind in Großbritannien zahlreiche Flüge ausgefallen. Betroffene Airlines fordern nun personelle Konsequenzen – während Fluggäste weiter Geduld brauchen.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "d9024074",
+   "titel": "Kryptosteuer: Lars Klingbeil plant Abgabe von 25 Prozent auf Gewinne",
+   "anriss": "Gewinne aus Kryptowerten wie Bitcoin sind in Deutschland unter Umständen vollständig steuerfrei. Bundesfinanzminister Lars Klingbeil (SPD) will das ändern. Einen Freibetrag soll es aber weiterhin geben.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "heise",
+    "manager magazin"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.spiegel.de/wirtschaft/service/kryptosteuer-von-25-prozent-klingbeil-legt-gesetzesentwurf-vor-a-54a11da3-e838-4e28-be75-7f24f3ba8b39#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/abgeltungsteuer-fuer-kryptowaehrungen-geplant-accg-201209427.html",
+    "https://www.manager-magazin.de/finanzen/geldanlage/geldanlage-was-klingbeils-griff-nach-den-kryptogewinnen-fuer-anleger-bedeutet-a-e36a1a53-7266-45dd-a10c-7f47a25d01f4#ref=rss",
+    "https://www.heise.de/news/Bundesfinanzministerium-plant-Reform-der-Kryptobesteuerung-11446742.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 16,
+   "text": "Gewinne aus Kryptowerten wie Bitcoin sind in Deutschland unter Umständen vollständig steuerfrei. Bundesfinanzminister Lars Klingbeil (SPD) will das ändern. Einen Freibetrag soll es aber weiterhin geben.",
+   "positiv": [],
+   "negativ": []
   },
   {
    "id": "67343017",
@@ -214,75 +258,71 @@
    "negativ": []
   },
   {
-   "id": "f2be2b87",
-   "titel": "Wachsende Verschuldung: Dem Staat drohen gewaltige Zinskosten",
-   "anriss": "Nicht nur die Staatsschulden steigen, auch die Zinszahlungen klettern neuen Berechnungen zufolge in den kommenden Jahren deutlich nach oben. Das vermindert den Spielraum für den Haushalt. Von Till Bücker.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/finanzen/staatsverschuldung-zinskosten-deutschland-100.html",
-    "https://www.spiegel.de/wirtschaft/grossbritannien-zahlt-rekordzinsen-fuer-neue-schulden-a-16caa0ee-79dd-42d6-9dc5-be55dbea0c28#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/deutschlands-zinsfalle-schuldenberg-wird-zum-problem-201205940.html",
-    "https://www.faz.net/aktuell/wirtschaft/klingbeils-teufelskreis-jetzt-geht-es-um-den-haushalt-des-bundes-201187927.html"
-   ],
-   "punkte": 14,
-   "text": "Nicht nur die Staatsschulden steigen, auch die Zinszahlungen klettern neuen Berechnungen zufolge in den kommenden Jahren deutlich nach oben. Das vermindert den Spielraum für den Haushalt. Von Till Bücker.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "f7ff5ba6",
-   "titel": "Großbritannien: Mehr als 1000 Flugausfälle nach Störung der Flugsicherung",
-   "anriss": "Wegen einer technischen Störung bei der Flugsicherung sind in Großbritannien zahlreiche Flüge ausgefallen. Betroffene Airlines fordern nun personelle Konsequenzen – während Fluggäste weiter Geduld brauchen.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.spiegel.de/wirtschaft/grossbritannien-airlines-fordern-konsequenzen-nach-ueber-1000-flugausfaellen-a-bf1cafcb-6797-4818-afbd-6f03c173d647#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/auto-verkehr/systemproblem-fuehrt-zu-mehr-als-1300-flugausfaellen-in-grossbritannien-accg-201208734.html",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/flugchaos-in-grossbritannien-auch-deutsche-fluege-fallen-aus-201207838.html",
-    "https://www.manager-magazin.de/unternehmen/mobilitaet/grossbritannien-mehr-als-1300-flugausfaelle-nach-stoerung-der-flugsicherung-a-b8554ab9-fa00-4e2f-8785-2444fa17c4df#ref=rss"
-   ],
-   "punkte": 14,
-   "text": "Wegen einer technischen Störung bei der Flugsicherung sind in Großbritannien zahlreiche Flüge ausgefallen. Betroffene Airlines fordern nun personelle Konsequenzen – während Fluggäste weiter Geduld brauchen.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "92b04cdb",
-   "titel": "Steuern: Finanzministerium plant wohl neue Besteuerung von Kryptowerten ab 2027",
-   "anriss": "Bislang können Gewinne aus Kryptowerten nach einer Haltefrist von zwölf Monaten in der Regel steuerfrei bleiben. Laut einem Medienbericht könnte sich das bald ändern.",
+   "id": "df2f7969",
+   "titel": "Großbank: Unicredit beteiligt sich an deutschem Finanz-Start-up",
+   "anriss": "Das italienische Geldhaus kündigt eine Beteiligung an VC Trade an. Mit dem Einstieg will Unicredit die internationale Expansion des Start-ups unterstützen.",
    "region": "dach",
    "quellen": [
     "Handelsblatt Finanzen",
     "SPIEGEL Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 3,
+   "anzahl": 4,
    "links": [
-    "https://www.handelsblatt.com/finanzen/steuern-recht/steuern/steuern-finanzministerium-plant-wohl-besteuerung-von-kryptowerten-ab-2027-01/100253020.html",
-    "https://www.spiegel.de/wirtschaft/service/kryptosteuer-von-25-prozent-klingbeil-legt-gesetzesentwurf-vor-a-54a11da3-e838-4e28-be75-7f24f3ba8b39#ref=rss",
-    "https://www.manager-magazin.de/finanzen/geldanlage/geldanlage-was-klingbeils-griff-nach-den-kryptogewinnen-fuer-anleger-bedeutet-a-e36a1a53-7266-45dd-a10c-7f47a25d01f4#ref=rss"
+    "https://www.handelsblatt.com/finanzen/banken-versicherungen/grossbank-unicredit-beteiligt-sich-an-deutschem-finanz-start-up/100252943.html",
+    "https://www.spiegel.de/wirtschaft/christian-lindner-frueherer-finanzminister-investiert-in-steuer-start-up-a-223249a4-e0dd-4024-b107-648e0e70f41d#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/tech/limetax-ex-finanzminister-christian-lindner-steigt-beim-steuerberater-start-up-ein-a-22ee5cc3-00b0-45c6-826d-05507be9612d#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/banken/finance-briefing-christian-lindner-steigt-bei-limetax-ein-deutsche-bank-wero-unicredit-a-11b729fb-7e8d-4ceb-a6bc-8b6072077d87#ref=rss"
    ],
-   "punkte": 13,
-   "text": "Bislang können Gewinne aus Kryptowerten nach einer Haltefrist von zwölf Monaten in der Regel steuerfrei bleiben. Laut einem Medienbericht könnte sich das bald ändern.",
+   "punkte": 15,
+   "text": "Das italienische Geldhaus kündigt eine Beteiligung an VC Trade an. Mit dem Einstieg will Unicredit die internationale Expansion des Start-ups unterstützen.",
    "positiv": [],
    "negativ": []
   }
  ],
- "ketten": [],
+ "ketten": [
+  {
+   "ausloeser": "Verabschiedung eines staatlichen Förderprogramms für den Bau von Langstrecken‑Marschflugkörpern der US‑Rüstungsfirma in Sachsen ab 2027",
+   "direkt": "Erhöhung der deutschen Verteidigungsausgaben um ca. 1 Mrd. € jährlich für lokale Produktionsstätten",
+   "zweite": "Auftragseingänge bei deutschen Rüstungsunternehmen (z. B. Rheinmetall, Krauss‑Maffei Wegmann) steigen; Nachfrage nach Stahl, Elektronik und Präzisionskomponenten wächst",
+   "dritte": "Verbesserung der deutschen Handelsbilanz durch höhere Exportwerte von Rüstungsgütern, Aufwertung des Euro, steigende Kurse von europäischen Verteidigungs‑ETFs (z. B. iShares MSCI Europe Defence) und steigender Stromverbrauch in den betroffenen Regionen",
+   "positiv": [
+    "Rheinmetall AG",
+    "Krauss‑Maffei Wegmann (privat, aber relevante Lieferanten‑Aktien)",
+    "Stahl‑ und Metallindizes (z. B. DAX‑Stahl‑Komponente)",
+    "Euro gegenüber USD",
+    "Verteidigungs‑ETFs (iShares MSCI Europe Defence UCITS ETF)"
+   ],
+   "negativ": [
+    "Energie‑intensive Unternehmen mit hohem Stromverbrauch (z. B. Chemie‑ und Aluminiumproduzenten) wegen steigender Strompreise",
+    "Unternehmen aus dem Konsumgüter‑Sektor, die von einer Aufwertung des Euro und sinkender Exportnachfrage betroffen sein könnten",
+    "DAX‑Gesamtindex, falls die Aufwertung des Euro die Wettbewerbsfähigkeit anderer Branchen schwächt"
+   ],
+   "konfidenz": "mittel"
+  },
+  {
+   "ausloeser": "Verabschiedung einer 25 %igen Steuer auf private Kryptowährungsgewinne nach dem Vorschlag von Lars Klingbeil",
+   "direkt": "Netto‑Rendite von Krypto‑Investoren sinkt, Verkaufsdruck auf Bitcoin, Ethereum und weitere digitale Assets",
+   "zweite": "Kapitalflucht aus Kryptowährungen in traditionelle Wertanlagen – Gold, Schweizer Franken, europäische Dividenden‑Aktien und Anleihen",
+   "dritte": "Erhöhte regulatorische Anforderungen für deutsche und europäische Krypto‑FinTechs, mögliche Lizenzverluste, sinkende Handelsvolumina an europäischen Krypto‑Börsen (z. B. Bitpanda, Kraken EU) und Belastung von Unternehmen, die Blockchain‑Technologie einsetzen",
+   "positiv": [
+    "Gold (z. B. Xetra‑Gold‑ETF)",
+    "Schweizer Franken (CHF‑Index)",
+    "Dividendenstarke europäische Aktien (z. B. Nestlé, Roche, Unilever)",
+    "Europäische Staatsanleihen mit hoher Bonität"
+   ],
+   "negativ": [
+    "Kryptowährungs‑Marktkapitalisierung (Bitcoin, Ethereum, Altcoins)",
+    "Deutsche Krypto‑FinTechs (z. B. Bitpanda, Nuri)",
+    "Blockchain‑bezogene Unternehmen (z. B. SAP‑Blockchain‑Dienstleistungen)",
+    "Krypto‑bezogene ETFs und ETNs (z. B. BTC‑ETF, ETC‑Crypto)"
+   ],
+   "konfidenz": "niedrig"
+  }
+ ],
  "gegenthese": {
-  "konsens": "Markt geht von weiter steigenden Zinsen aus, Inflationsdruck bleibt, Risikoaversion dominiert; DAX unter Druck, Öl‑Rally stärkt Rohstoffe, geopolitische Spannungen belasten Aktien.",
-  "gegen": "Argument: Die Datenlage zu Chinas Inflation und den kanadischen Gegenzöllen ist dünn; mögliche Gegenmaßnahmen könnten die Risiken reduzieren."
+  "konsens": "Die aktuelle Datenlage wird von den Märkten als verstärkte Risikoaversion gewertet: steigende Inflation in China, fallender DAX, steigender Ölpreis und geopolitische Spannungen belasten europäische Aktien.",
+  "gegen": "Stärkstes Gegenargument ist, dass die höhere Inflation in China auf robuste Nachfrage hindeutet und US‑Verteidigungsaufträge sowie Unicredits FinTech‑Beteiligung langfristige Wachstumsimpulse geben könnten."
  },
  "matrix": [
   {
@@ -436,13 +476,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Analysten sehen ein starkes Umsatzwachstum von +18 % und ein moderates KGV von 23,5 als Zeichen von Bewertungsattraktivität. Der Fokus auf Gas‑ und Dampfturbinen, digitale Services und die wachsende Nachfrage nach erneuerbaren Lösungen stärken das langfristige Marktpotenzial. Das Kursziel von 196 EUR spiegelt diese Erwartung wider.",
-   "dagegen": "Risiken bestehen in hoher Verschuldung, Lieferverzögerungen bei Siemens Gamesa‑Windturbinen und möglicher Margendruck durch steigende Rohstoffpreise. Das KGV von 23,5 könnte im Vergleich zu Wettbewerbern überbewertet sein. Trotz 19 Kauf‑ und nur 2 Verkaufs‑Ratings fehlt klare Marktstimmung, da Reddit kaum erwähnt wird.",
-   "katalysatoren": [
-    "Auslieferung neuer Gasturbinen‑Aufträge im Q3 2024",
-    "Start der Serienproduktion von Offshore‑Windturbinen bei Siemens Gamesa 2025",
-    "Veröffentlichung der Ergebnisse des Kosten‑ und Effizienzprogramms FY 2024"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "RHM.DE": {
    "ticker": "RHM.DE",
@@ -452,7 +488,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "47.4 Mrd"
+     "47.5 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -489,9 +525,13 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "Die Rheinmetall AG profitiert von starkem Umsatzwachstum von 69 % und einem moderaten KGV von 18,9, was auf solide Ertragskraft hindeutet. Die Analystenmeinung ist überwiegend positiv (18 Buy, 3 Hold). Das Kursziel von 1.670 € impliziert weiteres Aufwärtspotenzial.",
+   "dagegen": "Gegen die Aktie spricht die begrenzte Informationslage: keine Insider‑Meldungen, keine Short‑Positionen und kaum Diskussionen in öffentlichen Foren, was die Transparenz einschränkt. Das Wachstum basiert stark auf Rüstungsausgaben, die bei politischen Änderungen oder Budgetkürzungen schnell zurückgehen können.",
+   "katalysatoren": [
+    "Abschluss großer Rüstungsaufträge für gepanzerte Fahrzeuge in Europa im Jahr 2026",
+    "Erhöhung der Verteidigungsbudgets in den USA und NATO‑Ländern",
+    "Markteinführung neuer elektronischer Verteidigungssysteme (Electronic Solutions) für Luft‑ und Raumfahrt"
+   ]
   },
   "ASML.AS": {
    "ticker": "ASML.AS",
@@ -501,11 +541,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "573.2 Mrd"
+     "568.5 Mrd"
     ],
     [
      "KGV (erw.)",
-     "28,9"
+     "28,6"
     ],
     [
      "Umsatzwachstum",
@@ -538,12 +578,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die Analysten‑Stimmungszahl von 39 Käufen gegenüber nur einem Verkauf spricht für ASML. Das Unternehmen verzeichnet ein starkes Umsatzwachstum von 21 % und ein Kursziel von 2.033 EUR, deutlich über dem aktuellen Kurs. Marktführer im EUV‑Lithografie‑Segment und hohe Nachfrage nach fortschrittlichen Halbleitern stärken die Perspektiven.",
-   "dagegen": "Das Kurs‑Gewinn‑Verhältnis von 28,9 liegt über dem Branchendurchschnitt und könnte die Bewertung überhöhen. Eine mögliche Abschwächung der Chip‑Nachfrage oder Verzögerungen bei neuen EUV‑Systemen würden das Wachstum bremsen. Fehlende Insider‑Informationen und kaum Short‑Aktivität lassen Unsicherheit über die Preisentwicklung bestehen.",
+   "dafuer": "ASML dominiert den EUV‑Lithografie‑Markt, profitiert von starkem Umsatzwachstum (+21 %) und einem hohen Kursziel von 2033 €, das das Vertrauen der Analysten widerspiegelt. Das Unternehmen weist mit einem KGV von 28,6 ein moderates Bewertungsniveau für ein Wachstums‑Tech‑Unternehmen auf.",
+   "dagegen": "Das KGV von 28,6 ist im Vergleich zu historischen Werten hoch, was das Risiko einer Überbewertung birgt. Ein einzelner Analyst empfiehlt Verkauf, was auf mögliche Bedenken hinsichtlich abnehmender Chip‑Nachfrage oder Lieferkettenrisiken hindeutet. Zudem fehlt Diversifikation, da das Geschäft stark von EUV‑Technologie abhängt.",
    "katalysatoren": [
-    "Einführung des nächsten EUV‑High‑NA‑Systems (geplant für 2025)",
-    "Quartalsbericht Q3 2024 mit Fokus auf Umsatz‑ und Margenentwicklung",
-    "Abschluss großer Kundenverträge (z. B. TSMC, Samsung) oder Erweiterung der Produktionskapazitäten"
+    "Auslieferung der nächsten Generation von EUV‑Systemen (High‑NA) im Jahresende",
+    "Vertragsschluss mit neuen Kunden, z. B. TSMC oder Samsung, für EUV‑Upgrade‑Programme",
+    "EU‑Förderprogramme für Halbleiter‑Forschung, die ASML‑Investitionen unterstützen"
    ]
   },
   "SU.PA": {
@@ -554,11 +594,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "164.3 Mrd"
+     "163.7 Mrd"
     ],
     [
      "KGV (erw.)",
-     "24,1"
+     "24,0"
     ],
     [
      "Umsatzwachstum",
@@ -640,13 +680,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die Mehrheit der Analysten (30 Kauf‑Empfehlungen) bewertet GE Vernova positiv. Das Unternehmen verzeichnet ein starkes Umsatzwachstum von 22 % und profitiert von seiner breiten Präsenz in Power, Wind und Electrification. Das hohe Markt‑ und Zukunftspotenzial im globalen Energiemarkt unterstützt die optimistische Sicht.",
-   "dagegen": "Gegen die positive Analystenmeinung spricht das Insider‑Verhalten: vier Verkäufe bei null Käufen deuten auf mögliche Bedenken. Das forward‑KGV von 38,4 ist hoch, das Unternehmen erscheint überbewertet. Reddit‑Erwähnungen sind kaum vorhanden, was auf schwaches Retail‑Interesse hindeutet.",
-   "katalysatoren": [
-    "Veröffentlichung des Q3‑Ergebnisberichts (voraussichtlich Q4 2026)",
-    "Einführung der neuen GE Haliade‑X‑Windturbine",
-    "EU‑ und US‑Subventionspakete für erneuerbare Energien"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "CCJ": {
    "ticker": "CCJ",
@@ -791,9 +827,13 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "NVIDIA verzeichnet ein Umsatzwachstum von 106 % und ein erwartetes KGV von 14,5, was im Vergleich zu historischen Werten attraktiv erscheint. Die starke Nachfrage nach KI‑Beschleunigern im Rechenzentrum sowie die Marktführerschaft im Grafik‑ und Netzwerksegment unterstützen das Wachstumspotenzial.",
+   "dagegen": "Insider‑Verkäufe von neun Transaktionen deuten auf ein mögliches Vertrauensdefizit, während die Bewertung von 5,45 Billionen USD im Vergleich zu Wettbewerbern hoch bleibt. Risiken bestehen durch Lieferkettenengpässe, regulatorische Beschränkungen in China und die Gefahr, dass das KI‑Hype‑Momentum nachlässt.",
+   "katalysatoren": [
+    "Veröffentlichung der Q3‑Ergebnisse (voraussichtlich Anfang Oktober)",
+    "Einführung einer neuen GPU‑Architektur (z. B. Nachfolger von Hopper)",
+    "Großauftrag von Cloud‑Anbietern (Microsoft, Amazon) für KI‑Beschleuniger"
+   ]
   }
  },
  "shorts": [
@@ -1083,6 +1123,30 @@
  "gespraech": [],
  "termine": [
   {
+   "datum": "2026-09-09",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-10",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-10",
+   "zeit": "",
+   "region": "us",
+   "was": "Producer Price Index",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
    "datum": "2026-09-10",
    "zeit": "14:15",
    "region": "eu",
@@ -1091,14 +1155,70 @@
    "wucht": "hoch"
   },
   {
-   "datum": "2026-09-16",
-   "zeit": "20:00",
+   "datum": "2026-09-11",
+   "zeit": "",
    "region": "us",
-   "was": "Fed-Zinsentscheid",
-   "konsens": "-25 Bp",
+   "was": "Consumer Price Index",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-11",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-11",
+   "zeit": "",
+   "region": "us",
+   "was": "Research Consumer Price Index",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-12",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-13",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-14",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-15",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-16",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 153,
- "llm_aktiv": false
+ "meldungen_gesamt": 159,
+ "llm_aktiv": true
 }
