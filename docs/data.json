@@ -1,9 +1,9 @@
 {
- "stand": "2026-09-15T16:05",
- "lauf": "2026091516",
+ "stand": "2026-09-15T19:04",
+ "lauf": "2026091519",
  "synthese": {
-  "kern": "Hohe Energiepreise und sinkende Liquidität treiben Risikoappetit, doch der Markt fokussiert ausschließlich auf Anleiherenditen.",
-  "erlaeuterung": "Die Politik diskutiert Entlastungsmaßnahmen bei Spritpreisen, während die Geldmärkte von starkem Zinsdruck und null‑Liquidität im Euroraum belastet sind. Investoren übersehen, dass die Kombination aus hoher Energieinflation und fehlender Liquidität das systemische Risiko stärker erhöht als reine Rendite‑Unsicherheit."
+  "kern": "Markt fixiert auf US‑Zinsentscheidung, übersieht wachsende strukturelle Spannungen in Energie, Logistik und Regulierung.",
+  "erlaeuterung": "Während die Wall‑Street vor dem Fed‑Entscheid stark schwankt, treiben steigende Energiepreise, der schwierige Umstieg auf Elektro‑Lkw und regulatorische Konflikte zusätzliche Belastungen. Diese strukturellen Faktoren könnten die Marktvolatilität längerfristig erhöhen, werden aber im Tagesgeschäft kaum beachtet."
  },
  "regime": [
   {
@@ -36,12 +36,12 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 67,
-     "delta": 4
+     "wert": 68,
+     "delta": 5
     },
     "eur": {
-     "wert": 85,
-     "delta": 4
+     "wert": 86,
+     "delta": 5
     }
    },
    "differenz": 18
@@ -51,8 +51,8 @@
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 69,
-     "delta": -13
+     "wert": 70,
+     "delta": -12
     }
    }
   },
@@ -61,15 +61,15 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 43,
-     "delta": 2
+     "wert": 44,
+     "delta": 3
     },
     "eur": {
      "wert": 0,
      "delta": 0
     }
    },
-   "differenz": 43
+   "differenz": 44
   },
   {
    "name": "geopolitik",
@@ -95,52 +95,49 @@
     "heise",
     "manager magazin"
    ],
-   "anzahl": 8,
+   "anzahl": 12,
    "links": [
     "https://www.tagesschau.de/wirtschaft/energie/spritpreise-politik-100.html",
+    "https://www.tagesschau.de/wirtschaft/oel-spritpreise-tanken-100.html",
     "https://www.spiegel.de/wirtschaft/spritpreise-diese-massnahmen-koennten-die-not-der-autofahrer-lindern-a-61169a10-4f59-443d-bfa5-1322a6a735fa#ref=rss",
     "https://www.spiegel.de/wirtschaft/benzinpreis-friedrich-merz-kuendigt-entlastungen-an-a-59ec2177-9a42-4a43-bac8-e3a9ed9b4c3d#ref=rss",
-    "https://www.spiegel.de/wirtschaft/soziales/spritpreise-ifw-oekonomen-warnen-vor-neuem-tankrabatt-a-44104827-c81f-4d7a-aafd-17bd0cf4ce4b#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/spritpreise-und-uebergewinnsteuer-die-hilflosigkeit-der-politik-201227818.html"
+    "https://www.spiegel.de/wirtschaft/soziales/spritpreise-ifw-oekonomen-warnen-vor-neuem-tankrabatt-a-44104827-c81f-4d7a-aafd-17bd0cf4ce4b#ref=rss"
    ],
-   "punkte": 26,
-   "text": "Die Bundesregierung erwägt kurzfristige Maßnahmen wie eine vorübergehende Senkung der Energiesteuer, Subventionen für Kraftstoff oder Preisdeckel, um die stark gestiegenen Spritpreise zu dämpfen. Solche Entlastungen würden die Kosten für Verbraucher reduzieren, belasten jedoch den Staatshaushalt.",
+   "punkte": 34,
+   "text": "Die Bundesregierung plant neue Entlastungsmaßnahmen für Kraftstoffverbraucher, um die historisch hohen Spritpreise zu dämpfen. Konkrete Instrumente wurden noch nicht detailliert veröffentlicht, sodass die Wirkung auf die Märkte noch unklar ist.",
    "positiv": [
-    "Automobilhandel",
-    "Kraftstoffverbraucher"
+    "Automobilbranche (nachfrageorientiert)"
    ],
    "negativ": [
-    "Staatsfinanzen",
-    "Steueraufkommen"
+    "Rohölpreise",
+    "Kraftstoffhändler"
    ]
   },
   {
-   "id": "bcf95d87",
-   "titel": "Geldanlage: Investoren sehen Anleiherenditen als größtes Risiko",
-   "anriss": "Staatsanleihen notieren auf den höchsten Niveaus seit Jahren. Globale Fondsmanager sind zuletzt vorsichtiger geworden – bleiben mit Blick auf Aktien aber optimistisch.",
+   "id": "922285cf",
+   "titel": "Wall Street: US‑Börsen notieren vor Zinsentscheid deutlich im Minus",
+   "anriss": "Die wichtigen Indizes an der Wall Street knüpfen am Dienstag an die Entwicklung des Vortages an. Die Renditen der Staatsanleihen kennen derweil nur eine Richtung: nach oben.",
    "region": "dach",
    "quellen": [
     "Handelsblatt Finanzen",
     "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
     "manager magazin"
    ],
    "anzahl": 5,
    "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-usboersen-notieren-vor-zinsentscheid-deutlich-im-minus/100254723.html",
     "https://www.handelsblatt.com/finanzen/anlagestrategie/fonds-etf/geldanlage-investoren-sehen-anleiherenditen-als-groesstes-risiko/100251875.html",
     "https://www.handelsblatt.com/finanzen/maerkte/anleihen/bundesbank-analyse-so-werden-staatsanleihen-zum-risiko-fuer-banken-01/100254669.html",
-    "https://www.tagesschau.de/wirtschaft/verbraucher/marktbericht-renditen-100.html",
     "https://www.spiegel.de/wirtschaft/soziales/usa-rendite-fuer-us-staatsanleihen-steigt-auf-hoechsten-stand-seit-2007-a-368de247-a62a-4327-89d1-e6f6647316b0#ref=rss",
     "https://www.manager-magazin.de/finanzen/geldanlage/anleihen-ausverkauf-setzt-immobilienkaeufer-in-usa-und-deutschland-unter-druck-a-bb9e51bb-63d0-4ca6-be02-164dda3194c3#ref=rss"
    ],
-   "punkte": 24,
-   "text": "Anleger sehen die aktuell hohen Renditen von Staatsanleihen als das größte Risiko für Portfolios, weil steigende Zinsen die Bewertung von Aktien belasten. Trotz dieser Bedenken bleiben globale Fondsmanager insgesamt optimistisch gegenüber Aktien.",
+   "punkte": 23,
+   "text": "Die US‑Börsen schließen am Dienstag im Minus, weil die Märkte vor dem anstehenden Zinsentscheid nervös sind. Gleichzeitig steigen die Renditen von US‑Staatsanleihen, was auf eine erwartete Straffung der Geldpolitik hindeutet.",
    "positiv": [
-    "Aktien (optimistische Fondsmanager)"
+    "US‑Staatsanleihen"
    ],
    "negativ": [
-    "Staatsanleihen (Kursverlust)",
-    "Anleihenrenditen (steigend)"
+    "US‑Aktien (S&P 500, Nasdaq, Dow)"
    ]
   },
   {
@@ -161,37 +158,37 @@
     "https://www.manager-magazin.de/unternehmen/banken/commerzbank-was-lars-klingbeil-dem-unicredit-chef-beim-treffen-in-berlin-gesagt-hat-a-48ed4851-20a0-461f-976c-cedbb6466807#ref=rss"
    ],
    "punkte": 15,
-   "text": "Die Crédit Agricole blockiert den Verkauf der italienischen Banco BPM an die Monte dei Paschi und prüft eigene strategische Optionen. Die Unsicherheit dürfte den Banco BPM‑Aktienkurs belasten, während Crédit Agricole von einer möglichen Eigeninitiative profitieren könnte.",
-   "positiv": [
-    "Crédit Agricole (strategische Optionen)"
-   ],
+   "text": "Die Crédit Agricole, größter Aktionär der italienischen Banco BPM, äußert Bedenken gegen einen geplanten Verkauf an die Monte dei Paschi. Die Spannungen könnten die Übernahmepläne verzögern und die Aktienkurse beider Banken belasten.",
+   "positiv": [],
    "negativ": [
-    "Banco BPM (Aktienkurs)"
+    "Banco BPM-Aktie",
+    "Monte dei Paschi-Aktie"
    ]
   },
   {
-   "id": "9ef05e75",
-   "titel": "Wall Street: Abwarten vor dem Zinsentscheid – US‑Börsen öffnen unverändert",
-   "anriss": "Am Dienstag halten sich die Anleger zurück. Die Tech-Titel knüpfen nicht an die Verluste des Vortages an. Die Renditen der Staatsanleihen kennen derweil nur eine Richtung: nach oben.",
+   "id": "28032703",
+   "titel": "Noch nie so viele Start-ups gegründet wie im ersten Halbjahr 2026",
+   "anriss": "Noch nie wurden so viele Unternehmen mit innovativen Geschäftsideen gegründet - vor allem dank Künstlicher Intelligenz. Die Start-up-Szene blickt optimistisch in die Zukunft. Von Steffen Clement.",
    "region": "dach",
    "quellen": [
-    "Handelsblatt Finanzen",
-    "manager magazin"
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft"
    ],
    "anzahl": 4,
    "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-abwarten-vor-dem-zinsentscheid-usboersen-notieren-im-minus/100254723.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-erholt-sich-von-verlusten-bank-aktien-fallen/100254567.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/maerkte-asien-oelpreisanstieg-und-nahost-spannungen-asien-boersen-schliessen-mit-verlusten/100254551.html",
-    "https://www.manager-magazin.de/finanzen/boerse/boerse-dax-weiter-unter-druck-ausverkauf-bei-us-anleihen-oelpreise-steigen-a-d1ed24eb-ad2c-4dac-aa58-377c417a9d56#ref=rss"
+    "https://www.tagesschau.de/wirtschaft/konjunktur/startup-boom-gruendung-100.html",
+    "https://www.spiegel.de/wirtschaft/kuenstliche-intelligenz-experten-warnen-vor-neuer-abhaengigkeit-europas-von-den-usa-a-674407e7-3e7a-43bd-9be9-62c4984077ef#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/china-und-ki-warum-peking-auf-die-bremse-verzichtet-201229152.html",
+    "https://www.faz.net/aktuell/wirtschaft/kuenstliche-intelligenz/warnung-vor-gefahren-der-ki-spiel-mit-dem-feuer-201223073.html"
    ],
-   "punkte": 15,
-   "text": "An den US‑Börsen herrscht vor dem anstehenden Zinsentscheid der Federal Reserve Zurückhaltung, die Technologiewerte zeigen keine nennenswerte Erholung. Gleichzeitig steigen die Renditen der US‑Staatsanleihen weiter, was die Anleihekurse drückt.",
-   "positiv": [],
-   "negativ": [
-    "US‑Staatsanleihen (Renditen steigen)",
-    "Anleihekurse (fallen)"
-   ]
+   "punkte": 14,
+   "text": "Im ersten Halbjahr 2026 wurden mehr Start‑ups gegründet als je zuvor, vor allem im Bereich Künstliche Intelligenz. Das hohe Gründungsvolumen stärkt das Risiko‑Kapital‑Umfeld und die Technologie‑Sektor‑Bewertungen.",
+   "positiv": [
+    "Venture‑Capital‑Fonds",
+    "KI‑ und Technologie‑Aktien"
+   ],
+   "negativ": []
   },
   {
    "id": "5d7422e0",
@@ -215,48 +212,6 @@
    "negativ": []
   },
   {
-   "id": "28032703",
-   "titel": "Noch nie so viele Start-ups gegründet wie im ersten Halbjahr 2026",
-   "anriss": "Noch nie wurden so viele Unternehmen mit innovativen Geschäftsideen gegründet - vor allem dank Künstlicher Intelligenz. Die Start-up-Szene blickt optimistisch in die Zukunft. Von Steffen Clement.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/konjunktur/startup-boom-gruendung-100.html",
-    "https://www.spiegel.de/wirtschaft/kuenstliche-intelligenz-experten-warnen-vor-neuer-abhaengigkeit-europas-von-den-usa-a-674407e7-3e7a-43bd-9be9-62c4984077ef#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/kuenstliche-intelligenz/warnung-vor-gefahren-der-ki-spiel-mit-dem-feuer-201223073.html"
-   ],
-   "punkte": 12,
-   "text": "Noch nie wurden so viele Unternehmen mit innovativen Geschäftsideen gegründet - vor allem dank Künstlicher Intelligenz. Die Start-up-Szene blickt optimistisch in die Zukunft. Von Steffen Clement.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "75ff214e",
-   "titel": "Tankstellenverband erwartet Spritpreise um die drei Euro",
-   "anriss": "Der Schock an den Zapfsäulen ist zurück. Wegen der Eskalation im Nahen Osten steigen die Preise für Kraftstoffe, Heizöl und Gas deutlich. Auch die Politik ist wieder in die Debatte über mögliche Entlastungen eingestiegen.",
-   "region": "dach",
-   "quellen": [
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/oel-spritpreise-tanken-100.html",
-    "https://www.spiegel.de/wirtschaft/tanken-frust-an-den-tankstellen-ich-fuehle-mich-abgezockt-a-8ecacc4e-155d-4f93-a83c-d3224423b436#ref=rss",
-    "https://www.spiegel.de/wirtschaft/benzin-und-diesel-soeder-fordert-bundesregierung-auf-spritpreise-zu-senken-a-7599486d-e3ec-4455-89f4-49d70a42ef75#ref=rss",
-    "https://www.spiegel.de/wirtschaft/spritpreise-tankstellenverband-warnt-vor-drei-euro-pro-liter-a-8b95a40e-259a-4eb1-a963-8c086e949fad#ref=rss"
-   ],
-   "punkte": 12,
-   "text": "Der Schock an den Zapfsäulen ist zurück. Wegen der Eskalation im Nahen Osten steigen die Preise für Kraftstoffe, Heizöl und Gas deutlich. Auch die Politik ist wieder in die Debatte über mögliche Entlastungen eingestiegen",
-   "positiv": [],
-   "negativ": []
-  },
-  {
    "id": "45f32970",
    "titel": "SpaceX gewinnt ersten Kunden für Rücktransport aus dem All",
    "anriss": "Im Jahr 2028 soll der erste kommerzielle Flug eines SpaceX-Raumschiffs starten. Nun hat das Unternehmen einen ersten Vertrag mit einem Kunden unterschrieben.",
@@ -269,19 +224,60 @@
    "anzahl": 3,
    "links": [
     "https://www.spiegel.de/wirtschaft/spacex-gewinnt-ersten-kunden-fuer-ruecktransport-aus-dem-all-a-3f2b1ca5-814b-4f7a-a627-9c44ef1ea562#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-deepl-ruestet-sprach-ki-auf-faz-200452404.html",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-openai-und-konkurrenten-wollen-private-kontroll-instanz-schaffen-faz-200452404.html",
     "https://www.manager-magazin.de/unternehmen/tech/spacex-gewinnt-ersten-kunden-fuer-ruecktransport-aus-dem-all-a-2b21cba4-7169-4cc2-bd46-08c4e5bc5069#ref=rss"
    ],
    "punkte": 12,
    "text": "Im Jahr 2028 soll der erste kommerzielle Flug eines SpaceX-Raumschiffs starten. Nun hat das Unternehmen einen ersten Vertrag mit einem Kunden unterschrieben.",
    "positiv": [],
    "negativ": []
+  },
+  {
+   "id": "b4369e6f",
+   "titel": "Diffusion models for dynamic volatility surface generation and data-driven hedging",
+   "anriss": "arXiv:2609.13402v1 Announce Type: new Abstract: We develop a diffusion-model framework for dynamic implied-volatility surface generation and evaluate its economic usefulness through data-driven hedging. The framework consists of two models. AD-Seq-Vol jointly learns the conditional evolution of the ",
+   "region": "global",
+   "quellen": [
+    "arXiv q-fin"
+   ],
+   "anzahl": 6,
+   "links": [
+    "https://arxiv.org/abs/2609.13402",
+    "https://arxiv.org/abs/2609.13961",
+    "https://arxiv.org/abs/2609.14029",
+    "https://arxiv.org/abs/2609.14212",
+    "https://arxiv.org/abs/2609.14576"
+   ],
+   "punkte": 12,
+   "text": "arXiv:2609.13402v1 Announce Type: new Abstract: We develop a diffusion-model framework for dynamic implied-volatility surface generation and evaluate its economic usefulness through data-driven hedging. The framework con",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "09fea34e",
+   "titel": "Wirtschaft vor acht vom 15.09.2026",
+   "anriss": "Wirtschaft vor acht vom 15.09.2026",
+   "region": "dach",
+   "quellen": [
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.tagesschau.de/video/video-1649614.html",
+    "https://www.tagesschau.de/multimedia/sendung/tagesschau24/boerselive/video-1649172.html",
+    "https://www.manager-magazin.de/politik/weltwirtschaft/china-wirtschaft-schwaechelt-weiter-a-7cf303a7-8b65-49c8-90cd-f77f8125c5f7#ref=rss"
+   ],
+   "punkte": 10,
+   "text": "Wirtschaft vor acht vom 15.09.2026",
+   "positiv": [],
+   "negativ": []
   }
  ],
  "ketten": [],
  "gegenthese": {
-  "konsens": "Markt erwartet, dass politische Maßnahmen die Spritpreise kurzfristig leicht senken, Anleiherenditen das Haupt‑Risiko bleiben, Banken Verkäufe blockieren, US‑Aktien bis Fed‑Entscheid stabil, Elektro‑Lkw‑Umstieg langsam, Startup‑Boom anhält, SpaceX gewinnt Kunden.",
-  "gegen": "Entlastungsmaßnahmen könnten die Inflation anheizen, Anleiherträge sinken nicht automatisch, Banken könnten Verkauf doch zulassen, Fed‑Entscheid könnte zu Volatilität führen, Elektro‑Lkw‑Kosten bleiben hoch, Startup‑Überangebot, SpaceX‑Kundenbasis begrenzt."
+  "konsens": "Die Märkte erwarten anhaltend hohe Energiepreise, restriktive Geldpolitik und langsame ESG‑Umsetzung, was Aktienkurse und Kreditspreads schwächen.",
+  "gegen": "Starke Unternehmensgewinne, robuste Konsumausgaben und technologische Durchbrüche könnten die Abschwächung begrenzen."
  },
  "matrix": [
   {
@@ -435,12 +431,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Analysten sehen mit 19 Kauf‑Empfehlungen und einem Kursziel von 196 €, das 18 % Umsatzwachstum sowie ein moderates KGV von 21,4 als Hinweis auf solide Bewertung und Wachstumspotenzial, besonders im Bereich erneuerbare Energien und Gas‑Services.",
-   "dagegen": "Die Integration nach der Ausgliederung bleibt riskant, Margen könnten durch Lieferketten‑ und Qualitätsprobleme bei Siemens Gamesa belastet werden, und die Verschuldung ist hoch; fehlende Insider‑Transaktionen und geringe Reddit‑Beachtung deuten auf Unsicherheit hin.",
+   "dafuer": "Analysten‑Stimmungsbild ist stark positiv (19 Kauf‑Empfehlungen). Das Umsatzwachstum von +18 % und das Kursziel von 196 € deuten auf erwartete Ertragssteigerungen hin. Das diversifizierte Portfolio aus Gas‑, Grid‑ und Wind‑Technologien bietet mehrere Wachstumspfade.",
+   "dagegen": "KGV von 21,4 erscheint im Vergleich zu historischen Werten hoch, was eine mögliche Überbewertung signalisiert. Die Branche steht unter Druck durch volatile Energiepreise und regulatorische Unsicherheiten. Fehlende Insider‑Transaktionen und das Fehlen von Short‑Positionen könnten auf ein geringes Marktinteresse hindeuten.",
    "katalysatoren": [
-    "Q3‑2026‑Ergebnisveröffentlichung mit erwarteter Margenverbesserung",
-    "Inbetriebnahme neuer Offshore‑Windprojekte von Siemens Gamesa",
-    "Ausweitung des Auftragsbestands im Gas‑Turbinen‑Service, vor allem in Asien"
+    "Auslieferung und Inbetriebnahme der neuen 15‑MW‑Windturbinen von Siemens Gamesa",
+    "Abschluss großer Gas‑Turbinen‑Service‑Verträge in Asien",
+    "Einführung von digitalen Grid‑Optimierungslösungen für europäische Netzbetreiber"
    ]
   },
   "RHM.DE": {
@@ -488,12 +484,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Rheinmetall profitiert von starkem Umsatzwachstum (+69 %) und steigender Rüstungsausgaben in Europa und Nordamerika. Das diversifizierte Portfolio (Vehicle Systems, Weapon & Ammunition, Electronic Solutions) reduziert Abhängigkeit von einzelnen Segmenten. Analysten‑Consensus (18 Buy, 3 Hold) und ein moderates KGV von 19,2 unterstützen die positive Sicht.",
-   "dagegen": "Der aktuelle Kurs spiegelt ein hohes Bewertungsniveau wider; ein KGV von 19,2 liegt über dem Branchendurchschnitt. Rheinmetall ist stark von staatlichen Aufträgen abhängig, wodurch politische Entscheidungen und Haushaltszwänge das Ergebnis stark beeinflussen können. Zudem birgt die Konzentration auf Rüstung geopolitische Risiken.",
+   "dafuer": "Starke Analysten‑Konsens (18 Kauf, 3 Halten) unterstützt die Aktie. Das Umsatzwachstum von +69 % zeigt robuste Nachfrage, insbesondere im Vehicle‑Systems‑Segment. Das Kurs‑Gewinn‑Verhältnis von 19,2 liegt im Branchendurchschnitt, während die Marktkapitalisierung von 48 Mrd. € Stabilität signalisiert. Das Kursziel von 1.641 € impliziert weiteres Aufwärtspotenzial.",
+   "dagegen": "Gegenargumente: Die Bewertung ist angesichts des hohen KGV von 19,2 im Vergleich zu historischen Werten der Branche relativ teuer. Die Abhängigkeit von staatlichen Rüstungsausgaben birgt politisches Risiko, insbesondere bei möglichen Budgetkürzungen. Fehlende Insider‑Informationen und kaum Diskussionen in öffentlichen Foren deuten auf Informationslücken hin.",
    "katalysatoren": [
-    "Erhöhung des deutschen Verteidigungsbudgets 2025",
-    "Großauftrag für Schützenpanzer bei NATO‑Partnern",
-    "Vertrag für elektronische Kriegssysteme mit US‑Verteidigung"
+    "Verabschiedung des deutschen Rüstungsbudgets 2025 mit erhöhten Mittel für Fahrzeugsysteme",
+    "Zusage eines Großauftrags für neue Schützenpanzer von der Bundeswehr",
+    "Erteilung von Exportgenehmigungen für Rüstungsgüter in Asien und Nahost"
    ]
   },
   "ASML.AS": {
@@ -541,12 +537,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "ASML dominiert den EUV-Markt, liefert kritische Lithographie‑Systeme für führende Chip‑Hersteller und verzeichnet ein starkes Umsatzwachstum von 21 % YoY. Das Kurs‑Ziel von 2024 EUR spiegelt das Vertrauen der Analysten wider; 39 von 43 empfehlen Kauf, was die Marktposition bestätigt.",
-   "dagegen": "Das aktuelle KGV von 26,7 liegt über dem Branchendurchschnitt, was die Bewertung teuer erscheinen lässt. Die Abhängigkeit von wenigen Großkunden erhöht das Risiko bei Nachfragerückgängen. Fehlende Insider‑Transaktionen und das Fehlen von Short‑Positionen könnten auf eine geringe Marktliquidität hindeuten.",
+   "dafuer": "ASML profitiert von der unverzichtbaren Rolle seiner EUV‑Lithografie in der Chip‑Fertigung. Das Unternehmen verzeichnet 21 % Umsatzwachstum, ein KGV von 26,7 und eine Marktkapitalisierung von 529,6 Mrd. €, was die Analysten mit 39 Buy‑Ratings stark unterstützt.",
+   "dagegen": "Trotz starkem Wachstum bleibt die Bewertung hoch; ein KGV von 26,7 ist im Vergleich zu historischen Werten teuer. Ein einzelner Sell‑Rating weist auf Bedenken hin, etwa mögliche Lieferkettenengpässe, technologische Risiken bei EUV‑Weiterentwicklungen und regulatorische Unsicherheiten.",
    "katalysatoren": [
-    "Q4‑2024 Ergebnisbericht mit erwarteter Umsatzsteigerung durch neue EUV‑Bestellungen.",
-    "Start der Serienproduktion des High‑NA‑EU‑Systems, das höhere Auflösung ermöglicht.",
-    "Vertragsschluss mit TSMC oder Samsung für zusätzliche EUV‑Anlagen im Jahr 2025."
+    "Markteinführung der nächsten EUV‑Generation (z. B. NXE:3400) im Jahresende 2024",
+    "Große Aufträge von TSMC, Samsung und Intel für 2025‑Technologien",
+    "Entwicklung von US‑Exportbeschränkungen für Halbleiterausrüstung"
    ]
   },
   "SU.PA": {
@@ -579,7 +575,7 @@
     ],
     [
      "Newsletter",
-     "in 20 Clustern"
+     "in 23 Clustern"
     ],
     [
      "Reddit",
@@ -594,9 +590,13 @@
      "1648,06 % ueber 1700 Halter"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "Starkes globales Netzwerk, diversifiziertes Portfolio aus Energiemanagement, Industrieautomation und Gebäudetechnik, Umsatzwachstum von +10 % und ein erwartetes KGV von 22,7 deuten auf solide Fundamentaldaten hin. Analysten bewerten die Aktie überwiegend mit Kauf (21‑zu‑3) und das Kursziel von 330 EUR impliziert erheblichen Aufwärtsspielraum.",
+   "dagegen": "Ein extrem hoher Short‑Interest von über 1.600 % (1700 Halter) signalisiert Skepsis und mögliche Kursvolatilität. Fehlende Insider‑Transaktionen und kaum Diskussionen auf Reddit deuten auf geringe Marktaufmerksamkeit hin. Das KGV von 22,7 könnte im Vergleich zum Branchen‑Durchschnitt überbewertet sein.",
+   "katalysatoren": [
+    "Q3‑Finanzbericht (voraussichtlich Oktober)",
+    "Einführung der nächsten Generation von Microgrid‑ und Energiemanagement‑Systemen",
+    "EU‑Förderprogramme für Energieeffizienz, die die Nachfrage nach Gebäudemanagement‑Lösungen steigern könnten"
+   ]
   },
   "GEV": {
    "ticker": "GEV",
@@ -606,7 +606,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "234.3 Mrd"
+     "234.5 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -655,11 +655,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "40.2 Mrd"
+     "39.8 Mrd"
     ],
     [
      "KGV (erw.)",
-     "48,8"
+     "48,4"
     ],
     [
      "Umsatzwachstum",
@@ -692,13 +692,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Cameco ist einer der weltweit größten Uranproduzenten mit integrierten Aktivitäten von Exploration bis Fuel Services. Die steigende Nachfrage nach Kernenergie, besonders in Asien, und mögliche Lieferengpässe könnten das Unternehmen langfristig unterstützen. Analysten bewerten die Aktie überwiegend positiv (20 Kauf).",
-   "dagegen": "Das aktuelle KGV von 48,8 ist deutlich über dem Branchendurchschnitt und spiegelt die rückläufigen Umsätze von –7 % wider. Die Aktie ist stark von Uranpreisschwankungen abhängig, und regulatorische Risiken sowie mögliche Verzögerungen bei Kernkraftprojekten können die Erträge belasten.",
-   "katalysatoren": [
-    "Quartalsbericht Q3 2026 – Umsatz‑ und Margenentwicklung",
-    "Entwicklung des Spotpreises für Uran (z. B. über 55 $/lb) im nächsten Quartal",
-    "Vertragliche Zusagen neuer Kunden aus Asien oder Wiederaufnahme von Projekten in den USA"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "FCX": {
    "ticker": "FCX",
@@ -708,11 +704,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "98.8 Mrd"
+     "99.4 Mrd"
     ],
     [
      "KGV (erw.)",
-     "16,6"
+     "16,7"
     ],
     [
      "Umsatzwachstum",
@@ -757,7 +753,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "5.125.2 Mrd"
+     "5.121.0 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -1182,6 +1178,6 @@
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 191,
+ "meldungen_gesamt": 192,
  "llm_aktiv": false
 }
