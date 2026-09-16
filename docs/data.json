@@ -1,9 +1,9 @@
 {
- "stand": "2026-09-15T19:04",
- "lauf": "2026091519",
+ "stand": "2026-09-16T04:41",
+ "lauf": "2026091604",
  "synthese": {
-  "kern": "Markt fixiert auf US‑Zinsentscheidung, übersieht wachsende strukturelle Spannungen in Energie, Logistik und Regulierung.",
-  "erlaeuterung": "Während die Wall‑Street vor dem Fed‑Entscheid stark schwankt, treiben steigende Energiepreise, der schwierige Umstieg auf Elektro‑Lkw und regulatorische Konflikte zusätzliche Belastungen. Diese strukturellen Faktoren könnten die Marktvolatilität längerfristig erhöhen, werden aber im Tagesgeschäft kaum beachtet."
+  "kern": "Politischer Kostendruck, steigende Anleiherisiken und sinkende Liquidität dominieren, während Märkte das geopolitische Risiko unterschätzen.",
+  "erlaeuterung": "Die Meldungen zu Spritpreisen, Anleiherenditen und Banken zeigen, dass Regierungen und Investoren unter starkem Finanz‑ und Energie‑Druck stehen. Gleichzeitig wird die stark erhöhte geopolitische Unsicherheit, reflektiert im Perzentil‑Score, vom Markt kaum bepreist."
  },
  "regime": [
   {
@@ -15,11 +15,11 @@
      "delta": 3
     },
     "eur": {
-     "wert": 89,
-     "delta": -5
+     "wert": 91,
+     "delta": -3
     }
    },
-   "differenz": 9
+   "differenz": 11
   },
   {
    "name": "wachstum",
@@ -36,23 +36,23 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 68,
+     "wert": 67,
      "delta": 5
     },
     "eur": {
      "wert": 86,
-     "delta": 5
+     "delta": 3
     }
    },
-   "differenz": 18
+   "differenz": 19
   },
   {
    "name": "risikoappetit",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 70,
-     "delta": -12
+     "wert": 71,
+     "delta": -11
     }
    }
   },
@@ -76,7 +76,7 @@
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 88,
+     "wert": 89,
      "delta": -2
     }
    }
@@ -95,49 +95,51 @@
     "heise",
     "manager magazin"
    ],
-   "anzahl": 12,
+   "anzahl": 11,
    "links": [
     "https://www.tagesschau.de/wirtschaft/energie/spritpreise-politik-100.html",
-    "https://www.tagesschau.de/wirtschaft/oel-spritpreise-tanken-100.html",
+    "https://www.spiegel.de/wirtschaft/wirtschaftsministerium-haelt-preisdeckel-und-uebergewinnsteuer-fuer-problematisch-a-77a6bcb1-7b33-4143-8687-4f2608e03098#ref=rss",
     "https://www.spiegel.de/wirtschaft/spritpreise-diese-massnahmen-koennten-die-not-der-autofahrer-lindern-a-61169a10-4f59-443d-bfa5-1322a6a735fa#ref=rss",
     "https://www.spiegel.de/wirtschaft/benzinpreis-friedrich-merz-kuendigt-entlastungen-an-a-59ec2177-9a42-4a43-bac8-e3a9ed9b4c3d#ref=rss",
     "https://www.spiegel.de/wirtschaft/soziales/spritpreise-ifw-oekonomen-warnen-vor-neuem-tankrabatt-a-44104827-c81f-4d7a-aafd-17bd0cf4ce4b#ref=rss"
    ],
-   "punkte": 34,
-   "text": "Die Bundesregierung plant neue Entlastungsmaßnahmen für Kraftstoffverbraucher, um die historisch hohen Spritpreise zu dämpfen. Konkrete Instrumente wurden noch nicht detailliert veröffentlicht, sodass die Wirkung auf die Märkte noch unklar ist.",
+   "punkte": 32,
+   "text": "Die Spritpreise in Deutschland haben Rekordhöhen erreicht, und Bundeskanzler Merz hat ein Paket von Entlastungsmaßnahmen angekündigt. Mögliche Instrumente umfassen vorübergehende Kraftstoffsteuersenkungen, direkte Subventionen für Benzin und Diesel sowie Förderungen für alternative Antriebe.",
    "positiv": [
-    "Automobilbranche (nachfrageorientiert)"
+    "Alternative Antriebe ↑",
+    "Kraftstoffsubventionen ↑"
    ],
    "negativ": [
-    "Rohölpreise",
-    "Kraftstoffhändler"
+    "Benzin‑/Dieselpreis ↑",
+    "Kraftstoffsteuer ↓ (Einnahmenverlust)"
    ]
   },
   {
-   "id": "922285cf",
-   "titel": "Wall Street: US‑Börsen notieren vor Zinsentscheid deutlich im Minus",
-   "anriss": "Die wichtigen Indizes an der Wall Street knüpfen am Dienstag an die Entwicklung des Vortages an. Die Renditen der Staatsanleihen kennen derweil nur eine Richtung: nach oben.",
+   "id": "bcf95d87",
+   "titel": "Geldanlage: Investoren sehen Anleiherenditen als größtes Risiko",
+   "anriss": "Staatsanleihen notieren auf den höchsten Niveaus seit Jahren. Globale Fondsmanager sind zuletzt vorsichtiger geworden – bleiben mit Blick auf Aktien aber optimistisch.",
    "region": "dach",
    "quellen": [
     "Handelsblatt Finanzen",
     "SPIEGEL Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 5,
+   "anzahl": 4,
    "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-usboersen-notieren-vor-zinsentscheid-deutlich-im-minus/100254723.html",
     "https://www.handelsblatt.com/finanzen/anlagestrategie/fonds-etf/geldanlage-investoren-sehen-anleiherenditen-als-groesstes-risiko/100251875.html",
     "https://www.handelsblatt.com/finanzen/maerkte/anleihen/bundesbank-analyse-so-werden-staatsanleihen-zum-risiko-fuer-banken-01/100254669.html",
     "https://www.spiegel.de/wirtschaft/soziales/usa-rendite-fuer-us-staatsanleihen-steigt-auf-hoechsten-stand-seit-2007-a-368de247-a62a-4327-89d1-e6f6647316b0#ref=rss",
     "https://www.manager-magazin.de/finanzen/geldanlage/anleihen-ausverkauf-setzt-immobilienkaeufer-in-usa-und-deutschland-unter-druck-a-bb9e51bb-63d0-4ca6-be02-164dda3194c3#ref=rss"
    ],
-   "punkte": 23,
-   "text": "Die US‑Börsen schließen am Dienstag im Minus, weil die Märkte vor dem anstehenden Zinsentscheid nervös sind. Gleichzeitig steigen die Renditen von US‑Staatsanleihen, was auf eine erwartete Straffung der Geldpolitik hindeutet.",
+   "punkte": 20,
+   "text": "Staatsanleihen notieren seit Jahren die höchsten Renditen, was von Investoren als größtes Risiko wahrgenommen wird. Trotz der Vorsicht bleibt die Stimmung bei globalen Fondsmanagern für Aktien optimistisch.",
    "positiv": [
-    "US‑Staatsanleihen"
+    "Aktien ↑",
+    "Risikokapital für Wachstumsunternehmen ↑"
    ],
    "negativ": [
-    "US‑Aktien (S&P 500, Nasdaq, Dow)"
+    "Staatsanleihenkurs ↓ (Renditen ↑)",
+    "Rentenfondswert ↓"
    ]
   },
   {
@@ -158,58 +160,15 @@
     "https://www.manager-magazin.de/unternehmen/banken/commerzbank-was-lars-klingbeil-dem-unicredit-chef-beim-treffen-in-berlin-gesagt-hat-a-48ed4851-20a0-461f-976c-cedbb6466807#ref=rss"
    ],
    "punkte": 15,
-   "text": "Die Crédit Agricole, größter Aktionär der italienischen Banco BPM, äußert Bedenken gegen einen geplanten Verkauf an die Monte dei Paschi. Die Spannungen könnten die Übernahmepläne verzögern und die Aktienkurse beider Banken belasten.",
-   "positiv": [],
-   "negativ": [
-    "Banco BPM-Aktie",
-    "Monte dei Paschi-Aktie"
-   ]
-  },
-  {
-   "id": "28032703",
-   "titel": "Noch nie so viele Start-ups gegründet wie im ersten Halbjahr 2026",
-   "anriss": "Noch nie wurden so viele Unternehmen mit innovativen Geschäftsideen gegründet - vor allem dank Künstlicher Intelligenz. Die Start-up-Szene blickt optimistisch in die Zukunft. Von Steffen Clement.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/konjunktur/startup-boom-gruendung-100.html",
-    "https://www.spiegel.de/wirtschaft/kuenstliche-intelligenz-experten-warnen-vor-neuer-abhaengigkeit-europas-von-den-usa-a-674407e7-3e7a-43bd-9be9-62c4984077ef#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/china-und-ki-warum-peking-auf-die-bremse-verzichtet-201229152.html",
-    "https://www.faz.net/aktuell/wirtschaft/kuenstliche-intelligenz/warnung-vor-gefahren-der-ki-spiel-mit-dem-feuer-201223073.html"
-   ],
-   "punkte": 14,
-   "text": "Im ersten Halbjahr 2026 wurden mehr Start‑ups gegründet als je zuvor, vor allem im Bereich Künstliche Intelligenz. Das hohe Gründungsvolumen stärkt das Risiko‑Kapital‑Umfeld und die Technologie‑Sektor‑Bewertungen.",
+   "text": "Die Crédit Agricole stellt sich gegen den geplanten Verkauf der italienischen Banco BPM an die Monte dei Paschi und signalisiert eigene Übernahmepläne. Der Widerstand wirft Unsicherheit über die zukünftige Eigentümerstruktur von Banco BPM auf.",
    "positiv": [
-    "Venture‑Capital‑Fonds",
-    "KI‑ und Technologie‑Aktien"
+    "Crédit Agricole ↑ (Strategieoptionen)",
+    "Mögliche Konsolidierung im italienischen Bankensektor ↑"
    ],
-   "negativ": []
-  },
-  {
-   "id": "5d7422e0",
-   "titel": "Schwieriger Umstieg der Speditionen auf Elektro-Lkw",
-   "anriss": "Auf der IAA Transportation in Hannover stellt die Nutzfahrzeugbranche ihre neuen Modelle vor. Der Umstieg auf Elektro-Lkw ist für Speditionen ein aufwendiger und vor allem auch teurer Schritt. Von Michael Eiden.",
-   "region": "dach",
-   "quellen": [
-    "Tagesschau Wirtschaft",
-    "heise",
-    "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/unternehmen/umstieg-e-lkw-100.html",
-    "https://www.manager-magazin.de/unternehmen/mobilitaet/lidl-discounter-testet-fahrerlosen-elektro-lkw-fuer-filialbelieferung-a-d9734de4-d484-476f-9952-5de977e26a92#ref=rss",
-    "https://www.heise.de/news/IAA-Transportation-BYD-zeigt-44-Tonnen-Elektro-Sattelschlepper-ETT-44-11453838.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 12,
-   "text": "Auf der IAA Transportation in Hannover stellt die Nutzfahrzeugbranche ihre neuen Modelle vor. Der Umstieg auf Elektro-Lkw ist für Speditionen ein aufwendiger und vor allem auch teurer Schritt. Von Michael Eiden.",
-   "positiv": [],
-   "negativ": []
+   "negativ": [
+    "Banco BPM (Unsicherheit ↑)",
+    "Monte dei Paschi (Übernahmewahrscheinlichkeit ↓)"
+   ]
   },
   {
    "id": "45f32970",
@@ -228,28 +187,33 @@
     "https://www.manager-magazin.de/unternehmen/tech/spacex-gewinnt-ersten-kunden-fuer-ruecktransport-aus-dem-all-a-2b21cba4-7169-4cc2-bd46-08c4e5bc5069#ref=rss"
    ],
    "punkte": 12,
-   "text": "Im Jahr 2028 soll der erste kommerzielle Flug eines SpaceX-Raumschiffs starten. Nun hat das Unternehmen einen ersten Vertrag mit einem Kunden unterschrieben.",
-   "positiv": [],
-   "negativ": []
+   "text": "SpaceX hat den ersten Vertrag für den kommerziellen Rücktransport von Nutzlasten aus dem All erhalten, mit dem ersten Flug für 2028 geplant. Der Auftrag markiert einen Meilenstein für das Geschäftsmodell des Unternehmens im Bereich orbitaler Rückkehrdienste.",
+   "positiv": [
+    "SpaceX ↑",
+    "Rücktransport‑Dienstleistungen ↑"
+   ],
+   "negativ": [
+    "Konkurrenten im Raumfahrt‑Rücktransport ↓ (Marktanteilverlust)"
+   ]
   },
   {
-   "id": "b4369e6f",
-   "titel": "Diffusion models for dynamic volatility surface generation and data-driven hedging",
-   "anriss": "arXiv:2609.13402v1 Announce Type: new Abstract: We develop a diffusion-model framework for dynamic implied-volatility surface generation and evaluate its economic usefulness through data-driven hedging. The framework consists of two models. AD-Seq-Vol jointly learns the conditional evolution of the ",
+   "id": "9debd882",
+   "titel": "Global Poverty Beyond the Official Line: A bounded estimate of material insufficiency",
+   "anriss": "arXiv:2609.16203v1 Announce Type: new Abstract: Numbers this large invite a defensive reflex: reach for the reassuring figure and move on. By the most widely cited measure, the World Bank's extreme-poverty line of \\$3.00 per day (2021 PPP), approximately 847 million people, or 10.4% of the world's p",
    "region": "global",
    "quellen": [
     "arXiv q-fin"
    ],
-   "anzahl": 6,
+   "anzahl": 10,
    "links": [
-    "https://arxiv.org/abs/2609.13402",
-    "https://arxiv.org/abs/2609.13961",
-    "https://arxiv.org/abs/2609.14029",
-    "https://arxiv.org/abs/2609.14212",
-    "https://arxiv.org/abs/2609.14576"
+    "https://arxiv.org/abs/2609.16203",
+    "https://arxiv.org/abs/2609.16642",
+    "https://arxiv.org/abs/2609.17409",
+    "https://arxiv.org/abs/2609.16258",
+    "https://arxiv.org/abs/2609.17200"
    ],
    "punkte": 12,
-   "text": "arXiv:2609.13402v1 Announce Type: new Abstract: We develop a diffusion-model framework for dynamic implied-volatility surface generation and evaluate its economic usefulness through data-driven hedging. The framework con",
+   "text": "arXiv:2609.16203v1 Announce Type: new Abstract: Numbers this large invite a defensive reflex: reach for the reassuring figure and move on. By the most widely cited measure, the World Bank's extreme-poverty line of \\$3.00",
    "positiv": [],
    "negativ": []
   },
@@ -272,12 +236,83 @@
    "text": "Wirtschaft vor acht vom 15.09.2026",
    "positiv": [],
    "negativ": []
+  },
+  {
+   "id": "e4518fb5",
+   "titel": "Elon Musk lässt Wettbewerbsklage gegen Apple fallen",
+   "anriss": "Elon Musk hatte Apple und OpenAI verklagt, weil beide angeblich die KI Grok im Wettbewerb benachteiligt hatten. Den Vorwurf hält er gegenüber dem iPhone-Konzern nicht aufrecht – gegen den ChatGPT-Entwickler dagegen offenbar schon.",
+   "region": "dach",
+   "quellen": [
+    "heise",
+    "manager magazin"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.manager-magazin.de/unternehmen/tech/elon-musk-laesst-wettbewerbsklage-gegen-apple-fallen-a-75151a68-dd5f-4403-a2da-ff14f258d45a#ref=rss",
+    "https://www.heise.de/news/Grok-nicht-gehypet-Musk-laesst-Klage-gegen-Apple-fallen-11454459.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "https://www.heise.de/news/iPhone-Duo-Offizielles-Zubehoer-von-Apple-11448259.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 10,
+   "text": "Elon Musk hatte Apple und OpenAI verklagt, weil beide angeblich die KI Grok im Wettbewerb benachteiligt hatten. Den Vorwurf hält er gegenüber dem iPhone-Konzern nicht aufrecht – gegen den ChatGPT-Entwickler dagegen offen",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "30bc67ad",
+   "titel": "Building a Linux GPU Driver for the M4 Mac Mini in One Month",
+   "anriss": "Article URL: https://codyho.dev/blog/gpu-driver/ Comments URL: https://news.ycombinator.com/item?id=49717638 Points: 208 # Comments: 130",
+   "region": "global",
+   "quellen": [
+    "Hacker News Top"
+   ],
+   "anzahl": 8,
+   "links": [
+    "https://codyho.dev/blog/gpu-driver/",
+    "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+    "https://www.strix.ai/blog/baseten-harbor-github-pat-takeover",
+    "https://blog.archive.org/2026/09/15/an-update-on-wayback-machine-access/",
+    "https://github.com/arnegiacomo/fugleramme"
+   ],
+   "punkte": 10,
+   "text": "Article URL: https://codyho.dev/blog/gpu-driver/ Comments URL: https://news.ycombinator.com/item?id=49717638 Points: 208 # Comments: 130",
+   "positiv": [],
+   "negativ": []
   }
  ],
  "ketten": [],
  "gegenthese": {
-  "konsens": "Die Märkte erwarten anhaltend hohe Energiepreise, restriktive Geldpolitik und langsame ESG‑Umsetzung, was Aktienkurse und Kreditspreads schwächen.",
-  "gegen": "Starke Unternehmensgewinne, robuste Konsumausgaben und technologische Durchbrüche könnten die Abschwächung begrenzen."
+  "Spritpreise": {
+   "konsens": "Kurzfristige Entlastung durch Senkung der Mineralölsteuer und Aufstockung strategischer Reserven.",
+   "gegen": "Staatshaushalt belastet, Preisverzerrungen, keine nachhaltige Lösung."
+  },
+  "Geldanlage": {
+   "konsens": "Steigende Anleiherenditen gelten als größtes Risiko für Portfolios, Umschichtung in Aktien/Alternativen.",
+   "gegen": "Höhere Renditen können reale Erträge steigern, Inflationserwartungen spiegeln sich wider."
+  },
+  "Credit Agricole vs Banco BPM": {
+   "konsens": "Credit Agricole will Verkauf verhindern, um italienische Marktpräsenz zu sichern.",
+   "gegen": "Verkauf könnte Kapital freisetzen und Bilanz stärken, Marktwert könnte höher sein."
+  },
+  "SpaceX Rücktransport": {
+   "konsens": "Erster Kunde bestätigt Nachfrage nach Orbital‑Rücktransport‑Dienstleistungen.",
+   "gegen": "Kosten hoch, begrenzte Kundenbasis, regulatorische Hürden könnten Wachstum bremsen."
+  },
+  "Global Poverty Estimate": {
+   "konsens": "Neue Schätzung zeigt Materialinsuffizienz deutlich über offiziellen Armutsgrenzen.",
+   "gegen": "Methodik unsicher, Datenlücken können zu Überschätzung führen."
+  },
+  "Wirtschaft vor acht (15.09.2026)": {
+   "konsens": "Leichte Kontraktion der deutschen Wirtschaft im Q3, getrieben von schwacher Konsumnachfrage und Energiepreisen.",
+   "gegen": "Mögliche fiskalische Impulse und Export‑Erholung könnten die Abschwächung abfedern."
+  },
+  "Elon Musk vs Apple": {
+   "konsens": "Fallabbruch reduziert rechtliche Belastung und könnte Kooperationen erleichtern.",
+   "gegen": "Grundlegende IP‑Streitigkeiten bleiben, Rückzug kann als Schwäche interpretiert werden."
+  },
+  "Linux GPU Driver M4": {
+   "konsens": "Entwicklung eines Linux‑GPU‑Treibers für M4 in einem Monat zeigt starkes Open‑Source‑Momentum.",
+   "gegen": "Leistung und Support könnten hinter proprietären Treibern zurückbleiben, Adoption ungewiss."
+  }
  },
  "matrix": [
   {
@@ -416,7 +451,7 @@
     ],
     [
      "Newsletter",
-     "in 2 Clustern"
+     "in 1 Clustern"
     ],
     [
      "Reddit",
@@ -431,13 +466,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Analysten‑Stimmungsbild ist stark positiv (19 Kauf‑Empfehlungen). Das Umsatzwachstum von +18 % und das Kursziel von 196 € deuten auf erwartete Ertragssteigerungen hin. Das diversifizierte Portfolio aus Gas‑, Grid‑ und Wind‑Technologien bietet mehrere Wachstumspfade.",
-   "dagegen": "KGV von 21,4 erscheint im Vergleich zu historischen Werten hoch, was eine mögliche Überbewertung signalisiert. Die Branche steht unter Druck durch volatile Energiepreise und regulatorische Unsicherheiten. Fehlende Insider‑Transaktionen und das Fehlen von Short‑Positionen könnten auf ein geringes Marktinteresse hindeuten.",
-   "katalysatoren": [
-    "Auslieferung und Inbetriebnahme der neuen 15‑MW‑Windturbinen von Siemens Gamesa",
-    "Abschluss großer Gas‑Turbinen‑Service‑Verträge in Asien",
-    "Einführung von digitalen Grid‑Optimierungslösungen für europäische Netzbetreiber"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "RHM.DE": {
    "ticker": "RHM.DE",
@@ -484,12 +515,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Starke Analysten‑Konsens (18 Kauf, 3 Halten) unterstützt die Aktie. Das Umsatzwachstum von +69 % zeigt robuste Nachfrage, insbesondere im Vehicle‑Systems‑Segment. Das Kurs‑Gewinn‑Verhältnis von 19,2 liegt im Branchendurchschnitt, während die Marktkapitalisierung von 48 Mrd. € Stabilität signalisiert. Das Kursziel von 1.641 € impliziert weiteres Aufwärtspotenzial.",
-   "dagegen": "Gegenargumente: Die Bewertung ist angesichts des hohen KGV von 19,2 im Vergleich zu historischen Werten der Branche relativ teuer. Die Abhängigkeit von staatlichen Rüstungsausgaben birgt politisches Risiko, insbesondere bei möglichen Budgetkürzungen. Fehlende Insider‑Informationen und kaum Diskussionen in öffentlichen Foren deuten auf Informationslücken hin.",
+   "dafuer": "Rheinmetall verzeichnet ein starkes Umsatzwachstum von +69 % und ein moderates KGV von 19,2, was im Vergleich zur Branche attraktiv erscheint. Die Analysten‑Konsens von 18 Buy‑Empfehlungen unterstreicht das Vertrauen in die robuste Auftragslage in den Segmenten Vehicle Systems, Weapon & Ammunition sowie Electronic Solutions.",
+   "dagegen": "Die Bewertung von 48 Mrd EUR und ein Kursziel von 1 641 EUR implizieren ein hohes multiples‑Risiko, insbesondere bei möglicher Abschwächung der Rüstungsbudgets. Die geringe Medienpräsenz (kaum Reddit‑Erwähnungen, keine Insider‑Meldungen) und das Fehlen von Short‑Positionen könnten auf Informationsdefizite oder mangelnde Marktliquidität hindeuten.",
    "katalysatoren": [
-    "Verabschiedung des deutschen Rüstungsbudgets 2025 mit erhöhten Mittel für Fahrzeugsysteme",
-    "Zusage eines Großauftrags für neue Schützenpanzer von der Bundeswehr",
-    "Erteilung von Exportgenehmigungen für Rüstungsgüter in Asien und Nahost"
+    "Erhöhung des deutschen Verteidigungsbudgets 2025",
+    "Auslieferung des neuen Lynx‑Kampffahrzeugs",
+    "Veröffentlichung des Auftragsbuchs mit Großaufträgen aus den USA"
    ]
   },
   "ASML.AS": {
@@ -537,13 +568,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "ASML profitiert von der unverzichtbaren Rolle seiner EUV‑Lithografie in der Chip‑Fertigung. Das Unternehmen verzeichnet 21 % Umsatzwachstum, ein KGV von 26,7 und eine Marktkapitalisierung von 529,6 Mrd. €, was die Analysten mit 39 Buy‑Ratings stark unterstützt.",
-   "dagegen": "Trotz starkem Wachstum bleibt die Bewertung hoch; ein KGV von 26,7 ist im Vergleich zu historischen Werten teuer. Ein einzelner Sell‑Rating weist auf Bedenken hin, etwa mögliche Lieferkettenengpässe, technologische Risiken bei EUV‑Weiterentwicklungen und regulatorische Unsicherheiten.",
-   "katalysatoren": [
-    "Markteinführung der nächsten EUV‑Generation (z. B. NXE:3400) im Jahresende 2024",
-    "Große Aufträge von TSMC, Samsung und Intel für 2025‑Technologien",
-    "Entwicklung von US‑Exportbeschränkungen für Halbleiterausrüstung"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "SU.PA": {
    "ticker": "SU.PA",
@@ -575,7 +602,7 @@
     ],
     [
      "Newsletter",
-     "in 23 Clustern"
+     "in 16 Clustern"
     ],
     [
      "Reddit",
@@ -590,13 +617,9 @@
      "1648,06 % ueber 1700 Halter"
     ]
    ],
-   "dafuer": "Starkes globales Netzwerk, diversifiziertes Portfolio aus Energiemanagement, Industrieautomation und Gebäudetechnik, Umsatzwachstum von +10 % und ein erwartetes KGV von 22,7 deuten auf solide Fundamentaldaten hin. Analysten bewerten die Aktie überwiegend mit Kauf (21‑zu‑3) und das Kursziel von 330 EUR impliziert erheblichen Aufwärtsspielraum.",
-   "dagegen": "Ein extrem hoher Short‑Interest von über 1.600 % (1700 Halter) signalisiert Skepsis und mögliche Kursvolatilität. Fehlende Insider‑Transaktionen und kaum Diskussionen auf Reddit deuten auf geringe Marktaufmerksamkeit hin. Das KGV von 22,7 könnte im Vergleich zum Branchen‑Durchschnitt überbewertet sein.",
-   "katalysatoren": [
-    "Q3‑Finanzbericht (voraussichtlich Oktober)",
-    "Einführung der nächsten Generation von Microgrid‑ und Energiemanagement‑Systemen",
-    "EU‑Förderprogramme für Energieeffizienz, die die Nachfrage nach Gebäudemanagement‑Lösungen steigern könnten"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "GEV": {
    "ticker": "GEV",
@@ -606,11 +629,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "234.5 Mrd"
+     "235.1 Mrd"
     ],
     [
      "KGV (erw.)",
-     "34,8"
+     "34,9"
     ],
     [
      "Umsatzwachstum",
@@ -628,7 +651,7 @@
     ],
     [
      "Newsletter",
-     "in 1 Clustern"
+     "nicht erwaehnt"
     ],
     [
      "Reddit",
@@ -655,7 +678,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "39.8 Mrd"
+     "39.7 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -704,7 +727,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "99.4 Mrd"
+     "99.6 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -753,7 +776,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "5.121.0 Mrd"
+     "5.123.3 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -796,42 +819,6 @@
   }
  },
  "shorts": [
-  {
-   "land": "NL",
-   "halter": "Citadel Advisors LLC",
-   "emittent": "Pharming Group N.V.",
-   "prozent": 1.2,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "LMR Partners LLP",
-   "emittent": "Akzo Nobel N.V.",
-   "prozent": 1.1,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "BlackRock Financial Management, Inc.",
-   "emittent": "Akzo Nobel N.V.",
-   "prozent": 0.61,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "Millennium International Management LP",
-   "emittent": "Wolters Kluwer N.V.",
-   "prozent": 0.5,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
   {
    "land": "UK",
    "halter": "Anavio Capital Partners LLP",
@@ -1065,10 +1052,46 @@
    "datum": "2019-06-11",
    "status": "aufgestockt",
    "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 13.82,
+   "datum": "2019-06-10",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "GUEVOURA FUND LTD",
+   "emittent": "HAMMERSON PLC",
+   "prozent": 13.78,
+   "datum": "2020-09-24",
+   "status": "aufgestockt",
+   "zuvor": 0.57
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 13.68,
+   "datum": "2019-06-07",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 13.5,
+   "datum": "2019-06-06",
+   "status": "aufgestockt",
+   "zuvor": 0.53
   }
  ],
  "shorts_kennzahlen": {
-  "neu_diese_woche": 4,
+  "neu_diese_woche": 0,
   "meistgeshortet": {
    "name": "Premier Oil PLC",
    "summe": 2145.63
@@ -1081,30 +1104,6 @@
  },
  "gespraech": [],
  "termine": [
-  {
-   "datum": "2026-09-15",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-16",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-16",
-   "zeit": "",
-   "region": "us",
-   "was": "Selected Real Retail Sales Series",
-   "konsens": "",
-   "wucht": "hoch"
-  },
   {
    "datum": "2026-09-16",
    "zeit": "20:00",
@@ -1176,8 +1175,32 @@
    "was": "FOMC Press Release",
    "konsens": "",
    "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-24",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-25",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-25",
+   "zeit": "10:00",
+   "region": "dach",
+   "was": "ifo-Geschaeftsklima",
+   "konsens": "",
+   "wucht": "mittel"
   }
  ],
- "meldungen_gesamt": 192,
+ "meldungen_gesamt": 152,
  "llm_aktiv": false
 }
