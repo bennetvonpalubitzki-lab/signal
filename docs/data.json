@@ -1,9 +1,9 @@
 {
- "stand": "2026-09-17T16:06",
- "lauf": "2026091716",
+ "stand": "2026-09-17T19:04",
+ "lauf": "2026091719",
  "synthese": {
-  "kern": "Markt fokussiert Zins‑Ausblick und Wachstum, verkennt jedoch Liquiditätsengpässe und sektorale Risiken.",
-  "erlaeuterung": "Während die Geldpolitik und robuste Auftragsbestände die Stimmung heben, zeigen niedrige Liquidität und Immobilienfonds‑Probleme strukturelle Schwächen. Zudem dämpfen überhöhte KI‑Erwartungen und geopolitische Unsicherheiten das eigentliche Risiko, das vom Markt kaum beachtet wird."
+  "kern": "Markt unterschätzt anhaltenden Liquiditätsengpass und Immobilienstress trotz scheinbarer Stabilität.",
+  "erlaeuterung": "Die Inflation bleibt über dem Ziel, die Geldpolitik bleibt restriktiv, während US‑Liquidität nur bei 45 % liegt. Gleichzeitig zwingt Investorenausfluss Immobilienfonds zum Verkauf, was das Risiko für breitere Märkte erhöht."
  },
  "regime": [
   {
@@ -36,15 +36,15 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 66,
-     "delta": 2
+     "wert": 65,
+     "delta": 1
     },
     "eur": {
      "wert": 83,
      "delta": -3
     }
    },
-   "differenz": 17
+   "differenz": 18
   },
   {
    "name": "risikoappetit",
@@ -61,23 +61,23 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 41,
-     "delta": 0
+     "wert": 45,
+     "delta": 7
     },
     "eur": {
      "wert": 0,
      "delta": 0
     }
    },
-   "differenz": 41
+   "differenz": 45
   },
   {
    "name": "geopolitik",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 90,
-     "delta": 0
+     "wert": 89,
+     "delta": -1
     }
    }
   }
@@ -89,56 +89,30 @@
    "anriss": "Gegen den Willen von Präsident Donald Trump hat die US-Notenbank die Zinsen erhöht. Ihren Höhepunkt dürften sie aber noch nicht erreicht haben, wie eine Fed-Befragung zeigt.",
    "region": "dach",
    "quellen": [
+    "FAZ Wirtschaft",
     "Handelsblatt Finanzen",
     "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 9,
+   "anzahl": 11,
    "links": [
     "https://www.handelsblatt.com/finanzen/geldpolitik/fed-us-inflation-noch-bis-2029-zu-hoch-was-das-fuer-die-zinsen-bedeutet/100255243.html",
     "https://www.handelsblatt.com/finanzen/geldpolitik/geldpolitik-britische-notenbank-haelt-leitzins-konstant-noch/100253803.html",
     "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/fed-entscheidung-warsh-trump-100.html",
     "https://www.tagesschau.de/wirtschaft/weltwirtschaft/fed-leitzins-erhoeht-100.html",
-    "https://www.tagesschau.de/wirtschaft/finanzen/dollar-trump-fed-zinserhoehung-100.html"
+    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-geldanlage-154.html"
    ],
-   "punkte": 36,
-   "text": "Eine aktuelle Fed‑Umfrage geht davon aus, dass die US‑Inflation bis 2029 über dem Ziel von 2 % liegen wird, sodass die Zentralbank die Zinsen weiter anheben könnte. Der aktuelle Zinserhöhungszyklus ist damit noch nicht am Ende, obwohl er gegen den Wunsch von Präsident Donald Trump durchgeführt wurde.",
+   "punkte": 42,
+   "text": "Eine aktuelle Fed‑Umfrage zeigt, dass die US‑Inflation voraussichtlich bis 2029 über dem Ziel von 2 % liegen wird, sodass die Zentralbank die Zinsen weiter anheben dürfte. Damit dürfte das Zinsniveau in den USA weiter steigen, was die Renditen von Staatsanleihen nach oben treibt und wachstumsorientierte Aktien belastet.",
    "positiv": [
-    "US‑Kurzfristzinsen (steigend)"
+    "US‑Banken ↑",
+    "US‑Dollar ↑"
    ],
    "negativ": [
-    "US‑Staatsanleihen (Kursverlust)",
-    "US‑Aktien (Risiko‑Prämie)",
-    "US‑Dollar (Stärke)"
-   ]
-  },
-  {
-   "id": "5e7979d8",
-   "titel": "Wall Street: US-Märkte am Tag nach Zinsentscheid höher",
-   "anriss": "Ein Grund für die bessere Stimmung dürften die sinkenden Ölpreise sein. Nach dem Zinsentscheid der Fed können sich Anleger wieder anderen Themen zuwenden.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 5,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-us-maerkte-am-tag-nach-zinsentscheid-hoeher/100255319.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-liegt-trotz-us-zinsentscheid-und-zolldrohung-im-plus/100255231.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-japan-legt-zu-china-verliert-asiens-boersen-reagieren-auf-die-fed/100255203.html",
-    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-geldanlage-154.html",
-    "https://www.manager-magazin.de/finanzen/boerse/boerse-dax-im-aufwind-bilfinger-aktie-bricht-ein-us-boersen-unter-druck-oelpreise-sinken-a-a45d91d0-d906-40aa-9f71-78ef7a88b6bf#ref=rss"
-   ],
-   "punkte": 19,
-   "text": "Die US‑Aktienmärkte schlossen am Tag nach dem Fed‑Zinsentscheid höher, wobei sinkende Ölpreise die Stimmung unterstützten. Anleger können nun wieder Kapital in andere Sektoren umschichten, die bislang im Schatten der Zins‑ und Rohstoffthemen standen.",
-   "positiv": [
-    "US‑Aktien (Aufwärts)",
-    "Rohstoff‑ und Energie‑Aktien (nach Preisrückgang)"
-   ],
-   "negativ": [
-    "Öl‑ und Energie‑Rohstoffe (Preisrückgang)"
+    "US‑Staatsanleihenkurse ↓",
+    "Growth‑Aktien ↓",
+    "Risikokapital ↑ (Kosten)"
    ]
   },
   {
@@ -159,43 +133,19 @@
     "https://www.manager-magazin.de/unternehmen/industrie/immobilien-hohe-bauzinsen-und-kosten-bremsen-nachfrage-nach-haeusern-und-wohnungen-a-a25d7130-5743-4385-b85a-6f690cf528f7#ref=rss"
    ],
    "punkte": 16,
-   "text": "Die DWS muss wegen stark steigender Rücknahmen aus Immobilienfonds vermehrt Immobilien verkaufen, um die Auszahlungen an Anteilseigner zu finanzieren. Das erhöht den Angebotsdruck auf den deutschen Immobilienmarkt und belastet die Bewertung von Immobilienfonds.",
+   "text": "Die DWS muss aufgrund steigender Rücknahmen von Immobilienfonds vermehrt Immobilien veräußern, um die Anteilseigner auszuzahlen. Das erhöht das Angebot am deutschen Immobilienmarkt und dürfte die Preise sowie die Bewertung von Immobilienfonds nach unten drücken.",
    "positiv": [
-    "Cash‑Bestände von DWS (Zuwachs)"
+    "Immobilienkäufer ↓ (Preisvorteil)"
    ],
    "negativ": [
-    "Deutsche Immobilienfonds (Kursverlust)",
-    "Immobilienpreise in Deutschland (Druck)"
+    "Deutsche Immobilienfonds ↓",
+    "Immobilienpreise ↓",
+    "REIT‑Bewertungen ↓"
    ]
   },
   {
-   "id": "0cff228a",
-   "titel": "Aleph Alpha und Cohere: Kein KI-Wunder erwarten",
-   "anriss": "Digitalminister Wildberger setzt große Hoffnungen in den Zusammenschluss des kanadischen KI-Unternehmens Cohere mit dem deutschen Start-up Aleph Alpha. Aber mit allzu hohen Erwartungen sollte man vorsichtig sein.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "heise",
-    "manager magazin"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/aleph-alpha-und-cohere-kein-ki-wunder-erwarten-201232808.html",
-    "https://www.manager-magazin.de/unternehmen/tech/cohere-kanadier-schmieden-mit-aleph-alpha-neue-ki-hoffnung-a-1840818b-3a6b-48e3-ad00-0ec4440af996#ref=rss",
-    "https://www.heise.de/news/Deutschland-und-Kanada-investieren-gemeinsam-in-sichere-KI-11457301.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-    "https://www.heise.de/news/Souveraenitaet-Wildberger-foerdert-marktreife-Tech-Produkte-und-sichere-KI-11457136.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 14,
-   "text": "Digitalminister Volker Wissing sieht im Zusammenschluss von Cohere und Aleph Alpha großes Potenzial, warnt jedoch vor überzogenen Erwartungen an ein sofortiges KI‑Wunder. Die aktuelle Bewertung von KI‑Unternehmen bleibt daher vorsichtig, bis konkrete Produkt‑ und Umsatz‑Erfolge nachgewiesen sind.",
-   "positiv": [],
-   "negativ": [
-    "Deutsche KI‑Aktien (Überbewertung)",
-    "KI‑Start‑Ups (Erwartungsdruck)"
-   ]
-  },
-  {
-   "id": "361b0350",
-   "titel": "Essen gehen trotz Mehrwertsteuer-Senkung nicht günstiger",
+   "id": "9c9b07d1",
+   "titel": "Essengehen trotz Mehrwertsteuer-Senkung nicht günstiger",
    "anriss": "Seit Jahresbeginn gilt im Gastgewerbe eine niedrigere Mehrwertsteuer. Im Schnitt sei nur etwa ein Prozent der Gerichte günstiger geworden, zeigt eine Studie im Auftrag der Gewerkschaft Nahrung-Genuss-Gaststätten. Von Markus Reher.",
    "region": "dach",
    "quellen": [
@@ -208,9 +158,13 @@
     "https://www.spiegel.de/wirtschaft/gastronomie-restaurantbesuche-sind-trotz-steuersenkung-offenbar-nicht-guenstiger-geworden-a-e3897f52-452a-40c6-8609-ee5bf3b3596e#ref=rss"
    ],
    "punkte": 12,
-   "text": "Seit Jahresbeginn gilt im Gastgewerbe eine niedrigere Mehrwertsteuer. Im Schnitt sei nur etwa ein Prozent der Gerichte günstiger geworden, zeigt eine Studie im Auftrag der Gewerkschaft Nahrung-Genuss-Gaststätten. Von Mar",
-   "positiv": [],
-   "negativ": []
+   "text": "Seit Jahresbeginn gilt im Gastgewerbe ein reduzierter Mehrwertsteuersatz, doch eine Studie der Gewerkschaft Nahrung‑Genuss‑Wertschätzung zeigt, dass im Schnitt nur etwa ein Prozent der Gerichte tatsächlich günstiger geworden ist. Die Margen der Gastronomiebetriebe können dadurch leicht steigen, während Verbraucher kaum von niedrigeren Preisen profitieren.",
+   "positiv": [
+    "Gastgewerbe‑Margen ↑"
+   ],
+   "negativ": [
+    "Verbraucherpreise unverändert ↓ (kein spürbarer Effekt)"
+   ]
   },
   {
    "id": "1e5c2afd",
@@ -229,8 +183,12 @@
     "https://www.manager-magazin.de/politik/deutschland/wirtschaft-in-deutschland-auftragspolster-der-industrie-steigt-auf-rekordhoch-a-c88751a4-0d16-4cff-aa99-a1a9f305032e#ref=rss"
    ],
    "punkte": 12,
-   "text": "Die Auftragsbücher deutscher Industrieunternehmen sind so voll wie noch nie. Besonders Aufträge für Flugzeuge, Schiffe, Züge und auch Militärfahrzeuge sorgen für viel Extrageschäft im Verarbeitenden Gewerbe.",
-   "positiv": [],
+   "text": "Der Auftragsbestand deutscher Industrieunternehmen hat ein Rekordhoch erreicht, getrieben von starkem Auftragseingang in den Bereichen Luftfahrt, Schiffbau, Schienen und Militärfahrzeuge. Diese Auftragslage unterstützt die Aktien der betroffenen Branchen und kann zu höheren Investitions- und Beschäftigungszahlen führen.",
+   "positiv": [
+    "Luftfahrt‑ und Rüstungsindustrie ↑",
+    "Schiffbau ↑",
+    "Schienen‑ und Zughersteller ↑"
+   ],
    "negativ": []
   },
   {
@@ -255,71 +213,108 @@
    "negativ": []
   },
   {
-   "id": "a28776f1",
-   "titel": "Obi, Hornbach und Globus: Obi unterliegt im Baumarkt-Streit über die Farbe Orange am Bundesgerichtshof",
-   "anriss": "Globus und Hornbach feiern einen Erfolg in der jahrelangen Auseinandersetzung um einen Farbton: Obi hat den Markenschutz verloren. Das Gericht erkennt in dem Orange nur einen Hinweis auf Baumärkte im Allgemeinen.",
+   "id": "9db1dcb3",
+   "titel": "OpenAI veröffentlicht weitere KI-Zwischenfälle",
+   "anriss": "Künstliche Intelligenz entwickelt sich rasant - mit teils ungewollten Folgen. Zuletzt löste etwa ein Hacker-Angriff durch KI-Software von OpenAI weltweit Sorgen aus. Jetzt informierte der Entwickler über sechs neue Zwischenfälle.",
+   "region": "dach",
+   "quellen": [
+    "Tagesschau Wirtschaft",
+    "heise"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/digitales/openai-kuenstliche-intelligenz-100.html",
+    "https://www.heise.de/news/Probleme-auch-bei-alltaeglichen-Aufgaben-neue-KI-Sicherheitsvorfaelle-publiziert-11456893.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "https://www.heise.de/news/OpenAI-fuehrt-Framework-zur-Meldung-von-KI-Sicherheitsvorfaellen-ein-11456751.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 10,
+   "text": "Künstliche Intelligenz entwickelt sich rasant - mit teils ungewollten Folgen. Zuletzt löste etwa ein Hacker-Angriff durch KI-Software von OpenAI weltweit Sorgen aus. Jetzt informierte der Entwickler über sechs neue Zwisc",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "a2935167",
+   "titel": "Spritpreise: Italien setzt Kfz-Steuer für Millionen Fahrzeuge aus",
+   "anriss": "Die Bundesregierung ringt um Maßnahmen gegen die explodierenden Preise für Benzin und Diesel. In Italien hat die Koalition von Giorgia Meloni nun entschieden, für manche Autos, Roller und Motorräder 2027 keine Kfz-Steuer zu erheben.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
+    "SPIEGEL Wirtschaft"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.spiegel.de/wirtschaft/spritpreise-italien-setzt-kfz-steuer-fuer-millionen-fahrzeuge-aus-a-473e9496-6694-48b0-9468-f03f9a0346c2#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/monika-schnitzer-wirtschaftsweise-gegen-spritpreis-deckel-201235381.html",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/kfz-steuer-in-italien-giorgia-meloni-schafft-sie-ab-201236282.html"
+   ],
+   "punkte": 10,
+   "text": "Die Bundesregierung ringt um Maßnahmen gegen die explodierenden Preise für Benzin und Diesel. In Italien hat die Koalition von Giorgia Meloni nun entschieden, für manche Autos, Roller und Motorräder 2027 keine Kfz-Steuer",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "0cff228a",
+   "titel": "Aleph Alpha und Cohere: Kein KI-Wunder erwarten",
+   "anriss": "Digitalminister Wildberger setzt große Hoffnungen in den Zusammenschluss des kanadischen KI-Unternehmens Cohere mit dem deutschen Start-up Aleph Alpha. Aber mit allzu hohen Erwartungen sollte man vorsichtig sein.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
     "manager magazin"
    ],
    "anzahl": 3,
    "links": [
-    "https://www.spiegel.de/wirtschaft/unternehmen/obi-hornbach-und-globus-obi-unterliegt-im-baumarkt-streit-ueber-die-farbe-orange-am-bundesgerichtshof-a-63a92969-0f6f-49d4-9113-2496a5460c6f#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/obi-verliert-farbmarke-orange-bgh-urteil-im-markenstreit-accg-201236139.html",
-    "https://www.manager-magazin.de/unternehmen/handel/obi-hornbach-und-globus-obi-unterliegt-im-baumarkt-streit-ueber-die-farbe-orange-am-bundesgerichtshof-a-f4d338de-ddf9-44cb-ac47-cd6212e410cb#ref=rss"
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/aleph-alpha-und-cohere-kein-ki-wunder-erwarten-201232808.html",
+    "https://www.manager-magazin.de/unternehmen/tech/langdock-ki-start-up-verlegt-rechtssitz-aus-den-usa-nach-deutschland-a-c08ade76-cf04-4925-a046-293246a68783#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/tech/cohere-kanadier-schmieden-mit-aleph-alpha-neue-ki-hoffnung-a-1840818b-3a6b-48e3-ad00-0ec4440af996#ref=rss"
    ],
-   "punkte": 12,
-   "text": "Globus und Hornbach feiern einen Erfolg in der jahrelangen Auseinandersetzung um einen Farbton: Obi hat den Markenschutz verloren. Das Gericht erkennt in dem Orange nur einen Hinweis auf Baumärkte im Allgemeinen.",
+   "punkte": 10,
+   "text": "Digitalminister Wildberger setzt große Hoffnungen in den Zusammenschluss des kanadischen KI-Unternehmens Cohere mit dem deutschen Start-up Aleph Alpha. Aber mit allzu hohen Erwartungen sollte man vorsichtig sein.",
    "positiv": [],
    "negativ": []
   }
  ],
  "ketten": [
   {
-   "ausloeser": "Fed erhöht im Juli 2024 den Leitzins um 25 Basispunkte über den Konsens von 5,00 % hinaus",
-   "direkt": "US‑Treasury‑Yields steigen, der US‑Dollar gewinnt gegenüber dem Euro an Stärke, kurzfristige US‑Zins‑Futures steigen",
-   "zweite": "Stärkere Dollar‑Finanzierungskosten belasten exportorientierte europäische Unternehmen (z. B. deutsche Automobilhersteller, Luftfahrtzulieferer) und führen zu einem Rückgang ihrer Aktienkurse",
-   "dritte": "Investoren flüchten in sichere Anlagen; europäische Staatsanleihenrenditen steigen, Euro‑Stoxx‑50 korrigiert, REIT‑ und Immobilienfonds mit Euro‑Denominierung verlieren an Wert",
+   "ausloeser": "Federal Reserve erhöht den Leitzins im September 2024 um 75 Basispunkte, stärker als von den Märkten erwartet",
+   "direkt": "US‑Treasury‑Renditen steigen, US‑Dollar stärkt sich gegenüber dem Euro",
+   "zweite": "Finanzierungsbedingungen für europäische Exportunternehmen verschlechtern sich, Euro verliert gegenüber dem Dollar an Wert",
+   "dritte": "Exportabhängige europäische Aktien (Automobil, Maschinenbau, Luftfahrt) fallen, europäische Unternehmens‑ und Staatsanleihenrenditen steigen, europäische Immobilien‑REITs geraten unter Druck wegen höherer Kapitalkosten",
    "positiv": [
     "Gold",
-    "USD‑denominierte Geldmarkt‑ und Kurzfrist‑Anleihen",
-    "Kurzlaufende europäische Staatsanleihen (geringe Duration)",
-    "US‑Dollar‑Index"
+    "US‑Dollar",
+    "Defensive europäische Sektoren (Versorger, Gesundheitswesen)",
+    "Kurzfristige europäische Staatsanleihen (Flucht in Sicherheit)"
    ],
    "negativ": [
-    "Euro",
-    "Deutsche Automobil‑ und Luftfahrt‑Aktien (z. B. Volkswagen, Airbus)",
-    "Euro‑Stoxx‑50‑Index",
-    "Europäische Immobilien‑REITs (z. B. Vonovia, Covivio)",
-    "Euro‑denominierte Unternehmensanleihen mit längerer Duration"
+    "Euro‑zone Aktien, insbesondere Export‑ und Industrie‑Sektoren",
+    "Europäische Unternehmensanleihen mit hohem US‑Exposure",
+    "Europäische Commercial‑Real‑Estate‑REITs",
+    "Banken mit signifikanter US‑Kreditexposure"
    ],
    "konfidenz": "hoch"
   },
   {
-   "ausloeser": "Bundesgerichtshof bestätigt im Oktober 2024 die Entscheidung gegen Obi im Farbstreit und verhängt eine Lizenz‑ und Schadenszahlung",
-   "direkt": "Obi meldet eine deutliche Gewinnwarnung; die Aktie fällt um ca. 8‑10 %",
-   "zweite": "Konkurrent Hornbach gewinnt Marktanteile im Baumarktsegment, seine Aktie steigt um ca. 5 % und die Umsatzprognose wird nach oben korrigiert",
-   "dritte": "Der deutsche Baumarkt‑Sektor wird von Analysten positiver bewertet; Baumarkt‑ETFs (z. B. iShares MSCI Germany Retail) steigen, während der Einzelhandels‑Index (Euro‑Stoxx‑Retail) leicht unter Druck gerät",
+   "ausloeser": "DWS muss im Q4 2024 Immobilien im Wert von mindestens 5 Mrd. € verkaufen, um massive Anleger‑Rücknahmen zu bedienen",
+   "direkt": "Angebot an europäischen Büro‑ und Einzelhandelsimmobilien auf dem Sekundärmarkt steigt, Preise für Gewerbeimmobilien fallen",
+   "zweite": "Gewerbe‑REITs und Immobilienfonds in Europa erleiden Kursverluste, die Renditen (Yields) für Gewerbeimmobilien steigen, Kreditbedingungen für Bau‑ und Projektfinanzierungen verschärfen sich",
+   "dritte": "Europäische Banken mit hoher Gewerbe‑Immobilien‑Exposition sehen steigende Ausfallrisiken, Kreditspreads für Bankanleihen weiten sich, Bau‑ und Baustoffunternehmen erleben Auftragsrückgang, was deren Aktienkurse belastet",
    "positiv": [
-    "Hornbach‑Aktie",
-    "Baumarkt‑ETFs (z. B. iShares MSCI Germany Retail)",
-    "Zulieferer von Baumaterialien, die von Hornbach profitieren (z. B. Saint‑Gobain Building Products)",
-    "Kurzfristige Unternehmensanleihen von Hornbach"
+    "Kurzfristige europäische Staatsanleihen (Flucht in Sicherheit)",
+    "Wohn‑REITs (nachfrageorientiert)",
+    "Cash‑ und Geldmarkt‑Instrumente"
    ],
    "negativ": [
-    "Obi‑Aktie",
-    "Obi‑bezogene Unternehmensanleihen",
-    "Lieferanten, die stark von Obi abhängig sind (z. B. regionale Holz‑ und Baustoffhändler)",
-    "Euro‑Stoxx‑Retail‑Index"
+    "Europäische Commercial‑REITs und Immobilienfonds",
+    "Banken mit signifikanter Gewerbe‑Immobilien‑Kreditexposure",
+    "Bau‑ und Baustoffunternehmen",
+    "Industrie‑ und Infrastruktur‑Aktien, die stark von Neubau‑Aufträgen abhängen"
    ],
    "konfidenz": "mittel"
   }
  ],
  "gegenthese": {
-  "konsens": "Die Märkte gehen davon aus, dass die Fed die Zinsen wegen anhaltender Inflation über Ziel bis mindestens 2026 hoch hält; US‑Aktien steigen nach Entscheidung, DWS verkauft Immobilien, KI‑Erwartungen gedämpft.",
-  "gegen": "Inflationsdruck könnte schneller nachlassen, weil Löhne stagnieren und Energiepreise sinken, was frühere Zinssenkungen ermöglichen würde; zudem könnten Unternehmensgewinne und Konsumausgaben die Aktienkurse nachhaltig stützen."
+  "konsens": "Markt erwartet anhaltend hohe US‑Zinsen bis 2029, Druck auf Immobilienfonds, schwächere Konsumausgaben trotz MwSt‑Senkung, Industrie‑Auftragsbestand auf Rekord, Stellenabbau bei RTL, KI‑Risiken bleiben hoch, Spritpreise in Italien stabil.",
+  "gegen": "Gegenargument: US‑Inflation könnte schneller zurückgehen, was frühere Zinssenkungen ermöglicht; Immobilien‑Liquidität könnte durch alternative Kapitalquellen verbessert werden; Konsum könnte durch andere Stimuli wieder steigen."
  },
  "matrix": [
   {
@@ -458,7 +453,7 @@
     ],
     [
      "Newsletter",
-     "in 1 Clustern"
+     "nicht erwaehnt"
     ],
     [
      "Reddit",
@@ -473,9 +468,13 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "Analysten sehen ein starkes Umsatzwachstum von 18 % und ein attraktives KGV von 22,8. Der Auftragsbestand in Gas‑ und Windturbinen wächst, und die digitale Serviceplattform verspricht wiederkehrende Erträge. Das Kursziel von 196 € spiegelt erwartete Margenverbesserungen wider.",
+   "dagegen": "Kritiker warnen vor hoher Verschuldung und Umsetzungsschwierigkeiten bei der Integration von Siemens Gamesa. Qualitätsprobleme bei Windturbinen könnten Kosten erhöhen. Zudem besteht das Risiko regulatorischer Änderungen und schwankender Energiepreise, die die Ertragslage belasten könnten.",
+   "katalysatoren": [
+    "Q3‑2024 Ergebnisveröffentlichung mit Fokus auf Margenentwicklung",
+    "Inbetriebnahme der neuen 5‑MW‑Windturbine von Siemens Gamesa",
+    "EU‑Förderprogramme für grüne Energie, die Aufträge für Gas‑ und Wärmepumpen erhöhen"
+   ]
   },
   "RHM.DE": {
    "ticker": "RHM.DE",
@@ -522,13 +521,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Dafür spricht das robuste Umsatzwachstum von +69 % und die breite Aufstellung in Fahrzeugsysteme, Waffen und Elektronik, die das Unternehmen gegen konjunkturelle Schwankungen absichern. Der Forward‑KGV von 19 liegt im Branchendurchschnitt, und 18 Analysten empfehlen Kauf, was das Marktvertrauen widerspiegelt.",
-   "dagegen": "Dagegen spricht die starke Abhängigkeit von staatlichen Rüstungsausgaben, die politisch und konjunkturell schwanken können. Das Kursziel von 1641 € impliziert ein weiteres Kursplus, das bei einem Forward‑KGV von 19 bereits am oberen Ende der Branche liegt und ein Überbewertungsrisiko birgt.",
-   "katalysatoren": [
-    "Erhöhung des deutschen Verteidigungsbudgets 2025",
-    "Auslieferung neuer Puma‑Kampfpanzer an die Bundeswehr",
-    "Quartalsbericht Q3 2026 mit Auftragsbestand‑Update"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "ASML.AS": {
    "ticker": "ASML.AS",
@@ -550,13 +545,13 @@
     ],
     [
      "Kursziel",
-     "2024 EUR"
+     "2045 EUR"
     ]
    ],
    "quellen": [
     [
      "Analysten",
-     "39 Kauf / 3 Halten / 1 Verkauf"
+     "38 Kauf / 3 Halten / 1 Verkauf"
     ],
     [
      "Newsletter",
@@ -575,12 +570,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "ASML dominiert den EUV‑Markt, liefert kritische Technologie für führende Chip‑Hersteller. Das Unternehmen verzeichnete 21 % Umsatzwachstum und profitiert von anhaltender Nachfrage nach fortschrittlichen Halbleitern. Analysten sehen 39 Buy‑Empfehlungen, was das Vertrauen in zukünftiges Wachstum widerspiegelt.",
-   "dagegen": "Die Bewertung mit einem KGV von 27,4 liegt über dem Branchendurchschnitt, was das Risiko einer Kurskorrektur erhöht. Die Nachfrage ist konjunkturabhängig; ein Abschwung in der Elektronik könnte Aufträge reduzieren. Zudem gibt es einen einzelnen Verkauf, der auf mögliche Bedenken hinweist. Die Analystenmeinung ist jedoch nicht einheitlich: 39 Buy‑Empfehlungen stehen einem einzigen Verkauf gegenüber.",
+   "dafuer": "ASML profitiert von der unverzichtbaren Rolle seiner EUV‑Lithografie in der Chipproduktion. Das Unternehmen verzeichnet ein starkes Umsatzwachstum von +21 % und ein enormes Markt‑Cap von 544,7 Mrd. €, was die Marktführerschaft unterstreicht. Analysten‑Consensus ist mit 38 Buy‑Ratings eindeutig positiv.",
+   "dagegen": "Das KGV von 27,4 erscheint hoch und lässt wenig Spielraum für Kursgewinne, falls das Chip‑Nachfragewachstum nachlässt. ASML ist stark von wenigen Großkunden abhängig, was das Geschäftsrisiko erhöht. Fehlende Insider‑Meldungen und keine Short‑Positionen deuten auf mögliche Unsicherheit hin.",
    "katalysatoren": [
-    "Q3‑2024 Quartalsbericht",
-    "Einführung des High‑NA‑EUV‑Systems",
-    "Ankündigung von Kapazitätserweiterungen bei TSMC oder Samsung"
+    "Auslieferung des High‑NA‑EUV‑Systems (Gen‑5) ab 2025",
+    "Großaufträge von TSMC und Samsung für 3‑nm‑ und 2‑nm‑Prozesse",
+    "EU‑ und US‑Förderprogramme für Halbleiterfabriken, die ASML‑Ausrüstung benötigen"
    ]
   },
   "SU.PA": {
@@ -613,7 +608,7 @@
     ],
     [
      "Newsletter",
-     "in 25 Clustern"
+     "in 26 Clustern"
     ],
     [
      "Reddit",
@@ -628,9 +623,13 @@
      "1648,06 % ueber 1700 Halter"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "Dafür spricht die globale Marktposition im Energiemanagement, ein diversifiziertes Portfolio (Inverter, Smart‑Meter) und ein Umsatzwachstum von +10 % bei einem moderaten KGV von 23,6. Analysten bewerten das Unternehmen überwiegend positiv (21 Buy, 3 Hold) und das Kursziel von 330 EUR liegt über dem aktuellen Kurs.",
+   "dagegen": "Dagegen spricht das extrem hohe Short‑Interest von über 1.600 % bei mehr als 1.700 Haltern, was auf erhebliche Bedenken hinsichtlich Bewertung oder zukünftiger Erträge hindeutet. Fehlende Insider‑Meldungen und kaum Reddit‑Aufmerksamkeit deuten auf geringe Markt‑Aufmerksamkeit hin; makroökonomische Risiken und intensiver Wettbewerb im Automatisierungs‑ und Erneuerbare‑Energien‑Sektor könnten das Wachstum bremsen.",
+   "katalysatoren": [
+    "Einführung einer neuen IoT‑basierten Energy‑Management‑Plattform im Q4 2026",
+    "Abschluss großer Aufträge für Wind‑Farm‑Microgrid‑Lösungen im ersten Halbjahr 2027",
+    "Veröffentlichung der Q3‑Ergebnisse, die das Umsatzwachstum von +10 % bestätigen könnten"
+   ]
   },
   "GEV": {
    "ticker": "GEV",
@@ -640,11 +639,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "251.1 Mrd"
+     "247.3 Mrd"
     ],
     [
      "KGV (erw.)",
-     "37,3"
+     "36,7"
     ],
     [
      "Umsatzwachstum",
@@ -677,13 +676,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Starkes Umsatzwachstum von +22 % zeigt steigende Nachfrage nach Energieinfrastruktur. Das Unternehmen deckt mit Power-, Wind- und Electrification-Segmenten ein breites Marktsegment in Nordamerika, Europa und Asien. Das Kursziel von 1.237 USD impliziert weiteres Aufwärtspotenzial, während das Markt‑Cap von 251 Mrd. USD solide Größe signalisiert.",
-   "dagegen": "Ein forward P/E von 37,3 deutet auf eine überbewertete Aktie hin, besonders bei makroökonomischer Unsicherheit. Insider‑Verkäufe (0 Käufe, 4 Verkäufe) können auf Bedenken hinsichtlich kurzfristiger Aussichten hindeuten. Der Wettbewerb im Wind‑ und Power‑Sektor sowie mögliche regulatorische Änderungen erhöhen das Risiko.",
-   "katalysatoren": [
-    "Q3‑Ergebnisbericht mit Umsatz‑ und Gewinnprognose",
-    "Inbetriebnahme neuer Offshore‑Windparks in Europa",
-    "US‑ und EU‑Förderprogramme für erneuerbare Energien"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "CCJ": {
    "ticker": "CCJ",
@@ -697,7 +692,7 @@
     ],
     [
      "KGV (erw.)",
-     "49,2"
+     "49,3"
     ],
     [
      "Umsatzwachstum",
@@ -742,11 +737,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "102.4 Mrd"
+     "101.8 Mrd"
     ],
     [
      "KGV (erw.)",
-     "17,2"
+     "17,1"
     ],
     [
      "Umsatzwachstum",
@@ -791,11 +786,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "5.281.7 Mrd"
+     "5.301.8 Mrd"
     ],
     [
      "KGV (erw.)",
-     "14,0"
+     "14,1"
     ],
     [
      "Umsatzwachstum",
@@ -1216,6 +1211,6 @@
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 191,
+ "meldungen_gesamt": 188,
  "llm_aktiv": true
 }
