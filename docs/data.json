@@ -1,9 +1,9 @@
 {
- "stand": "2026-09-18T16:04",
- "lauf": "2026091816",
+ "stand": "2026-09-18T19:04",
+ "lauf": "2026091819",
  "synthese": {
-  "kern": "Politische und regulatorische Schocks dominieren, während die sinkende Liquidität übersehen wird.",
-  "erlaeuterung": "Die Meldungen zeigen gleichzeitig geopolitische Eingriffe, Unternehmenswechsel und steigende Energiepreise, die das Risiko erhöhen. Der Markt fokussiert die kurzfristigen Kursbewegungen, vernachlässigt jedoch die stark rückläufige Liquiditätslage, insbesondere im Euroraum."
+  "kern": "Markt ignoriert steigenden geopolitischen und energiebedingten Risiko‑Druck trotz hoher Risikoappetits.",
+  "erlaeuterung": "Japan hebt den Leitzins auf ein 31‑Jahres‑Maximum, während Energiepreise und geopolitische Spannungen in Russland und Europa weiter steigen. Diese Entwicklungen erhöhen den Zins‑ und Inflationsdruck, den die Märkte bei ihrem derzeitigen Optimismus übersehen."
  },
  "regime": [
   {
@@ -36,23 +36,23 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 66,
-     "delta": 2
+     "wert": 64,
+     "delta": 0
     },
     "eur": {
      "wert": 82,
      "delta": -2
     }
    },
-   "differenz": 16
+   "differenz": 18
   },
   {
    "name": "risikoappetit",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 82,
-     "delta": 2
+     "wert": 84,
+     "delta": 4
     }
    }
   },
@@ -76,45 +76,46 @@
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 89,
-     "delta": -1
+     "wert": 90,
+     "delta": 0
     }
    }
   }
  ],
  "cluster": [
   {
-   "id": "016d5680",
-   "titel": "Dax aktuell: Dax liegt 400 Punkte im Minus – Tech-Aktie legt zu",
-   "anriss": "Nach der US-Notenbank Fed hat nun auch die Bank of Japan den Leitzins erhöht. Der Dax profitiert von sinkenden Ölpreisen, neue Konjunkturdaten dürften Anleger jedoch beunruhigen.",
+   "id": "1e5df71a",
+   "titel": "Geldpolitik: Japans Notenbank erhöht Leitzins auf höchsten Stand seit 31 Jahren",
+   "anriss": "Die Bank of Japan reagiert auf das zunehmende Risiko steigender Preise. Die Börse reagiert überrascht – und die Landeswährung Yen entwickelt sich zunächst anders als erhofft.",
    "region": "dach",
    "quellen": [
+    "FAZ Wirtschaft",
     "Handelsblatt Finanzen",
+    "Tagesschau Wirtschaft",
     "manager magazin"
    ],
    "anzahl": 5,
    "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-notiert-deutlich-im-minus-tech-aktie-legt-zu/100255551.html",
     "https://www.handelsblatt.com/finanzen/geldpolitik/japan-notenbank-erhoeht-leitzins-auf-hoechsten-stand-seit-31-jahren/100255529.html",
     "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-topix-csi-300-asiens-boersen-reagieren-auf-japans-zinserhoehung-mit-gewinnen/100255536.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sieben-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
+    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/fed-entscheidung-warsh-trump-100.html",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/kevin-warsh-trotzt-donald-trump-bei-der-inflationsbekaempfung-201236493.html",
     "https://www.manager-magazin.de/politik/weltwirtschaft/japan-notenbank-hebt-leitzins-auf-hoechsten-stand-seit-31-jahren-a-2f9ca989-5f99-4c22-b6d7-06b25d1d26e5#ref=rss"
    ],
-   "punkte": 22,
-   "text": "Der DAX hat nach den jüngsten US‑ und japanischen Zinsanhebungen um rund 400 Punkte nachgelassen. Ein Technologiekonzern verzeichnet gleichzeitig Kursgewinne, während sinkende Ölpreise den Index stützen, jedoch neue Konjunkturdaten die Stimmung belasten.",
+   "punkte": 24,
+   "text": "Die Bank of Japan hat den Leitzins auf den höchsten Stand seit 31 Jahren angehoben, um das steigende Preisrisiko zu adressieren. Die Märkte reagierten überraschend, wobei der Yen zunächst entgegen der Erwartung schwächer wurde, bevor sich die Währung wieder zu stärken begann.",
    "positiv": [
-    "Technologiesektor (Kursgewinn)"
+    "Yen"
    ],
    "negativ": [
-    "DAX‑Index (‑400 Punkte)",
-    "Energiesektor/Oil‑Produzenten (Preisrückgang)",
-    "Allgemeine Aktienmärkte (Verunsicherung)"
+    "Japanische Staatsanleihen",
+    "Japanische Aktien"
    ]
   },
   {
-   "id": "1899f861",
-   "titel": "Berkshire Hathaway: Warren Buffett tritt als Verwaltungsratschef zurück",
-   "anriss": "Der legendäre Investor tritt bei seiner Firma Berkshire Hathaway auch von der Spitze des Verwaltungsrats ab. Sein Nachfolger kommt aus der eigenen Familie.",
+   "id": "c0b938b9",
+   "titel": "Berkshire Hathaway: „Er hatte immer einen starken moralischen Kompass“: Howard Buffett tritt ins Rampenlicht",
+   "anriss": "Der älteste Sohn des Star-Investors führt künftig den Verwaltungsrat von Berkshire Hathaway. Wer ist der Mann, der sich bewusst gegen eine operative Rolle im Konzern entschieden hat?",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
@@ -122,21 +123,46 @@
     "SPIEGEL Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 5,
+   "anzahl": 6,
    "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/boerse-inside/berkshire-hathaway-der-unbekannte-buffett-tritt-ins-rampenlicht/100255677.html",
     "https://www.handelsblatt.com/finanzen/maerkte/boerse-inside/berkshire-hathaway-warren-buffett-tritt-als-verwaltungsratschef-zurueck/100255644.html",
     "https://www.spiegel.de/wirtschaft/unternehmen/berkshire-hathaway-warren-buffett-legt-nun-auch-verwaltungsratsvorsitz-nieder-a-6705a9fb-b3be-4633-b11e-a3721248ea7e#ref=rss",
     "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-buffett-zieht-sich-bei-berkshire-weiter-zurueck-faz-200452404.html",
-    "https://www.manager-magazin.de/unternehmen/jan-brorhilker-wird-chef-von-ey-deutschland-a-fac9d471-65ef-41e7-9052-0a1dc12083f6#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/industrie/warren-buffett-gibt-aufsichtsratsspitze-von-berkshire-hathaway-an-sohn-howard-buffett-ab-a-8de2f3a9-1a99-4f2d-8191-56237e76f984#ref=rss"
+    "https://www.manager-magazin.de/unternehmen/jan-brorhilker-wird-chef-von-ey-deutschland-a-fac9d471-65ef-41e7-9052-0a1dc12083f6#ref=rss"
    ],
-   "punkte": 19,
-   "text": "Warren Buffett tritt als Vorsitzender des Verwaltungsrats von Berkshire Hathaway zurück; die Nachfolge wird von einem Familienmitglied übernommen. Die Veränderung markiert das Ende einer Ära, lässt jedoch die operative Kontinuität des Unternehmens erhalten.",
+   "punkte": 22,
+   "text": "Howard Buffett, der älteste Sohn von Warren Buffett, übernimmt künftig einen Sitz im Verwaltungsrat von Berkshire Hathaway, verzichtet jedoch bewusst auf eine operative Rolle im Unternehmen. Die unmittelbaren Auswirkungen auf die Berkshire‑Aktie oder das Unternehmen sind derzeit nicht quantifizierbar.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "134d8a33",
+   "titel": "EuroStoxx 50: VW gehört nicht mehr zur europäischen Börsen-Elite",
+   "anriss": "Bei Volkswagen läuft es nicht rund: Angesichts der Krise muss Europas größter Autokonzern einen wichtigen Aktienindex verlassen. Was bedeutet das für die Wolfsburger?",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "Handelsblatt Finanzen",
+    "SPIEGEL Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 6,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/boerse-inside/eurostoxx-50-vw-gehoert-nicht-mehr-zur-europaeischen-boersen-elite/100255569.html",
+    "https://www.spiegel.de/wirtschaft/volkswagen-kappt-gewinnerwartung-fuer-2026-aktie-rauscht-ab-a-896b0f60-5375-43d4-b517-8a732d4fea3b#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/volkswagen-gewinnprognose-2026-auf-ein-prozent-gekuerzt-201241798.html",
+    "https://www.manager-magazin.de/unternehmen/mobilitaet/volkswagen-schwaches-porsche-geschaeft-und-milliardenabschreibung-zwingt-vw-zu-gewinnwarnung-a-10c958a6-bf2a-465a-806c-0ca04bbbd6ea#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/mobilitaet/volkswagen-wie-geht-es-weiter-nach-dem-beben-a-b655118b-505e-44e6-8fd2-e2505c2ed0fa#ref=rss"
+   ],
+   "punkte": 21,
+   "text": "Volkswagen wird aus dem EuroStoxx 50 entfernt, weil das Unternehmen aufgrund der anhaltenden Krise nicht mehr die Kriterien für den Index erfüllt. Der Ausschluss dürfte den Kurs der VW‑Aktie belasten und gleichzeitig die Gewichtung anderer EuroStoxx‑Komponenten leicht erhöhen.",
    "positiv": [
-    "Berkshire Hathaway (Kontinuität durch Familiennachfolge)"
+    "EuroStoxx 50 (andere Komponenten)"
    ],
    "negativ": [
-    "Berkshire Hathaway (Führungswechsel)"
+    "Volkswagen‑Aktie",
+    "Automobilsektor"
    ]
   },
   {
@@ -158,36 +184,12 @@
     "https://www.manager-magazin.de/unternehmen/handel/nestle-in-russland-putin-stellt-konzern-unter-zwangsverwaltung-a-d97724f4-c28a-44b5-80ae-955c4e9056ce#ref=rss"
    ],
    "punkte": 16,
-   "text": "Der russische Präsident Wladimir Putin hat das Russland‑Geschäft von Nestlé per Dekret unter Zwangsverwaltung gestellt. Das bedeutet das Ende der eigenständigen Geschäftstätigkeit des Schweizer Lebensmittelkonzerns in Russland.",
+   "text": "Präsident Putin hat das Russland‑Geschäft von Nestlé per Dekret unter Zwangsverwaltung gestellt, wodurch das Unternehmen seine Aktivitäten im Land stark einschränken muss. Die Maßnahme dürfte zu Abschreibungen bei Nestlé führen und das Vertrauen in russische Konsumgüterunternehmen weiter schwächen.",
    "positiv": [],
    "negativ": [
-    "Nestlé (Russland‑Geschäft)",
-    "Ausländische Konsumgüterunternehmen in Russland"
-   ]
-  },
-  {
-   "id": "134d8a33",
-   "titel": "EuroStoxx 50: VW gehört nicht mehr zur europäischen Börsen-Elite",
-   "anriss": "Bei Volkswagen läuft es nicht rund: Angesichts der Krise muss Europas größter Autokonzern einen wichtigen Aktienindex verlassen. Was bedeutet das für die Wolfsburger?",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/boerse-inside/eurostoxx-50-vw-gehoert-nicht-mehr-zur-europaeischen-boersen-elite/100255569.html",
-    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/vw-aktie-europa-100.html",
-    "https://www.manager-magazin.de/unternehmen/mobilitaet/bmw-vw-porsche-mercedes-warum-die-autoindustrie-weitere-200-000-jobs-verliert-a-96de8cb0-eb30-4fe7-845c-96f52fc54760#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/mobilitaet/volkswagen-wie-geht-es-weiter-nach-dem-beben-a-b655118b-505e-44e6-8fd2-e2505c2ed0fa#ref=rss"
-   ],
-   "punkte": 15,
-   "text": "Volkswagen muss den EuroStoxx 50 verlassen, weil das Unternehmen wegen seiner Krise nicht mehr die Indexkriterien erfüllt. Der Ausschluss dürfte den VW‑Kurs weiter belasten und die Zusammensetzung des Index verändern.",
-   "positiv": [],
-   "negativ": [
-    "Volkswagen (Aktienkurs)",
-    "EuroStoxx 50 (Indexzusammensetzung)"
+    "Nestlé‑Aktie",
+    "Russischer Rubel",
+    "Russische Konsumgüterbranche"
    ]
   },
   {
@@ -225,7 +227,7 @@
    "anzahl": 4,
    "links": [
     "https://www.spiegel.de/wirtschaft/service/spritpreis-drei-euro-fuer-benzin-lasst-endlich-die-konzerne-zahlen-a-8da7240c-29d0-41e9-9954-90477ea71538#ref=rss",
-    "https://www.spiegel.de/wirtschaft/spritpreise-italien-setzt-kfz-steuer-fuer-millionen-fahrzeuge-aus-a-473e9496-6694-48b0-9468-f03f9a0346c2#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/tankrabatt-und-spritpreisdeckel-darauf-hat-sich-die-bundesregierung-geeinigt-201242083.html",
     "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/monika-schnitzer-wirtschaftsweise-gegen-spritpreis-deckel-201235381.html",
     "https://www.manager-magazin.de/politik/deutschland/spritpreise-bundesregierung-einigt-sich-offenbar-auf-tankpreisdeckel-a-6b9bdb3c-30a0-42c4-a6ee-5964874586d3#ref=rss"
    ],
@@ -235,85 +237,83 @@
    "negativ": []
   },
   {
-   "id": "0c62fd34",
-   "titel": "Zinserhöhung der US-Notenbank - ein Signal an Donald Trump?",
-   "anriss": "US-Präsident Trump möchte niedrigere Zinsen. Doch die Notenbank Federal Reserve hat den Leitzins erhöht. Was sagt die Entscheidung über die Unabhängigkeit von Fed-Chef Warsh? Von Michelle Goddemeier.",
+   "id": "78a6f6a6",
+   "titel": "EZB: Bundesbank-Chef Nagel so gut wie aus dem Rennen um Lagarde-Nachfolge",
+   "anriss": "Die Bundesregierung wird nach Handelsblatt-Informationen den Bundesbank-Präsidenten höchstwahrscheinlich nicht als EZB-Chef nominieren. Dafür macht eine deutsche Personalrochade die Runde.",
    "region": "dach",
    "quellen": [
-    "FAZ Wirtschaft",
-    "Tagesschau Wirtschaft"
+    "Handelsblatt Finanzen"
    ],
    "anzahl": 2,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/fed-entscheidung-warsh-trump-100.html",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/kevin-warsh-trotzt-donald-trump-bei-der-inflationsbekaempfung-201236493.html"
+    "https://www.handelsblatt.com/finanzen/geldpolitik/ezb-joachim-nagel-so-gut-wie-aus-dem-rennen-um-lagarde-nachfolge/100255562.html",
+    "https://www.handelsblatt.com/finanzen/geldpolitik/geldpolitik-lagarde-sieht-ezb-im-kampf-gegen-inflation-gut-positioniert/100255676.html"
    ],
    "punkte": 12,
-   "text": "US-Präsident Trump möchte niedrigere Zinsen. Doch die Notenbank Federal Reserve hat den Leitzins erhöht. Was sagt die Entscheidung über die Unabhängigkeit von Fed-Chef Warsh? Von Michelle Goddemeier.",
+   "text": "Die Bundesregierung wird nach Handelsblatt-Informationen den Bundesbank-Präsidenten höchstwahrscheinlich nicht als EZB-Chef nominieren. Dafür macht eine deutsche Personalrochade die Runde.",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "9db1dcb3",
-   "titel": "OpenAI veröffentlicht weitere KI-Zwischenfälle",
-   "anriss": "Künstliche Intelligenz entwickelt sich rasant - mit teils ungewollten Folgen. Zuletzt löste etwa ein Hacker-Angriff durch KI-Software von OpenAI weltweit Sorgen aus. Jetzt informierte der Entwickler über sechs neue Zwischenfälle.",
+   "id": "bc38c238",
+   "titel": "Wirtschaft vor acht vom 18.09.2026",
+   "anriss": "Wirtschaft vor acht vom 18.09.2026",
    "region": "dach",
    "quellen": [
-    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft"
    ],
-   "anzahl": 4,
+   "anzahl": 3,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/digitales/openai-kuenstliche-intelligenz-100.html",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/europa-ist-auf-die-rasante-ki-entwicklung-nicht-vorbereitet-accg-201218653.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/thomas-rabe-bertelsmann-und-die-zukunft-mit-ki-accg-201234325.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/tokenmaxxing-und-kuenstliche-intelligenz-so-ein-agent-kostet-am-tag-leicht-mal-100-200-300-euro-accg-201014126.html"
+    "https://www.tagesschau.de/video/video-1651430.html",
+    "https://www.tagesschau.de/multimedia/sendung/tagesschau24/boerselive/video-1651038.html",
+    "https://www.spiegel.de/wirtschaft/wirtschaft-katherina-reiche-beirat-warnt-vor-protektionismus-gegen-china-a-d6a2a64b-7cad-4084-b1f2-8b6c1da6612d#ref=rss"
    ],
-   "punkte": 12,
-   "text": "Künstliche Intelligenz entwickelt sich rasant - mit teils ungewollten Folgen. Zuletzt löste etwa ein Hacker-Angriff durch KI-Software von OpenAI weltweit Sorgen aus. Jetzt informierte der Entwickler über sechs neue Zwisc",
+   "punkte": 10,
+   "text": "Wirtschaft vor acht vom 18.09.2026",
    "positiv": [],
    "negativ": []
   }
  ],
  "ketten": [
   {
-   "ausloeser": "Unerwartete Zinserhöhung der US-Notenbank um 25 Basispunkte im Juni‑2024‑Meeting",
-   "direkt": "Der US‑Dollar stärkt sich gegenüber dem Euro; die Renditen US‑Staatsanleihen steigen um ca. 15 bp",
-   "zweite": "Euro‑zonen‑Exportaktien (z. B. deutsche Industrie‑ und Maschinenbauer) geraten unter Druck, weil ein stärkerer Dollar die Wettbewerbsfähigkeit reduziert und die Kapitalkosten steigen",
-   "dritte": "Europäische Banken verbessern ihre Nettozinsspanne durch höhere Zinsdifferenz, gleichzeitig erhöhen sich jedoch die Kreditrisiken bei Unternehmen mit schwächerer Bilanz, was die Risikoprämien für Unternehmensanleihen nach oben treibt",
+   "ausloeser": "Bank of Japan erhöht den Leitzins um weitere 25 Basispunkte auf 0,50 % (noch nicht umgesetzt)",
+   "direkt": "Der Yen stärkt sich gegenüber dem Euro um ca. 3 % innerhalb von vier Wochen",
+   "zweite": "Exportorientierte europäische Unternehmen (z. B. VW, Siemens, BASF) sehen höhere Währungskosten, ihre Gewinnmargen sinken und die Aktienkurse fallen",
+   "dritte": "Der Euro‑Stoxx‑50 verliert 2 % gegenüber dem Euro‑Dollar‑Index, die Renditen deutscher Bundesanleihen steigen um 15 bps, während der EUR/USD auf 1,05 fällt",
    "positiv": [
-    "Euro‑Stoxx‑Banken‑Index (z. B. Deutsche Bank, BNP Paribas)",
-    "USD‑denominierte Anlagen (z. B. US‑Treasuries, Gold)",
-    "Kurzfristige Euro‑Staatsanleihen mit hoher Liquidität (wegen Flucht in sichere Assets)"
+    "US‑Dollar‑basierte Anlagen (z. B. US‑Treasuries, Gold)",
+    "Export‑Hedger (z. B. Unternehmen mit ausgeprägten Devisen‑Absicherungen)",
+    "Sichere Hafen‑Aktien (z. B. Swiss Re, Allianz)"
    ],
    "negativ": [
-    "Exportorientierte Euro‑Stoxx‑Komponenten (z. B. Siemens, BASF, Volkswagen)",
-    "Euro‑Stoxx‑50‑Dividenden‑Heavy‑Sektoren (Versorger, REITs)",
-    "Unternehmensanleihen von mittelständischen Industrieunternehmen"
-   ],
-   "konfidenz": "hoch"
-  },
-  {
-   "ausloeser": "Einführung eines verpflichtenden Carbon‑Border‑Adjustment‑Mechanismus (CBAM) für Stahlimporte in der EU zum 1. Oktober 2024",
-   "direkt": "Importierende Stahlhersteller aus Drittstaaten müssen für jede Tonne importierten Stahls CO₂‑Zertifikate zu einem festgelegten Preis erwerben; die Kosten werden an die Abnehmer weitergegeben",
-   "zweite": "Europäische Stahlproduzenten (z. B. Thyssenkrupp, Salzgitter) erhalten einen Preisvorteil gegenüber ausländischer Konkurrenz, während Automobilhersteller (VW, BMW, Stellantis) höhere Input‑Kosten verzeichnen und ihre Margen belasten",
-   "dritte": "Die gestiegenen Produktionskosten in der Automobil‑ und Bau‑Industrie treiben die Verbraucher‑Preis‑Inflation im Euroraum nach oben; die EZB erwägt eine vorgezogene Leitzinserhöhung, was die Kurse von Euro‑Staatsanleihen und zinssensitiven Aktien belastet",
-   "positiv": [
-    "Europäische Stahlunternehmen (Thyssenkrupp, Salzgitter, ArcelorMittal‑EU‑Sparte)",
-    "CO₂‑Zertifikate‑ETF bzw. EU‑Emissionsrechte‑Fonds",
-    "Unternehmen im Bereich Energieeffizienz und Recycling, die von höheren CO₂‑Kosten profitieren"
-   ],
-   "negativ": [
-    "Automobilhersteller und Zulieferer (Volkswagen, BMW, Continental)",
-    "Bau‑ und Infrastruktur‑Konstrukteure (Hochtief, Vinci)",
-    "Euro‑Stoxx‑50‑Zinssensitive Titel (Versorger, Immobilien‑REITs) und Euroraum‑Staatsanleihen bei steigenden Zinsen"
+    "Deutsche Export‑Aktien (VW, Siemens, BASF)",
+    "Euro‑Stoxx‑50‑ETF (z. B. iShares Core € Stoxx 50 UCITS ETF)",
+    "Euro‑Zone‑Staatsanleihen (Bund, OAT) wegen steigender Renditen"
    ],
    "konfidenz": "mittel"
+  },
+  {
+   "ausloeser": "EU verhängt Vollzoll‑ und Verwaltungsmaßnahmen, die Nestlé‑Tochtergesellschaften in Russland unter Zwangsverwaltung stellen (noch nicht beschlossen)",
+   "direkt": "Nestlé verliert geschätzte 1,2 % des Jahresumsatzes und muss russische Produktionsstätten schließen",
+   "zweite": "Große europäische Lebensmittel‑ und Einzelhandelsketten (z. B. REWE, Carrefour, Tesco) müssen kurzfristig russische Importe ersetzen, was zu höheren Beschaffungskosten und geringeren Margen führt",
+   "dritte": "Lebensmittel‑Inflation in der Euro‑Zone steigt um 0,4 % p.a., die EZB erwägt eine frühere Zinsanhebung; europäische Konsum‑ und Einzelhandelsaktien verlieren an Attraktivität, während inflationsgeschützte Anleihen (Euro‑BTP‑i) an Nachfrage gewinnen",
+   "positiv": [
+    "Unternehmen mit starker Inlandsproduktion (z. B. Danone, Unilever)",
+    "Inflationsgeschützte Anleihen (Euro‑BTP‑i, deutsche Inflationsindexanleihen)",
+    "Rohstoff‑ETFs (z. B. iShares MSCI Europe Food Producers)"
+   ],
+   "negativ": [
+    "Lebensmittel‑Einzelhändler (REWE, Carrefour, Tesco)",
+    "Nestlé‑Aktie (CH‑Ticker NESN)",
+    "Euro‑Zone‑Konsumentenkredit‑Indizes"
+   ],
+   "konfidenz": "niedrig"
   }
  ],
  "gegenthese": {
-  "konsens": "Der Markt sieht den DAX‑Verlust als kurzfristige Korrektur, die Fed‑Zinserhöhung als notwendige Normalisierung, steigende Energie‑ und Kraftstoffpreise als vorübergehend, und die Führungswechsel bei Berkshire und VW als wenig beeinflussend.",
-  "gegen": "Das Gegenargument: Die Annahme, dass die hohen Energie‑ und Kraftstoffpreise nur temporär seien, unterschätzt die anhaltende geopolitische Unsicherheit und mögliche regulatorische Eingriffe, die längerfristig die Inflation und Unternehmensgewinne belasten könnten."
+  "konsens": "Markt sieht Japans Zinsanhebung als Beginn einer restriktiveren Geldpolitik, bewertet Berkshire‑Nachfolge als neutral, VW‑Ausstieg belastet EuroStoxx‑50, Russland‑Verwalter erhöht geopolitisches Risiko, Energie‑ und Spritpreise bleiben Druckfaktoren, Nagel‑Ausscheiden schwächt Lagarde‑Kandidatur.",
+  "gegen": "Gegner argumentieren, dass Japans Zinsanhebung zu stark ist und das Wachstum unnötig bremst, VW‑Ausstieg kaum langfristige Index‑Auswirkung hat, und dass Energie‑ und Spritpreisdruck durch alternative Lieferketten und Politik abklingen kann."
  },
  "matrix": [
   {
@@ -467,12 +467,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Analysten sehen ein starkes Umsatzwachstum von 18 % und ein moderates KGV von 22,6, was auf eine attraktive Bewertung hindeutet. Das Kursziel von 196 EUR impliziert weiteres Aufwärtspotenzial. Das breite Produktportfolio in Turbinen, Netztechnologien und Services bietet Diversifikation und langfristige Marktpräsenz.",
-   "dagegen": "Trotz der positiven Analystenmeinung gibt es 2 Verkaufsratings, was auf Unsicherheiten hinweist. Die Quellenlage ist dünn: Reddit kaum Erwähnung, keine Insider‑Informationen und keine Short‑Positionen, sodass das Marktinteresse begrenzt erscheint. Das Kursziel könnte überoptimistisch sein bei volatilen Energiemärkten.",
+   "dafuer": "Die Analystenmehrheit (19 Kauf, 4 Halten, 2 Verkauf) spricht für Siemens Energy. Ein KGV von 22,6 liegt im Branchenmittel, während das Umsatzwachstum von 18 % starkes Top‑Line‑Momentum signalisiert. Das Kursziel von 196 € impliziert Aufwärtspotenzial gegenüber dem aktuellen Kurs.",
+   "dagegen": "Gegen die Aktie spricht die geringe Marktpräsenz in Analysten‑Newslettern (nur ein Cluster) und das fast fehlende Reddit‑Interesse, was auf mangelnde Marktbreite hindeuten kann. Zudem bleibt das Kursziel spekulativ, da keine Insider‑ oder Short‑Positionen gemeldet sind, was Unsicherheit über die Bewertung erhöht.",
    "katalysatoren": [
-    "Lieferung und Inbetriebnahme der neuesten Windturbinen von Siemens Gamesa im Jahr 2027",
-    "Vertrag über Wartungs- und Digitalisierungsservices für Großkraftwerke in Asien",
-    "Regulatorische Förderungen für Wasserstoff‑ und Wärmepumpenprojekte in der EU"
+    "Abschluss von Großaufträgen für Gasturbinen und Dampfturbinen im zweiten Quartal",
+    "Technologie‑ und Produktionsfortschritte bei Siemens Gamesa‑Windturbinen, insbesondere neue Offshore‑Modelle",
+    "Veröffentlichung des Q3‑Ergebnisses und Ausblick auf das Geschäftsjahr 2024/25"
    ]
   },
   "RHM.DE": {
@@ -520,12 +520,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Analysten‑Stimmungsbild stark positiv (18 Buy, 3 Hold). Umsatzwachstum von +69 % deutet auf erhebliche Auftragszuwächse hin. Das KGV von 18,9 liegt im Branchendurchschnitt, das Kursziel von 1 641 EUR impliziert weiteres Aufwärtspotenzial. Marktposition in Fahrzeug‑ und Rüstungssystemen bietet stabile Cashflows.",
-   "dagegen": "Hohe Abhängigkeit von staatlichen Verteidigungsbudgets erhöht konjunkturelles Risiko. Das KGV von 18,9 könnte bei nachlassender Auftragslage überbewertet sein. Fehlende Insider‑Informationen und keine Short‑Positionen deuten auf geringe Marktmeinung zu möglichen Negativfaktoren hin. Geopolitische Spannungen können Lieferketten belasten.",
+   "dafuer": "Rheinmetall profitiert von starkem Umsatzwachstum (+69 %) und einer breiten Produktpalette in Fahrzeug‑, Waffen‑ und Elektronik‑Segmenten. Das forward‑KGV von 18,9 liegt im Branchendurchschnitt, das Kursziel von 1.641 € impliziert weiteres Aufwärtspotenzial. Analysten‑Consensus ist überwiegend positiv (18 Buy).",
+   "dagegen": "Das Unternehmen ist stark von staatlichen Rüstungsetats abhängig; Kürzungen könnten die Auftragslage schwächen. Das forward‑KGV von 18,9 erscheint im Vergleich zu defensiven Mitbewerbern hoch. Öffentliches Interesse ist gering (kaum Reddit‑Erwähnungen), was auf mögliche Unsicherheit oder fehlende Marktliquidität hindeutet.",
    "katalysatoren": [
-    "Veröffentlichung des deutschen Verteidigungs‑ und Beschaffungsplans 2025/2026",
-    "Q3‑Ergebnisbericht (Umsatz‑ und Gewinnzahlen)",
-    "Vertrag über neue Panzer‑ bzw. Fahrzeugplattformen mit NATO‑Partnern"
+    "Veröffentlichung der nächsten Quartalszahlen mit erwarteten Auftragszuwächsen",
+    "Entscheidung über neue Rüstungsetats in Deutschland bzw. EU",
+    "Auftrag für elektronische Lösungen (z. B. Radar‑ oder Kommunikationssysteme) in einem Großprojekt"
    ]
   },
   "ASML.AS": {
@@ -573,9 +573,13 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "ASML dominiert den EUV‑Lithographiesektor, profitiert von starkem Umsatzwachstum (+21 %) und einem robusten Analysten‑Buy‑Consensus (38 Buy, 3 Hold, 1 Sell). Das Kursziel von 2 045 € impliziert weiteres Aufwärtspotenzial, während das KGV von 28 im Vergleich zu Branchen‑Peers moderat erscheint.",
+   "dagegen": "Das Unternehmen wird mit einem hohen KGV von 28 bewertet, was das Risiko einer Überbewertung birgt. Die Quellenlage ist dünn: neben dem Analysten‑Consensus kaum weitere Analysen, keine Insider‑Meldungen und kaum Reddit‑Diskussion, was Unsicherheit über Markt‑ und Technologierisiken erhöht.",
+   "katalysatoren": [
+    "Einführung des High‑NA‑EUV‑Systems (NXE:3400B)",
+    "Ausbau der Kundenbasis im Bereich Advanced‑Packaging",
+    "Mögliche Lockerungen von Exportbeschränkungen für Halbleiterausrüstung"
+   ]
   },
   "SU.PA": {
    "ticker": "SU.PA",
@@ -622,13 +626,9 @@
      "1648,06 % ueber 1700 Halter"
     ]
    ],
-   "dafuer": "Die Mehrheit der Analysten (21 Kauf‑Empfehlungen, 3 Halte) bewertet Schneider Electric positiv, unterstützt durch ein Umsatzwachstum von 10 % und ein Kursziel von 330 € bei einer Marktkapitalisierung von 161 Mrd. €.",
-   "dagegen": "Ein extrem hoher Short‑Interest von über 1.600 % (1700 Halter) und die kaum vorhandene Diskussion auf Reddit deuten auf Skepsis hin; das aktuelle KGV von 23,5 könnte im Vergleich zu Wettbewerbern überbewertet sein. Dies steht im Widerspruch zu den 21 Kauf‑Empfehlungen.",
-   "katalysatoren": [
-    "Q4‑2026 Ergebnisveröffentlichung (Umsatz‑ und Gewinnzahlen)",
-    "Markteinführung der neuen EcoStruxure‑Microgrid‑Lösung",
-    "Abschluss einer möglichen Akquisition im Bereich erneuerbare Energien"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "GEV": {
    "ticker": "GEV",
@@ -638,11 +638,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "247.7 Mrd"
+     "249.3 Mrd"
     ],
     [
      "KGV (erw.)",
-     "36,8"
+     "37,0"
     ],
     [
      "Umsatzwachstum",
@@ -687,11 +687,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "39.7 Mrd"
+     "40.5 Mrd"
     ],
     [
      "KGV (erw.)",
-     "48,7"
+     "49,7"
     ],
     [
      "Umsatzwachstum",
@@ -736,7 +736,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "101.7 Mrd"
+     "102.2 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -785,11 +785,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "5.299.3 Mrd"
+     "5.301.5 Mrd"
     ],
     [
      "KGV (erw.)",
-     "14,1"
+     "14,0"
     ],
     [
      "Umsatzwachstum",
@@ -1114,102 +1114,14 @@
  "gespraech": [],
  "termine": [
   {
-   "datum": "2026-09-19",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-20",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-21",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-22",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-23",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-24",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-25",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
    "datum": "2026-09-25",
    "zeit": "10:00",
    "region": "dach",
    "was": "ifo-Geschaeftsklima",
    "konsens": "",
    "wucht": "mittel"
-  },
-  {
-   "datum": "2026-09-26",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-27",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-28",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-29",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 183,
+ "meldungen_gesamt": 181,
  "llm_aktiv": true
 }
