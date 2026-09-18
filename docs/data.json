@@ -1,9 +1,9 @@
 {
- "stand": "2026-09-18T07:04",
- "lauf": "2026091807",
+ "stand": "2026-09-18T10:04",
+ "lauf": "2026091810",
  "synthese": {
-  "kern": "Markt fokussiert auf Zinserhöhungen und geopolitische Ereignisse, übersieht breiten Liquiditätsengpass und steigende Risikoaversion.",
-  "erlaeuterung": "Die meisten Meldungen betonen kurzfristige Kursgewinne und politische Themen, während die anhaltend niedrige europäische Liquidität ein systemisches Risiko birgt. Investoren sollten die Divergenz zwischen US‑ und Eurazins sowie den Rekord‑Auftragsbestand als Hinweis auf bevorstehende Marktrotation berücksichtigen."
+  "kern": "Zinswende, steigende Energiepreise und geopolitische Spannungen treiben Risikoappetit, während Markt die sinkende Liquidität unterschätzt.",
+  "erlaeuterung": "Globale Geldpolitik strafft sich, US‑ und Euroraum erreichen höchste Zinsdruck‑Perzentile, während die Liquidität im Euroraum bei Null liegt. Gleichzeitig erhöhen Energiepreise und geopolitische Unsicherheiten die Inflationserwartungen, was den Markt von einer drohenden Liquiditätsengpass‑Risiko ablenkt."
  },
  "regime": [
   {
@@ -36,23 +36,23 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 64,
-     "delta": 0
+     "wert": 63,
+     "delta": -1
     },
     "eur": {
-     "wert": 83,
-     "delta": -1
+     "wert": 81,
+     "delta": -3
     }
    },
-   "differenz": 19
+   "differenz": 18
   },
   {
    "name": "risikoappetit",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 81,
-     "delta": 13
+     "wert": 82,
+     "delta": 3
     }
    }
   },
@@ -61,15 +61,15 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 55,
-     "delta": 7
+     "wert": 46,
+     "delta": 5
     },
     "eur": {
      "wert": 0,
      "delta": 0
     }
    },
-   "differenz": 55
+   "differenz": 46
   },
   {
    "name": "geopolitik",
@@ -84,55 +84,30 @@
  ],
  "cluster": [
   {
-   "id": "71db0871",
-   "titel": "Nikkei, Topix, CSI 300: Asiens Börsen reagieren auf Japans Zinserhöhung mit Gewinnen",
-   "anriss": "Chip- und KI-Werte in Tokio verzeichnen Kursgewinne, während die Bank of Japan ihre Geldpolitik weiter strafft. Die Märkte hoffen nun auf eine niedrigere Inflation.",
+   "id": "1e5df71a",
+   "titel": "Geldpolitik: Japans Notenbank erhöht Leitzins auf höchsten Stand seit 31 Jahren",
+   "anriss": "Die Bank of Japan reagiert auf das zunehmende Risiko steigender Preise. Die Börse reagiert überrascht – und die Landeswährung Yen entwickelt sich zunächst anders als erhofft.",
    "region": "dach",
    "quellen": [
-    "FAZ Wirtschaft",
     "Handelsblatt Finanzen",
     "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 10,
+   "anzahl": 7,
    "links": [
+    "https://www.handelsblatt.com/finanzen/geldpolitik/japan-notenbank-erhoeht-leitzins-auf-hoechsten-stand-seit-31-jahren/100255529.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-notiert-leicht-schwaecher-tech-aktie-legt-zu/100255551.html",
     "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-topix-csi-300-asiens-boersen-reagieren-auf-japans-zinserhoehung-mit-gewinnen/100255536.html",
-    "https://www.handelsblatt.com/finanzen/geldpolitik/bank-of-japan-japans-notenbank-erhoeht-leitzins-auf-hoechsten-stand-seit-31-jahren/100255529.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/asien-japans-kerninflation-bleibt-stabil-notenbank-vor-zinserhoehung/100255488.html",
-    "https://www.handelsblatt.com/finanzen/geldpolitik/fed-us-inflation-noch-bis-2029-zu-hoch-was-das-fuer-die-zinsen-bedeutet/100255243.html",
+    "https://www.handelsblatt.com/finanzen/geldpolitik/asien-japans-kerninflation-bleibt-stabil-notenbank-vor-zinserhoehung/100255488.html",
     "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/fed-entscheidung-warsh-trump-100.html"
    ],
-   "punkte": 40,
-   "text": "Asiatische Börsen (Nikkei, Topix, CSI 300) legten nach Japans Leitzinserhöhung zu, wobei insbesondere Chip‑ und KI‑Aktien in Tokio Kursgewinne verzeichneten. Die Marktteilnehmer hoffen, dass die strengere Geldpolitik zu einer niedrigeren Inflation führt.",
-   "positiv": [
-    "Nikkei",
-    "Topix",
-    "CSI 300"
-   ],
-   "negativ": []
-  },
-  {
-   "id": "b451dbb7",
-   "titel": "Immobilienfonds: Zu viele Investoren wollen raus: DWS muss Immobilien verkaufen, um Anteilseigner auszuzahlen",
-   "anriss": "Weil immer mehr Anleger ihre Anteile an Immobilienfonds zurückgeben, muss die Deutsche-Bank-Tochter verstärkt Immobilien auf den Markt bringen. Was Anteilseigner nun tun können.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "SPIEGEL Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/anlagestrategie/fonds-etf/immobilienfonds-dws-muss-immobilien-verkaufen-um-anteilseigner-auszuzahlen-01/100255424.html",
-    "https://www.spiegel.de/wirtschaft/immobilien-hohe-bauzinsen-daempfen-nachfrage-a-8068e68d-7001-42f1-bcc2-f3cf8a4ac271#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/industrie/immobilien-hohe-bauzinsen-und-kosten-bremsen-nachfrage-nach-haeusern-und-wohnungen-a-a25d7130-5743-4385-b85a-6f690cf528f7#ref=rss"
-   ],
-   "punkte": 13,
-   "text": "Die DWS muss aufgrund steigender Rücknahmen von Immobilienfondsanteilen vermehrt Immobilien verkaufen, um die Auszahlungen an Anteilseigner zu finanzieren. Das erhöht den Verkaufsdruck auf den deutschen Immobilienmarkt.",
+   "punkte": 32,
+   "text": "Die Bank of Japan hat den Leitzins auf das höchste Niveau seit 31 Jahren angehoben, um dem steigenden Inflationsdruck entgegenzuwirken. Die Märkte reagierten überraschend, der Yen fiel zunächst stärker als erwartet, während japanische Anleihen und zinssensitive Aktien unter Druck geraten könnten.",
    "positiv": [],
    "negativ": [
-    "DWS‑Immobilienfonds",
-    "Deutscher Immobilienmarkt (Verkaufsdruck)"
+    "Yen",
+    "Japanische Aktien",
+    "Zinssensitive Unternehmenswerte"
    ]
   },
   {
@@ -142,42 +117,49 @@
    "region": "dach",
    "quellen": [
     "Handelsblatt Finanzen",
-    "Tagesschau Wirtschaft"
+    "Tagesschau Wirtschaft",
+    "manager magazin"
    ],
-   "anzahl": 3,
+   "anzahl": 4,
    "links": [
     "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sieben-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
     "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-us-maerkte-schliessen-am-tag-nach-zinsentscheid-hoeher/100255319.html",
-    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-geldanlage-156.html"
+    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-geldanlage-156.html",
+    "https://www.manager-magazin.de/finanzen/boerse/boerse-dax-im-minus-infineon-aktie-und-renk-aktie-gefragt-oelpreis-gibt-nach-a-d0c60510-c1c2-4024-8662-f6a63401dcaf#ref=rss"
    ],
-   "punkte": 12,
-   "text": "Die bevorstehenden Konjunkturdaten des Statistischen Bundesamts werden die Stimmung der deutschen Anleger vor dem Wochenende maßgeblich beeinflussen. Japans historische Leitzinserhöhung könnte die globalen Märkte weiter beruhigen.",
-   "positiv": [
-    "Japanische Märkte"
-   ],
+   "punkte": 16,
+   "text": "Am 18. September stehen die aktuellen Konjunkturdaten des Statistischen Bundesamts im Fokus der Anlegerstimmung vor dem Wochenende. Die jüngste japanische Leitzinserhöhung könnte die globale Risikobereitschaft weiter beruhigen, doch die Richtung der deutschen Aktien bleibt von den noch ausstehenden Daten abhängig.",
+   "positiv": [],
    "negativ": [
-    "Deutsche Anlegerstimmung (Unsicherheit)"
+    "Deutsche Aktien (unsicher)"
    ]
   },
   {
-   "id": "9c9b07d1",
-   "titel": "Essengehen trotz Mehrwertsteuer-Senkung nicht günstiger",
-   "anriss": "Seit Jahresbeginn gilt im Gastgewerbe eine niedrigere Mehrwertsteuer. Im Schnitt sei nur etwa ein Prozent der Gerichte günstiger geworden, zeigt eine Studie im Auftrag der Gewerkschaft Nahrung-Genuss-Gaststätten. Von Markus Reher.",
+   "id": "fb8ae0e1",
+   "titel": "Hohe Preise: Welche Energiekosten auf die Verbraucher zukommen",
+   "anriss": "Der Iran-Krieg hat Energie stark verteuert. Wo sind die Preise bereits besonders stark angestiegen? Und worauf müssen sich Haushalte mit Blick auf die kommenden Monate noch einstellen? Von Till Bücker.",
    "region": "dach",
    "quellen": [
     "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft"
+    "Tagesschau Wirtschaft",
+    "manager magazin"
    ],
-   "anzahl": 2,
+   "anzahl": 4,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/gastgewerbe-unter-druck-100.html",
-    "https://www.spiegel.de/wirtschaft/gastronomie-restaurantbesuche-sind-trotz-steuersenkung-offenbar-nicht-guenstiger-geworden-a-e3897f52-452a-40c6-8609-ee5bf3b3596e#ref=rss"
+    "https://www.tagesschau.de/wirtschaft/verbraucher/energiekosten-strom-oel-gas-100.html",
+    "https://www.spiegel.de/wirtschaft/service/e-autos-die-spritpreise-steigen-der-adac-verlangt-niedrigere-strompreise-a-908b5f79-5043-46d9-bc79-5c2522e48c9f#ref=rss",
+    "https://www.spiegel.de/wirtschaft/unternehmen/irankrieg-konflikt-in-nahost-laesst-frachtraten-steigen-a-1c251317-80cc-4356-8fee-336d54921008#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/mobilitaet/irankrieg-konflikt-in-nahost-laesst-frachtraten-steigen-a-4875261b-8737-48b6-a59b-a3ac76f8da2c#ref=rss"
    ],
-   "punkte": 12,
-   "text": "Seit Jahresbeginn gilt im Gastgewerbe eine niedrigere Mehrwertsteuer, doch eine Studie zeigt, dass im Schnitt nur etwa ein Prozent der Gerichte tatsächlich günstiger geworden ist. Das deutet darauf hin, dass die Preisentlastung für Verbraucher kaum spürbar ist.",
-   "positiv": [],
+   "punkte": 14,
+   "text": "Der Krieg im Iran hat die Energiepreise stark nach oben getrieben, was die Kosten für private Haushalte erheblich erhöht. Unternehmen im Energiesektor und Rohstoff‑ETF profitieren von den höheren Preise, während inflationsabhängige Konsumgüter und margenempfindliche Unternehmen unter Druck geraten können.",
+   "positiv": [
+    "Energiesektor",
+    "Rohstoff‑ETFs"
+   ],
    "negativ": [
-    "Gastgewerbe (Preisweitergabe)"
+    "Konsumgüter mit niedrigen Margen",
+    "Inflationssensible Unternehmen"
    ]
   },
   {
@@ -190,14 +172,83 @@
     "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 3,
+   "anzahl": 4,
    "links": [
     "https://www.tagesschau.de/wirtschaft/konjunktur/industrie-aufrtagsbestand-rekord-100.html",
+    "https://www.spiegel.de/wirtschaft/unternehmen/konjunkturprognose-industrie-rechnet-mit-staerkerem-wachstum-a-a43191e3-d9f4-4341-b733-7b7d94703336#ref=rss",
     "https://www.spiegel.de/wirtschaft/wirtschaft-in-deutschland-auftragspolster-der-industrie-steigt-auf-rekordhoch-a-d48972e6-1167-4cd9-b249-3e18e695458f#ref=rss",
     "https://www.manager-magazin.de/politik/deutschland/wirtschaft-in-deutschland-auftragspolster-der-industrie-steigt-auf-rekordhoch-a-c88751a4-0d16-4cff-aa99-a1a9f305032e#ref=rss"
    ],
-   "punkte": 12,
-   "text": "Die Auftragsbücher deutscher Industrieunternehmen sind so voll wie noch nie. Besonders Aufträge für Flugzeuge, Schiffe, Züge und auch Militärfahrzeuge sorgen für viel Extrageschäft im Verarbeitenden Gewerbe.",
+   "punkte": 14,
+   "text": "Der Auftragsbestand der deutschen Industrie hat ein Rekordhoch erreicht, angetrieben von stark nachgefragten Aufträgen für Flugzeuge, Schiffe, Züge und Militärfahrzeuge. Diese Entwicklung spricht für eine positive Entwicklung der Branchen Luft‑ und Raumfahrt, Schiffbau, Schienenverkehr und Rüstungsindustrie.",
+   "positiv": [
+    "Luft‑ und Raumfahrt",
+    "Schiffbau",
+    "Schienenverkehr"
+   ],
+   "negativ": []
+  },
+  {
+   "id": "ad31d586",
+   "titel": "Spritpreis: Drei Euro für Benzin? Lasst endlich die Konzerne zahlen",
+   "anriss": "Der Frust über hohe Benzinpreise steigt mit jedem Cent. Und das vor den Landtagswahlen. Die Regierung sollte endlich die Milliardengewinne der Konzerne besteuern. Drei Zahlen sprechen klar dafür.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "heise"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.spiegel.de/wirtschaft/service/spritpreis-drei-euro-fuer-benzin-lasst-endlich-die-konzerne-zahlen-a-8da7240c-29d0-41e9-9954-90477ea71538#ref=rss",
+    "https://www.spiegel.de/wirtschaft/spritpreise-italien-setzt-kfz-steuer-fuer-millionen-fahrzeuge-aus-a-473e9496-6694-48b0-9468-f03f9a0346c2#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/monika-schnitzer-wirtschaftsweise-gegen-spritpreis-deckel-201235381.html",
+    "https://www.heise.de/news/Spritpreise-Umweltbundesamt-schlaegt-Hilfen-zum-Umstieg-auf-E-Mobilitaet-vor-11457843.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 14,
+   "text": "Der Frust über hohe Benzinpreise steigt mit jedem Cent. Und das vor den Landtagswahlen. Die Regierung sollte endlich die Milliardengewinne der Konzerne besteuern. Drei Zahlen sprechen klar dafür.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "134d8a33",
+   "titel": "EuroStoxx 50: VW gehört nicht mehr zur europäischen Börsen-Elite",
+   "anriss": "Bei Volkswagen läuft es nicht rund: Angesichts der Krise muss Europas größter Autokonzern einen wichtigen Aktienindex verlassen. Was bedeutet das für die Wolfsburger?",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "Handelsblatt Finanzen",
+    "manager magazin"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/boerse-inside/eurostoxx-50-vw-gehoert-nicht-mehr-zur-europaeischen-boersen-elite/100255569.html",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/sinotruk-und-co-chinesische-lkw-marken-auf-dem-sprung-nach-europa-201237044.html",
+    "https://www.manager-magazin.de/unternehmen/mobilitaet/byd-volkswagen-konkurrent-plant-drei-fahrzeugwerke-in-europa-a-f4888b4f-1a63-4d79-928e-9947eb99dfdb#ref=rss"
+   ],
+   "punkte": 13,
+   "text": "Bei Volkswagen läuft es nicht rund: Angesichts der Krise muss Europas größter Autokonzern einen wichtigen Aktienindex verlassen. Was bedeutet das für die Wolfsburger?",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "b451dbb7",
+   "titel": "Immobilienfonds: Zu viele Investoren wollen raus: DWS muss Immobilien verkaufen, um Anteilseigner auszuzahlen",
+   "anriss": "Weil immer mehr Anleger ihre Anteile an Immobilienfonds zurückgeben, muss die Deutsche-Bank-Tochter verstärkt Immobilien auf den Markt bringen. Was Anteilseigner nun tun können.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "Handelsblatt Finanzen",
+    "manager magazin"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/anlagestrategie/fonds-etf/immobilienfonds-dws-muss-immobilien-verkaufen-um-anteilseigner-auszuzahlen-01/100255424.html",
+    "https://www.faz.net/aktuell/wirtschaft/immobilien-wohnen/bauen-kaufen/iris-schoeberl-wie-werden-wohnungen-rentabel-accg-201202886.html",
+    "https://www.manager-magazin.de/unternehmen/industrie/immobilien-hohe-bauzinsen-und-kosten-bremsen-nachfrage-nach-haeusern-und-wohnungen-a-a25d7130-5743-4385-b85a-6f690cf528f7#ref=rss"
+   ],
+   "punkte": 13,
+   "text": "Weil immer mehr Anleger ihre Anteile an Immobilienfonds zurückgeben, muss die Deutsche-Bank-Tochter verstärkt Immobilien auf den Markt bringen. Was Anteilseigner nun tun können.",
    "positiv": [],
    "negativ": []
   },
@@ -221,54 +272,12 @@
    "text": "Künstliche Intelligenz entwickelt sich rasant - mit teils ungewollten Folgen. Zuletzt löste etwa ein Hacker-Angriff durch KI-Software von OpenAI weltweit Sorgen aus. Jetzt informierte der Entwickler über sechs neue Zwisc",
    "positiv": [],
    "negativ": []
-  },
-  {
-   "id": "ca9c8391",
-   "titel": "Russland: Wladimir Putin stellt Nestlé unter Zwangsverwaltung",
-   "anriss": "Nach dem Überfall auf die Ukraine verließen viele internationale Konzerne Russland. Nestlé blieb und verliert nun den Zugriff auf sein Geschäft in dem Land – angeblich temporär. Betroffen ist auch eine französische Supermarktkette.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.spiegel.de/wirtschaft/unternehmen/russland-wladimir-putin-stellt-nestle-unter-zwangsverwaltung-a-351467f8-e8c8-49bf-a22f-27caa82a7923#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-putin-verstaatlicht-russlandgeschaeft-von-nestle-faz-200452404.html",
-    "https://www.manager-magazin.de/unternehmen/handel/nestle-in-russland-putin-stellt-konzern-unter-zwangsverwaltung-a-d97724f4-c28a-44b5-80ae-955c4e9056ce#ref=rss"
-   ],
-   "punkte": 12,
-   "text": "Nach dem Überfall auf die Ukraine verließen viele internationale Konzerne Russland. Nestlé blieb und verliert nun den Zugriff auf sein Geschäft in dem Land – angeblich temporär. Betroffen ist auch eine französische Super",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "6676d005",
-   "titel": "Baumarkt: Obi unterliegt im Streit über die Farbe Orange am Bundesgerichtshof",
-   "anriss": "Globus und Hornbach feiern einen Erfolg in der jahrelangen Auseinandersetzung um einen Farbton: Obi hat den Markenschutz verloren. Das Gericht erkennt in dem Orange nur einen Hinweis auf Baumärkte im Allgemeinen.",
-   "region": "dach",
-   "quellen": [
-    "SPIEGEL Wirtschaft",
-    "heise",
-    "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.spiegel.de/wirtschaft/unternehmen/obi-hornbach-und-globus-obi-unterliegt-im-baumarkt-streit-ueber-die-farbe-orange-am-bundesgerichtshof-a-63a92969-0f6f-49d4-9113-2496a5460c6f#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/handel/obi-hornbach-und-globus-obi-unterliegt-im-baumarkt-streit-ueber-die-farbe-orange-am-bundesgerichtshof-a-f4d338de-ddf9-44cb-ac47-cd6212e410cb#ref=rss",
-    "https://www.heise.de/news/Dieselkraftstoff-erreicht-historisches-Preisniveau-in-Deutschland-11456577.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 12,
-   "text": "Globus und Hornbach feiern einen Erfolg in der jahrelangen Auseinandersetzung um einen Farbton: Obi hat den Markenschutz verloren. Das Gericht erkennt in dem Orange nur einen Hinweis auf Baumärkte im Allgemeinen.",
-   "positiv": [],
-   "negativ": []
   }
  ],
  "ketten": [],
  "gegenthese": {
-  "konsens": "Asiatische Börsen steigen nach Japans Zinserhöhung, Anleger sehen kurzfristige Kaufchance trotz globaler Unsicherheit.",
-  "gegen": "Erhöhte Zinsen könnten das Wachstum bremsen, Immobilienfonds zeigen Liquiditätsdruck, und geopolitische Risiken (z. B. Russland) erhöhen Volatilität."
+  "konsens": "Der Markt sieht die japanische Zinsanhebung als Zeichen globaler Geldpolitik‑Straffung, erwartet weiter steigende Energiepreise, bewertet die Rekord‑Auftragsbestände positiv, aber die Aussichten für EuroStoxx‑50 und Immobilienfonds bleiben schwach.",
+  "gegen": "Die Annahme, dass höhere Zinsen und Energiepreise dauerhaft das Wachstum bremsen, unterschätzt mögliche Gegenimpulse durch starke Auftragslage und technologische Produktivität, die das Risiko einer Rezession mindern könnten."
  },
  "matrix": [
   {
@@ -385,11 +394,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "120.7 Mrd"
+     "121.0 Mrd"
     ],
     [
      "KGV (erw.)",
-     "22,8"
+     "22,9"
     ],
     [
      "Umsatzwachstum",
@@ -422,12 +431,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die Mehrheit der Analysten (19 Kauf) bewertet Siemens Energy positiv. Umsatzwachstum von 18 % signalisiert starke Nachfrage. Das KGV von 22,8 liegt im Branchenvergleich moderat. Das Kursziel von 196 € impliziert weiteres Aufwärtspotenzial. Die Marktkapitalisierung von 120,7 Mrd € unterstreicht die Größe des Unternehmens.",
-   "dagegen": "Trotz positiver Analystenmeinung bleibt das Unternehmen anfällig für volatile Energiepreise und Lieferverzögerungen bei Siemens Gamesa. Das KGV von 22,8 könnte überbewertet sein, wenn Margen sinken. Fehlende Insider‑Informationen und kaum Diskussion in Reddit oder Newslettern reduzieren Transparenz.",
+   "dafuer": "Die Analystenmehrheit (19 Kauf‑Empfehlungen) sieht in dem robusten Umsatzwachstum von +18 % und dem Kursziel von 196 € ein starkes Aufwärtspotenzial. Die Diversifikation über Gas‑, Grid‑ und Wind‑Geschäfte sowie die erwarteten Kostensynergien nach der Unternehmensspaltung stärken das Bild.",
+   "dagegen": "Ein KGV von 22,9 erscheint im Vergleich zu Branchenkollegen hoch, was die Bewertung belastet. Fehlende Insider‑Informationen, kaum Reddit‑Diskussion und keine Short‑Positionen deuten auf eine dünne Marktbeobachtung hin. Zudem bestehen Risiken bei der Umsetzung von Transformations‑ und Wind‑Projekten.",
    "katalysatoren": [
-    "Auslieferung neuer Gas‑ und Dampfturbinen‑Modelle im Q4 2026",
-    "Start der digitalen Grid‑Plattform und Auftragszuwachs im Netz‑Segment",
-    "Mögliche Restrukturierung oder Verkauf des Siemens Gamesa‑Windbereichs, unterstützt durch EU‑Förderprogramme"
+    "Auslieferung neuer Gasturbinen‑Modelle im zweiten Quartal",
+    "Fortschritt bei Siemens Gamesa Offshore‑Windprojekten",
+    "Abschluss von Kostensynergie‑ und Restrukturierungsmaßnahmen"
    ]
   },
   "RHM.DE": {
@@ -438,11 +447,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "47.4 Mrd"
+     "48.0 Mrd"
     ],
     [
      "KGV (erw.)",
-     "19,0"
+     "19,2"
     ],
     [
      "Umsatzwachstum",
@@ -475,12 +484,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Dafür spricht das starke Umsatzwachstum von +69 % und die breite Aufstellung in Fahrzeugsysteme, Waffen und Elektronik, die von steigenden Verteidigungsausgaben profitieren. Das KGV von 19 ist im Branchenvergleich moderat, und 18 Analysten empfehlen Kauf, was das Vertrauen in die Aussichten widerspiegelt.",
-   "dagegen": "Dagegen stehen die relativ hohe Bewertung, ein KGV von 19 bei erwarteten Margen, und die Abhängigkeit von staatlichen Rüstungsetats, die politisch schwanken können. Die geringe Medienpräsenz (kaum Reddit, kein Newsletter) und fehlende Insider‑Informationen erhöhen das Informationsrisiko.",
+   "dafuer": "Die Analysten‑Stimmung ist eindeutig positiv (18 Kauf‑, 3 Halte‑Empfehlungen, keine Verkäufe). Rheinmetall verzeichnet ein starkes Umsatzwachstum von 69 % und profitiert von einer breiten geografischen Aufstellung sowie einem wachsenden Auftragsbestand im Bereich gepanzerte Fahrzeuge und Elektronik‑Lösungen.",
+   "dagegen": "Das Kurs‑Gewinn‑Verhältnis von 19,2 liegt im oberen Branchenbereich, was die Bewertung relativ teuer macht. Das Unternehmen ist stark von staatlichen Rüstungsaufträgen abhängig, wodurch politische Entscheidungen und Haushaltskürzungen das Ergebnis erheblich beeinflussen können. Zudem gibt es keine Insider‑ oder Short‑Aktivität, die ein Gegen‑Signal liefern würde.",
    "katalysatoren": [
-    "Q3‑2024 Ergebnisveröffentlichung (Umsatz‑ und Gewinnentwicklung)",
-    "Bekanntgabe größerer Rüstungsaufträge (z. B. neue Panzer‑ oder Munitionsverträge)",
-    "Fortschritt bei Elektronischen Lösungen, insbesondere Integration von KI‑basierten Verteidigungssystemen"
+    "Veröffentlichung des Quartals‑Ergebnisses (voraussichtlich Q3‑2026)",
+    "Entscheidung über das deutsche Verteidigungsbudget 2027",
+    "Auftragsbestätigung für neue Panzer‑ und Logistikfahrzeuge in den USA"
    ]
   },
   "ASML.AS": {
@@ -491,11 +500,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "544.7 Mrd"
+     "550.6 Mrd"
     ],
     [
      "KGV (erw.)",
-     "27,4"
+     "27,7"
     ],
     [
      "Umsatzwachstum",
@@ -528,12 +537,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die Analystenmeinung ist überwiegend positiv (38 Kauf‑Empfehlungen, nur 1 Verkauf). Das Unternehmen verzeichnet ein starkes Umsatzwachstum von 21 % und hält mit 544 Mrd. € die größte Marktkapitalisierung im Lithografie‑Segment. Das aktuelle KGV von 27,4 liegt im Branchenvergleich moderat, das Kursziel von 2.045 € impliziert weiteres Aufwärtspotenzial.",
-   "dagegen": "Ein Gegenargument ist die hohe Bewertung: Das KGV von 27,4 könnte im Vergleich zu historischen Werten überbewertet sein, insbesondere bei einer möglichen Abschwächung der Chipnachfrage. Das Unternehmen ist stark von der globalen Halbleitermärkte‑Dynamik abhängig, und ein einziger negativer Analyst (1 Verkauf) weist auf Unsicherheiten hin.",
+   "dafuer": "Die Analystenmeinung ist eindeutig positiv: 38 Kauf‑Empfehlungen, nur drei Halte‑ und ein Verkauf. Das Unternehmen verzeichnet ein Umsatzwachstum von 21 % und profitiert von der steigenden Nachfrage nach EUV‑Lithografie, die für fortschrittliche Halbleiter nötig ist. Der Marktwert von 550 Mrd € unterstreicht die Branchenposition.",
+   "dagegen": "Trotz der positiven Zahlen ist das KGV von 27,7 relativ hoch, was auf eine mögliche Überbewertung hindeutet. Die Abhängigkeit von der konjunkturellen Entwicklung der Halbleitermärkte birgt Risiken, und ein einziger negativer Analysten‑Rating weist auf Unsicherheiten hin. Insider‑Informationen fehlen, Shorts sind nicht gemeldet.",
    "katalysatoren": [
-    "Serienstart der High‑NA EUV‑Maschine (NXE:3400) im nächsten Geschäftsjahr",
-    "Steigende Nachfrage nach KI‑ und HPC‑Chips, die modernste Lithografie erfordern",
-    "Ausbau der Produktionskapazitäten bei Großkunden wie TSMC und Samsung"
+    "Einführung des nächsten High‑NA EUV‑Systems (geplant für 2025)",
+    "Quartalsbericht Q3 2024 mit erwarteter Umsatzsteigerung",
+    "Kapazitätserweiterungen bei Schlüssel­kunden wie TSMC oder Samsung"
    ]
   },
   "SU.PA": {
@@ -544,11 +553,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "161.7 Mrd"
+     "162.3 Mrd"
     ],
     [
      "KGV (erw.)",
-     "23,6"
+     "23,7"
     ],
     [
      "Umsatzwachstum",
@@ -566,7 +575,7 @@
     ],
     [
      "Newsletter",
-     "in 21 Clustern"
+     "in 17 Clustern"
     ],
     [
      "Reddit",
@@ -1165,6 +1174,6 @@
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 168,
+ "meldungen_gesamt": 180,
  "llm_aktiv": false
 }
