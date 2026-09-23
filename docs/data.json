@@ -1,9 +1,9 @@
 {
- "stand": "2026-09-23T10:04",
- "lauf": "2026092310",
+ "stand": "2026-09-23T13:05",
+ "lauf": "2026092313",
  "synthese": {
-  "kern": "Energiepolitik und steigende Kosten dominieren, während der Markt das Inflationsrisiko vernachlässigt.",
-  "erlaeuterung": "Die Diskussion um Tankstellenpreise, Diesel‑Exportstopp und den Rekordanteil von E‑Autos verdeutlicht wachsende strukturelle Belastungen. Trotz hoher Risikoappetitswerte übersehen Investoren die potenzielle Preissteigerung bei Heizenergie und deren makroökonomische Folgen."
+  "kern": "Politische und regulatorische Themen dominieren, während Märkte weiterhin auf makroökonomische Daten setzen.",
+  "erlaeuterung": "Die OECD‑Aufwertung und steigender Risikoappetit werden von den Diskussionen um Tankstellen‑Preisregulierung und geopolitische Rhetorik überschattet. Der Markt vernachlässigt, dass regulatorische Eingriffe und politische Unsicherheiten das Zins‑ und Liquiditätsumfeld stärker beeinflussen könnten."
  },
  "regime": [
   {
@@ -36,23 +36,23 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 67,
-     "delta": 1
+     "wert": 68,
+     "delta": 2
     },
     "eur": {
      "wert": 79,
      "delta": -5
     }
    },
-   "differenz": 12
+   "differenz": 11
   },
   {
    "name": "risikoappetit",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 90,
-     "delta": 22
+     "wert": 89,
+     "delta": 20
     }
    }
   },
@@ -84,6 +84,34 @@
  ],
  "cluster": [
   {
+   "id": "87843cb0",
+   "titel": "OECD hebt Konjunkturprognose für deutsche Wirtschaft deutlich an",
+   "anriss": "Die OECD hat ihre Wachstumsprognose für die deutsche Wirtschaft in diesem Jahr deutlich heraufgesetzt. Das Bruttoinlandsprodukt werde um 1,1 Prozent wachsen. Für 2027 steht ebenfalls eine positive Prognose.",
+   "region": "dach",
+   "quellen": [
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 6,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/konjunktur/deutschland-bip-prognose-oecd-100.html",
+    "https://www.tagesschau.de/wirtschaft/verbraucher/prognose-heizkosten-2026-100.html",
+    "https://www.spiegel.de/wirtschaft/unternehmen/konjunktur-in-deutschland-oecd-hebt-prognose-deutlich-auf-plus-1-1-prozent-an-a-c3393451-089f-4b68-8d32-d893dde7fa12#ref=rss",
+    "https://www.spiegel.de/wirtschaft/unternehmen/konjunktur-in-deutschland-wirtschaftsinstitute-verdoppeln-wachstumsprognose-a-b8c76870-ed93-480b-9c94-4bad7fadd370#ref=rss",
+    "https://www.spiegel.de/wirtschaft/unternehmen/lausitz-cottbus-gilt-als-dynamischste-stadt-deutschlands-zu-recht-a-68b60111-e4cb-4f42-936b-64fe14a7eb25#ref=rss"
+   ],
+   "punkte": 18,
+   "text": "Die OECD hat ihre Wachstumsprognose für das deutsche BIP im laufenden Jahr auf 1,1 % angehoben. Das signalisiert eine leicht bessere konjunkturelle Lage, was insbesondere deutsche Industrie‑ und Exportaktien sowie den Euro unterstützen dürfte, während Staatsanleihen wegen möglicher Zinssteigerungen unter Druck geraten könnten.",
+   "positiv": [
+    "Deutsche Industrie‑ und Exportaktien",
+    "Euro"
+   ],
+   "negativ": [
+    "Deutsche Staatsanleihen"
+   ]
+  },
+  {
    "id": "e8668c6b",
    "titel": "ADAC fordert Abschaffung der 12-Uhr-Regel an Tankstellen",
    "anriss": "Seit April dürfen Tankstellen nur noch um 12 Uhr die Spritpreise erhöhen. Der ADAC kritisiert, dass die Regel zu größeren Preisschwankungen im Tagesverlauf geführt habe, statt die Preise zu senken.",
@@ -98,42 +126,78 @@
    "links": [
     "https://www.tagesschau.de/wirtschaft/energie/adac-tankstellen-12-uhr-regel-100.html",
     "https://www.spiegel.de/wirtschaft/service/spritpreise-nicht-guenstiger-adac-fordert-abschaffung-der-zwoelf-uhr-regel-an-tankstellen-a-b24cae83-4430-4480-ad19-75dc77111998#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-diese-top-manager-kommen-zu-trumps-staatsbankett-fuer-xi-faz-200452404.html",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-adac-fordert-abschaffung-der-zwoelf-uhr-regel-an-tankstellen-faz-200452404.html",
     "https://www.heise.de/news/ADAC-12-Uhr-Regel-an-Tankstellen-hat-sich-nicht-bewaehrt-11462654.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
    "punkte": 16,
-   "text": "Der ADAC fordert die Abschaffung der seit April geltenden 12‑Uhr‑Regel, nach der Tankstellen Preise erst nach 12 Uhr erhöhen dürfen. Die Regel habe laut ADAC zu stärkeren Tages‑Preisschwankungen geführt, ohne die durchschnittlichen Kraftstoffpreise zu senken.",
+   "text": "Der ADAC fordert die Abschaffung der seit April geltenden 12‑Uhr‑Preisänderungsregel an Tankstellen, weil sie zu stärkeren Tagespreisschwankungen geführt habe. Die Unsicherheit könnte die Margen von Tankstellenbetreibern belasten und gleichzeitig die Volatilität im Öl‑ und Raffineriesektor erhöhen.",
    "positiv": [],
    "negativ": [
-    "Kraftstoffpreise",
-    "Tankstellen",
-    "Verbraucher"
+    "Tankstellenbetreiber",
+    "Öl‑ und Raffinerie‑Aktien"
    ]
   },
   {
-   "id": "ef8a9cb3",
-   "titel": "Immobilien: Kauf einer Mietwohnung – Das verdienen Vermieter tatsächlich",
-   "anriss": "Viele Deutsche träumen davon, ihre Altersvorsorge mit einer vermieteten Immobilie zu sichern. Doch wieviel Rendite ist wirklich drin? Das Handelsblatt hat nachgerechnet.",
+   "id": "eee9476e",
+   "titel": "Jev in 25 Lines of Python",
+   "anriss": "Article URL: https://www.nobodywho.ai/posts/jev-in-25-lines/ Comments URL: https://news.ycombinator.com/item?id=49812769 Points: 313 # Comments: 99",
+   "region": "global",
+   "quellen": [
+    "Hacker News Top"
+   ],
+   "anzahl": 13,
+   "links": [
+    "https://www.nobodywho.ai/posts/jev-in-25-lines/",
+    "https://www.reddit.com/r/sysadmin/comments/1wjdpgx/psa_grammarly_will_send_unhinged_messages_to_all/",
+    "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
+    "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
+    "https://unreallabs.ai/blog/unreal-agent/"
+   ],
+   "punkte": 15,
+   "text": "Der Beitrag „Jev in 25 Lines of Python“ stellt eine kompakte Implementierung einer Programmiersprache vor und diskutiert deren Rezeption auf Hacker‑News. Für makroökonomische oder kapitalmarktbezogene Anlagen lässt sich daraus kein klarer Einfluss ableiten.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "3f5e3bfd",
+   "titel": "USA: „Wir müssen ihn loswerden“: Donald Trumps Ex-Sprecher rechnet mit dem US-Präsidenten ab",
+   "anriss": "Elf Tage war er Kommunikationschef im Weißen Haus. Heute zählt der Finanzexperte zu den lautesten Trump-Kritikern. Im Podcast-Interview nennt er die größten Gefahren für die Wirtschaft.",
    "region": "dach",
    "quellen": [
     "Handelsblatt Finanzen",
-    "SPIEGEL Wirtschaft"
+    "Tagesschau Wirtschaft",
+    "manager magazin"
    ],
-   "anzahl": 4,
+   "anzahl": 3,
    "links": [
-    "https://www.handelsblatt.com/finanzen/immobilien/immobilien-wie-gut-eignen-sich-mietwohnungen-fuer-die-altersvorsorge/100180922.html",
-    "https://www.handelsblatt.com/finanzen/immobilien/immobilien-die-stimmung-liegt-nahe-den-tiefstaenden-von-2022-und-2023/100256223.html",
-    "https://www.handelsblatt.com/finanzen/steuern-recht/steuern/immobilien-neues-urteil-beguenstigt-den-hausverkauf-innerhalb-der-familie/100252833.html",
-    "https://www.spiegel.de/wirtschaft/service/ferien-immobilie-kaufen-warum-der-traum-schnell-zum-geldgrab-werden-kann-a-a48a18e4-359e-41f4-b266-8f1542af1a01#ref=rss"
+    "https://www.handelsblatt.com/finanzen/maerkte/usa-muessen-ihn-loswerden-ex-sprecher-rechnet-mit-donald-trump-ab-01/100254486.html",
+    "https://www.tagesschau.de/wirtschaft/weltwirtschaft/usa-diskussion-exportstopp-diesel-100.html",
+    "https://www.manager-magazin.de/politik/weltwirtschaft/usa-donald-trump-erwaegt-exportstopp-fuer-diesel-wegen-hoher-spritpreise-a-c92da25b-eb90-4ebd-96b5-6ca1c11933a7#ref=rss"
    ],
-   "punkte": 15,
-   "text": "Eine Analyse des Handelsblatts zeigt, dass die tatsächliche Rendite von vermieteten Wohnungen deutlich hinter den Erwartungen vieler privater Anleger liegt. Die Ergebnisse stellen die Attraktivität von Wohnimmobilien als Altersvorsorge infrage.",
+   "punkte": 13,
+   "text": "Ein ehemaliger Sprecher von Donald Trump kritisiert den ehemaligen Präsidenten und warnt vor wirtschaftlichen Gefahren, die seiner Meinung nach aus dessen Politik resultieren. Die Äußerungen könnten das politische Risiko‑Premium für US‑Aktien und den Dollar kurzfristig erhöhen, wobei die tatsächliche Marktwirkung noch unklar ist.",
    "positiv": [],
    "negativ": [
-    "Wohnimmobilien",
-    "Vermietungsrendite",
-    "Immobilieninvestoren"
+    "US‑Aktien",
+    "US‑Dollar"
    ]
+  },
+  {
+   "id": "9e189fc0",
+   "titel": "Geldpolitik: Ungarn geht wichtigen Schritt zur Euro-Einführung: Notenbank passt Inflationsziel an",
+   "anriss": "Seit dem Machtwechsel in Budapest treibt Regierungschef Péter Magyar seinen ambitionierten Plan zur Euro-Einführung voran. Jetzt zieht auch die Notenbank mit.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen"
+   ],
+   "anzahl": 1,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/geldpolitik/euro-ungarn-geht-naechsten-schritt-zur-gemeinschaftswaehrung/100256764.html"
+   ],
+   "punkte": 13,
+   "text": "Seit dem Machtwechsel in Budapest treibt Regierungschef Péter Magyar seinen ambitionierten Plan zur Euro-Einführung voran. Jetzt zieht auch die Notenbank mit.",
+   "positiv": [],
+   "negativ": []
   },
   {
    "id": "5fa02281",
@@ -152,129 +216,56 @@
     "https://www.manager-magazin.de/lifestyle/leute/wanja-oberhof-deutscher-start-up-gruender-in-den-usa-auf-kaution-frei-a-e2d073f3-c96d-4224-83e3-ede57126caae#ref=rss"
    ],
    "punkte": 13,
-   "text": "Erbe Kai Viehof hat den Großteil seines Erbes ausgeschlagen und plant, das verbleibende Vermögen größtenteils zu verschenken. Das Vorgehen reduziert potenzielle Erbschaftssteuereinnahmen, während es gemeinnützige Organisationen begünstigt.",
-   "positiv": [
-    "Wohltätigkeitssektor"
-   ],
-   "negativ": [
-    "Erbschaftssteuer",
-    "Vermögensverwaltungsbranche"
-   ]
+   "text": "Kai Viehof hat den Großteil seines Erbes ausgeschlagen, auch vom Rest will der Enkel des Allkauf-Gründers das meiste weggeben. Über einen Mann, dessen Beruf es ist, sinnvoll Geld loszuwerden.",
+   "positiv": [],
+   "negativ": []
   },
   {
-   "id": "b1c54fd1",
-   "titel": "USA prüfen wegen hoher Spritpreise Exportstopp für Diesel",
-   "anriss": "Angesichts der gestiegenen Treibstoffpreise in den USA hat sich US-Präsident Trump für einen Diesel-Exportstopp ausgesprochen. Zuletzt ergriffen die USA einen solchen Schritt während der Ölkrise der 1970er-Jahre.",
+   "id": "ed67bb3d",
+   "titel": "Kabinett bringt Tankrabatt auf den Weg",
+   "anriss": "Am 1. Oktober soll der neue Tankrabatt kommen - nun hat das Kabinett den Gesetzentwurf im Umlaufverfahren beschlossen. Bundestag und Bundesrat sollen ihn noch in dieser Woche billigen.",
    "region": "dach",
    "quellen": [
+    "FAZ Wirtschaft",
     "Tagesschau Wirtschaft",
-    "heise",
-    "manager magazin"
+    "heise"
    ],
    "anzahl": 3,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/weltwirtschaft/usa-diskussion-exportstopp-diesel-100.html",
-    "https://www.manager-magazin.de/politik/weltwirtschaft/usa-donald-trump-erwaegt-exportstopp-fuer-diesel-wegen-hoher-spritpreise-a-c92da25b-eb90-4ebd-96b5-6ca1c11933a7#ref=rss",
-    "https://www.heise.de/news/Donald-Trump-Kuenstliche-Intelligenz-heisst-jetzt-Superintelligenz-11462538.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+    "https://www.tagesschau.de/wirtschaft/tankrabatt-254.html",
+    "https://www.faz.net/aktuell/wirtschaft/kassenbon-soll-ab-2028-digital-werden-accg-201255421.html",
+    "https://www.heise.de/news/Bundeskabinett-beschliesst-Ende-der-Kassenbon-Pflicht-ab-2028-11463222.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
    "punkte": 12,
-   "text": "Die USA prüfen, angesichts hoher Spritpreise, einen Exportstopp für Diesel, um die heimische Versorgung zu sichern. Ein solches Verbot würde US‑Dieselexporte belasten, während die weltweiten Dieselpreise für Importländer steigen könnten.",
-   "positiv": [
-    "US‑Binnenmarkt für Diesel"
-   ],
-   "negativ": [
-    "US‑Dieselexporte",
-    "globale Dieselpreise",
-    "Importierende Länder"
-   ]
-  },
-  {
-   "id": "93ca9af0",
-   "titel": "Anteil von E-Autos bei Neuzulassungen in EU erreicht neuen Rekord",
-   "anriss": "Noch nie sind in der EU so viele Autos mit einem reinen Elektroantrieb zugelassen worden wie im vergangenen Jahr. Gut jeder sechste Pkw war ein E-Auto. Deutschland lag dabei leicht über dem Schnitt.",
-   "region": "dach",
-   "quellen": [
-    "Tagesschau Wirtschaft",
-    "heise",
-    "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/verbraucher/eu-e-autos-neuwagen-zulassungen-100.html",
-    "https://www.manager-magazin.de/unternehmen/mobilitaet/elektroautos-anteil-an-neuzulassungen-in-der-eu-erreicht-2025-rekordwert-a-b29eb8f9-4aa3-48a2-a977-3d1d7bf2d489#ref=rss",
-    "https://www.heise.de/news/Nissan-Pixo-Kleines-Elektroauto-fuer-den-Stadtverkehr-11462898.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 12,
-   "text": "Noch nie sind in der EU so viele Autos mit einem reinen Elektroantrieb zugelassen worden wie im vergangenen Jahr. Gut jeder sechste Pkw war ein E-Auto. Deutschland lag dabei leicht über dem Schnitt.",
+   "text": "Am 1. Oktober soll der neue Tankrabatt kommen - nun hat das Kabinett den Gesetzentwurf im Umlaufverfahren beschlossen. Bundestag und Bundesrat sollen ihn noch in dieser Woche billigen.",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "c652ebea",
-   "titel": "Heizkosten steigen 2026 laut Prognose an",
-   "anriss": "Die Heizkosten für deutsche Haushalte steigen laut einer Prognose auch in diesem Jahr weiter an. Dabei gibt es Unterschiede zwischen den einzelnen Heizarten, denn nicht alle Brennstoffe werden teurer.",
-   "region": "dach",
-   "quellen": [
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/verbraucher/prognose-heizkosten-2026-100.html",
-    "https://www.spiegel.de/wirtschaft/unternehmen/konjunktur-in-deutschland-oecd-hebt-prognose-deutlich-auf-plus-1-1-prozent-an-a-c3393451-089f-4b68-8d32-d893dde7fa12#ref=rss",
-    "https://www.spiegel.de/wirtschaft/unternehmen/konjunktur-in-deutschland-wirtschaftsinstitute-verdoppeln-wachstumsprognose-a-b8c76870-ed93-480b-9c94-4bad7fadd370#ref=rss",
-    "https://www.spiegel.de/wirtschaft/unternehmen/lausitz-cottbus-gilt-als-dynamischste-stadt-deutschlands-zu-recht-a-68b60111-e4cb-4f42-936b-64fe14a7eb25#ref=rss"
-   ],
-   "punkte": 12,
-   "text": "Die Heizkosten für deutsche Haushalte steigen laut einer Prognose auch in diesem Jahr weiter an. Dabei gibt es Unterschiede zwischen den einzelnen Heizarten, denn nicht alle Brennstoffe werden teurer.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "52cbc303",
-   "titel": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
-   "anriss": "https://archive.ph/0V37g Comments URL: https://news.ycombinator.com/item?id=49806430 Points: 654 # Comments: 335",
-   "region": "global",
-   "quellen": [
-    "Hacker News Top"
-   ],
-   "anzahl": 8,
-   "links": [
-    "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
-    "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
-    "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
-    "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/",
-    "https://artificialanalysis.ai/models/claude-opus-5-5"
-   ],
-   "punkte": 10,
-   "text": "https://archive.ph/0V37g Comments URL: https://news.ycombinator.com/item?id=49806430 Points: 654 # Comments: 335",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "20252574",
-   "titel": "Börse am 23. September: Sechs Punkte, die für Anleger heute wichtig sind",
-   "anriss": "Kann der Dax den Anstieg vom Beginn der Woche halten? Anleger und Anlegerinnen hoffen auf Fortschritte beim Gipfeltreffen zwischen Trump und Xi. Im Fokus steht außerdem die Volkswagen-Aktie.",
+   "id": "73c452d1",
+   "titel": "Dax aktuell: Dax notiert im Minus – Ölpreis wieder bei 100 Dollar",
+   "anriss": "Der Irak will mehr Öl exportieren und Saudi-Arabien verkündet, die Ost-West-Pipeline wieder in Betrieb zu nehmen. Trotzdem bleiben Anleger angespannt und blicken auf die Geopolitik.",
    "region": "dach",
    "quellen": [
     "Handelsblatt Finanzen",
     "manager magazin"
    ],
-   "anzahl": 2,
+   "anzahl": 3,
    "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-notiert-im-minus-oelpreis-wieder-bei-100-dollar/100256758.html",
     "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sechs-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
     "https://www.manager-magazin.de/finanzen/boerse/boerse-dax-im-plus-siltronic-aktie-im-fokus-nasdaq-auf-rekordhoch-oelpreise-fallen-a-37d780b5-b52c-4471-8818-3029317d6b07#ref=rss"
    ],
-   "punkte": 9,
-   "text": "Kann der Dax den Anstieg vom Beginn der Woche halten? Anleger und Anlegerinnen hoffen auf Fortschritte beim Gipfeltreffen zwischen Trump und Xi. Im Fokus steht außerdem die Volkswagen-Aktie.",
+   "punkte": 12,
+   "text": "Der Irak will mehr Öl exportieren und Saudi-Arabien verkündet, die Ost-West-Pipeline wieder in Betrieb zu nehmen. Trotzdem bleiben Anleger angespannt und blicken auf die Geopolitik.",
    "positiv": [],
    "negativ": []
   }
  ],
  "ketten": [],
  "gegenthese": {
-  "konsens": "Markt erwartet steigende Energiepreise, weiter wachsende EV‑Anteile, moderate Inflation, und dass regulatorische Eingriffe (z. B. US‑Diesel‑Exportstopp) nur kurzfristig wirken.",
-  "gegen": "Gegenargument: Unklare politische Rahmenbedingungen und mögliche Nachfragerückgänge bei hohen Kosten könnten das Wachstum bremsen."
+  "konsens": "Die Aufwertung der OECD‑Prognose lässt Märkte mit leicht verbessertem deutschen Wachstum rechnen; DAX‑Stütze durch Rohstoff‑Erholung, Öl‑Preis um 100 $.",
+  "gegen": "Strukturelle Schwäche der Binnennachfrage, hohe Energie‑Kosten und geopolitische Risiken könnten das Wachstum erneut dämpfen."
  },
  "matrix": [
   {
@@ -391,11 +382,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "123.0 Mrd"
+     "123.4 Mrd"
     ],
     [
      "KGV (erw.)",
-     "23,3"
+     "23,4"
     ],
     [
      "Umsatzwachstum",
@@ -428,12 +419,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die Analystenmehrheit (19 Kauf‑Empfehlungen) sieht in dem robusten Umsatzwachstum von +18 % und dem breiten Produktportfolio – Gasturbinen, Generatoren, Wärmepumpen und digitale Services – ein starkes Wachstumspotenzial. Das erwartete KGV von 23,3 liegt im Branchenmittel, das Kursziel von 196 € spiegelt optimistische Erwartungen wider.",
-   "dagegen": "Gegen das Bild spricht das relativ hohe KGV von 23,3, das im Vergleich zu traditionellen Energieunternehmen überbewertet wirkt. Fehlende Insider‑Transaktionen und das Fehlen von Shorts deuten auf geringe Marktmeinung hin. Zudem gibt es kaum Erwähnung in Reddit‑Diskussionen, was auf ein geringes Anlegerinteresse schließen lässt.",
+   "dafuer": "Die Analystenmeinung ist stark positiv (19 Kauf, 4 Halten, 2 Verkauf). Das Unternehmen verzeichnet ein Umsatzwachstum von 18 % und ein moderates KGV von 23,4, was auf solide Ertragskraft hinweist. Die Markt­kapitalisierung von 123,4 Mrd € unterstreicht die Branchenposition.",
+   "dagegen": "Trotz des positiven Konsenses fehlt breitere Markt‑ und Medienpräsenz (kaum Reddit‑Erwähnung, keine Newsletter‑Berichte). Das Kursziel von 196 € impliziert eine erhebliche Aufwärts‑Bewertung, die bei unsicheren Auftragslagen im Gas‑ und Windsektor riskant sein kann. Insider‑Informationen fehlen komplett.",
    "katalysatoren": [
-    "Lieferung neuer Gasturbinen an europäische Kunden (Q4 2026)",
-    "Ausbau von Grid‑Technologie‑Aufträgen in Asien (2026‑2027)",
-    "Beschleunigter Roll‑out von Siemens‑Gamesa‑Windparks nach Genehmigungszusage"
+    "Veröffentlichung des Quartals‑Ergebnisses (Q3 2026)",
+    "Zulassung neuer Gasturbinen‑Modelle in Europa",
+    "Großauftrag für Grid‑Technologie‑Projekt in Asien"
    ]
   },
   "RHM.DE": {
@@ -444,11 +435,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "46.8 Mrd"
+     "47.0 Mrd"
     ],
     [
      "KGV (erw.)",
-     "18,7"
+     "18,8"
     ],
     [
      "Umsatzwachstum",
@@ -481,12 +472,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Rheinmetall verzeichnet ein starkes Umsatzwachstum von 69 % und profitiert von steigenden Verteidigungsausgaben in Europa und den USA. Das Unternehmen deckt mehrere Segmente ab (Vehicle Systems, Weapon & Ammunition, Electronic Solutions) und weist ein moderates KGV von 18,7 auf. Analysten‑Consensus ist mit 18 Buy‑Ratings eindeutig positiv.",
-   "dagegen": "Die Bewertung ist im Vergleich zu anderen Rüstungsherstellern relativ hoch, und das Ergebnis ist stark von staatlichen Aufträgen abhängig, was bei Haushaltskürzungen das Risiko erhöht. Fehlende Insider‑Informationen und kaum Diskussionen in Medien/Reddit deuten auf geringe Markttransparenz hin.",
+   "dafuer": "Rheinmetall profitiert von starkem Umsatzwachstum von 69 % und einem breiten Portfolio in Fahrzeugsystemen, Waffen und Elektronik. Das niedrige KGV von 18,8 deutet auf relative Bewertungsvorteile hin. Analysten‑Consensus ist überwiegend Kauf (18‑3‑0), was das Vertrauen in zukünftige Auftragslage widerspiegelt.",
+   "dagegen": "Die Abhängigkeit von staatlichen Rüstungsaufträgen macht das Unternehmen anfällig für politische Entscheidungen und Haushaltskürzungen. Das Kursziel von 1.641 € impliziert bereits eine hohe Bewertung; ein Rückgang der Verteidigungsausgaben oder Lieferkettenprobleme könnten die Marge belasten.",
    "katalysatoren": [
-    "Ankündigung und Genehmigung zusätzlicher Verteidigungsbudgets in Deutschland und den USA (2025‑2026)",
-    "Markteinführung neuer gepanzerter Fahrzeugplattformen oder Modernisierung bestehender Systeme",
-    "Quartalsbericht mit Update zum Auftragsbestand und Ausblick auf Lieferungen"
+    "Veröffentlichung des Q3‑2024 Geschäftsberichts mit Ergebnis und Ausblick",
+    "Vergabe großer Rüstungsaufträge, z. B. neue Kampfpanzer oder Luftverteidigungssysteme",
+    "Entscheidung der deutschen Bundesregierung bzw. NATO über Erhöhung des Verteidigungsbudgets 2025"
    ]
   },
   "ASML.AS": {
@@ -497,7 +488,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "579.0 Mrd"
+     "578.1 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -534,12 +525,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Dafür spricht die dominierende Marktstellung von ASML im EUV‑Lithografie‑Segment, das alleinige Angebot von High‑NA‑Systemen, ein starkes Umsatzwachstum von 21 % und die breite Analysten‑Buy‑Empfehlung (38 Buy vs. 1 Sell). Das Kursziel von 2 045 € impliziert weiteres Aufwärtspotenzial.",
-   "dagegen": "Dagegen stehen das relativ hohe KGV von 29,1, das Risiko einer Abschwächung der Chip‑Nachfrage bei konjunktureller Unsicherheit, geopolitische Spannungen, die Lieferketten beeinträchtigen könnten, sowie die geringe Gegenstimme von einem Analysten, der ein Verkauf‑Rating vergab.",
+   "dafuer": "Für spricht die marktführende Position von ASML im EUV‑Lithographiesegment, das 2023 ein Umsatzwachstum von +21 % erzielte. Die Mehrheit der Analysten (38 Buy) sieht weiteres Potenzial, unterstützt durch ein Kursziel von 2.045 EUR, das über dem aktuellen Kurs liegt.",
+   "dagegen": "Dagegen spricht die hohe Bewertung (KGV 29,1) im Vergleich zu historischen Branchenbenchmarks, was das Risiko von Kurskorrekturen erhöht. Die Abhängigkeit von wenigen Großkunden und konjunkturellen Schwankungen im Halbleitermarkt könnten das Wachstum bremsen. Shorts sind bislang nicht gemeldet, aber das Risiko bleibt.",
    "katalysatoren": [
-    "Q3‑2024 Quartalsbericht (Umsatz‑ und Margenentwicklung)",
-    "Einführung des High‑NA‑EUV‑Systems (voraussichtlich 2025)",
-    "Großaufträge von TSMC/Samsung für 2025‑2026 Produktionskapazitäten"
+    "Q3‑2026 Ergebnisveröffentlichung mit Fokus auf Umsatz‑ und Margenentwicklung",
+    "Markteinführung des nächsten High‑NA EUV‑Systems",
+    "Großaufträge von Schlüssel­kunden wie TSMC oder Samsung"
    ]
   },
   "SU.PA": {
@@ -550,7 +541,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "166.2 Mrd"
+     "166.0 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -572,7 +563,7 @@
     ],
     [
      "Newsletter",
-     "in 22 Clustern"
+     "in 19 Clustern"
     ],
     [
      "Reddit",
@@ -636,13 +627,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Analysten bewerten GEV überwiegend positiv (30 Kauf, 7 Halten, kein Verkauf), was auf Vertrauen in das Umsatzwachstum von +22 % und die Diversifizierung über Power, Wind und Electrification hindeutet. Das Kursziel von 1.237 USD liegt deutlich über dem aktuellen Kurs, und es gibt keine bekannten Short‑Positionen.",
-   "dagegen": "Ein hohes KGV von 37,8 signalisiert eine teure Bewertung, besonders bei unsicherer Konjunktur. Insider‑Verkäufe (4 Verkäufe, keine Käufe) können auf Bedenken hinsichtlich zukünftiger Performance hindeuten. Die geringe Diskussion auf Reddit und das Fehlen von Newsletter‑Analysen deuten auf begrenzte Markttransparenz hin.",
-   "katalysatoren": [
-    "Veröffentlichung des nächsten Quartalsberichts mit erwarteten Margenverbesserungen",
-    "Abschluss großer Windenergie‑Aufträge in Europa oder den USA",
-    "Einführung neuer politischer Förderprogramme für erneuerbare Energien, die Investitionen in Wind‑ und Electrification‑Segmente beschleunigen"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "CCJ": {
    "ticker": "CCJ",
@@ -1175,6 +1162,6 @@
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 169,
+ "meldungen_gesamt": 184,
  "llm_aktiv": false
 }
