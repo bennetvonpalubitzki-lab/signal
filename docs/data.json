@@ -1,9 +1,9 @@
 {
- "stand": "2026-09-23T13:05",
- "lauf": "2026092313",
+ "stand": "2026-09-23T16:04",
+ "lauf": "2026092316",
  "synthese": {
-  "kern": "Politische und regulatorische Themen dominieren, während Märkte weiterhin auf makroökonomische Daten setzen.",
-  "erlaeuterung": "Die OECD‑Aufwertung und steigender Risikoappetit werden von den Diskussionen um Tankstellen‑Preisregulierung und geopolitische Rhetorik überschattet. Der Markt vernachlässigt, dass regulatorische Eingriffe und politische Unsicherheiten das Zins‑ und Liquiditätsumfeld stärker beeinflussen könnten."
+  "kern": "Hohe Risikoappetit trotz steigender geopolitischer Spannungen und politischer Unsicherheiten wird vom Markt unterschätzt.",
+  "erlaeuterung": "Die OECD hebt die deutsche Konjunkturprognose stark an, während Ungarn sein Inflationsziel anpasst und die USA politisch polarisiert sind. Trotz dieser makroökonomischen und geopolitischen Entwicklungen bleibt die Liquidität niedrig und die Märkte ignorieren das erhöhte Risiko."
  },
  "regime": [
   {
@@ -40,19 +40,19 @@
      "delta": 2
     },
     "eur": {
-     "wert": 79,
-     "delta": -5
+     "wert": 80,
+     "delta": -4
     }
    },
-   "differenz": 11
+   "differenz": 12
   },
   {
    "name": "risikoappetit",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 89,
-     "delta": 20
+     "wert": 86,
+     "delta": 21
     }
    }
   },
@@ -93,22 +93,22 @@
     "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 6,
+   "anzahl": 5,
    "links": [
     "https://www.tagesschau.de/wirtschaft/konjunktur/deutschland-bip-prognose-oecd-100.html",
     "https://www.tagesschau.de/wirtschaft/verbraucher/prognose-heizkosten-2026-100.html",
     "https://www.spiegel.de/wirtschaft/unternehmen/konjunktur-in-deutschland-oecd-hebt-prognose-deutlich-auf-plus-1-1-prozent-an-a-c3393451-089f-4b68-8d32-d893dde7fa12#ref=rss",
     "https://www.spiegel.de/wirtschaft/unternehmen/konjunktur-in-deutschland-wirtschaftsinstitute-verdoppeln-wachstumsprognose-a-b8c76870-ed93-480b-9c94-4bad7fadd370#ref=rss",
-    "https://www.spiegel.de/wirtschaft/unternehmen/lausitz-cottbus-gilt-als-dynamischste-stadt-deutschlands-zu-recht-a-68b60111-e4cb-4f42-936b-64fe14a7eb25#ref=rss"
+    "https://www.manager-magazin.de/politik/deutschland/konjunktur-oecd-erhoeht-wachstumsprognose-fuer-deutschland-a-673dd827-a834-45bd-bc5a-48c214415997#ref=rss"
    ],
-   "punkte": 18,
-   "text": "Die OECD hat ihre Wachstumsprognose für das deutsche BIP im laufenden Jahr auf 1,1 % angehoben. Das signalisiert eine leicht bessere konjunkturelle Lage, was insbesondere deutsche Industrie‑ und Exportaktien sowie den Euro unterstützen dürfte, während Staatsanleihen wegen möglicher Zinssteigerungen unter Druck geraten könnten.",
+   "punkte": 16,
+   "text": "Die OECD hat ihre Wachstumsprognose für das deutsche BIP im laufenden Jahr auf 1,1 % angehoben. Die höhere Konjunkturaussicht dürfte die Stimmung für deutsche Industrie‑ und Konsumaktien stärken, während die Renditeerwartungen für sichere Staatsanleihen leicht nach oben drücken könnten.",
    "positiv": [
-    "Deutsche Industrie‑ und Exportaktien",
-    "Euro"
+    "Deutsche Industrie‑ und Konsumaktien",
+    "Euro‑Stoxx‑50"
    ],
    "negativ": [
-    "Deutsche Staatsanleihen"
+    "Deutsche Staatsanleihen (Preis)"
    ]
   },
   {
@@ -125,38 +125,19 @@
    "anzahl": 4,
    "links": [
     "https://www.tagesschau.de/wirtschaft/energie/adac-tankstellen-12-uhr-regel-100.html",
-    "https://www.spiegel.de/wirtschaft/service/spritpreise-nicht-guenstiger-adac-fordert-abschaffung-der-zwoelf-uhr-regel-an-tankstellen-a-b24cae83-4430-4480-ad19-75dc77111998#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-adac-fordert-abschaffung-der-zwoelf-uhr-regel-an-tankstellen-faz-200452404.html",
+    "https://www.spiegel.de/wirtschaft/service/spritpreise-adac-fordert-abschaffung-der-zwoelf-uhr-regel-an-tankstellen-a-b24cae83-4430-4480-ad19-75dc77111998#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-flixtrain-bestellt-neue-hochgeschwindigkeitszuege-faz-200452404.html",
     "https://www.heise.de/news/ADAC-12-Uhr-Regel-an-Tankstellen-hat-sich-nicht-bewaehrt-11462654.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
    "punkte": 16,
-   "text": "Der ADAC fordert die Abschaffung der seit April geltenden 12‑Uhr‑Preisänderungsregel an Tankstellen, weil sie zu stärkeren Tagespreisschwankungen geführt habe. Die Unsicherheit könnte die Margen von Tankstellenbetreibern belasten und gleichzeitig die Volatilität im Öl‑ und Raffineriesektor erhöhen.",
-   "positiv": [],
+   "text": "Der ADAC fordert die Abschaffung der seit April geltenden 12‑Uhr‑Preisänderungsregel an Tankstellen, weil sie laut Kritik zu stärkeren Tagespreisschwankungen geführt habe. Ohne die Regel könnten Tankstellenbetreiber geringere Preisvolatilität erleben, während die Margen im Einzelhandel für Kraftstoffe unsicher bleiben.",
+   "positiv": [
+    "Tankstellenbetreiber"
+   ],
    "negativ": [
-    "Tankstellenbetreiber",
-    "Öl‑ und Raffinerie‑Aktien"
+    "Rohöl‑Preis‑Volatilität",
+    "Kraftstoff‑Einzelhandel (Margen)"
    ]
-  },
-  {
-   "id": "eee9476e",
-   "titel": "Jev in 25 Lines of Python",
-   "anriss": "Article URL: https://www.nobodywho.ai/posts/jev-in-25-lines/ Comments URL: https://news.ycombinator.com/item?id=49812769 Points: 313 # Comments: 99",
-   "region": "global",
-   "quellen": [
-    "Hacker News Top"
-   ],
-   "anzahl": 13,
-   "links": [
-    "https://www.nobodywho.ai/posts/jev-in-25-lines/",
-    "https://www.reddit.com/r/sysadmin/comments/1wjdpgx/psa_grammarly_will_send_unhinged_messages_to_all/",
-    "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
-    "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
-    "https://unreallabs.ai/blog/unreal-agent/"
-   ],
-   "punkte": 15,
-   "text": "Der Beitrag „Jev in 25 Lines of Python“ stellt eine kompakte Implementierung einer Programmiersprache vor und diskutiert deren Rezeption auf Hacker‑News. Für makroökonomische oder kapitalmarktbezogene Anlagen lässt sich daraus kein klarer Einfluss ableiten.",
-   "positiv": [],
-   "negativ": []
   },
   {
    "id": "3f5e3bfd",
@@ -175,11 +156,11 @@
     "https://www.manager-magazin.de/politik/weltwirtschaft/usa-donald-trump-erwaegt-exportstopp-fuer-diesel-wegen-hoher-spritpreise-a-c92da25b-eb90-4ebd-96b5-6ca1c11933a7#ref=rss"
    ],
    "punkte": 13,
-   "text": "Ein ehemaliger Sprecher von Donald Trump kritisiert den ehemaligen Präsidenten und warnt vor wirtschaftlichen Gefahren, die seiner Meinung nach aus dessen Politik resultieren. Die Äußerungen könnten das politische Risiko‑Premium für US‑Aktien und den Dollar kurzfristig erhöhen, wobei die tatsächliche Marktwirkung noch unklar ist.",
+   "text": "Ein ehemaliger Sprecher von Donald Trump kritisiert den ehemaligen Präsidenten scharf und warnt in einem Podcast vor wirtschaftlichen Risiken, die seiner Meinung nach von Trumps Politik ausgehen. Die Äußerungen könnten das politische Risiko‑Premium für US‑Aktien kurzfristig erhöhen, insbesondere für Unternehmen mit starkem Regierungs‑ oder Regulierungsbezug.",
    "positiv": [],
    "negativ": [
-    "US‑Aktien",
-    "US‑Dollar"
+    "US‑Aktien (politisches Risiko‑Premium)",
+    "US‑Dollar (Vertrauensverlust)"
    ]
   },
   {
@@ -195,77 +176,101 @@
     "https://www.handelsblatt.com/finanzen/geldpolitik/euro-ungarn-geht-naechsten-schritt-zur-gemeinschaftswaehrung/100256764.html"
    ],
    "punkte": 13,
-   "text": "Seit dem Machtwechsel in Budapest treibt Regierungschef Péter Magyar seinen ambitionierten Plan zur Euro-Einführung voran. Jetzt zieht auch die Notenbank mit.",
-   "positiv": [],
-   "negativ": []
+   "text": "Ungarn hat einen wichtigen Schritt zur Euro‑Einführung unternommen, indem die Notenbank ihr Inflationsziel angepasst hat, um die Konvergenz mit der Eurozone zu unterstützen. Die Maßnahme dürfte den Forint gegenüber dem Euro schwächen und die Renditen ungarischer Staatsanleihen nach oben treiben, während euro‑nahe Anlagen von einer potenziellen Erweiterung der Eurozone profitieren könnten.",
+   "positiv": [
+    "Euro‑nahe Anlagen",
+    "Euro‑Stoxx‑50"
+   ],
+   "negativ": [
+    "Ungarischer Forint",
+    "Ungarische Staatsanleihen (Preis)"
+   ]
   },
   {
-   "id": "5fa02281",
-   "titel": "Geld: Der Millionenerbe, der die Millionen nicht will",
-   "anriss": "Kai Viehof hat den Großteil seines Erbes ausgeschlagen, auch vom Rest will der Enkel des Allkauf-Gründers das meiste weggeben. Über einen Mann, dessen Beruf es ist, sinnvoll Geld loszuwerden.",
+   "id": "d8c25fc2",
+   "titel": "IG Metall fordert fünf Prozent mehr Geld",
+   "anriss": "In der anstehenden Tarifrunde für die Beschäftigten in der Metall- und Elektroindustrie fordert die IG Metall fünf Prozent mehr Geld. Zudem soll es eine tarifliche Gewinnbeteiligung für \"Boom-Unternehmen\" geben.",
    "region": "dach",
    "quellen": [
-    "Handelsblatt Finanzen",
     "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
     "manager magazin"
    ],
    "anzahl": 3,
    "links": [
-    "https://www.handelsblatt.com/finanzen/steuern-recht/reichtum-der-millionenerbe-der-sein-vermoegen-nicht-will/100204748.html",
-    "https://www.spiegel.de/wirtschaft/wanja-oberhof-deutscher-unternehmer-in-den-usa-auf-kaution-frei-a-cdbd5a73-0e2b-46f2-a754-7fdb40e6a4e4#ref=rss",
-    "https://www.manager-magazin.de/lifestyle/leute/wanja-oberhof-deutscher-start-up-gruender-in-den-usa-auf-kaution-frei-a-e2d073f3-c96d-4224-83e3-ede57126caae#ref=rss"
-   ],
-   "punkte": 13,
-   "text": "Kai Viehof hat den Großteil seines Erbes ausgeschlagen, auch vom Rest will der Enkel des Allkauf-Gründers das meiste weggeben. Über einen Mann, dessen Beruf es ist, sinnvoll Geld loszuwerden.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "ed67bb3d",
-   "titel": "Kabinett bringt Tankrabatt auf den Weg",
-   "anriss": "Am 1. Oktober soll der neue Tankrabatt kommen - nun hat das Kabinett den Gesetzentwurf im Umlaufverfahren beschlossen. Bundestag und Bundesrat sollen ihn noch in dieser Woche billigen.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "heise"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/tankrabatt-254.html",
-    "https://www.faz.net/aktuell/wirtschaft/kassenbon-soll-ab-2028-digital-werden-accg-201255421.html",
-    "https://www.heise.de/news/Bundeskabinett-beschliesst-Ende-der-Kassenbon-Pflicht-ab-2028-11463222.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+    "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/tarifforderungen-ig-metall-100.html",
+    "https://www.spiegel.de/wirtschaft/ig-metall-wird-offenbar-fuenf-prozent-mehr-lohn-fordern-a-cb61bed9-620e-494e-b13c-e9c012003874#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/industrie/ig-metall-gewerkschaft-fordert-5-prozent-mehr-lohn-fuer-millionen-beschaeftige-a-942b0fc0-0e59-4b87-a0a0-65c6c1b28a0f#ref=rss"
    ],
    "punkte": 12,
-   "text": "Am 1. Oktober soll der neue Tankrabatt kommen - nun hat das Kabinett den Gesetzentwurf im Umlaufverfahren beschlossen. Bundestag und Bundesrat sollen ihn noch in dieser Woche billigen.",
+   "text": "In der anstehenden Tarifrunde für die Beschäftigten in der Metall- und Elektroindustrie fordert die IG Metall fünf Prozent mehr Geld. Zudem soll es eine tarifliche Gewinnbeteiligung für \"Boom-Unternehmen\" geben.",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "73c452d1",
-   "titel": "Dax aktuell: Dax notiert im Minus – Ölpreis wieder bei 100 Dollar",
-   "anriss": "Der Irak will mehr Öl exportieren und Saudi-Arabien verkündet, die Ost-West-Pipeline wieder in Betrieb zu nehmen. Trotzdem bleiben Anleger angespannt und blicken auf die Geopolitik.",
+   "id": "35e5e8a8",
+   "titel": "Claude Code reads AGENTS.md only when telemetry is on [fixed]",
+   "anriss": "Article URL: https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/ Comments URL: https://news.ycombinator.com/item?id=49814947 Points: 336 # Comments: 183",
+   "region": "global",
+   "quellen": [
+    "Hacker News Top"
+   ],
+   "anzahl": 10,
+   "links": [
+    "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/",
+    "https://www.nobodywho.ai/posts/jev-in-25-lines/",
+    "https://waymo.com/blog/2026/09/transit-rewards/",
+    "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
+    "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/"
+   ],
+   "punkte": 12,
+   "text": "Article URL: https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/ Comments URL: https://news.ycombinator.com/item?id=49814947 Points: 336 # Comments: 183",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "33be4247",
+   "titel": "Stromnetze: Milliarden-Börsengang – die Pläne von SGB-Smit werden konkret",
+   "anriss": "Der Stromnetzausrüster will Anfang 2027 an die Frankfurter Börse und eine Bewertung von bis zu fünf Milliarden Euro erzielen. Bekannt ist nun, welche Kanzlei und Banken ein Mandat erhielten.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "Tagesschau Wirtschaft"
+   ],
+   "anzahl": 2,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/stromnetze-milliarden-boersengang-die-plaene-von-sgb-smit-werden-konkret/100256262.html",
+    "https://www.tagesschau.de/wirtschaft/energie/oel-boom-nigeria-100.html"
+   ],
+   "punkte": 9,
+   "text": "Der Stromnetzausrüster will Anfang 2027 an die Frankfurter Börse und eine Bewertung von bis zu fünf Milliarden Euro erzielen. Bekannt ist nun, welche Kanzlei und Banken ein Mandat erhielten.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "0eb85fde",
+   "titel": "Dow Jones, S&P 500, Nasdaq: Wall Street im Minus – McDonald’s-Aktie unter Druck",
+   "anriss": "Steigende Ölpreise belasten erneut die Stimmung an den US-Börsen. Der Blick der Anleger richtet sich zudem weiterhin besonders auf geopolitische Entwicklungen.",
    "region": "dach",
    "quellen": [
     "Handelsblatt Finanzen",
     "manager magazin"
    ],
-   "anzahl": 3,
+   "anzahl": 2,
    "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-notiert-im-minus-oelpreis-wieder-bei-100-dollar/100256758.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sechs-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-wall-street-im-minus-mcdonalds-aktie-unter-druck/100256895.html",
     "https://www.manager-magazin.de/finanzen/boerse/boerse-dax-im-plus-siltronic-aktie-im-fokus-nasdaq-auf-rekordhoch-oelpreise-fallen-a-37d780b5-b52c-4471-8818-3029317d6b07#ref=rss"
    ],
-   "punkte": 12,
-   "text": "Der Irak will mehr Öl exportieren und Saudi-Arabien verkündet, die Ost-West-Pipeline wieder in Betrieb zu nehmen. Trotzdem bleiben Anleger angespannt und blicken auf die Geopolitik.",
+   "punkte": 9,
+   "text": "Steigende Ölpreise belasten erneut die Stimmung an den US-Börsen. Der Blick der Anleger richtet sich zudem weiterhin besonders auf geopolitische Entwicklungen.",
    "positiv": [],
    "negativ": []
   }
  ],
  "ketten": [],
  "gegenthese": {
-  "konsens": "Die Aufwertung der OECD‑Prognose lässt Märkte mit leicht verbessertem deutschen Wachstum rechnen; DAX‑Stütze durch Rohstoff‑Erholung, Öl‑Preis um 100 $.",
-  "gegen": "Strukturelle Schwäche der Binnennachfrage, hohe Energie‑Kosten und geopolitische Risiken könnten das Wachstum erneut dämpfen."
+  "konsens": "Der Markt geht von einem moderaten Aufschwung der deutschen Wirtschaft aus, OECD‑Prognose von rund 1,3 % Wachstum 2024 wird eingepreist.",
+  "gegen": "Gegenargument: Die konjunkturellen Fundamentaldaten bleiben schwach – Industrieproduktion rückläufig, Energiepreise hoch, Konsum unsicher, was das Wachstumspotenzial stark einschränkt."
  },
  "matrix": [
   {
@@ -382,11 +387,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "123.4 Mrd"
+     "123.0 Mrd"
     ],
     [
      "KGV (erw.)",
-     "23,4"
+     "23,3"
     ],
     [
      "Umsatzwachstum",
@@ -419,12 +424,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die Analystenmeinung ist stark positiv (19 Kauf, 4 Halten, 2 Verkauf). Das Unternehmen verzeichnet ein Umsatzwachstum von 18 % und ein moderates KGV von 23,4, was auf solide Ertragskraft hinweist. Die Markt­kapitalisierung von 123,4 Mrd € unterstreicht die Branchenposition.",
-   "dagegen": "Trotz des positiven Konsenses fehlt breitere Markt‑ und Medienpräsenz (kaum Reddit‑Erwähnung, keine Newsletter‑Berichte). Das Kursziel von 196 € impliziert eine erhebliche Aufwärts‑Bewertung, die bei unsicheren Auftragslagen im Gas‑ und Windsektor riskant sein kann. Insider‑Informationen fehlen komplett.",
+   "dafuer": "Das Unternehmen profitiert von starkem Umsatzwachstum von 18 % und einem attraktiven Kursziel von 196 €, das einem Aufwärtspotenzial von rund 30 % gegenüber dem aktuellen Kurs entspricht. Das KGV von 23,3 liegt im Branchendurchschnitt, was die Bewertung als moderat erscheinen lässt.",
+   "dagegen": "Gegenstand sind die hohe Marktkapitalisierung von 123 Mrd. €, die das Risiko von Kursverlusten bei Marktvolatilität erhöht, sowie die Unsicherheit über die langfristige Rentabilität der Gas‑Service‑ und Grid‑Technologies‑Segmente. Zudem gibt es nur wenige kritische Analysten, die ein Verkaufssignal geben, was auf mögliche Schwächen hindeutet.",
    "katalysatoren": [
-    "Veröffentlichung des Quartals‑Ergebnisses (Q3 2026)",
-    "Zulassung neuer Gasturbinen‑Modelle in Europa",
-    "Großauftrag für Grid‑Technologie‑Projekt in Asien"
+    "Abschluss großer Windturbinen‑Aufträge",
+    "Einführung einer neuen digitalen Serviceplattform",
+    "Veröffentlichung der Q3‑Ergebnisse mit erwarteter Margenverbesserung"
    ]
   },
   "RHM.DE": {
@@ -435,11 +440,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "47.0 Mrd"
+     "47.8 Mrd"
     ],
     [
      "KGV (erw.)",
-     "18,8"
+     "19,2"
     ],
     [
      "Umsatzwachstum",
@@ -472,13 +477,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Rheinmetall profitiert von starkem Umsatzwachstum von 69 % und einem breiten Portfolio in Fahrzeugsystemen, Waffen und Elektronik. Das niedrige KGV von 18,8 deutet auf relative Bewertungsvorteile hin. Analysten‑Consensus ist überwiegend Kauf (18‑3‑0), was das Vertrauen in zukünftige Auftragslage widerspiegelt.",
-   "dagegen": "Die Abhängigkeit von staatlichen Rüstungsaufträgen macht das Unternehmen anfällig für politische Entscheidungen und Haushaltskürzungen. Das Kursziel von 1.641 € impliziert bereits eine hohe Bewertung; ein Rückgang der Verteidigungsausgaben oder Lieferkettenprobleme könnten die Marge belasten.",
-   "katalysatoren": [
-    "Veröffentlichung des Q3‑2024 Geschäftsberichts mit Ergebnis und Ausblick",
-    "Vergabe großer Rüstungsaufträge, z. B. neue Kampfpanzer oder Luftverteidigungssysteme",
-    "Entscheidung der deutschen Bundesregierung bzw. NATO über Erhöhung des Verteidigungsbudgets 2025"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "ASML.AS": {
    "ticker": "ASML.AS",
@@ -488,11 +489,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "578.1 Mrd"
+     "582.2 Mrd"
     ],
     [
      "KGV (erw.)",
-     "29,1"
+     "29,3"
     ],
     [
      "Umsatzwachstum",
@@ -510,7 +511,7 @@
     ],
     [
      "Newsletter",
-     "nicht erwaehnt"
+     "in 1 Clustern"
     ],
     [
      "Reddit",
@@ -525,12 +526,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Für spricht die marktführende Position von ASML im EUV‑Lithographiesegment, das 2023 ein Umsatzwachstum von +21 % erzielte. Die Mehrheit der Analysten (38 Buy) sieht weiteres Potenzial, unterstützt durch ein Kursziel von 2.045 EUR, das über dem aktuellen Kurs liegt.",
-   "dagegen": "Dagegen spricht die hohe Bewertung (KGV 29,1) im Vergleich zu historischen Branchenbenchmarks, was das Risiko von Kurskorrekturen erhöht. Die Abhängigkeit von wenigen Großkunden und konjunkturellen Schwankungen im Halbleitermarkt könnten das Wachstum bremsen. Shorts sind bislang nicht gemeldet, aber das Risiko bleibt.",
+   "dafuer": "Starke Analysten‑Konsens (38 Kauf‑Empfehlungen) und kein Short‑Interesse unterstützen die Aktie. Das Unternehmen führt die Branche bei EUV‑Lithografie an, erzielt 21 % Umsatzwachstum und verfügt über eine Marktkapitalisierung von 582 Mrd. €, was die Marktstellung bestätigt. Das KGV von 29,3 ist für ein Wachstums‑Unternehmen akzeptabel.",
+   "dagegen": "Das KGV von 29,3 ist im Vergleich zu historischen Werten hoch, was auf eine teure Bewertung hindeutet. Die geringe Präsenz in Reddit und fehlende Insider‑Meldungen deuten auf schwaches Retail‑Interesse hin. Lieferkettenengpässe bei hochreinem Silizium und konjunkturelle Abschwächung der Chip‑Nachfrage könnten das Wachstum bremsen.",
    "katalysatoren": [
-    "Q3‑2026 Ergebnisveröffentlichung mit Fokus auf Umsatz‑ und Margenentwicklung",
-    "Markteinführung des nächsten High‑NA EUV‑Systems",
-    "Großaufträge von Schlüssel­kunden wie TSMC oder Samsung"
+    "Q4 2024: Auslieferung neuer High‑NA‑EUV‑Systeme",
+    "2025: Serienstart der nächsten EUV‑Generation (EUV‑2)",
+    "Großaufträge von TSMC/Intel im Rahmen des US‑CHIPS‑Acts"
    ]
   },
   "SU.PA": {
@@ -541,11 +542,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "166.0 Mrd"
+     "165.2 Mrd"
     ],
     [
      "KGV (erw.)",
-     "24,3"
+     "24,2"
     ],
     [
      "Umsatzwachstum",
@@ -563,7 +564,7 @@
     ],
     [
      "Newsletter",
-     "in 19 Clustern"
+     "in 20 Clustern"
     ],
     [
      "Reddit",
@@ -590,11 +591,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "253.1 Mrd"
+     "250.2 Mrd"
     ],
     [
      "KGV (erw.)",
-     "37,8"
+     "37,4"
     ],
     [
      "Umsatzwachstum",
@@ -639,11 +640,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "41.2 Mrd"
+     "40.1 Mrd"
     ],
     [
      "KGV (erw.)",
-     "50,9"
+     "49,6"
     ],
     [
      "Umsatzwachstum",
@@ -688,11 +689,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "106.8 Mrd"
+     "103.5 Mrd"
     ],
     [
      "KGV (erw.)",
-     "17,9"
+     "17,4"
     ],
     [
      "Umsatzwachstum",
@@ -737,11 +738,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "5.526.5 Mrd"
+     "5.428.2 Mrd"
     ],
     [
      "KGV (erw.)",
-     "14,6"
+     "14,3"
     ],
     [
      "Umsatzwachstum",
@@ -780,6 +781,69 @@
   }
  },
  "shorts": [
+  {
+   "land": "NL",
+   "halter": "Citadel Advisors LLC",
+   "emittent": "TomTom N.V.",
+   "prozent": 0.7,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "Caisse de dépôt et placement du Québec",
+   "emittent": "IMCD N.V.",
+   "prozent": 0.58,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "WorldQuant, LLC",
+   "emittent": "PostNL N.V.",
+   "prozent": 0.52,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "AQR Capital Management, LLC",
+   "emittent": "TomTom N.V.",
+   "prozent": 0.51,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "AQR Capital Management, LLC",
+   "emittent": "BE Semiconductor Industries N.V.",
+   "prozent": 0.5,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "Citadel Securities (Europe) Limited",
+   "emittent": "Signify N.V.",
+   "prozent": 0.5,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "Millennium International Management LP",
+   "emittent": "Koninklijke Philips N.V.",
+   "prozent": 0.49,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
   {
    "land": "UK",
    "halter": "Anavio Capital Partners LLP",
@@ -986,80 +1050,17 @@
    "datum": "2019-06-14",
    "status": "aufgestockt",
    "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 14.49,
-   "datum": "2019-06-13",
-   "status": "aufgestockt",
-   "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 14.29,
-   "datum": "2019-06-12",
-   "status": "aufgestockt",
-   "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 14.08,
-   "datum": "2019-06-11",
-   "status": "aufgestockt",
-   "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 13.82,
-   "datum": "2019-06-10",
-   "status": "aufgestockt",
-   "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "GUEVOURA FUND LTD",
-   "emittent": "HAMMERSON PLC",
-   "prozent": 13.78,
-   "datum": "2020-09-24",
-   "status": "aufgestockt",
-   "zuvor": 0.57
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 13.68,
-   "datum": "2019-06-07",
-   "status": "aufgestockt",
-   "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 13.5,
-   "datum": "2019-06-06",
-   "status": "aufgestockt",
-   "zuvor": 0.53
   }
  ],
  "shorts_kennzahlen": {
-  "neu_diese_woche": 0,
+  "neu_diese_woche": 7,
   "meistgeshortet": {
    "name": "Premier Oil PLC",
    "summe": 2145.63
   },
   "aktivster_halter": {
    "name": "Marshall Wace LLP",
-   "anzahl": 14035
+   "anzahl": 14034
   },
   "gesamt": 107395
  },
@@ -1162,6 +1163,6 @@
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 184,
+ "meldungen_gesamt": 186,
  "llm_aktiv": false
 }
