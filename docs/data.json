@@ -1,9 +1,9 @@
 {
- "stand": "2026-09-23T19:03",
- "lauf": "2026092319",
+ "stand": "2026-09-24T04:40",
+ "lauf": "2026092404",
  "synthese": {
-  "kern": "Politische und soziale Spannungen treiben Lohnforderungen und Reformen, während der Markt die steigende strukturelle Risiko‑Komponente unterschätzt.",
-  "erlaeuterung": "Die IG‑Metall‑Forderungen, die OECD‑Aufwertung und Ungarns Euro‑Schritte zeigen wachsende makroökonomische Belastungen trotz hoher Wachstumswerte. Gleichzeitig verdecken die kurzfristigen Kursverluste und politischen Skandale das langfristige Risiko von Lohn‑ und Regime‑Umbrüchen."
+  "kern": "Politische Turbulenzen, steigender Zinsdruck und Inflationsziele überschattet die robusten Wachstumsdaten, während Märkte das Risiko unterschätzen.",
+  "erlaeuterung": "Die US‑ und EU‑Zinsdruckwerte liegen im oberen Perzentil, gleichzeitig steigen die Inflationsziele in Ungarn, was die Geldpolitik belastet. Trotz hoher US‑Wachstumszahlen und starkem globalen Risikoappetit werden geopolitische Spannungen und Liquiditätsengpässe vom Markt kaum beachtet."
  },
  "regime": [
   {
@@ -12,7 +12,7 @@
    "spuren": {
     "us": {
      "wert": 81,
-     "delta": 1
+     "delta": 0
     },
     "eur": {
      "wert": 91,
@@ -51,8 +51,8 @@
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 85,
-     "delta": 20
+     "wert": 84,
+     "delta": 19
     }
    }
   },
@@ -77,88 +77,36 @@
    "spuren": {
     "glob": {
      "wert": 88,
-     "delta": -1
+     "delta": -2
     }
    }
   }
  ],
  "cluster": [
   {
-   "id": "d8c25fc2",
-   "titel": "IG Metall fordert fünf Prozent mehr Geld",
-   "anriss": "In der anstehenden Tarifrunde für die Beschäftigten in der Metall- und Elektroindustrie fordert die IG Metall fünf Prozent mehr Geld. Zudem soll es eine tarifliche Gewinnbeteiligung für \"Boom-Unternehmen\" geben.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/tarifforderungen-ig-metall-100.html",
-    "https://www.spiegel.de/wirtschaft/ig-metall-wird-offenbar-fuenf-prozent-mehr-lohn-fordern-a-cb61bed9-620e-494e-b13c-e9c012003874#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/ig-metall-fordert-5-prozent-mehr-lohn-in-der-tarifrunde-201255949.html",
-    "https://www.manager-magazin.de/unternehmen/industrie/ig-metall-gewerkschaft-fordert-5-prozent-mehr-lohn-fuer-millionen-beschaeftige-a-942b0fc0-0e59-4b87-a0a0-65c6c1b28a0f#ref=rss"
-   ],
-   "punkte": 16,
-   "text": "Die IG Metall fordert in der kommenden Tarifrunde für die Metall‑ und Elektroindustrie eine Lohnsteigerung von fünf Prozent sowie eine tarifliche Gewinnbeteiligung für Unternehmen mit starkem Auftragsboom. Sollte die Forderung angenommen werden, steigen die Personalkosten in der Branche, was die Gewinnmargen der betroffenen Unternehmen belasten dürfte.",
-   "positiv": [],
-   "negativ": [
-    "Metall‑ und Elektroindustrie‑Aktien",
-    "Unternehmen mit hohen Lohnkosten"
-   ]
-  },
-  {
-   "id": "87843cb0",
-   "titel": "OECD hebt Konjunkturprognose für deutsche Wirtschaft deutlich an",
-   "anriss": "Die OECD hat ihre Wachstumsprognose für die deutsche Wirtschaft in diesem Jahr deutlich heraufgesetzt. Das Bruttoinlandsprodukt werde um 1,1 Prozent wachsen. Für 2027 steht ebenfalls eine positive Prognose.",
-   "region": "dach",
-   "quellen": [
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 5,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/konjunktur/deutschland-bip-prognose-oecd-100.html",
-    "https://www.tagesschau.de/wirtschaft/verbraucher/prognose-heizkosten-2026-100.html",
-    "https://www.spiegel.de/wirtschaft/unternehmen/konjunktur-in-deutschland-oecd-hebt-prognose-deutlich-auf-plus-1-1-prozent-an-a-c3393451-089f-4b68-8d32-d893dde7fa12#ref=rss",
-    "https://www.spiegel.de/wirtschaft/unternehmen/konjunktur-in-deutschland-wirtschaftsinstitute-verdoppeln-wachstumsprognose-a-b8c76870-ed93-480b-9c94-4bad7fadd370#ref=rss",
-    "https://www.manager-magazin.de/politik/deutschland/konjunktur-oecd-erhoeht-wachstumsprognose-fuer-deutschland-a-673dd827-a834-45bd-bc5a-48c214415997#ref=rss"
-   ],
-   "punkte": 16,
-   "text": "Die OECD hat ihre Konjunkturprognose für Deutschland für das laufende Jahr auf ein BIP‑Wachstum von 1,1 % angehoben und sieht ebenfalls eine positive Entwicklung bis 2027. Die optimistischere Sicht stärkt die Erwartungshaltung gegenüber deutschen Export‑ und Industrieunternehmen.",
-   "positiv": [
-    "Deutsche Aktien",
-    "DAX",
-    "Exportorientierte Unternehmen"
-   ],
-   "negativ": []
-  },
-  {
-   "id": "5c646381",
-   "titel": "Dax aktuell: Dax schließt im Minus – Allianz-Aktie verliert knapp vier Prozent",
-   "anriss": "Nach Tagen des Rückgangs haben die wieder steigenden Ölpreise die Stimmung am deutschen Aktienmarkt getrübt. Nach einem freundlichen Start bleibt der Dax bis zum Börsenschluss im Minus.",
+   "id": "89437d6c",
+   "titel": "Börse am 24. September: Sieben Punkte, die für Anleger heute wichtig sind",
+   "anriss": "Auf die Stimmung an der deutschen Börse drücken steigende Ölpreise. Mit Spannung blicken Anlegerinnen und Anleger heute wieder einmal in die USA.",
    "region": "dach",
    "quellen": [
     "Handelsblatt Finanzen",
     "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 3,
+   "anzahl": 4,
    "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sieben-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
     "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-im-minus-allianz-aktie-verliert-knapp-vier-prozent/100256758.html",
     "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-jones-iran-china-100.html",
     "https://www.manager-magazin.de/finanzen/boerse/boerse-dax-im-plus-siltronic-aktie-im-fokus-nasdaq-auf-rekordhoch-oelpreise-fallen-a-37d780b5-b52c-4471-8818-3029317d6b07#ref=rss"
    ],
-   "punkte": 13,
-   "text": "Der DAX beendete den Handelstag im Minus, wobei insbesondere die Allianz‑Aktie um knapp vier Prozent fiel. Steigende Ölpreise haben die Stimmung an den deutschen Börsen belastet und die Risikoaversion der Anleger erhöht.",
-   "positiv": [],
+   "punkte": 16,
+   "text": "Steigende Ölpreise treiben die Stimmung an der deutschen Börse nach unten, während Anleger gleichzeitig die Entwicklungen an den US‑Märkten beobachten. Die höheren Rohstoffpreise unterstützen Energie‑ und Rohstoffaktien, belasten jedoch breit gestreute deutsche Aktien, die von höheren Input‑Kosten und Inflationsängsten betroffen sind.",
+   "positiv": [
+    "Energie‑/Rohstoffaktien"
+   ],
    "negativ": [
-    "DAX",
-    "Allianz‑Aktie",
-    "Energie‑abhängige Branchen"
+    "Deutsche Gesamtaktien (DAX)"
    ]
   },
   {
@@ -178,11 +126,11 @@
     "https://www.manager-magazin.de/politik/weltwirtschaft/usa-donald-trump-erwaegt-exportstopp-fuer-diesel-wegen-hoher-spritpreise-a-c92da25b-eb90-4ebd-96b5-6ca1c11933a7#ref=rss"
    ],
    "punkte": 13,
-   "text": "Ein ehemaliger Sprecher von Donald Trump kritisierte den ehemaligen Präsidenten scharf und warnte vor wirtschaftlichen Risiken, die seiner Meinung nach aus Trumps Politik resultieren. Die Äußerungen könnten das politische Risiko‑Premium für Unternehmen erhöhen, die stark mit Trump verbunden sind.",
+   "text": "Der ehemalige Kommunikationschef von Donald Trump kritisiert den ehemaligen Präsidenten scharf und nennt in einem Podcast die größten Gefahren für die US‑Wirtschaft. Die Äußerungen erhöhen das politische Risiko‑Profil für US‑Aktien und den Dollar, wobei die konkreten Markteffekte aufgrund fehlender quantitativer Daten unklar bleiben.",
    "positiv": [],
    "negativ": [
-    "Trump‑verbundene Unternehmen",
-    "US‑Politik‑abhängige Aktien"
+    "US‑Aktien",
+    "US‑Dollar"
    ]
   },
   {
@@ -198,78 +146,126 @@
     "https://www.handelsblatt.com/finanzen/geldpolitik/euro-ungarn-geht-naechsten-schritt-zur-gemeinschaftswaehrung/100256764.html"
    ],
    "punkte": 13,
-   "text": "Seit dem Machtwechsel in Budapest treibt Regierungschef Péter Magyar seinen ambitionierten Plan zur Euro-Einführung voran. Jetzt zieht auch die Notenbank mit.",
-   "positiv": [],
+   "text": "Die ungarische Notenbank hat ihr Inflationsziel angepasst, ein Schritt, der den geplanten Euro‑Beitritt des Landes unterstützt. Erwartet wird eine Aufwertung des Forints und ein positiver Sentiment‑Effekt für den Euro, während ungarische Staatsanleihen potenziell von geringerer Risiko‑Prämie profitieren könnten.",
+   "positiv": [
+    "Forint",
+    "Euro",
+    "Ungarische Staatsanleihen"
+   ],
    "negativ": []
   },
   {
-   "id": "1c39fd20",
-   "titel": "Banken: UBS erleidet in Kapitalstreit Niederlage im Schweizer Parlament",
-   "anriss": "Die UBS muss ihre ausländischen Tochtergesellschaften mit mehr hartem Kernkapital unterlegen als von der Bank erhofft. Das Schweizer Parlament sprach sich für härtere Vorschriften aus.",
+   "id": "d8c25fc2",
+   "titel": "IG Metall fordert fünf Prozent mehr Geld",
+   "anriss": "In der anstehenden Tarifrunde für die Beschäftigten in der Metall- und Elektroindustrie fordert die IG Metall fünf Prozent mehr Geld. Zudem soll es eine tarifliche Gewinnbeteiligung für \"Boom-Unternehmen\" geben.",
    "region": "dach",
    "quellen": [
-    "Handelsblatt Finanzen",
-    "heise",
+    "FAZ Wirtschaft",
+    "Tagesschau Wirtschaft",
     "manager magazin"
    ],
    "anzahl": 3,
    "links": [
-    "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/banken-ubs-erleidet-in-kapitalstreit-niederlage-im-schweizer-parlament/100256784.html",
-    "https://www.manager-magazin.de/unternehmen/banken/ubs-schweizer-abgeordnete-wollen-dickere-kapitalpuffer-fuer-die-grossbank-a-fcfa5b75-4498-4a30-8ca7-ba743525eee9#ref=rss",
-    "https://www.heise.de/news/Bundestags-KI-Eigener-Chatbot-soll-Schatten-KI-im-Parlament-abloesen-11463718.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+    "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/tarifforderungen-ig-metall-100.html",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/ig-metall-fordert-5-prozent-mehr-lohn-in-der-tarifrunde-201255949.html",
+    "https://www.manager-magazin.de/unternehmen/industrie/ig-metall-gewerkschaft-fordert-5-prozent-mehr-lohn-fuer-millionen-beschaeftige-a-942b0fc0-0e59-4b87-a0a0-65c6c1b28a0f#ref=rss"
    ],
-   "punkte": 13,
-   "text": "Die UBS muss ihre ausländischen Tochtergesellschaften mit mehr hartem Kernkapital unterlegen als von der Bank erhofft. Das Schweizer Parlament sprach sich für härtere Vorschriften aus.",
-   "positiv": [],
-   "negativ": []
+   "punkte": 12,
+   "text": "Die IG Metall fordert in der bevorstehenden Tarifrunde eine Lohnsteigerung von fünf Prozent sowie eine tarifliche Gewinnbeteiligung für Unternehmen der Metall‑ und Elektroindustrie. Höhere Lohnkosten belasten die Margen der betroffenen Unternehmen und können die Kursentwicklung von deutschen Industrieaktien nach unten drücken, während die Beschäftigten von höheren Einkommen profitieren.",
+   "positiv": [
+    "Beschäftigte der Metall‑/Elektroindustrie (Löhne)"
+   ],
+   "negativ": [
+    "Deutsche Industrieaktien (Metall‑/Elektrosektor)"
+   ]
   },
   {
-   "id": "5fa02281",
-   "titel": "Geld: Der Millionenerbe, der die Millionen nicht will",
-   "anriss": "Kai Viehof hat den Großteil seines Erbes ausgeschlagen, auch vom Rest will der Enkel des Allkauf-Gründers das meiste weggeben. Über einen Mann, dessen Beruf es ist, sinnvoll Geld loszuwerden.",
+   "id": "87843cb0",
+   "titel": "OECD hebt Konjunkturprognose für deutsche Wirtschaft deutlich an",
+   "anriss": "Die OECD hat ihre Wachstumsprognose für die deutsche Wirtschaft in diesem Jahr deutlich heraufgesetzt. Das Bruttoinlandsprodukt werde um 1,1 Prozent wachsen. Für 2027 steht ebenfalls eine positive Prognose.",
    "region": "dach",
    "quellen": [
-    "Handelsblatt Finanzen",
     "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
     "manager magazin"
    ],
    "anzahl": 3,
    "links": [
-    "https://www.handelsblatt.com/finanzen/steuern-recht/reichtum-der-millionenerbe-der-sein-vermoegen-nicht-will/100204748.html",
-    "https://www.spiegel.de/wirtschaft/wanja-oberhof-deutscher-unternehmer-in-den-usa-auf-kaution-frei-a-cdbd5a73-0e2b-46f2-a754-7fdb40e6a4e4#ref=rss",
-    "https://www.manager-magazin.de/lifestyle/leute/wanja-oberhof-deutscher-start-up-gruender-in-den-usa-auf-kaution-frei-a-e2d073f3-c96d-4224-83e3-ede57126caae#ref=rss"
+    "https://www.tagesschau.de/wirtschaft/konjunktur/deutschland-bip-prognose-oecd-100.html",
+    "https://www.spiegel.de/wirtschaft/unternehmen/konjunktur-in-deutschland-oecd-hebt-prognose-deutlich-auf-plus-1-1-prozent-an-a-c3393451-089f-4b68-8d32-d893dde7fa12#ref=rss",
+    "https://www.manager-magazin.de/politik/deutschland/konjunktur-oecd-erhoeht-wachstumsprognose-fuer-deutschland-a-673dd827-a834-45bd-bc5a-48c214415997#ref=rss"
    ],
-   "punkte": 13,
-   "text": "Kai Viehof hat den Großteil seines Erbes ausgeschlagen, auch vom Rest will der Enkel des Allkauf-Gründers das meiste weggeben. Über einen Mann, dessen Beruf es ist, sinnvoll Geld loszuwerden.",
+   "punkte": 12,
+   "text": "Die OECD hat ihre Wachstumsprognose für die deutsche Wirtschaft in diesem Jahr deutlich heraufgesetzt. Das Bruttoinlandsprodukt werde um 1,1 Prozent wachsen. Für 2027 steht ebenfalls eine positive Prognose.",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "11621d84",
-   "titel": "Fixing the Portobello Police Station Clock",
-   "anriss": "Article URL: https://pointinthecloud.com/2026-04-11-211700.html Comments URL: https://news.ycombinator.com/item?id=49817469 Points: 247 # Comments: 54",
+   "id": "110705fe",
+   "titel": "Anleihemarkt: Ausverkauf am Bondmarkt – zehnjährige US-Anleihe bei 5,1 Prozent",
+   "anriss": "Eine schwache Nachfrage bei der Auktion von US-Staatsanleihen und zunehmende Sorgen um einen strafferen Zinskurs der Fed haben die Renditen auf neue Jahreshöchststände getrieben.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "manager magazin"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/anleihemarkt-ausverkauf-am-bondmarkt-zehnjaehrige-us-anleihe-bei-51-prozent/100256963.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-us-boersen-schliessen-schwaecher-zehnjaehrige-usbonds-auf-ueber-51-prozent/100256895.html",
+    "https://www.manager-magazin.de/finanzen/geldanlage/gold-chinesische-investoren-werden-zum-wichtigsten-treiber-des-goldpreises-a-e8aa243c-01ff-4408-8a73-364c75d4ce01#ref=rss"
+   ],
+   "punkte": 12,
+   "text": "Eine schwache Nachfrage bei der Auktion von US-Staatsanleihen und zunehmende Sorgen um einen strafferen Zinskurs der Fed haben die Renditen auf neue Jahreshöchststände getrieben.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "2599a5fc",
+   "titel": "Immobilien: Enteignung von Wohnungskonzernen: Banken warnen vor Folgen für Investitionen und Finanzierung",
+   "anriss": "Die deutschen Geldhäuser kritisieren die Pläne für eine Vergesellschaftung von Wohnimmobilien. Gerade Banken in Berlin äußern sich skeptisch – sie müssten selbst mit Auswirkungen rechnen.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "SPIEGEL Wirtschaft"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/immobilien-banken-fuerchten-folgen-einer-enteignung-von-wohnungskonzernen/100256695.html",
+    "https://www.handelsblatt.com/finanzen/immobilien/immobilien-wie-gut-eignen-sich-mietwohnungen-fuer-die-altersvorsorge/100180922.html",
+    "https://www.spiegel.de/wirtschaft/service/ferien-immobilie-kaufen-warum-der-traum-schnell-zum-geldgrab-werden-kann-a-a48a18e4-359e-41f4-b266-8f1542af1a01#ref=rss"
+   ],
+   "punkte": 12,
+   "text": "Die deutschen Geldhäuser kritisieren die Pläne für eine Vergesellschaftung von Wohnimmobilien. Gerade Banken in Berlin äußern sich skeptisch – sie müssten selbst mit Auswirkungen rechnen.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "d550aac9",
+   "titel": "Neue VR-Spiele auf der Meta Connect 2026: „Beat Saber“ bekommt Handtracking",
+   "anriss": "Zum Start der neuen VR Glasses kündigt Meta mehrere neue VR-Spiele an. Der ewige VR-Hit „Beat Saber“ soll sein bislang größtes Update erhalten.",
    "region": "global",
    "quellen": [
-    "Hacker News Top"
+    "heise"
    ],
-   "anzahl": 11,
+   "anzahl": 5,
    "links": [
-    "https://pointinthecloud.com/2026-04-11-211700.html",
-    "https://drivingbench.com/",
-    "https://michaelheap.com/i-dont-want-the-details/",
-    "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/",
-    "https://www.nobodywho.ai/posts/jev-in-25-lines/"
+    "https://www.heise.de/news/Neue-VR-Spiele-auf-der-Meta-Connect-2026-Beat-Saber-bekommt-Handtracking-11463780.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "https://www.heise.de/hintergrund/Meta-VR-Glasses-ausprobiert-Was-kann-die-Mikro-VR-Brille-11463880.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "https://www.heise.de/news/Neue-VR-Brille-von-Meta-Ultrakompakt-und-100-Gramm-leicht-11463824.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "https://www.heise.de/news/Connect-2026-Meta-zeigt-neue-Smart-Glasses-Generation-mit-und-ohne-Kamera-11463750.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "https://www.heise.de/news/Smart-Glasses-ohne-Kamera-Start-up-Vonder-will-Datenschutzbedenken-ausraeumen-11463340.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
-   "punkte": 13,
-   "text": "Article URL: https://pointinthecloud.com/2026-04-11-211700.html Comments URL: https://news.ycombinator.com/item?id=49817469 Points: 247 # Comments: 54",
+   "punkte": 12,
+   "text": "Zum Start der neuen VR Glasses kündigt Meta mehrere neue VR-Spiele an. Der ewige VR-Hit „Beat Saber“ soll sein bislang größtes Update erhalten.",
    "positiv": [],
    "negativ": []
   }
  ],
  "ketten": [],
  "gegenthese": {
-  "konsens": "Die Märkte gehen von einer leichten Erholung der deutschen Wirtschaft aus, unterstützt durch die nach oben korrigierte OECD‑Prognose, erwarten moderates Wachstum von 0,7 % 2024, stabile Geldpolitik und begrenzte Zinserhöhungen.",
-  "gegen": "Gegenargument: Der von IG Metall geforderte Lohnsprung von 5 % könnte die Lohn‑Preis‑Spirale entfachen, die Inflation anheben und das Wachstum weiter dämpfen."
+  "konsens": "Marktteilnehmer preisen steigende US‑Zinsen (10‑Jahres‑Yield ≈5,1 %), moderates Wachstum in Deutschland nach OECD‑Aufwertung, aber erhöhte Risikoaversion wegen politischer Unsicherheiten (Trump‑Entscheidung, Ungarn‑Euro, Immobilien‑Enteignungen).",
+  "gegen": "Gegenargument: Eine rasche Inflationsdämpfung oder ein schneller Euro‑Beitritt Ungarns könnte die Zinsentwicklung umkehren und das Risiko‑Sentiment deutlich verbessern."
  },
  "matrix": [
   {
@@ -423,13 +419,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die Mehrheit der Analysten (19 Kauf‑Empfehlungen) bewertet Siemens Energy positiv. Das Unternehmen verzeichnet ein starkes Umsatzwachstum von +18 % und ein moderates KGV von 23,3, was im Branchenvergleich attraktiv erscheint. Das Kursziel von 196 € impliziert weiteres Aufwärtspotenzial.",
-   "dagegen": "Gegen die positive Stimmung spricht das relativ hohe KGV von 23,3, das auf überbewertete Erwartungen hindeuten kann. Fehlende Insider‑Informationen und das Fehlen von Short‑Positionen lassen Unsicherheit über Marktmeinungen entstehen. Zudem gibt es kaum Erwähnung in Newslettern oder Reddit, was die Transparenz reduziert.",
-   "katalysatoren": [
-    "Auslieferung neuer Gasturbinen im Q4 2026",
-    "Abschluss von Großaufträgen im Netztechnologie‑Segment",
-    "Start der Serienproduktion von Siemens‑Gamesa‑Windkraftanlagen mit verbesserter Effizienz"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "RHM.DE": {
    "ticker": "RHM.DE",
@@ -476,12 +468,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Dafür spricht die überwältigende Analystenmeinung (18 Kauf, 3 Halten, kein Verkauf), das außergewöhnliche Umsatzwachstum von +69 % und ein moderates KGV von 19,2, das im Vergleich zur Branche attraktiv erscheint. Die breite Segmentierung (Vehicle Systems, Weapon & Ammunition, Electronic Solutions) bietet stabile Auftragsbasis in mehreren Regionen.",
-   "dagegen": "Dagegen steht die geringe öffentliche Aufmerksamkeit: Reddit erwähnt Rheinmetall kaum, und es gibt keine Insider‑Meldungen oder Short‑Positionen, was auf fehlende Markttransparenz hindeuten kann. Das Unternehmen ist stark von staatlichen Rüstungsetats abhängig; bei Budgetkürzungen oder politischen Änderungen könnte die Auftragslage sinken.",
+   "dafuer": "Rheinmetall profitiert von steigenden Verteidigungsbudgets in Europa und den USA, was die Auftragspipeline für gepanzerte Fahrzeuge und Munition stärkt. Das Umsatzwachstum von 69 % und ein moderates KGV von 19,2 signalisieren solide Bewertung. Analysten sehen 18 Kauf‑Empfehlungen, was das Vertrauen in das Geschäftsmodell widerspiegelt.",
+   "dagegen": "Die Abhängigkeit von staatlichen Rüstungsausgaben macht Rheinmetall anfällig für politische Entscheidungen und Haushaltskürzungen. Das KGV von 19,2 liegt über dem Branchendurchschnitt, was eine teure Bewertung suggeriert. Fehlende Insider‑Signals und das Fehlen von Verkaufs‑Empfehlungen könnten auf eine einseitige Analystenmeinung hindeuten.",
    "katalysatoren": [
-    "Veröffentlichung des nächsten Quartalsberichts (Q3 2026) mit Ergebnis‑ und Ausblickzahlen",
-    "Vergabe neuer Fahrzeug‑ bzw. Panzeraufträge durch die Bundeswehr oder NATO‑Partner",
-    "Fortschritt bei Elektronik‑Solutions, z. B. Abschluss eines EU‑Vertrags für elektronische Verteidigungssysteme"
+    "Abschluss großer Rüstungsaufträge (z. B. Leopard‑2‑Modernisierung) im vierten Quartal 2026",
+    "Veröffentlichung der Q3‑2026‑Ergebnisse, insbesondere im Vehicle‑Systems‑Segment",
+    "Entscheidungen zu EU‑Verteidigungsinitiativen oder US‑Verteidigungsbudget, die Auftragsvolumen beeinflussen"
    ]
   },
   "ASML.AS": {
@@ -514,7 +506,7 @@
     ],
     [
      "Newsletter",
-     "in 1 Clustern"
+     "in 2 Clustern"
     ],
     [
      "Reddit",
@@ -529,12 +521,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "ASML profitiert von seiner Monopolstellung im EUV‑Lithografie‑Markt, starkem Umsatzwachstum von 21 % und einem soliden KGV von 29,3. Die Analysten‑Konsens‑Bewertung von 38 Buy‑Empfehlungen spricht für stabile Nachfrage und langfristige Marktführerschaft.",
-   "dagegen": "Die Bewertung erscheint hoch, das Kursziel von 2045 EUR impliziert ein starkes Aufwärtspotenzial, das bei einer möglichen Abschwächung der Chip‑Nachfrage schwer zu erreichen ist. Fehlende Insider‑Meldungen und das Fehlen von Short‑Positionen lassen Unsicherheiten hinsichtlich Markt‑Sentiments vermuten.",
+   "dafuer": "Die Analysten‑Mehrheit (38 Kauf, 3 Halten, 1 Verkauf) bewertet ASML stark positiv, getrieben von robustem Umsatzwachstum von 21 % und einem KGV von 29,3, das im High‑Tech‑Umfeld noch als attraktiv gilt. Das Kursziel von 2045 € spiegelt langfristige Marktführerschaft im EUV‑Segment wider.",
+   "dagegen": "Gegenargumente ergeben sich aus der geringen Sichtbarkeit auf Plattformen wie Reddit, dem Fehlen von Insider‑Meldungen und der starken Abhängigkeit von wenigen Großkunden, was das Unternehmen anfällig für Nachfragerückgänge im Halbleiterzyklus macht. Zudem birgt die kapitalintensive EUV‑Technologie langfristige Investitions‑ und Technologierisiken.",
    "katalysatoren": [
-    "Auslieferung der nächsten EUV‑Generation (EUV‑50/100) im Q4 2026",
-    "Veröffentlichung des Q3‑2026‑Ergebnisses (Umsatz‑ und Gewinnzahlen)",
-    "Großauftrag von TSMC/Intel für neue EUV‑Systeme"
+    "Auslieferung des nächsten EUV‑Systems (NXE:3400) im Q4 2026",
+    "Großauftrag von TSMC für 2027‑2028",
+    "EU‑Subventionen im Rahmen des Chips‑Act, die Nachfrage nach modernster Lithografie erhöhen"
    ]
   },
   "SU.PA": {
@@ -567,7 +559,7 @@
     ],
     [
      "Newsletter",
-     "in 17 Clustern"
+     "in 19 Clustern"
     ],
     [
      "Reddit",
@@ -594,11 +586,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "253.1 Mrd"
+     "253.5 Mrd"
     ],
     [
      "KGV (erw.)",
-     "37,8"
+     "37,9"
     ],
     [
      "Umsatzwachstum",
@@ -631,13 +623,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Für GE Vernova spricht das robuste Umsatzwachstum von 22 % und die breite geografische Präsenz in fünf Regionen, was das Marktpotenzial erhöht. Die Analysten‑Mehrheit (30 Buy vs. 7 Hold) und das Kursziel von 1 237 USD deuten auf positive Bewertung hin.",
-   "dagegen": "Entgegen stehen das hohe erwartete KGV von 37,8, das die Aktie teuer erscheinen lässt, und die vier Insider‑Verkäufe, die auf mögliche Bedenken im Management hindeuten. Die fehlende Berichterstattung in Newslettern und die geringe Reddit‑Präsenz zeigen ein geringes Interesse seitens der breiten Anlegerbasis.",
-   "katalysatoren": [
-    "Abschluss der neuen Windturbinen‑Produktionslinie",
-    "Gewinnung großer Power‑Plant‑Aufträge in Asien/Europa",
-    "Mögliche strategische Partnerschaft oder Spin‑off, die das Geschäftsmodell neu bewertet"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "CCJ": {
    "ticker": "CCJ",
@@ -647,11 +635,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "39.9 Mrd"
+     "39.5 Mrd"
     ],
     [
      "KGV (erw.)",
-     "49,2"
+     "48,8"
     ],
     [
      "Umsatzwachstum",
@@ -696,7 +684,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "103.8 Mrd"
+     "104.2 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -745,7 +733,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "5.439.5 Mrd"
+     "5.445.4 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -788,69 +776,6 @@
   }
  },
  "shorts": [
-  {
-   "land": "NL",
-   "halter": "Citadel Advisors LLC",
-   "emittent": "TomTom N.V.",
-   "prozent": 0.7,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "Caisse de dépôt et placement du Québec",
-   "emittent": "IMCD N.V.",
-   "prozent": 0.58,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "WorldQuant, LLC",
-   "emittent": "PostNL N.V.",
-   "prozent": 0.52,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "AQR Capital Management, LLC",
-   "emittent": "TomTom N.V.",
-   "prozent": 0.51,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "AQR Capital Management, LLC",
-   "emittent": "BE Semiconductor Industries N.V.",
-   "prozent": 0.5,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "Citadel Securities (Europe) Limited",
-   "emittent": "Signify N.V.",
-   "prozent": 0.5,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "Millennium International Management LP",
-   "emittent": "Koninklijke Philips N.V.",
-   "prozent": 0.49,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
   {
    "land": "UK",
    "halter": "Anavio Capital Partners LLP",
@@ -1057,10 +982,73 @@
    "datum": "2019-06-14",
    "status": "aufgestockt",
    "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 14.49,
+   "datum": "2019-06-13",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 14.29,
+   "datum": "2019-06-12",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 14.08,
+   "datum": "2019-06-11",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 13.82,
+   "datum": "2019-06-10",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "GUEVOURA FUND LTD",
+   "emittent": "HAMMERSON PLC",
+   "prozent": 13.78,
+   "datum": "2020-09-24",
+   "status": "aufgestockt",
+   "zuvor": 0.57
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 13.68,
+   "datum": "2019-06-07",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 13.5,
+   "datum": "2019-06-06",
+   "status": "aufgestockt",
+   "zuvor": 0.53
   }
  ],
  "shorts_kennzahlen": {
-  "neu_diese_woche": 7,
+  "neu_diese_woche": 0,
   "meistgeshortet": {
    "name": "Premier Oil PLC",
    "summe": 2145.63
@@ -1073,14 +1061,6 @@
  },
  "gespraech": [],
  "termine": [
-  {
-   "datum": "2026-09-24",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
   {
    "datum": "2026-09-25",
    "zeit": "",
@@ -1168,8 +1148,16 @@
    "was": "Gross Domestic Product by Industry",
    "konsens": "",
    "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-30",
+   "zeit": "",
+   "region": "us",
+   "was": "Personal Income and Outlays",
+   "konsens": "",
+   "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 189,
+ "meldungen_gesamt": 177,
  "llm_aktiv": false
 }
