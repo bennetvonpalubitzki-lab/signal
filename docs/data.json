@@ -1,9 +1,9 @@
 {
- "stand": "2026-09-24T16:05",
- "lauf": "2026092416",
+ "stand": "2026-09-24T19:04",
+ "lauf": "2026092419",
  "synthese": {
-  "kern": "Alle Meldungen drehen sich um strukturelle Risiken – Markt unterschätzt steigenden Zinsdruck und geopolitische Spannungen.",
-  "erlaeuterung": "Die Geldpolitik, höhere Wachstumsprognosen und KI‑Entwicklungen erzeugen Optimismus, während gleichzeitig steigender Zinsdruck, niedrige Liquidität und geopolitische Unsicherheiten die Fundamentaldaten belasten. Der Markt fokussiert sich auf kurzfristige Gewinnzahlen, vernachlässigt jedoch die langfristigen Risiken aus Inflation, Energiepolitik und Arbeitsmarktforderungen."
+  "kern": "Markt fokussiert Zinsängste und Ölpreis, übersieht wachsende Konjunktur‑ und geopolitische Entspannung.",
+  "erlaeuterung": "Während Zinssorgen und steigende Energiepreise kurzfristig US‑Aktien drücken, deuten höhere Wachstumsprognosen und ein verlängertes US‑China‑Handelsabkommen auf verbesserte Fundamentaldaten hin. Der Markt vernachlässigt zudem die stark rückläufige Liquidität in Europa und die anhaltende Risikoaversion, die potenzielle Volatilität erhöhen könnten."
  },
  "regime": [
   {
@@ -51,8 +51,8 @@
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 75,
-     "delta": -6
+     "wert": 78,
+     "delta": -3
     }
    }
   },
@@ -61,15 +61,15 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 46,
-     "delta": 5
+     "wert": 45,
+     "delta": 0
     },
     "eur": {
      "wert": 0,
      "delta": 0
     }
    },
-   "differenz": 46
+   "differenz": 45
   },
   {
    "name": "geopolitik",
@@ -84,32 +84,52 @@
  ],
  "cluster": [
   {
+   "id": "0eea7b87",
+   "titel": "Wall Street: Zinssorgen und steigender Ölpreis bremsen US-Börsen",
+   "anriss": "Inflationsrisiken, Unsicherheiten bei den Ölpreisen und US-Staatsfinanzen machen der Wall Street zu schaffen. Anleger schauen auf das Treffen von Trump und Xi.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 6,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-zinssorgen-und-steigender-oelpreis-bremsen-us-boersen/100257196.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/anleihen/anleihemarkt-ausverkauf-bei-us-anleihen-erfasst-den-gesamten-bondmarkt/100256963.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-im-minus-infineon-setzt-negativtrend-fort/100257045.html",
+    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/dax-dow-jones-oel-zinsen-100.html",
+    "https://www.manager-magazin.de/finanzen/staatsanleihen-kurse-fallen-und-renditen-steigen-wegen-hoher-oelpreise-und-hoher-verschuldung-a-498cc73e-a38c-45c9-82b4-dfc370202131#ref=rss"
+   ],
+   "punkte": 29,
+   "text": "Inflationsrisiken, Unsicherheiten bei den Ölpreisen und US-Staatsfinanzen machen der Wall Street zu schaffen. Anleger schauen auf das Treffen von Trump und Xi.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
    "id": "6aece7a6",
    "titel": "Geldpolitik: Wechsel zum IWF perfekt: Schnabels Abschied und die Folgen für die EZB",
    "anriss": "Vor drei Wochen berichtete das Handelsblatt exklusiv über Schnabels Wechsel, nun ist er offiziell. Ihr Abgang verschärft den EZB-Personalpoker und könnte Folgen für den Zinskurs haben.",
    "region": "dach",
    "quellen": [
     "ECB Press",
-    "FAZ Wirtschaft",
     "Handelsblatt Finanzen",
     "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
     "manager magazin"
    ],
    "anzahl": 6,
    "links": [
     "https://www.handelsblatt.com/finanzen/geldpolitik/ezb-isabel-schnabel-wechselt-vorzeitig-zum-iwf/100257204.html",
     "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260924~bea1dd9824.en.html",
-    "https://www.spiegel.de/wirtschaft/isabel-schnabel-ezb-direktorin-tritt-vorzeitig-zurueck-und-wechselt-zum-iwf-a-d7dfee01-e432-4fa9-8800-a6dce7456157#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/ezb-direktorin-schnabel-wechselt-zum-iwf-201259762.html",
+    "https://www.tagesschau.de/wirtschaft/weltwirtschaft/iwf-schnabel-ezb-100.html",
+    "https://www.spiegel.de/wirtschaft/isabel-schnabel-ezb-direktorin-tritt-vorzeitig-ab-und-wechselt-zum-iwf-a-d7dfee01-e432-4fa9-8800-a6dce7456157#ref=rss",
     "https://www.manager-magazin.de/ueber-uns/das-debakel-von-smart-und-mini-isabel-schnabels-wechsel-und-broses-suche-nach-einem-neuen-geschaeftsmodell-a-19b18aac-0bfc-4f01-af37-8b6008a6f9de#ref=rss"
    ],
    "punkte": 24,
-   "text": "Der ehemalige EZB-Chefvolkswirt Jens Schnabel hat seinen Wechsel zum Internationalen Währungsfonds (IWF) offiziell bestätigt. Sein Weggang verschärft die Personaldebatte bei der EZB und könnte die Erwartungen an die künftige Zinsentwicklung in der Eurozone beeinflussen.",
+   "text": "Vor drei Wochen berichtete das Handelsblatt exklusiv über Schnabels Wechsel, nun ist er offiziell. Ihr Abgang verschärft den EZB-Personalpoker und könnte Folgen für den Zinskurs haben.",
    "positiv": [],
-   "negativ": [
-    "Euro‑Zone‑Staatsanleihen (Zinsrisiko)",
-    "Euro (Währungsrisiko)"
-   ]
+   "negativ": []
   },
   {
    "id": "4c48f1b9",
@@ -131,42 +151,9 @@
     "https://www.faz.net/aktuell/wirtschaft/deutschland-im-aufschwung-201259122.html"
    ],
    "punkte": 20,
-   "text": "Forschungsinstitute gehen in ihrer Herbstprognose von einem deutschen Wirtschaftswachstum von 1,3 % im Jahr 2026 aus, deutlich über den bisherigen Schätzungen. Gleichzeitig bleibt der Arbeitsmarkt rückläufig, was das Beschäftigungswachstum belastet.",
-   "positiv": [
-    "Deutsche Aktien (Erwartetes Wachstum)"
-   ],
-   "negativ": [
-    "Arbeitsmarkt (Beschäftigung)",
-    "Konsumgüter (Nachfrage)"
-   ]
-  },
-  {
-   "id": "b5462b2e",
-   "titel": "Immobilien: Das Ende der Mail an den Facility-Manager? Wie KI das Management von Gebäuden revolutioniert",
-   "anriss": "Immobilienbesitzer, Verwalter und Gebäudebetreiber sollen im Idealfall eine Einheit bilden, finden aber wegen unterschiedlicher Daten schwer zusammen. Der Einsatz von KI soll das ändern.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "Handelsblatt Finanzen",
-    "Tagesschau Wirtschaft"
-   ],
-   "anzahl": 5,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/immobilien/immobilien-wie-ki-das-management-von-gebaeuden-revolutioniert/100256631.html",
-    "https://www.handelsblatt.com/finanzen/immobilien/baubranche-immobilienpreise-in-deutschland-steigen-immer-langsamer/100257091.html",
-    "https://www.handelsblatt.com/finanzen/immobilien/immobilien-grundschuld-loeschen-wann-sich-eigentuemer-das-sparen-koennen/100252489.html",
-    "https://www.tagesschau.de/wirtschaft/konjunktur/immobilienpreise-haeuser-wohnungen-100.html",
-    "https://www.faz.net/aktuell/wirtschaft/immobilien-wohnen/bauen-kaufen/frauenanteil-in-immobilien-chefetagen-sinkt-201255223.html"
-   ],
-   "punkte": 19,
-   "text": "Künstliche Intelligenz soll die Datenintegration zwischen Eigentümern, Verwaltern und Facility‑Managern von Immobilien verbessern und damit das Gebäudemanagement effizienter machen. Die Technologie könnte die Fragmentierung des Sektors reduzieren und neue Geschäftsmodelle für PropTech‑Anbieter ermöglichen.",
-   "positiv": [
-    "Immobilien‑PropTech‑Unternehmen",
-    "Immobilien‑REITs (Effizienzgewinne)"
-   ],
-   "negativ": [
-    "Traditionelle Facility‑Management‑Dienstleister"
-   ]
+   "text": "Die deutsche Wirtschaft könnte 2026 viel stärker wachsen als im Frühjahr angenommen. Führende Forschungsinstitute gehen in ihrer Herbstprognose von 1,3 Prozent aus. Dennoch schrumpft der Arbeitsmarkt.",
+   "positiv": [],
+   "negativ": []
   },
   {
    "id": "cafd5597",
@@ -186,12 +173,9 @@
     "https://www.manager-magazin.de/unternehmen/tech/openai-ki-agent-hackt-australisches-gesundheitsportal-scharfe-kritik-an-altman-a-57d61da1-7b09-4793-8763-50aff15442f7#ref=rss"
    ],
    "punkte": 18,
-   "text": "Die CEOs von OpenAI und Anthropic haben vor dem UN‑Sicherheitsrat vor den Risiken ihrer KI‑Systeme gewarnt und mehr regulatorische Kontrolle gefordert. Die öffentliche Debatte könnte zu strengeren Auflagen für KI‑Entwickler und -Anwender führen.",
+   "text": "Die Chefs der größten US-amerikanischen KI-Firmen OpenAI und Anthropic, Altman und Amodei, warnen weiter vor ihrer eigenen Technologie. Vor dem UN-Sicherheitsrat boten beide an, an stärkerer Regulierung mitzuwirken. Von ",
    "positiv": [],
-   "negativ": [
-    "KI‑Aktien (Regulierungsrisiko)",
-    "AI‑ETFs (Regulierungsdruck)"
-   ]
+   "negativ": []
   },
   {
    "id": "0be1b189",
@@ -209,26 +193,6 @@
    ],
    "punkte": 17,
    "text": "Die KI-Euphorie und die globalen Konflikte sind die dominierenden Themen an den asiatischen Börsen. Die japanische Börse tendiert fester, in China geben die Märkte nach.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "8005dc17",
-   "titel": "Dax aktuell: Dax schließt im Minus – Aktie eines Chipkonzerns setzt Negativtrend fort",
-   "anriss": "Hohe Ölpreise, steigende Anleiherenditen und geopolitische Unsicherheit haben die Märkte am Donnerstag gebremst. Ein starker Ifo-Geschäftsklimaindex konnte die Anleger nicht überzeugen.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-im-minus-infineon-setzt-negativtrend-fort/100257045.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/anleihen/anleihemarkt-ausverkauf-bei-us-anleihen-erfasst-den-gesamten-bondmarkt/100256963.html",
-    "https://www.manager-magazin.de/finanzen/staatsanleihen-kurse-fallen-und-renditen-steigen-wegen-hoher-oelpreise-und-hoher-verschuldung-a-498cc73e-a38c-45c9-82b4-dfc370202131#ref=rss"
-   ],
-   "punkte": 16,
-   "text": "Hohe Ölpreise, steigende Anleiherenditen und geopolitische Unsicherheit haben die Märkte am Donnerstag gebremst. Ein starker Ifo-Geschäftsklimaindex konnte die Anleger nicht überzeugen.",
    "positiv": [],
    "negativ": []
   },
@@ -255,31 +219,52 @@
    "negativ": []
   },
   {
-   "id": "b37976af",
-   "titel": "Energie: Experten warnen vor „verheerenden Folgen“ eines Exportverbots für Diesel in den USA",
-   "anriss": "Die Dieselpreise in den USA steigen stark, gleichzeitig wachsen auch die Exporte. Forderungen nach einem Ausfuhrverbot werden daher lauter. Das würde vor allem Europa treffen.",
+   "id": "b4b7f30c",
+   "titel": "Baubranche: Immobilienpreise in Deutschland steigen immer langsamer",
+   "anriss": "Der Preisauftrieb bei Häusern und Wohnungen fällt so schwach aus wie seit über einem Jahr nicht mehr. Warum Eigentumswohnungen in den Metropolen sogar günstiger werden – und wo es anders läuft.",
    "region": "dach",
    "quellen": [
     "Handelsblatt Finanzen",
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft"
+    "Tagesschau Wirtschaft",
+    "manager magazin"
    ],
    "anzahl": 3,
    "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/diesel-warnung-vor-verheerenden-folgen-eines-exportverbots-in-den-usa/100257076.html",
-    "https://www.tagesschau.de/wirtschaft/weltwirtschaft/usa-diskussion-exportstopp-diesel-100.html",
-    "https://www.spiegel.de/wirtschaft/donald-trump-moeglicher-us-exportstopp-fuer-diesel-koennte-sprit-in-deutschland-verteuern-a-1072a668-caf8-4bee-808e-c56cdcd3ecd1#ref=rss"
+    "https://www.handelsblatt.com/finanzen/immobilien/baubranche-immobilienpreise-in-deutschland-steigen-immer-langsamer/100257091.html",
+    "https://www.tagesschau.de/wirtschaft/konjunktur/immobilienpreise-haeuser-wohnungen-100.html",
+    "https://www.manager-magazin.de/finanzen/geldanlage/immobilienpreise-steigen-langsamer-wohnungsmangel-bleibt-a-3ad33069-f1b0-4d09-b444-6a8835618b64#ref=rss"
    ],
    "punkte": 13,
-   "text": "Die Dieselpreise in den USA steigen stark, gleichzeitig wachsen auch die Exporte. Forderungen nach einem Ausfuhrverbot werden daher lauter. Das würde vor allem Europa treffen.",
+   "text": "Der Preisauftrieb bei Häusern und Wohnungen fällt so schwach aus wie seit über einem Jahr nicht mehr. Warum Eigentumswohnungen in den Metropolen sogar günstiger werden – und wo es anders läuft.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "16e389b3",
+   "titel": "USA und China verlängern Waffenstillstand im Zollkrieg bei Staatsbesuch",
+   "anriss": "Seit mehr als einem Jahr bedrohen sich die USA und China gegenseitig mit hohen Zöllen. Jetzt soll der Handelskrieg abermals ein paar Monate ausgesetzt werden.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.spiegel.de/wirtschaft/usa-und-china-verlaengern-waffenstillstand-im-zollkrieg-bei-staatsbesuch-a-607298b8-c373-42dc-8888-79456db8eba0#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/donald-trump-trifft-xi-jinping-ki-ist-keine-atomwaffe-201248327.html",
+    "https://www.manager-magazin.de/politik/weltwirtschaft/zollstreit-usa-und-china-verlaengern-waffenstillstand-im-handelskrieg-a-6221d825-42f3-43e0-93bc-6042a4e716d9#ref=rss"
+   ],
+   "punkte": 12,
+   "text": "Seit mehr als einem Jahr bedrohen sich die USA und China gegenseitig mit hohen Zöllen. Jetzt soll der Handelskrieg abermals ein paar Monate ausgesetzt werden.",
    "positiv": [],
    "negativ": []
   }
  ],
  "ketten": [],
  "gegenthese": {
-  "konsens": "Die Märkte gehen von stärkerem Wirtschaftswachstum und anhaltender restriktiver Geldpolitik aus; KI wird das Immobilien‑Management verändern, während geopolitische Risiken und Energie‑Exportverbote die Volatilität erhöhen.",
-  "gegen": "Gegenargument: Die Wachstumsprognosen beruhen auf dünnen Daten; anhaltende Inflation, Lieferketten‑Störungen und mögliche regulatorische Eingriffe bei KI könnten das Wachstum stark dämpfen."
+  "konsens": "Die Märkte erwarten anhaltend hohe Zinsen, steigende Ölpreise und Inflationsdruck, was US‑Aktien und China belastet; das Wachstum wird leicht nach oben rejustiert, die Geldpolitik bleibt jedoch restriktiv.",
+  "gegen": "Ein stärkeres Wachstum und sinkende Inflation könnten die Zinsprognosen nach unten korrigieren und das Risiko‑Appetit‑Umfeld verbessern, wodurch die aktuelle Risikoaversion übertrieben wäre."
  },
  "matrix": [
   {
@@ -433,12 +418,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die Analystenmehrheit (19 Kauf, 4 Halten, 2 Verkauf) spricht für Siemens Energy. Das erwartete Umsatzwachstum von 18 % und ein moderates KGV von 22,9 deuten auf solide Bewertung hin. Das Kursziel von 196 € liegt über dem aktuellen Kurs, was Aufwärtspotenzial suggeriert.",
-   "dagegen": "Gegen Siemens Energy spricht die unklare Marktposition im Wind‑ und Gasbereich sowie die hohe Marktkapitalisierung von 120,9 Mrd. €, die wenig Spielraum für Kursgewinne lässt. Fehlende Insider‑Informationen und das Fehlen von Short‑Positionen erschweren die Bewertung. Zudem ist das Kursziel spekulativ, da keine konkreten Wachstumszahlen vorliegen.",
+   "dafuer": "Dafür spricht das starke Umsatzwachstum von 18 % und ein moderates KGV von 22,9, das im Branchenvergleich attraktiv ist. Die Mehrheit der Analysten (19 Buy) signalisiert Vertrauen. Das breit diversifizierte Portfolio – Gas‑ und Dampfturbinen, Grid‑Technologien und Siemens Gamesa – bietet mehrere Wachstumstreiber.",
+   "dagegen": "Entgegen steht das relativ hohe KGV von 22,9, das bei erwarteten sinkenden Energiepreisen überbewertet wirken kann. Das Unternehmen ist stark von der Gas‑ und Kohle‑Nachfrage abhängig, was regulatorische Risiken birgt. Zudem gibt es Unsicherheiten bei der Integration von Siemens Gamesa und Lieferkettenengpässen.",
    "katalysatoren": [
-    "Abschluss der Integration von Siemens Gamesa und damit verbundene Kostensynergien",
-    "Markteinführung neuer Hochtemperatur‑Gasturbinen für industrielle Anwendungen",
-    "Veröffentlichung der Quartalszahlen Q3 2024 mit Fokus auf Umsatzwachstum und Margenentwicklung"
+    "Q3‑Ergebnis mit aktualisierter Umsatz‑ und Gewinnprognose",
+    "Zusage für bedeutende Offshore‑Wind‑Aufträge bei Siemens Gamesa",
+    "Vertrag über neue Gasturbinenlieferungen in Europa"
    ]
   },
   "RHM.DE": {
@@ -486,12 +471,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Starker Analystenkonsens (18 Buy, 3 Hold) signalisiert Vertrauen. Das Unternehmen verzeichnet ein Umsatzwachstum von +69 % und deckt mit Vehicle Systems, Weapon & Ammunition sowie Electronic Solutions mehrere Verteidigungssegmente ab. Internationale Präsenz reduziert länderspezifische Risiken. Das erwartete KGV von 18,5 liegt im Branchen‑Durchschnitt, was die Bewertung moderat erscheinen lässt.",
-   "dagegen": "Die Faktenlage ist dünn: Es gibt kaum öffentliche Diskussionen (Reddit kaum erwähnt) und keine Insider‑Meldungen. Rheinmetall ist stark von staatlichen Rüstungsaufträgen abhängig, wodurch konjunkturelle und geopolitische Risiken die Einnahmen stark beeinflussen können. Ein KGV von 18,5 könnte bei rückläufigen Militärausgaben bereits überbewertet sein.",
+   "dafuer": "Rheinmetall verzeichnet ein starkes Umsatzwachstum von +69 % und operiert in drei stabilen Segmenten (Vehicle Systems, Weapon & Ammunition, Electronic Solutions). Das durchschnittliche KGV von 18,5 liegt im Branchenvergleich moderat, und 18 Analysten empfehlen Kauf, was das Marktvertrauen unterstreicht.",
+   "dagegen": "Die Bewertung erscheint angesichts des Kursziels von 1 641 EUR relativ hoch; ein Rückgang der Rüstungsausgaben oder Lieferverzögerungen könnten das Ergebnis belasten. Die geringe Medienpräsenz (kaum Reddit‑Erwähnungen, keine Insider‑Meldungen) erhöht das Informationsrisiko, und das Fehlen von Short‑Positionen lässt die Marktliquidität zweifeln.",
    "katalysatoren": [
-    "Vertragserteilung für neue Bundeswehr‑Rüstungssysteme im ersten Halbjahr 2026",
-    "Markteinführung einer elektrifizierten Panzerplattform im Q4 2026",
-    "Veröffentlichung des Q3‑2026‑Ergebnisberichts"
+    "Q3‑2024 Quartalsbericht mit aktualisiertem Umsatz‑ und Gewinnwachstum",
+    "Bekanntgabe neuer Großaufträge für gepanzerte Fahrzeuge (z. B. Bundeswehr‑Vertrag)",
+    "Fortschritt bei Elektronik‑Lösungen, insbesondere Radar‑ und Cyber‑Systeme"
    ]
   },
   "ASML.AS": {
@@ -539,13 +524,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "ASML dominiert den EUV-Markt, hat kaum direkte Konkurrenz und profitiert von steigender Nachfrage nach fortschrittlichen Halbleitern. Das Umsatzwachstum von 21 % und ein KGV von 29,1 spiegeln solide Ertragskraft wider. Analysten‑Consensus (38 Buy, 3 Hold, 1 Sell) spricht für starkes Vertrauen.",
-   "dagegen": "Das aktuelle KGV von 29,1 ist im Vergleich zu historischen Werten hoch, was die Bewertung belastet. Eine Abschwächung der Chipnachfrage oder Lieferkettenprobleme könnten das Wachstum bremsen. Der einzelne Verkaufs‑Rating zeigt, dass nicht alle Analysten die Nachhaltigkeit des Aufschwungs teilen.",
-   "katalysatoren": [
-    "Markteinführung des High‑NA EUV‑Systems (geplant für 2025)",
-    "Quartalsbericht Q4 2025 mit erwarteter Umsatzsteigerung",
-    "Großaufträge von TSMC und Samsung für 3‑nm/2‑nm Fertigungsprozesse"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "SU.PA": {
    "ticker": "SU.PA",
@@ -577,7 +558,7 @@
     ],
     [
      "Newsletter",
-     "in 27 Clustern"
+     "in 29 Clustern"
     ],
     [
      "Reddit",
@@ -604,11 +585,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "251.5 Mrd"
+     "254.3 Mrd"
     ],
     [
      "KGV (erw.)",
-     "37,6"
+     "38,0"
     ],
     [
      "Umsatzwachstum",
@@ -641,13 +622,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Analysten bewerten GE Vernova mit 30 Kauf‑ und 7 Halte‑Empfehlungen, was auf ein positives Stimmungsbild hindeutet. Das Unternehmen verzeichnet ein Umsatzwachstum von +22 % und operiert in den Bereichen Power, Wind und Electrification, was Diversifikation und Zugang zu wachsenden Energiemärkten bietet. Das Kursziel von 1 237 USD liegt über dem aktuellen Kurs.",
-   "dagegen": "Ein forward P/E von 37,6 deutet auf eine teure Bewertung hin, insbesondere bei unsicheren Margen im Energiesektor. Insider‑Verkäufe (0 Käufe, 4 Verkäufe) können auf Bedenken im Management hindeuten. Die geringe Berichterstattung in Newslettern und Reddit lässt die Informationsbasis dünn.",
-   "katalysatoren": [
-    "Q3‑2024 Ergebnisveröffentlichung",
-    "Abschluss großer Wind‑Projektverträge in Europa",
-    "Mögliche regulatorische Förderungen für Speichertechnologien in den USA"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "CCJ": {
    "ticker": "CCJ",
@@ -657,11 +634,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "38.7 Mrd"
+     "38.4 Mrd"
     ],
     [
      "KGV (erw.)",
-     "47,7"
+     "47,5"
     ],
     [
      "Umsatzwachstum",
@@ -706,11 +683,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "102.9 Mrd"
+     "103.4 Mrd"
     ],
     [
      "KGV (erw.)",
-     "17,3"
+     "17,4"
     ],
     [
      "Umsatzwachstum",
@@ -755,11 +732,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "5.368.4 Mrd"
+     "5.408.9 Mrd"
     ],
     [
      "KGV (erw.)",
-     "14,2"
+     "14,3"
     ],
     [
      "Umsatzwachstum",
@@ -1085,14 +1062,6 @@
  "termine": [
   {
    "datum": "2026-09-25",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-25",
    "zeit": "10:00",
    "region": "dach",
    "was": "ifo-Geschaeftsklima",
@@ -1100,86 +1069,14 @@
    "wucht": "mittel"
   },
   {
-   "datum": "2026-09-26",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-27",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-28",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-29",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-29",
-   "zeit": "",
-   "region": "us",
-   "was": "Job Openings and Labor Turnover Survey",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-30",
-   "zeit": "",
-   "region": "us",
-   "was": "Debt to Gross Domestic Product Ratios",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-30",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-30",
-   "zeit": "",
-   "region": "us",
-   "was": "Gross Domestic Product",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-30",
-   "zeit": "",
-   "region": "us",
-   "was": "Gross Domestic Product by Industry",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-09-30",
-   "zeit": "",
-   "region": "us",
-   "was": "Personal Income and Outlays",
-   "konsens": "",
+   "datum": "2026-10-05",
+   "zeit": "13:00",
+   "region": "global",
+   "was": "OPEC+ Ministertreffen",
+   "konsens": "offen",
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 203,
+ "meldungen_gesamt": 196,
  "llm_aktiv": false
 }
