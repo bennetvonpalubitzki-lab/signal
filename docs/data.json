@@ -1,9 +1,9 @@
 {
- "stand": "2026-09-28T14:39",
- "lauf": "2026092814",
+ "stand": "2026-09-28T21:27",
+ "lauf": "2026092821",
  "synthese": {
-  "kern": "KI‑ und Rüstungsboom treibt Tech‑Bewertungen, während Markt die breitere Risiko‑ und Liquiditätsverschlechterung ignoriert.",
-  "erlaeuterung": "Die Meldungen heben explosive Investitionen in KI‑Start‑ups und Rüstung hervor, während BioNTech‑Schließungen und der türkische Börsenskandal strukturelle Schwächen offenbaren. Trotz steigender Nvidia‑Kurse vernachlässigt der Markt die rückläufigen Regimewerte für Risikoappetit und Liquidität, was künftige Volatilität erhöhen könnte."
+  "kern": "Der Markt fokussiert KI‑ und Rüstungsboom, übersieht jedoch sinkende Liquidität und abnehmenden Risikoappetit.",
+  "erlaeuterung": "Trotz starkem Interesse an Technologie‑ und Verteidigungsunternehmen drücken die Regimewerte für Liquidität (US 41) und Risikoappetit (global 62, Rückgang 23 Punkte) die Marktstimmung. Diese strukturellen Schwächen könnten die jüngsten Kursgewinne, insbesondere bei Nvidia und US‑Aktien, kurzfristig dämpfen."
  },
  "regime": [
   {
@@ -11,7 +11,7 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 79,
+     "wert": 80,
      "delta": -2
     },
     "eur": {
@@ -19,7 +19,7 @@
      "delta": -3
     }
    },
-   "differenz": 12
+   "differenz": 11
   },
   {
    "name": "wachstum",
@@ -36,23 +36,23 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 69,
-     "delta": 7
+     "wert": 68,
+     "delta": 6
     },
     "eur": {
      "wert": 80,
      "delta": -1
     }
    },
-   "differenz": 11
+   "differenz": 12
   },
   {
    "name": "risikoappetit",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 64,
-     "delta": -21
+     "wert": 62,
+     "delta": -23
     }
    }
   },
@@ -61,7 +61,7 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 42,
+     "wert": 41,
      "delta": -4
     },
     "eur": {
@@ -69,15 +69,15 @@
      "delta": 0
     }
    },
-   "differenz": 42
+   "differenz": 41
   },
   {
    "name": "geopolitik",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 86,
-     "delta": -3
+     "wert": 85,
+     "delta": -4
     }
    }
   }
@@ -92,7 +92,6 @@
     "FAZ Wirtschaft",
     "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft",
-    "heise",
     "manager magazin"
    ],
    "anzahl": 5,
@@ -100,70 +99,43 @@
     "https://www.tagesschau.de/wirtschaft/unternehmen/startup-boom-gruendungen-ruestung-ki-100.html",
     "https://www.spiegel.de/wirtschaft/start-ups-in-deutschland-ki-und-ruestungsboom-treibt-zahl-der-unicorns-a-6ce42514-3787-4312-a450-6096e9bba4c1#ref=rss",
     "https://www.faz.net/aktuell/wirtschaft/unternehmen/deutsche-start-ups-brechen-einhorn-rekord-mit-39-milliardenfirmen-accg-201268018.html",
-    "https://www.manager-magazin.de/unternehmen/tech/start-ups-in-deutschland-ki-und-ruestungsboom-treibt-zahl-der-unicorns-a-7e3ebc53-1a81-4e35-875c-315c91e7f270#ref=rss",
-    "https://www.heise.de/news/KI-Boom-und-Ruestung-bringen-Rekord-bei-Milliarden-Start-ups-11467566.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+    "https://www.manager-magazin.de/ueber-uns/dieses-team-soll-bmw-aus-der-krise-fuehren-vw-startet-drei-neue-joint-ventures-a-63b79ab0-b20c-42fd-b7af-204a50c1d2c4#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/tech/start-ups-in-deutschland-ki-und-ruestungsboom-treibt-zahl-der-unicorns-a-7e3ebc53-1a81-4e35-875c-315c91e7f270#ref=rss"
    ],
-   "punkte": 20,
-   "text": "Der KI‑ und Rüstungsboom führt zu einem Rekord an deutschen Milliarden‑Start‑ups. Unternehmen wie Trade Republic, N26, Osapiens und Stark Defense profitieren davon.",
+   "punkte": 18,
+   "text": "Der KI‑Boom und die Aufrüstung führen in Deutschland zu einer Rekordzahl von Milliarden‑Start‑ups, zu denen Unternehmen wie Trade Republic, N26, Osapiens und Stark Defense zählen. Die Entwicklung stärkt das Technologie‑ und Rüstungssegment, während das allgemeine Risiko von Überbewertungen nicht thematisiert wird.",
    "positiv": [
-    "Fintech (Trade Republic, N26)",
-    "Künstliche Intelligenz/Software (Osapiens)",
-    "Rüstungsindustrie (Stark Defense)"
+    "Technologiesektor (KI) ↑",
+    "Rüstungssektor ↑",
+    "Venture‑Capital‑Aktivität ↑"
    ],
    "negativ": []
   },
   {
-   "id": "5ffc59ac",
-   "titel": "Drei deutsche BioNTech-Werke müssen schließen",
-   "anriss": "Drei deutsche Produktionsstandorte des Pharmaunternehmens BioNTech werden geschlossen. In den Werken in Marburg, Idar-Oberstein und Tübingen sind derzeit rund 1.800 Mitarbeiter beschäftigt.",
+   "id": "90f1145f",
+   "titel": "Northern Star: Goldproduzent weist milliardenschweres Übernahmeangebot zurück",
+   "anriss": "Konkurrent Gold Fields will den australischen Goldkonzern für umgerechnet rund 24 Milliarden Euro übernehmen. Doch aus Sicht von Northern Star reicht dieses Angebot nicht.",
    "region": "dach",
    "quellen": [
-    "FAZ Wirtschaft",
+    "Handelsblatt Finanzen",
     "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
     "manager magazin"
    ],
    "anzahl": 4,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/unternehmen/biontech-standorte-schliessung-100.html",
-    "https://www.spiegel.de/wirtschaft/biontech-macht-drei-standorte-in-deutschland-dicht-a-05ac2a9c-0845-4034-bc8b-f5057051f562#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-drei-deutsche-biontech-standorte-werden-geschlossen-faz-200452404.html",
-    "https://www.manager-magazin.de/unternehmen/biontech-schliesst-drei-deutsche-werke-in-marburg-tuebingen-und-idar-oberstein-a-c7d6de9b-6a0c-4d03-ac0c-e67c38cd0019#ref=rss"
-   ],
-   "punkte": 16,
-   "text": "BioNTech schließt drei deutsche Produktionsstandorte in Marburg, Idar‑Oberstein und Tübingen. Damit gehen rund 1.800 Arbeitsplätze verloren.",
-   "positiv": [],
-   "negativ": [
-    "BioNTech",
-    "Pharma‑Produktionssektor",
-    "regionaler Arbeitsmarkt"
-   ]
-  },
-  {
-   "id": "cc6204eb",
-   "titel": "Dow Jones, S&P 500, Nasdaq: Wall Street startet im Minus – Nvidia-Aktie legt zu",
-   "anriss": "Steigende Ölpreise sowie steigende Renditen von US-Staatsanleihen belasten weiterhin die Stimmung an der Wall Street. Anleger warten auf einige Termine im Laufe der Handelswoche.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "Tagesschau Wirtschaft"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-wall-street-startet-im-minus-nvidia-aktie-legt-zu/100257988.html",
-    "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/dax-anleger-bleiben-optimistisch-warum-das-keinen-kursanstieg-garantiert/100257471.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-yen-hang-seng-asienboersen-schliessen-im-minus-steigende-oelpreise-lasten-auf-der-stimmung/100257807.html",
-    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-geldanlage-162.html"
+    "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/northern-star-goldproduzent-weist-milliardenschweres-uebernahmeangebot-zurueck/100257818.html",
+    "https://www.spiegel.de/wirtschaft/unternehmen/evonik-schlaegt-basf-uebernahmeangebot-aus-a-66aedbfa-6b81-472b-80a1-63cb73348f85#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/industrie/evonik-weist-erstes-uebernahmeangebot-als-zu-niedrig-ab-a-0376472f-3014-49a0-925b-dd4b47c85e13#ref=rss",
+    "https://www.manager-magazin.de/finanzen/boerse/boerse-dax-hoeher-erwartet-a-52d86055-8235-4b45-94c6-167538066357#ref=rss"
    ],
    "punkte": 15,
-   "text": "Die US‑Börsen Dow Jones, S&P 500 und Nasdaq starten im Minus, belastet durch steigende Ölpreise und höhere Renditen von US‑Staatsanleihen. Die Nvidia‑Aktie legt dagegen zu.",
+   "text": "Northern Star weist das Übernahmeangebot von Gold Fields in Höhe von rund 24 Mrd. € ab, weil es das Angebot für zu niedrig hält. Die Ablehnung kann den Aktienkurs von Northern Star unterstützen, während Gold Fields die Chance auf eine Expansion verpasst.",
    "positiv": [
-    "Nvidia‑Aktie"
+    "Northern Star Aktie ↑"
    ],
    "negativ": [
-    "US‑Aktienindizes (Dow Jones, S&P 500, Nasdaq)",
-    "Ölpreis",
-    "US‑Staatsanleihen‑Renditen"
+    "Gold Fields Aktie ↓",
+    "Gold‑Branche (M&A‑Aktivität) ↓"
    ]
   },
   {
@@ -181,58 +153,85 @@
     "https://www.tagesschau.de/wirtschaft/verbraucher/lebensmittelpreise-weizen-mais-zucker-inflation-100.html"
    ],
    "punkte": 13,
-   "text": "Weltweite Konflikte und volatile Rohstoffmärkte setzen den deutschen Leitindex DAX unter Druck. Anleger richten ihr Augenmerk auf aktuelle Konjunkturzahlen und die Anleihemärkte.",
-   "positiv": [],
+   "text": "Weltweite Konflikte und volatile Rohstoffmärkte belasten den deutschen Leitindex DAX zu Beginn der Woche. Anleger richten ihr Augenmerk auf aktuelle Konjunkturdaten und die Anleihemärkte, die als sicherer Hafen anziehen könnten.",
+   "positiv": [
+    "Anleihenmarkt ↑"
+   ],
    "negativ": [
-    "Deutscher Leitindex DAX",
-    "Deutsche Aktien"
+    "DAX ↓",
+    "Rohstoffmärkte ↑ Volatilität"
    ]
   },
   {
-   "id": "90f1145f",
-   "titel": "Northern Star: Goldproduzent weist milliardenschweres Übernahmeangebot zurück",
-   "anriss": "Konkurrent Gold Fields will den australischen Goldkonzern für umgerechnet rund 24 Milliarden Euro übernehmen. Doch aus Sicht von Northern Star reicht dieses Angebot nicht.",
+   "id": "6c5d4f6d",
+   "titel": "Russland stellt Metros Vermögenswerte unter Zwangsverwaltung",
+   "anriss": "Die Metro AG hat nach Beginn des Ukraine-Kriegs sein Geschäft in Russland weitergeführt. Jetzt hat der russische Präsident Putin diesen Teil des Handelskonzerns unter Zwangsverwaltung gestellt. Zuvor war es schon anderen Unternehmen so ergangen.",
    "region": "dach",
    "quellen": [
-    "Handelsblatt Finanzen",
     "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
     "manager magazin"
    ],
    "anzahl": 3,
    "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/northern-star-goldproduzent-weist-milliardenschweres-uebernahmeangebot-zurueck/100257818.html",
-    "https://www.spiegel.de/wirtschaft/unternehmen/235-milliarden-dollar-nvidia-plant-rekord-aktienrueckkauf-a-b18bc065-bbdc-4fe8-a647-8da8f69f2f19#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/tech/nvidia-investiert-weitere-150-milliarden-dollar-fuer-aktienrueckkaeufe-a-25d7cde8-aa91-4aeb-9a1f-4c3ed325a912#ref=rss"
-   ],
-   "punkte": 13,
-   "text": "Konkurrent Gold Fields will den australischen Goldkonzern für umgerechnet rund 24 Milliarden Euro übernehmen. Doch aus Sicht von Northern Star reicht dieses Angebot nicht.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "adf2ea20",
-   "titel": "Märkte: Die Türkei wird vom größten Börsenskandal ihrer Geschichte erschüttert",
-   "anriss": "Die Börsenmanipulation zieht immer weitere Kreise: Jetzt gerät die Vizechefin der Regierungspartei AKP unter Verdacht, sich bereichert zu haben. Auch die Realwirtschaft könnte leiden.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/boerse-inside/bist-100-tuerkei-wird-vom-groessten-boersenskandal-ihrer-geschichte-erschuettert/100257830.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/boerse-inside/kapitalmarkt-mehrere-festnahmen-nach-manipulationsskandal-in-der-tuerkei/100257716.html",
-    "https://www.manager-magazin.de/finanzen/geldanlage/tuerkei-manipulationsskandal-am-aktienmarkt-a-0fc7b313-0aab-49fc-ad3e-6f335930320b#ref=rss"
+    "https://www.tagesschau.de/wirtschaft/unternehmen/russland-metro-vermoegenswerte-100.html",
+    "https://www.spiegel.de/wirtschaft/unternehmen/russland-stellt-deutschen-grosshaendler-metro-unter-zwangsverwaltung-a-f7cd037d-243c-4c78-83f6-d8d196bb280d#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/metro-in-russland-regierung-stellt-vermoegenswerte-unter-zwangsverwaltung-a-5b388bcf-a615-42fc-bfe2-f082bf3872fd#ref=rss"
    ],
    "punkte": 12,
-   "text": "Die Börsenmanipulation zieht immer weitere Kreise: Jetzt gerät die Vizechefin der Regierungspartei AKP unter Verdacht, sich bereichert zu haben. Auch die Realwirtschaft könnte leiden.",
+   "text": "Der russische Präsident hat die russischen Vermögenswerte der Metro AG unter Zwangsverwaltung gestellt, nachdem das Unternehmen den Handel trotz des Ukraine‑Kriegs fortgeführt hatte. Das Ereignis belastet die Metro‑Aktie und erhöht das Länderrisiko für europäische Einzelhändler in Russland.",
+   "positiv": [],
+   "negativ": [
+    "Metro AG Aktie ↓",
+    "Einzelhandelssektor (Russland‑Exposure) ↓",
+    "Russisches Länderrisiko ↑"
+   ]
+  },
+  {
+   "id": "5ffc59ac",
+   "titel": "Drei deutsche BioNTech-Werke müssen schließen",
+   "anriss": "Drei deutsche Produktionsstandorte des Pharmaunternehmens BioNTech werden geschlossen. In den Werken in Marburg, Idar-Oberstein und Tübingen sind derzeit rund 1.800 Mitarbeiter beschäftigt.",
+   "region": "dach",
+   "quellen": [
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/unternehmen/biontech-standorte-schliessung-100.html",
+    "https://www.spiegel.de/wirtschaft/biontech-macht-drei-standorte-in-deutschland-dicht-a-05ac2a9c-0845-4034-bc8b-f5057051f562#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/biontech-schliesst-drei-deutsche-werke-in-marburg-tuebingen-und-idar-oberstein-a-c7d6de9b-6a0c-4d03-ac0c-e67c38cd0019#ref=rss"
+   ],
+   "punkte": 12,
+   "text": "Drei deutsche Produktionsstandorte des Pharmaunternehmens BioNTech werden geschlossen. In den Werken in Marburg, Idar-Oberstein und Tübingen sind derzeit rund 1.800 Mitarbeiter beschäftigt.",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "dec15862",
-   "titel": "Christian Klein: SAP-Chef setzt auf KI-Agenten und erwartet »weiteren wirklichen Schub«",
-   "anriss": "SAP-Chef Christian Klein betrachtet die Entwicklung der KI mit großem Selbstbewusstsein. Und erklärt, welche Rolle der Mensch in Zukunft spielen wird.",
+   "id": "a0eaf6f5",
+   "titel": "Dax aktuell: Dax schließt unverändert – Aktie von Siemens Healthineers legt zu",
+   "anriss": "Der deutsche Leitindex ist zum Wochenbeginn auf Richtungssuche. Nachdem Trump die Bedingungen des Irans zur Öffnung der Straße von Hormus abgelehnt hat, zieht der Ölpreis wieder an.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "Tagesschau Wirtschaft"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-unveraendert-siemens-healthineers-legt-zu/100257824.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/iran-krieg-oelpreise-steigen-nach-trumps-absage-an-iran/100257785.html",
+    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-geldanlage-162.html"
+   ],
+   "punkte": 12,
+   "text": "Der deutsche Leitindex ist zum Wochenbeginn auf Richtungssuche. Nachdem Trump die Bedingungen des Irans zur Öffnung der Straße von Hormus abgelehnt hat, zieht der Ölpreis wieder an.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "ed3dc8a6",
+   "titel": "Nvidia: 235 Milliarden Dollar – Unternehmen plant Rekord-Aktienrückkauf",
+   "anriss": "Das weltweit wertvollste Unternehmen will für eine gigantische Summe Aktien zurückkaufen. Laut Konzernchef Huang soll das den Glauben an die eigene Zukunft widerspiegeln.",
    "region": "dach",
    "quellen": [
     "SPIEGEL Wirtschaft",
@@ -241,39 +240,39 @@
    ],
    "anzahl": 3,
    "links": [
-    "https://www.spiegel.de/wirtschaft/christian-klein-sap-chef-setzt-auf-ki-agenten-und-erwartet-weiteren-wirklichen-schub-a-1bcef515-ab1e-4de3-a0ea-b1ab6138925b#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/tech/sap-chef-sieht-historische-wachstumschance-durch-ki-produkte-a-7c80c979-0739-4cb7-a500-2275a8bf0547#ref=rss",
-    "https://www.heise.de/news/SAP-Chef-sieht-historische-Wachstumschance-durch-KI-Produkte-11467558.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+    "https://www.spiegel.de/wirtschaft/unternehmen/235-milliarden-dollar-nvidia-plant-rekord-aktienrueckkauf-a-b18bc065-bbdc-4fe8-a647-8da8f69f2f19#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/tech/nvidia-investiert-weitere-150-milliarden-dollar-fuer-aktienrueckkaeufe-a-25d7cde8-aa91-4aeb-9a1f-4c3ed325a912#ref=rss",
+    "https://www.heise.de/news/Nvidia-Rekord-Aktienrueckkauf-im-Wert-von-150-Milliarden-US-Dollar-11468825.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
    "punkte": 12,
-   "text": "SAP-Chef Christian Klein betrachtet die Entwicklung der KI mit großem Selbstbewusstsein. Und erklärt, welche Rolle der Mensch in Zukunft spielen wird.",
+   "text": "Das weltweit wertvollste Unternehmen will für eine gigantische Summe Aktien zurückkaufen. Laut Konzernchef Huang soll das den Glauben an die eigene Zukunft widerspiegeln.",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "dd2d02e4",
-   "titel": "Altersvorsorge: Warum das Vorsorgedepot der Deutschen Bank nicht ganz überzeugt",
-   "anriss": "Die Deutsche Bank stellt Produkte für das neue Altersvorsorgedepot vor. Die Kosten sind marktüblich – aber einige Produkte wecken ungute Erinnerungen.",
+   "id": "4670d549",
+   "titel": "Dow Jones, S&P 500, Nasdaq: Wall Street schließt niedriger",
+   "anriss": "Steigende Ölpreise sowie steigende Renditen von US-Staatsanleihen belasten weiterhin die Stimmung an der Wall Street. Anleger warten auf einige Termine im Laufe der Handelswoche.",
    "region": "dach",
    "quellen": [
-    "Handelsblatt Finanzen",
-    "manager magazin"
+    "Handelsblatt Finanzen"
    ],
-   "anzahl": 2,
+   "anzahl": 3,
    "links": [
-    "https://www.handelsblatt.com/finanzen/vorsorge/altersvorsorge-sparen/altersvorsorge-warum-das-vorsorgedepot-der-deutschen-bank-nicht-ganz-ueberzeugt/100257894.html",
-    "https://www.manager-magazin.de/unternehmen/banken/deutsche-bank-und-co-preiskampf-ums-altersvorsorgedepot-nimmt-fahrt-auf-a-0c61493c-07d0-4580-8149-d0684b87f634#ref=rss"
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-wall-street-schliesst-niedriger/100257988.html",
+    "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/dax-anleger-bleiben-optimistisch-warum-das-keinen-kursanstieg-garantiert/100257471.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-yen-hang-seng-asienboersen-schliessen-im-minus-steigende-oelpreise-lasten-auf-der-stimmung/100257807.html"
    ],
-   "punkte": 9,
-   "text": "Die Deutsche Bank stellt Produkte für das neue Altersvorsorgedepot vor. Die Kosten sind marktüblich – aber einige Produkte wecken ungute Erinnerungen.",
+   "punkte": 11,
+   "text": "Steigende Ölpreise sowie steigende Renditen von US-Staatsanleihen belasten weiterhin die Stimmung an der Wall Street. Anleger warten auf einige Termine im Laufe der Handelswoche.",
    "positiv": [],
    "negativ": []
   }
  ],
  "ketten": [],
  "gegenthese": {
-  "konsens": "Der Markt sieht weiterhin starken Auftrieb durch KI‑ und Rüstungsunternehmen, insbesondere Nvidia, während europäische Aktien von Bio‑Tech‑Schließungen, geopolitischen Risiken (Türkei) und Unternehmensunsicherheiten gedämpft werden.",
-  "gegen": "Bewertungsexplosion bei KI‑Start‑ups ist spekulativ, Nvidia‑Kurs überhitzt, und geopolitische Instabilität kann globale Risikoprämien erhöhen, was die aktuelle Aufwärtsdynamik schnell abbrechen lässt."
+  "konsens": "Der Markt sieht im KI‑ und Rüstungssektor ein starkes Wachstumspotenzial, was die Bewertung von Milliarden‑Start‑ups beflügelt; gleichzeitig unterstützen solide Unternehmenszahlen wie bei Nvidia und Siemens Healthineers die Stimmung.",
+  "gegen": "Gegenargument ist die Gefahr von Überbewertung und Finanzierungsengpässen bei stark expandierenden Start‑ups, verschärft durch geopolitische Risiken wie Russlands Zwangsverwaltung und BioNTech‑Schließungen."
  },
  "matrix": [
   {
@@ -390,11 +389,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "122.3 Mrd"
+     "119.9 Mrd"
     ],
     [
      "KGV (erw.)",
-     "23,1"
+     "22,7"
     ],
     [
      "Umsatzwachstum",
@@ -412,7 +411,7 @@
     ],
     [
      "Newsletter",
-     "in 1 Clustern"
+     "in 2 Clustern"
     ],
     [
      "Reddit",
@@ -427,12 +426,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Analysten‑Stimmungsbild ist stark positiv (19 Buy, 4 Hold, 2 Sell). Umsatzwachstum von +18 % und ein Kursziel von 196 € deuten auf erwartete Ertragssteigerungen hin. Das Unternehmen profitiert von steigender Nachfrage nach Gas‑ und Dampfturbinen sowie von wachsenden Digital‑ und Service‑Umsätzen.",
-   "dagegen": "KGV von 23,1 liegt über dem Branchendurchschnitt und signalisiert eine teure Bewertung. Die Abhängigkeit von Gas‑Turbinen birgt regulatorische Risiken, und das Wind‑Segment von Siemens Gamesa hat in der Vergangenheit Qualitäts‑ und Lieferprobleme gezeigt. Geringe Reddit‑Präsenz und fehlende Insider‑Meldungen reduzieren Transparenz.",
+   "dafuer": "Die Analystenmehrheit (19 Kauf, 4 Halten, 2 Verkauf) spricht für die Aktie. Das erwartete KGV von 22,7 liegt im Branchenmittel, das Umsatzwachstum von +18 % deutet auf starke Nachfrage. Das Kursziel von 196 € impliziert weiteres Aufwärtspotenzial.",
+   "dagegen": "Gegen die Aktie spricht die hohe Marktkapitalisierung von 119,9 Mrd €, was die Bewertung empfindlich gegenüber Marktschwankungen macht. Das Geschäftsmodell ist stark von Gas‑ und Dampfturbinen abhängig, während die Energiewende den Gasbedarf langfristig reduzieren könnte. Fehlende Insider‑Transaktionen und Shorts deuten auf geringe Marktmeinung hin.",
    "katalysatoren": [
-    "Auslieferung und Inbetriebnahme neuer Gas‑Turbinen‑Aufträge im zweiten Quartal",
-    "Markteinführung der nächsten Generation von Offshore‑Windturbinen (SG 5.0‑145)",
-    "Vertrag über digitale Grid‑Lösungen mit einem europäischen Netzbetreiber"
+    "Auslieferung neuer Siemens‑Gamesa‑Windturbinen‑Modelle im zweiten Quartal",
+    "Abschluss eines Großauftrags für Gasturbinen in Asien bis Jahresende",
+    "Einführung einer digitalen Service‑ und Wartungsplattform für zentrale Kraftwerke"
    ]
   },
   "RHM.DE": {
@@ -443,11 +442,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "45.9 Mrd"
+     "45.1 Mrd"
     ],
     [
      "KGV (erw.)",
-     "18,4"
+     "18,1"
     ],
     [
      "Umsatzwachstum",
@@ -480,12 +479,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Starkes Umsatzwachstum von +69 % zeigt steigende Nachfrage, besonders im Vehicle‑Systems‑Segment. Das Kurs‑Gewinn‑Verhältnis von 18,4 liegt im Branchendurchschnitt, was die Bewertung relativ moderat erscheinen lässt. Analysten‑Stimmungsbild ist eindeutig positiv (18 Käufe, 3 Halten).",
-   "dagegen": "Abhängigkeit von staatlichen Rüstungsbudgets birgt geopolitisches Risiko; bei Defiziten im Verteidigungsetat könnte Auftragslage sinken. KGV von 18,4 könnte bei rückläufigen Margen überbewertet sein. Fehlende Insider‑Aktivität und kaum Short‑Positionen deuten auf geringe Marktmeinung hin.",
+   "dafuer": "Die Rheinmetall AG profitiert von steigender Rüstungsausgaben in Europa und den USA, was das Umsatzwachstum von +69 % erklärt. Das Unternehmen verfügt über ein breites Portfolio in Fahrzeugsystemen und Elektronik, stabile Margen und ein KGV von 18,1, das im Branchenvergleich moderat erscheint.",
+   "dagegen": "Risiken ergeben sich aus der Abhängigkeit von staatlichen Aufträgen, die politisch schwanken können, sowie aus möglichen Lieferkettenengpässen bei Halbleitern. Die Bewertung könnte überbewertet sein, wenn das erwartete Wachstum nicht eintritt, und das Fehlen von Shorts deutet nicht auf breites Marktvertrauen hin.",
    "katalysatoren": [
-    "Erhöhung des deutschen Verteidigungsbudgets 2025",
-    "Vertrag mit dem US‑Militär über neue Panzerplattform",
-    "Markteinführung des nächsten Generation‑Kampfpanzer‑Prototyps"
+    "Veröffentlichung des Quartalsberichts Q3 2026",
+    "Entscheidung über neue Rüstungsaufträge der deutschen Bundeswehr",
+    "Lieferbeginn neuer Leopard‑2‑Ausstattungen"
    ]
   },
   "ASML.AS": {
@@ -496,11 +495,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "593.7 Mrd"
+     "590.4 Mrd"
     ],
     [
      "KGV (erw.)",
-     "29,9"
+     "29,7"
     ],
     [
      "Umsatzwachstum",
@@ -533,12 +532,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "ASML dominiert den EUV-Markt, liefert kritische Lithographie‑Systeme für die führenden Chip‑Foundries. Das Unternehmen verzeichnet ein starkes Umsatzwachstum von 21 % und ein Kursziel von 2045 €, das von 38 Analysten mit Kauf‑Rating unterstützt wird. Die Marktposition und technologische Führerschaft bilden ein robustes Fundament.",
-   "dagegen": "Das KGV von 29,9 liegt über dem Branchendurchschnitt, was die Bewertung teuer erscheinen lässt. Die Nachfrage nach Halbleitern ist konjunkturell abhängig, sodass ein Abschwung die Auftragslage schwächen könnte. Zudem fehlt es an Insider‑Informationen und Short‑Positionen, was Unsicherheit über mögliche Risiken erhöht.",
+   "dafuer": "Die überwältigende Analystenmeinung (38 Kauf‑Empfehlungen, nur 1 Verkauf) spiegelt starkes Vertrauen in ASMLs Marktposition wider. Das Unternehmen profitiert von kontinuierlichem Umsatzwachstum von +21 % und einem robusten KGV von 29,7, das im Vergleich zu Branchenkollegen attraktiv erscheint.",
+   "dagegen": "Der hohe KGV von 29,7 deutet auf eine teure Bewertung hin, besonders wenn das Umsatzwachstum abkühlt. ASML ist stark von der Halbleitnachfrage abhängig; ein Rückgang bei KI‑ oder Smartphone‑Märkten könnte Aufträge reduzieren. Zudem birgt die Einführung neuer High‑NA‑EUV‑Systeme technische und Lieferketten‑Risiken.",
    "katalysatoren": [
-    "Q3‑2024 Ergebnisbericht mit EUV‑Lieferzahlen",
-    "Markteinführung des High‑NA‑EUV‑Systems im ersten Halbjahr 2025",
-    "Großauftrag von TSMC oder Samsung, angekündigt auf deren Investor‑Days"
+    "Q4‑2026 EUV‑Tool‑Lieferungen an TSMC und Samsung",
+    "Start der Serienproduktion des High‑NA‑EUV‑Systems (voraussichtlich 2027)",
+    "Anstieg der KI‑Chip‑Nachfrage führt zu höheren Bestellungen"
    ]
   },
   "SU.PA": {
@@ -549,11 +548,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "166.0 Mrd"
+     "163.6 Mrd"
     ],
     [
      "KGV (erw.)",
-     "24,3"
+     "23,9"
     ],
     [
      "Umsatzwachstum",
@@ -571,7 +570,7 @@
     ],
     [
      "Newsletter",
-     "in 15 Clustern"
+     "in 16 Clustern"
     ],
     [
      "Reddit",
@@ -598,11 +597,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "255.4 Mrd"
+     "253.0 Mrd"
     ],
     [
      "KGV (erw.)",
-     "38,2"
+     "37,8"
     ],
     [
      "Umsatzwachstum",
@@ -620,7 +619,7 @@
     ],
     [
      "Newsletter",
-     "nicht erwaehnt"
+     "in 2 Clustern"
     ],
     [
      "Reddit",
@@ -647,11 +646,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "38.0 Mrd"
+     "37.9 Mrd"
     ],
     [
      "KGV (erw.)",
-     "47,8"
+     "47,7"
     ],
     [
      "Umsatzwachstum",
@@ -659,7 +658,7 @@
     ],
     [
      "Kursziel",
-     "128 USD"
+     "127 USD"
     ]
    ],
    "quellen": [
@@ -684,9 +683,13 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "Die Analystenmeinung ist überwiegend positiv (19 Kauf, 2 Halten). Das Unternehmen verfügt über ein breites Geschäftsmodell (Uranabbau, Fuel Services, Westinghouse) und ein Marktwert von 37,9 Mrd. USD. Das Kursziel von 127 USD impliziert Potenzial für Kursgewinne, sofern die Uranpreise steigen.",
+   "dagegen": "Gegen das Investment spricht ein hohes KGV von 47,7 und ein Umsatzrückgang von 7 %. Die Berichterstattung ist spärlich – keine Newsletter, kaum Reddit‑Diskussion, keine Insider‑Meldungen – was die Informationsbasis dünn macht.",
+   "katalysatoren": [
+    "Steigende Spotpreise für Uran durch globale Lieferengpässe",
+    "Abschluss langfristiger Lieferverträge mit Versorgungsunternehmen",
+    "Fortschritt bei Westinghouse‑Kernbrennstoffzertifizierungen und neuen Reaktoren"
+   ]
   },
   "FCX": {
    "ticker": "FCX",
@@ -696,11 +699,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "103.0 Mrd"
+     "103.3 Mrd"
     ],
     [
      "KGV (erw.)",
-     "17,3"
+     "17,4"
     ],
     [
      "Umsatzwachstum",
@@ -745,11 +748,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "5.577.7 Mrd"
+     "5.526.3 Mrd"
     ],
     [
      "KGV (erw.)",
-     "14,7"
+     "14,6"
     ],
     [
      "Umsatzwachstum",
@@ -788,6 +791,42 @@
   }
  },
  "shorts": [
+  {
+   "land": "NL",
+   "halter": "PDT Partners, LLC",
+   "emittent": "IMCD N.V.",
+   "prozent": 0.69,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "Qube Research & Technologies Ltd.",
+   "emittent": "NSI N.V.",
+   "prozent": 0.51,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "Ilex Capital Partners (UK) LLP",
+   "emittent": "Koninklijke Ahold Delhaize N.V.",
+   "prozent": 0.5,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "AQR Capital Management, LLC",
+   "emittent": "IMCD N.V.",
+   "prozent": 0.49,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
   {
    "land": "UK",
    "halter": "Anavio Capital Partners LLP",
@@ -1021,46 +1060,10 @@
    "datum": "2019-06-11",
    "status": "aufgestockt",
    "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 13.82,
-   "datum": "2019-06-10",
-   "status": "aufgestockt",
-   "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "GUEVOURA FUND LTD",
-   "emittent": "HAMMERSON PLC",
-   "prozent": 13.78,
-   "datum": "2020-09-24",
-   "status": "aufgestockt",
-   "zuvor": 0.57
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 13.68,
-   "datum": "2019-06-07",
-   "status": "aufgestockt",
-   "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 13.5,
-   "datum": "2019-06-06",
-   "status": "aufgestockt",
-   "zuvor": 0.53
   }
  ],
  "shorts_kennzahlen": {
-  "neu_diese_woche": 0,
+  "neu_diese_woche": 4,
   "meistgeshortet": {
    "name": "Premier Oil PLC",
    "summe": 2145.63
@@ -1170,6 +1173,6 @@
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 146,
+ "meldungen_gesamt": 157,
  "llm_aktiv": false
 }
