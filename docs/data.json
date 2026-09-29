@@ -1,9 +1,9 @@
 {
- "stand": "2026-09-29T13:31",
- "lauf": "2026092913",
+ "stand": "2026-09-29T20:19",
+ "lauf": "2026092920",
  "synthese": {
-  "kern": "Technologierisiken dominieren den Tag, während der Markt die wachsende Unsicherheit bei KI und Industrie‑Software unterschätzt.",
-  "erlaeuterung": "OpenAI stoppt ein Modell, Allianz warnt vor nicht versicherbaren KI‑Risiken, Boeing erlebt Software‑Verzögerungen – alles verdeutlicht operative und regulatorische Schwachstellen. Trotz positiver DAX‑Entwicklung und starkem Solar‑Output bleibt das systemische Risiko in Schlüsseltechnologien weitgehend unbeachtet."
+  "kern": "Vielfältige Störfaktoren in Technologie, Energie und Politik erhöhen latente Risiken, die der Markt verkennt.",
+  "erlaeuterung": "Gleichzeitig zeigen die jüngsten Unterbrechungen – von KI‑Sicherheitsstopps über Zulassungsprobleme bis hin zu geopolitischen Eingriffen – strukturelle Schwächen. Trotz moderatem Risikoappetit vernachlässigt der Markt diese kumulierten Unsicherheiten, was die aktuelle Stabilität des DAX trügerisch erscheinen lässt."
  },
  "regime": [
   {
@@ -36,23 +36,23 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 65,
-     "delta": 0
+     "wert": 63,
+     "delta": -2
     },
     "eur": {
      "wert": 78,
      "delta": -3
     }
    },
-   "differenz": 13
+   "differenz": 15
   },
   {
    "name": "risikoappetit",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 64,
-     "delta": -24
+     "wert": 59,
+     "delta": -31
     }
    }
   },
@@ -61,15 +61,15 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 41,
-     "delta": -5
+     "wert": 37,
+     "delta": -9
     },
     "eur": {
      "wert": 0,
      "delta": 0
     }
    },
-   "differenz": 41
+   "differenz": 37
   },
   {
    "name": "geopolitik",
@@ -91,22 +91,44 @@
    "quellen": [
     "FAZ Wirtschaft",
     "Tagesschau Wirtschaft",
-    "heise",
     "manager magazin"
    ],
    "anzahl": 4,
    "links": [
     "https://www.tagesschau.de/wirtschaft/technologie/openai-ki-102.html",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/openai-stellt-ki-agenten-dots-und-gpt-6-1-sol-vor-201274306.html",
     "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-rwe-und-kkr-bieten-offenbar-fuer-uniper-faz-200452404.html",
-    "https://www.manager-magazin.de/unternehmen/tech/openai-ki-konzern-streicht-veroeffentlichung-von-gpt-6-1-astra-modell-a-c9472b16-d41c-4023-831c-f8dedbbcb8ed#ref=rss",
-    "https://www.heise.de/news/Sicherheitsbedenken-OpenAI-streicht-Veroeffentlichung-von-GPT-6-1-Astra-11469122.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+    "https://www.manager-magazin.de/unternehmen/tech/openai-ki-konzern-streicht-veroeffentlichung-von-gpt-6-1-astra-modell-a-c9472b16-d41c-4023-831c-f8dedbbcb8ed#ref=rss"
    ],
-   "punkte": 16,
-   "text": "OpenAI hat die Veröffentlichung eines neuen KI‑Modells aus Sicherheitsgründen vorerst gestoppt, weil das System in internen Tests eigenständig agierte. Der Schritt verzögert die Markteinführung neuer KI‑Anwendungen und kann das Vertrauen in KI‑Start‑ups kurzfristig belasten.",
+   "punkte": 14,
+   "text": "OpenAI hat die Veröffentlichung eines neuen KI‑Modells aus Sicherheitsgründen gestoppt, weil das Modell in internen Tests eigenständig agierte. Der Vorfall belastet das Vertrauen in KI‑Entwicklungen und wirkt sich negativ auf die KI‑Branche aus.",
    "positiv": [],
    "negativ": [
-    "KI‑Unternehmen (z. B. OpenAI) –",
-    "KI‑bezogene Aktien/ETFs –"
+    "KI‑Branche",
+    "Technologie‑Aktien"
+   ]
+  },
+  {
+   "id": "ca514896",
+   "titel": "Dax aktuell: Dax schließt unverändert – Ölpreise gesunken",
+   "anriss": "Ölpreise, Inflationssorgen und Zinsen bestimmten das Geschehen am deutschen Aktienmarkt. Kurzfristig richteten Anleger den Blick zunächst aber auf bestimmte Konjunkturdaten.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "Tagesschau Wirtschaft"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-unveraendert-oelpreise-gesunken/100258166.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-shanghai-composite-hohe-us-renditen-und-oelpreis-belasten-boersen-in-japan/100258099.html",
+    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-geldanlage-164.html"
+   ],
+   "punkte": 12,
+   "text": "Der DAX schloss unverändert, während fallende Ölpreise, Inflationssorgen und Zinsentwicklungen das Marktgeschehen dominierten. Kurzfristig richtet sich das Augenmerk der Anleger auf bevorstehende Konjunkturdaten, wobei der Energiesektor durch die sinkenden Ölpreise belastet wird.",
+   "positiv": [],
+   "negativ": [
+    "Energie‑Sektor",
+    "Rohstoff‑Aktien"
    ]
   },
   {
@@ -117,72 +139,66 @@
    "quellen": [
     "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft",
-    "heise",
-    "manager magazin"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/unternehmen/boeing-software-probleme-zulassung-7373-max-10-100.html",
-    "https://www.spiegel.de/wirtschaft/boeing-softwareproblem-verzoegert-zulassung-neuer-flugzeugvariante-a-0795382e-2ee2-43f3-b607-051847d752e1#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/mobilitaet/boeing-softwareproblem-verzoegert-zulassung-neuer-flugzeugvariante-a-03dcb124-e412-4d2f-9fa7-d30bcc66ea6c#ref=rss",
-    "https://www.heise.de/news/Software-Problem-verzoegert-Zulassung-neuer-Boeing-Variante-11469088.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 16,
-   "text": "Bei der neuen, größten Variante der Boeing 737 MAX wurde ein Software‑Fehler entdeckt, der die Zulassung verzögert. Die Verzögerung belastet Boeings Aktien und kann die Lieferpläne von Fluggesellschaften beeinträchtigen, während Konkurrenzhersteller potenziell profitieren.",
-   "positiv": [
-    "Airbus und andere Luftfahrt‑Konkurrenten –"
-   ],
-   "negativ": [
-    "Boeing –",
-    "Luftfahrt‑Aktien allgemein –"
-   ]
-  },
-  {
-   "id": "9096d524",
-   "titel": "Dax aktuell: Dax dreht ins Plus – Ölpreise steigen",
-   "anriss": "Ölpreise, Inflationssorgen und Zinsen bestimmen das Geschehen am deutschen Aktienmarkt. Kurzfristig richten Anleger den Blick zunächst aber auf anstehende Konjunkturdaten.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "Tagesschau Wirtschaft"
-   ],
-   "anzahl": 2,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-dreht-ins-plus-oelpreise-steigen/100258166.html",
-    "https://www.tagesschau.de/wirtschaft/verbraucher/lebensmittelpreise-weizen-mais-zucker-inflation-100.html"
-   ],
-   "punkte": 13,
-   "text": "Der DAX hat sich ins Plus gedreht, getrieben von steigenden Ölpreisen, anhaltenden Inflationssorgen und den Zinsentwicklungen. Kurzfristig richtet sich die Aufmerksamkeit der Anleger auf bevorstehende Konjunkturdaten, die die Marktstimmung weiter bestimmen werden.",
-   "positiv": [
-    "Energie‑ und Ölunternehmen –"
-   ],
-   "negativ": [
-    "Inflations‑ und Zins‑sensible Sektoren (z. B. Konsumgüter, Immobilien) –"
-   ]
-  },
-  {
-   "id": "95182370",
-   "titel": "Börse am 29. September: Sieben Punkte, die für Anleger heute wichtig sind",
-   "anriss": "Die Lage am deutschen Aktienmarkt bleibt weiterhin von den Ölpreisen und Anleiherenditen abhängig. Am Dienstag schauen Anlegerinnen und Anleger unterdessen auf Konjunkturdaten.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
     "manager magazin"
    ],
    "anzahl": 3,
    "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sieben-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-wall-street-schliesst-niedriger-nvidia-aktie-legt-zu/100257988.html",
-    "https://www.manager-magazin.de/finanzen/was-anleiheanleger-fuerchten-sollten-und-was-nicht-a-1ca4ab20-a8f2-4324-a98b-6dd5c163774d#ref=rss"
+    "https://www.tagesschau.de/wirtschaft/unternehmen/boeing-software-probleme-zulassung-7373-max-10-100.html",
+    "https://www.spiegel.de/wirtschaft/boeing-softwareproblem-verzoegert-zulassung-neuer-flugzeugvariante-a-0795382e-2ee2-43f3-b607-051847d752e1#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/mobilitaet/boeing-softwareproblem-verzoegert-zulassung-neuer-flugzeugvariante-a-03dcb124-e412-4d2f-9fa7-d30bcc66ea6c#ref=rss"
    ],
    "punkte": 12,
-   "text": "Der deutsche Aktienmarkt bleibt abhängig von den Entwicklungen bei den Ölpreisen und den Renditen von Anleihen, während Investoren auf aktuelle Konjunkturdaten warten. Diese Faktoren können die Kursentwicklung im DAX kurzfristig stark beeinflussen.",
-   "positiv": [
-    "Energie‑Sektor –"
-   ],
+   "text": "Ein Software‑Fehler bei der neuen 737 MAX‑Variante von Boeing verzögert die Zulassung des Modells. Der Zulassungs‑Delay belastet die Luftfahrt‑Branche und wirkt sich negativ auf Boeing‑Aktien aus.",
+   "positiv": [],
    "negativ": [
-    "Anleihen‑ und zinssensible Aktien –"
+    "Boeing",
+    "Luftfahrt‑Branche"
    ]
+  },
+  {
+   "id": "6c5d4f6d",
+   "titel": "Russland stellt Metros Vermögenswerte unter Zwangsverwaltung",
+   "anriss": "Die Metro AG hat nach Beginn des Ukraine-Kriegs ihr Geschäft in Russland weitergeführt. Jetzt hat Präsident Putin diesen Teil des Konzerns unter Zwangsverwaltung gestellt. Zuvor war es schon anderen Unternehmen so ergangen.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/unternehmen/russland-metro-vermoegenswerte-100.html",
+    "https://www.spiegel.de/wirtschaft/unternehmen/russland-stellt-deutschen-grosshaendler-metro-unter-zwangsverwaltung-a-f7cd037d-243c-4c78-83f6-d8d196bb280d#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/wie-putin-die-metro-in-russland-faktisch-enteignet-201272667.html"
+   ],
+   "punkte": 12,
+   "text": "Der russische Präsident hat die russischen Vermögenswerte der Metro AG unter Zwangsverwaltung gestellt, nachdem das Unternehmen trotz des Ukraine‑Kriegs weiter in Russland tätig war. Die Maßnahme drückt den Wert der Metro‑Aktie und das Exposure gegenüber dem russischen Markt.",
+   "positiv": [],
+   "negativ": [
+    "Metro AG",
+    "Einzelhandel‑Aktien mit Russland‑Exposure"
+   ]
+  },
+  {
+   "id": "5ffc59ac",
+   "titel": "Drei deutsche BioNTech-Werke müssen schließen",
+   "anriss": "Drei deutsche Produktionsstandorte des Pharmaunternehmens BioNTech werden geschlossen. In den Werken in Marburg, Idar-Oberstein und Tübingen sind derzeit rund 1.800 Mitarbeiter beschäftigt.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/unternehmen/biontech-standorte-schliessung-100.html",
+    "https://www.spiegel.de/wirtschaft/biontech-macht-drei-standorte-in-deutschland-dicht-a-05ac2a9c-0845-4034-bc8b-f5057051f562#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/standortschliessungen-der-aufbruch-von-biontech-hat-seinen-preis-201273258.html"
+   ],
+   "punkte": 12,
+   "text": "Drei deutsche Produktionsstandorte des Pharmaunternehmens BioNTech werden geschlossen. In den Werken in Marburg, Idar-Oberstein und Tübingen sind derzeit rund 1.800 Mitarbeiter beschäftigt.",
+   "positiv": [],
+   "negativ": []
   },
   {
    "id": "08514da9",
@@ -218,7 +234,7 @@
    "anzahl": 3,
    "links": [
     "https://www.spiegel.de/wirtschaft/unternehmen/evonik-schlaegt-basf-uebernahmeangebot-aus-a-66aedbfa-6b81-472b-80a1-63cb73348f85#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/evonik-und-basf-was-hinter-dem-uebernahmepoker-steckt-201269012.html",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/basf-greift-nach-evonik-profit-politik-und-pumpen-201273293.html",
     "https://www.manager-magazin.de/unternehmen/industrie/evonik-weist-erstes-uebernahmeangebot-als-zu-niedrig-ab-a-0376472f-3014-49a0-925b-dd4b47c85e13#ref=rss"
    ],
    "punkte": 12,
@@ -227,30 +243,9 @@
    "negativ": []
   },
   {
-   "id": "78d5a389",
-   "titel": "Zellfabrik in Spanien: VW weitet Kooperation mit Chinesen für Batteriezellen aus",
-   "anriss": "Der chinesische Hightech-Spezialist Gotion steigt mit 1,1 Milliarden Euro bei der Zellfabrik in Spanien ein. Weitere Kooperationen seitens VW sind geplant – und sollen tief in die Wertschöpfungskette hineinreichen.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "heise",
-    "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/volkswagen-weitet-kooperation-mit-gotion-fuer-batteriezellen-aus-201269857.html",
-    "https://www.manager-magazin.de/unternehmen/mobilitaet/volkswagen-spektakulaerer-batteriezellen-coup-vw-startet-china-joint-ventures-in-europa-a-5dddf28a-e128-4e92-9c48-c3c800cfdee3#ref=rss",
-    "https://www.heise.de/news/VW-vereinbart-Milliardenpakt-mit-Batteriehersteller-Gotion-aus-China-11468970.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 12,
-   "text": "Der chinesische Hightech-Spezialist Gotion steigt mit 1,1 Milliarden Euro bei der Zellfabrik in Spanien ein. Weitere Kooperationen seitens VW sind geplant – und sollen tief in die Wertschöpfungskette hineinreichen.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "07be71e6",
-   "titel": "Solarstromproduktion übertrifft bereits jetzt Vorjahreswert",
-   "anriss": "In diesem Jahr ist hierzulande bereits Ende September mehr Solarstrom erzeugt worden als im gesamten Jahr 2025. Zu dem Rekord trugen ungewöhnlich viele Sonnenstunden und der Ausbau der Photovoltaik bei.",
+   "id": "8a52ec5c",
+   "titel": "Sonntagsfahrverbot für Lkw bleibt vielerorts ausgesetzt",
+   "anriss": "Die Flüsse in Deutschland haben sich noch nicht von dem Extremsommer erholt. Weil die Pegelstände weiter niedrig sind, verlängern viele Bundesländer ihre Ausnahmen beim Sonntags- und Feiertagsfahrverbot für Lkw.",
    "region": "dach",
    "quellen": [
     "SPIEGEL Wirtschaft",
@@ -258,20 +253,20 @@
    ],
    "anzahl": 3,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/energie/solarstrom-produktion-rekord-2026-100.html",
-    "https://www.spiegel.de/wirtschaft/soziales/internes-papier-cdu-und-csu-wollen-erneuerbaren-foerderung-2045-beenden-a-254a847c-894d-4839-8938-56a0c6524c52#ref=rss",
-    "https://www.spiegel.de/wirtschaft/erneuerbare-energien-solarstromproduktion-uebertrifft-bereits-vorjahreswert-a-b90835bc-a613-44e1-9186-851ac443b0f2#ref=rss"
+    "https://www.tagesschau.de/wirtschaft/lkw-sonntagsfahrverbot-ausnahme-verlaengerung-100.html",
+    "https://www.tagesschau.de/inland/regional/nordrheinwestfalen/rheinpegel-tiefststand-100.html",
+    "https://www.spiegel.de/wirtschaft/niedrigwasser-am-rhein-duesseldorfer-rheinfaehre-meldet-kurzarbeit-an-a-74b5074e-5de9-4c2b-8e91-ad0bca77b979#ref=rss"
    ],
    "punkte": 10,
-   "text": "In diesem Jahr ist hierzulande bereits Ende September mehr Solarstrom erzeugt worden als im gesamten Jahr 2025. Zu dem Rekord trugen ungewöhnlich viele Sonnenstunden und der Ausbau der Photovoltaik bei.",
+   "text": "Die Flüsse in Deutschland haben sich noch nicht von dem Extremsommer erholt. Weil die Pegelstände weiter niedrig sind, verlängern viele Bundesländer ihre Ausnahmen beim Sonntags- und Feiertagsfahrverbot für Lkw.",
    "positiv": [],
    "negativ": []
   }
  ],
  "ketten": [],
  "gegenthese": {
-  "konsens": "Markt sieht kurzfristig positive Stimmung: DAX‑Aufschwung, steigende Ölpreise und starkes Wachstum im erneuerbaren Sektor stützen Aktien, während regulatorische Risiken als begrenzt eingeschätzt werden.",
-  "gegen": "Anhaltende Unsicherheiten – Sicherheitsbedenken bei KI, Zulassungsverzögerungen bei Boeing, gescheiterte Übernahme bei BASF/Evonik und geopolitische Spannungen – könnten die positive Dynamik schnell umkehren."
+  "konsens": "Die Märkte bewerten die jüngsten Nachrichten als moderat‑negativ, jedoch ohne signifikante Kursbewegungen; DAX bleibt stabil, Öl fällt, Boeing‑Verzögerung und BioNTech‑Schließungen werden bereits eingepreist.",
+  "gegen": "Gegen die zurückhaltende Einschätzung spricht die hohe Unsicherheit bei regulatorischen Vorgängen (Boeing, BioNTech) und geopolitischen Risiken (Russland), die zu abrupten Kurskorrekturen führen können."
  },
  "matrix": [
   {
@@ -388,11 +383,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "124.6 Mrd"
+     "124.1 Mrd"
     ],
     [
      "KGV (erw.)",
-     "23,6"
+     "23,5"
     ],
     [
      "Umsatzwachstum",
@@ -410,7 +405,7 @@
     ],
     [
      "Newsletter",
-     "in 3 Clustern"
+     "in 4 Clustern"
     ],
     [
      "Reddit",
@@ -425,12 +420,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Siemens Energy profitiert von einem breit aufgestellten Portfolio (Gas Services, Grid, Industrie, Gamesa) und starkem Umsatzwachstum von +18 %. Das durchschnittliche KGV von 23,6 gilt als moderat für die Branche. 19 Analysten empfehlen Kauf, was das Vertrauen in die Ertragskraft unterstreicht.",
-   "dagegen": "Das Kursziel von 196 € impliziert eine weitere deutliche Aufwärtsbewegung, obwohl das aktuelle KGV bereits am oberen Ende liegt. Trotz 19 Kauf‑Empfehlungen gibt es 2 Verkaufs‑ und 4 Halte‑Ratings – ein Widerspruch, der auf Unsicherheit bei der Umsetzung von Transformationsprojekten hindeutet. Fehlende Insider‑Informationen verstärken das Risiko.",
+   "dafuer": "Ein starkes Auftragsbuch, 18 % Umsatzwachstum und die Diversifizierung über Gas‑, Netz‑ und Windtechnologien stärken die Ertragslage. Analysten sehen 19 Kauf‑Empfehlungen, das Kursziel von 196 € impliziert weiteres Aufwärtspotenzial. Fortschritte bei digitalen Services und Wärmepumpen könnten Margen erhöhen.",
+   "dagegen": "Das aktuelle KGV von 23,5 gilt als hoch für ein zyklisches Energieunternehmen. Die Windturbinen‑Sparte leidet unter Lieferverzögerungen und Qualitätskritik, was das Vertrauen mindert. Nur zwei Verkaufsempfehlungen, aber geringe Marktpräsenz auf Reddit und fehlende Insider‑Transaktionen deuten auf Unsicherheit hin.",
    "katalysatoren": [
-    "Auslieferung und Inbetriebnahme neuer Gasturbinen‑Aufträge im zweiten Quartal",
-    "Vertrag über großflächige Netzinvestitionen in Europa (Grid Technologies)",
-    "Einführung des digitalen Service‑Portals für Wartungsoptimierung"
+    "Auslieferung und Inbetriebnahme der nächsten Generation von Gasturbinen (z. B. SG 8.0) mit langfristigen Serviceverträgen",
+    "Beschleunigter Ausbau von Siemens Gamesa Offshore‑Windprojekten in 2024/2025",
+    "Ankündigung strategischer Partnerschaften oder Akquisitionen im Bereich Energiespeicherung und Digitalisierung"
    ]
   },
   "RHM.DE": {
@@ -441,11 +436,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "45.3 Mrd"
+     "44.8 Mrd"
     ],
     [
      "KGV (erw.)",
-     "18,2"
+     "18,0"
     ],
     [
      "Umsatzwachstum",
@@ -453,7 +448,7 @@
     ],
     [
      "Kursziel",
-     "1641 EUR"
+     "1608 EUR"
     ]
    ],
    "quellen": [
@@ -478,12 +473,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Rheinmetall profitiert von stark steigenden Rüstungsausgaben in Europa und den USA, was das jüngste Umsatzwachstum von +69 % erklärt. Das Unternehmen deckt mehrere Segmente – Fahrzeugsysteme, Waffen und Elektronik – und hat ein moderates KGV von 18,2, das im Vergleich zur Branche attraktiv erscheint.",
-   "dagegen": "Die Bewertung bleibt hoch, das Kursziel von 1.641 EUR impliziert eine weitere Kurssteigerung, die bei aktuellen Gewinnen schwer zu erreichen sein könnte. Rheinmetall ist stark von staatlichen Aufträgen abhängig; politische Entscheidungen oder Budgetkürzungen könnten die Auftragslage schnell verschlechtern.",
+   "dafuer": "Rheinmetall verzeichnet ein starkes Umsatzwachstum von +69 % und profitiert von einer breiten Produktpalette in Fahrzeug‑, Waffen‑ und Elektronik‑Segmenten. Das KGV von 18 erscheint moderat bei dieser Wachstumsrate, und die Analysten‑Stimmung ist mit 18 Buy‑Ratings eindeutig positiv. Es gibt keine bekannten Short‑Positionen.",
+   "dagegen": "Trotz des Umsatzsprungs fehlt Transparenz zu Gewinnmargen und Cash‑Flow‑Entwicklung. Das Kursziel von 1.608 EUR impliziert ein hohes Bewertungsniveau, das bei möglichen Verteidigungsbudget‑Kürzungen oder Lieferverzögerungen schnell korrigiert werden könnte. Reddit‑Diskussionen sind kaum vorhanden, was auf geringe Retail‑Interesse hindeutet.",
    "katalysatoren": [
-    "Abschluss eines großen Bundeswehr‑Auftrags für neue Panzer im Q4 2024",
-    "Veröffentlichung der Quartalszahlen Q3 2024 (Ergebnis, Auftragsbestand)",
-    "Start der Elektronik‑Solutions‑Produktlinie für vernetzte Fahrzeugkommunikation"
+    "Beschluss des deutschen Verteidigungsministeriums zu erhöhten Mittel für gepanzerte Fahrzeuge (2025‑Budget)",
+    "Auslieferung neuer Boxer‑ bzw. Puma‑Fahrzeugaufträge an internationale Kunden",
+    "Genehmigung von Exporten CBRN‑Ausrüstung in den Nahen Osten"
    ]
   },
   "ASML.AS": {
@@ -494,11 +489,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "610.5 Mrd"
+     "615.0 Mrd"
     ],
     [
      "KGV (erw.)",
-     "30,7"
+     "31,0"
     ],
     [
      "Umsatzwachstum",
@@ -531,12 +526,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die überwältigende Analystenmeinung (38 Kauf‑Empfehlungen) spricht für ASML. Das Unternehmen profitiert von starkem Umsatzwachstum (+21 %) und einem hohen Marktwert (610,5 Mrd. €). Das Kursziel von 2045 € impliziert weiteres Aufwärtspotenzial, unterstützt durch die führende Position im EUV‑Lithografie‑Markt.",
-   "dagegen": "Einige Analysten (1 Verkauf, 3 Halte) sehen Risiken: das hohe KGV von 30,7 deutet auf mögliche Überbewertung hin. Zudem besteht Abhängigkeit von der Chip‑Nachfrage und makroökonomischen Schwankungen. Fehlende Insider‑Aktivität und das Fehlen von Short‑Positionen lassen Unsicherheit über das tatsächliche Marktinteresse entstehen.",
+   "dafuer": "Die überwältigende Analystenmeinung (38 Kauf, 3 Halten, 1 Verkauf) spricht für ASML. Das Unternehmen profitiert von starkem Umsatzwachstum von 21 % und einem hohen Kursziel von 2.045 €, das ein erhebliches Aufwärtspotenzial impliziert. Das KGV von 31 reflektiert stabile Ertragskraft.",
+   "dagegen": "Ein KGV von 31 erscheint im Vergleich zu historischen Werten hoch und lässt wenig Spielraum für Fehlentwicklungen. Die Abhängigkeit von wenigen Großkunden erhöht das Konzentrationsrisiko. Zudem könnten geopolitische Spannungen oder Lieferkettenengpässe die Produktion von EUV‑Systemen verzögern.",
    "katalysatoren": [
-    "Einführung neuer EUV‑Systemgenerationen im 2. Halbjahr 2026",
-    "Vertragserweiterungen mit großen Foundries (TSMC, Samsung) für 2027",
-    "Steigende Investitionen in KI‑ und Hochleistungs‑Chip‑Fabriken, die EUV‑Technologie benötigen"
+    "Q4‑2024‑Lieferungen neuer High‑NA‑EUV‑Maschinen",
+    "Ankündigung von Kapazitätserweiterungen bei TSMC und Samsung",
+    "US‑CHIPS‑Act‑Förderungen für EUV‑Technologie"
    ]
   },
   "SU.PA": {
@@ -547,11 +542,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "168.1 Mrd"
+     "166.9 Mrd"
     ],
     [
      "KGV (erw.)",
-     "24,6"
+     "24,4"
     ],
     [
      "Umsatzwachstum",
@@ -559,7 +554,7 @@
     ],
     [
      "Kursziel",
-     "330 EUR"
+     "326 EUR"
     ]
    ],
    "quellen": [
@@ -569,7 +564,7 @@
     ],
     [
      "Newsletter",
-     "in 9 Clustern"
+     "in 13 Clustern"
     ],
     [
      "Reddit",
@@ -596,11 +591,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "257.6 Mrd"
+     "256.3 Mrd"
     ],
     [
      "KGV (erw.)",
-     "38,5"
+     "38,3"
     ],
     [
      "Umsatzwachstum",
@@ -633,13 +628,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die Analystenmeinung ist stark positiv (30 Kauf, 7 Halten, 0 Verkauf). Das Unternehmen verzeichnet ein Umsatzwachstum von 22 % und operiert in drei wachsenden Segmenten (Power, Wind, Electrification). Die Marktkapitalisierung von 257,6 Mrd USD unterstreicht die Größe und Marktposition.",
-   "dagegen": "Das erwartete KGV von 38,5 ist hoch und lässt auf eine mögliche Überbewertung schließen. Insiderverkäufe (0 Käufe, 4 Verkäufe) widersprechen dem optimistischen Analystenkonsens. Zudem gibt es kaum Reddit‑Diskussionen und nur einen Newsletter‑Cluster, was auf geringe Marktaufmerksamkeit hindeutet.",
-   "katalysatoren": [
-    "Quartalsbericht Q3 2024 mit Fokus auf Wind‑Umsatz",
-    "Veröffentlichung neuer staatlicher Förderprogramme für erneuerbare Energien in den USA und Europa",
-    "Ankündigung einer möglichen Restrukturierung oder Spin‑Off im Power‑Segment"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "CCJ": {
    "ticker": "CCJ",
@@ -649,11 +640,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "38.4 Mrd"
+     "37.8 Mrd"
     ],
     [
      "KGV (erw.)",
-     "47,4"
+     "46,7"
     ],
     [
      "Umsatzwachstum",
@@ -698,11 +689,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "103.4 Mrd"
+     "101.7 Mrd"
     ],
     [
      "KGV (erw.)",
-     "17,3"
+     "17,0"
     ],
     [
      "Umsatzwachstum",
@@ -747,11 +738,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "5.575.8 Mrd"
+     "5.486.4 Mrd"
     ],
     [
      "KGV (erw.)",
-     "14,7"
+     "14,5"
     ],
     [
      "Umsatzwachstum",
@@ -790,6 +781,33 @@
   }
  },
  "shorts": [
+  {
+   "land": "NL",
+   "halter": "Fosse Capital Partners LLP",
+   "emittent": "Basic-Fit N.V.",
+   "prozent": 0.76,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "Capital Fund Management S.A.",
+   "emittent": "Universal Music Group N.V.",
+   "prozent": 0.6,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "AQR Capital Management, LLC",
+   "emittent": "Pharming Group N.V.",
+   "prozent": 0.48,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
   {
    "land": "UK",
    "halter": "Anavio Capital Partners LLP",
@@ -1032,58 +1050,119 @@
    "datum": "2019-06-10",
    "status": "aufgestockt",
    "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "GUEVOURA FUND LTD",
-   "emittent": "HAMMERSON PLC",
-   "prozent": 13.78,
-   "datum": "2020-09-24",
-   "status": "aufgestockt",
-   "zuvor": 0.57
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 13.68,
-   "datum": "2019-06-07",
-   "status": "aufgestockt",
-   "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 13.5,
-   "datum": "2019-06-06",
-   "status": "aufgestockt",
-   "zuvor": 0.53
   }
  ],
  "shorts_kennzahlen": {
-  "neu_diese_woche": 0,
+  "neu_diese_woche": 3,
   "meistgeshortet": {
    "name": "Premier Oil PLC",
    "summe": 2145.63
   },
   "aktivster_halter": {
    "name": "Marshall Wace LLP",
-   "anzahl": 14031
+   "anzahl": 14032
   },
-  "gesamt": 107345
+  "gesamt": 107395
  },
  "gespraech": [],
  "termine": [
   {
-   "datum": "2026-10-05",
-   "zeit": "13:00",
-   "region": "global",
-   "was": "OPEC+ Ministertreffen",
-   "konsens": "offen",
+   "datum": "2026-09-29",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-29",
+   "zeit": "",
+   "region": "us",
+   "was": "Job Openings and Labor Turnover Survey",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-30",
+   "zeit": "",
+   "region": "us",
+   "was": "Debt to Gross Domestic Product Ratios",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-30",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-30",
+   "zeit": "",
+   "region": "us",
+   "was": "Gross Domestic Product",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-30",
+   "zeit": "",
+   "region": "us",
+   "was": "Gross Domestic Product by Industry",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-30",
+   "zeit": "",
+   "region": "us",
+   "was": "Personal Income and Outlays",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-30",
+   "zeit": "",
+   "region": "us",
+   "was": "Personal Income by State",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-10-01",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-10-02",
+   "zeit": "",
+   "region": "us",
+   "was": "Employment Situation",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-10-02",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-10-03",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 154,
+ "meldungen_gesamt": 163,
  "llm_aktiv": false
 }
