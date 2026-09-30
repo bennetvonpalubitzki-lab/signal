@@ -1,9 +1,9 @@
 {
- "stand": "2026-09-30T13:07",
- "lauf": "2026093013",
+ "stand": "2026-09-30T20:23",
+ "lauf": "2026093020",
  "synthese": {
-  "kern": "Inflations- und Energiepreise treiben Risikoaversion, während die Märkte die stark rückläufige Liquidität übersehen.",
-  "erlaeuterung": "Die Meldungen betonen steigende Verbraucherpreise und Energieknappheit, was den Zinsdruck erhöht und den Risikoappetit auf 60 Perzentil drückt. Gleichzeitig zeigen die Regimewerte einen historischen Liquiditätsmangel (US 37, EU 0), den Anleger bislang kaum in Preisbewegungen einpreisen."
+  "kern": "Markt fokussiert Inflation und Unternehmenskosten, übersieht wachsende geopolitische Risiken und sinkende Liquidität.",
+  "erlaeuterung": "Inflationsdaten, Tarifkonflikte und steigende Ticketpreise treiben Zinsdruck und Risikoaversion, während Anleihen trotz Attraktivität riskant bleiben. Gleichzeitig unterschätzt der Markt die anhaltende geopolitische Unsicherheit und die stark rückläufige Liquidität, die Volatilität erhöhen könnten."
  },
  "regime": [
   {
@@ -36,23 +36,23 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 63,
-     "delta": -2
+     "wert": 64,
+     "delta": -1
     },
     "eur": {
      "wert": 80,
      "delta": -2
     }
    },
-   "differenz": 17
+   "differenz": 16
   },
   {
    "name": "risikoappetit",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 60,
-     "delta": -25
+     "wert": 55,
+     "delta": -29
     }
    }
   },
@@ -76,90 +76,103 @@
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 87,
-     "delta": 0
+     "wert": 86,
+     "delta": -2
     }
    }
   }
  ],
  "cluster": [
   {
-   "id": "d2bb25e0",
-   "titel": "Inflation: Teuerung in Deutschland steigt auf 3,3 Prozent",
-   "anriss": "Die Inflation in Deutschland springt auf den höchsten Stand seit fast drei Jahren. Alarmierend für die EZB: Quer durch die Euro-Zone steigen die Verbraucherpreise schneller als erwartet.",
+   "id": "175e4e48",
+   "titel": "Dax aktuell: Dax schließt nach Inflationsdaten im Minus – Commerzbank-Aktie größter Verlierer",
+   "anriss": "Die Ölpreise sind wieder angestiegen. Die hohe Inflation heizt auch in den USA Spekulationen über die Zinspolitik an. Der Anleihemarkt entspannt sich derweil etwas.",
    "region": "dach",
    "quellen": [
-    "FAZ Wirtschaft",
     "Handelsblatt Finanzen",
     "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 9,
+   "anzahl": 8,
    "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-nach-inflationsdaten-im-minus/100258541.html",
     "https://www.handelsblatt.com/finanzen/geldpolitik/inflation-teuerung-in-deutschland-steigt-auf-33-prozent/100254616.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-inflation-in-deutschland-steigt-dax-dreht-ins-minus/100258541.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sieben-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-unveraendert-oelpreise-gesunken/100258166.html",
-    "https://www.tagesschau.de/wirtschaft/verbraucher/september-tanken-100.html"
+    "https://www.tagesschau.de/wirtschaft/inflation-september-energiepreise-100.html",
+    "https://www.tagesschau.de/wirtschaft/verbraucher/september-tanken-100.html",
+    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-jones-ki-100.html"
    ],
-   "punkte": 36,
-   "text": "Die Verbraucherpreise in Deutschland sind im Jahresvergleich auf 3,3 % gestiegen – der höchste Wert seit fast drei Jahren. Gleichzeitig verzeichnet die gesamte Euro‑Zone ein beschleunigtes Preiswachstum, das die Geldpolitik der EZB unter Druck setzt.",
-   "positiv": [
-    "Rohstoffpreise (z. B. Öl, Metalle)"
-   ],
-   "negativ": [
-    "Deutsche Einzelhandels- und Konsumgüterbranche",
-    "Euro‑Zone Anleihen (Festzins)"
-   ]
+   "punkte": 30,
+   "text": "Die Ölpreise sind wieder angestiegen. Die hohe Inflation heizt auch in den USA Spekulationen über die Zinspolitik an. Der Anleihemarkt entspannt sich derweil etwas.",
+   "positiv": [],
+   "negativ": []
   },
   {
-   "id": "3d0130f9",
-   "titel": "Reiche weist staatliches Unternehmen an, mehr Gas einzuspeichern",
-   "anriss": "Die Gasspeicher sind aktuell nur zu etwas mehr als der Hälfte gefüllt. Nun drängt Wirtschaftsministerin Reiche alle Energieunternehmen dazu, mehr Erdgas einzuspeichern. Eine staatliche Firma erhält eine direkte Anweisung.",
+   "id": "495bf032",
+   "titel": "Verträge gekündigt: Volkswagen steht vor neuer Tarifschlacht",
+   "anriss": "Die VW-Geschäftsführung hat eine Reihe von Tarifverträgen gekündigt. Nun drohen dem Konzern harte Wochen. Die Arbeitnehmerseite hat bereits massiven Widerstand angekündigt. Von Torben Hildebrandt.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
     "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft",
+    "heise",
+    "manager magazin"
+   ],
+   "anzahl": 6,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/unternehmen/vw-tarifvertraege-sparkurs-100.html",
+    "https://www.tagesschau.de/wirtschaft/unternehmen/volkswagen-aufhebung-tarifvertraege-sparmassnahmen-100.html",
+    "https://www.spiegel.de/wirtschaft/unternehmen/volkswagen-kuendigt-tarifvertraege-a-c60ba636-204a-4c5d-994c-ea8bf2c1b06a#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/vw-pocht-auf-einsparungen-management-kuendigt-weitere-tarifvertraege-201276900.html",
+    "https://www.manager-magazin.de/unternehmen/mobilitaet/volkswagen-vorstand-plant-kuendigung-zahlreicher-haustarifvertraege-daniela-cavallo-spricht-von-erpressung-a-2085eecf-abaa-4b20-986b-84c7598608c2#ref=rss"
+   ],
+   "punkte": 22,
+   "text": "Die VW-Geschäftsführung hat eine Reihe von Tarifverträgen gekündigt. Nun drohen dem Konzern harte Wochen. Die Arbeitnehmerseite hat bereits massiven Widerstand angekündigt. Von Torben Hildebrandt.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "25540633",
+   "titel": "Preis für Deutschlandticket steigt im Januar auf 66,80 Euro",
+   "anriss": "Das Deutschlandticket wird erneut teurer. Es kostet ab Januar 66,80 Euro und damit 3,80 Euro mehr als bisher. An der neuen Preissteigerung gab es vorab schon deutliche Kritik von Fahrgast- und Umweltverbänden.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "Tagesschau Wirtschaft",
     "heise"
    ],
    "anzahl": 4,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/energie/gasspeicher-reiche-winter-100.html",
-    "https://www.spiegel.de/wirtschaft/soziales/internes-papier-cdu-und-csu-wollen-erneuerbaren-foerderung-2045-beenden-a-254a847c-894d-4839-8938-56a0c6524c52#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/reiche-ordnet-befuellung-der-gasspeicher-an-accg-201276210.html",
-    "https://www.heise.de/news/Bund-greift-bei-Gasspeichern-ein-Sefe-soll-8-TWh-beschaffen-11471087.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 16,
-   "text": "Wirtschaftsministerin Reiche fordert alle Energieunternehmen auf, die Gasspeicher stärker zu füllen; derzeit liegen die Bestände bei etwas mehr als 50 % der Kapazität. Die Anordnung zielt darauf ab, die Versorgungssicherheit für die kommenden Wintermonate zu erhöhen.",
-   "positiv": [
-    "Betreiber von Gasspeichern",
-    "Energieversorger mit Gas‑Infrastruktur"
-   ],
-   "negativ": [
-    "Industrien mit hohem Gasverbrauch (z. B. Chemie)",
-    "Endverbraucher von Erdgas (höhere Preise)"
-   ]
-  },
-  {
-   "id": "a753372c",
-   "titel": "Pi.dev: You Said No MCP",
-   "anriss": "Article URL: https://earendil.com/posts/you-said-no-mcp/ Comments URL: https://news.ycombinator.com/item?id=49906637 Points: 203 # Comments: 86",
-   "region": "global",
-   "quellen": [
-    "Hacker News Top"
-   ],
-   "anzahl": 12,
-   "links": [
-    "https://earendil.com/posts/you-said-no-mcp/",
-    "https://tomwojcik.com/posts/2026-09-21/september-2026-the-world-today/",
-    "https://github.com/ninjahawk/livenerf",
-    "https://space.bl2.net/",
-    "https://www.bbc.com/future/article/20260928-a-virtual-power-plant-hidden-in-vermont-homes-is-keeping-the-lights-on-during-storms"
+    "https://www.tagesschau.de/wirtschaft/verbraucher/deutschlandticket-preis-110.html",
+    "https://www.faz.net/aktuell/wirtschaft/auto-verkehr/deutschlandticket-kostet-ab-januar-66-80-euro-201277050.html",
+    "https://www.heise.de/news/Deutschlandticket-wird-ab-Janaur-2027-erneut-teurer-11471438.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "https://www.heise.de/ratgeber/Deutschlandticket-So-bekommen-Sie-bei-Verspaetungen-Geld-zurueck-11200564.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus"
    ],
    "punkte": 14,
-   "text": "Der Artikel „You Said No MCP“ auf Pi.dev diskutiert technische Argumente gegen das Konzept des „Minimum Cost Path“ in der Softwareentwicklung. Auf der Hacker‑News‑Plattform löste das Posting 203 Punkte und 86 Kommentare aus.",
+   "text": "Das Deutschlandticket wird erneut teurer. Es kostet ab Januar 66,80 Euro und damit 3,80 Euro mehr als bisher. An der neuen Preissteigerung gab es vorab schon deutliche Kritik von Fahrgast- und Umweltverbänden.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "caaa7c3e",
+   "titel": "Mercedes-Benz: Führungskräfte erhalten Abfindungsangebot zur Kostensenkung",
+   "anriss": "Bis zu 500.000 Euro soll Mercedes-Benz in Einzelfällen gezahlt haben, um Mitarbeiter loszuwerden. Nun will der Autobauer das Abfindungsprogramm neu auflegen – und nimmt dabei verstärkt Führungskräfte ins Visier.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.spiegel.de/wirtschaft/unternehmen/mercedes-benz-fuehrungskraefte-erhalten-abfindungsangebot-zur-kostensenkung-a-bd67edd8-dbe8-48bd-8f86-c1975bf802bd#ref=rss",
+    "https://www.spiegel.de/wirtschaft/unternehmen/mercedes-senator-wiegelt-sorge-vor-mercedes-handelsverbot-in-den-usa-ab-a-a98802ab-21dd-433c-bfa2-31cf4c4cd7c9#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-usa-ermitteln-wegen-cyberangriffen-gegen-ki-entwickler-faz-200452404.html",
+    "https://www.manager-magazin.de/unternehmen/mobilitaet/mercedes-benz-konzern-legt-abfindungsprogramm-erneut-auf-a-a91fab2b-de6b-4328-b8cc-79ec11fd41e1#ref=rss"
+   ],
+   "punkte": 14,
+   "text": "Bis zu 500.000 Euro soll Mercedes-Benz in Einzelfällen gezahlt haben, um Mitarbeiter loszuwerden. Nun will der Autobauer das Abfindungsprogramm neu auflegen – und nimmt dabei verstärkt Führungskräfte ins Visier.",
    "positiv": [],
    "negativ": []
   },
@@ -178,14 +191,9 @@
     "https://www.manager-magazin.de/hbm/strategie/ki-so-setzen-sie-die-technologie-endlich-gewinnbringend-ein-a-d7488262-464a-414a-9d07-09639d7d9e0a#ref=rss"
    ],
    "punkte": 13,
-   "text": "Die Börsen in Asien schlossen uneinheitlich: In Japan stützten Kursgewinne im Technologiebereich die Nikkei‑ und Topix‑Indizes, während die chinesischen Märkte den größten Quartalsverlust seit vier Jahren verzeichneten. Die unterschiedlichen Entwicklungen spiegeln lokale Inflations‑ und geopolitische Risiken wider.",
-   "positiv": [
-    "Japanische Technologieaktien (Nikkei, Topix)"
-   ],
-   "negativ": [
-    "Chinesische Aktien (CSI 300)",
-    "Breitere asiatische Aktienmärkte"
-   ]
+   "text": "Kursgewinne bei Technologiewerten stützten die Börsen in Japan. Unterdessen steuerten die chinesischen Märkte auf den größten Quartalsverlust seit vier Jahren zu.",
+   "positiv": [],
+   "negativ": []
   },
   {
    "id": "dc41dd5c",
@@ -209,72 +217,52 @@
    "negativ": []
   },
   {
+   "id": "038909c3",
+   "titel": "Arbeitslosenzahl sinkt leicht unter Marke von drei Millionen",
+   "anriss": "Mit dem Ende der Sommerpause gibt es meist Bewegung auf dem Arbeitsmarkt. Im September ging die Zahl der Menschen ohne Job aber nur leicht zurück. Unternehmen suchen weiterhin kaum nach neuem Personal.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/arbeitslosigkeit-arbeitsmarkt-september-100.html",
+    "https://www.spiegel.de/wirtschaft/soziales/bundesagentur-fuer-arbeit-zahl-der-arbeitslosen-bleibt-im-september-auf-hohem-niveau-a-159f8c8c-49bf-4e2e-837e-23260d413bdf#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/arbeitsmarktdaten-da-ist-eine-kleinigkeit-dazwischengekommen-nennt-sich-irankrieg-201275794.html"
+   ],
+   "punkte": 12,
+   "text": "Mit dem Ende der Sommerpause gibt es meist Bewegung auf dem Arbeitsmarkt. Im September ging die Zahl der Menschen ohne Job aber nur leicht zurück. Unternehmen suchen weiterhin kaum nach neuem Personal.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
    "id": "e34a7850",
    "titel": "Trump setzt bei KI auf Selbstkontrolle der Techbranche",
    "anriss": "Seit Wochen wird weltweit über Risiken und Beschränkungen von Künstlicher Intelligenz diskutiert. Doch US-Präsident Trump will auf gesetzliche Regulierung weiterhin verzichten. KI-Unternehmen sollen sich freiwillig selbst kontrollieren.",
    "region": "dach",
    "quellen": [
+    "FAZ Wirtschaft",
     "Tagesschau Wirtschaft",
-    "heise",
     "manager magazin"
    ],
    "anzahl": 3,
    "links": [
     "https://www.tagesschau.de/ausland/amerika/trump-regulierung-ki-100.html",
-    "https://www.manager-magazin.de/unternehmen/ki-krisentreffen-im-weissen-haus-ki-firmen-sollen-sich-laut-donald-trump-selbst-beaufsichtigen-a-a25d8946-4091-4f9e-ad24-c8f823f34fee#ref=rss",
-    "https://www.heise.de/news/Trump-KI-Firmen-sollen-sich-selbst-beaufsichtigen-11470445.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/warum-trump-die-ki-risiken-ignoriert-201275958.html",
+    "https://www.manager-magazin.de/unternehmen/ki-krisentreffen-im-weissen-haus-ki-firmen-sollen-sich-laut-donald-trump-selbst-beaufsichtigen-a-a25d8946-4091-4f9e-ad24-c8f823f34fee#ref=rss"
    ],
    "punkte": 12,
    "text": "Seit Wochen wird weltweit über Risiken und Beschränkungen von Künstlicher Intelligenz diskutiert. Doch US-Präsident Trump will auf gesetzliche Regulierung weiterhin verzichten. KI-Unternehmen sollen sich freiwillig selbs",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "92600665",
-   "titel": "Immobilien: Nur in einer Stadt reicht die Bafög‑Wohnhilfe für die Miete",
-   "anriss": "Zum Semesterstart müssen Studenten bundesweit erneut mehr Geld für eine Wohnung oder ein WG-Zimmer bezahlen. Die Unterschiede bei den Kosten sind gravierend.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "Handelsblatt Finanzen"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/immobilien/immobilien-nur-in-einer-stadt-reicht-die-bafoegwohnhilfe-fuer-die-miete/100258176.html",
-    "https://www.handelsblatt.com/finanzen/immobilien/immobilien-krise-am-immobilienmarkt-trifft-nun-auch-gutverdiener/100258025.html",
-    "https://www.faz.net/aktuell/wirtschaft/immobilien-wohnen/moderner-wohnungsbau-schoener-bauen-das-geht-doch-accg-201213555.html"
-   ],
-   "punkte": 12,
-   "text": "Zum Semesterstart müssen Studenten bundesweit erneut mehr Geld für eine Wohnung oder ein WG-Zimmer bezahlen. Die Unterschiede bei den Kosten sind gravierend.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "262776fb",
-   "titel": "Hohe Preise: Tankstellen klagen über Betrug an Zapfsäulen",
-   "anriss": "Weil Benzin und Sprit derzeit so teuer sind, verzichten offenbar manche Autofahrer darauf, für ihre Tankfüllung zu bezahlen. Erste Tankstellenbetreiber reagieren bereits.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "heise"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.spiegel.de/wirtschaft/hohe-preise-tankstellen-klagen-ueber-betrug-an-zapfsaeulen-a-057356a9-c890-429d-84ae-777ff35a9061#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/auto-verkehr/was-sie-ueber-den-neuen-tankrabatt-wissen-muessen-accg-201271927.html",
-    "https://www.heise.de/news/Tankrabatt-ab-erstem-Oktober-En2x-kuendigt-volle-Weitergabe-der-Steuersenkung-an-11470775.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 12,
-   "text": "Weil Benzin und Sprit derzeit so teuer sind, verzichten offenbar manche Autofahrer darauf, für ihre Tankfüllung zu bezahlen. Erste Tankstellenbetreiber reagieren bereits.",
    "positiv": [],
    "negativ": []
   }
  ],
  "ketten": [],
  "gegenthese": {
-  "konsens": "Marktkonsens: Steigende Inflation (3,3 % in DE) und geopolitische Spannungen treiben Zinsen nach oben, belasten Anleihen und erhöhen Risikoaversion in Asien; staatliche Gas‑Speicher‑Aufträge gelten als notwendige Stütze.",
-  "gegen": "Gegenargument: Kerninflation zeigt erste Abschwächung, Gas‑Speicher‑Maßnahmen könnten Angebot sichern, während sich die Geldpolitik langsamer strafft; damit könnte die Zins‑ und Anleihe‑Abwärtsbewegung moderater ausfallen."
+  "konsens": "Markt erwartet kurzfristige Risikoaversion, DAX‑Verlust, steigende Kosten, schwächere Nachfrage, Asien‑Volatilität, Fokus auf Inflation und Lohnpolitik.",
+  "gegen": "Inflationsdaten könnten überbewertet sein, Arbeitslosigkeit sinkt, Konsumausgaben stabil, Unternehmensgewinne robust, daher könnte Markt bald wieder steigen."
  },
  "matrix": [
   {
@@ -391,11 +379,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "124.1 Mrd"
+     "121.3 Mrd"
     ],
     [
      "KGV (erw.)",
-     "23,4"
+     "22,9"
     ],
     [
      "Umsatzwachstum",
@@ -413,7 +401,7 @@
     ],
     [
      "Newsletter",
-     "in 1 Clustern"
+     "nicht erwaehnt"
     ],
     [
      "Reddit",
@@ -428,12 +416,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Dafür spricht ein robustes Auftragsbuch in den Bereichen Gas‑ und Dampfturbinen sowie Grid‑Technologien, das 2024‑2025 ein Umsatzwachstum von etwa 18 % unterstützt. Analysten sehen zudem steigende Margen durch digitale Services und ein erwartetes Kursziel von 197 €, was die Bewertung relativiert.",
-   "dagegen": "Dagegen spricht die hohe Bewertung (KGV 23,4) im Vergleich zu historischen Branchenbenchmarks und zu Siemens AG. Risiken bestehen in der Abhängigkeit von Gas‑Turbinen‑Nachfrage, Lieferkettenengpässen und möglichen Kostenüberschreitungen bei Siemens Gamesa‑Windprojekten.",
+   "dafuer": "Die Analystenmeinung ist eindeutig positiv (20 Kauf‑, 4 Halte‑, 2 Verkauf‑Empfehlungen). Das Unternehmen verzeichnet ein starkes Umsatzwachstum von +18 % und ein Kursziel von 197 € deutet auf weiteres Aufwärtspotenzial hin. Die Diversifizierung über Gas‑, Netz‑ und Wind‑Geschäfte reduziert das Geschäftsrisiko.",
+   "dagegen": "Ein KGV von 22,9 liegt über dem Branchendurchschnitt und könnte die Bewertung überhöhen. Die Siemens‑Gamesa‑Sparte kämpft mit Lieferverzögerungen und Margendruck, was das Ergebnis belasten kann. Fehlende Insider‑Transaktionen und kaum Reddit‑Diskussionen deuten auf geringe Markt‑Aufmerksamkeit hin.",
    "katalysatoren": [
-    "Q3‑2026 Ergebnisbericht mit aktualisiertem Margenausblick",
-    "Inbetriebnahme der neuen 14‑MW Offshore‑Windturbine von Siemens Gamesa",
-    "Ankündigung eines umfassenden Kosten‑ und Effizienzprogramms"
+    "Veröffentlichung des Q3‑Ergebnisses (voraussichtlich Q4 2026)",
+    "Auftragseingang für Gasturbinen in Asien",
+    "Zulassung neuer Windturbinen‑Modelle"
    ]
   },
   "RHM.DE": {
@@ -444,11 +432,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "45.0 Mrd"
+     "44.6 Mrd"
     ],
     [
      "KGV (erw.)",
-     "18,0"
+     "17,9"
     ],
     [
      "Umsatzwachstum",
@@ -481,12 +469,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Rheinmetall profitiert von steigenden Verteidigungsausgaben in Europa und den USA, was das Umsatzwachstum von +69 % unterstützt. Das Unternehmen verfügt über ein breites Portfolio aus Fahrzeugsystemen, Waffen und Elektronik, das Aufträge diversifiziert. Das erwartete KGV von 18 gilt als moderat, Analysten bewerten die Aktie überwiegend positiv (18 Buy, 3 Hold).",
-   "dagegen": "Die Bewertung bleibt anfällig für ein Nachlassen der Rüstungsausgaben, insbesondere bei fiskalpolitischen Kürzungen. Rheinmetall ist stark von staatlichen Aufträgen abhängig, was das Risiko von Auftragsverzögerungen erhöht. Das Kursziel von 1.608 € impliziert ein hohes Wachstum, das bei schwächerer Nachfrage schwer zu erreichen ist. Newsletter und Reddit geben kaum Informationen, was die Transparenz reduziert.",
+   "dafuer": "Dafür spricht das robuste Umsatzwachstum von 69 % im letzten Geschäftsjahr, das diversifizierte Portfolio aus Fahrzeugsystemen, Waffen und Elektronik sowie ein moderates KGV von 17,9. Die Analystenmeinung ist überwiegend positiv (18 Buy, 3 Hold). Zudem könnte steigende Rüstungsausgaben die Nachfrage stärken.",
+   "dagegen": "Dagegen stehen das hohe Kursziel von 1.608 €, das im Vergleich zum aktuellen Kurs eine erhebliche Aufwärtsbewegung impliziert, sowie die Abhängigkeit von staatlichen Rüstungsetats, die politisch schwanken können. Eine Konzentration auf den deutschen Markt erhöht das geopolitische Risiko, und das aktuelle KGV könnte bereits Preisprämien widerspiegeln.",
    "katalysatoren": [
-    "Verteidigungsbudget‑Entscheidungen der EU und USA im Herbst 2024",
-    "Unterzeichnung eines neuen Panzer‑Auftrags mit der Bundeswehr (geplant Q3 2024)",
-    "Veröffentlichung des Q2‑2024‑Quartalsberichts mit erwarteter Umsatzsteigerung"
+    "Erhöhung des deutschen Verteidigungsbudgets 2025",
+    "Auftrag für neue Schützenpanzer für die Bundeswehr",
+    "Vertrag über elektronische Verteidigungssysteme in Asien"
    ]
   },
   "ASML.AS": {
@@ -497,11 +485,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "618.3 Mrd"
+     "613.3 Mrd"
     ],
     [
      "KGV (erw.)",
-     "31,1"
+     "30,9"
     ],
     [
      "Umsatzwachstum",
@@ -534,12 +522,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Starke Nachfrage nach EUV‑Lithografie, 21 % Umsatzwachstum, 38 Analysten empfehlen Kauf, Marktführer mit 618 Mrd. EUR Marktkapitalisierung, Kursziel 2045 EUR impliziert erhebliches Aufwärtspotenzial. Technologische Führungsposition stärkt langfristige Wettbewerbsfähigkeit.",
-   "dagegen": "Hoher KGV von 31,1 deutet auf überbewertete Aktie hin, ein Analyst spricht Verkauf, Abhängigkeit von wenigen Großkunden erhöht Risiko, mögliche Lieferkettenengpässe bei hochkomplexen EUV‑Systemen, konjunkturelle Abschwächung der Chipnachfrage könnte Umsatzwachstum bremsen.",
+   "dafuer": "Dafür spricht die starke Marktposition von ASML im EUV‑Lithografie‑Segment, das 21 % Umsatzwachstum und die überwältigende Analystenmeinung (38 Buy, 3 Hold, 1 Sell). Das Kursziel von 2045 € impliziert weiteres Aufwärtspotenzial, während die Marktkapitalisierung von 613 Mrd € Stabilität signalisiert.",
+   "dagegen": "Entgegen steht das hohe KGV von 30,9, das im Vergleich zur Branche überbewertet wirkt, sowie die Abhängigkeit von wenigen Großkunden und konjunktureller Volatilität im Halbleitermarkt. Fehlende Insider‑Meldungen und kaum Reddit‑Diskussionen deuten auf Informationsdefizite hin.",
    "katalysatoren": [
-    "Auslieferung neuer High‑NA EUV‑Systeme im Q4 2026",
-    "Großauftrag von TSMC für EUV‑Werkzeuge",
-    "Q3‑Ergebnisbericht 2026 mit Umsatzwachstum über Erwartungen"
+    "Auslieferung der High‑NA EUV‑Maschine ab H2 2024",
+    "Großaufträge von TSMC und Intel für neue Fertigungsstraßen",
+    "Klärung von US‑EU‑Exportgenehmigungen für EUV‑Technologie"
    ]
   },
   "SU.PA": {
@@ -550,11 +538,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "165.6 Mrd"
+     "164.5 Mrd"
     ],
     [
      "KGV (erw.)",
-     "24,2"
+     "23,9"
     ],
     [
      "Umsatzwachstum",
@@ -572,7 +560,7 @@
     ],
     [
      "Newsletter",
-     "in 12 Clustern"
+     "in 14 Clustern"
     ],
     [
      "Reddit",
@@ -599,11 +587,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "256.3 Mrd"
+     "253.1 Mrd"
     ],
     [
      "KGV (erw.)",
-     "38,3"
+     "37,8"
     ],
     [
      "Umsatzwachstum",
@@ -636,13 +624,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Analysten sehen GE Vernova mit 30 Kauf‑Empfehlungen und 7 Halte‑Ratings ein starkes Wachstumspotenzial. Das Unternehmen deckt mit Power‑, Wind‑ und Electrification‑Segmenten mehrere Energiemärkte ab. Umsatzwachstum von +22 % und ein Kursziel von 1.230 USD spiegeln optimistische Erwartungen wider.",
-   "dagegen": "Insider‑Transaktionen zeigen vier Verkäufe und keine Käufe, was auf Bedenken des Managements hindeuten könnte. Die Bewertung (KGV 38,3) erscheint hoch, während die geringe Medienpräsenz (kaum Reddit‑Erwähnung, kein Newsletter‑Cover) Unsicherheit über die Marktwahrnehmung erzeugt.",
-   "katalysatoren": [
-    "Auslieferung neuer Offshore‑Windturbinen im Q4 2026",
-    "Einführung der nächsten Generation von Gasturbinen im Power‑Segment",
-    "Genehmigung von Großprojekten in Europa und Asien"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "CCJ": {
    "ticker": "CCJ",
@@ -652,11 +636,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "37.8 Mrd"
+     "37.7 Mrd"
     ],
     [
      "KGV (erw.)",
-     "47,6"
+     "47,5"
     ],
     [
      "Umsatzwachstum",
@@ -689,9 +673,13 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "Cameco ist einer der größten Uranproduzenten weltweit und profitiert von steigender Nachfrage nach Kernenergie, insbesondere in Asien und Europa. Analysten sehen mit 19 Kauf‑Empfehlungen und keinem Verkauf ein starkes Sentiment. Das Unternehmen hat keine bekannten Short‑Positionen, was das Risiko von Kursdruck mindert.",
+   "dagegen": "Das Unternehmen weist ein hohes KGV von 47,5 und ein negatives Umsatzwachstum von -7 % auf, was auf eine teure Bewertung bei rückläufigen Einnahmen hindeutet. Die Abhängigkeit von Uranpreisen macht es anfällig für Rohstoffvolatilität, und die geringe Medien‑ und Insider‑Berichterstattung lässt Unsicherheit über zukünftige Entwicklungen zurück.",
+   "katalysatoren": [
+    "Veröffentlichung der Quartalszahlen (voraussichtlich Ende Oktober 2026)",
+    "Entscheidung über neue Kernkraftwerksprojekte in den USA und Europa, die die Uran‑Nachfrage ankurbeln könnten",
+    "Fortschritt bei Westinghouse‑Zulassungen und neuen Lieferverträgen für Kernbrennstoffe"
+   ]
   },
   "FCX": {
    "ticker": "FCX",
@@ -701,11 +689,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "101.7 Mrd"
+     "100.5 Mrd"
     ],
     [
      "KGV (erw.)",
-     "17,0"
+     "16,8"
     ],
     [
      "Umsatzwachstum",
@@ -750,11 +738,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "5.486.4 Mrd"
+     "5.514.7 Mrd"
     ],
     [
      "KGV (erw.)",
-     "14,5"
+     "14,6"
     ],
     [
      "Umsatzwachstum",
@@ -793,6 +781,33 @@
   }
  },
  "shorts": [
+  {
+   "land": "NL",
+   "halter": "Two Sigma Investments, LP",
+   "emittent": "Pharming Group N.V.",
+   "prozent": 1.3,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "D. E. Shaw & Co., L.P.",
+   "emittent": "Basic-Fit N.V.",
+   "prozent": 0.6,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "AQR Capital Management, LLC",
+   "emittent": "TomTom N.V.",
+   "prozent": 0.5,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
   {
    "land": "UK",
    "halter": "Anavio Capital Partners LLP",
@@ -1035,37 +1050,10 @@
    "datum": "2019-06-10",
    "status": "aufgestockt",
    "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "GUEVOURA FUND LTD",
-   "emittent": "HAMMERSON PLC",
-   "prozent": 13.78,
-   "datum": "2020-09-24",
-   "status": "aufgestockt",
-   "zuvor": 0.57
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 13.68,
-   "datum": "2019-06-07",
-   "status": "aufgestockt",
-   "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 13.5,
-   "datum": "2019-06-06",
-   "status": "aufgestockt",
-   "zuvor": 0.53
   }
  ],
  "shorts_kennzahlen": {
-  "neu_diese_woche": 0,
+  "neu_diese_woche": 3,
   "meistgeshortet": {
    "name": "Premier Oil PLC",
    "summe": 2145.63
@@ -1079,6 +1067,94 @@
  "gespraech": [],
  "termine": [
   {
+   "datum": "2026-09-30",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-30",
+   "zeit": "",
+   "region": "us",
+   "was": "Gross Domestic Product",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-30",
+   "zeit": "",
+   "region": "us",
+   "was": "Gross Domestic Product by Industry",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-30",
+   "zeit": "",
+   "region": "us",
+   "was": "Personal Income and Outlays",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-09-30",
+   "zeit": "",
+   "region": "us",
+   "was": "Debt to Gross Domestic Product Ratios",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-10-01",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-10-02",
+   "zeit": "",
+   "region": "us",
+   "was": "Employment Situation",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-10-02",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-10-03",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-10-04",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-10-05",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
    "datum": "2026-10-05",
    "zeit": "13:00",
    "region": "global",
@@ -1087,6 +1163,6 @@
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 182,
+ "meldungen_gesamt": 175,
  "llm_aktiv": false
 }
