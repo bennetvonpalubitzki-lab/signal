@@ -1,9 +1,9 @@
 {
- "stand": "2026-10-12T12:17",
- "lauf": "2026101212",
+ "stand": "2026-10-12T16:14",
+ "lauf": "2026101216",
  "synthese": {
-  "kern": "Zunehmende regulatorische Eingriffe in Steuern, Handel und Finanzwesen erhöhen das systemische Risiko, das der Markt unterschätzt.",
-  "erlaeuterung": "Gerichtliche Prüfungen der Erbschaftsteuer, Steuerdelikte bei Deloitte und EU‑Importbeschränkungen zeigen verstärkte Aufsicht. Trotz steigender Regulierungsdrucks bleibt die Marktliquidität niedrig und das Risiko‑Appetit‑Perzentil nur moderat."
+  "kern": "Regulierungswelle erhöht Unsicherheit, Markt unterschätzt steigende fiskalische und geopolitische Risiken.",
+  "erlaeuterung": "Verschiedene politische Entscheidungen – von Steuerrecht über Importquoten bis zu Finanzaufsicht – erhöhen die makroökonomische Volatilität. Der Markt fokussiert kurzfristige Themen, vernachlässigt jedoch die kumulative Belastung durch höhere Zinsdruck und mögliche Schuldenkrisen."
  },
  "regime": [
   {
@@ -36,12 +36,12 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 68,
-     "delta": 4
+     "wert": 69,
+     "delta": 5
     },
     "eur": {
-     "wert": 85,
-     "delta": 4
+     "wert": 86,
+     "delta": 5
     }
    },
    "differenz": 17
@@ -51,8 +51,8 @@
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 54,
-     "delta": 6
+     "wert": 56,
+     "delta": 8
     }
    }
   },
@@ -84,6 +84,33 @@
  ],
  "cluster": [
   {
+   "id": "4ef0db44",
+   "titel": "Nobelpreis für Wirtschaftswissenschaften für US-Ökonomen Hall und Woodford",
+   "anriss": "Die US-Amerikaner Hall und Woodford werden mit dem Wirtschaftspreis in Gedenken an Alfred Nobel ausgezeichnet. Sie werden für ihre Arbeit zur Stabilisierung der Wirtschaft geehrt, erklärte die Königlich-Schwedische Akademie der Wissenschaften.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "heise",
+    "manager magazin"
+   ],
+   "anzahl": 5,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/weltwirtschaft/nobelpreis-wirtschaft-146.html",
+    "https://www.spiegel.de/wirtschaft/wirtschafsnobelpreis-geht-an-us-oekonomen-robert-e-hall-und-michael-woodford-a-c5499b28-236f-4315-85ac-3563147ba06b#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/nobelpreis-fuer-robert-hall-und-michael-woodford-2025-201310579.html",
+    "https://www.manager-magazin.de/politik/wirtschafsnobelpreis-geht-an-us-oekonomen-robert-e-hall-und-michael-woodford-a-bcc390cb-f718-44f9-97b8-b47c12177921#ref=rss",
+    "https://www.heise.de/news/Robert-Hall-und-Michael-Woodford-erhalten-den-Nobel-Gedenkpreis-fuer-Wirtschaft-11484367.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 20,
+   "text": "Die US‑Ökonomen Hall und Woodford erhalten den Nobelpreis für Wirtschaftswissenschaften für ihre Forschung zur Stabilisierung von Volkswirtschaften. Die Auszeichnung stärkt das Ansehen der makroökonomischen Forschung, hat jedoch keine unmittelbaren Auswirkungen auf Finanzmärkte oder Anlageklassen.",
+   "positiv": [
+    "Wirtschaftswissenschaftliche Forschung"
+   ],
+   "negativ": []
+  },
+  {
    "id": "dc2810c8",
    "titel": "Erbschaftsteuer beim Bundesverfassungsgericht auf dem Prüfstand",
    "anriss": "Am Bundesverfassungsgericht geht es diese Woche gleich zwei Mal um die Erbschaftsteuer: Karlsruhe verhandelt unter anderem darüber, ob Unternehmenserben zu wenig Steuern zahlen. Von A. Stein und A. Lagmöller.",
@@ -103,60 +130,13 @@
     "https://www.manager-magazin.de/unternehmen/erbschaftsteuer-reform-durch-verfassungsgesetz-firmenerben-laufen-in-die-finanzierungsfalle-a-14c7ea58-d021-4279-8f31-7c4969297da2#ref=rss"
    ],
    "punkte": 20,
-   "text": "Das Bundesverfassungsgericht prüft, ob die Erbschaftsteuer bei Unternehmensnachfolgen zu niedrig angesetzt ist. Ein mögliches Urteil könnte die Steuerlast für Unternehmenserben erhöhen und damit die Bewertung betroffener Unternehmen belasten.",
+   "text": "Das Bundesverfassungsgericht prüft, ob die Erbschaftsteuer bei Unternehmensnachfolgen zu niedrig angesetzt ist. Ein möglicher Härtefall könnte die Belastung von Familienunternehmen erhöhen und die Steuerlast für Erben steigen lassen.",
    "positiv": [],
    "negativ": [
-    "Unternehmensaktien"
+    "Unternehmensnachfolge",
+    "Immobilien (Erbschaft)",
+    "Erbschaftsteuer‑Einnahmen (für Staat)"
    ]
-  },
-  {
-   "id": "4ef0db44",
-   "titel": "Nobelpreis für Wirtschaftswissenschaften für US-Ökonomen Hall und Woodford",
-   "anriss": "Die US-Amerikaner Hall und Woodford werden mit dem Wirtschaftspreis in Gedenken an Alfred Nobel ausgezeichnet. Sie werden für ihre Arbeit zur Stabilisierung der Wirtschaft geehrt, erklärte die Königlich-Schwedische Akademie der Wissenschaften.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/weltwirtschaft/nobelpreis-wirtschaft-146.html",
-    "https://www.spiegel.de/wirtschaft/wirtschafsnobelpreis-geht-an-us-oekonomen-robert-e-hall-und-michael-woodford-a-c5499b28-236f-4315-85ac-3563147ba06b#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/robert-e-hall-und-michael-woodford-erhalten-wirtschaftsnobelpreis-accg-201309288.html",
-    "https://www.manager-magazin.de/politik/wirtschafsnobelpreis-geht-an-us-oekonomen-robert-e-hall-und-michael-woodford-a-bcc390cb-f718-44f9-97b8-b47c12177921#ref=rss"
-   ],
-   "punkte": 16,
-   "text": "Die US‑Ökonomen Hall und Woodford erhalten den Nobelpreis für Wirtschaftswissenschaften für ihre Beiträge zur Stabilisierung der Wirtschaft. Die Auszeichnung hat keine direkte, messbare Auswirkung auf Finanzmärkte oder spezifische Anlageklassen.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "d6dd1ab4",
-   "titel": "Dax aktuell: Dax notiert im Plus – VW-Aktie legt zu",
-   "anriss": "Der deutsche Leitindex erholt sich weiter. Am Montag blicken Anleger besonders auf die Automobilindustrie. Im Fokus steht zudem der Start der Jahrestagung des IWF und der Weltbank.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-notiert-im-plus-vw-aktie-legt-zu/100261443.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-fuenf-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
-    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-boerse-114.html",
-    "https://www.manager-magazin.de/finanzen/boerse/boerse-dax-laesst-25-000-punkte-marke-deutlich-hinter-sich-a-6487caa9-e43b-4f06-8285-d450fe2265b9#ref=rss"
-   ],
-   "punkte": 16,
-   "text": "Der DAX notiert im Plus, angetrieben vor allem durch eine Kurssteigerung der VW‑Aktie. Das stärkt die Stimmung für deutsche Leitindizes und insbesondere für die Automobilbranche.",
-   "positiv": [
-    "DAX",
-    "VW‑Aktie",
-    "Automobilsektor"
-   ],
-   "negativ": []
   },
   {
    "id": "1da216f2",
@@ -166,89 +146,116 @@
    "quellen": [
     "FAZ Wirtschaft",
     "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft"
+    "Tagesschau Wirtschaft",
+    "manager magazin"
    ],
-   "anzahl": 3,
+   "anzahl": 4,
    "links": [
     "https://www.tagesschau.de/wirtschaft/verbraucher/deutsche-post-preisanpassung-entwurf-bundesnetzagentur-100.html",
-    "https://www.spiegel.de/wirtschaft/post-porto-fuer-briefe-und-pakete-koennte-deutlich-teurer-werden-a-5f2cddd7-6cb6-4e9a-a204-55ddf857a25a#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/briefporto-der-deutschen-post-vor-rekordanstieg-accg-201309368.html"
+    "https://www.spiegel.de/wirtschaft/deutsche-post-porto-fuer-briefe-und-pakete-koennte-deutlich-teurer-werden-a-5f2cddd7-6cb6-4e9a-a204-55ddf857a25a#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/briefporto-der-deutschen-post-vor-rekordanstieg-accg-201309368.html",
+    "https://www.manager-magazin.de/unternehmen/mobilitaet/deutsche-post-porto-darf-ab-2027-deutlich-steigen-a-60f880d2-36bd-42d5-97b8-83263460d10d#ref=rss"
    ],
-   "punkte": 12,
-   "text": "Die Bundesnetzagentur erlaubt der Deutschen Post, das Briefporto bis 2027 auf 1,14 Euro anzuheben. Höhere Portokosten könnten die Erlöse der Post steigern, während Unternehmen mit hohem Briefaufkommen höhere Kosten tragen müssen.",
+   "punkte": 16,
+   "text": "Die Bundesnetzagentur erlaubt der Deutschen Post, das Briefporto bis 2027 auf 1,14 € pro Standardbrief zu erhöhen. Höhere Portokosten belasten private und geschäftliche Briefversender, während die Ertragslage der Post verbessert wird.",
    "positiv": [
-    "Deutsche Post‑Aktie"
+    "Deutsche Post (Umsatz)"
    ],
    "negativ": [
-    "Unternehmen mit hohem Briefvolumen"
+    "Versender von Briefen",
+    "E‑Commerce‑Logistik (Kosten)"
    ]
   },
   {
-   "id": "443ebf15",
-   "titel": "Audi: Verkäufe brechen um fast ein Fünftel ein",
-   "anriss": "Der Rückgang der Verkaufszahlen der Volkswagen-Tochter Audi nimmt ein bedenkliches Tempo an. Jetzt rächen sich offenbar strategische Fehlentscheidungen der Vergangenheit.",
+   "id": "9a95b125",
+   "titel": "EU begrenzt chinesische Hybridauto-Importe auf 350.000 pro Jahr",
+   "anriss": "Seit zwei Jahren sind EU-Zölle auf Elektroautos aus China in Kraft, viele chinesische Hersteller steigerten seitdem trotzdem ihre Exporte von Hybridfahrzeugen. Dem setzt die Europäische Union jetzt Grenzen.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
     "SPIEGEL Wirtschaft",
-    "manager magazin"
+    "Tagesschau Wirtschaft"
    ],
    "anzahl": 3,
    "links": [
-    "https://www.spiegel.de/wirtschaft/audi-verkaeufe-brechen-um-fast-ein-fuenftel-ein-a-dd366b0f-9e02-41d5-bec4-9530796afb9c#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-microsoft-praesident-smith-milch-wird-strenger-kontrolliert-als-ki-faz-200452404.html",
-    "https://www.manager-magazin.de/unternehmen/mobilitaet/volkswagen-autobauer-verkauft-erneut-weniger-autos-audi-und-vw-schwach-skoda-stabil-a-c26b90d8-16e6-41c2-8993-97f5e3e22341#ref=rss"
+    "https://www.tagesschau.de/wirtschaft/weltwirtschaft/eu-china-hybridautos-102.html",
+    "https://www.spiegel.de/wirtschaft/hybridautos-eu-begrenzt-importe-aus-china-auf-350-000-a-29c4e6e9-5ca9-4892-a3fc-572170f6a156#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/eu-begrenzt-einfuhr-von-hybridautos-aus-china-auf-350-000-accg-201310085.html"
    ],
    "punkte": 12,
-   "text": "Der Rückgang der Verkaufszahlen der Volkswagen-Tochter Audi nimmt ein bedenkliches Tempo an. Jetzt rächen sich offenbar strategische Fehlentscheidungen der Vergangenheit.",
+   "text": "Die EU setzt ein Jahreslimit von 350 000 Einheiten für den Import chinesischer Hybridfahrzeuge, um die Marktanteile europäischer Hersteller zu schützen. Die Beschränkung reduziert die Exportmöglichkeiten chinesischer Hersteller und stärkt die Wettbewerbsposition der EU‑Automobilindustrie.",
+   "positiv": [
+    "EU‑Automobilhersteller",
+    "Hybrid‑Fahrzeugmarkt in Europa"
+   ],
+   "negativ": [
+    "Chinesische Hybridauto‑Exporteure",
+    "Importabhängige Zulieferer"
+   ]
+  },
+  {
+   "id": "b9fe757a",
+   "titel": "Geldanlage: Lohnt sich jetzt der Kauf von französischen Staatsanleihen?",
+   "anriss": "Die Staatsanleihen Frankreichs werfen die höchsten Renditen aller Euro-Länder ab. Bei der Frage, ob sie interessant sind, gehen die Meinungen von Investoren auseinander.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen"
+   ],
+   "anzahl": 2,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/anleihen/geldanlage-lohnt-sich-jetzt-der-kauf-von-franzoesischen-staatsanleihen/100261507.html",
+    "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/geldanlage-wie-lange-koennen-die-aktienmaerkte-den-hohen-zinsen-trotzen/100260510.html"
+   ],
+   "punkte": 12,
+   "text": "Die Staatsanleihen Frankreichs werfen die höchsten Renditen aller Euro-Länder ab. Bei der Frage, ob sie interessant sind, gehen die Meinungen von Investoren auseinander.",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "318b1383",
-   "titel": "Deloitte falsified documents to evade tax on Abramovich's wealth",
-   "anriss": "Article URL: https://www.bbc.com/news/articles/c64g1l5389kvo Comments URL: https://news.ycombinator.com/item?id=50054207 Points: 217 # Comments: 50",
+   "id": "d6b8e4fe",
+   "titel": "Why aren't AI companies being charged for hacking?",
+   "anriss": "Article URL: https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/ Comments URL: https://news.ycombinator.com/item?id=50057278 Points: 227 # Comments: 190",
    "region": "global",
    "quellen": [
     "Hacker News Top"
    ],
    "anzahl": 9,
    "links": [
+    "https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/",
+    "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
     "https://www.bbc.com/news/articles/c64g1l5389kvo",
     "https://royfish.dev/fingerprints-are-the-new-cookies",
-    "https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them",
-    "https://twitter.com/karpathy/status/2109361546505966046",
-    "https://cartographers-nk.wonyoung.so/"
+    "https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them"
    ],
    "punkte": 11,
-   "text": "Article URL: https://www.bbc.com/news/articles/c64g1l5389kvo Comments URL: https://news.ycombinator.com/item?id=50054207 Points: 217 # Comments: 50",
+   "text": "Article URL: https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/ Comments URL: https://news.ycombinator.com/item?id=50057278 Points: 227 # Comments: 190",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "33d43557",
-   "titel": "EU begrenzt Importe für Hybridautos aus China auf 350.000",
-   "anriss": "Dieser Deal soll auch den Druck auf Deutschlands Autobauer mindern: EU und China hatten sich jüngst auf einen Kompromiss für die Importe von Hybridautos verständigt. Nun präsentiert Brüssel konkrete Zahlen.",
+   "id": "c0af3c75",
+   "titel": "Ministerwechsel: Nur so kann Schweitzer Erfolg haben",
+   "anriss": "Der frühere Ministerpräsident von Rheinland-Pfalz übernimmt das Arbeitsministerium von Bärbel Bas. Gelingt ihm ein Ausgleich zwischen Union und SPD? Dafür muss er schnell dazulernen.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft"
+    "manager magazin"
    ],
    "anzahl": 3,
    "links": [
-    "https://www.spiegel.de/wirtschaft/eu-begrenzt-importe-fuer-elektro-und-hybridautos-aus-china-auf-350-000-a-29c4e6e9-5ca9-4892-a3fc-572170f6a156#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/eu-begrenzt-einfuhr-von-hybridautos-aus-china-auf-350-000-accg-201310085.html",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/china-verkuendet-einigung-mit-eu-bei-handel-mit-hybridautos-accg-201303275.html"
+    "https://www.faz.net/aktuell/wirtschaft/baerbel-bas-abschied-chance-fuer-alexander-schweitzer-201310751.html",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/alexander-schweitzer-blockiert-er-baerbel-bas-rentenreform-201309871.html",
+    "https://www.manager-magazin.de/politik/deutschland/arbeitsministerin-baerbel-bas-kuendigt-ruecktritt-an-a-3d04000c-71ef-48a6-a33d-ec9b32eb1724#ref=rss"
    ],
    "punkte": 10,
-   "text": "Dieser Deal soll auch den Druck auf Deutschlands Autobauer mindern: EU und China hatten sich jüngst auf einen Kompromiss für die Importe von Hybridautos verständigt. Nun präsentiert Brüssel konkrete Zahlen.",
+   "text": "Der frühere Ministerpräsident von Rheinland-Pfalz übernimmt das Arbeitsministerium von Bärbel Bas. Gelingt ihm ein Ausgleich zwischen Union und SPD? Dafür muss er schnell dazulernen.",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "babe435b",
-   "titel": "Neobank: Marc Heß wird neuer Finanzvorstand bei N26",
-   "anriss": "Zuletzt hatte es im Vorstand und im Aufsichtsrat mehrere Wechsel gegeben. Mit dem neuen Finanzchef bei der Digitalbank N26 ist der Umbau des Vorstandes abgeschlossen.",
+   "id": "8d432bd7",
+   "titel": "Digitalbank: Marc Heß wird neuer Finanzvorstand bei N26",
+   "anriss": "N26 holt mit Marc Heß den nächsten traditionellen Banker in den Vorstand und schließt damit den umfangreichen Management-Umbau ab. Wie viel Neo und Fintech stecken künftig noch in der Digitalbank?",
    "region": "dach",
    "quellen": [
     "Handelsblatt Finanzen",
@@ -260,53 +267,15 @@
     "https://www.manager-magazin.de/unternehmen/banken/n26-digitalbank-ernennt-branchenveteran-marc-hess-zum-finanzvorstand-a-8b619e60-0b6d-4c80-b39c-df9a021fd22c#ref=rss"
    ],
    "punkte": 9,
-   "text": "Zuletzt hatte es im Vorstand und im Aufsichtsrat mehrere Wechsel gegeben. Mit dem neuen Finanzchef bei der Digitalbank N26 ist der Umbau des Vorstandes abgeschlossen.",
+   "text": "N26 holt mit Marc Heß den nächsten traditionellen Banker in den Vorstand und schließt damit den umfangreichen Management-Umbau ab. Wie viel Neo und Fintech stecken künftig noch in der Digitalbank?",
    "positiv": [],
    "negativ": []
   }
  ],
- "ketten": [
-  {
-   "ausloeser": "EU-Kommission beschließt im Q4 2026 eine weitere Reduktion des Jahreskontingents für Hybrid‑Importe aus China von 350 000 auf 200 000 Fahrzeuge",
-   "direkt": "Hersteller wie Volkswagen und Audi müssen ihre geplanten Hybrid‑Produktionszahlen in Europa kürzen und die Lieferungen aus China zurückfahren",
-   "zweite": "Zulieferer für Hybrid‑Antriebe (z. B. Bosch, ZF Friedrichshafen) und Batteriezellenproduzenten (z. B. Northvolt, Varta) verzeichnen geringere Auftragsvolumina, während die Nachfrage nach rein elektrischen Antrieben steigt",
-   "dritte": "Aktien von europäischen Automobilherstellern und deren Hybrid‑Zulieferern fallen, während EV‑Fokus‑Aktien und entsprechende ETFs (z. B. iShares MSCI Europe EV UCITS) steigen; gleichzeitig erhöht sich die Attraktivität von Rohstoff‑ETFs (Kupfer, Lithium) wegen steigender EV‑Nachfrage",
-   "positiv": [
-    "iShares MSCI Europe EV UCITS ETF",
-    "Northvolt‑Batterie‑Aktien",
-    "Lithium‑ETFs (z. B. LIT)",
-    "Deutsche Staatsanleihen (sichere Flucht) wegen erhöhter Marktvolatilität"
-   ],
-   "negativ": [
-    "Volkswagen‑AG",
-    "Audi (Teil von Volkswagen‑Konzern)",
-    "Bosch (Automotive‑Sparte)",
-    "ZF Friedrichshafen",
-    "Hybrid‑Fokus‑ETFs (z. B. L&G Hybrid‑Auto‑ETF)"
-   ],
-   "konfidenz": "mittel"
-  },
-  {
-   "ausloeser": "Bundesverfassungsgericht verkündet im Frühjahr 2027 ein Urteil, das die Erbschaftsteuer‑Freigrenze von 500 000 € auf 300 000 € senkt und die Steuersätze für Vermögen über 5 Mio. € um 2 Prozentpunkte erhöht",
-   "direkt": "Vermögende Familien beginnen, steueroptimierte Verkäufe von Unternehmensbeteiligungen, Kunst und Immobilien zu planen, um die höhere Steuerlast zu decken",
-   "zweite": "Der Markt für mittelständische Unternehmensanteile (z. B. über Private‑Equity‑Plattformen) wird mit zusätzlichen Angeboten überschwemmt; gleichzeitig steigt das Angebot an hochwertigen Immobilien in Metropolregionen (Berlin, München, Paris)",
-   "dritte": "European‑Mid‑Cap‑Aktien (z. B. im MDAX) erfahren kurzfristig Kursdruck, während europäische Immobilien‑REITs (z. B. Vonovia, Unibail‑Rodamco) und Staatsanleihen (insbesondere deutsche Bundesanleihen) von einer Flucht in sichere, steuerlich begünstigte Anlagen profitieren",
-   "positiv": [
-    "Deutsche Bundesanleihen (10‑Jahres‑Yield‑Sinken)",
-    "European Real Estate Investment Trusts (z. B. Vonovia SE, Unibail‑Rodamco)",
-    "Private‑Equity‑Fonds, die günstige Kaufgelegenheiten nutzen"
-   ],
-   "negativ": [
-    "MDAX‑Unternehmen (z. B. K+S, Evotec)",
-    "Luxus‑Immobilien in deutschen Metropolen",
-    "Kunst‑ und Sammlermärkte (Preisrückgänge bei Auktionsobjekten)"
-   ],
-   "konfidenz": "niedrig"
-  }
- ],
+ "ketten": [],
  "gegenthese": {
-  "konsens": "Die Märkte sehen die meisten Meldungen bereits eingepreist; DAX‑Aufwärtsdrift, VW‑Stärkung, EU‑Beschränkung und N26‑Leitung haben kaum kurzfristige Überraschungen.",
-  "gegen": "Unsicherheit bei der Erbschaftsteuer‑Entscheidung, Audis Verkaufsrückgang und mögliche Rechtsfolgen für Abramovich könnten zu Nachjustierungen führen."
+  "konsens": "Französische Staatsanleihen gelten aktuell als attraktiv wegen über 3 % Rendite, stabiler Nachfrage und relativ geringem Risiko gegenüber anderen Euro‑Staatsanleihen.",
+  "gegen": "Gegenargument: Frankreichs hohe Defizit‑ und Schuldenquote, mögliche Zinssteigerungen und Inflationsdruck könnten die Rendite entwerten und Kursverluste verursachen."
  },
  "matrix": [
   {
@@ -423,11 +392,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "126.0 Mrd"
+     "124.9 Mrd"
     ],
     [
      "KGV (erw.)",
-     "23,7"
+     "23,5"
     ],
     [
      "Umsatzwachstum",
@@ -445,7 +414,7 @@
     ],
     [
      "Newsletter",
-     "nicht erwaehnt"
+     "in 1 Clustern"
     ],
     [
      "Reddit",
@@ -460,12 +429,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die Mehrheit der Analysten (20 Kauf, 4 Halten, 2 Verkauf) spricht für Siemens Energy. Das Umsatzwachstum von +18 % und ein moderates KGV von 23,7 deuten auf solide Ertragskraft hin. Das Kursziel von 197 EUR liegt über dem aktuellen Kurs und signalisiert Aufwärtspotenzial.",
-   "dagegen": "Ein KGV von 23,7 ist im Vergleich zu Peer‑Unternehmen hoch, was auf überbewertete Erwartungen schließen lässt. Das Unternehmen ist stark im Gas‑ und Dampfturbinen‑Segment verankert, das langfristig durch die Energiewende unter Druck geraten könnte. Fehlende Insider‑Meldungen und geringe öffentliche Diskussion erhöhen das Unsicherheitsrisiko.",
+   "dafuer": "Dafür spricht, dass 20 Analysten ein Kauf‑Rating vergeben, das Kursziel von 197 € gegenüber dem aktuellen Kurs ein Aufwärtspotenzial von rund 15 % impliziert. Das Umsatzwachstum von +18 % und die diversifizierten Segmente (Gas, Grid, Industrie, Gamesa) stärken das Geschäftsmodell.",
+   "dagegen": "Dagegen spricht ein relativ hohes KGV von 23,5, das im Vergleich zu anderen Energie‑Technologiekonzernen überbewertet wirkt. Die Abhängigkeit von Gas‑ und Wind‑Turbinen birgt Risiken bei der Energiewende, und die geringe Aufmerksamkeit auf Reddit sowie das Fehlen von Insider‑Transaktionen deuten auf Unsicherheit hin.",
    "katalysatoren": [
-    "Q3‑Ergebnisveröffentlichung mit Fokus auf Margenentwicklung",
-    "Auftragseingang für neue Gasturbinen‑ und Grid‑Technologie‑Projekte",
-    "Fortschritt bei Siemens Gamesa‑Windturbinen‑Auslieferungen und mögliche Förderprogramme"
+    "Q3‑2025 Quartalsbericht mit erwarteter Margenverbesserung",
+    "Zulassung und Auslieferung der neuen Siemens Gamesa Offshore‑Turbine (5‑MW‑Klasse)",
+    "Großauftrag für Grid‑Technologie im Rahmen des EU‑Green‑Deal‑Programms"
    ]
   },
   "RHM.DE": {
@@ -488,13 +457,13 @@
     ],
     [
      "Kursziel",
-     "1584 EUR"
+     "1580 EUR"
     ]
    ],
    "quellen": [
     [
      "Analysten",
-     "16 Kauf / 4 Halten / 0 Verkauf"
+     "17 Kauf / 4 Halten / 0 Verkauf"
     ],
     [
      "Newsletter",
@@ -513,12 +482,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Dafür spricht, dass 16 Analysten Rheinmetall mit Kaufempfehlung bewerten, das Unternehmen ein Umsatzwachstum von 69 % verzeichnet und von steigenden Verteidigungsausgaben in Deutschland und Europa profitiert. Die breite Produktpalette in Fahrzeugsystemen, Waffen und Elektronik bietet stabile Auftragsbasis.",
-   "dagegen": "Dagegen spricht, dass Rheinmetall stark von staatlichen Rüstungsetats abhängig ist, die bei politischen Wendungen schwanken können. Das KGV von 18,2 ist im Vergleich zur Branche hoch, und die geringe Medienpräsenz (kaum Reddit, keine Insider‑Meldungen) lässt Unsicherheit über künftige Auftragslage bestehen.",
+   "dafuer": "Rheinmetall verzeichnet ein Umsatzwachstum von +69 % und profitiert von steigender Rüstungsausgaben in Europa und den USA. Das Unternehmen deckt mit Vehicle Systems, Weapon & Ammunition sowie Electronic Solutions mehrere Marktsegmente ab. Die Analystenmeinung ist überwiegend positiv (17 Buy, 4 Hold).",
+   "dagegen": "Das KGV von 18,2 liegt über dem Branchendurchschnitt und lässt wenig Spielraum für Kursgewinne. Rheinmetall ist stark von staatlichen Rüstungsetats abhängig, was bei Haushaltskürzungen das Ergebnis belasten könnte. Fehlende Insider‑Transaktionen und keine Short‑Positionen deuten auf geringe Marktliquidität hin.",
    "katalysatoren": [
-    "Veröffentlichung des nächsten Quartalsberichts mit erwarteten Auftragszuwächsen",
-    "Beschluss des deutschen Verteidigungsministeriums zu zusätzlichen Aufträgen für Schützenpanzer und gepanzerte Transporter",
-    "EU‑Verteidigungsinitiative, die Exportmöglichkeiten für elektronische Lösungen erweitert"
+    "Erhöhung des deutschen Rüstungshaushalts 2025",
+    "Vergabe neuer US‑Verteidigungsaufträge",
+    "Einführung der nächsten Generation von elektronischen Gefechtssystemen"
    ]
   },
   "ASML.AS": {
@@ -529,11 +498,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "612.9 Mrd"
+     "605.3 Mrd"
     ],
     [
      "KGV (erw.)",
-     "30,8"
+     "30,2"
     ],
     [
      "Umsatzwachstum",
@@ -541,7 +510,7 @@
     ],
     [
      "Kursziel",
-     "2058 EUR"
+     "2057 EUR"
     ]
    ],
    "quellen": [
@@ -566,12 +535,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "ASML dominiert den EUV-Markt, hält über 70 % Marktanteil, und profitiert von starkem Umsatzwachstum von 21 % bei steigender Chipnachfrage. Analysten bewerten das Unternehmen überwiegend positiv (37 Buy), das Kursziel von 2.058 € impliziert weiteres Aufwärtspotenzial. Das KGV von 30,8 erscheint im Branchenvergleich moderat.",
-   "dagegen": "Das Unternehmen ist hoch bewertet; ein KGV von 30,8 liegt über dem Durchschnitt vieler Halbleiterhersteller. Die Abhängigkeit von wenigen Großkunden erhöht das Risiko, und konjunkturelle Abschwünge im Chipsektor könnten die Auftragslage dämpfen. Zudem gibt es keine bekannten Short‑Positionen, was die Marktliquidität einschränken könnte.",
+   "dafuer": "Starkes Analysten‑Buy‑Signal (37 Kauf vs 4 Halten, 1 Verkauf) und 21 % Umsatzwachstum zeigen robuste Nachfrage nach EUV‑Lithografie. Der Marktwert von 605 Mrd € und das Kursziel von 2.057 € unterstreichen das Vertrauen in langfristige Marktführerschaft.",
+   "dagegen": "KGV von 30,2 ist hoch und lässt wenig Spielraum für Fehlentwicklungen. Fehlende Insider‑Meldungen und kaum Reddit‑Diskussion deuten auf geringe Marktbreite hin. Ohne klare Kurz‑ oder Mittel‑Frist‑Risiken, etwa Lieferkettenengpässe, bleibt das Rating anfällig.",
    "katalysatoren": [
-    "Auslieferung der nächsten EUV‑Tool‑Generation im 4. Quartal 2024",
-    "Markteinführung des High‑NA EUV‑Systems im Jahr 2025",
-    "Kapazitätserweiterungen bei Schlüssel­kunden wie TSMC und Samsung"
+    "Einführung des nächsten High‑NA EUV‑Systems (geplant für H2 2026)",
+    "Quartalsbericht Q3 2026 mit erwarteter Umsatzsteigerung",
+    "Großaufträge von TSMC oder Samsung nach Technologiewechsel"
    ]
   },
   "SU.PA": {
@@ -582,7 +551,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "149.9 Mrd"
+     "149.5 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -604,7 +573,7 @@
     ],
     [
      "Newsletter",
-     "in 16 Clustern"
+     "in 19 Clustern"
     ],
     [
      "Reddit",
@@ -631,11 +600,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "267.6 Mrd"
+     "267.4 Mrd"
     ],
     [
      "KGV (erw.)",
-     "39,8"
+     "39,7"
     ],
     [
      "Umsatzwachstum",
@@ -680,11 +649,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "38.4 Mrd"
+     "37.6 Mrd"
     ],
     [
      "KGV (erw.)",
-     "48,5"
+     "47,6"
     ],
     [
      "Umsatzwachstum",
@@ -717,9 +686,13 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "Starke Analystenunterstützung (19 Buy, 2 Hold) und keine bekannten Short‑Positionen deuten auf Marktvertrauen hin. Das Unternehmen profitiert von langfristiger Nachfrage nach Kernenergie, hat ein diversifiziertes Geschäftsmodell (Uran, Fuel Services, Westinghouse) und solide Cash‑Flows aus bestehenden Verträgen.",
+   "dagegen": "Das Kurs‑Gewinn‑Verhältnis von 47,6 ist hoch, das Umsatzwachstum liegt bei –7 % und das Kursziel von 127 USD impliziert weitere Aufwärtsrisiken. Politische Unsicherheiten bezüglich Kernenergie und mögliche regulatorische Änderungen können die Nachfrage und damit die Margen belasten.",
+   "katalysatoren": [
+    "Ankündigung neuer Lieferverträge mit Versorgungsunternehmen in Nordamerika oder Europa",
+    "Wiederaufnahme oder Ausbau von Kernkraftwerken nach politischen Beschlüssen",
+    "Preissteigerungen im Uran‑Spot‑Markt durch Angebotsengpässe oder geopolitische Spannungen"
+   ]
   },
   "FCX": {
    "ticker": "FCX",
@@ -729,7 +702,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "105.8 Mrd"
+     "105.9 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -741,7 +714,7 @@
     ],
     [
      "Kursziel",
-     "78 USD"
+     "77 USD"
     ]
    ],
    "quellen": [
@@ -778,11 +751,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "5.536.4 Mrd"
+     "5.474.8 Mrd"
     ],
     [
      "KGV (erw.)",
-     "14,4"
+     "14,2"
     ],
     [
      "Umsatzwachstum",
@@ -796,7 +769,7 @@
    "quellen": [
     [
      "Analysten",
-     "59 Kauf / 2 Halten / 1 Verkauf"
+     "58 Kauf / 2 Halten / 1 Verkauf"
     ],
     [
      "Newsletter",
@@ -821,6 +794,24 @@
   }
  },
  "shorts": [
+  {
+   "land": "NL",
+   "halter": "PDT Partners, LLC",
+   "emittent": "Signify N.V.",
+   "prozent": 1.29,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "Marshall Wace LLP",
+   "emittent": "Signify N.V.",
+   "prozent": 0.51,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
   {
    "land": "UK",
    "halter": "Anavio Capital Partners LLP",
@@ -1072,35 +1063,17 @@
    "datum": "2020-09-24",
    "status": "aufgestockt",
    "zuvor": 0.57
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 13.68,
-   "datum": "2019-06-07",
-   "status": "aufgestockt",
-   "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 13.5,
-   "datum": "2019-06-06",
-   "status": "aufgestockt",
-   "zuvor": 0.53
   }
  ],
  "shorts_kennzahlen": {
-  "neu_diese_woche": 0,
+  "neu_diese_woche": 2,
   "meistgeshortet": {
    "name": "Premier Oil PLC",
    "summe": 2145.63
   },
   "aktivster_halter": {
    "name": "Marshall Wace LLP",
-   "anzahl": 14033
+   "anzahl": 14034
   },
   "gesamt": 107395
  },
@@ -1203,6 +1176,6 @@
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 142,
- "llm_aktiv": true
+ "meldungen_gesamt": 153,
+ "llm_aktiv": false
 }
