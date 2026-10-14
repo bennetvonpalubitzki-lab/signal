@@ -1,9 +1,9 @@
 {
- "stand": "2026-10-14T17:41",
- "lauf": "2026101417",
+ "stand": "2026-10-14T22:00",
+ "lauf": "2026101422",
  "synthese": {
-  "kern": "Regulatorische und geopolitische Impulse dominieren, während Markt die sinkende Risikobereitschaft verkennt.",
-  "erlaeuterung": "Die Meldungen reichen von Steuerpolitik über Unternehmensstrukturen bis zu geldpolitischen Überraschungen, was die Unsicherheit erhöht. Gleichzeitig zeigen die Regimewerte niedrige Risikoappetit- und Liquiditätswerte, die vom Markt bislang kaum beachtet werden."
+  "kern": "Politische Eingriffe und Inflationsschock belasten Risikoappetit, während Märkte die steigende Unsicherheit im Geld‑ und Energiesektor vernachlässigen.",
+  "erlaeuterung": "Die Kombination aus regulatorischen Maßnahmen (Zuckersteuer, Lufthansa‑TAP‑Deal) und überraschender US‑Inflationsdynamik erhöht die makroökonomische Unsicherheit. Trotzdessen fokussieren Anleger vorwiegend auf einzelne Unternehmensnachrichten, übersehen jedoch den rückläufigen Risikoappetit und die steigende Zinsbelastung."
  },
  "regime": [
   {
@@ -11,15 +11,15 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 77,
-     "delta": 1
+     "wert": 78,
+     "delta": 4
     },
     "eur": {
      "wert": 90,
      "delta": -4
     }
    },
-   "differenz": 13
+   "differenz": 12
   },
   {
    "name": "wachstum",
@@ -36,23 +36,23 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 70,
-     "delta": 4
+     "wert": 72,
+     "delta": 6
     },
     "eur": {
      "wert": 86,
      "delta": 4
     }
    },
-   "differenz": 16
+   "differenz": 14
   },
   {
    "name": "risikoappetit",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 47,
-     "delta": -16
+     "wert": 46,
+     "delta": -17
     }
    }
   },
@@ -62,7 +62,7 @@
    "spuren": {
     "us": {
      "wert": 47,
-     "delta": 4
+     "delta": 7
     },
     "eur": {
      "wert": 4,
@@ -76,40 +76,13 @@
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 83,
-     "delta": -1
+     "wert": 84,
+     "delta": 0
     }
    }
   }
  ],
  "cluster": [
-  {
-   "id": "3203626c",
-   "titel": "Einigung in der Koalition: So soll die Zuckersteuer aussehen",
-   "anriss": "Der Streit in der schwarz-roten Koalition über die Steuer auf zuckergesüßte Getränke ist beigelegt. Das Kabinett hat einen Regelungsvorschlag beschlossen. Was geplant ist und was die Regierung damit erreichen will.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 8,
-   "links": [
-    "https://www.tagesschau.de/inland/innenpolitik/zuckersteuer-einigung-folgen-100.html",
-    "https://www.tagesschau.de/inland/innenpolitik/zuckersteuer-bundesregierung-einigung-100.html",
-    "https://www.spiegel.de/wirtschaft/service/zuckersteuer-so-viel-mehr-koennten-getraenke-kuenftig-kosten-a-5933868e-cee3-4962-b875-2b63af2a97cd#ref=rss",
-    "https://www.spiegel.de/wirtschaft/service/zuckersteuer-kabinett-beschliesst-neue-abgabe-in-einer-light-variante-a-40b71990-772c-447c-aa5f-afd7c741dc6f#ref=rss",
-    "https://www.spiegel.de/wirtschaft/service/zuckersteuer-koalition-legt-streit-bei-a-30edbf41-9e59-46e1-9e06-6d0accbe7ed2#ref=rss"
-   ],
-   "punkte": 24,
-   "text": "Die Bundesregierung hat im Kabinett einen Entwurf für eine Zuckersteuer auf zuckergesüßte Getränke beschlossen. Die Regelung würde die Preise für zuckerhaltige Softdrinks erhöhen und damit die Margen der Getränkehersteller sowie der Zuckerindustrie belasten.",
-   "positiv": [],
-   "negativ": [
-    "Getränkeindustrie (zuckerhaltige Softdrinks)",
-    "Zuckerindustrie"
-   ]
-  },
   {
    "id": "bd17794c",
    "titel": "Dax aktuell: Dax verliert Tagesgewinne – Ölpreis schwankt",
@@ -123,16 +96,45 @@
    "anzahl": 5,
    "links": [
     "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-kaum-veraendert-chipwert-groesster-verlierer/100262096.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-us-boersen-notieren-uneinheitlich-inflation-steigt-unerwartet-stark/100262180.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-us-boersen-schliessen-mit-verlusten-inflation-steigt-unerwartet-stark/100262180.html",
     "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-fuenf-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
     "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-nasdaq-berichtssaison-100.html",
     "https://www.manager-magazin.de/finanzen/boerse/boerse-dax-im-plus-oelpreise-steigen-a-743fbfb7-222f-4471-9fc4-c539449804b8#ref=rss"
    ],
    "punkte": 23,
-   "text": "Am Mittwoch verlor der DAX nach vorherigen Tagesgewinnen an Boden, während der Ölpreis schwankte. Anleger richteten ihr Augenmerk auf die Quartalsberichte US‑amerikanischer Banken und aktuelle Inflationsdaten, deren Einfluss auf die Kurse noch unklar ist.",
+   "text": "Der DAX verlor am Mittwoch seine Tagesgewinne, während der Ölpreis zwischen den Höchst- und Tiefstständen schwankte. Anleger richteten ihr Augenmerk auf die bevorstehenden US‑Banken‑Bilanzen und aktuelle Inflationsdaten, was die Stimmung an der Frankfurter Börse dämpfte.",
    "positiv": [],
    "negativ": [
-    "Deutsche Aktien (DAX)"
+    "DAX",
+    "US‑Banken‑Aktien",
+    "Öl (Volatilität)"
+   ]
+  },
+  {
+   "id": "3203626c",
+   "titel": "Einigung in der Koalition: So soll die Zuckersteuer aussehen",
+   "anriss": "Der Streit in der schwarz-roten Koalition über die Steuer auf zuckergesüßte Getränke ist beigelegt. Das Kabinett hat einen Regelungsvorschlag beschlossen. Was geplant ist und was die Regierung damit erreichen will.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 7,
+   "links": [
+    "https://www.tagesschau.de/inland/innenpolitik/zuckersteuer-einigung-folgen-100.html",
+    "https://www.tagesschau.de/inland/innenpolitik/zuckersteuer-bundesregierung-einigung-100.html",
+    "https://www.spiegel.de/wirtschaft/service/zuckersteuer-so-viel-mehr-koennten-getraenke-kuenftig-kosten-a-5933868e-cee3-4962-b875-2b63af2a97cd#ref=rss",
+    "https://www.spiegel.de/wirtschaft/service/zuckersteuer-kabinett-beschliesst-neue-abgabe-in-einer-light-variante-a-40b71990-772c-447c-aa5f-afd7c741dc6f#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/lars-klingbeil-und-die-ki-steuer-warum-eine-ki-steuer-zur-k-o-steuer-mutieren-wuerde-201313625.html"
+   ],
+   "punkte": 22,
+   "text": "Die schwarz‑rote Koalition hat einen Gesetzentwurf zur Zuckersteuer für zuckergesüßte Getränke beschlossen. Die Regelung dürfte den Umsatz von Soft‑Drink‑Herstellern belasten und die Nachfrage nach Zucker reduzieren.",
+   "positiv": [],
+   "negativ": [
+    "Soft‑Drink‑Branche",
+    "Zuckerindustrie"
    ]
   },
   {
@@ -156,11 +158,11 @@
     "https://www.manager-magazin.de/unternehmen/handel/rene-benko-signa-gruender-beantragt-hausarrest-mit-fussfessel-a-d9afd739-d564-4669-895e-7d5afabb7b63#ref=rss"
    ],
    "punkte": 21,
-   "text": "René Benko, Gründer von Signa, wurde aus der Haft entlassen, muss jedoch eine Fußfessel tragen. Die rechtlichen Probleme des Unternehmers belasten das Vertrauen in das österreichische Immobilienunternehmen und können die Finanzierungskosten erhöhen.",
+   "text": "René Benko, Gründer von Signa, wurde aus dem Gefängnis entlassen, muss jedoch eine Fußfessel tragen. Die Nachricht hat nur begrenzte Auswirkungen auf die Signa‑Gruppe und den österreichischen Immobiliensektor, da die rechtlichen Verfahren noch laufen.",
    "positiv": [],
    "negativ": [
-    "Immobilienbranche (Signa)",
-    "Österreichischer Immobilienmarkt"
+    "Signa‑Immobilien",
+    "österreichischer Immobilienmarkt"
    ]
   },
   {
@@ -178,19 +180,18 @@
    "links": [
     "https://www.tagesschau.de/wirtschaft/unternehmen/uebernahme-tap-lufthansa-100.html",
     "https://www.spiegel.de/wirtschaft/unternehmen/lufthansa-erhaelt-zuschlag-fuer-portugiesische-airline-tap-a-94b1fa05-0e14-4f74-9003-57fb08af5dd7#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-lufthansa-gewinnt-bieterrennen-um-airline-tap-faz-200452404.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/lufthansa-uebernimmt-tap-deutschland-schlaegt-air-france-klm-201317314.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/lufthansa-uebernimmt-tap-ein-meilenstein-zum-100-geburtstag-201317147.html"
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-kerosin-mangel-am-flughafen-frankfurt-lufthansa-reagiert-faz-200452404.html",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/lufthansa-uebernimmt-tap-ein-meilenstein-zum-100-geburtstag-201317147.html",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/lufthansa-uebernimmt-tap-deutschland-schlaegt-air-france-klm-201317314.html"
    ],
    "punkte": 20,
-   "text": "Portugal hat der Lufthansa den Erwerb von 44,9 % der staatlichen Fluggesellschaft TAP genehmigt, wodurch die Lufthansa ihre Präsenz im südeuropäischen Markt ausbaut. Der Verlust des Zuschlags für Air France‑KLM wirkt sich negativ auf deren Expansionspläne aus, während TAP von frischem Kapital profitieren dürfte.",
+   "text": "Portugal hat den Einstieg der Lufthansa in die staatliche Fluggesellschaft TAP genehmigt; Lufthansa erwarb 44,9 % der Anteile gegenüber Air France‑KLM. Der Deal dürfte den Aktienkurs von TAP beflügeln und das Vertrauen in die europäische Luftfahrtbranche stärken.",
    "positiv": [
-    "Lufthansa",
-    "TAP (Kapitalzufluss)"
+    "TAP‑Aktien",
+    "Lufthansa‑Aktien (potenziell)",
+    "europäische Luftfahrtbranche"
    ],
-   "negativ": [
-    "Air France‑KLM"
-   ]
+   "negativ": []
   },
   {
    "id": "82c521eb",
@@ -209,28 +210,6 @@
    ],
    "punkte": 16,
    "text": "Kaum eine wichtige Fondsstrategie lief zuletzt schlechter als Anlagen in europäische Staatsanleihen, wie eine Auswertung für das Handelsblatt zeigt. Einzelne Produkte konnten die Verluste immerhin begrenzen.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "274000f0",
-   "titel": "Künstliche Intelligenz: Was bedeutet die neue KI-Welt für Unternehmen?",
-   "anriss": "Kostendruck durch teure Energie, hohe Arbeitskosten und geopolitische Krisen - die Stimmung von Unternehmen in Deutschland ist getrübt. Welchen Einfluss haben in dieser Zeit die Veränderungen durch Künstliche Intelligenz? Von Anna Knake.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/digitales/kuenstliche-intelligenz-unternehmen-deutschland-100.html",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/lars-klingbeil-und-die-ki-steuer-warum-eine-ki-steuer-zur-k-o-steuer-mutieren-wuerde-201313625.html",
-    "https://www.faz.net/aktuell/wirtschaft/wirtschaftswissen/kuenstliche-intelligenz-wer-zahlt-kuenftig-steuern-accg-201279256.html",
-    "https://www.manager-magazin.de/unternehmen/dienstleister/accenture-und-ki-was-an-der-neuen-boersenstory-dran-ist-a-a0c28423-6d98-43de-9917-060cdb4f0575#ref=rss"
-   ],
-   "punkte": 14,
-   "text": "Kostendruck durch teure Energie, hohe Arbeitskosten und geopolitische Krisen - die Stimmung von Unternehmen in Deutschland ist getrübt. Welchen Einfluss haben in dieser Zeit die Veränderungen durch Künstliche Intelligenz",
    "positiv": [],
    "negativ": []
   },
@@ -275,12 +254,33 @@
    "text": "Wer in Deutschland erbt, muss Steuern zahlen. Außer man erbt ein Unternehmen, dann gibt es Ausnahmen - und oft fallen keine Steuern an. Ob das in Ordnung ist, muss nun das Verfassungsgericht entscheiden. Von Antonetta St",
    "positiv": [],
    "negativ": []
+  },
+  {
+   "id": "5751e772",
+   "titel": "Netflix streicht rund 1000 Jobs",
+   "anriss": "Beim Streamingkonzern Netflix sollen weltweit sechs Prozent der Stellen wegfallen. Die Chefs begründen das mit Disziplin und Prioritätensetzung.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.spiegel.de/wirtschaft/unternehmen/netflix-streicht-rund-1000-jobs-a-acf7ff59-dfe8-4892-8031-c826a62f40b4#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/netflix-baut-1000-arbeitsplaetze-ab-201318406.html",
+    "https://www.manager-magazin.de/unternehmen/dienstleister/netflix-streamingdienst-streicht-rund-1000-jobs-aktie-faellt-a-7bd8730b-dad1-4845-be79-55f9c805381c#ref=rss"
+   ],
+   "punkte": 12,
+   "text": "Beim Streamingkonzern Netflix sollen weltweit sechs Prozent der Stellen wegfallen. Die Chefs begründen das mit Disziplin und Prioritätensetzung.",
+   "positiv": [],
+   "negativ": []
   }
  ],
  "ketten": [],
  "gegenthese": {
-  "konsens": "Markt bewertet die Zuckersteuer, die US‑Bankstrafe, das TAP‑Investitionssignal und das Erbschaftsteuer‑Urteil als kurzfristig begrenzt; DAX‑Verlust wird hauptsächlich auf Öl‑ und Zinsvolatilität zurückgeführt.",
-  "gegen": "Die fiskalischen Eingriffe könnten längerfristige Preis‑ und Wettbewerbswirkungen haben; die Strafe signalisiert strengere Aufsicht, und die TAP‑Beteiligung birgt geopolitische Risiken, die der Markt unterschätzt."
+  "konsens": "Kurzfristige DAX‑Schwäche, volatile Ölpreise, Zuckersteuer kaum wachstumshemmend, Benko‑Risiko begrenzt, TAP‑Eintritt positiv, Euro‑Anleihefonds schwach, BofA‑Strafe begrenzt, Erbschaftsteuer umstritten, Netflix‑Cuts zeigen Branchenabschwächung.",
+  "gegen": "Die genannten Schwächen könnten überbewertet sein – solide Unternehmensgewinne, mögliche Öl‑Preisanstiege, langfristige Gesundheitsvorteile der Zuckersteuer, Benko‑Entlassung mindert Einfluss, TAP‑Integration birgt Risiken, steigende Renditen stärken Anleihefonds, regulatorischer Druck belastet Banken, Erbschaftsteuer kann fair gestaltet werden, Netflix‑Reduktionen stärken Profitabilität."
  },
  "matrix": [
   {
@@ -483,9 +483,13 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "Rheinmetall verzeichnet ein starkes Umsatzwachstum von +69 % und ein moderates KGV von 18,6, was im Vergleich zur Branche attraktiv erscheint. Die Analysten‑Stimmung ist überwiegend positiv (17 Buy, 4 Hold, 0 Sell) und es gibt keine bekannten Short‑Positionen, was das Vertrauen in die Aktie unterstreicht.",
+   "dagegen": "Das Unternehmen ist stark von staatlichen Rüstungsaufträgen abhängig, was bei politischen oder Haushaltsänderungen das Ergebnis belasten kann. Das KGV von 18,6 ist für ein defensives Unternehmen relativ hoch, und das Fehlen von Insider‑Transaktionen könnte auf zurückhaltende Marktteilnehmer hindeuten. Zudem gibt es kaum öffentliche Diskussionen (Reddit, Newsletter).",
+   "katalysatoren": [
+    "Ankündigung und Genehmigung zusätzlicher Verteidigungsausgaben im deutschen Bundeshaushalt 2025",
+    "Serienstart des neuen gepanzerten Fahrzeugs Lynx II bzw. weitere Aufträge im Vehicle‑Systems‑Segment",
+    "Quartalsbericht mit aktualisiertem Auftragspool und Gewinnprognose"
+   ]
   },
   "ASML.AS": {
    "ticker": "ASML.AS",
@@ -499,7 +503,7 @@
     ],
     [
      "KGV (erw.)",
-     "28,8"
+     "28,4"
     ],
     [
      "Umsatzwachstum",
@@ -507,13 +511,13 @@
     ],
     [
      "Kursziel",
-     "2072 EUR"
+     "2079 EUR"
     ]
    ],
    "quellen": [
     [
      "Analysten",
-     "37 Kauf / 4 Halten / 1 Verkauf"
+     "36 Kauf / 3 Halten / 1 Verkauf"
     ],
     [
      "Newsletter",
@@ -532,12 +536,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "ASML dominiert den EUV-Markt, erzielt 21 % Umsatzwachstum und profitiert von der steigenden Chipnachfrage. Analysten bewerten das Unternehmen überwiegend positiv (37 Buy, 4 Hold, 1 Sell). Das Kursziel von 2 072 EUR spiegelt starkes Gewinnpotenzial wider.",
-   "dagegen": "Das KGV von 28,8 ist hoch, was die Bewertung relativ teuer macht. Das Unternehmen ist stark konjunkturabhängig; ein Abschwung im Halbleitermarkt könnte die Aufträge dämpfen. Fehlende Insider‑Informationen und kaum Reddit‑Diskussionen deuten auf geringe Markttransparenz hin.",
+   "dafuer": "Dafür spricht die marktführende Stellung von ASML im EUV‑Lithografie‑Segment, das über 90 % der weltweiten EUV‑Installationen liefert. Das Unternehmen profitiert von starkem Umsatzwachstum (+21 %) und langfristigen Lieferverträgen mit Chip‑Herstellern. Analysten bewerten es überwiegend positiv (36 Buy).",
+   "dagegen": "Entgegen steht die hohe Bewertung (KGV 28,4) in einem zyklischen Markt, wo Nachfrage stark von Konjunktur und geopolitischen Spannungen, insbesondere Exportbeschränkungen nach China, abhängt. Reddit‑Nutzer erwähnen ASML kaum, was auf begrenzte Retail‑Aufmerksamkeit hindeutet.",
    "katalysatoren": [
-    "Q3‑2024 Ergebnisveröffentlichung mit Fokus auf EUV‑Absatz",
-    "Markteinführung des nächsten High‑NA‑EUV‑Systems",
-    "Großaufträge von Schlüssel‑Kunden wie TSMC oder Samsung"
+    "Q3‑2024 Quartalsbericht mit Ergebnis und Ausblick",
+    "Markteinführung des High‑NA EUV‑Systems",
+    "Großauftrag von TSMC oder Samsung für neue Lithografie‑Anlagen"
    ]
   },
   "SU.PA": {
@@ -570,7 +574,7 @@
     ],
     [
      "Newsletter",
-     "in 17 Clustern"
+     "in 15 Clustern"
     ],
     [
      "Reddit",
@@ -585,9 +589,13 @@
      "1648,06 % ueber 1700 Halter"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "Schneider Electric profitiert von starkem Umsatzwachstum von 10 % und einem diversifizierten Portfolio in Energie‑Management, Industrie‑Automation und erneuerbaren Lösungen. Das KGV von 21,4 liegt im Branchen‑Durchschnitt, die Marktkapitalisierung von 148,9 Mrd € unterstreicht Stabilität. Analysten‑Konsens (18 Buy) und ein Kursziel von 329 € signalisieren Optimismus.",
+   "dagegen": "Gegenüberstehen ein extrem hohes Short‑Interest von über 1.600 % (1700 Halter) und ein einzelner Verkaufsempfehlung, was auf Zweifel an Bewertung oder zukünftigen Margen hindeutet. Die geringe Reddit‑Präsenz und das Fehlen von Insider‑News deuten auf begrenzte Markt‑Aufmerksamkeit hin.",
+   "katalysatoren": [
+    "Q3‑Ergebnisveröffentlichung mit erwarteter Umsatz‑ und Gewinnsteigerung",
+    "Markteinführung neuer Microgrid‑ und Energiemanagement‑Lösungen",
+    "Regulatorische Förderungen für Energieeffizienz‑ und Dekarbonisierungsprojekte in Europa"
+   ]
   },
   "GEV": {
    "ticker": "GEV",
@@ -597,11 +605,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "247.9 Mrd"
+     "250.8 Mrd"
     ],
     [
      "KGV (erw.)",
-     "36,8"
+     "37,3"
     ],
     [
      "Umsatzwachstum",
@@ -609,7 +617,7 @@
     ],
     [
      "Kursziel",
-     "1225 USD"
+     "1224 USD"
     ]
    ],
    "quellen": [
@@ -646,11 +654,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "35.6 Mrd"
+     "35.5 Mrd"
     ],
     [
      "KGV (erw.)",
-     "44,8"
+     "44,6"
     ],
     [
      "Umsatzwachstum",
@@ -695,7 +703,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "99.9 Mrd"
+     "100.0 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -744,7 +752,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "5.340.7 Mrd"
+     "5.343.7 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -1071,7 +1079,104 @@
   "gesamt": 107395
  },
  "gespraech": [],
- "termine": [],
- "meldungen_gesamt": 162,
+ "termine": [
+  {
+   "datum": "2026-10-14",
+   "zeit": "",
+   "region": "us",
+   "was": "Consumer Price Index",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-10-15",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-10-15",
+   "zeit": "",
+   "region": "us",
+   "was": "Producer Price Index",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-10-15",
+   "zeit": "",
+   "region": "us",
+   "was": "Selected Real Retail Sales Series",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-10-16",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-10-16",
+   "zeit": "",
+   "region": "us",
+   "was": "G.17 Industrial Production and Capacity Utilization",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-10-17",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-10-18",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-10-19",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-10-20",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-10-21",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-10-22",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  }
+ ],
+ "meldungen_gesamt": 164,
  "llm_aktiv": false
 }
