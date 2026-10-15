@@ -1,9 +1,9 @@
 {
- "stand": "2026-10-14T22:00",
- "lauf": "2026101422",
+ "stand": "2026-10-15T09:18",
+ "lauf": "2026101509",
  "synthese": {
-  "kern": "Politische Eingriffe und Inflationsschock belasten Risikoappetit, während Märkte die steigende Unsicherheit im Geld‑ und Energiesektor vernachlässigen.",
-  "erlaeuterung": "Die Kombination aus regulatorischen Maßnahmen (Zuckersteuer, Lufthansa‑TAP‑Deal) und überraschender US‑Inflationsdynamik erhöht die makroökonomische Unsicherheit. Trotzdessen fokussieren Anleger vorwiegend auf einzelne Unternehmensnachrichten, übersehen jedoch den rückläufigen Risikoappetit und die steigende Zinsbelastung."
+  "kern": "Der Markt fokussiert sich auf Einzelsektoren, übersieht jedoch steigenden US‑Zinsdruck und sinkende Risikobereitschaft.",
+  "erlaeuterung": "Während US‑Inflation im September erneut anzieht, erhöhen sich die Zinsdruck‑Perzentile und das globale Risiko‑Appetit‑Perzentil fällt stark. Daher könnten die aktuellen positiven Kursentwicklungen im DAX und sektorale Nachrichten die zugrundeliegende makroökonomische Schwäche verbergen."
  },
  "regime": [
   {
@@ -37,22 +37,22 @@
    "spuren": {
     "us": {
      "wert": 72,
-     "delta": 6
+     "delta": 4
     },
     "eur": {
-     "wert": 86,
-     "delta": 4
+     "wert": 85,
+     "delta": 1
     }
    },
-   "differenz": 14
+   "differenz": 13
   },
   {
    "name": "risikoappetit",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 46,
-     "delta": -17
+     "wert": 43,
+     "delta": -18
     }
    }
   },
@@ -76,7 +76,7 @@
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 84,
+     "wert": 85,
      "delta": 0
     }
    }
@@ -84,85 +84,31 @@
  ],
  "cluster": [
   {
-   "id": "bd17794c",
-   "titel": "Dax aktuell: Dax verliert Tagesgewinne – Ölpreis schwankt",
-   "anriss": "Käufer hielten sich am Mittwoch an der Frankfurter Börse zurück. Im Fokus der Anlegerinnen und Anleger standen US-Bankbilanzen und Inflationsdaten.",
+   "id": "767ea9cd",
+   "titel": "Dax aktuell: Dax trotzt Ausverkauf bei Chipwerten",
+   "anriss": "Der deutsche Leitindex hat sich am Morgen kaum von dem schwachen Handelstag in Asien beeinflussen lassen. Bringen Konjunkturdaten weitere positive Impulse für Anleger?",
    "region": "dach",
    "quellen": [
     "Handelsblatt Finanzen",
+    "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 5,
+   "anzahl": 6,
    "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-kaum-veraendert-chipwert-groesster-verlierer/100262096.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-us-boersen-schliessen-mit-verlusten-inflation-steigt-unerwartet-stark/100262180.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-eroeffnet-im-minus-infineon-rutscht-acht-prozent-ab/100262398.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/sorge-um-ki-und-us-inflationsdaten-asiens-aktienkurse-stuerzen-ab/100262358.html",
     "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-fuenf-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
-    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-nasdaq-berichtssaison-100.html",
-    "https://www.manager-magazin.de/finanzen/boerse/boerse-dax-im-plus-oelpreise-steigen-a-743fbfb7-222f-4471-9fc4-c539449804b8#ref=rss"
+    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-asml-tsmc-berichtssaison-102.html",
+    "https://www.spiegel.de/wirtschaft/unternehmen/boerse-sorge-vor-ende-des-ki-booms-laesst-tech-aktien-fallen-a-8a55358f-5fb2-4d4a-9eb4-35c66d843e82#ref=rss"
    ],
-   "punkte": 23,
-   "text": "Der DAX verlor am Mittwoch seine Tagesgewinne, während der Ölpreis zwischen den Höchst- und Tiefstständen schwankte. Anleger richteten ihr Augenmerk auf die bevorstehenden US‑Banken‑Bilanzen und aktuelle Inflationsdaten, was die Stimmung an der Frankfurter Börse dämpfte.",
-   "positiv": [],
+   "punkte": 27,
+   "text": "Der DAX zeigte am Morgen kaum Reaktion auf den schwachen Handelstag in Asien und hielt sich stabil. Gleichzeitig blieben die Chip‑Aktien unter Druck und setzten den Ausverkauf fort.",
+   "positiv": [
+    "DAX (stabil)"
+   ],
    "negativ": [
-    "DAX",
-    "US‑Banken‑Aktien",
-    "Öl (Volatilität)"
-   ]
-  },
-  {
-   "id": "3203626c",
-   "titel": "Einigung in der Koalition: So soll die Zuckersteuer aussehen",
-   "anriss": "Der Streit in der schwarz-roten Koalition über die Steuer auf zuckergesüßte Getränke ist beigelegt. Das Kabinett hat einen Regelungsvorschlag beschlossen. Was geplant ist und was die Regierung damit erreichen will.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 7,
-   "links": [
-    "https://www.tagesschau.de/inland/innenpolitik/zuckersteuer-einigung-folgen-100.html",
-    "https://www.tagesschau.de/inland/innenpolitik/zuckersteuer-bundesregierung-einigung-100.html",
-    "https://www.spiegel.de/wirtschaft/service/zuckersteuer-so-viel-mehr-koennten-getraenke-kuenftig-kosten-a-5933868e-cee3-4962-b875-2b63af2a97cd#ref=rss",
-    "https://www.spiegel.de/wirtschaft/service/zuckersteuer-kabinett-beschliesst-neue-abgabe-in-einer-light-variante-a-40b71990-772c-447c-aa5f-afd7c741dc6f#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/lars-klingbeil-und-die-ki-steuer-warum-eine-ki-steuer-zur-k-o-steuer-mutieren-wuerde-201313625.html"
-   ],
-   "punkte": 22,
-   "text": "Die schwarz‑rote Koalition hat einen Gesetzentwurf zur Zuckersteuer für zuckergesüßte Getränke beschlossen. Die Regelung dürfte den Umsatz von Soft‑Drink‑Herstellern belasten und die Nachfrage nach Zucker reduzieren.",
-   "positiv": [],
-   "negativ": [
-    "Soft‑Drink‑Branche",
-    "Zuckerindustrie"
-   ]
-  },
-  {
-   "id": "acb78f96",
-   "titel": "Investor: René Benko kommt aus dem Gefängnis – und muss nun Fußfessel tragen",
-   "anriss": "Erst im September kam der Signa-Gründer hinter Gitter, jetzt darf er das Gefängnis verlassen. Benkos Verteidiger begründet den Schritt mit besserer Vorbereitung auf weitere Prozesse.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "Handelsblatt Finanzen",
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 5,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/immobilien/investor-rene-benko-kommt-aus-dem-gefaengnis-und-muss-nun-fussfessel-tragen/100262140.html",
-    "https://www.tagesschau.de/ausland/benko-fussfessel-100.html",
-    "https://www.spiegel.de/wirtschaft/unternehmen/rene-benko-signa-gruender-darf-mit-fussfessel-nach-hause-a-8c42d937-fe94-4d78-8a8e-e19973dcf013#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/rene-benko-kommt-mit-fussfessel-in-hausarrest-201316604.html",
-    "https://www.manager-magazin.de/unternehmen/handel/rene-benko-signa-gruender-beantragt-hausarrest-mit-fussfessel-a-d9afd739-d564-4669-895e-7d5afabb7b63#ref=rss"
-   ],
-   "punkte": 21,
-   "text": "René Benko, Gründer von Signa, wurde aus dem Gefängnis entlassen, muss jedoch eine Fußfessel tragen. Die Nachricht hat nur begrenzte Auswirkungen auf die Signa‑Gruppe und den österreichischen Immobiliensektor, da die rechtlichen Verfahren noch laufen.",
-   "positiv": [],
-   "negativ": [
-    "Signa‑Immobilien",
-    "österreichischer Immobilienmarkt"
+    "Chip‑Aktien (weiterer Abverkauf)"
    ]
   },
   {
@@ -176,21 +122,116 @@
     "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 6,
+   "anzahl": 7,
    "links": [
     "https://www.tagesschau.de/wirtschaft/unternehmen/uebernahme-tap-lufthansa-100.html",
+    "https://www.spiegel.de/wirtschaft/frankfurt-airport-lufthansa-reagiert-wegen-moeglichen-kerosin-engpaessen-a-3e3e5829-e3d8-4b55-8386-756b92b44937#ref=rss",
     "https://www.spiegel.de/wirtschaft/unternehmen/lufthansa-erhaelt-zuschlag-fuer-portugiesische-airline-tap-a-94b1fa05-0e14-4f74-9003-57fb08af5dd7#ref=rss",
     "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-kerosin-mangel-am-flughafen-frankfurt-lufthansa-reagiert-faz-200452404.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/lufthansa-uebernimmt-tap-ein-meilenstein-zum-100-geburtstag-201317147.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/lufthansa-uebernimmt-tap-deutschland-schlaegt-air-france-klm-201317314.html"
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/lufthansa-uebernimmt-tap-ein-meilenstein-zum-100-geburtstag-201317147.html"
    ],
-   "punkte": 20,
-   "text": "Portugal hat den Einstieg der Lufthansa in die staatliche Fluggesellschaft TAP genehmigt; Lufthansa erwarb 44,9 % der Anteile gegenüber Air France‑KLM. Der Deal dürfte den Aktienkurs von TAP beflügeln und das Vertrauen in die europäische Luftfahrtbranche stärken.",
+   "punkte": 22,
+   "text": "Die portugiesische Regierung hat die Teilprivatisierung von TAP beschlossen, wobei die Lufthansa mit 44,9 % der Anteile den Zuschlag erhalten hat. Der Einstieg stärkt die Position der Lufthansa im europäischen Luftverkehr, während Air France‑KLM den Wettbewerb verliert.",
    "positiv": [
-    "TAP‑Aktien",
-    "Lufthansa‑Aktien (potenziell)",
-    "europäische Luftfahrtbranche"
+    "Lufthansa (Beteiligung an TAP)"
    ],
+   "negativ": [
+    "Air France‑KLM (verpasste Beteiligung)"
+   ]
+  },
+  {
+   "id": "3203626c",
+   "titel": "Einigung in der Koalition: So soll die Zuckersteuer aussehen",
+   "anriss": "Der Streit in der schwarz-roten Koalition über die Steuer auf zuckergesüßte Getränke ist beigelegt. Das Kabinett hat einen Regelungsvorschlag beschlossen. Was geplant ist und was die Regierung damit erreichen will.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft"
+   ],
+   "anzahl": 6,
+   "links": [
+    "https://www.tagesschau.de/inland/innenpolitik/zuckersteuer-einigung-folgen-100.html",
+    "https://www.tagesschau.de/inland/innenpolitik/zuckersteuer-bundesregierung-einigung-100.html",
+    "https://www.spiegel.de/wirtschaft/service/zuckersteuer-so-viel-mehr-koennten-getraenke-kuenftig-kosten-a-5933868e-cee3-4962-b875-2b63af2a97cd#ref=rss",
+    "https://www.spiegel.de/wirtschaft/service/zuckersteuer-kabinett-beschliesst-neue-abgabe-in-einer-light-variante-a-40b71990-772c-447c-aa5f-afd7c741dc6f#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/lars-klingbeil-und-die-ki-steuer-warum-eine-ki-steuer-zur-k-o-steuer-mutieren-wuerde-201313625.html"
+   ],
+   "punkte": 18,
+   "text": "Die Koalition hat einen Kompromiss zur Zuckersteuer auf zuckergesüßte Getränke beschlossen, der eine moderate Besteuerung vorsieht. Die Regelung belastet Hersteller zuckerhaltiger Getränke, während Unternehmen mit zuckerfreien Produkten potenziell profitieren.",
+   "positiv": [
+    "Hersteller zuckerfreier Getränke"
+   ],
+   "negativ": [
+    "Hersteller zuckergesüßter Getränke"
+   ]
+  },
+  {
+   "id": "a98395b8",
+   "titel": "Immobilien: Das sind die zehn deutschen Städte mit den höchsten Wohnungspreisen und Mieten",
+   "anriss": "Bestandswohnungen haben sich im dritten Quartal stärker verteuert als Neubauten. Exklusive Daten der 400 deutschen Kreise zeigen, wo Wohnraum teurer und wo er günstiger geworden ist.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "Handelsblatt Finanzen",
+    "SPIEGEL Wirtschaft"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/immobilien/immobilien-hier-steigen-die-wohnungspreise-und-mieten-am-staerksten/100170988.html",
+    "https://www.handelsblatt.com/finanzen/immobilien/immobilien-wo-die-mieten-in-deutschland-besonders-stark-steigen/100262197.html",
+    "https://www.spiegel.de/wirtschaft/soziales/wohnungsmarkt-mieten-in-deutschen-grossstaedten-ziehen-deutlich-an-a-69f106e6-9f09-4420-93e1-73f2808c5e7e#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/wohnungsmieten-steigen-schneller-berlin-und-duesseldorf-vorn-accg-201323582.html"
+   ],
+   "punkte": 16,
+   "text": "Daten der 400 deutschen Kreise zeigen, dass die Preise für Bestandswohnungen im dritten Quartal stärker gestiegen sind als die Neubaupreise, was die Wohnkosten insgesamt erhöht. Die Mietentwicklung ist ebenfalls nach oben gerichtet, was Eigentümer begünstigt, Mieter jedoch belastet.",
+   "positiv": [
+    "Immobilienbesitzer (Wertzuwachs)"
+   ],
+   "negativ": [
+    "Mieter (steigende Mieten)"
+   ]
+  },
+  {
+   "id": "93a2eab8",
+   "titel": "Netflix: Videostreamingdienst streicht rund tausend Jobs",
+   "anriss": "Beim Streamingkonzern Netflix sollen weltweit sechs Prozent der Stellen wegfallen. Die Chefs begründen das mit Disziplin und Prioritätensetzung.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "heise",
+    "manager magazin"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.spiegel.de/wirtschaft/unternehmen/netflix-streicht-rund-1000-jobs-a-acf7ff59-dfe8-4892-8031-c826a62f40b4#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/netflix-baut-1000-arbeitsplaetze-ab-201318406.html",
+    "https://www.manager-magazin.de/unternehmen/dienstleister/netflix-streamingdienst-streicht-rund-1000-jobs-aktie-faellt-a-7bd8730b-dad1-4845-be79-55f9c805381c#ref=rss",
+    "https://www.heise.de/news/Netflix-streicht-rund-rund-1000-Stellen-in-groesster-Entlassungsrunde-seit-2022-11488795.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 16,
+   "text": "Beim Streamingkonzern Netflix sollen weltweit sechs Prozent der Stellen wegfallen. Die Chefs begründen das mit Disziplin und Prioritätensetzung.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "bd17794c",
+   "titel": "Dax aktuell: Dax verliert Tagesgewinne – Ölpreis schwankt",
+   "anriss": "Käufer hielten sich am Mittwoch an der Frankfurter Börse zurück. Im Fokus der Anlegerinnen und Anleger standen US-Bankbilanzen und Inflationsdaten.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-kaum-veraendert-chipwert-groesster-verlierer/100262096.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-us-boersen-schliessen-mit-verlusten-inflation-steigt-unerwartet-stark/100262180.html",
+    "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/us-aktien-vor-diesen-zahlen-zittert-die-wall-street/100261871.html"
+   ],
+   "punkte": 15,
+   "text": "Käufer hielten sich am Mittwoch an der Frankfurter Börse zurück. Im Fokus der Anlegerinnen und Anleger standen US-Bankbilanzen und Inflationsdaten.",
+   "positiv": [],
    "negativ": []
   },
   {
@@ -202,85 +243,42 @@
     "Handelsblatt Finanzen",
     "Tagesschau Wirtschaft"
    ],
-   "anzahl": 3,
+   "anzahl": 2,
    "links": [
     "https://www.handelsblatt.com/finanzen/anlagestrategie/fonds-etf/geldanlage-euro-staatsanleihefonds-erleben-schwaechstes-quartal-seit-2022/100260017.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/anleihen/lagarde-ezb-greift-offenbar-nicht-am-anleihemarkt-ein/100262127.html",
     "https://www.tagesschau.de/wirtschaft/finanzen/us-staatsanleihen-renditen-kursgewinne-anleger-100.html"
    ],
-   "punkte": 16,
+   "punkte": 13,
    "text": "Kaum eine wichtige Fondsstrategie lief zuletzt schlechter als Anlagen in europäische Staatsanleihen, wie eine Auswertung für das Handelsblatt zeigt. Einzelne Produkte konnten die Verluste immerhin begrenzen.",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "38399b6f",
-   "titel": "US-Großbank: Über 1,2 Milliarden Dollar Strafe für Bank of Amerika",
-   "anriss": "Der Bank of America steht eine Milliarden-Strafzahlung ins Haus. Der US-Regierung zufolge waren ihre Kontrollen unter anderem bei Geldwäsche nicht strikt genug.",
+   "id": "a56aaa35",
+   "titel": "Privatbanken: Quirin startet größtes IT-Projekt der Firmengeschichte und greift Neobroker an",
+   "anriss": "Bis zu 20 Millionen Euro will die Privatbank in eine neue IT-Infrastruktur investieren, um sich gegen Neobroker zu behaupten. Der Konkurrenz macht sie beim Altersvorsorgedepot eine Kampfansage.",
    "region": "dach",
    "quellen": [
+    "FAZ Wirtschaft",
     "Handelsblatt Finanzen",
-    "SPIEGEL Wirtschaft",
-    "manager magazin"
+    "heise"
    ],
    "anzahl": 3,
    "links": [
-    "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/us-grossbank-ueber-12-milliarden-dollar-strafe-fuer-bank-of-amerika/100262043.html",
-    "https://www.spiegel.de/wirtschaft/unternehmen/bank-of-america-finanzministerium-ahndet-laxe-geldwaeschekontrollen-mit-milliardenstrafe-a-9b3ffe37-9558-422b-9fe6-9292926f4632#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/banken/bank-of-america-zweitgroesste-us-bank-muss-milliardenstrafe-wegen-geldwaesche-zahlen-a-3efa2c6b-b826-4039-b898-0ba162664630#ref=rss"
+    "https://www.handelsblatt.com/finanzen/banken-versicherungen/privatbanken-quirin-startet-groesstes-it-projekt-der-firmengeschichte/100262206.html",
+    "https://www.faz.net/aktuell/wirtschaft/auto-verkehr/paris-investiert-200-millionen-euro-in-radwege-bis-2032-accg-201323336.html",
+    "https://www.heise.de/news/Paris-investiert-200-Millionen-Euro-in-neue-Radwege-11488867.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
    "punkte": 13,
-   "text": "Der Bank of America steht eine Milliarden-Strafzahlung ins Haus. Der US-Regierung zufolge waren ihre Kontrollen unter anderem bei Geldwäsche nicht strikt genug.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "dfa89248",
-   "titel": "Bundesverfassungsgericht zur Erbschaftsteuer: Wie gerecht ist sie?",
-   "anriss": "Wer in Deutschland erbt, muss Steuern zahlen. Außer man erbt ein Unternehmen, dann gibt es Ausnahmen - und oft fallen keine Steuern an. Ob das in Ordnung ist, muss nun das Verfassungsgericht entscheiden. Von Antonetta Stephany und Max Bauer.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/erbschaftssteuer-bundesverfassungsgericht-100.html",
-    "https://www.spiegel.de/wirtschaft/erbschaftsteuer-bundesverfassungsgericht-prueft-steuerprivilegien-fuer-firmenerben-a-b94502b9-729f-4058-a884-c67ddeb2fecd#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/erbschaftsteuer-was-bewirkt-es-das-vermoegen-von-unternehmen-zu-schonen-201307457.html"
-   ],
-   "punkte": 12,
-   "text": "Wer in Deutschland erbt, muss Steuern zahlen. Außer man erbt ein Unternehmen, dann gibt es Ausnahmen - und oft fallen keine Steuern an. Ob das in Ordnung ist, muss nun das Verfassungsgericht entscheiden. Von Antonetta St",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "5751e772",
-   "titel": "Netflix streicht rund 1000 Jobs",
-   "anriss": "Beim Streamingkonzern Netflix sollen weltweit sechs Prozent der Stellen wegfallen. Die Chefs begründen das mit Disziplin und Prioritätensetzung.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.spiegel.de/wirtschaft/unternehmen/netflix-streicht-rund-1000-jobs-a-acf7ff59-dfe8-4892-8031-c826a62f40b4#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/netflix-baut-1000-arbeitsplaetze-ab-201318406.html",
-    "https://www.manager-magazin.de/unternehmen/dienstleister/netflix-streamingdienst-streicht-rund-1000-jobs-aktie-faellt-a-7bd8730b-dad1-4845-be79-55f9c805381c#ref=rss"
-   ],
-   "punkte": 12,
-   "text": "Beim Streamingkonzern Netflix sollen weltweit sechs Prozent der Stellen wegfallen. Die Chefs begründen das mit Disziplin und Prioritätensetzung.",
+   "text": "Bis zu 20 Millionen Euro will die Privatbank in eine neue IT-Infrastruktur investieren, um sich gegen Neobroker zu behaupten. Der Konkurrenz macht sie beim Altersvorsorgedepot eine Kampfansage.",
    "positiv": [],
    "negativ": []
   }
  ],
  "ketten": [],
  "gegenthese": {
-  "konsens": "Kurzfristige DAX‑Schwäche, volatile Ölpreise, Zuckersteuer kaum wachstumshemmend, Benko‑Risiko begrenzt, TAP‑Eintritt positiv, Euro‑Anleihefonds schwach, BofA‑Strafe begrenzt, Erbschaftsteuer umstritten, Netflix‑Cuts zeigen Branchenabschwächung.",
-  "gegen": "Die genannten Schwächen könnten überbewertet sein – solide Unternehmensgewinne, mögliche Öl‑Preisanstiege, langfristige Gesundheitsvorteile der Zuckersteuer, Benko‑Entlassung mindert Einfluss, TAP‑Integration birgt Risiken, steigende Renditen stärken Anleihefonds, regulatorischer Druck belastet Banken, Erbschaftsteuer kann fair gestaltet werden, Netflix‑Reduktionen stärken Profitabilität."
+  "konsens": "Der DAX zeigt Widerstandskraft trotz Chip‑Abschwächung; Lufthansa‑Eintritt in TAP wird als strategischer Gewinn für die Gruppe gesehen; die Zuckersteuer gilt als moderat; deutsche Großstädte bleiben teuer; Netflix‑Entlassungen belasten das Sentiment; Euro‑Staatsanleihefonds erleben schwaches Quartal; Quirin‑IT‑Projekt gilt als Wachstums‑ und Wettbewerbsfaktor.",
+  "gegen": "Gegen die Resilienz des DAX spricht die anhaltende Schwäche im Halbleitersektor und volatile Ölpreise, die das Risiko eines breiteren Rückgangs erhöhen könnten."
  },
  "matrix": [
   {
@@ -397,11 +395,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "115.1 Mrd"
+     "108.7 Mrd"
     ],
     [
      "KGV (erw.)",
-     "21,6"
+     "20,4"
     ],
     [
      "Umsatzwachstum",
@@ -419,7 +417,7 @@
     ],
     [
      "Newsletter",
-     "nicht erwaehnt"
+     "in 1 Clustern"
     ],
     [
      "Reddit",
@@ -434,9 +432,13 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "Die Analystenmeinung ist stark positiv (20 Kauf, 3 Verkauf). Das Unternehmen verzeichnet ein Umsatzwachstum von 18 % und ein moderates KGV von 20,4, was im Branchenvergleich attraktiv erscheint. Der Auftragsbestand in Gas‑ und Grid‑Segmenten bietet stabile Einnahmen.",
+   "dagegen": "Ein zentrales Risiko liegt in der hohen Verschuldung und den dünnen Margen bei Gas‑Turbinen, die langfristig durch die Energiewende belastet werden könnten. Die geringe Erwähnung auf Reddit deutet auf schwaches Retail‑Interesse hin, während das Kursziel von 195 € möglicherweise überoptimistisch ist.",
+   "katalysatoren": [
+    "Auslieferung der nächsten Generation von Gasturbinen (z. B. SG 8.0) und Beginn der Serienproduktion",
+    "Neue Großaufträge im Grid‑Technologies‑Segment in Europa und den USA",
+    "Integration und Kostensynergien nach der Zusammenführung von Siemens Gamesa‑Windanlagen"
+   ]
   },
   "RHM.DE": {
    "ticker": "RHM.DE",
@@ -446,11 +448,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "45.9 Mrd"
+     "47.1 Mrd"
     ],
     [
      "KGV (erw.)",
-     "18,6"
+     "19,1"
     ],
     [
      "Umsatzwachstum",
@@ -483,12 +485,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Rheinmetall verzeichnet ein starkes Umsatzwachstum von +69 % und ein moderates KGV von 18,6, was im Vergleich zur Branche attraktiv erscheint. Die Analysten‑Stimmung ist überwiegend positiv (17 Buy, 4 Hold, 0 Sell) und es gibt keine bekannten Short‑Positionen, was das Vertrauen in die Aktie unterstreicht.",
-   "dagegen": "Das Unternehmen ist stark von staatlichen Rüstungsaufträgen abhängig, was bei politischen oder Haushaltsänderungen das Ergebnis belasten kann. Das KGV von 18,6 ist für ein defensives Unternehmen relativ hoch, und das Fehlen von Insider‑Transaktionen könnte auf zurückhaltende Marktteilnehmer hindeuten. Zudem gibt es kaum öffentliche Diskussionen (Reddit, Newsletter).",
+   "dafuer": "Rheinmetall profitiert von stark steigenden Rüstungsausgaben in Deutschland und Europa, was das Auftragsbuch für gepanzerte Fahrzeuge und Elektroniklösungen erweitert. Das Umsatzwachstum von +69 % und die breite Segmentdiversifikation stärken die Ertragsaussichten. Analystenfavoriten (17 Buy) unterstreichen das positive Sentiment.",
+   "dagegen": "Das Kurs‑Gewinn‑Verhältnis von 19,1 liegt über dem Branchendurchschnitt, was die Bewertung hoch erscheinen lässt. Rheinmetall ist stark von staatlichen Rüstungsetats abhängig, die bei politischen Änderungen schwanken können. Fehlende Insider‑Informationen und das Fehlen von Short‑Positionen deuten auf Unsicherheit hin.",
    "katalysatoren": [
-    "Ankündigung und Genehmigung zusätzlicher Verteidigungsausgaben im deutschen Bundeshaushalt 2025",
-    "Serienstart des neuen gepanzerten Fahrzeugs Lynx II bzw. weitere Aufträge im Vehicle‑Systems‑Segment",
-    "Quartalsbericht mit aktualisiertem Auftragspool und Gewinnprognose"
+    "Q3‑2026 Ergebnisveröffentlichung",
+    "Vertrag über Lieferung von 200 Schützenpanzern an die Bundeswehr (geplant Q4 2026)",
+    "Erhöhung des deutschen Verteidigungsbudgets für 2027"
    ]
   },
   "ASML.AS": {
@@ -499,11 +501,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "587.0 Mrd"
+     "559.6 Mrd"
     ],
     [
      "KGV (erw.)",
-     "28,4"
+     "26,7"
     ],
     [
      "Umsatzwachstum",
@@ -521,7 +523,7 @@
     ],
     [
      "Newsletter",
-     "in 1 Clustern"
+     "nicht erwaehnt"
     ],
     [
      "Reddit",
@@ -536,12 +538,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Dafür spricht die marktführende Stellung von ASML im EUV‑Lithografie‑Segment, das über 90 % der weltweiten EUV‑Installationen liefert. Das Unternehmen profitiert von starkem Umsatzwachstum (+21 %) und langfristigen Lieferverträgen mit Chip‑Herstellern. Analysten bewerten es überwiegend positiv (36 Buy).",
-   "dagegen": "Entgegen steht die hohe Bewertung (KGV 28,4) in einem zyklischen Markt, wo Nachfrage stark von Konjunktur und geopolitischen Spannungen, insbesondere Exportbeschränkungen nach China, abhängt. Reddit‑Nutzer erwähnen ASML kaum, was auf begrenzte Retail‑Aufmerksamkeit hindeutet.",
+   "dafuer": "Dafür spricht, dass ASML mit seiner EUV‑Technologie praktisch ein Monopol im High‑End‑Lithografie‑Segment hält. Das Unternehmen verzeichnete ein starkes Umsatzwachstum von +21 % und profitiert von der steigenden Chip‑Nachfrage in KI‑ und Automotive‑Anwendungen. Analysten bewerten 36 Buy‑Empfehlungen.",
+   "dagegen": "Entgegen steht, dass das Kurs‑Gewinn‑Verhältnis von 26,7 über dem Branchendurchschnitt liegt, was auf eine hohe Bewertung hindeutet. Die Nachfrage nach Halbleitern ist konjunkturabhängig, und mögliche Lieferketten‑Engpässe oder ein Rückgang der Investitionen könnten das Wachstum bremsen. Ein einzelner Analyst empfiehlt Verkauf.",
    "katalysatoren": [
-    "Q3‑2024 Quartalsbericht mit Ergebnis und Ausblick",
-    "Markteinführung des High‑NA EUV‑Systems",
-    "Großauftrag von TSMC oder Samsung für neue Lithografie‑Anlagen"
+    "Q3‑2024 Ergebnisbericht mit EUV‑Lieferungen",
+    "Start der Serienproduktion des High‑NA‑EU‑V‑Systems",
+    "Steigende Chip‑Nachfrage durch KI‑ und Automotive‑Trends"
    ]
   },
   "SU.PA": {
@@ -552,11 +554,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "148.9 Mrd"
+     "144.1 Mrd"
     ],
     [
      "KGV (erw.)",
-     "21,4"
+     "20,7"
     ],
     [
      "Umsatzwachstum",
@@ -574,7 +576,7 @@
     ],
     [
      "Newsletter",
-     "in 15 Clustern"
+     "in 17 Clustern"
     ],
     [
      "Reddit",
@@ -589,13 +591,9 @@
      "1648,06 % ueber 1700 Halter"
     ]
    ],
-   "dafuer": "Schneider Electric profitiert von starkem Umsatzwachstum von 10 % und einem diversifizierten Portfolio in Energie‑Management, Industrie‑Automation und erneuerbaren Lösungen. Das KGV von 21,4 liegt im Branchen‑Durchschnitt, die Marktkapitalisierung von 148,9 Mrd € unterstreicht Stabilität. Analysten‑Konsens (18 Buy) und ein Kursziel von 329 € signalisieren Optimismus.",
-   "dagegen": "Gegenüberstehen ein extrem hohes Short‑Interest von über 1.600 % (1700 Halter) und ein einzelner Verkaufsempfehlung, was auf Zweifel an Bewertung oder zukünftigen Margen hindeutet. Die geringe Reddit‑Präsenz und das Fehlen von Insider‑News deuten auf begrenzte Markt‑Aufmerksamkeit hin.",
-   "katalysatoren": [
-    "Q3‑Ergebnisveröffentlichung mit erwarteter Umsatz‑ und Gewinnsteigerung",
-    "Markteinführung neuer Microgrid‑ und Energiemanagement‑Lösungen",
-    "Regulatorische Förderungen für Energieeffizienz‑ und Dekarbonisierungsprojekte in Europa"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "GEV": {
    "ticker": "GEV",
@@ -795,51 +793,6 @@
   }
  },
  "shorts": [
-  {
-   "land": "NL",
-   "halter": "Sculptor Capital Management Europe Limited",
-   "emittent": "Basic-Fit N.V.",
-   "prozent": 0.82,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "Capital Fund Management S.A.",
-   "emittent": "DSM-Firmenich AG",
-   "prozent": 0.57,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "Two Sigma Investments, LP",
-   "emittent": "Alfen N.V.",
-   "prozent": 0.51,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "Millennium International Management LP",
-   "emittent": "Koninklijke Philips N.V.",
-   "prozent": 0.5,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "GSA Capital Partners LLP",
-   "emittent": "Pharming Group N.V.",
-   "prozent": 0.48,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
   {
    "land": "UK",
    "halter": "Anavio Capital Partners LLP",
@@ -1064,10 +1017,55 @@
    "datum": "2019-06-12",
    "status": "aufgestockt",
    "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 14.08,
+   "datum": "2019-06-11",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 13.82,
+   "datum": "2019-06-10",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "GUEVOURA FUND LTD",
+   "emittent": "HAMMERSON PLC",
+   "prozent": 13.78,
+   "datum": "2020-09-24",
+   "status": "aufgestockt",
+   "zuvor": 0.57
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 13.68,
+   "datum": "2019-06-07",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 13.5,
+   "datum": "2019-06-06",
+   "status": "aufgestockt",
+   "zuvor": 0.53
   }
  ],
  "shorts_kennzahlen": {
-  "neu_diese_woche": 5,
+  "neu_diese_woche": 0,
   "meistgeshortet": {
    "name": "Premier Oil PLC",
    "summe": 2145.63
@@ -1080,38 +1078,6 @@
  },
  "gespraech": [],
  "termine": [
-  {
-   "datum": "2026-10-14",
-   "zeit": "",
-   "region": "us",
-   "was": "Consumer Price Index",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-10-15",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-10-15",
-   "zeit": "",
-   "region": "us",
-   "was": "Producer Price Index",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-10-15",
-   "zeit": "",
-   "region": "us",
-   "was": "Selected Real Retail Sales Series",
-   "konsens": "",
-   "wucht": "hoch"
-  },
   {
    "datum": "2026-10-16",
    "zeit": "",
@@ -1175,8 +1141,40 @@
    "was": "FOMC Press Release",
    "konsens": "",
    "wucht": "hoch"
+  },
+  {
+   "datum": "2026-10-23",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-10-24",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-10-25",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-10-26",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 164,
+ "meldungen_gesamt": 171,
  "llm_aktiv": false
 }
