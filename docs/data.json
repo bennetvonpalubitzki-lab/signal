@@ -1,9 +1,9 @@
 {
- "stand": "2026-10-16T17:03",
- "lauf": "2026101617",
+ "stand": "2026-10-16T21:49",
+ "lauf": "2026101621",
  "synthese": {
-  "kern": "Trotz breiter Optimismus bei KI, Energie und politischen Lockerungen bleibt das geringe Risikoappetit‑ und Liquiditätsdefizit übersehen.",
-  "erlaeuterung": "Die Meldungen fokussieren auf Wachstums- und Investitionschancen, während die Regimewerte einen stark zurückgegangenen Risikoappetit (36) und stagnierende Liquidität zeigen. Damit unterschätzt der Markt potenzielle Volatilität, insbesondere bei steigenden Zinsdruck‑ und geopolitischen Unsicherheiten."
+  "kern": "Der Tag verbindet KI‑Boom, Banken‑M&A und Klimapolitik, doch der Markt vernachlässigt die strukturellen Übergangsrisiken.",
+  "erlaeuterung": "Während die Fed KI‑Investitionen bejubelt und die Deutsche Bank M&A‑Chancen sondiert, treiben regulatorische Entscheidungen den Automobil‑ und Energiesektor voran. Gleichzeitig entstehen in Immobilien und Luftfahrt strukturelle Anpassungen, die das Risiko‑Appetit‑Defizit von 29 % im globalen Index widerspiegeln."
  },
  "regime": [
   {
@@ -11,15 +11,15 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 79,
-     "delta": 3
+     "wert": 78,
+     "delta": 1
     },
     "eur": {
      "wert": 90,
      "delta": -4
     }
    },
-   "differenz": 11
+   "differenz": 12
   },
   {
    "name": "wachstum",
@@ -51,8 +51,8 @@
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 36,
-     "delta": -22
+     "wert": 29,
+     "delta": -29
     }
    }
   },
@@ -61,15 +61,15 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 44,
-     "delta": -3
+     "wert": 47,
+     "delta": 0
     },
     "eur": {
      "wert": 4,
      "delta": 0
     }
    },
-   "differenz": 40
+   "differenz": 43
   },
   {
    "name": "geopolitik",
@@ -95,7 +95,7 @@
     "heise",
     "manager magazin"
    ],
-   "anzahl": 8,
+   "anzahl": 9,
    "links": [
     "https://www.tagesschau.de/wirtschaft/energie/frankreich-deutschland-verbrenner-aus-einigung-100.html",
     "https://www.tagesschau.de/wirtschaft/finanzen/autobauer-verbrenneraus-marktbericht-100.html",
@@ -103,15 +103,15 @@
     "https://www.spiegel.de/wirtschaft/friedrich-merz-und-emmanuel-macron-einigen-sich-auf-aufweichung-von-verbrenner-aus-a-d250ef0f-8188-4c66-8964-7883011ddbaa#ref=rss",
     "https://www.spiegel.de/wirtschaft/verbrenner-aus-elektroauto-boom-macht-co-ziele-erreichbar-a-041304f5-96cc-415e-b876-06b538b57f57#ref=rss"
    ],
-   "punkte": 26,
-   "text": "Deutschland und Frankreich haben sich auf eine Aufweichung des Verbrenner‑Aus in der EU verständigt, sodass Fahrzeuge mit Verbrennungsmotor nach 2035 noch neu zugelassen werden können. Die Entscheidung verzögert den vollständigen Umstieg auf Elektromobilität und stärkt kurzfristig die Nachfrage nach konventionellen Pkw‑Modellen.",
+   "punkte": 28,
+   "text": "Deutschland und Frankreich haben sich auf eine Aufweichung des Verbrenner‑Aus in der EU verständigt, sodass Fahrzeuge mit Verbrennungsmotor nach 2035 noch neu zugelassen werden können. Die Entscheidung wirkt sich unmittelbar auf die traditionelle Automobilindustrie und deren Zulieferer aus.",
    "positiv": [
-    "Automobilhersteller von Verbrenner‑Fahrzeugen",
-    "Zulieferer für Verbrennungsmotoren"
+    "Kraftfahrzeughersteller mit Verbrennungsmotor",
+    "Zulieferer für ICE‑Komponenten"
    ],
    "negativ": [
-    "Elektro‑Fahrzeug‑Hersteller",
-    "Unternehmen im Bereich Ladeinfrastruktur"
+    "Elektro‑Automobilhersteller",
+    "Investoren in reine EV‑Fonds"
    ]
   },
   {
@@ -134,13 +134,13 @@
     "https://www.manager-magazin.de/unternehmen/banken/unicredit-ezb-winkt-uebernahme-der-commerzbank-durch-a-d4489eb2-1a0b-4768-8177-337fd35a97a4#ref=rss"
    ],
    "punkte": 19,
-   "text": "Die EZB hat der Unicredit die Genehmigung zur Übernahme der Commerzbank erteilt, wodurch eine kontrollierende Beteiligung in greifbare Nähe rückt. Die Deutsche Bank sieht darin eine Möglichkeit, Marktanteile im deutschen und internationalen Bankgeschäft zu erhöhen.",
+   "text": "Die EZB hat der Unicredit die Genehmigung zur Übernahme der Commerzbank erteilt, wodurch eine Kontrollübernahme in greifbare Nähe rückt. Die Deutsche Bank sieht darin Chancen für ihr Geschäftsmodell im In‑ und Auslandsgeschäft.",
    "positiv": [
-    "Deutsche Bank (Marktanteilsgewinne)"
+    "Deutsche Bank",
+    "Unicredit (Erweiterung Marktanteil)"
    ],
    "negativ": [
-    "Commerzbank‑Aktionäre (Integrationsrisiko)",
-    "Bankensektor (Konsolidierungsunsicherheit)"
+    "Commerzbank (Unsicherheit für Aktionäre)"
    ]
   },
   {
@@ -160,13 +160,13 @@
     "https://www.manager-magazin.de/politik/weltwirtschaft/kevin-warsh-fed-chef-verbreitet-konjunkturoptimismus-kein-zeichen-fuer-zinsschritt-a-a3fe7866-da79-4194-8f9f-9423a03137aa#ref=rss"
    ],
    "punkte": 17,
-   "text": "Fed‑Chef Jerome Powell betonte die „enorme Investitionswelle“ im Bereich Künstliche Intelligenz und signalisierte, dass eine Zinserhöhung in naher Zukunft weniger wahrscheinlich sei. Die Äußerungen stärken die Stimmung an den Aktienmärkten, insbesondere für Unternehmen mit KI‑Fokus, und dämpfen die Attraktivität kurzfristiger Zinsanlagen.",
+   "text": "Fed‑Chef Jerome Powell betonte die „enorme Investitionswelle“ im Bereich Künstliche Intelligenz und signalisierte, dass eine Zinserhöhung nicht unmittelbar bevorsteht. Die Äußerungen stärken das Vertrauen in US‑Aktien, insbesondere KI‑bezogene Titel, und dämpfen die Attraktivität von festverzinslichen Anlagen.",
    "positiv": [
-    "KI‑bezogene Aktien",
-    "Breite Aktienmärkte"
+    "US‑Aktien, insbesondere KI‑Unternehmen",
+    "Technologiesektor"
    ],
    "negativ": [
-    "Kurzfristige festverzinsliche Wertpapiere (geringere Renditeerwartungen)"
+    "US‑Anleihen (geringere Renditeerwartungen)"
    ]
   },
   {
@@ -188,14 +188,13 @@
     "https://www.heise.de/news/Bundesregierung-plant-Kooperation-mit-US-Chiphersteller-Nvidia-11490926.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
    "punkte": 16,
-   "text": "Die Bundesregierung plant eine Kooperation mit dem US‑Chiphersteller Nvidia, um den deutschen KI‑Standort zu stärken und ausländische Investitionen anzuziehen. Der Deal dürfte die Nachfrage nach Hochleistungshardware und Halbleitern in Deutschland ankurbeln, während Konkurrenzunternehmen im Chip‑Sektor stärkerem Wettbewerbsdruck ausgesetzt werden.",
+   "text": "Die Bundesregierung plant eine Kooperation mit dem US‑Chiphersteller Nvidia, um den deutschen KI‑Standort zu stärken und ausländische Investitionen anzuziehen. Der Deal dürfte die Nachfrage nach Hochleistungschips erhöhen und die Wettbewerbsposition von Nvidia stärken.",
    "positiv": [
     "Nvidia",
-    "Deutsche Halbleiter‑ und KI‑Industrie",
-    "Investoren im Technologiebereich"
+    "Deutsche KI‑ und Halbleitungsbranche (Langfristwachstum)"
    ],
    "negativ": [
-    "Konkurrenten von Nvidia im europäischen Markt"
+    "Europäische Chip‑Hersteller ohne Nvidia‑Partnerschaft"
    ]
   },
   {
@@ -284,49 +283,10 @@
    "negativ": []
   }
  ],
- "ketten": [
-  {
-   "ausloeser": "EU-Kommission beschließt im nächsten Quartal einheitliche Subventionen für den Kauf von Elektrofahrzeugen nach dem Verbrenner‑Ausstieg",
-   "direkt": "Deutsche und französische Automobilhersteller erhöhen sofort ihre Produktionspläne für batterie‑elektrische Modelle",
-   "zweite": "Die Nachfrage nach Batteriezellen, Lithium‑ und Kobalt‑Rohstoffen sowie Halbleitern steigt stark; europäische Chip‑ und Halbleiterausrüster (z. B. Infineon) erhalten größere Aufträge",
-   "dritte": "Erhöhte Stromnachfrage für das Laden der Fahrzeuge führt zu höheren Auslastungen bei erneuerbaren Energie‑ und Netzbetreibern; Unternehmen wie Siemens Energy, Enel und Vestas profitieren von zusätzlichen Investitionen in Lade‑ und Speicherinfrastruktur",
-   "positiv": [
-    "Infineon (Halbleiter)",
-    "Siemens Energy (Erneuerbare, Speicher)",
-    "Enel (Stromnetz, Ladeinfrastruktur)",
-    "Vestas (Windenergie)",
-    "European Battery Materials ETF (z. B. LIT)"
-   ],
-   "negativ": [
-    "Volkswagen, Renault, Stellantis (Verbrenner‑Fokus)",
-    "TotalEnergies, Shell (Fossile‑Energie)",
-    "Europäische Öl‑ und Gas‑Explorationsunternehmen"
-   ],
-   "konfidenz": "mittel"
-  },
-  {
-   "ausloeser": "Fed‑Chef Jerome Powell signalisiert im nächsten Monat anhaltend niedrige Zinsen, um die US‑Investitionswelle im KI‑Sektor zu unterstützen",
-   "direkt": "US‑Tech‑IPO‑Aktivität im KI‑Bereich steigt; europäische institutionelle Anleger erhöhen ihre Allokation in KI‑bezogene Aktien",
-   "zweite": "Europäische KI‑Hardware‑ und Chip‑Ausrüster (z. B. ASML) verzeichnen wachsende Auftragsbücher für Lithographie‑ und Halbleiterausrüstung, während Venture‑Capital‑Fonds vermehrt in europäische KI‑Start‑ups investieren",
-   "dritte": "Deutsche Bank und andere Großbanken profitieren von steigenden M&A‑ und Beratungsgebühren im Technologiebereich, da mehr Unternehmen Fusionen und Akquisitionen im KI‑Umfeld planen; gleichzeitig steigen die Gewinne von Software‑ und Cloud‑Anbietern wie SAP und Siemens Digital Industries",
-   "positiv": [
-    "ASML (Halbleiterausrüstung)",
-    "Deutsche Bank (Investmentbanking, M&A)",
-    "SAP (Enterprise‑Software, KI‑Lösungen)",
-    "Siemens Digital Industries (Industrie‑4.0, KI)",
-    "European AI‑ETF (z. B. Xtrackers MSCI Europe AI UCITS ETF)"
-   ],
-   "negativ": [
-    "Traditionelle Banken ohne starken Tech‑Fokus (z. B. Commerzbank)",
-    "Versicherer mit hoher Exposure gegenüber nicht‑versicherten KI‑Risiken",
-    "Defensive Konsumgüter‑ETFs, die von einer Umschichtung in Wachstums‑ und Technologiewerte betroffen sein könnten"
-   ],
-   "konfidenz": "niedrig"
-  }
- ],
+ "ketten": [],
  "gegenthese": {
-  "konsens": "Der Markt geht von kurzfristigem Aufwärtsmomentum aus, getrieben durch KI‑Investitionen, DAX‑Zuwächse, mögliche Synergien nach der Commerzbank‑Übernahme und Nischen‑Immobilienchancen.",
-  "gegen": "Das stärkste Gegenargument ist das Risiko einer Überhitzung, da KI‑ und Immobilienblasen sowie regulatorische Unsicherheiten die Nachhaltigkeit des Aufschwungs gefährden."
+  "konsens": "Der Markt ist optimistisch: KI‑Investitionen treiben Wachstum, Deutsche Bank sieht M&A‑Chancen, DAX bleibt im Plus, und die Lockerung der Verbrenner‑Emissionen unterstützt die Automobilindustrie.",
+  "gegen": "Überbewertung von KI‑ und M&A‑Erwartungen, mögliche regulatorische Beschränkungen, steigende Zinsen und schwacher Luftverkehr könnten das Wachstum bremsen."
  },
  "matrix": [
   {
@@ -465,7 +425,7 @@
     ],
     [
      "Newsletter",
-     "in 2 Clustern"
+     "in 3 Clustern"
     ],
     [
      "Reddit",
@@ -480,12 +440,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Dafür spricht die starke Analystenmeinung (21 Kauf, nur 3 Verkauf) und das robuste Umsatzwachstum von +18 % bei gleichzeitig hoher Marktpräsenz in Gas‑ und Grid‑Technologien. Das Kursziel von 194 € impliziert weiteres Aufwärtspotenzial, unterstützt durch die Diversifikation über mehrere Segmente.",
-   "dagegen": "Dagegen stehen das relativ hohe KGV von 21,6, das auf eine mögliche Überbewertung hindeutet, sowie anhaltende Probleme bei Siemens Gamesa, die Lieferverzögerungen und Qualitätskritik verursachen. Die Newsletter‑Analyse verteilt die Bewertung auf zwei Cluster, was keine klare Richtung liefert, und Reddit‑Erwähnungen fehlen.",
+   "dafuer": "Starkes Auftragsvolumen, insbesondere im Wind‑Segment, treibt das Umsatzwachstum von +18 % an. Das Kurs‑Gewinn‑Verhältnis von 21,6 liegt im Branchendurchschnitt. Analysten‑Consensus ist klar bullish: 21 Kauf‑Empfehlungen gegenüber nur 3 Verkäufen. Das Kursziel von 194 € impliziert weiteres Aufwärtspotenzial.",
+   "dagegen": "Hohe Abhängigkeit von Gas‑ und Dampfturbinen macht das Unternehmen anfällig für volatile Energiepreise. Siemens Gamesa leidet weiterhin unter Qualitäts‑ und Lieferproblemen, was das Vertrauen mindert. Trotz positiver Analysten‑Stimmung fehlt breitere Markt‑Aufmerksamkeit (Reddit kaum, Newsletter‑Cluster uneinheitlich), was Unsicherheit signalisiert.",
    "katalysatoren": [
-    "Abschluss großer Gas‑Turbinen‑Aufträge",
-    "Ausweitung von Smart‑Grid‑Projekten in Europa",
-    "Inbetriebnahme neuer Offshore‑Windanlagen von Siemens Gamesa"
+    "Abschluss großer Offshore‑Wind‑Aufträge (Siemens Gamesa) im nächsten Geschäftsjahr",
+    "Einführung neuer digitaler Performance‑ und Wartungs‑Services für Turbinen",
+    "Q3‑2024‑Ergebnisbericht mit erwarteter Fortsetzung des Umsatzwachstums"
    ]
   },
   "RHM.DE": {
@@ -533,13 +493,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Starke Auftragsbücher, insbesondere im Fahrzeug‑System‑ und Rüstungsgeschäft, treiben das Umsatzwachstum von +69 % an. Die weltweite Verteidigungsbudget‑Erhöhung unterstützt die Nachfrage. Das diversifizierte Segment‑Portfolio reduziert konjunkturelle Risiken. Analysten‑Consensus (17 Kauf, 4 Halten) signalisiert breites Vertrauen.",
-   "dagegen": "Das Kurs‑Gewinn‑Verhältnis von 20,6 liegt über dem Branchendurchschnitt und lässt wenig Spielraum für Fehlentwicklungen. Starke Abhängigkeit von staatlichen Rüstungsaufträgen erhöht das politische Risiko. Bei einem möglichen Rückgang der Verteidigungsausgaben könnte das Umsatzwachstum sinken. Fehlende Insider‑Meldungen und Shorts deuten auf geringe Markt‑Unsicherheit hin.",
-   "katalysatoren": [
-    "Ankündigung und Abschluss des EU‑Rüstungsauftrags für gepanzerte Fahrzeuge im Q4 2024",
-    "Veröffentlichung der Q3‑Ergebnisse, die Aufschluss über die Nachhaltigkeit des Umsatzwachstums geben",
-    "Fortschritt bei der Markteinführung neuer elektronischer Verteidigungssysteme, insbesondere Radar‑ und Sensorplattformen"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "ASML.AS": {
    "ticker": "ASML.AS",
@@ -553,7 +509,7 @@
     ],
     [
      "KGV (erw.)",
-     "26,6"
+     "26,4"
     ],
     [
      "Umsatzwachstum",
@@ -586,9 +542,13 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "Die Analystenmeinung ist stark positiv (38 Kauf‑Empfehlungen, nur 1 Verkauf). Das Umsatzwachstum von +55 % zeigt eine robuste Nachfrage nach EUV‑Lithografie. Das KGV von 26,4 ist für ein wachstumsstarkes Technologieunternehmen akzeptabel, und das Kursziel von 2.104 € impliziert weiteres Aufwärtspotenzial.",
+   "dagegen": "Das KGV von 26,4 kann im Vergleich zu Peer‑Unternehmen als überbewertet gelten, besonders bei möglicher Abschwächung der Chip‑Nachfrage. Fehlende Insider‑Transaktionen und das Fehlen von Short‑Positionen deuten auf geringe Marktmeinung hin. Die Quellenlage ist dünn: Reddit‑Erwähnungen kaum, keine Newsletter‑Analyse.",
+   "katalysatoren": [
+    "Q4‑2024‑Ergebnisbericht mit erwarteten EUV‑Umsatzsteigerungen",
+    "Markteinführung des neuen EUV‑0,55 NA‑Systems",
+    "Kapazitätserweiterungen bei Hauptkunden wie TSMC"
+   ]
   },
   "SU.PA": {
    "ticker": "SU.PA",
@@ -620,7 +580,7 @@
     ],
     [
      "Newsletter",
-     "in 21 Clustern"
+     "in 20 Clustern"
     ],
     [
      "Reddit",
@@ -635,12 +595,12 @@
      "1648,06 % ueber 1700 Halter"
     ]
    ],
-   "dafuer": "Die Analystenmeinung ist überwiegend positiv (18 Kauf, 3 Halten, 1 Verkauf). Das Unternehmen verzeichnet ein Umsatzwachstum von 10 % und ein moderates forward KGV von 20,5, was im Vergleich zur Branche attraktiv erscheint. Das Kursziel von 329 € unterstützt die Aufwärtsmeinung.",
-   "dagegen": "Ein starkes Short‑Interest von über 1 600 % (1700 Halter) deutet auf erhebliche Skepsis am Markt hin. Reddit erwähnt das Unternehmen kaum, was auf fehlende Retail‑Aufmerksamkeit schließen lässt. Ohne Insider‑Updates fehlt Transparenz zu möglichen Risiken, und das Kursziel könnte das aktuelle Kurs‑Niveau bereits überbewerten.",
+   "dafuer": "Schneider Electric profitiert von starkem Umsatzwachstum (+10 %) und breitem Portfolio in Energie‑Management, Industrie‑Automatisierung und erneuerbaren Lösungen. Analysten bewerten das Unternehmen überwiegend positiv (18 Buy, 3 Hold, 1 Sell) und das Kursziel von 329 € liegt über dem aktuellen Kurs, was Aufwärtspotenzial signalisiert.",
+   "dagegen": "Gegen das Bild spricht ein extrem hoher Short‑Interest von über 1.600 % und mehr als 1.700 Short‑Positionen, was auf erhebliche Skepsis hindeutet. Die Forward‑KGV von 20,5 erscheint im Vergleich zu Branchenkollegen hoch, und es gibt keine Insider‑Käufe, was das Vertrauen mindert.",
    "katalysatoren": [
-    "Q3‑2026 Ergebnisveröffentlichung (Erwartungen zu Umsatz‑ und Gewinnentwicklung)",
-    "Markteinführung neuer Micro‑Grid‑Lösungen für erneuerbare Energien",
-    "Abschluss einer strategischen Akquisition im Bereich Gebäudeautomation"
+    "Q3‑2026 Ergebnisveröffentlichung mit Fokus auf Umsatz‑ und Margenentwicklung",
+    "Markteinführung neuer Microgrid‑ und Solarlösungen im zweiten Halbjahr",
+    "EU‑Förderprogramme für Energieeffizienz, die Nachfrage nach Gebäudemanagement‑Systemen ankurbeln"
    ]
   },
   "GEV": {
@@ -651,11 +611,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "247.8 Mrd"
+     "245.3 Mrd"
     ],
     [
      "KGV (erw.)",
-     "36,8"
+     "36,5"
     ],
     [
      "Umsatzwachstum",
@@ -704,7 +664,7 @@
     ],
     [
      "KGV (erw.)",
-     "44,6"
+     "44,5"
     ],
     [
      "Umsatzwachstum",
@@ -749,7 +709,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "100.3 Mrd"
+     "99.9 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -798,11 +758,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "5.214.1 Mrd"
+     "5.170.6 Mrd"
     ],
     [
      "KGV (erw.)",
-     "13,6"
+     "13,5"
     ],
     [
      "Umsatzwachstum",
@@ -1125,7 +1085,104 @@
   "gesamt": 107395
  },
  "gespraech": [],
- "termine": [],
- "meldungen_gesamt": 173,
- "llm_aktiv": true
+ "termine": [
+  {
+   "datum": "2026-10-16",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-10-16",
+   "zeit": "",
+   "region": "us",
+   "was": "G.17 Industrial Production and Capacity Utilization",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-10-17",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-10-18",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-10-19",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-10-20",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-10-21",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-10-22",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-10-23",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-10-24",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-10-25",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-10-26",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  }
+ ],
+ "meldungen_gesamt": 176,
+ "llm_aktiv": false
 }
