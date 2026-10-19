@@ -1,9 +1,9 @@
 {
- "stand": "2026-10-19T10:08",
- "lauf": "2026101910",
+ "stand": "2026-10-19T14:08",
+ "lauf": "2026101914",
  "synthese": {
-  "kern": "Unternehmens‑Kosten und Fachkräftemangel drücken, während Markt nur KI‑ und Rohstoff‑Stimmung beachtet.",
-  "erlaeuterung": "Gehälter bei VW werden eingefroren, Lindt verliert CEO, und Wohnungsengpässe verstärken Kostendruck. Trotzdessen dominieren KI‑Sorgen und Ölpreis die Marktstimmung, wodurch strukturelle Schwächen übersehen werden."
+  "kern": "Politische Spannungen, soziale Unruhen und regulatorische Eingriffe dominieren, während der Markt den steigenden Risikoappetit unterschätzt.",
+  "erlaeuterung": "Die Meldungen verbinden geopolitische Konflikte, innenpolitische Proteste und neue Regulierungen, die das Vertrauen in US‑ und EU‑Märkte belasten. Trotz eines relativ hohen Risikoappetits (36‑Perzentil) übersehen Investoren die steigende Unsicherheit, die die Liquidität und das Wachstumspotenzial dämpfen könnte."
  },
  "regime": [
   {
@@ -36,23 +36,23 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 71,
-     "delta": 2
+     "wert": 69,
+     "delta": 0
     },
     "eur": {
      "wert": 87,
      "delta": 1
     }
    },
-   "differenz": 16
+   "differenz": 18
   },
   {
    "name": "risikoappetit",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 34,
-     "delta": -22
+     "wert": 36,
+     "delta": -20
     }
    }
   },
@@ -84,130 +84,201 @@
  ],
  "cluster": [
   {
-   "id": "a9a8d5c9",
-   "titel": "Volkswagen will offenbar Gehälter einfrieren",
-   "anriss": "Der angeschlagene Autobauer Volkswagen verschärft seine Sparmaßnahmen. Übereinstimmenden Berichten zufolge sollen weltweit die Gehälter für mehrere Jahre eingefroren werden. Der Konzern will sich dazu nicht äußern.",
+   "id": "40e4fefc",
+   "titel": "Satellitenfrequenzen: USA drohen Europa wegen Starlink-Beschränkungen",
+   "anriss": "Die EU will Satellitenfrequenzen für europäische Anbieter reservieren. Der US-Botschafter in Brüssel kündigt »verheerende« Vergeltungsmaßnahmen an. Welche genau das sein sollen, lässt er offen.",
    "region": "dach",
    "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "heise",
+    "manager magazin"
+   ],
+   "anzahl": 7,
+   "links": [
+    "https://www.spiegel.de/wirtschaft/unternehmen/satellitenfrequenzen-usa-drohen-europa-wegen-starlink-beschraenkungen-a-4bd30814-95f2-463c-982e-38ab6f1c0984#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/streit-ueber-frequenzen-fuer-satellitentelefonie-accg-201601849.html",
+    "https://www.faz.net/aktuell/wirtschaft/starlink-vs-stuttgart-21-europas-strategische-abhaengigkeit-von-elon-musk-201599235.html",
+    "https://www.manager-magazin.de/unternehmen/dienstleister/telekom-europaeische-allianz-soll-starlink-vormacht-brechen-a-bafaafee-a41e-4407-81d4-caae4b568989#ref=rss",
+    "https://www.manager-magazin.de/politik/europa/starlink-usa-drohen-eu-mit-verheerender-vergeltung-a-0135b446-f4cb-46eb-8834-bbd37bac000b#ref=rss"
+   ],
+   "punkte": 22,
+   "text": "Die EU will künftig Satellitenfrequenzen für europäische Anbieter reservieren, was die Nutzung von US‑Satelliten wie Starlink einschränken könnte. Der US‑Botschafter in Brüssel hat unverbindlich „verheerende“ Vergeltungsmaßnahmen angekündigt, ohne Details zu nennen.",
+   "positiv": [
+    {
+     "asset": "europäische Satellitenanbieter",
+     "richtung": "up"
+    }
+   ],
+   "negativ": [
+    {
+     "asset": "US‑Satellitenanbieter (z. B. Starlink)",
+     "richtung": "down"
+    },
+    {
+     "asset": "US‑Raumfahrt‑ und Telekommunikationssektor",
+     "richtung": "down"
+    }
+   ]
+  },
+  {
+   "id": "27305be4",
+   "titel": "Investoren: Französische Staatsanleihen nach Unruhen unter Druck",
+   "anriss": "Die Ausschreitungen am Wochenende verunsichern Investoren. Die Risikoprämien für französische Staatsanleihen steigen weiter. Der Abstand zu deutschen Papieren ist damit erneut größer geworden.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "Handelsblatt Finanzen",
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/anleihen/investoren-franzoesische-staatsanleihen-nach-unruhen-unter-druck/100263262.html",
+    "https://www.tagesschau.de/wirtschaft/finanzen/marktbericht-frankreich-proteste-euro-100.html",
+    "https://www.faz.net/aktuell/wirtschaft/pulverfass-frankreich-warum-reformen-in-paris-so-lange-verschleppt-wurden-201597964.html",
+    "https://www.manager-magazin.de/politik/deutschland/staatsanleihen-prekaere-finanzlage-zeigt-populisten-grenzen-auf-a-eef7ccc6-8a19-47c6-8a03-716f00d9be83#ref=rss"
+   ],
+   "punkte": 21,
+   "text": "Nach den Unruhen am Wochenende steigen die Risikoprämien für französische Staatsanleihen weiter, wodurch die Rendite­differenz zu deutschen Papieren erneut größer wird. Investoren verlagern damit Kapital aus französischen in sicherere deutsche Anleihen.",
+   "positiv": [
+    {
+     "asset": "deutsche Staatsanleihen",
+     "richtung": "up"
+    }
+   ],
+   "negativ": [
+    {
+     "asset": "französische Staatsanleihen",
+     "richtung": "down"
+    }
+   ]
+  },
+  {
+   "id": "a9a8d5c9",
+   "titel": "Volkswagen will offenbar Gehälter einfrieren",
+   "anriss": "Autobauer Volkswagen verschärft seine Sparmaßnahmen. Übereinstimmenden Berichten zufolge sollen weltweit die Gehälter für mehrere Jahre eingefroren werden. Der Konzern will sich dazu nicht äußern.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
     "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft",
     "heise",
     "manager magazin"
    ],
-   "anzahl": 4,
+   "anzahl": 5,
    "links": [
     "https://www.tagesschau.de/wirtschaft/unternehmen/vw-1620.html",
-    "https://www.spiegel.de/wirtschaft/vw-diskutiert-ueber-stopp-des-lohnwachstums-bis-2030-a-4a6e840d-8527-4f0a-876c-0890af546fda#ref=rss",
+    "https://www.spiegel.de/wirtschaft/volkswagen-diskutiert-ueber-stopp-des-lohnwachstums-bis-2030-a-4a6e840d-8527-4f0a-876c-0890af546fda#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/volkswagen-plant-nullrunden-bis-2030-ig-metall-widerspricht-accg-201601274.html",
     "https://www.manager-magazin.de/unternehmen/mobilitaet/volkswagen-konzernvorstand-will-gehaelter-bis-2030-einfrieren-a-cf173107-52d5-4b87-9d7b-fc0a971c6dc5#ref=rss",
     "https://www.heise.de/news/Volkswagen-Interne-Richtlinien-sehen-offenbar-Gehaltsstopp-bis-2030-vor-11492258.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
-   "punkte": 16,
-   "text": "Volkswagen plant, laut mehreren Medienberichten, weltweit die Gehälter seiner Beschäftigten für mehrere Jahre einzufrieren, um die Sparmaßnahmen zu verstärken. Der Schritt signalisiert kurzfristige Kostendämpfung, lässt jedoch Zweifel an der finanziellen Stabilität des Unternehmens aufkommen.",
-   "positiv": [],
+   "punkte": 20,
+   "text": "Volkswagen plant, die Gehälter seiner weltweiten Belegschaft für mehrere Jahre einzufrieren, um die Kosten zu senken. Das Unternehmen hat zu den Details keine Stellung genommen.",
+   "positiv": [
+    {
+     "asset": "Volkswagen‑Kostenstruktur",
+     "richtung": "up"
+    }
+   ],
    "negativ": [
-    "Volkswagen‑Aktie",
-    "Automobilsektor"
+    {
+     "asset": "Volkswagen‑Aktie",
+     "richtung": "down"
+    },
+    {
+     "asset": "Mitarbeiter‑Moral bei Volkswagen",
+     "richtung": "down"
+    }
    ]
   },
   {
-   "id": "7f5561db",
-   "titel": "Immobilien: Die Mitarbeiterwohnung kehrt zurück – aber nicht die Arbeitersiedlung",
-   "anriss": "Wohnungsnot und der Wettbewerb um Mitarbeitende lassen Unternehmen wieder zum Anbieter von Wohnraum werden. Vieles ist dabei jedoch anders als früher.",
+   "id": "0b350988",
+   "titel": "Geldanlage: „Auch eine Rentnerin kann 100 Prozent Aktien vertragen“",
+   "anriss": "Martin Weber hat über Jahrzehnte das Verhalten von Anlegern erforscht. Im Gespräch erklärt er, worauf es beim Aufbau eines Depots ankommt und welchem Irrglauben Anleger nicht anhängen sollten.",
    "region": "dach",
    "quellen": [
-    "FAZ Wirtschaft",
     "Handelsblatt Finanzen"
    ],
-   "anzahl": 3,
+   "anzahl": 4,
    "links": [
-    "https://www.handelsblatt.com/finanzen/immobilien/immobilien-die-mitarbeiterwohnung-kehrt-zurueck-aber-nicht-die-arbeitersiedlung/100262829.html",
-    "https://www.handelsblatt.com/finanzen/immobilien/immobilien-hier-dauert-ein-verkauf-von-haus-oder-wohnung-jetzt-laenger/100260831.html",
-    "https://www.faz.net/aktuell/wirtschaft/immobilien-wohnen/mieten-vermieten/eigenbedarfskuendigung-mieter-wehrt-sich-mit-attest-accg-201222178.html"
+    "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/geldanlage-es-reicht-vollkommen-wenn-sie-mit-dem-markt-investieren/100124450.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/aktien/geldanlage-bei-diesen-vier-aktien-setzen-profi-anleger-auf-ein-comeback/100260183.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/aktien/aktien-was-verraet-eine-150-jahre-alte-grafik-ueber-die-aktuellen-boersenkurse/100189715.html",
+    "https://www.handelsblatt.com/finanzen/anlagestrategie/geldanlage-wie-der-einstieg-in-etfs-meinen-blick-auf-geld-veraendert-hat/100184984.html"
    ],
-   "punkte": 12,
-   "text": "Unternehmen reagieren auf die anhaltende Wohnungsnot, indem sie wieder vermehrt Mitarbeiterwohnungen anbieten, wobei das Modell von klassischen Arbeitersiedlungen abweicht. Diese Entwicklung begünstigt Firmen, die im Bereich Corporate Housing und Bau‑/Immobilienentwicklung tätig sind, während der Wettbewerb um regulären Mietwohnraum steigt.",
-   "positiv": [
-    "Corporate‑Housing‑REITs",
-    "Bau‑ und Immobilienentwickler"
-   ],
-   "negativ": [
-    "klassische Mietwohnungsanbieter"
-   ]
+   "punkte": 14,
+   "text": "Martin Weber argumentiert, dass auch Rentnerinnen und Rentner ein Depot zu 100 % in Aktien halten können, sofern sie die langfristige Risikostruktur verstehen. Es handelt sich um eine Meinungsäußerung ohne konkrete Marktdaten.",
+   "positiv": [],
+   "negativ": []
   },
   {
-   "id": "f4eb1063",
-   "titel": "Lindt & Sprüngli entlässt Konzernchef Lechner",
-   "anriss": "Der heiße Sommer und die hohen Preise für Kakao haben den Schokoladenhersteller Lindt & Sprüngli in die Krise gestürzt. Jetzt soll ein Wechsel im Vorstand die Wende bringen.",
+   "id": "34287685",
+   "titel": "Geldanlage: Dies sind die attraktivsten Weltraumaktien nach dem SpaceX-Hype",
+   "anriss": "Der Markt für Weltraumwirtschaft könnte bald die Billionengrenze knacken. Davon profitieren nicht nur Aktien der Raketenbauer. Und Elon Musk will jedem US-Kind eine SpaceX-Aktie schenken.",
    "region": "dach",
    "quellen": [
-    "FAZ Wirtschaft",
+    "Handelsblatt Finanzen",
     "SPIEGEL Wirtschaft",
     "manager magazin"
    ],
    "anzahl": 3,
    "links": [
-    "https://www.spiegel.de/wirtschaft/lindt-spruengli-entlaesst-konzernchef-lechner-a-7e490637-b245-4350-8674-6c9d9f7ea578#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-vw-plant-offenbar-gehaelter-bis-2030-einzufrieren-faz-200452404.html",
-    "https://www.manager-magazin.de/unternehmen/tech/anthropic-5-prozent-der-aktien-in-gemeinwohl-fonds-a-4b6a3b18-640d-4367-9ddc-35ee9b1d325f#ref=rss"
+    "https://www.handelsblatt.com/finanzen/maerkte/aktien/geldanlage-dies-sind-die-attraktivsten-weltraumaktien-nach-dem-spacex-hype/100260141.html",
+    "https://www.spiegel.de/wirtschaft/elon-musk-techmilliardaer-verspricht-jedem-us-kind-eine-spacex-aktie-a-953bf991-f366-474f-a8f2-c4f49abcd2aa#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/tech/elon-musk-techmilliardaer-verspricht-jedem-us-kind-eine-spacex-aktie-a-d80b53aa-4e94-4546-8f4e-39b5566a7693#ref=rss"
    ],
-   "punkte": 12,
-   "text": "Lindt & Sprüngli hat seinen CEO Lechner entlassen, nachdem ein heißer Sommer und stark gestiegene Kakaopreise das Unternehmen in die Krise geführt haben. Die Personalveränderung deutet auf eine bevorstehende strategische Neuausrichtung hin, belastet jedoch das Vertrauen in die Aktie des Schokoladenherstellers.",
-   "positiv": [
-    "Kakaoproduzenten"
-   ],
-   "negativ": [
-    "Lindt‑&‑Sprüngli‑Aktie",
-    "Schokoladenbranche"
-   ]
+   "punkte": 13,
+   "text": "Der Markt für Weltraumwirtschaft könnte bald die Billionengrenze knacken. Davon profitieren nicht nur Aktien der Raketenbauer. Und Elon Musk will jedem US-Kind eine SpaceX-Aktie schenken.",
+   "positiv": [],
+   "negativ": []
   },
   {
-   "id": "cec0c6d0",
-   "titel": "Nikkei, Yen, Hang Seng: Chinas Börsen nach Daten fester – KI‑Sorgen begrenzen Gewinne",
-   "anriss": "Die asiatischen Börsen haben zum Wochenbeginn von positiven chinesischen Konjunkturdaten profitiert. Doch der belastete Technologiesektor bremst die Euphorie.",
+   "id": "5ab34b8f",
+   "titel": "Dax aktuell: Europas Börsen unter Druck – Dax gibt seine Wochengewinne schnell wieder ab",
+   "anriss": "Der Dax zeigte sich vergangene Woche noch unberührt vom Ausverkauf der Chipaktien in Übersee. Nun dreht er jedoch auch ins Negative. Der schwankende Ölpreis verunsichert Anleger.",
    "region": "dach",
    "quellen": [
     "Handelsblatt Finanzen",
     "Tagesschau Wirtschaft"
    ],
-   "anzahl": 2,
+   "anzahl": 3,
    "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-europas-boersen-unter-druck-rheinmetall-groesster-verlierer-im-dax/100263149.html",
     "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-yen-hang-seng-chinas-boersen-nach-daten-fester-kisorgen-begrenzen-gewinne/100263138.html",
     "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-berichtssaison-100.html"
    ],
-   "punkte": 9,
-   "text": "Positive chinesische Konjunkturdaten haben zu Kursgewinnen an den Nikkei, im Yen und am Hang‑Seng geführt, während Sorgen um Künstliche‑Intelligenz‑Risiken die Gewinne im Technologiesektor dämpfen. Die gemischte Stimmung führt zu einer Aufwärtsbewegung bei breiten japanischen Indizes, jedoch zu einer Unterperformance von Technologie‑Aktien in der Region.",
-   "positiv": [
-    "Nikkei‑Index",
-    "Yen",
-    "Hang‑Seng‑Index"
-   ],
-   "negativ": [
-    "asiatische Technologiewerte"
-   ]
-  },
-  {
-   "id": "4c7afed1",
-   "titel": "Dax aktuell: Deutscher Leitindex vormittags im Minus – Ölpreis im Fokus",
-   "anriss": "Der Dax zeigte sich vergangene Woche noch unberührt vom Ausverkauf der Chipaktien in Übersee. Nun dreht er jedoch auch ins Negative. Der schwankende Ölpreis verunsichert Anleger.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "manager magazin"
-   ],
-   "anzahl": 2,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-deutscher-leitindex-vormittags-im-minus-oelpreis-im-fokus/100263149.html",
-    "https://www.manager-magazin.de/finanzen/boerse/boerse-dax-zurueckhaltend-erwartet-vonovia-schaut-auf-berlin-aumovio-mit-rueckenwind-a-fa3e8d99-8e12-41e4-9f0a-385953539068#ref=rss"
-   ],
-   "punkte": 9,
+   "punkte": 12,
    "text": "Der Dax zeigte sich vergangene Woche noch unberührt vom Ausverkauf der Chipaktien in Übersee. Nun dreht er jedoch auch ins Negative. Der schwankende Ölpreis verunsichert Anleger.",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "e9897491",
-   "titel": "Interview: Blackrock-Chef Larry Fink: „Solche Investitionsmöglichkeiten gab es seit 30 Jahren nicht“",
-   "anriss": "Der CEO des weltgrößten Vermögensverwalters sieht Anzeichen, dass sich die Verunsicherung bei den Investoren legt. Fink sieht gute Chancen für Deutschland, warnt jedoch: Der Wettbewerb um Kapital wird härter.",
+   "id": "6e0365ad",
+   "titel": "Wohnungen Enteignen: Um diesen Vergesellschaftungs-Paragraphen dreht sich in Berlin jetzt alles",
+   "anriss": "Linke, Grüne und SPD wollen in Berlin mehr als hunderttausend Wohnungen verstaatlichen. Das Grundgesetz bietet eine Rechtsgrundlage – die noch nie angewendet wurde.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.faz.net/aktuell/wirtschaft/enteignung-von-vonovia-unter-rot-gruen-rot-um-diesen-paragraphen-dreht-sich-alles-201602062.html",
+    "https://www.faz.net/aktuell/wirtschaft/vonovia-co-wem-die-vergesellschaftung-unter-rot-gruen-rot-in-berlin-droht-accg-201598007.html",
+    "https://www.manager-magazin.de/unternehmen/industrie/vonovia-heimstaden-adler-diese-unternehmen-waeren-von-den-berliner-enteignungsplaenen-betroffen-a-ed6c79cc-bdf6-4b5b-8e5a-b1b81714cd38#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/dienstleister/vonovia-vergesellschaftungsplaene-verfassungswidrig-a-e44130a9-a1d1-461c-9837-a9949c088299#ref=rss"
+   ],
+   "punkte": 12,
+   "text": "Linke, Grüne und SPD wollen in Berlin mehr als hunderttausend Wohnungen verstaatlichen. Das Grundgesetz bietet eine Rechtsgrundlage – die noch nie angewendet wurde.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "682748cf",
+   "titel": "Immobilien: Mietrecht-Reform trifft Vermieter hart – Hunderte Euro weniger",
+   "anriss": "Welche Einschränkungen die jetzt vorgestellten Reformpläne von Justizministerin Hubig für Eigentümer und Vermieter vorsehen – und wie sehr sie den Markt verändern werden.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
@@ -215,57 +286,19 @@
    ],
    "anzahl": 2,
    "links": [
-    "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/blackrock-chef-herr-fink-investiert-deutschland-genug/100261785.html",
-    "https://www.faz.net/aktuell/wirtschaft/deutschlands-investorengipfel-werbung-dringend-noetig-zahlen-zeigen-rueckgang-accg-201528305.html"
+    "https://www.handelsblatt.com/finanzen/immobilien/immobilien-was-die-mietrechtsreform-fuer-vermieter-und-eigentuemer-bedeutet/100199045.html",
+    "https://www.faz.net/aktuell/wirtschaft/immobilien-wohnen/mieten-vermieten/eigenbedarfskuendigung-mieter-wehrt-sich-mit-attest-accg-201222178.html"
    ],
    "punkte": 9,
-   "text": "Der CEO des weltgrößten Vermögensverwalters sieht Anzeichen, dass sich die Verunsicherung bei den Investoren legt. Fink sieht gute Chancen für Deutschland, warnt jedoch: Der Wettbewerb um Kapital wird härter.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "32a9cacc",
-   "titel": "Märkte Insight: Auch der Dax bekommt das KI-Beben zu spüren – aber weniger sichtbar",
-   "anriss": "Viele Industrieunternehmen profitieren von gefragter Technologie rund um Künstliche Intelligenz. Mit allen Chancen für deren Aktien, analysiert Ulf Sommer. Und Risiken.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "Handelsblatt Finanzen"
-   ],
-   "anzahl": 2,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/anlagestrategie/kolumnen/geldanlage-auch-der-dax-bekommt-das-ki-beben-zu-spueren-aber-weniger-sichtbar/100262546.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/coreweave-nebius-terawulf-diese-unternehmen-halten-die-maerkte-in-atem-201495436.html"
-   ],
-   "punkte": 9,
-   "text": "Viele Industrieunternehmen profitieren von gefragter Technologie rund um Künstliche Intelligenz. Mit allen Chancen für deren Aktien, analysiert Ulf Sommer. Und Risiken.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "c33d28a6",
-   "titel": "IW-Studie: Fachkräftemangel bremst Infrastruktur-Projekte aus",
-   "anriss": "Der Bund will massiv in Brücken, Netze und Digitalisierung investieren. Doch laut einer Studie des Instituts der deutschen Wirtschaft fehlen schon jetzt die Fachkräfte, um die Projekte umzusetzen.",
-   "region": "dach",
-   "quellen": [
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft"
-   ],
-   "anzahl": 2,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/fachkraeftemaengel-infrastruktur-iw-studie-100.html",
-    "https://www.spiegel.de/wirtschaft/fachkraeftemangel-wird-infrastruktur-projekte-deutlich-ausbremsen-a-a118f8e2-d616-47fa-8324-23e1e5ac770d#ref=rss"
-   ],
-   "punkte": 8,
-   "text": "Der Bund will massiv in Brücken, Netze und Digitalisierung investieren. Doch laut einer Studie des Instituts der deutschen Wirtschaft fehlen schon jetzt die Fachkräfte, um die Projekte umzusetzen.",
+   "text": "Welche Einschränkungen die jetzt vorgestellten Reformpläne von Justizministerin Hubig für Eigentümer und Vermieter vorsehen – und wie sehr sie den Markt verändern werden.",
    "positiv": [],
    "negativ": []
   }
  ],
  "ketten": [],
  "gegenthese": {
-  "konsens": "Markt erwartet wegen Gehaltseinfrierung, Entlassungen und KI‑Risiken kurzfristige Volatilität und leichtes Minus im DAX, während Ölpreis‑ und Infrastruktur‑Themen stabil bleiben.",
-  "gegen": "Starke Unternehmensgewinne, sinkende Inflation und anhaltende Geldpolitik‑Unterstützung könnten die Einbrüche begrenzen und eine rasche Erholung ermöglichen."
+  "konsens": "Markt ist derzeit risikoavers, bevorzugt sichere Staatsanleihen und defensive Aktien; erwartet weitere Zins‑ und Inflationsdruck, regulatorische Belastungen in Immobilien und Technologie‑Sektoren, was zu Kursverlusten und geringerer Liquidität führt.",
+  "gegen": "Gegenargument: Langfristige Wachstumspotenziale in Weltraum‑ und Elektromobilitäts‑Technologien, mögliche Zinssenkungen bei konjunktureller Abschwächung und Diversifikationseffekte, die aktuelle Risikoaversion übersteigen könnten."
  },
  "matrix": [
   {
@@ -382,11 +415,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "113.1 Mrd"
+     "112.4 Mrd"
     ],
     [
      "KGV (erw.)",
-     "21,3"
+     "21,1"
     ],
     [
      "Umsatzwachstum",
@@ -404,7 +437,7 @@
     ],
     [
      "Newsletter",
-     "in 1 Clustern"
+     "in 2 Clustern"
     ],
     [
      "Reddit",
@@ -419,12 +452,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Dafür spricht das robuste Umsatzwachstum von +18 % und ein breites Produktportfolio von Gasturbinen bis zu digitalen Services, das die Nachfrage nach dezentraler Energie unterstützt. Der Konsens von 21 Analysten‑Buy‑Ratings und ein Kursziel von 194 € über dem aktuellen Kurs signalisieren Optimismus.",
-   "dagegen": "Entgegen steht ein relativ hohes KGV von 21,3, das die Aktie teuer erscheinen lässt, sowie anhaltende Probleme bei Siemens Gamesa, die Margen belasten könnten. Die geringe Aufmerksamkeit auf Reddit und das Fehlen von Insider‑Transaktionen deuten auf begrenztes Marktinteresse hin.",
+   "dafuer": "Dafür spricht, dass Siemens Energy ein breites Portfolio aus Gasturbinen, Dampfturbinen und Netzinfrastruktur bietet und im letzten Jahr ein Umsatzwachstum von 18 % verzeichnete. Das erwartete Kurs‑Gewinn‑Verhältnis von 21,1 liegt im Branchendurchschnitt, und Analysten setzen ein Kursziel von 194 Euro, was Aufwärtspotenzial signalisiert.",
+   "dagegen": "Dagegen wird auf das relativ hohe KGV von 21,1 verwiesen, das im Vergleich zu traditionellen Energieunternehmen überbewertet erscheint. Drei Analysten empfehlen Verkauf, weil die Integration von Siemens Gamesa und die Margen im Gas‑Service‑Segment noch unsicher sind. Zudem könnten Lieferkettenengpässe die Auftragslage belasten. Die Meinungsverschiedenheit zwischen 21 Kauf‑ und 3 Verkaufsempfehlungen verdeutlicht die Unsicherheit.",
    "katalysatoren": [
-    "Q3‑2024 Ergebnisbericht",
-    "Lieferung neuer H‑Class Gasturbinen und Inbetriebnahme zugehöriger Kraftwerke",
-    "Fortschritt bei Siemens Gamesa Offshore‑Windprojekten und Kostensenkungsprogramme"
+    "Veröffentlichung des Q3‑Ergebnisses (voraussichtlich Q4 2026)",
+    "Zusage großer Offshore‑Windaufträge für Siemens Gamesa",
+    "Inkrafttreten neuer EU‑Förderprogramme für grüne Gaskraftwerke"
    ]
   },
   "RHM.DE": {
@@ -435,11 +468,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "49.5 Mrd"
+     "49.2 Mrd"
     ],
     [
      "KGV (erw.)",
-     "20,0"
+     "19,9"
     ],
     [
      "Umsatzwachstum",
@@ -472,12 +505,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Dafür spricht das robuste Umsatzwachstum von +69 % und die breite Aufstellung in Fahrzeugsysteme, Waffen und Elektronik, die das Unternehmen gegen konjunkturelle Schwankungen absichern. Der Forward‑KGV von 20 liegt im Branchendurchschnitt, während 17 Analysten ein Kauf‑Rating abgeben, was das Markt‑Sentiment positiv widerspiegelt.",
-   "dagegen": "Dagegen spricht die Bewertung: ein Forward‑KGV von 20 ist im Vergleich zu europäischen Rüstungsherstellern hoch, was das Kursziel von 1 571 € bereits stark einpreist. Das Geschäft ist stark von staatlichen Verteidigungsbudgets abhängig; Änderungen in Politik oder Haushalten könnten die Auftragslage schwächen.",
+   "dafuer": "Die Analystenmehrheit (17 Kauf‑Empfehlungen) und ein starkes Umsatzwachstum von +69 % unterstützen die Aktie. Das diversifizierte Portfolio aus Fahrzeugsystemen, Waffen und Elektronik bietet mehrere Wachstumstreiber. Das forward‑KGV von 19,9 liegt im Branchendurchschnitt, das Kursziel von 1.571 € impliziert weiteres Aufwärtspotenzial.",
+   "dagegen": "Das Unternehmen ist stark von staatlichen Verteidigungsbudgets abhängig; bei Kürzungen könnte die Auftragslage leiden. Das forward‑KGV von fast 20 kann als relativ hoch gelten, wenn das Wachstum nicht nachhaltig ist. Die Informationslage ist dünn – kaum Insider‑ oder Short‑Aktivität, geringe Medienpräsenz, was Unsicherheit erhöht.",
    "katalysatoren": [
-    "Veröffentlichung des deutschen Verteidigungsbudgets 2025",
-    "Q3‑2026 Ergebnisbericht",
-    "Vergabe eines Großauftrags für neue Panzerplattformen oder elektronische Verteidigungssysteme"
+    "Veröffentlichung des Quartals‑Ergebnisses (voraussichtlich Q3‑2026)",
+    "Zuteilung zusätzlicher Verteidigungsbudgets in Deutschland und EU‑Ländern",
+    "Bekanntgabe neuer Großaufträge für gepanzerte Fahrzeuge oder elektronische Lösungen"
    ]
   },
   "ASML.AS": {
@@ -488,11 +521,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "577.0 Mrd"
+     "573.0 Mrd"
     ],
     [
      "KGV (erw.)",
-     "26,8"
+     "26,6"
     ],
     [
      "Umsatzwachstum",
@@ -525,12 +558,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "ASML dominiert den EUV-Markt, erzielt 55 % Umsatzwachstum und profitiert von der anhaltenden Chipnachfrage. Das Unternehmen weist ein robustes Order‑Backlog, hohe Margen und ein starkes Technologie‑Moat auf, was das langfristige Wachstumspotenzial unterstützt.",
-   "dagegen": "Die Bewertung mit KGV 26,8 erscheint hoch, während die Chip‑Zyklen stark konjunkturell sind. Geopolitische Spannungen, insbesondere Exportbeschränkungen nach China, sowie die Abhängigkeit von wenigen Großkunden erhöhen das Risiko einer Umsatzdämpfung.",
+   "dafuer": "ASML profitiert von seiner Monopolstellung im EUV‑Lithografie‑Markt, was das Umsatzwachstum von +55 % ermöglicht. Das Unternehmen weist ein KGV von 26,6 auf, das angesichts des 573 Mrd‑Euro‑Marktkapitals moderat erscheint. Analysten‑Consensus von 38 Käufen spricht für starkes Vertrauen.",
+   "dagegen": "Das hohe Kursziel von 2108 Euro impliziert eine stark steigende Bewertung, die bei nachlassender Chip‑Nachfrage schnell korrigiert werden könnte. Die Abhängigkeit von wenigen Großkunden erhöht das Konzentrationsrisiko, und Lieferkettenengpässe bei Halbleitermaterialien könnten die Produktion verzögern.",
    "katalysatoren": [
-    "Einführung des High‑NA EUV‑Systems (geplant für 2025)",
-    "Quartalsbericht Q3 2024 mit Fokus auf Order‑Backlog‑Entwicklung",
-    "Mögliche Lockerung von Exportbeschränkungen für chinesische Halbleiter‑Fabriken"
+    "Q4‑2024‑Ergebnisveröffentlichung",
+    "Einführung des High‑NA‑EUV‑Systems",
+    "Großaufträge von TSMC und Samsung für 2025‑Fertigungsstraßen"
    ]
   },
   "SU.PA": {
@@ -541,7 +574,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "141.0 Mrd"
+     "141.1 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -563,7 +596,7 @@
     ],
     [
      "Newsletter",
-     "in 14 Clustern"
+     "in 15 Clustern"
     ],
     [
      "Reddit",
@@ -578,12 +611,12 @@
      "1648,06 % ueber 1700 Halter"
     ]
    ],
-   "dafuer": "Die Aktie profitiert von einem breiten Portfolio in Energie‑Management und Industrieautomation, starkem Umsatzwachstum von 10 % und einem moderaten KGV von 20,3. Analysten bewerten sie überwiegend positiv (18 Kauf, 4 Halten). Das Kursziel von 328 € impliziert weiteres Aufwärtspotenzial.",
-   "dagegen": "Ein extrem hoher Short‑Interest von 1648 % der Halter signalisiert Skepsis, während Insider‑Aktivität fehlt. Die geringe Reddit‑Präsenz deutet auf schwaches Retail‑Interesse hin. Kritiker sehen das Kursziel als überoptimistisch und warnen vor konjunkturellen Risiken im Industriesektor. Widerspruch: Analysten‑Optimismus vs. Short‑Pressure.",
+   "dafuer": "Schneider Electric verfügt über ein breites Portfolio in Energie‑Management und Industrie‑Automation, profitiert von starkem Umsatzwachstum (+10 %) und einem moderaten KGV von 20,3. Analysten bewerten die Aktie überwiegend positiv (18 Buy, 4 Hold). Das Kursziel von 328 € impliziert weiteres Aufwärtspotenzial.",
+   "dagegen": "Die Short‑Position ist extrem hoch (über 1.600 % der Halter), was auf erhebliche Skepsis hinsichtlich der Bewertung hindeutet. Insider‑Meldungen fehlen, und Reddit‑Diskussionen sind kaum vorhanden, was im Widerspruch zur breiten Analysten‑Buy‑Meinung steht. Das Risiko einer Kurskorrektur bleibt bestehen.",
    "katalysatoren": [
-    "Q3‑Ergebnisveröffentlichung mit Fokus auf erneuerbare‑Energie‑Umsätze",
-    "Markteinführung einer neuen Microgrid‑Lösung für Industrie‑ und Gebäudekomplexe",
-    "Ankündigung strategischer Partnerschaften im Bereich Smart‑Building‑Technologien"
+    "Quartalsbericht Q4 2025 mit erwarteter Umsatzsteigerung im Bereich erneuerbare Energien",
+    "Markteinführung neuer Micro‑Grid‑Lösungen für industrielle Kunden",
+    "Regulatorische Förderprogramme für Energie‑Management‑Systeme in Europa"
    ]
   },
   "GEV": {
@@ -594,7 +627,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "245.3 Mrd"
+     "245.8 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -643,11 +676,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "35.5 Mrd"
+     "35.2 Mrd"
     ],
     [
      "KGV (erw.)",
-     "44,5"
+     "44,1"
     ],
     [
      "Umsatzwachstum",
@@ -680,9 +713,13 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "Die Analysten‑Stimmungszahl von 19 Buy zu 2 Hold spricht für eine positive Erwartung. Das Kursziel von 128 USD liegt über dem aktuellen Kurs, was Aufwärtspotenzial suggeriert. Das Unternehmen profitiert von einer diversifizierten Wertschöpfungskette (Uran, Fuel Services, Westinghouse) und hat kaum Short‑Positionen.",
+   "dagegen": "Ein KGV von 44,1 ist hoch und deutet auf eine überbewertete Aktie hin. Das Umsatzwachstum ist mit –7 % rückläufig, was die Ertragslage belastet. Die Informationslage ist dünn: Reddit‑ und Newsletter‑Berichte fehlen, Insider‑Meldungen gibt es nicht, was Unsicherheit erhöht.",
+   "katalysatoren": [
+    "Ankündigungen neuer Kernkraftwerksprojekte in den USA/Europa, die die Uran‑Nachfrage steigern könnten.",
+    "Freigabe und Lizenzierung von Westinghouse‑SMR‑Technologien, die neue Marktsegmente eröffnen.",
+    "Langfristige Lieferverträge im Fuel‑Services‑Segment nach steigenden Uranpreisen."
+   ]
   },
   "FCX": {
    "ticker": "FCX",
@@ -692,11 +729,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "99.9 Mrd"
+     "98.8 Mrd"
     ],
     [
      "KGV (erw.)",
-     "16,1"
+     "15,9"
     ],
     [
      "Umsatzwachstum",
@@ -741,11 +778,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "5.170.6 Mrd"
+     "5.209.4 Mrd"
     ],
     [
      "KGV (erw.)",
-     "13,5"
+     "13,6"
     ],
     [
      "Umsatzwachstum",
@@ -1068,104 +1105,7 @@
   "gesamt": 107395
  },
  "gespraech": [],
- "termine": [
-  {
-   "datum": "2026-10-20",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-10-21",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-10-22",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-10-23",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-10-24",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-10-25",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-10-26",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-10-27",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-10-28",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-10-29",
-   "zeit": "",
-   "region": "us",
-   "was": "Debt to Gross Domestic Product Ratios",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-10-29",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-10-29",
-   "zeit": "",
-   "region": "us",
-   "was": "Gross Domestic Product",
-   "konsens": "",
-   "wucht": "hoch"
-  }
- ],
- "meldungen_gesamt": 125,
+ "termine": [],
+ "meldungen_gesamt": 150,
  "llm_aktiv": false
 }
