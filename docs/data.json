@@ -1,9 +1,9 @@
 {
- "stand": "2026-10-24T21:18",
- "lauf": "2026102421",
+ "stand": "2026-10-25T12:11",
+ "lauf": "2026102512",
  "synthese": {
-  "kern": "Markt unterschätzt kombinierte Risiken von Kreditstress, Arbeitsabbau und geopolitischer Unsicherheit.",
-  "erlaeuterung": "Zinsdruck bleibt hoch, während Bankenstreiks, Stellenabbau bei VW und steigende geopolitische Spannungen die Liquidität belasten. Der Markt fokussiert auf Energiepreise, vernachlässigt jedoch die kumulative Wirkung von Kreditrisiken und strukturellen Schwächen."
+  "kern": "AI‑Risiken treffen auf steigenden Zinsdruck – Markt unterschätzt die kombinierte Belastung für Risiko‑ und Liquiditätslage.",
+  "erlaeuterung": "Die Meldungen zu KI‑Sicherheitslücken, regulatorischen Konflikten und datenintensiven Geschäftsmodellen zeigen, dass technologische Risiken gleichzeitig mit hohen Zins‑ und Liquiditätsbelastungen zunehmen. Der Markt fokussiert zwar einzelne Themen wie US‑Investitionen oder Unternehmensgewinne, vernachlässigt jedoch die systemische Wechselwirkung beider Kräfte."
  },
  "regime": [
   {
@@ -36,15 +36,15 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 60,
-     "delta": -11
+     "wert": 71,
+     "delta": 0
     },
     "eur": {
-     "wert": 91,
-     "delta": 3
+     "wert": 89,
+     "delta": 1
     }
    },
-   "differenz": 31
+   "differenz": 18
   },
   {
    "name": "risikoappetit",
@@ -84,191 +84,225 @@
  ],
  "cluster": [
   {
-   "id": "ebc8aeeb",
-   "titel": "Immobilien: Diese Orte sind für Pendler im Kölner Umland besonders attraktiv",
-   "anriss": "Wohnungen in Köln sind begehrt und sehr teuer. Eine exklusive Auswertung der Postbank zeigt, welche Alternativen sich im Speckgürtel rechnen.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "Handelsblatt Finanzen",
-    "SPIEGEL Wirtschaft"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/immobilien/immobilien-diese-orte-sind-fuer-pendler-im-koelner-umland-besonders-attraktiv/100260822.html",
-    "https://www.spiegel.de/wirtschaft/mietmarkt-warum-wohnungstausch-die-wohnungsnot-nicht-lindert-a-ad8e2a86-01a6-4453-8ade-1076fae7f246#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/arm-und-reich/warum-berlin-so-gern-enteignet-die-besonderheiten-der-hauptstadt-accg-201613453.html"
-   ],
-   "punkte": 13,
-   "text": "Die Postbank‑Analyse zeigt, dass Wohnungen im Kölner Umland für Pendler deutlich günstiger und damit attraktiver sind als im Stadtzentrum, wo die Preise bereits sehr hoch sind. Damit entstehen im Speckgürtel neue Nachfrage‑ und Preisimpulse für Wohnimmobilien, während das Kerngebiet von einer Abschwächung der Preisdynamik betroffen sein kann.",
-   "positiv": [
-    "Wohnimmobilien im Kölner Umland (nachfrage steigend)"
-   ],
-   "negativ": [
-    "Wohnimmobilien im Kölner Stadtkern (Preisniveau hoch, nachfrage gedämpft)"
-   ]
-  },
-  {
-   "id": "44fb6e57",
-   "titel": "Banken: Verdi ruft zu bundesweiten Warnstreiks bei privaten Banken auf",
-   "anriss": "Damit solle der Druck auf die Arbeitgeber vor der zweiten Verhandlungsrunde am 2. November erhöht werden. Von dem Tarifkonflikt sind rund 150.000 Beschäftigte betroffen.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "Handelsblatt Finanzen",
-    "SPIEGEL Wirtschaft"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/banken-verdi-ruft-zu-bundesweiten-warnstreiks-bei-privaten-banken-auf/100264474.html",
-    "https://www.spiegel.de/wirtschaft/ver-di-ruft-zu-bundesweitem-warnstreik-bei-privatbanken-auf-a-a4bd0799-26ba-4909-b0d4-46b0768f28ff#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-open-ai-will-spitzen-ki-ohne-internet-trainieren-faz-200452404.html"
-   ],
-   "punkte": 13,
-   "text": "Verdi ruft zu bundesweiten Warnstreiks bei privaten Banken auf, um den Verhandlungsspielraum vor der zweiten Tarifrunde am 2. November zu erhöhen; rund 150 000 Beschäftigte sind betroffen. Die Aktionen erhöhen das operative Risiko und den Reputationsdruck für die betroffenen Institute.",
-   "positiv": [
-    "Gewerkschaftliche Tarifforderungen (potenziell höhere Löhne)"
-   ],
-   "negativ": [
-    "Private Banken (Kurzfristig operatives Risiko und Kursdruck)"
-   ]
-  },
-  {
-   "id": "e3cf1439",
-   "titel": "PHP-Sicherheitslücke: IT-Experten fordern Maßnahmen über Updates hinaus",
-   "anriss": "Nach Aufdeckung der Sicherheitslücke in der Programmiersprache PHP sind viele Webseiten nach einem Update wieder verfügbar. Doch IT-Experten raten zu weiteren Maßnahmen: Betreiber von Webseiten müssten ihre Systeme genau prüfen.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "heise"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/digitales/it-sicherheit-php-100.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/ki-sicherheitsluecke-trifft-deutschland-zeit-fuer-mehr-eigenstaendigkeit-accg-201615439.html",
-    "https://www.heise.de/news/php2shell-Millionen-PHP-Dienste-in-Deutschland-verwundbar-11498464.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 12,
-   "text": "Nach der Entdeckung einer kritischen Sicherheitslücke in PHP konnten viele Webseiten durch ein Update wieder online gehen, doch IT‑Experten warnen, dass reine Patches nicht ausreichen. Sie fordern zusätzliche Schutzmaßnahmen, was die Nachfrage nach Cyber‑Security‑Dienstleistungen erhöht.",
-   "positiv": [
-    "Cybersecurity‑Dienstleister (Nachfrage steigend)"
-   ],
-   "negativ": [
-    "Betreiber von PHP‑basierten Webseiten (Kurzfristiges Sicherheitsrisiko)"
-   ]
-  },
-  {
-   "id": "307e8701",
-   "titel": "Volkswagen: VW will weitere 12.000 Stellen abbauen",
-   "anriss": "Vor den Tarifverhandlungen kündigt Volkswagen weitere harte Einschnitte für Beschäftigte an. Der Konzern will Transfergesellschaften einführen, die Gewerkschaft hält dagegen.",
+   "id": "57cdc889",
+   "titel": "Audi baut für vier Milliarden Dollar eigenes Werk in den USA",
+   "anriss": "Bislang importiert Audi alle seine Fahrzeuge in die USA und zahlt dafür hohe Zölle. Nun will der Konzern erstmals vor Ort produzieren. Ausgerechnet Donald Trump darf die Milliardeninvestition im Wahlkampf verkünden – zusammen mit dem Audi-Chef.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
     "SPIEGEL Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 3,
+   "anzahl": 4,
    "links": [
-    "https://www.spiegel.de/wirtschaft/unternehmen/volkswagen-vw-will-weitere-12-000-stellen-abbauen-a-ff3dbc88-1f93-4109-b777-fcc141802bba#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/idee-mit-transfergesellschaft-sorgt-fuer-neuen-vw-streit-201614700.html",
-    "https://www.manager-magazin.de/unternehmen/mobilitaet/volkswagen-ig-metall-stellt-vorstand-ultimatum-und-droht-mit-arbeitskampf-a-cee12dd0-dc00-4345-9f6f-64c6108eacdd#ref=rss"
+    "https://www.spiegel.de/wirtschaft/audi-baut-fuer-vier-milliarden-dollar-eigenes-werk-in-den-usa-a-a6807fc7-f806-4c09-b692-90bfdd32e174#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/audi-chef-gernot-doellner-als-trumps-wahlkampfhelfer-201619089.html",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/audi-kuendigt-auf-trump-wahlkampfveranstaltung-sein-erstes-us-werk-an-accg-201618697.html",
+    "https://www.manager-magazin.de/unternehmen/mobilitaet/us-wahlkampf-trump-macht-audi-suv-werk-in-georgia-zum-thema-a-5e6cd231-ea0e-4e3c-90c5-24d3fc544748#ref=rss"
    ],
-   "punkte": 12,
-   "text": "Volkswagen plant, im Vorfeld der Tarifverhandlungen weitere 12 000 Stellen abzubauen und Transfergesellschaften einzuführen, was von der Gewerkschaft kritisiert wird. Der Stellenabbau belastet die Aktie und das Beschäftigungsumfeld in der Automobilbranche, während die Transfergesellschaften neue Geschäftsfelder eröffnen.",
+   "punkte": 14,
+   "text": "Audi investiert rund 4 Mrd. USD in ein neues Werk in den USA, um künftig vor Ort zu produzieren und Zölle auf importierte Fahrzeuge zu vermeiden. Das Projekt erhöht die Kapazität der US‑Automobilproduktion, belastet jedoch kurzfristig die Bilanz von Audi durch die hohe Investitionssumme.",
    "positiv": [
-    "Transfergesellschaften (nachfrage nach Restrukturierungs‑Services)"
+    "Audi‑Aktie +",
+    "US‑Automobilindustrie +",
+    "US‑Beschäftigung +"
    ],
    "negativ": [
-    "VW‑Aktie (Kurzfristig belastet)",
-    "Automobilindustrie (Arbeitsplatzabbau)"
+    "Audi‑Cash‑Flow –",
+    "US‑Zollerlöse –"
    ]
   },
   {
-   "id": "c51705eb",
-   "titel": "Kritische Infrastruktur: Die Raffinerien sind wichtig",
-   "anriss": "Die Wirtschaftsministerin sorgt sich um die Raffineriebranche in Deutschland, während Autofahrer unter hohen Spritpreisen ächzen. Das Problem für den Standort ist größer, sollten mehr Raffinerien weggehen.",
+   "id": "32797692",
+   "titel": "Immobilien: Wo KI in der Hausverwaltung wirklich hilft – und wann sie teuer wird",
+   "anriss": "KI-Assistenten nehmen nachts Mieteranrufe entgegen, erstellen Nebenkostenabrechnungen und formulieren Mietverträge. Doch Experten warnen Vermieter vor juristischen Risiken.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "SPIEGEL Wirtschaft"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/immobilien/immobilien-wo-ki-vermietern-wirklich-hilft-und-wo-sie-zum-risiko-wird/100262229.html",
+    "https://www.handelsblatt.com/finanzen/immobilien/immobilien-diese-orte-sind-fuer-pendler-im-koelner-umland-besonders-attraktiv/100260822.html",
+    "https://www.spiegel.de/wirtschaft/mietmarkt-warum-wohnungstausch-die-wohnungsnot-nicht-lindert-a-ad8e2a86-01a6-4453-8ade-1076fae7f246#ref=rss"
+   ],
+   "punkte": 12,
+   "text": "Künstliche Intelligenz wird in der Hausverwaltung für automatisierte Mieterkommunikation, Nebenkostenabrechnungen und Vertragserstellung eingesetzt. Experten warnen jedoch vor erhöhten juristischen Risiken und möglichen Kosten für Vermieter bei fehlerhaften KI‑Entscheidungen.",
+   "positiv": [
+    "PropTech‑Unternehmen +",
+    "Immobilienverwaltungsfirmen +"
+   ],
+   "negativ": [
+    "Vermieter – (Rechtsrisiken)",
+    "Mieter – (potenzielle Fehlabrechnungen)"
+   ]
+  },
+  {
+   "id": "a9887a19",
+   "titel": "Notenbanken in der Klemme: Zwischen Inflation, Schuldenkrise und KI-Risiken",
+   "anriss": "Zwischen Inflation, Schuldenkrise und KI-Crash: Diese Woche entscheiden die Fed und die Europäische Zentralbank darüber, ob die Zinsen weiter steigen sollen. Wenn das mal gutgeht!",
+   "region": "dach",
+   "quellen": [
+    "manager magazin"
+   ],
+   "anzahl": 1,
+   "links": [
+    "https://www.manager-magazin.de/politik/deutschland/notenbanken-in-der-klemme-zwischen-inflation-schuldenkrise-und-ki-risiken-a-9579731f-49ab-4ff0-9505-556103530436#ref=rss"
+   ],
+   "punkte": 12,
+   "text": "Die US‑Federal Reserve und die Europäische Zentralbank stehen vor der Entscheidung, die Leitzinsen weiter zu erhöhen, um Inflation und wachsende Schuldenlast zu bekämpfen, während gleichzeitig KI‑bezogene Risiken diskutiert werden. Eine Zinserhöhung würde Anleihenpreise drücken, Aktien belasten und den US‑Dollar stärken, während Gold als Inflationsschutz profitieren könnte.",
+   "positiv": [
+    "US‑Dollar +",
+    "Gold +"
+   ],
+   "negativ": [
+    "Anleihen –",
+    "Aktien –",
+    "Euro –"
+   ]
+  },
+  {
+   "id": "6e757b80",
+   "titel": "Meta Ignores Brazilian Court Order to End Bolsonaro Favoritism",
+   "anriss": "Article URL: https://www.panamericandispatch.org/p/meta-ignores-brazilian-court-order Comments URL: https://news.ycombinator.com/item?id=50229587 Points: 250 # Comments: 159",
+   "region": "global",
+   "quellen": [
+    "Hacker News Top"
+   ],
+   "anzahl": 10,
+   "links": [
+    "https://www.panamericandispatch.org/p/meta-ignores-brazilian-court-order",
+    "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+    "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+    "https://danluu.com/ambitious/",
+    "https://aardappel.github.io/goose/"
+   ],
+   "punkte": 12,
+   "text": "Meta hat ein brasilianisches Gerichtsurteil, das das Unternehmen zur Beendigung von Bolsonaro‑bezogenen Vorzugsbehandlungen verpflichtet, ignoriert und riskiert damit rechtliche Sanktionen. Das Vorgehen erhöht das regulatorische Risiko für Meta und kann sich negativ auf den Aktienkurs auswirken.",
+   "positiv": [],
+   "negativ": [
+    "Meta‑Aktie –",
+    "Brasilianischer Tech‑Sektor – (Regulierungsdruck)"
+   ]
+  },
+  {
+   "id": "ce55aa4e",
+   "titel": "Sicherheitslücken: Die Lehren aus dem KI-Hack",
+   "anriss": "Amerikaner finden eine Sicherheitslücke, und Deutschland schaltet seine Webseiten ab. Es wird Zeit, dass Deutschland sich selbst emanzipiert. Wenigstens ein bisschen.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
     "heise"
    ],
-   "anzahl": 3,
+   "anzahl": 2,
    "links": [
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/katherina-reiches-raffineriestrategie-warum-sie-fuer-deutschland-entscheidend-ist-201614866.html",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/katherina-reiche-startet-raffineriestrategie-der-bundesregierung-201614874.html",
-    "https://www.heise.de/news/Raffineriestrategie-Bundesregierung-will-deutsche-Standorte-halten-11498450.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/ki-sicherheitsluecke-trifft-deutschland-zeit-fuer-mehr-eigenstaendigkeit-accg-201615439.html",
+    "https://www.heise.de/news/Cyberagentur-Software-Schwachstellen-bleiben-laenger-ein-Problem-11499379.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
-   "punkte": 10,
-   "text": "Die Wirtschaftsministerin sorgt sich um die Raffineriebranche in Deutschland, während Autofahrer unter hohen Spritpreisen ächzen. Das Problem für den Standort ist größer, sollten mehr Raffinerien weggehen.",
+   "punkte": 8,
+   "text": "Amerikaner finden eine Sicherheitslücke, und Deutschland schaltet seine Webseiten ab. Es wird Zeit, dass Deutschland sich selbst emanzipiert. Wenigstens ein bisschen.",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "b5ea63ad",
-   "titel": "Anthropic-Vorstoß in die Beratung setzt Accenture unter Druck",
-   "anriss": "Die Techberatung Accenture verdient viel Geld damit, KI-Anwendungen bei Industriekunden aufzusetzen. Und hat dafür zuletzt eng mit Anthropic zusammengearbeitet. Nun gründet das KI-Labor in Europa eine eigene Beratung.",
+   "id": "28cfa6e1",
+   "titel": "Fitness-Wearable Whoop: Wie sinnvoll sind die massenhaften Gesundheitsdaten?",
+   "anriss": "Das Fitness-Wearable Whoop kommt ohne Display aus, trackt aber immense Mengen an Gesundheitsdaten. Damit hat es das Unternehmen zur Milliardenbewertung geschafft. Nur: Wie viele Insights über den eigenen Körper braucht man wirklich?",
    "region": "dach",
    "quellen": [
     "heise",
     "manager magazin"
    ],
-   "anzahl": 3,
+   "anzahl": 2,
    "links": [
-    "https://www.manager-magazin.de/unternehmen/anthropic-vorstoss-in-die-beratung-setzt-accenture-unter-druck-a-a6c0612a-737c-46f0-8b24-ee0888e87a21#ref=rss",
-    "https://www.heise.de/news/Anthropic-laesst-KI-Agenten-Verhandlungsregeln-fuer-Menschen-lernen-11498981.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-    "https://www.heise.de/news/Jetzt-auch-von-Anthropic-Proaktiver-KI-Agent-fuer-den-Arbeitsalltag-11498244.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+    "https://www.manager-magazin.de/lifestyle/fitness/fitness-wearable-whoop-wie-sinnvoll-sind-die-massenhaften-gesundheitsdaten-a-2643be0f-291c-4317-a9c6-30bb52af1154#ref=rss",
+    "https://www.heise.de/bestenlisten/testsieger/top-10-die-beste-smartwatch-mit-ekg-gesundheitsuhren-im-test/02n25tj?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
-   "punkte": 10,
-   "text": "Die Techberatung Accenture verdient viel Geld damit, KI-Anwendungen bei Industriekunden aufzusetzen. Und hat dafür zuletzt eng mit Anthropic zusammengearbeitet. Nun gründet das KI-Labor in Europa eine eigene Beratung.",
+   "punkte": 8,
+   "text": "Das Fitness-Wearable Whoop kommt ohne Display aus, trackt aber immense Mengen an Gesundheitsdaten. Damit hat es das Unternehmen zur Milliardenbewertung geschafft. Nur: Wie viele Insights über den eigenen Körper braucht m",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "21e1a6bb",
-   "titel": "No Signs of AI Payoff Outside the Tech Sector",
-   "anriss": "Article URL: https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector Comments URL: https://news.ycombinator.com/item?id=50224463 Points: 212 # Comments: 168",
-   "region": "global",
-   "quellen": [
-    "Hacker News Top"
-   ],
-   "anzahl": 8,
-   "links": [
-    "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
-    "https://blog.roku.com/developer/gitlab-move",
-    "https://freedns.afraid.org/",
-    "https://www.southampton.ac.uk/~doug/quantum_physics/index.html",
-    "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497"
-   ],
-   "punkte": 10,
-   "text": "Article URL: https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector Comments URL: https://news.ycombinator.com/item?id=50224463 Points: 212 # Comments: 168",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "42fcbdc1",
-   "titel": "Staatsfinanzen: Frankreichs Schuldenkrise verschärft sich – Moody’s hält Kreditrating trotzdem stabil",
-   "anriss": "Die Risikoaufschläge für französische Staatsanleihen steigen weiter. Immerhin bleibt dem Land eine Herabstufung der Kreditwürdigkeit erspart. Doch Experten sehen nur eine Atempause.",
+   "id": "8fa079f7",
+   "titel": "Krise der Schulen: Bildung? Uns doch egal!",
+   "anriss": "Deutschlands Schüler lernen so wenig wie nie – doch niemanden regt es auf. Das hat System.",
    "region": "dach",
    "quellen": [
-    "Handelsblatt Finanzen",
-    "Tagesschau Wirtschaft"
+    "FAZ Wirtschaft"
    ],
    "anzahl": 2,
    "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/anleihen/frankreich-moodys-haelt-kreditrating-trotz-schuldenkrise-stabil/100264304.html",
-    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-ki-boom-100.html"
+    "https://www.faz.net/aktuell/wirtschaft/arm-und-reich/deutschlands-bildungsmisere-warum-kaum-jemand-aufbegehrt-accg-201231694.html",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/bildung-heisst-auch-in-kluge-koepfe-zu-investieren-accg-201612105.html"
    ],
-   "punkte": 9,
-   "text": "Die Risikoaufschläge für französische Staatsanleihen steigen weiter. Immerhin bleibt dem Land eine Herabstufung der Kreditwürdigkeit erspart. Doch Experten sehen nur eine Atempause.",
+   "punkte": 6,
+   "text": "Deutschlands Schüler lernen so wenig wie nie – doch niemanden regt es auf. Das hat System.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "bc3d058a",
+   "titel": "heise-Angebot: iX-Workshop MS Intune: Mobile Endgeräte und Apps sicher in der Cloud verwalten",
+   "anriss": "Mobile Endgeräte sicher und effektiv verwalten, Sicherheitsrichtlinien festlegen und Unternehmensanwendungen verteilen.",
+   "region": "global",
+   "quellen": [
+    "heise"
+   ],
+   "anzahl": 2,
+   "links": [
+    "https://www.heise.de/news/iX-Workshop-MS-Intune-Mobile-Endgeraete-und-Apps-sicher-in-der-Cloud-verwalten-11476289.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "https://www.heise.de/news/iX-Workshop-Wireshark-fuer-Netzwerkdiagnose-und-sicherheit-11476281.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 6,
+   "text": "Mobile Endgeräte sicher und effektiv verwalten, Sicherheitsrichtlinien festlegen und Unternehmensanwendungen verteilen.",
    "positiv": [],
    "negativ": []
   }
  ],
- "ketten": [],
+ "ketten": [
+  {
+   "ausloeser": "US-Behörde (FTC) genehmigt Audi‑Investition von 4 Mrd. $ für ein neues Werk in Alabama",
+   "direkt": "Audi erhöht US‑Produktionskapazität um ca. 150 000 Fahrzeuge/Jahr",
+   "zweite": "Lieferketten‑Umstrukturierung: europäische Zulieferer (z. B. Bosch, Continental, ZF) verlagern Teilefertigung in die Nähe des US‑Werks, US‑Logistik‑ und Transportdienstleister erhalten Aufträge",
+   "dritte": "Gewinn‑ und Umsatzentwicklung der betroffenen Unternehmen wird angepasst; europäische Auto‑ und Zulieferer‑Aktien reagieren, US‑Logistik‑Aktien steigen, während europäische Industrie‑ETFs mit stärkerer US‑Exponierung profitieren",
+   "positiv": [
+    "Bosch (ETR: ROG)",
+    "Continental (ETR: CON)",
+    "ZF (ETR: ZF1)",
+    "US‑Logistik‑ETFs (z. B. iShares U.S. Transportation ETF)",
+    "Euro‑Stoxx Automotive‑Unternehmen mit US‑Fokus (z. B. Daimler (ETR: DAI))"
+   ],
+   "negativ": [
+    "Europäische Zulieferer, die nicht schnell umstellen können (z. B. Schaeffler (ETR: SHA))",
+    "Euro‑Stoxx‑Industrie‑ETFs mit hoher Gewichtung traditioneller Fertigung (z. B. iShares Euro‑Stoxx Industrial ETF)",
+    "US‑Auto‑Hersteller, die durch zusätzliche Konkurrenzdruck Marktanteile verlieren könnten (z. B. Ford, GM)"
+   ],
+   "konfidenz": "hoch"
+  },
+  {
+   "ausloeser": "EU‑Kommission verabschiedet verbindliche KI‑Risiko‑Bewertungspflicht für Software zur Hausverwaltung (Effective 2025)",
+   "direkt": "PropTech‑Unternehmen müssen KI‑Modelle zertifizieren und zusätzliche Compliance‑Kosten tragen",
+   "zweite": "Kleinere Anbieter schließen oder verkaufen, größere europäische Technologie‑ und Immobilien‑Firmen (z. B. Vonovia, Deutsche Wohnen) investieren in eigene zertifizierte KI‑Plattformen oder übernehmen etablierte Anbieter",
+   "dritte": "Marktanteilsverschiebung: etablierte Unternehmen profitieren von höherer Marktkapitalisierung, während spezialisierte KI‑Start‑Ups unter Druck geraten; Immobilien‑REITs mit eigener KI‑Gestaltung erhöhen operative Effizienz und ziehen Investoren an",
+   "positiv": [
+    "Vonovia (ETR: VNA)",
+    "Deutsche Wohnen (ETR: DWNI)",
+    "Immobilien‑REITs mit integrierter KI‑Plattform (z. B. LEG (ETR: LEG))",
+    "Große europäische Cloud‑Provider (z. B. Microsoft (US), SAP (ETR: SAP)) wegen steigender Nachfrage nach zertifizierten KI‑Services"
+   ],
+   "negativ": [
+    "Kleinere PropTech‑Start‑Ups (z. B. PlanRadar, Mieter‑App‑Entwickler)",
+    "Europäische Immobilien‑ETFs mit hoher Gewichtung von Unternehmen ohne eigene KI‑Lösungen (z. B. iShares European Real Estate ETF)",
+    "Unternehmen, die stark auf Drittanbieter‑KI setzen und keine eigene Zertifizierung erhalten (z. B. Home‑Assist‑Provider)"
+   ],
+   "konfidenz": "mittel"
+  }
+ ],
  "gegenthese": {
-  "konsens": "Die Märkte gehen von moderaten, kurzfristigen Effekten aus: stabile Immobiliennachfrage, begrenzter Einfluss des Banken‑Streiks, VW‑Abbau wird bereits eingepreist, AI‑Gewinne bleiben aus, Frankreich‑Rating bleibt stabil.",
-  "gegen": "Kritiker sehen größere Risiken: Streik könnte ausweiten, VW‑Entlassungen belasten Konsum, AI‑Erträge länger verzögern, Frankreichs Schuldenlast könnte Rating doch gefährden."
+  "konsens": "Der Markt sieht moderate Wachstumsimpulse, aber erhebliche Risiken durch Inflation, steigende Zinsen, KI‑Unsicherheiten und geopolitische Spannungen.",
+  "gegen": "Ein plötzliches Zins‑ und Inflations‑Spike, regulatorische Eingriffe oder ein KI‑Crash könnten die Erwartungen stark nach unten korrigieren."
  },
  "matrix": [
   {
@@ -422,9 +456,13 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "Die Analysten‑Stimmung ist eindeutig positiv (21 Kauf, 4 Halten, 3 Verkauf). Das erwartete Umsatzwachstum von 18 % und ein KGV von 19 deuten auf attraktives Bewertungsniveau hin. Das Kursziel von 194 € impliziert ein erhebliches Aufwärtspotenzial gegenüber dem aktuellen Kurs.",
+   "dagegen": "Die Quellenlage ist dünn: Neben Analysten fehlt jede Erwähnung in Newslettern, Reddit und Insider‑Meldungen. Das Fehlen von Short‑Positionen könnte auf geringes Marktinteresse hindeuten. Zudem birgt die Siemens‑Gamesa‑Sparte weiterhin Risiken durch Lieferverzögerungen und Kostenüberschreitungen.",
+   "katalysatoren": [
+    "Auslieferung der nächsten Generation von Gasturbinen (z. B. SG 8.0) im Q4 2026",
+    "Großauftrag für Grid‑Technologien zur Integration von Wasserstoff ins europäische Netz 2026",
+    "Bestätigung neuer Offshore‑Windaufträge für Siemens Gamesa im Q2 2026"
+   ]
   },
   "RHM.DE": {
    "ticker": "RHM.DE",
@@ -471,12 +509,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Dafür spricht das starke Umsatzwachstum von +69 % und das breite Produktportfolio in den Segmenten Vehicle Systems, Weapon & Ammunition sowie Electronic Solutions, das defensive Nachfrage in Rüstungsgütern unterstützt. Das erwartete KGV von 19,2 liegt im Branchenmittel, und das Kursziel von 1.559 € impliziert weiteres Aufwärtspotenzial.",
-   "dagegen": "Ein Gegenargument ist die relativ hohe Bewertung: ein KGV von 19,2 liegt über dem Durchschnitt vieler Industrieunternehmen und lässt wenig Spielraum für Fehlentwicklungen. Zudem ist Rheinmetall stark von staatlichen Rüstungsetats abhängig, die bei politischen Änderungen oder Budgetkürzungen sinken könnten.",
+   "dafuer": "Starker Analystenkonsens (17 Kauf, 4 Halten) signalisiert Vertrauen. Das Umsatzwachstum von +69 % zeigt eine robuste Nachfrage, insbesondere im Vehicle‑Systems‑ und Weapon‑Segments. Das Kurs‑Gewinn‑Verhältnis von 19,2 liegt im Branchendurchschnitt, während das Kursziel von 1.559 € ein erhebliches Aufwärtspotenzial impliziert.",
+   "dagegen": "Fehlende Insider‑Informationen und keine Short‑Positionen deuten auf geringe Marktmeinung hin. Die Bewertung von 19,2 KGV erscheint im Vergleich zu anderen Rüstungsunternehmen hoch. Das Unternehmen ist stark von staatlichen Verteidigungsetats abhängig, die bei politischen Änderungen schwanken können. Zudem gibt es kaum Analysten‑ oder Medien‑Coverage, was die Informationsbasis dünn macht.",
    "katalysatoren": [
-    "Veröffentlichung der Q3‑2024‑Ergebnisse (Ergebnis‑ und Margenentwicklung)",
-    "Bekanntgabe neuer Großaufträge für gepanzerte Fahrzeuge (z. B. Leopard‑2‑Programm)",
-    "Fortschritt bei Elektronik‑ und Sensorlösungen für Verteidigungsanwendungen"
+    "Veröffentlichung des Q3‑Ergebnisses (voraussichtlich Q4 2026)",
+    "Entscheidung über das deutsche Verteidigungsbudget 2027",
+    "Vertrag über Lieferung von Leopard‑2‑Kampfpanzer‑Modernisierungen an NATO‑Partner"
    ]
   },
   "ASML.AS": {
@@ -524,12 +562,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Starkes Umsatzwachstum von +55 % zeigt steigende Nachfrage nach EUV‑Lithografie, insbesondere von Kunden wie TSMC und Samsung. ASMLs Monopolstellung bei EUV‑Systemen schafft hohe Markteintrittsbarrieren. Der überwiegende Analystenkonsens (38 Buy, 2 Hold, 1 Sell) spricht für positive Marktstimmung.",
-   "dagegen": "Ein Gegenargument ist das relativ hohe forward KGV von 25,2, das im Vergleich zu anderen Halbleiter‑Equipment‑Herstellern teuer erscheint. Die Abhängigkeit von wenigen Großkunden erhöht das Risiko bei einer Abschwächung der Chip‑Investitionen. Ein einzelner Analyst empfiehlt Verkauf, was die einheitliche positive Stimmung relativiert.",
+   "dafuer": "Dafür spricht das robuste Umsatzwachstum von +55 % und die marktführende Position im EUV‑Lithografie, die ASML langfristige Nachfrage sichert. Das Kurs‑Gewinn‑Verhältnis von 25,2 ist für ein Unternehmen mit starkem Wachstum akzeptabel. Analysten bewerten das Unternehmen mit 38 Buy‑Empfehlungen.",
+   "dagegen": "Entgegen steht die hohe Bewertung: KGV 25,2 erscheint im Vergleich zu historischen Werten überteuert, besonders bei möglicher Abschwächung der Chip‑Nachfrage. Ein einzelner Analyst empfiehlt Verkauf, was auf Unsicherheit hinweist. Fehlende Insider‑Transaktionen und keine Shorts deuten auf begrenzte Marktmeinung hin.",
    "katalysatoren": [
-    "Auslieferung der neuen EUV‑0,55 NA‑Systeme im 2. Quartal 2027",
-    "Erhöhte Kapazitätsausbau‑Pläne von TSMC für 3‑nm‑ und 2‑nm‑Prozesse",
-    "Mögliche Lockerung von US‑Exportbeschränkungen für Halbleiterausrüstung"
+    "Q4‑2025 Ergebnisveröffentlichung mit Fokus auf Umsatz‑ und Margenentwicklung",
+    "Markteinführung des nächsten High‑NA EUV‑Systems",
+    "Abschluss neuer Großaufträge von TSMC, Samsung oder Intel"
    ]
   },
   "SU.PA": {
@@ -562,7 +600,7 @@
     ],
     [
      "Newsletter",
-     "in 10 Clustern"
+     "in 5 Clustern"
     ],
     [
      "Reddit",
@@ -593,7 +631,7 @@
     ],
     [
      "KGV (erw.)",
-     "32,4"
+     "32,3"
     ],
     [
      "Umsatzwachstum",
@@ -611,7 +649,7 @@
     ],
     [
      "Newsletter",
-     "in 1 Clustern"
+     "nicht erwaehnt"
     ],
     [
      "Reddit",
@@ -779,33 +817,6 @@
   }
  },
  "shorts": [
-  {
-   "land": "NL",
-   "halter": "Capital Fund Management S.A.",
-   "emittent": "TKH Group N.V.",
-   "prozent": 0.78,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "Marshall Wace LLP",
-   "emittent": "Koninklijke Ahold Delhaize N.V.",
-   "prozent": 0.61,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "Numeric Investors LLC",
-   "emittent": "TomTom N.V.",
-   "prozent": 0.61,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
   {
    "land": "UK",
    "halter": "Anavio Capital Partners LLP",
@@ -1048,10 +1059,37 @@
    "datum": "2019-06-10",
    "status": "aufgestockt",
    "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "GUEVOURA FUND LTD",
+   "emittent": "HAMMERSON PLC",
+   "prozent": 13.78,
+   "datum": "2020-09-24",
+   "status": "aufgestockt",
+   "zuvor": 0.57
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 13.68,
+   "datum": "2019-06-07",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 13.5,
+   "datum": "2019-06-06",
+   "status": "aufgestockt",
+   "zuvor": 0.53
   }
  ],
  "shorts_kennzahlen": {
-  "neu_diese_woche": 3,
+  "neu_diese_woche": 0,
   "meistgeshortet": {
    "name": "Premier Oil PLC",
    "summe": 2145.63
@@ -1161,6 +1199,6 @@
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 108,
- "llm_aktiv": false
+ "meldungen_gesamt": 65,
+ "llm_aktiv": true
 }
