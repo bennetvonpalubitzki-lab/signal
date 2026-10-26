@@ -1,9 +1,9 @@
 {
- "stand": "2026-10-26T13:41",
- "lauf": "2026102613",
+ "stand": "2026-10-26T20:48",
+ "lauf": "2026102620",
  "synthese": {
-  "kern": "Unternehmensstrategien beschleunigen sich, während Märkte die sinkende Risikobereitschaft und Liquiditätsknappheit übersehen.",
-  "erlaeuterung": "Die Meldungen betonen Investitionen, Produktinnovationen und regulatorische Erleichterungen, doch das globale Risikoperzept liegt im unteren Drittel und die US‑Liquidität ist rückläufig. Diese Diskrepanz lässt Anleger mögliche Abschwächungen bei Kreditkosten und Kapitalflüssen unterschätzen, was die Marktstimmung empfindlicher gegenüber unerwarteten Schocks macht."
+  "kern": "Der Markt konzentriert sich auf Unternehmensereignisse, übersieht jedoch steigenden Zinsdruck und sinkende Liquidität.",
+  "erlaeuterung": "Während US‑Investitionen, KI‑Studien und IPO‑News dominieren, zeigen die Regimewerte hohen Zinsdruck (US 79, EUR 90) und geringe Liquidität (EUR 4). Zusätzlich belasten geopolitische Spannungen und steigende Energiepreise das globale Risikoappetit‑Klima, das vom Markt kaum beachtet wird."
  },
  "regime": [
   {
@@ -36,23 +36,23 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 69,
-     "delta": -2
+     "wert": 70,
+     "delta": -1
     },
     "eur": {
      "wert": 90,
      "delta": 2
     }
    },
-   "differenz": 21
+   "differenz": 20
   },
   {
    "name": "risikoappetit",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 27,
-     "delta": -7
+     "wert": 30,
+     "delta": -1
     }
    }
   },
@@ -84,132 +84,171 @@
  ],
  "cluster": [
   {
-   "id": "6f55d8e7",
-   "titel": "Audi-Chef bei Trump - Verstoß gegen Konzernregeln?",
-   "anriss": "US-Präsident Trump und Audi-Chef Döllner auf einer Bühne - das stößt auf scharfe Kritik. Der Vorstandsvorsitzende kündigte in den USA ein neues Werk an. Nun könnten die eigenen Konzernleitlinien für ihn zum Problem werden.",
+   "id": "f1087f86",
+   "titel": "Audi investiert in Amerika, Neckarsulm bangt",
+   "anriss": "Audi will in den USA ein neues Werk bauen, der Auftritt des Firmenchefs auf einer Wahlkampfveranstaltung von Trump sorgt für heftige Kritik. Zugleich ist die Zukunft von deutschen Audi-Werken offen - wie in Neckarsulm. Von F. Siegel.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
     "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft",
-    "heise",
     "manager magazin"
    ],
-   "anzahl": 12,
+   "anzahl": 9,
    "links": [
+    "https://www.tagesschau.de/wirtschaft/unternehmen/audi-usa-trump-neckarsulm-100.html",
     "https://www.tagesschau.de/wirtschaft/unternehmen/audi-us-werk-doellner-trump-100.html",
-    "https://www.tagesschau.de/ausland/amerika/audi-usa-trump-100.html",
+    "https://www.spiegel.de/wirtschaft/audis-milliarden-investition-in-den-usa-doellners-geisterfahrt-mit-donald-trump-a-461e13c1-685b-46cf-be4f-1e830a34e017#ref=rss",
     "https://www.spiegel.de/wirtschaft/gernot-doellner-vw-betriebsratschefin-cavallo-nennt-auftritt-von-audi-chef-bei-trump-beschaemend-a-561cd07b-5304-4a93-9eec-d00532127bb6#ref=rss",
-    "https://www.spiegel.de/wirtschaft/unternehmen/donald-trump-audi-chef-doellner-stellt-neues-werk-in-georgia-an-trumps-seite-vor-a-a93e3d40-e162-4bfb-abfe-76e6fcac71e6#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-stimmung-in-unternehmen-hellt-sich-auf-ifo-index-steigt-faz-200452404.html"
+    "https://www.spiegel.de/wirtschaft/unternehmen/donald-trump-audi-chef-doellner-stellt-neues-werk-in-georgia-an-trumps-seite-vor-a-a93e3d40-e162-4bfb-abfe-76e6fcac71e6#ref=rss"
    ],
-   "punkte": 34,
-   "text": "Audi‑Chef Markus Döllner trat gemeinsam mit US‑Präsident Donald Trump auf einer Bühne auf und kündigte dort ein neues Werk in den USA an. Die öffentliche Präsenz des Vorstands wird von Teilen der Öffentlichkeit und von Unternehmens‑Governance‑Beobachtern als Verstoß gegen die internen Konzernrichtlinien kritisiert.",
+   "punkte": 26,
+   "text": "Audi plant den Bau eines neuen Werks in den USA, während der Auftritt des CEOs bei einer Trump‑Wahlkampfveranstaltung heftige Kritik auslöst. Gleichzeitig ist die Zukunft der deutschen Audi‑Standorte, insbesondere Neckarsulm, ungewiss.",
    "positiv": [
-    "Audi (USA‑Ausbau)"
+    "US‑Automobilproduktion (Neubau)"
    ],
    "negativ": [
-    "Audi (Marken‑ und Reputationsrisiko)",
-    "Volkswagen‑Konzern (Governance‑Risiko)"
+    "Deutsche Audi‑Werke (Produktionsausblick)",
+    "Audi‑Markenimage (politisches Risiko)"
    ]
   },
   {
-   "id": "1fa443ab",
-   "titel": "Neuer Gebäudetyp E: Schnelles und günstiges Bauen per Gesetz",
-   "anriss": "Deutschland braucht mehr bezahlbaren Wohnraum. Das soll unter anderem mit dem Gebäudetyp E gelingen - das E steht hier für \"einfach\". Der Gesetzentwurf liegt dem ARD-Hauptstadtstudio exklusiv vor. Von Oliver Neuroth.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.tagesschau.de/inland/gebaeudetyp-e-104.html",
-    "https://www.spiegel.de/wirtschaft/wohnungsbau-regierung-plant-gebaeudetyp-e-gegen-schleppenden-neubau-a-5da93de5-a7a1-43e6-b9f9-edab7dde7fcb#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/immobilien-wohnen/enteignungen-berliner-plaene-schaden-ganz-deutschland-201611478.html",
-    "https://www.manager-magazin.de/politik/deutschland/investitionsschutzgesetz-bundesregierung-plant-hohe-huerden-fuer-vergesellschaftungen-a-b215833f-e2b3-4b01-852e-1b08e0090e1e#ref=rss"
-   ],
-   "punkte": 16,
-   "text": "Der Gesetzentwurf für den Gebäudetyp E soll ein besonders schnelles und kostengünstiges Bauverfahren ermöglichen, um den Mangel an bezahlbarem Wohnraum in Deutschland zu lindern. Die Regelung befindet sich noch im Gesetzgebungsprozess, konkrete Umsetzungsdetails sind bislang nicht veröffentlicht.",
-   "positiv": [
-    "Bau‑ und Baustoffindustrie (nachfrage‑potenzial)"
-   ],
-   "negativ": [
-    "Traditionelle Bauunternehmen (Wettbewerbsdruck)",
-    "Immobilien‑Entwickler (Preis‑druck)"
-   ]
-  },
-  {
-   "id": "243a39a8",
-   "titel": "ING: Privatkundenchefin erklärt Altersvorsorgedepot zur Top-Priorität in diesem Jahr",
-   "anriss": "Die ING lockt Neukunden mit einem Startbonus ins neue Altersvorsorgedepot. Gleichzeitig verteilt sie eine Spitze gegen die aggressiven Konditionen der Neobroker.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "manager magazin"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/banken-versicherungen/ing-privatkundenchefin-erklaert-altersvorsorgedepot-zur-top-prioritaet/100264553.html",
-    "https://www.handelsblatt.com/finanzen/anlagestrategie/steuersaetze-wie-gutverdiener-das-neue-altersvorsorgedepot-nutzen-koennen/100222434.html",
-    "https://www.handelsblatt.com/finanzen/banken-versicherungen/versicherer/rating-2026-diese-lebensversicherer-ueberzeugen-im-qualitaetsvergleich/100246775.html",
-    "https://www.manager-magazin.de/unternehmen/banken/altersvorsorge-depot-chance-auf-historische-marktverschiebung-wer-macht-das-rennen-inside-report-a-2eb6d9e4-9283-40ac-bf2b-54ce648aaf96#ref=rss"
-   ],
-   "punkte": 15,
-   "text": "ING‑Chefin für Privatkunden erklärte das neue Altersvorsorgedepot zur Top‑Priorität 2024 und lockt Neukunden mit einem Startbonus, während das Unternehmen gleichzeitig gegen die hohen Gebühren von Neobrokern vorgeht. Die Initiative stärkt das Angebot im deutschen Privatkundengeschäft, jedoch bleibt unklar, wie stark das Produkt das Gesamtvolumen der Einlagen erhöhen wird.",
-   "positiv": [
-    "ING (Einlagen‑Zuwachs)"
-   ],
-   "negativ": [
-    "Neobroker (Kunden‑abwanderung)"
-   ]
-  },
-  {
-   "id": "076c3ae4",
-   "titel": "Dax aktuell: Dax beginnt große Zahlenwoche mit Gewinn – Bayer-Aktie im Plus",
-   "anriss": "Nach einer verlustreichen Vorwoche begibt sich der deutsche Leitindex auf Erholungskurs. Anleger blicken gespannt auf neue Impulse. Die sinkenden Ölpreise sorgen für Entspannung.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-startet-grosse-zahlenwoche-mit-gewinn-bayer-aktie-im-plus/100264883.html",
-    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-fed-ezb-100.html",
-    "https://www.manager-magazin.de/finanzen/boerse/boerse-dax-mit-gewinnen-nach-trump-buddy-niederlagen-a-4141c29d-7d1f-47ea-8bee-b1030aced621#ref=rss"
-   ],
-   "punkte": 13,
-   "text": "Der DAX startete die aktuelle Zahlenwoche mit einem Gewinn nach einer verlustreichen Vorwoche, wobei insbesondere die Bayer‑Aktie im Plus notierte. Sinkende Ölpreise haben die allgemeine Marktstimmung entspannt, was jedoch nicht eindeutig auf alle Sektoren übertragbar ist.",
-   "positiv": [
-    "DAX (kurzfristiger Aufschwung)",
-    "Bayer (Aktienkurs)"
-   ],
-   "negativ": [
-    "Öl‑ und Energiesektor (Preis‑rückgang)"
-   ]
-  },
-  {
-   "id": "a9363ec7",
-   "titel": "Duality of Shortfall Aversion",
-   "anriss": "arXiv:2610.32350v1 Announce Type: new Abstract: Shortfall aversion describes a form of consumption habit formation in which an individual's utility depends on consumption relative to the historical consumption peak. This study develops a duality framework for a broad class of utility functions, with",
+   "id": "4c5a0a4f",
+   "titel": "When AI Gets Cheaper, Do Prices Follow? Information Delays and Algorithmic Pricing",
+   "anriss": "arXiv:2610.31693v1 Announce Type: new Abstract: We examine whether lower costs of running AI models lead to lower prices, and whether delays in observing competitors' prices and limits on price changes affect how much consumers benefit. We study a simulated market with two differentiated sellers, lo",
    "region": "global",
    "quellen": [
     "arXiv q-fin"
    ],
-   "anzahl": 7,
+   "anzahl": 15,
    "links": [
-    "https://arxiv.org/abs/2610.32350",
-    "https://arxiv.org/abs/2610.32455",
-    "https://arxiv.org/abs/2610.32614",
-    "https://arxiv.org/abs/2610.32970",
-    "https://arxiv.org/abs/2603.27724"
+    "https://arxiv.org/abs/2610.31693",
+    "https://arxiv.org/abs/2610.31825",
+    "https://arxiv.org/abs/2610.31903",
+    "https://arxiv.org/abs/2610.32300",
+    "https://arxiv.org/abs/2610.32350"
+   ],
+   "punkte": 21,
+   "text": "Ein arXiv‑Paper untersucht, ob sinkende Kosten für den Betrieb von KI‑Modellen zu niedrigeren Marktpreisen führen, wobei Informationsverzögerungen und Preisänderungsbeschränkungen berücksichtigt werden. Die Analyse liefert bislang keine eindeutigen Ergebnisse, sodass die Preiswirkung unklar bleibt.",
+   "positiv": [
+    "Endverbraucher von KI‑Dienstleistungen (potenziell niedrigere Preise)"
+   ],
+   "negativ": [
+    "KI‑Anbieter (möglicher Margendruck)"
+   ]
+  },
+  {
+   "id": "1d3cac84",
+   "titel": "US-Börsen: Wall Street auf Erholungskurs – Neue Infos zu wichtigem IPO",
+   "anriss": "KI-Erwartungen und sinkende Ölpreise stützen die US‑Börsen. Im Fokus steht Anthropics Börsenprospekt. Weitere Stimmungstests folgen in den nächsten Handelstagen.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "heise"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-wall-street-auf-erholungskurs-neue-infos-zu-wichtigem-ipo/100264955.html",
+    "https://www.tagesschau.de/wirtschaft/unternehmen/anthropic-bereitet-boersengang-vor-100.html",
+    "https://www.spiegel.de/wirtschaft/unternehmen/anthropic-ki-entwickler-beantragt-boersengang-in-den-usa-a-3ac6664b-b904-4a48-92c0-174f43d49312#ref=rss",
+    "https://www.heise.de/news/Anthropic-vor-Boersengang-Umsatz-vervierzehnfacht-und-enorme-KI-Kosten-11500707.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 17,
+   "text": "Die US‑Börsen zeigen sich erholt, gestützt durch optimistische KI‑Erwartungen und fallende Ölpreise; im Fokus steht das bevorstehende IPO von Anthropics. Die Stimmung bleibt jedoch anfällig für kurzfristige Schwankungen.",
+   "positiv": [
+    "US‑Technologie‑ und KI‑Aktien",
+    "Anthropics‑IPO",
+    "US‑Aktienmarkt insgesamt"
+   ],
+   "negativ": [
+    "Ölproduzenten (Preisrückgang)"
+   ]
+  },
+  {
+   "id": "a2284cd6",
+   "titel": "Altersvorsorge: Muss jetzt die Bafin bei den Versorgungswerken eingreifen?",
+   "anriss": "Einige berufsständische Versorgungswerke haben viel Geld in riskanten Investments versenkt. Das hat ein juristisches Nachspiel.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "manager magazin"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/vorsorge/versorgungswerke-muss-jetzt-die-bafin-eingreifen/100265050.html",
+    "https://www.handelsblatt.com/finanzen/banken-versicherungen/ing-privatkundenchefin-erklaert-altersvorsorgedepot-zur-top-prioritaet/100264553.html",
+    "https://www.handelsblatt.com/finanzen/anlagestrategie/steuersaetze-wie-gutverdiener-das-neue-altersvorsorgedepot-nutzen-koennen/100222434.html",
+    "https://www.manager-magazin.de/unternehmen/banken/altersvorsorge-depot-chance-auf-historische-marktverschiebung-wer-macht-das-rennen-inside-report-a-2eb6d9e4-9283-40ac-bf2b-54ce648aaf96#ref=rss"
+   ],
+   "punkte": 15,
+   "text": "Mehrere berufsständische Versorgungswerke haben erhebliche Summen in risikoreiche Anlagen investiert, was zu juristischen Auseinandersetzungen und Forderungen nach BaFin‑Eingriff führt. Eine mögliche regulatorische Verschärfung könnte die Anlagestrategien dieser Einrichtungen einschränken.",
+   "positiv": [],
+   "negativ": [
+    "Risikoreiche Investmentfonds und Asset‑Manager",
+    "Versorgungswerke (Anlageperformance)"
+   ]
+  },
+  {
+   "id": "0209bf5d",
+   "titel": "iPhone Duo: Apple bestätigt Probleme bei einigen Falt-iPhones",
+   "anriss": "Beim ersten Falt-iPhone zeigen sich offenbar Probleme mit dem inneren Bildschirm. Nutzer berichten von gebrochenen Displays und Pixelfehlern. Apple reagiert.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "heise"
+   ],
+   "anzahl": 5,
+   "links": [
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/iphone-duo-warum-bei-einigen-geraeten-der-bildschirm-bricht-201623698.html",
+    "https://www.heise.de/news/iOS-und-macOS-27-2-Das-aendert-sich-auf-iPhones-iPads-und-Macs-11500927.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "https://www.heise.de/news/Apple-verkauft-Ersatzteile-fuer-iPhone-18-Pro-und-neue-Macs-11495922.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "https://www.heise.de/news/Samsungs-Foldables-profitieren-offenbar-vom-iPhone-Duo-11500243.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "https://www.heise.de/news/Umstellung-auf-Touch-ID-beim-iPhone-Duo-Apple-erwaegt-Face-ID-fuer-Generation-2-11497538.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 14,
+   "text": "Beim ersten Falt-iPhone zeigen sich offenbar Probleme mit dem inneren Bildschirm. Nutzer berichten von gebrochenen Displays und Pixelfehlern. Apple reagiert.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "9b1079dc",
+   "titel": "Rohstoff: Europäischer Gaspreis weiter im Höhenflug – knapp unter 100 Euro",
+   "anriss": "Für Großhändler kostet Erdgas so viel wie seit bald vier Jahren nicht. Der Iran-Krieg und das Auffüllen der deutschen Speicher treiben die Preise – allmählich auch die für Haushaltskunden.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "SPIEGEL Wirtschaft"
+   ],
+   "anzahl": 2,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/rohstoff-europaeischer-gaspreis-weiter-im-hoehenflug-knapp-unter-100-euro/100265010.html",
+    "https://www.spiegel.de/wirtschaft/erdgas-europaeischer-referenzpreis-klettert-auf-knapp-unter-100-euro-a-ca54cf5d-ba4a-4513-8e11-1933a6d857b0#ref=rss"
    ],
    "punkte": 13,
-   "text": "arXiv:2610.32350v1 Announce Type: new Abstract: Shortfall aversion describes a form of consumption habit formation in which an individual's utility depends on consumption relative to the historical consumption peak. This",
+   "text": "Für Großhändler kostet Erdgas so viel wie seit bald vier Jahren nicht. Der Iran-Krieg und das Auffüllen der deutschen Speicher treiben die Preise – allmählich auch die für Haushaltskunden.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "397a5039",
+   "titel": "Microsoft: Techkonzern bietet 60.000 Mitarbeitern Abfindungen an",
+   "anriss": "Der US-amerikanische Technologiekonzern kündigt an, 60.000 Beschäftigten ein Abfindungsangebot zu machen. Microsoft muss Kosten senken, um seine Investitionen in künstliche Intelligenz zu finanzieren.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "heise"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.spiegel.de/wirtschaft/unternehmen/microsoft-techkonzern-bietet-60-000-mitarbeitern-abfindungen-an-a-b0b9c84d-ab45-4b2f-a353-1f601334571d#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/microsoft-bietet-60-000-beschaeftigten-eine-abfindung-an-201623636.html",
+    "https://www.heise.de/news/Microsoft-bietet-60-000-Mitarbeitern-Goldenen-Handschlag-11501027.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 12,
+   "text": "Der US-amerikanische Technologiekonzern kündigt an, 60.000 Beschäftigten ein Abfindungsangebot zu machen. Microsoft muss Kosten senken, um seine Investitionen in künstliche Intelligenz zu finanzieren.",
    "positiv": [],
    "negativ": []
   },
@@ -233,50 +272,12 @@
    "text": "Um den öffentlichen Ärger nach der Abschaffung der Familienreservierung zu lindern, führte die Deutsche Bahn das Familienticket ein. Ab 1. November ist es fester Bestandteil des Angebots.",
    "positiv": [],
    "negativ": []
-  },
-  {
-   "id": "f4e24338",
-   "titel": "USA: Audi baut für vier Milliarden Dollar eigenes Werk in Georgia",
-   "anriss": "Bislang importiert Audi alle seine Fahrzeuge in die USA und zahlt dafür hohe Zölle. Nun will der Konzern erstmals vor Ort produzieren. Ausgerechnet Donald Trump darf die Milliardeninvestition im Wahlkampf verkünden – zusammen mit dem Audi-Chef.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.spiegel.de/wirtschaft/usa-audi-baut-fuer-vier-milliarden-dollar-eigenes-werk-in-georgia-a-a6807fc7-f806-4c09-b692-90bfdd32e174#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/audi-plant-erstes-us-werk-trumps-wahlkampfgeschenk-aus-ingolstadt-accg-201618975.html",
-    "https://www.manager-magazin.de/unternehmen/tech/elon-musk-spacex-sichert-sich-40-milliarden-dollar-fuer-ki-chips-a-efa1b6a2-18f0-4439-ba2c-2f773327d48f#ref=rss"
-   ],
-   "punkte": 12,
-   "text": "Bislang importiert Audi alle seine Fahrzeuge in die USA und zahlt dafür hohe Zölle. Nun will der Konzern erstmals vor Ort produzieren. Ausgerechnet Donald Trump darf die Milliardeninvestition im Wahlkampf verkünden – zus",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "a9887a19",
-   "titel": "Notenbanken in der Klemme: Zwischen Inflation, Schuldenkrise und KI-Risiken",
-   "anriss": "Zwischen Inflation, Schuldenkrise und KI-Crash: Diese Woche entscheiden die Fed und die Europäische Zentralbank darüber, ob die Zinsen weiter steigen sollen. Wenn das mal gutgeht!",
-   "region": "dach",
-   "quellen": [
-    "manager magazin"
-   ],
-   "anzahl": 1,
-   "links": [
-    "https://www.manager-magazin.de/politik/deutschland/notenbanken-in-der-klemme-zwischen-inflation-schuldenkrise-und-ki-risiken-a-9579731f-49ab-4ff0-9505-556103530436#ref=rss"
-   ],
-   "punkte": 12,
-   "text": "Zwischen Inflation, Schuldenkrise und KI-Crash: Diese Woche entscheiden die Fed und die Europäische Zentralbank darüber, ob die Zinsen weiter steigen sollen. Wenn das mal gutgeht!",
-   "positiv": [],
-   "negativ": []
   }
  ],
  "ketten": [],
  "gegenthese": {
-  "konsens": "Markt sieht US‑Audi‑Werk und DAX‑Gewinn als Wachstums‑Signal; ING‑Vorsorge‑Push stärkt Vertrauen; DB‑Ticket‑Verkauf wird als neutral bewertet.",
-  "gegen": "Gegenargument: Governance‑Risiko beim Audi‑Chef‑Wechsel, mögliche Regelverstöße, Bau‑E‑Typ könnte Qualitäts‑ und Umwelt‑Kosten vernachlässigen, Shortfall‑Aversion mindert Rendite‑Erwartungen."
+  "konsens": "US‑Aktien erholen, AI‑Kosten‑Rückgang dürfte Margen drücken, europäischer Gaspreis bleibt hoch, Apple‑Falt‑iPhone‑Probleme als Einzelfall, Microsoft‑Abfindungen als Restrukturierung, DB‑Familienticket‑Verkauf neutral, Bafin dürfte vorsichtig eingreifen.",
+  "gegen": "Günstigere KI‑Technologie kann die Nachfrage stark steigern und Margen stabilisieren – das widerspricht der Annahme einer automatischen Margenkompression."
  },
  "matrix": [
   {
@@ -393,7 +394,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "105.0 Mrd"
+     "104.8 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -405,7 +406,7 @@
     ],
     [
      "Kursziel",
-     "194 EUR"
+     "193 EUR"
     ]
    ],
    "quellen": [
@@ -430,12 +431,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Analysten überwiegend Kauf (21), KGV 19,7 moderat, Umsatzwachstum +18 %, Kursziel 194 EUR, diversifiziertes Portfolio (Turbinen, Grid, Gamesa) bietet langfristige Nachfrage, digitale Services erhöhen Margen, Marktkapitalisierung 105 Mrd € zeigt Größe.",
-   "dagegen": "Widerspruch: 3 Verkäufe, 4 Halte, Reddit kaum erwähnt, keine Insider‑ oder Short‑Aktivität; Unsicherheit bei Integration Siemens Gamesa, volatiler Windmarkt, hohe Verschuldung, möglicher Margendruck durch steigende Zinskosten und regulatorische Risiken.",
+   "dafuer": "Starkes Auftragsbuch, 18 % Umsatzwachstum und solide Bewertung (KGV 19,7) unterstützen die positive Analystenmeinung (21 Buy). Wachstumspotenzial in den Bereichen Windenergie (Siemens Gamesa) und digitale Services sowie erwartete Margenverbesserungen durch Service‑ und Digitalisierungsangebote stärken die Sicht.",
+   "dagegen": "Hohe Verschuldung, Margendruck im Windsegment und operative Risiken bei der Integration von Gas‑ und Grid‑Technologien belasten die Bewertung. Trotz Kauf‑Consensus gibt es 4 Halten und 3 Verkauf‑Empfehlungen, die auf Unsicherheit bezüglich Cash‑Flow‑Stabilität und möglicher Kostenüberschreitungen hinweisen.",
    "katalysatoren": [
-    "Abschluss der Integration von Siemens Gamesa bis Q2 2027",
-    "Neuer Auftrag für Gasturbinen in Asien im 2. Quartal",
-    "Einführung einer digitalen Serviceplattform bis Ende 2026"
+    "Auslieferung und Inbetriebnahme der nächsten Generation von Windturbinen (z. B. SG 14‑236)",
+    "Abschluss großer Service‑Verträge für Gasturbinen in Europa und Asien",
+    "Quartalsbericht Q3 2026 mit Fokus auf Margenentwicklung und Cash‑Flow"
    ]
   },
   "RHM.DE": {
@@ -446,7 +447,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "48.2 Mrd"
+     "48.3 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -483,12 +484,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die Rheinmetall AG verzeichnet ein Umsatzwachstum von 69 % und profitiert von steigenden Verteidigungsbudgets in Europa und Nordamerika. Analysten bewerten das Unternehmen mit 17 Kauf‑ und 4 Halte‑Empfehlungen, ein KGV von 19,5 erscheint im Vergleich zu Branchendurchschnitt moderat. Das breite Segmentportfolio reduziert konjunkturelle Risiken.",
-   "dagegen": "Gegen das Bild spricht die relativ hohe Bewertung; ein KGV von 19,5 liegt über dem Durchschnitt vieler Rüstungsunternehmen. Das Wachstum ist stark von staatlichen Aufträgen abhängig, was bei politischen Änderungen das Ergebnis belasten kann. Die Informationslage ist dünn: keine Insider‑Meldungen, kaum Reddit‑Diskussion und keine Shorts‑Daten.",
+   "dafuer": "Rheinmetall verzeichnet ein starkes Umsatzwachstum von 69 % und operiert in drei breit diversifizierten Segmenten. Das KGV von 19,5 liegt im mittleren Branchenbereich, während 17 Analysten ein Kauf‑Rating geben und es keine bekannten Short‑Positionen gibt – ein positives Stimmungsbild.",
+   "dagegen": "Die Bewertung erscheint im Vergleich zu europäischen Rüstungsunternehmen relativ hoch, und das Unternehmen ist stark von staatlichen Verteidigungsbudgets abhängig, die politisch schwanken können. Fehlende Insider‑Meldungen und kaum Diskussionen in Newslettern oder Reddit deuten auf begrenzte Transparenz hin.",
    "katalysatoren": [
-    "Abschluss großer Rüstungsaufträge für gepanzerte Fahrzeuge in Deutschland/Europa im nächsten Quartal",
-    "Markteinführung neuer Electronic‑Solutions‑Systeme und damit verbundener Auftragszuwachs",
-    "Erhöhung der Verteidigungsbudgets im Rahmen der NATO‑Ziele für 2025"
+    "Q3‑2024 Ergebnisveröffentlichung mit aktualisiertem Umsatz‑ und Gewinnbericht",
+    "Zuteilung großer Rüstungsaufträge, z. B. neue Panzer‑ oder Luftverteidigungssysteme",
+    "Entscheidungen über Verteidigungsbudget‑Erhöhungen in Deutschland und EU"
    ]
   },
   "ASML.AS": {
@@ -499,11 +500,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "548.4 Mrd"
+     "551.1 Mrd"
     ],
     [
      "KGV (erw.)",
-     "25,4"
+     "25,6"
     ],
     [
      "Umsatzwachstum",
@@ -536,13 +537,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "ASML dominiert den EUV-Markt, hat kaum direkte Konkurrenz und profitiert von der anhaltenden Chipnachfrage. Das Unternehmen verzeichnete ein Umsatzwachstum von 55 % und weist ein starkes langfristiges Aufwärtspotenzial auf, unterstützt durch die bevorstehende Einführung von High‑NA‑EUV‑Systemen.",
-   "dagegen": "Das aktuelle KGV von 25,4 liegt über dem Branchendurchschnitt, was die Bewertung hoch erscheinen lässt. Die Nachfrage nach Halbleitern ist konjunkturabhängig, geopolitische Spannungen könnten Lieferketten belasten, und ein möglicher Technologiewechsel zu alternativen Lithografie‑Verfahren könnte das Wachstum bremsen.",
-   "katalysatoren": [
-    "Einführung des High‑NA‑EUV‑Systems (voraussichtlich 2025)",
-    "Quartalsbericht Q2 2026 mit Umsatz‑ und Gewinnguidance",
-    "Großauftrag von TSMC oder Samsung für neue EUV‑Werkzeuge"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "SU.PA": {
    "ticker": "SU.PA",
@@ -552,11 +549,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "138.3 Mrd"
+     "138.7 Mrd"
     ],
     [
      "KGV (erw.)",
-     "18,7"
+     "18,6"
     ],
     [
      "Umsatzwachstum",
@@ -574,7 +571,7 @@
     ],
     [
      "Newsletter",
-     "in 16 Clustern"
+     "in 12 Clustern"
     ],
     [
      "Reddit",
@@ -589,9 +586,13 @@
      "1648,06 % ueber 1700 Halter"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "Das Unternehmen verzeichnet ein Umsatzwachstum von 10 % und ein moderates KGV von 18,6, was im Branchenvergleich attraktiv ist. Analysten bewerten die Aktie überwiegend mit Kauf (18 von 22) und das Kursziel von 327 € liegt über dem aktuellen Kurs, was Aufwärtspotenzial signalisiert.",
+   "dagegen": "Ein extrem hoher Short‑Interest von 1.648 % bei über 1.700 Haltern deutet auf erhebliche Skepsis hin. Es gibt keine Insider‑Transaktionen und die Aktie wird in Reddit‑Diskussionen kaum erwähnt, was auf mangelnde Marktaufmerksamkeit schließen lässt. Diese Divergenz zwischen Analysten‑Optimismus und Short‑Positionen erhöht das Risiko einer Kurskorrektur.",
+   "katalysatoren": [
+    "Q3‑2026 Ergebnisveröffentlichung mit Fokus auf Margenentwicklung",
+    "Markteinführung einer neuen Micro‑Grid‑Lösung für Industrie",
+    "EU‑Förderprogramme für Energie‑Management‑Systeme, die Nachfrage steigern könnten"
+   ]
   },
   "GEV": {
    "ticker": "GEV",
@@ -601,11 +602,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "220.5 Mrd"
+     "227.7 Mrd"
     ],
     [
      "KGV (erw.)",
-     "32,9"
+     "33,9"
     ],
     [
      "Umsatzwachstum",
@@ -650,11 +651,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "34.0 Mrd"
+     "34.4 Mrd"
     ],
     [
      "KGV (erw.)",
-     "41,3"
+     "41,8"
     ],
     [
      "Umsatzwachstum",
@@ -662,7 +663,7 @@
     ],
     [
      "Kursziel",
-     "125 USD"
+     "126 USD"
     ]
    ],
    "quellen": [
@@ -687,13 +688,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Cameco profitiert von steigender Nachfrage nach Kernenergie, insbesondere in den USA und Asien, wo neue Reaktoren geplant sind. Das Unternehmen deckt die gesamte Wertschöpfungskette von Exploration bis Fuel Services, was Margen stabilisieren kann. Analysten sehen überwiegend Kauf‑Empfehlungen.",
-   "dagegen": "Umsatz ist im letzten Jahr um 7 % gefallen, und das KGV von 41,3 deutet auf eine hohe Bewertung im Vergleich zu Peer‑Unternehmen hin. Marktvolatilität bei Uran und regulatorische Unsicherheiten in Kanada können die Erträge belasten. Fehlende Insider‑Aktivität und geringe Short‑Positionen deuten auf geringes Interesse hin.",
-   "katalysatoren": [
-    "Restart und Genehmigung neuer Kernkraftwerke in den USA und Europa (Q4 2026)",
-    "Abschluss eines langfristigen Fuel‑Service‑Vertrags mit Westinghouse",
-    "Quartalsbericht Q4 2026 mit möglicher Umsatz‑ und Gewinnsteigerung"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "FCX": {
    "ticker": "FCX",
@@ -703,7 +700,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "93.5 Mrd"
+     "93.6 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -752,11 +749,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "5.196.9 Mrd"
+     "5.215.8 Mrd"
     ],
     [
      "KGV (erw.)",
-     "13,5"
+     "13,6"
     ],
     [
      "Umsatzwachstum",
@@ -795,6 +792,24 @@
   }
  },
  "shorts": [
+  {
+   "land": "NL",
+   "halter": "Qube Research & Technologies Ltd.",
+   "emittent": "NSI N.V.",
+   "prozent": 0.61,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "Capital Fund Management S.A.",
+   "emittent": "DSM-Firmenich AG",
+   "prozent": 0.49,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
   {
    "land": "UK",
    "halter": "Anavio Capital Partners LLP",
@@ -1046,35 +1061,17 @@
    "datum": "2020-09-24",
    "status": "aufgestockt",
    "zuvor": 0.57
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 13.68,
-   "datum": "2019-06-07",
-   "status": "aufgestockt",
-   "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 13.5,
-   "datum": "2019-06-06",
-   "status": "aufgestockt",
-   "zuvor": 0.53
   }
  ],
  "shorts_kennzahlen": {
-  "neu_diese_woche": 0,
+  "neu_diese_woche": 2,
   "meistgeshortet": {
    "name": "Premier Oil PLC",
    "summe": 2145.63
   },
   "aktivster_halter": {
    "name": "Marshall Wace LLP",
-   "anzahl": 14033
+   "anzahl": 14032
   },
   "gesamt": 107395
  },
@@ -1177,6 +1174,6 @@
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 138,
+ "meldungen_gesamt": 157,
  "llm_aktiv": false
 }
