@@ -1,9 +1,9 @@
 {
- "stand": "2026-10-25T21:19",
- "lauf": "2026102521",
+ "stand": "2026-10-26T10:23",
+ "lauf": "2026102610",
  "synthese": {
-  "kern": "Politische Auftritte, Sicherheitsrisiken und technologische Unsicherheiten dominieren, während Märkte den steigenden geopolitischen Druck ignorieren.",
-  "erlaeuterung": "Trump-gestützte Wirtschaftspräsentationen, KI‑Hacks und militärische Rechtsstreitigkeiten verdeutlichen ein Umfeld erhöhter politischer und sicherheitsrelevanter Volatilität. Trotz hoher Zins- und Risikoappetitwerte vernachlässigt der Markt die wachsende Unsicherheit aus geopolitischen Spannungen und regulatorischen Eingriffen."
+  "kern": "Markt fokussiert kurzfristige Zahlen, übersieht strukturelle Wandel durch KI, neue Baugesetz und US‑Investitionen.",
+  "erlaeuterung": "Die Meldungen verbinden technologische Preismechanismen, regulatorische Beschleunigung im Bauwesen und eine US‑Produktionsausweitung, die langfristige Angebotsstrukturen verändern. Trotzdessen dominieren aktuelle Gewinnberichte und geopolitische Risiken die Marktstimmung, wodurch diese strukturellen Impulse unterbewertet bleiben."
  },
  "regime": [
   {
@@ -36,23 +36,23 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 71,
-     "delta": 0
+     "wert": 69,
+     "delta": -2
     },
     "eur": {
-     "wert": 89,
-     "delta": 1
+     "wert": 90,
+     "delta": 2
     }
    },
-   "differenz": 18
+   "differenz": 21
   },
   {
    "name": "risikoappetit",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 25,
-     "delta": -3
+     "wert": 26,
+     "delta": -8
     }
    }
   },
@@ -77,67 +77,96 @@
    "spuren": {
     "glob": {
      "wert": 80,
-     "delta": -5
+     "delta": -4
     }
    }
   }
  ],
  "cluster": [
   {
-   "id": "9249ae93",
-   "titel": "Donald Trump: Audi-Chef Döllner stellt neues Werk in Georgia an Trumps Seite vor",
-   "anriss": "Audi-Chef Gernot Döllner kündigt an Trumps Seite ein neues Werk im Swing State Georgia an. Der US-Präsident feiert einen Erfolg seiner rabiaten Zollpolitik. Dem Manager bringt es zu Hause Querelen mit seinen Arbeitnehmern ein.",
+   "id": "5003bbfc",
+   "titel": "Audi kündigt US-Werk an - auf Trumps Wahlkampftour",
+   "anriss": "Immer wieder droht Trump ausländischen Unternehmen mit hohen Zöllen. Nun kündigte Audi den Bau seines ersten Werks in den USA an. Auf einer Wahlkampfveranstaltung durfte der US-Präsident damit auch für sich werben.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
     "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
     "heise",
     "manager magazin"
    ],
-   "anzahl": 8,
+   "anzahl": 12,
    "links": [
+    "https://www.tagesschau.de/ausland/amerika/audi-usa-trump-100.html",
+    "https://www.spiegel.de/wirtschaft/vw-betriebsratschefin-cavallo-nennt-auftritt-von-audi-chef-bei-trump-beschaemend-a-561cd07b-5304-4a93-9eec-d00532127bb6#ref=rss",
     "https://www.spiegel.de/wirtschaft/unternehmen/donald-trump-audi-chef-doellner-stellt-neues-werk-in-georgia-an-trumps-seite-vor-a-a93e3d40-e162-4bfb-abfe-76e6fcac71e6#ref=rss",
     "https://www.spiegel.de/wirtschaft/usa-audi-baut-fuer-vier-milliarden-dollar-eigenes-werk-in-georgia-a-a6807fc7-f806-4c09-b692-90bfdd32e174#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/audi-chef-gernot-doellner-als-trumps-wahlkampfhelfer-201619089.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/audi-plant-erstes-us-werk-trumps-wahlkampfgeschenk-aus-ingolstadt-accg-201618975.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/audi-kuendigt-auf-trump-wahlkampfveranstaltung-sein-erstes-us-werk-an-accg-201618697.html"
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-stimmung-in-unternehmen-hellt-sich-auf-ifo-index-steigt-faz-200452404.html"
    ],
-   "punkte": 24,
-   "text": "Audi‑Chef Gernot Döllner kündigt im Auftrag von Präsident Trump ein neues Werk im US‑Swing‑State Georgia an, das als Erfolg der US‑Zollpolitik gefeiert wird. Der Vorstoß stärkt die lokale Fertigungsbasis, führt aber zu politischen Spannungen für den Konzern in Deutschland.",
+   "punkte": 34,
+   "text": "Audi hat den Bau seines ersten Werks in den USA angekündigt, was als Reaktion auf die drohenden hohen Zölle von Präsident Trump interpretiert wird. Der Schritt signalisiert eine strategische Verlagerung der Produktion in den US‑Binnenmarkt.",
    "positiv": [
-    "Automobilhersteller (Audi)",
-    "US‑Fertigungssektor"
+    "Audi-Aktie",
+    "US‑Automobilsektor"
    ],
    "negativ": [
-    "Deutsche Automobilzulieferer",
-    "US‑Handelsbeziehungen"
+    "ausländische Automobilhersteller in den USA",
+    "Zollrisiko für Importe"
    ]
   },
   {
-   "id": "ebc8aeeb",
-   "titel": "Immobilien: Diese Orte sind für Pendler im Kölner Umland besonders attraktiv",
-   "anriss": "Wohnungen in Köln sind begehrt und sehr teuer. Eine exklusive Auswertung der Postbank zeigt, welche Alternativen sich im Speckgürtel rechnen.",
+   "id": "1fa443ab",
+   "titel": "Neuer Gebäudetyp E: Schnelles und günstiges Bauen per Gesetz",
+   "anriss": "Deutschland braucht mehr bezahlbaren Wohnraum. Das soll unter anderem mit dem Gebäudetyp E gelingen - das E steht hier für \"einfach\". Der Gesetzentwurf liegt dem ARD-Hauptstadtstudio exklusiv vor. Von Oliver Neuroth.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.tagesschau.de/inland/gebaeudetyp-e-104.html",
+    "https://www.spiegel.de/wirtschaft/wohnungsbau-regierung-plant-gebaeudetyp-e-gegen-schleppenden-neubau-a-5da93de5-a7a1-43e6-b9f9-edab7dde7fcb#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/immobilien-wohnen/enteignungen-berliner-plaene-schaden-ganz-deutschland-201611478.html",
+    "https://www.manager-magazin.de/politik/deutschland/investitionsschutzgesetz-bundesregierung-plant-hohe-huerden-fuer-vergesellschaftungen-a-b215833f-e2b3-4b01-852e-1b08e0090e1e#ref=rss"
+   ],
+   "punkte": 16,
+   "text": "Der Gesetzentwurf für den Gebäudetyp E soll schnelles und kostengünstiges Bauen ermöglichen, um den Mangel an bezahlbarem Wohnraum in Deutschland zu lindern. Die Regelung könnte die Bauindustrie und Anbieter von Fertigbauteilen stark nachfragen.",
+   "positiv": [
+    "Bau‑ und Fertigteilunternehmen",
+    "Immobilien‑Sektor (Mietwohnungsmarkt)"
+   ],
+   "negativ": [
+    "Traditionelle Bauunternehmen mit hohen Kostenstrukturen"
+   ]
+  },
+  {
+   "id": "076c3ae4",
+   "titel": "Dax aktuell: Dax beginnt große Zahlenwoche mit Gewinn – Bayer-Aktie im Plus",
+   "anriss": "Nach einer verlustreichen Vorwoche begibt sich der deutsche Leitindex auf Erholungskurs. Anleger blicken gespannt auf neue Impulse. Die sinkenden Ölpreise sorgen für Entspannung.",
+   "region": "dach",
+   "quellen": [
     "Handelsblatt Finanzen",
-    "SPIEGEL Wirtschaft"
+    "Tagesschau Wirtschaft",
+    "manager magazin"
    ],
    "anzahl": 3,
    "links": [
-    "https://www.handelsblatt.com/finanzen/immobilien/immobilien-diese-orte-sind-fuer-pendler-im-koelner-umland-besonders-attraktiv/100260822.html",
-    "https://www.spiegel.de/wirtschaft/mietmarkt-warum-wohnungstausch-die-wohnungsnot-nicht-lindert-a-ad8e2a86-01a6-4453-8ade-1076fae7f246#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/immobilien-wohnen/enteignungen-berliner-plaene-schaden-ganz-deutschland-201611478.html"
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-startet-grosse-zahlenwoche-mit-gewinn-bayer-aktie-im-plus/100264883.html",
+    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-fed-ezb-100.html",
+    "https://www.manager-magazin.de/finanzen/boerse/boerse-dax-mit-gewinnen-nach-trump-buddy-niederlagen-a-4141c29d-7d1f-47ea-8bee-b1030aced621#ref=rss"
    ],
    "punkte": 13,
-   "text": "Eine Postbank‑Analyse zeigt, dass Pendler im Kölner Umland vermehrt in günstigere Vororte investieren, weil die Innenstadtpreise stark steigen. Diese Nachfrage treibt die Preise für Wohnimmobilien im Speckgürtel nach oben und schwächt die Attraktivität von Stadt‑Wohnungen.",
+   "text": "Der DAX startet nach einer verlustreichen Vorwoche mit einem Gewinn, wobei insbesondere die Bayer‑Aktie im Plus liegt. Sinkende Ölpreise entlasten die Inflationsentwicklung und unterstützen die positive Marktstimmung.",
    "positiv": [
-    "Deutsche Wohnimmobilien im Umland",
-    "Immobilien‑REITs mit Fokus auf Vororte"
+    "DAX",
+    "Bayer-Aktie",
+    "Industrie‑ und Konsumgütersektor"
    ],
    "negativ": [
-    "Zentrale Stadt‑Wohnungsmarkt",
-    "Wohnungs‑REITs mit Schwerpunkt Innenstadt"
+    "Öl‑ und Energieunternehmen (wegen fallender Preise)"
    ]
   },
   {
@@ -153,117 +182,101 @@
     "https://www.manager-magazin.de/politik/deutschland/notenbanken-in-der-klemme-zwischen-inflation-schuldenkrise-und-ki-risiken-a-9579731f-49ab-4ff0-9505-556103530436#ref=rss"
    ],
    "punkte": 12,
-   "text": "Die Federal Reserve und die Europäische Zentralbank stehen vor der Entscheidung, die Leitzinsen weiter zu erhöhen, um die anhaltende Inflation zu bekämpfen, während gleichzeitig Schuldenlasten und KI‑Risiken die Finanzstabilität belasten. Ein Zinsanstieg würde Anleihenkurse belasten, während Banken von höheren Margen profitieren könnten.",
+   "text": "Die Fed und die Europäische Zentralbank stehen vor Entscheidungen zu weiteren Zinsanhebungen, während gleichzeitig Inflation, Staatsschulden und KI‑Risiken im Fokus stehen. Eine mögliche Zinserhöhung würde Anleihen belasten, könnte jedoch Banken und Finanzdienstleister zugutekommen.",
    "positiv": [
     "Banken und Finanzdienstleister"
    ],
    "negativ": [
-    "Staats‑ und Unternehmensanleihen",
-    "Zins‑sensibler Konsumsektor"
+    "Staatsanleihen",
+    "Unternehmen mit hoher Verschuldung",
+    "KI‑Start‑ups (Risiko‑Komponente)"
    ]
   },
   {
-   "id": "a401dbaa",
-   "titel": "Oregon Police Are Charging a Local News Outlet $2.5M for Records About One Cop",
-   "anriss": "Article URL: https://theintercept.com/2026/10/01/oregon-police-misconduct-public-records-cost-fee/ Comments URL: https://news.ycombinator.com/item?id=50234232 Points: 235 # Comments: 59",
+   "id": "a9363ec7",
+   "titel": "Duality of Shortfall Aversion",
+   "anriss": "arXiv:2610.32350v1 Announce Type: new Abstract: Shortfall aversion describes a form of consumption habit formation in which an individual's utility depends on consumption relative to the historical consumption peak. This study develops a duality framework for a broad class of utility functions, with",
    "region": "global",
    "quellen": [
-    "Hacker News Top"
+    "arXiv q-fin"
    ],
-   "anzahl": 7,
+   "anzahl": 6,
    "links": [
-    "https://theintercept.com/2026/10/01/oregon-police-misconduct-public-records-cost-fee/",
-    "https://talkweb.eu/openweb/4558/",
-    "https://lynchlab.net/llm-skin-cancer",
-    "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
-    "https://danluu.com/ambitious/"
+    "https://arxiv.org/abs/2610.32350",
+    "https://arxiv.org/abs/2610.32455",
+    "https://arxiv.org/abs/2610.32614",
+    "https://arxiv.org/abs/2610.32970",
+    "https://arxiv.org/abs/2607.20807"
    ],
-   "punkte": 9,
-   "text": "Die Polizei von Oregon verlangt von einem lokalen Nachrichtenmedium 2,5 Mio. $ für die Herausgabe von Polizeiberichten, was zu einer massiven finanziellen Belastung des Unternehmens führt. Der Vorfall erhöht das regulatorische Risiko für Medienunternehmen und könnte die Kostenstruktur von Nachrichten‑Outlets verschärfen.",
+   "punkte": 12,
+   "text": "arXiv:2610.32350v1 Announce Type: new Abstract: Shortfall aversion describes a form of consumption habit formation in which an individual's utility depends on consumption relative to the historical consumption peak. This",
    "positiv": [],
-   "negativ": [
-    "Medienunternehmen",
-    "Journalistische Start‑ups"
-   ]
+   "negativ": []
   },
   {
-   "id": "ce55aa4e",
-   "titel": "Sicherheitslücken: Die Lehren aus dem KI-Hack",
-   "anriss": "Amerikaner finden eine Sicherheitslücke, und Deutschland schaltet seine Webseiten ab. Es wird Zeit, dass Deutschland sich selbst emanzipiert. Wenigstens ein bisschen.",
+   "id": "4c5a0a4f",
+   "titel": "When AI Gets Cheaper, Do Prices Follow? Information Delays and Algorithmic Pricing",
+   "anriss": "arXiv:2610.31693v1 Announce Type: new Abstract: We examine whether lower costs of running AI models lead to lower prices, and whether delays in observing competitors' prices and limits on price changes affect how much consumers benefit. We study a simulated market with two differentiated sellers, lo",
+   "region": "global",
+   "quellen": [
+    "arXiv q-fin"
+   ],
+   "anzahl": 8,
+   "links": [
+    "https://arxiv.org/abs/2610.31693",
+    "https://arxiv.org/abs/2610.31825",
+    "https://arxiv.org/abs/2610.31903",
+    "https://arxiv.org/abs/2610.32300",
+    "https://arxiv.org/abs/2610.32355"
+   ],
+   "punkte": 10,
+   "text": "arXiv:2610.31693v1 Announce Type: new Abstract: We examine whether lower costs of running AI models lead to lower prices, and whether delays in observing competitors' prices and limits on price changes affect how much co",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "4e276a6e",
+   "titel": "Stromsteuer-Debatte: Union und SPD weiter weit auseinander",
+   "anriss": "Dass Unternehmen und Haushalte beim Strompreis entlastet werden sollen, darüber herrscht in der Regierung Einigkeit. Unklar aber ist, wie das finanziert werden kann. Im Bericht aus Berlin machten CDU und SPD sehr unterschiedliche Vorschläge.",
+   "region": "dach",
+   "quellen": [
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft"
+   ],
+   "anzahl": 2,
+   "links": [
+    "https://www.tagesschau.de/inland/bericht-aus-berlin-stromsteuer-100.html",
+    "https://www.spiegel.de/wirtschaft/oesterreich-schliesst-veto-im-eu-haushaltsstreit-nicht-aus-a-3008d557-a3c6-4901-9fa0-cef396b5dc76#ref=rss"
+   ],
+   "punkte": 8,
+   "text": "Dass Unternehmen und Haushalte beim Strompreis entlastet werden sollen, darüber herrscht in der Regierung Einigkeit. Unklar aber ist, wie das finanziert werden kann. Im Bericht aus Berlin machten CDU und SPD sehr untersc",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "1249ab26",
+   "titel": "Deutsche Bahn beginnt mit dem Verkauf des Familientickets",
+   "anriss": "Um den öffentlichen Ärger nach der Abschaffung der Familienreservierung zu lindern, führte die Deutsche Bahn das Familienticket ein. Ab 1. November ist es fester Bestandteil des Angebots.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
-    "heise"
+    "SPIEGEL Wirtschaft"
    ],
    "anzahl": 2,
    "links": [
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/ki-sicherheitsluecke-trifft-deutschland-zeit-fuer-mehr-eigenstaendigkeit-accg-201615439.html",
-    "https://www.heise.de/news/Cyberagentur-Software-Schwachstellen-bleiben-laenger-ein-Problem-11499379.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+    "https://www.spiegel.de/wirtschaft/deutsche-bahn-beginnt-mit-dem-verkauf-des-familientickets-a-77cde14d-6f44-4cb8-99a4-ed3a27f59538#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/auto-verkehr/deutsche-bahn-verkauft-ab-heute-wieder-das-familienticket-accg-201620928.html"
    ],
    "punkte": 8,
-   "text": "Amerikaner finden eine Sicherheitslücke, und Deutschland schaltet seine Webseiten ab. Es wird Zeit, dass Deutschland sich selbst emanzipiert. Wenigstens ein bisschen.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "446ed3e3",
-   "titel": "Profisport: Die starken Frauen im Fußball",
-   "anriss": "Fußball ist Männersache? Von wegen. Diese Frauen mischen ganz oben mit, wenn es um Budgets, Verträge oder Sponsoring geht.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft"
-   ],
-   "anzahl": 2,
-   "links": [
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/frauen-an-der-macht-diese-starken-persoenlichkeiten-praegen-den-fussball-201313203.html",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/angela-merkel-lamine-yamal-und-co-fuenf-koepfe-der-woche-accg-201609333.html"
-   ],
-   "punkte": 6,
-   "text": "Fußball ist Männersache? Von wegen. Diese Frauen mischen ganz oben mit, wenn es um Budgets, Verträge oder Sponsoring geht.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "8fa079f7",
-   "titel": "Krise der Schulen: Bildung? Uns doch egal!",
-   "anriss": "Deutschlands Schüler lernen so wenig wie nie – doch niemanden regt es auf. Das hat System.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft"
-   ],
-   "anzahl": 2,
-   "links": [
-    "https://www.faz.net/aktuell/wirtschaft/arm-und-reich/deutschlands-bildungsmisere-warum-kaum-jemand-aufbegehrt-accg-201231694.html",
-    "https://www.faz.net/aktuell/wirtschaft/auto-verkehr/autokrise-vw-bmw-und-mercedes-verlieren-780-000-fahrzeuge-accg-201614859.html"
-   ],
-   "punkte": 6,
-   "text": "Deutschlands Schüler lernen so wenig wie nie – doch niemanden regt es auf. Das hat System.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "ba7407af",
-   "titel": "Artemis-III-Mission: NASA-Chef Isaacman hält am Mond-Zeitplan fest",
-   "anriss": "Trotz Verzögerungen bei der technischen Ausrüstung und kaum erbaulichen internen Berichten will die NASA weiterhin zeitnah Menschen zurück auf den Mond bringen.",
-   "region": "global",
-   "quellen": [
-    "heise"
-   ],
-   "anzahl": 2,
-   "links": [
-    "https://www.heise.de/news/Artemis-III-Mission-NASA-Chef-Isaacman-haelt-am-Mond-Zeitplan-fest-11499417.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-    "https://www.heise.de/hintergrund/Missing-Link-Vor-zurueck-vor-zurueck-11498921.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 6,
-   "text": "Trotz Verzögerungen bei der technischen Ausrüstung und kaum erbaulichen internen Berichten will die NASA weiterhin zeitnah Menschen zurück auf den Mond bringen.",
+   "text": "Um den öffentlichen Ärger nach der Abschaffung der Familienreservierung zu lindern, führte die Deutsche Bahn das Familienticket ein. Ab 1. November ist es fester Bestandteil des Angebots.",
    "positiv": [],
    "negativ": []
   }
  ],
  "ketten": [],
  "gegenthese": {
-  "konsens": "Marktteilnehmer sehen erhöhte Unsicherheit: Fokus auf Inflation, Zinsentscheidungen, geopolitische Spannungen und regulatorische Risiken führt zu vorsichtiger Risikoaversion.",
-  "gegen": "Gegenargument: Starke Unternehmensgewinne, robuste Konsumausgaben und technologische Fortschritte (KI, Raumfahrt) könnten das Wachstum stützen und die Risikoaversion mindern."
+  "konsens": "Die Märkte bewerten die meisten Neuigkeiten überwiegend positiv – Audi‑US‑Werk, neues Baugesetz und DAX‑Gewinn heben die Stimmung; Bedenken bleiben bei Geldpolitik, Steuerstreit und DB‑Ticketverkauf.",
+  "gegen": "Kritiker betonen steigende Kosten und Unsicherheit: US‑Werk könnte Überkapazität schaffen, das Baugesetz Qualitätsstandards senken, Inflations‑ und Steuerdebatten Unternehmen belasten, KI‑Preis‑Algorithmen erhöhen Preis‑Volatilität."
  },
  "matrix": [
   {
@@ -380,11 +393,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "101.0 Mrd"
+     "103.7 Mrd"
     ],
     [
      "KGV (erw.)",
-     "19,0"
+     "19,5"
     ],
     [
      "Umsatzwachstum",
@@ -402,7 +415,7 @@
     ],
     [
      "Newsletter",
-     "nicht erwaehnt"
+     "in 2 Clustern"
     ],
     [
      "Reddit",
@@ -417,12 +430,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Starkes Auftragsvolumen in Gas‑ und Dampfturbinen sowie im Windsektor treibt das Umsatzwachstum von +18 % an; das erwartete KGV von 19 erscheint moderat. Analysten‑Consensus (21 Buy) signalisiert Vertrauen in die Ertragskraft und die digitale Service‑Strategie.",
-   "dagegen": "Risiken bestehen in der Margenentwicklung der Siemens Gamesa‑Windturbinen, hohen Verschuldungsgrad und möglichen Lieferverzögerungen bei Gas‑Turbinen. Drei Analysten empfehlen Verkauf, was auf Bedenken hinsichtlich Kostenstruktur und Marktvolatilität hinweist.",
+   "dafuer": "Die Analystenmehrheit (21 Kauf‑Empfehlungen) sieht in dem robusten Umsatzwachstum von +18 % und einem Kursziel von 194 € ein starkes Aufwärtspotenzial. Das diversifizierte Portfolio aus Gas‑, Grid‑ und Wind‑Technologien sowie ein moderates KGV von 19,5 unterstützt die Bewertung.",
+   "dagegen": "Gegen die positive Sicht spricht ein relativ hohes KGV von 19,5, das bei schwankender Nachfrage nach Gasturbinen überbewertet wirken kann. Zudem zeigen drei Analysten Verkaufsempfehlungen und die Reddit‑Präsenz ist gering, was Unsicherheit über die Marktstimmung signalisiert.",
    "katalysatoren": [
-    "Q4‑Ergebnisbericht 2026 mit aktualisierten Prognosen",
-    "Auslieferung und Inbetriebnahme der nächsten Generation von SG‑8‑Gasturbinen",
-    "Fortschritt bei Offshore‑Windprojekten von Siemens Gamesa und neue Auftragszusage"
+    "Auslieferung neuer H‑Klasse‑Gasturbinen",
+    "Großaufträge im Grid‑Technologies‑Segment für erneuerbare Netzintegration",
+    "Kostenreduktion und Serienstart der nächsten Offshore‑Windturbinen von Siemens Gamesa"
    ]
   },
   "RHM.DE": {
@@ -433,11 +446,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "47.6 Mrd"
+     "48.4 Mrd"
     ],
     [
      "KGV (erw.)",
-     "19,2"
+     "19,6"
     ],
     [
      "Umsatzwachstum",
@@ -470,9 +483,13 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "Dafür spricht die anhaltend hohe Auftragslage im Verteidigungssektor, insbesondere steigende Militärausgaben in Deutschland und Europa. Das Umsatzwachstum von +69 % und die Diversifikation über Fahrzeugsysteme, Waffen & Munition sowie Elektroniklösungen stärken die Ertragskraft. Das KGV von 19,6 erscheint im Branchenvergleich moderat.",
+   "dagegen": "Entgegen steht die relativ hohe Bewertung, die bei 48,4 Mrd € Marktkapitalisierung und einem Kursziel von 1.559 € bereits einen erheblichen Aufschlag impliziert. Das Unternehmen ist stark von staatlichen Rüstungsgeldern abhängig, wodurch politische Entscheidungen das Ergebnis stark beeinflussen können. Zudem fehlt breitere Analystenabdeckung, die Unsicherheit erhöht.",
+   "katalysatoren": [
+    "Erhöhung des deutschen Verteidigungsbudgets 2025",
+    "Exportgenehmigung für neue Schützenpanzer nach Asien",
+    "Markteinführung der nächsten Generation von elektronischen Gefechtssystemen"
+   ]
   },
   "ASML.AS": {
    "ticker": "ASML.AS",
@@ -482,11 +499,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "542.4 Mrd"
+     "544.8 Mrd"
     ],
     [
      "KGV (erw.)",
-     "25,2"
+     "25,3"
     ],
     [
      "Umsatzwachstum",
@@ -519,12 +536,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "ASML profitiert von starkem Umsatzwachstum von +55 % und der dominierenden Stellung im EUV‑Lithografie‑Markt. Die Mehrheit der Analysten (38 Buy, 2 Hold, 1 Sell) signalisiert breiten Optimismus. Das Kursziel von 2.097 € spiegelt erwartete Gewinnsteigerungen wider.",
-   "dagegen": "Das aktuelle KGV von 25,2 erscheint hoch im Vergleich zu historischen Werten und könnte die Bewertung überziehen. Fehlende Insider‑Transaktionen und Shorts lassen Unsicherheit über mögliche Risiken vermuten. Lieferkettenengpässe oder Verzögerungen bei neuen EUV‑Systemen könnten das Wachstum bremsen.",
+   "dafuer": "ASML profitiert von starkem Umsatzwachstum (+55 %) und seiner Monopolstellung im EUV‑Lithografie‑Markt. Analysten bewerten das Unternehmen überwiegend positiv (38 Buy, 2 Hold, 1 Sell) und das Kursziel von 2 097 € impliziert erhebliches Aufwärtspotenzial gegenüber dem aktuellen Kurs.",
+   "dagegen": "Das KGV von 25,3 liegt für ein reifes Technologieunternehmen am oberen Ende, was das Risiko einer Überbewertung birgt. Die Nachfrage nach Halbleitern ist konjunkturabhängig, Lieferkettenprobleme könnten die Produktion verzögern, und die geringe Aufmerksamkeit in Reddit‑ und Newsletter‑Quellen deutet auf begrenztes Retail‑Interesse hin.",
    "katalysatoren": [
-    "Q4‑Ergebnisveröffentlichung (voraussichtlich Q4 2026)",
-    "Einführung des High‑NA‑EUV‑Systems",
-    "Kapazitätserweiterungen bei Schlüssel­kunden wie TSMC und Samsung"
+    "Q3‑2025 Ergebnisbericht mit Umsatz‑ und Margenentwicklung",
+    "Markteinführung des nächsten High‑NA‑EUV‑Systems",
+    "Bekanntgabe großer Kundenaufträge (z. B. TSMC, Samsung)"
    ]
   },
   "SU.PA": {
@@ -535,11 +552,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "136.1 Mrd"
+     "138.0 Mrd"
     ],
     [
      "KGV (erw.)",
-     "18,4"
+     "18,7"
     ],
     [
      "Umsatzwachstum",
@@ -557,7 +574,7 @@
     ],
     [
      "Newsletter",
-     "in 5 Clustern"
+     "in 13 Clustern"
     ],
     [
      "Reddit",
@@ -572,12 +589,12 @@
      "1648,06 % ueber 1700 Halter"
     ]
    ],
-   "dafuer": "Analysten sehen mit 18 Kaufempfehlungen und einem Kursziel von 327 € ein starkes Aufwärtspotenzial. Das Umsatzwachstum von +10 % und ein moderates KGV von 18,4 deuten auf solide Fundamentaldaten hin. Die breite Produktpalette in Energie‑Management und Industrieautomation stärkt die Marktposition.",
-   "dagegen": "Ein extrem hoher Short‑Interest von 1648 % bei über 1.700 Haltern signalisiert erhebliche Skepsis. Fehlende Insider‑Meldungen und kaum Reddit‑Diskussionen deuten auf geringe Marktaufmerksamkeit hin. Das Risiko von Bewertungsüberhitzung bleibt, besonders wenn das Kursziel nicht realistisch ist.",
+   "dafuer": "Die Analystenmeinung ist überwiegend positiv (18 Kauf, 4 Halten, kein Verkauf). Das Unternehmen verzeichnet ein Umsatzwachstum von 10 % und ein moderates KGV von 18,7, was im Branchenvergleich attraktiv erscheint. Das Kursziel von 327 € impliziert weiteres Aufwärtspotenzial.",
+   "dagegen": "Ein extrem hoher Short‑Interest von über 1 600 % (1700 Halter) signalisiert Skepsis und mögliche Kursvolatilität. Fehlende Insider‑Transaktionen lassen Zweifel an internem Optimismus aufkommen. Die geringe Präsenz in Reddit‑Diskussionen deutet auf begrenztes Retail‑Interesse hin, und der Markt ist stark von konjunkturellen Schwankungen im Energiesektor abhängig.",
    "katalysatoren": [
-    "Q3‑Ergebnisveröffentlichung (voraussichtlich Q4‑2026)",
-    "Markteinführung der neuen Micro‑Grid‑Lösung für erneuerbare Energien",
-    "EU‑Förderprogramme für Energie‑Management‑Technologien"
+    "Q3‑2026 Ergebnisveröffentlichung (Erwartung steigender Margen)",
+    "Einführung der neuen EcoStruxure‑IoT‑Plattform für Gebäudeautomation",
+    "Abschluss einer strategischen Akquisition im Bereich erneuerbare Mikro‑Netze"
    ]
   },
   "GEV": {
@@ -1064,14 +1081,6 @@
  "gespraech": [],
  "termine": [
   {
-   "datum": "2026-10-26",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
    "datum": "2026-10-27",
    "zeit": "",
    "region": "us",
@@ -1158,8 +1167,16 @@
    "was": "FOMC Press Release",
    "konsens": "",
    "wucht": "hoch"
+  },
+  {
+   "datum": "2026-11-03",
+   "zeit": "",
+   "region": "us",
+   "was": "Job Openings and Labor Turnover Survey",
+   "konsens": "",
+   "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 70,
+ "meldungen_gesamt": 117,
  "llm_aktiv": false
 }
