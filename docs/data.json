@@ -1,9 +1,9 @@
 {
- "stand": "2026-10-28T13:39",
- "lauf": "2026102813",
+ "stand": "2026-10-28T20:39",
+ "lauf": "2026102820",
  "synthese": {
-  "kern": "Politische und regulatorische Unsicherheiten drücken, während Markt die strukturellen Risiken verkennt.",
-  "erlaeuterung": "Umweltpolitische Kontroversen, bevorstehende US-Midterms, IG‑Metall‑Streiks und ein anhaltendes IT‑Sicherheitsproblem erhöhen das Risiko‑Appetit‑Defizit. Der Markt fokussiert kurzfristige Kursbewegungen und vernachlässigt die längerfristigen geopolitischen und regulatorischen Belastungen."
+  "kern": "Markt fokussiert Fed‑Zinsstillstand, übersieht wachsende geopolitische Spannungen und Unternehmensrisiken in China und Energie.",
+  "erlaeuterung": "Die Geldpolitik bleibt unverändert, doch das Perzentil für Zinsdruck und Risikoappetit zeigt abnehmende Spielräume. Gleichzeitig belasten geopolitische Unsicherheiten und schwache Performance chinesischer Exporteure die Marktstimmung, was von Anlegern kaum beachtet wird."
  },
  "regime": [
   {
@@ -36,23 +36,23 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 70,
-     "delta": 8
+     "wert": 69,
+     "delta": 7
     },
     "eur": {
      "wert": 90,
      "delta": 2
     }
    },
-   "differenz": 20
+   "differenz": 21
   },
   {
    "name": "risikoappetit",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 36,
-     "delta": -3
+     "wert": 44,
+     "delta": 5
     }
    }
   },
@@ -76,154 +76,128 @@
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 81,
-     "delta": -3
+     "wert": 82,
+     "delta": -2
     }
    }
   }
  ],
  "cluster": [
   {
-   "id": "b20e988d",
-   "titel": "Carsten Schneider: Audi wettet laut Umweltminister »auf ein totes Pferd«",
-   "anriss": "Der Autohersteller Audi plant ein neues Werk in den USA – und machte Donald Trump mit der Verkündung ein Wahlgeschenk. Der deutsche Umweltminister kritisiert den Firmenchef nun gleich auf mehreren Ebenen.",
+   "id": "36462510",
+   "titel": "Geldpolitik: Fed hält Zinsen unverändert – weniger Zinsentscheidungen ab 2027",
+   "anriss": "Nach der ersten Zinserhöhung seit mehr als drei Jahren legt die Fed eine Pause ein. An den Märkten sind die Erwartungen für die kommenden Monate derweil eindeutig.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "manager magazin"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/geldpolitik/geldpolitik-fed-haelt-zinsen-unveraendert-weniger-zinsentscheidungen-ab-2027/100264521.html",
+    "https://www.handelsblatt.com/finanzen/geldpolitik/ezb-inflation-trifft-schuldenkrise-heikle-lage-fuer-die-notenbank/100262258.html",
+    "https://www.manager-magazin.de/finanzen/boerse/boerse-dax-mit-moderaten-gewinnen-deutsche-bank-und-basf-im-fokus-a-54c4bb10-02f6-4b56-b3de-caf7660953e7#ref=rss",
+    "https://www.manager-magazin.de/politik/weltwirtschaft/us-notenbank-fed-entscheidet-ueber-zinsen-anleger-erwarten-zinspause-a-5f15c672-d29b-4960-b41e-15bd5e39b0c1#ref=rss"
+   ],
+   "punkte": 22,
+   "text": "Die US-Notenbank Fed hat den Leitzins in der Spanne von 3,75 % bis 4,00 % unverändert gelassen und angekündigt, dass ab 2027 weniger Zinsentscheidungen zu erwarten sind. Die Märkte haben die Erwartung einer kurzfristigen Zins‑Pause bereits eingepreist.",
+   "positiv": [
+    "Aktien (Stabilität der Geldpolitik)"
+   ],
+   "negativ": [
+    "Kurzfristige Zinsanlagen (z. B. Geldmarktfonds)"
+   ]
+  },
+  {
+   "id": "dd0e3697",
+   "titel": "Dax aktuell: Dax schließt leicht im Plus – aber eine Aktie stürzt um fast zehn Prozent ab",
+   "anriss": "Deutsche Bank, Mercedes, BASF – an neuen Quartalszahlen von Dax-Konzernen mangelte es am Mittwoch nicht. Trotzdem stieg der deutsche Leitindex am Mittwoch nur leicht an.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "Tagesschau Wirtschaft"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-im-plus-symrise-verliert-fast-zehn-prozent/100265482.html",
+    "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/banken-deutsche-bank-uebertrifft-erwartungen-aktie-steigt-deutlich/100263571.html",
+    "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/bnp-paribas-trotz-frankreich-sorgen-grossbank-uebertrifft-gewinnerwartungen/100265057.html",
+    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-nasdaq-100.html"
+   ],
+   "punkte": 15,
+   "text": "Der DAX schloss am Mittwoch leicht im Plus, obwohl ein einzelnes Unternehmen fast zehn Prozent einbrach. Deutsche Bank, Mercedes und BASF veröffentlichten Quartalszahlen, die das Gesamtergebnis des Index kaum beeinflussten.",
+   "positiv": [
+    "DAX‑Index (leichter Aufwärtstrend)"
+   ],
+   "negativ": [
+    "Unbenannte Aktie mit -10 % Kursverlust"
+   ]
+  },
+  {
+   "id": "e124ce45",
+   "titel": "Mercedes hat noch größere Probleme im chinesischen Markt",
+   "anriss": "Mercedes hat im dritten Quartal in seiner Autosparte operativ deutlich weniger verdient. Vor allem das schlechte China-Geschäft setzt dem Konzern zu. Die Strategie für den weltgrößten Automarkt will er nun überdenken.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "heise",
-    "manager magazin"
-   ],
-   "anzahl": 5,
-   "links": [
-    "https://www.spiegel.de/wirtschaft/audi-wettet-laut-umweltminister-carsten-schneider-auf-ein-totes-pferd-a-c79b832f-785d-497c-a32c-4e08d12048bf#ref=rss",
-    "https://www.spiegel.de/wirtschaft/unternehmen/audi-kritik-an-gernot-doellner-nach-trump-auftritt-eskaliert-im-vw-intranet-a-922db2dd-7446-43cb-b800-dd6d0e929d15#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-schneider-audi-wettet-auf-ein-totes-pferd-faz-200452404.html",
-    "https://www.manager-magazin.de/unternehmen/mobilitaet/audi-umweltminister-schneider-kritisiert-plan-fuer-neues-us-werk-scharf-a-b3696f98-c322-415a-b08b-0a0aa29a0ce1#ref=rss",
-    "https://www.heise.de/news/Umweltminister-Schneider-Audi-wettet-auf-ein-totes-Pferd-11502541.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 18,
-   "text": "Audi kündigte den Bau eines neuen Werks in den USA an und präsentierte die Ankündigung als Wahlgeschenk für Donald Trump. Der deutsche Umweltminister kritisierte den Vorstoß scharf und bezeichnete die Investition als „Wette auf ein totes Pferd“, was das Image des Unternehmens belastet.",
-   "positiv": [],
-   "negativ": [
-    "Audi",
-    "Automobilbranche"
-   ]
-  },
-  {
-   "id": "b37c4ec2",
-   "titel": "US-Börsen: US-Börsen schließen durchmischt – Boeing-Aktie verliert zweistellig",
-   "anriss": "Nach der Euphorie über den geplanten Börsengang von Anthropic lässt die Dynamik an den US-Märkten etwas nach. Anleger richten den Blick auf neue Unternehmenszahlen und den Nahen Osten.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "SPIEGEL Wirtschaft",
-    "manager magazin"
+    "Tagesschau Wirtschaft",
+    "heise"
    ],
    "anzahl": 4,
    "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-usboersen-ueberwiegend-im-plus-boeing-aktie-verliert-zweistellig/100265281.html",
-    "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/ki-anthropic-dreht-die-boersenstimmung-dafuer-gibt-es-drei-gruende-01/100265184.html",
-    "https://www.spiegel.de/wirtschaft/kuenstliche-intelligenz-anthropic-boersengang-und-microsoft-jobabbau-befeuern-angst-vor-ki-blase-a-90381ba4-3455-4f6b-bcf5-6da859cd3425#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/anthropic-boersengang-wie-sich-die-amodei-geschwister-ihre-macht-sichern-a-37904412-6c71-47d4-98ed-cedf2c0828ec#ref=rss"
+    "https://www.tagesschau.de/wirtschaft/unternehmen/mercedes-automobilindustrie-quartalszahlen-100.html",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/volkswagen-baut-hefei-zum-globalen-entwicklungszentrum-aus-201629121.html",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/mercedes-versteht-china-nicht-mehr-201627881.html",
+    "https://www.heise.de/news/Volkswagen-will-kuenftig-Modelle-aus-China-im-Globalen-Sueden-verkaufen-11502862.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
-   "punkte": 16,
-   "text": "Die US-Börsen schlossen gemischt, wobei die zuvor hohe Euphorie um den geplanten Börsengang von Anthropic nachließ. Gleichzeitig fiel die Boeing‑Aktie um zweistellige Prozentsätze, was die Stimmung im Luftfahrtsektor drückte.",
+   "punkte": 14,
+   "text": "Mercedes‑Benz meldete im dritten Quartal deutlich geringere operative Erträge, wobei das schwache Geschäft in China den größten Teil der Belastung ausmacht. Die Aussichten für den weltgrößten Automarkt bleiben unsicher.",
+   "positiv": [],
+   "negativ": [
+    "Mercedes‑Benz",
+    "Automobilsektor in China"
+   ]
+  },
+  {
+   "id": "ec9db726",
+   "titel": "USA – Notenbank: Fed hält Leitzins konstant – trotz Inflation",
+   "anriss": "Der US-Leitzins bleibt in einer Spanne von 3,75 bis 4,00 Prozent. Zum Jahresende könnte es aber wieder nach oben gehen.",
+   "region": "dach",
+   "quellen": [
+    "SPIEGEL Wirtschaft"
+   ],
+   "anzahl": 2,
+   "links": [
+    "https://www.spiegel.de/wirtschaft/service/usa-notenbank-fed-haelt-leitzins-konstant-trotz-inflation-a-067e86c8-1d5e-4060-9697-08da04428fad#ref=rss",
+    "https://www.spiegel.de/wirtschaft/konsum-kaufrausch-in-den-usa-stuetzt-wirtschaft-trotz-hoher-inflation-a-b4b0353d-1f65-4621-b2aa-a5caf0a12999#ref=rss"
+   ],
+   "punkte": 14,
+   "text": "Die Fed hielt den Leitzins trotz anhaltender Inflation konstant bei 3,75 % bis 4,00 % und deutete an, dass gegen Jahresende erneut eine Erhöhung möglich sei. Die aktuelle Entscheidung lässt die Geldpolitik vorerst unverändert weiterwirken.",
    "positiv": [
-    "Anthropic"
+    "Aktien (Zinsstabilität)"
    ],
    "negativ": [
-    "Boeing",
-    "Luftfahrtbranche"
+    "Inflationsgeschützte Anleihen (mögliche weitere Zinserhöhungen)"
    ]
   },
   {
-   "id": "e225ad68",
-   "titel": "Dax aktuell: Anleger halten sich inmitten der Bilanzsaison zurück – Symrise verliert zehn Prozent",
-   "anriss": "Deutsche Bank, Mercedes, BASF – an neuen Zahlen von Dax-Konzernen mangelt es am Mittwoch nicht. Am Abend steht der Zinsentscheid der US-Notenbank Fed an.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "manager magazin"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-anleger-halten-sich-inmitten-der-bilanzsaison-zurueck/100265482.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sieben-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-im-plus-mercedes-aktie-verlierer-des-tages/100265163.html",
-    "https://www.manager-magazin.de/finanzen/boerse/boerse-dax-mit-moderaten-gewinnen-deutsche-bank-und-basf-im-fokus-a-54c4bb10-02f6-4b56-b3de-caf7660953e7#ref=rss"
-   ],
-   "punkte": 15,
-   "text": "Im DAX zeigen Anleger Zurückhaltung während der Bilanzsaison, wobei Symrise nach Veröffentlichung seiner Zahlen um rund zehn Prozent einbrach. Weitere DAX‑Konzerne wie Deutsche Bank, Mercedes und BASF stehen im Fokus, während am Abend die Fed über die Zinsentscheidung entscheidet.",
-   "positiv": [],
-   "negativ": [
-    "Symrise",
-    "DAX"
-   ]
-  },
-  {
-   "id": "36d3fedf",
-   "titel": "Ten days later, Git on macOS still trusts the compromised eMudhra certificates",
-   "anriss": "Article URL: https://emudhra.we-have-a-problem.com/apple.html Comments URL: https://news.ycombinator.com/item?id=50271640 Points: 287 # Comments: 124",
+   "id": "e19562ae",
+   "titel": "Why Is This Fingerprinting Script Creating Bioweapons?",
+   "anriss": "Article URL: https://nullpt.rs/fingerprinting-bioweapons Comments URL: https://news.ycombinator.com/item?id=50276998 Points: 273 # Comments: 55",
    "region": "global",
    "quellen": [
     "Hacker News Top"
    ],
-   "anzahl": 12,
+   "anzahl": 11,
    "links": [
-    "https://emudhra.we-have-a-problem.com/apple.html",
-    "https://lexifina.com/blog/git-for-the-us-code",
-    "https://www.anthropic.com/research/early-progress-drug-development",
-    "https://tailscale.com/ssh-investigation-update",
-    "https://www.brangus.io/survival-llm"
-   ],
-   "punkte": 14,
-   "text": "Ein Sicherheitsproblem bleibt bestehen: Git für macOS vertraut weiterhin auf kompromittierte eMudhra‑Zertifikate, was das Vertrauen in die macOS‑Sicherheitsinfrastruktur erschüttert. Entwickler und Unternehmen, die Git auf macOS einsetzen, könnten dadurch erhöhten Risiko ausgesetzt sein.",
-   "positiv": [],
-   "negativ": [
-    "Apple/macOS",
-    "Git"
-   ]
-  },
-  {
-   "id": "5b5e6c31",
-   "titel": "Börse: Pharma, Tech, Auto – wie wirken sich die US-Midterms auf die Kurse aus?",
-   "anriss": "Die US-Zwischenwahlen könnten die Machtverhältnisse im Kongress neu ordnen – und über Gewinner und Verlierer einzelner Branchen entscheiden. Ein Überblick.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "Handelsblatt Finanzen",
-    "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/boerse-tech-auto-pharma-wie-wirken-sich-die-midterms-auf-die-kurse-aus/100263704.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/elon-musk-und-george-soros-koennen-amerikas-superreiche-die-midterms-entscheiden-201611156.html",
-    "https://www.manager-magazin.de/politik/usa-vor-den-midterms-tech-milliardaere-investieren-rekordsummen-in-wahlkampf-a-b2b15c65-fcad-43c5-bffd-283b30a614b8#ref=rss"
+    "https://nullpt.rs/fingerprinting-bioweapons",
+    "https://www.apple.com/macbook-pro/proled-xdr-display/",
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+    "https://carmelitegothic.com/cnc-stone-carving/",
+    "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/"
    ],
    "punkte": 13,
-   "text": "Die US-Zwischenwahlen könnten die Machtverhältnisse im Kongress neu ordnen – und über Gewinner und Verlierer einzelner Branchen entscheiden. Ein Überblick.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "8626e748",
-   "titel": "Tarifverhandlungen: IG Metall lehnt Angebot ab - Warnstreiks drohen",
-   "anriss": "Die Arbeitgeber der Metall- und Elektroindustrie haben in der laufenden Tarifrunde ein erstes Angebot vorgelegt. Die IG Metall weist es als unzureichend zurück. Ab Sonntag sind Warnstreiks möglich.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/ig-metall-wirtschaftsmeldung-oktober2026-100.html",
-    "https://www.spiegel.de/wirtschaft/tarifverhandlungen-metallindustrie-arbeitgeber-legen-erstes-angebot-vor-a-97af2e76-9774-434e-9a48-a39b810f962c#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/tarifstreit-verschaerft-sich-ig-metall-plant-streiks-201625099.html"
-   ],
-   "punkte": 12,
-   "text": "Die Arbeitgeber der Metall- und Elektroindustrie haben in der laufenden Tarifrunde ein erstes Angebot vorgelegt. Die IG Metall weist es als unzureichend zurück. Ab Sonntag sind Warnstreiks möglich.",
+   "text": "Article URL: https://nullpt.rs/fingerprinting-bioweapons Comments URL: https://news.ycombinator.com/item?id=50276998 Points: 273 # Comments: 55",
    "positiv": [],
    "negativ": []
   },
@@ -241,7 +215,7 @@
    "links": [
     "https://www.tagesschau.de/ausland/asien/merz-handel-asien-100.html",
     "https://www.spiegel.de/wirtschaft/bundeskanzler-friedrich-merz-wirbt-in-japan-fuer-neue-allianz-fuer-geregelten-welthandel-a-971855e2-539d-418c-a0dd-a11cf598f739#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/friedrich-merz-in-singapur-deutschlands-neue-chinapolitik-201623894.html"
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/deutschland-und-japan-als-premiumpartner-201627527.html"
    ],
    "punkte": 12,
    "text": "Der Kanzler beschwört auf seiner Asienreise den freien Handel. Mit der Pazifik-Region will Merz ein großes Abkommen schließen - und damit offenbar einen Kontrapunkt zum Vorgehen der USA setzen.",
@@ -266,12 +240,33 @@
    "text": "Playmobil ist in der Krise, das einzige deutsche Werk wurde geschlossen, Hunderte Mitarbeiter verloren ihren Job. Nun will der Mutterkonzern in Dietenhofen ein Rechenzentrum bauen.",
    "positiv": [],
    "negativ": []
+  },
+  {
+   "id": "b20e988d",
+   "titel": "Carsten Schneider: Audi wettet laut Umweltminister »auf ein totes Pferd«",
+   "anriss": "Der Autohersteller Audi plant ein neues Werk in den USA – und machte Donald Trump mit der Verkündung ein Wahlgeschenk. Der deutsche Umweltminister kritisiert den Firmenchef nun gleich auf mehreren Ebenen.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.spiegel.de/wirtschaft/audi-wettet-laut-umweltminister-carsten-schneider-auf-ein-totes-pferd-a-c79b832f-785d-497c-a32c-4e08d12048bf#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-us-behoerde-prueft-personalisierte-preise-bei-walmart-uber-und-co-faz-200452404.html",
+    "https://www.manager-magazin.de/unternehmen/mobilitaet/audi-umweltminister-schneider-kritisiert-plan-fuer-neues-us-werk-scharf-a-b3696f98-c322-415a-b08b-0a0aa29a0ce1#ref=rss"
+   ],
+   "punkte": 12,
+   "text": "Der Autohersteller Audi plant ein neues Werk in den USA – und machte Donald Trump mit der Verkündung ein Wahlgeschenk. Der deutsche Umweltminister kritisiert den Firmenchef nun gleich auf mehreren Ebenen.",
+   "positiv": [],
+   "negativ": []
   }
  ],
  "ketten": [],
  "gegenthese": {
-  "konsens": "Investoren zeigen Zurückhaltung: US‑Midterms, Bilanzsaison und IG‑Metall‑Streiks belasten Risikoappetit; Auto‑ und Tech‑Aktien fallen, Boeing stark, Symrise -10 %.",
-  "gegen": "Starke Fundamentaldaten, mögliche US‑Stimulus‑ und Asien‑Handelsinitiativen sowie langfristige Nachfrage nach E‑Mobility könnten die Abwärtsstimmung schnell umkehren."
+  "konsens": "Die Märkte gehen davon aus, dass die Fed die Zinsen bis 2027 unverändert lässt, weil die Inflation sich abschwächt; DAX bleibt leicht positiv, während chinesische Risiken für Mercedes im Fokus stehen.",
+  "gegen": "Ein stärkeres Inflationsdruck‑Signal oder ein unerwarteter Rückgang der US‑Konjunktur könnte die Fed zu früheren Zinserhöhungen zwingen, was den Konsens erschüttern würde."
  },
  "matrix": [
   {
@@ -388,7 +383,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "113.5 Mrd"
+     "113.4 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -410,7 +405,7 @@
     ],
     [
      "Newsletter",
-     "in 2 Clustern"
+     "in 1 Clustern"
     ],
     [
      "Reddit",
@@ -425,12 +420,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Starkes Umsatzwachstum von +18 % zeigt steigende Nachfrage nach Turbinen und Services. Das durchschnittliche KGV von 21,3 liegt im Branchenvergleich attraktiv. 21 Analysten empfehlen Kauf, was auf Vertrauen in die Transformationsstrategie und stabile Cash‑Flows hindeutet.",
-   "dagegen": "Das KGV von 21,3 kann im Vergleich zu energieintensiven Konkurrenten überbewertet sein. Siemens Gamesa hat in den letzten Quartalen Lieferverzögerungen und Margendruck erlebt. Fehlende Insider‑Transaktionen und kaum Reddit‑Aufmerksamkeit deuten auf Unsicherheit im Markt hin.",
+   "dafuer": "Analysten‑Stimmungsbild stark positiv (21 Kauf‑Empfehlungen). Umsatzwachstum von +18 % und ein moderates KGV von 21,3 deuten auf solide Bewertung hin. Das Unternehmen profitiert von steigender Nachfrage nach Gas‑ und Dampfturbinen sowie von erneuerbaren Projekten im Siemens‑Gamesa‑Segment.",
+   "dagegen": "Umstrukturierungs‑ und Integrationskosten belasten die Marge, insbesondere im Turbinen‑Business. Hohe Verschuldung und Abhängigkeit von volatilen Gas‑Marktpreisen erhöhen das Risiko. Fehlende Insider‑Aktivitäten könnten auf Zurückhaltung des Managements hinweisen.",
    "katalysatoren": [
-    "Q4‑2026‑Ergebnis mit aktualisierter Gewinn‑ und Margen‑Guidance",
-    "Auslieferung und Inbetriebnahme der nächsten Generation von Gasturbinen (z. B. SG 8.0) samt Serviceverträgen",
-    "Rollout der digitalen Grid‑Technologie‑Plattform für Netzbetreiber"
+    "Auslieferung und Inbetriebnahme der neuen SG‑8‑Turbinen‑Serie",
+    "Ausbau des Grid‑Technologies‑Geschäfts im Zuge der europäischen Energiewende",
+    "Mögliche strategische Partnerschaft oder Teilverkauf von Siemens Gamesa zur Verbesserung der Profitabilität"
    ]
   },
   "RHM.DE": {
@@ -441,11 +436,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "47.4 Mrd"
+     "47.2 Mrd"
     ],
     [
      "KGV (erw.)",
-     "19,2"
+     "19,1"
     ],
     [
      "Umsatzwachstum",
@@ -478,12 +473,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Dafür spricht das robuste Umsatzwachstum von +69 % und die breite Aufstellung in Fahrzeugsysteme, Waffen und Elektronik, die von steigenden Verteidigungsausgaben in Europa und den USA profitieren. Das KGV von 19,2 liegt im Branchendurchschnitt, und 17 Analysten empfehlen Kauf, was das Vertrauen in die Ertragskraft unterstreicht.",
-   "dagegen": "Dagegen spricht die hohe Bewertung: Das Kursziel von 1552 EUR impliziert ein weiteres starkes Kurswachstum, das angesichts eines KGV von 19,2 bereits am oberen Ende des Sektors liegt. Die Abhängigkeit von staatlichen Rüstungsetats macht das Unternehmen anfällig für politische Entscheidungen und Haushaltskürzungen.",
+   "dafuer": "Dafür spricht das starke Umsatzwachstum von +69 % und ein robustes Auftragsvolumen im Verteidigungssektor, das von steigenden Rüstungsausgaben in Europa und den USA getragen wird. Das Kurs‑Ziel von 1.552 € impliziert weiteres Aufwärtspotenzial, während das KGV von 19,1 im Branchenvergleich moderat erscheint.",
+   "dagegen": "Dagegen spricht die hohe Abhängigkeit von staatlichen Rüstungsetats, die politisch schwanken können, sowie das Risiko von Lieferkettenunterbrechungen bei kritischen Komponenten. Das KGV von 19,1 könnte im Vergleich zu anderen Technologieunternehmen überbewertet sein, und das Marktumfeld ist von geopolitischen Spannungen geprägt.",
    "katalysatoren": [
-    "Erhöhung des deutschen Verteidigungsbudgets 2025",
-    "Gewinnung von US‑Verteidigungsaufträgen für neue Panzerplattformen",
-    "Quartalsbericht Q3 2024 mit erwarteter Fortsetzung des Umsatzwachstums"
+    "Veröffentlichung der Q3‑2024 Ergebnisse",
+    "Zusage für neue gepanzerte Fahrzeugaufträge (z. B. Leopard‑2‑Modernisierung)",
+    "Entscheidung über EU‑Verteidigungsbudget bzw. US‑Verteidigungsauftrag"
    ]
   },
   "ASML.AS": {
@@ -494,7 +489,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "573.3 Mrd"
+     "574.1 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -531,13 +526,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die überwältigende Analystenmeinung (38 Kauf, 2 Halten, 1 Verkauf) signalisiert starkes Vertrauen. Das Unternehmen verzeichnet ein Umsatzwachstum von 55 % und profitiert von der steigenden Nachfrage nach EUV‑Lithografie für fortschrittliche Halbleiter, insbesondere KI‑ und 5G‑Chips. Das Kursziel von 2.097 € spiegelt diese Erwartung wider.",
-   "dagegen": "Gegenargumente: Das aktuelle KGV von 26,6 liegt über dem Branchendurchschnitt und lässt hohe Bewertung vermuten. Die Marktkapitalisierung von 573 Mrd. € erhöht das Risiko von Kursvolatilität bei makroökonomischen Abschwüngen. Analystenmeinungen dominieren die Informationslage; Reddit und Newsletter bieten kaum Gegenstimmen, was die Objektivität einschränkt.",
-   "katalysatoren": [
-    "Lieferungen der Q4‑2026 EUV‑Werkzeuge",
-    "Markteinführung des High‑NA‑EUV‑Systems",
-    "Zunehmende Auftragsvolumen von KI‑Chip‑Herstellern"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "SU.PA": {
    "ticker": "SU.PA",
@@ -547,11 +538,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "145.6 Mrd"
+     "144.8 Mrd"
     ],
     [
      "KGV (erw.)",
-     "19,5"
+     "19,4"
     ],
     [
      "Umsatzwachstum",
@@ -569,7 +560,7 @@
     ],
     [
      "Newsletter",
-     "in 17 Clustern"
+     "in 15 Clustern"
     ],
     [
      "Reddit",
@@ -596,11 +587,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "223.2 Mrd"
+     "233.8 Mrd"
     ],
     [
      "KGV (erw.)",
-     "33,3"
+     "34,9"
     ],
     [
      "Umsatzwachstum",
@@ -645,11 +636,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "35.8 Mrd"
+     "36.5 Mrd"
     ],
     [
      "KGV (erw.)",
-     "43,5"
+     "44,3"
     ],
     [
      "Umsatzwachstum",
@@ -657,7 +648,7 @@
     ],
     [
      "Kursziel",
-     "125 USD"
+     "126 USD"
     ]
    ],
    "quellen": [
@@ -694,11 +685,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "93.6 Mrd"
+     "95.6 Mrd"
     ],
     [
      "KGV (erw.)",
-     "15,0"
+     "15,3"
     ],
     [
      "Umsatzwachstum",
@@ -743,11 +734,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "5.302.0 Mrd"
+     "5.200.8 Mrd"
     ],
     [
      "KGV (erw.)",
-     "13,8"
+     "13,5"
     ],
     [
      "Umsatzwachstum",
@@ -786,6 +777,51 @@
   }
  },
  "shorts": [
+  {
+   "land": "NL",
+   "halter": "LMR Partners LLP",
+   "emittent": "Akzo Nobel N.V.",
+   "prozent": 1.08,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "Two Sigma Investments, LP",
+   "emittent": "Avantium N.V.",
+   "prozent": 0.91,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "BlackRock Financial Management, Inc.",
+   "emittent": "Akzo Nobel N.V.",
+   "prozent": 0.69,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "Lazard Asset Management LLC",
+   "emittent": "Pharming Group N.V.",
+   "prozent": 0.5,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "ExodusPoint Capital Management, LP",
+   "emittent": "Randstad N.V.",
+   "prozent": 0.47,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
   {
    "land": "UK",
    "halter": "Anavio Capital Partners LLP",
@@ -1010,64 +1046,19 @@
    "datum": "2019-06-12",
    "status": "aufgestockt",
    "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 14.08,
-   "datum": "2019-06-11",
-   "status": "aufgestockt",
-   "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 13.82,
-   "datum": "2019-06-10",
-   "status": "aufgestockt",
-   "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "GUEVOURA FUND LTD",
-   "emittent": "HAMMERSON PLC",
-   "prozent": 13.78,
-   "datum": "2020-09-24",
-   "status": "aufgestockt",
-   "zuvor": 0.57
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 13.68,
-   "datum": "2019-06-07",
-   "status": "aufgestockt",
-   "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 13.5,
-   "datum": "2019-06-06",
-   "status": "aufgestockt",
-   "zuvor": 0.53
   }
  ],
  "shorts_kennzahlen": {
-  "neu_diese_woche": 0,
+  "neu_diese_woche": 5,
   "meistgeshortet": {
    "name": "Premier Oil PLC",
    "summe": 2145.63
   },
   "aktivster_halter": {
    "name": "Marshall Wace LLP",
-   "anzahl": 14032
+   "anzahl": 14031
   },
-  "gesamt": 107394
+  "gesamt": 107395
  },
  "gespraech": [],
  "termine": [
@@ -1168,6 +1159,6 @@
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 181,
+ "meldungen_gesamt": 176,
  "llm_aktiv": false
 }
