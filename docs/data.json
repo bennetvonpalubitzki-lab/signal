@@ -1,9 +1,9 @@
 {
- "stand": "2026-10-29T20:43",
- "lauf": "2026102920",
+ "stand": "2026-10-30T10:58",
+ "lauf": "2026103010",
  "synthese": {
-  "kern": "Policy- und Unternehmensrisiken überlagern die Zinssorgen, während der Markt die geopolitische Belastung unterschätzt.",
-  "erlaeuterung": "EZB‑Entscheidungen, Lagarde‑Ausstieg und US‑Zinsdruck erhöhen Unsicherheit, während VW‑Verlust und Alphabet‑Schwäche Unternehmensrisiken verdeutlichen. Gleichzeitig bleibt das hohe geopolitische Risiko, das im globalen Risikoappetit kaum reflektiert wird, weitgehend unbeachtet."
+  "kern": "Markt fokussiert kurzfristige Gewinne, verkennt breiten Risiko‑Strom aus Technologie, Auto, Immobilien und Geldpolitik.",
+  "erlaeuterung": "Die starken Kursverluste bei Alphabet, der Audi‑Einbruch und der Binance‑Hack zeigen strukturelle Schwächen. Gleichzeitig erhöhen steigender Zinsdruck, schwache US‑Liquidität und geopolitische Spannungen das systemische Risiko, das vom Markt kaum beachtet wird."
  },
  "regime": [
   {
@@ -36,23 +36,23 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 66,
-     "delta": 4
+     "wert": 67,
+     "delta": 7
     },
     "eur": {
-     "wert": 90,
+     "wert": 92,
      "delta": 1
     }
    },
-   "differenz": 24
+   "differenz": 25
   },
   {
    "name": "risikoappetit",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 46,
-     "delta": 16
+     "wert": 41,
+     "delta": 13
     }
    }
   },
@@ -76,17 +76,47 @@
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 81,
-     "delta": 0
+     "wert": 79,
+     "delta": -1
     }
    }
   }
  ],
  "cluster": [
   {
-   "id": "c5d64a5f",
-   "titel": "Geldpolitik: Christine Lagardes Rückzug bringt Tempo in Nachbesetzung der EZB-Spitze",
-   "anriss": "EZB-Präsidentin Lagarde tritt vorzeitig ab – und versucht, Kritik an ihrem Timing zu entkräften. Die Staats- und Regierungschefs arbeiten bereits unter Hochdruck an einem Personalpaket.",
+   "id": "0ceb52a8",
+   "titel": "Inflation: Japans Notenbank hält Zinsen stabil – Inflationsrisiken im Blick",
+   "anriss": "Die Bank of Japan lässt die Zinssätze zwar unverändert, signalisiert aber mögliche Anhebungen. Zugleich setzt sie ihre Inflationsprognose nach oben.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 6,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/geldpolitik/inflation-japans-notenbank-haelt-zinsen-stabil-inflationsrisiken-im-blick/100266049.html",
+    "https://www.handelsblatt.com/finanzen/geldpolitik/ezb-notenbank-steuert-auf-dritte-zinserhoehung-im-dezember-zu/100265320.html",
+    "https://www.handelsblatt.com/finanzen/geldpolitik/inflation-anleihemarkt-preist-die-naechste-zinserhoehung-in-den-usa-ein/100265841.html",
+    "https://www.tagesschau.de/wirtschaft/weltwirtschaft/ezb-570.html",
+    "https://www.spiegel.de/wirtschaft/geldpolitik-ezb-laesst-leitzins-trotz-hoher-inflation-vorerst-stabil-a-4224eb45-df39-40e7-a54a-efb68920330f#ref=rss"
+   ],
+   "punkte": 31,
+   "text": "Die Bank of Japan hält die Leitzinsen unverändert, weist jedoch an, dass die Inflationsprognose nach oben korrigiert wurde und zukünftige Zinserhöhungen nicht ausgeschlossen sind. Damit bleibt die Geldpolitik locker, während das Risiko einer Straffung wieder stärker ins Blickfeld rückt.",
+   "positiv": [
+    "Japanischer Yen (↑)",
+    "Inflationsindex‑gebundene Wertpapiere (↑)"
+   ],
+   "negativ": [
+    "Japanische Staatsanleihen (↓)",
+    "Zinsabhängige Unternehmensanleihen (↓)"
+   ]
+  },
+  {
+   "id": "a69a92ee",
+   "titel": "Geldpolitik: Christine Lagarde geht schon früher – Nachfolge könnte überraschend schnell geregelt sein",
+   "anriss": "Die EZB-Präsidentin tritt vorzeitig ab – und versucht, Kritik an ihrem Timing zu entkräften. Die Staats- und Regierungschefs arbeiten bereits unter Hochdruck an einem Personalpaket.",
    "region": "dach",
    "quellen": [
     "ECB Press",
@@ -95,44 +125,150 @@
     "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 9,
+   "anzahl": 7,
    "links": [
-    "https://www.handelsblatt.com/finanzen/geldpolitik/ezb-praesidentin-christine-lagarde-tritt-im-februar-2027-vorzeitig-ab/100265875.html",
-    "https://www.handelsblatt.com/finanzen/geldpolitik/ezb-das-sagt-ezb-praesidentin-lagarde-zu-ihrem-vorzeitigen-abschied/100265926.html",
+    "https://www.handelsblatt.com/finanzen/geldpolitik/ezb-praesidentin-lagarde-tritt-vorzeitig-ab-nachfolger-schon-im-dezember/100265875.html",
     "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
     "https://www.tagesschau.de/wirtschaft/weltwirtschaft/ezb-ruecktritt-lagarde-100.html",
-    "https://www.tagesschau.de/wirtschaft/finanzen/lagarde-ezb-ruecktritt-100.html"
+    "https://www.tagesschau.de/wirtschaft/finanzen/lagarde-ezb-ruecktritt-100.html",
+    "https://www.tagesschau.de/wirtschaft/finanzen/ezb-zinsen-lagarde-100.html"
    ],
-   "punkte": 35,
-   "text": "EZB-Präsidentin Christine Lagarde wird vorzeitig zurücktreten, wodurch die Nachbesetzung der EZB‑Spitze beschleunigt wird. Die Staats‑ und Regierungschefs arbeiten bereits an einem Personalpaket, um die Lücke zu schließen.",
-   "positiv": [],
+   "punkte": 30,
+   "text": "Die EZB‑Präsidentin Christine Lagarde tritt vorzeitig zurück, und die EU‑Staats- und Regierungschefs arbeiten an einer schnellen Nachfolgeregelung. Die Unsicherheit über die künftige Geldpolitik wird dadurch kurzfristig erhöht, könnte aber bei rascher Einigung die Marktstabilität wiederherstellen.",
+   "positiv": [
+    "Euro (↑) bei rascher Klarheit über Nachfolge"
+   ],
    "negativ": [
-    "Euro (Unsicherheit)"
+    "Euro‑Zins‑Futures (↑ Volatilität)",
+    "Anleihen‑Markt (↑ Unsicherheit)"
    ]
   },
   {
-   "id": "25115ec1",
-   "titel": "Europäische Zentralbank hält Leitzins unverändert",
-   "anriss": "Die Europäische Zentralbank (EZB) hat wie erwartet die Leitzinsen unverändert bei 2,5 Prozent belassen. Zuvor hatte auch die US-Notenbank Fed von einer Änderung ihrer Leitzinsen abgesehen.",
+   "id": "8b3b8969",
+   "titel": "Deutsche Wirtschaft wächst überraschend im Sommer",
+   "anriss": "Nach einem starken Halbjahr hat sich auch im Sommer die Erholung der deutschen Wirtschaft fortgesetzt. Dabei hatten viele Experten mit einer Stagnation gerechnet. Die privaten Ausgaben sind jedoch weiterhin verhalten.",
    "region": "dach",
    "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 8,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/konjunktur/entwicklung-bip-deutschland-sommer-100.html",
+    "https://www.tagesschau.de/video/video-1674822.html",
+    "https://www.tagesschau.de/multimedia/sendung/tagesschau24/boerselive/video-1674420.html",
+    "https://www.spiegel.de/wirtschaft/bip-in-deutschland-wirtschaftsleistung-legt-im-dritten-quartal-leicht-zu-a-fd34e9f5-40ab-41c2-bc12-2c34fb488c3f#ref=rss",
+    "https://www.spiegel.de/wirtschaft/frankreichs-wirtschaft-schrumpft-im-dritten-quartal-a-50efa359-3e3d-4196-a8b0-639fedbe29c1#ref=rss"
+   ],
+   "punkte": 24,
+   "text": "Das deutsche Bruttoinlandsprodukt wuchs im Sommer stärker als erwartet und setzte die Erholung nach einem robusten ersten Halbjahr fort, obwohl die privaten Konsumausgaben weiterhin schwach bleiben. Die überraschende Wachstumsdynamik stärkt die konjunkturelle Sicht, während die Konsumnachfrage nach wie vor ein Risiko darstellt.",
+   "positiv": [
+    "Deutsche Industrie‑Aktien (↑)",
+    "Exportorientierte Unternehmen (↑)"
+   ],
+   "negativ": [
+    "Konsumgüter‑Sektor (↓)",
+    "Einzelhandelsumsätze (↓)"
+   ]
+  },
+  {
+   "id": "bc7b4c04",
+   "titel": "Krise in Automobilbranche: Gewinn bei Audi bricht drastisch ein",
+   "anriss": "Auch der Autobauer Audi steckt in der Krise: Der Gewinn brach im dritten Quartal deutlich ein. Grund ist unter anderem das schwache China-Geschäft. Neue Automodelle sollen positive Impulse bringen.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
     "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft",
     "manager magazin"
    ],
    "anzahl": 5,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/weltwirtschaft/ezb-570.html",
-    "https://www.spiegel.de/wirtschaft/geldpolitik-ezb-laesst-leitzins-trotz-hoher-inflation-vorerst-stabil-a-4224eb45-df39-40e7-a54a-efb68920330f#ref=rss",
-    "https://www.spiegel.de/wirtschaft/service/usa-notenbank-fed-haelt-leitzins-konstant-trotz-inflation-a-067e86c8-1d5e-4060-9697-08da04428fad#ref=rss",
-    "https://www.manager-magazin.de/finanzen/boerse/ezb-notenbank-wird-leitzins-wohl-nicht-erhoehen-zinspause-a-2faf7096-4411-4618-98a2-02d290f5069f#ref=rss",
-    "https://www.manager-magazin.de/politik/weltwirtschaft/us-notenbank-fed-entscheidet-ueber-zinsen-anleger-erwarten-zinspause-a-5f15c672-d29b-4960-b41e-15bd5e39b0c1#ref=rss"
+    "https://www.tagesschau.de/wirtschaft/unternehmen/automobil-audi-gewinneinbruch-100.html",
+    "https://www.spiegel.de/wirtschaft/audi-quartalsgewinn-bricht-ein-a-edfe8bb4-0644-46b3-b428-044141fe70d3#ref=rss",
+    "https://www.spiegel.de/wirtschaft/unternehmen/usa-sollen-audi-zehn-prozent-zoll-fuer-einfuhren-angeboten-haben-a-dc3287f0-503e-4f6e-ac10-6cbf6c2adbad#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/audi-gewinn-bricht-drastisch-ein-accg-201635587.html",
+    "https://www.manager-magazin.de/unternehmen/mobilitaet/audi-autobauer-rutscht-fast-in-die-roten-zahlen-ziele-gesenkt-a-65d70a7a-ddb1-4772-8e70-28e34c0eac79#ref=rss"
    ],
-   "punkte": 24,
-   "text": "Die Europäische Zentralbank hat den Leitzins wie erwartet unverändert bei 2,5 % belassen. Auch die US-Notenbank Fed hat keine Zinsänderung vorgenommen.",
+   "punkte": 18,
+   "text": "Audi meldet für das dritte Quartal einen stark rückläufigen Gewinn, hauptsächlich bedingt durch ein schwaches Absatzvolumen in China; neue Modellreihen sollen künftig Impulse setzen. Die aktuelle Ergebnisverschlechterung belastet die Automobilbranche, während die erwarteten Modellneueinführungen langfristig als Gegenpol wirken könnten.",
    "positiv": [
-    "Eurozone‑Staatsanleihen (Preis‑Stabilität)"
+    "Zulieferer von Neuwagenmodellen (↑)"
    ],
+   "negativ": [
+    "Audi‑Aktie (↓)",
+    "Deutsche Automobilbranche (↓)"
+   ]
+  },
+  {
+   "id": "d0fdf0e7",
+   "titel": "Kryptobörse: Größter Krypto-Diebstahl aller Zeiten? Binance meldet Hackerangriff﻿",
+   "anriss": "Nach Angaben von Binance sind insgesamt Werte in Höhe von schätzungsweise 6,3 Milliarden Dollar betroffen. Hinter dem Angriff wird bereits eine bestimmte Hackergruppe vermutet.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "Tagesschau Wirtschaft",
+    "heise",
+    "manager magazin"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/binance-kryptoboerse-meldet-hackerangriff-bitcoin-auf-sechs-wochen-tief/100266046.html",
+    "https://www.tagesschau.de/wirtschaft/technologie/hackerangriff-kryptoboerse-binance-100.html",
+    "https://www.manager-magazin.de/unternehmen/banken/hacker-erbeuten-6-3-milliarden-dollar-bei-binance-a-abb1962a-5add-4446-bedb-5faf98f6b91f#ref=rss",
+    "https://www.heise.de/news/6-3-Milliarden-US-Dollar-Neuer-groesster-Krypto-Coup-aller-Zeiten-trifft-Binance-11505601.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 17,
+   "text": "Nach Angaben von Binance sind insgesamt Werte in Höhe von schätzungsweise 6,3 Milliarden Dollar betroffen. Hinter dem Angriff wird bereits eine bestimmte Hackergruppe vermutet.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "e1ee1ba9",
+   "titel": "US-Börsen: Massiver Kursrutsch von Alphabet: Google-Konzern verliert 500 Milliarden Dollar Börsenwert",
+   "anriss": "Für den Tech-Konzern war es der schlechteste Tag jemals an der Börse. Das hat auch den Nasdaq belastet, der deutlich im Minus schließt. Auch der Dow verliert.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "SPIEGEL Wirtschaft",
+    "heise",
+    "manager magazin"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-alphabet-kursrutsch-vernichtet-500-milliarden-dollar-boersenwert/100265906.html",
+    "https://www.spiegel.de/wirtschaft/unternehmen/alphabet-aktie-schwaecheres-wachstum-in-google-kerngeschaeft-alarmiert-us-markt-a-8e293b1a-a30b-431c-bf1c-684bf9fa4645#ref=rss",
+    "https://www.manager-magazin.de/finanzen/boerse/boerse-dax-faellt-intel-aktie-bricht-ein-bayer-aktie-steigt-a-b9b6ed95-2f9a-423a-87fc-684b2f85dfbb#ref=rss",
+    "https://www.heise.de/news/Alphabets-Boersenwert-stuerzt-um-halbe-Billion-Dollar-11505575.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 17,
+   "text": "Für den Tech-Konzern war es der schlechteste Tag jemals an der Börse. Das hat auch den Nasdaq belastet, der deutlich im Minus schließt. Auch der Dow verliert.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "ac041753",
+   "titel": "Fehlende Wohnungen: Was hat der \"Bau-Turbo\" bislang gebracht?",
+   "anriss": "In Deutschland werden viel zu wenig Wohnungen gebaut. Dabei versucht die Bundesregierung gegenzusteuern - etwa mit dem \"Bau-Turbo\", der seit einem Jahr gilt. Was hat das Gesetz bislang gebracht? Von Axel John.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/konjunktur/bauturbo-wohnungen-immobilien-100.html",
+    "https://www.spiegel.de/wirtschaft/ifo-rechnet-mit-weniger-als-200-000-neuen-wohnungen-2027-und-2028-a-8024980f-47d0-482d-9fb3-9082cc764e11#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/immobilien-wohnen/ifo-institut-wohnungsbau-bleibt-2027-und-2028-weit-unter-bedarf-accg-201634958.html",
+    "https://www.manager-magazin.de/unternehmen/dienstleister/ifo-rechnet-mit-weniger-als-200-000-neuen-wohnungen-2027-und-2028-a-d04da6b7-c5e4-474e-a01c-cd9fa69a2d5a#ref=rss"
+   ],
+   "punkte": 16,
+   "text": "In Deutschland werden viel zu wenig Wohnungen gebaut. Dabei versucht die Bundesregierung gegenzusteuern - etwa mit dem \"Bau-Turbo\", der seit einem Jahr gilt. Was hat das Gesetz bislang gebracht? Von Axel John.",
+   "positiv": [],
    "negativ": []
   },
   {
@@ -141,140 +277,26 @@
    "anriss": "Hohe Abschreibungen und ein schwaches China-Geschäft haben Volkswagen tiefrote Zahlen beschert. Der Konzernverlust lag im dritten Quartal bei 5,8 Milliarden Euro. VW-Aktien fallen.",
    "region": "dach",
    "quellen": [
+    "FAZ Wirtschaft",
     "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft",
-    "heise",
     "manager magazin"
    ],
-   "anzahl": 6,
+   "anzahl": 4,
    "links": [
     "https://www.tagesschau.de/wirtschaft/unternehmen/volkswagen-milliardenverlust-102.html",
-    "https://www.tagesschau.de/wirtschaft/unternehmen/mercedes-automobilindustrie-quartalszahlen-100.html",
     "https://www.spiegel.de/wirtschaft/unternehmen/volkswagen-so-rot-waren-die-vw-zahlen-selten-a-5c6a6016-e4ae-4a5d-8629-72a6c1f11021#ref=rss",
-    "https://www.spiegel.de/wirtschaft/unternehmen/volkswagen-umsatz-und-absatz-brechen-ein-milliardenverlust-im-dritten-quartal-a-88c5c68a-79d0-4d3a-b4b8-59a784aba3e9#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/vw-vorstand-arno-antlitz-warum-der-konzern-in-amerika-wachsen-muss-201633200.html",
     "https://www.manager-magazin.de/unternehmen/mobilitaet/volkswagen-meldet-5-8-milliarden-verlust-a-b8dfcbcd-8aee-4bfd-ba12-60afc4343a6b#ref=rss"
    ],
-   "punkte": 20,
-   "text": "Volkswagen meldet im dritten Quartal einen Verlust von 5,8 Mrd. €, bedingt durch hohe Abschreibungen und ein schwaches Geschäft in China. Die VW‑Aktie reagiert mit einem Kursrückgang.",
-   "positiv": [],
-   "negativ": [
-    "Volkswagen‑Aktie",
-    "Automobilsektor"
-   ]
-  },
-  {
-   "id": "3e9dfa7d",
-   "titel": "Geldpolitik: „Die Richtung ist ziemlich klar“ – EZB steuert auf dritte Zinserhöhung im Dezember zu",
-   "anriss": "Nach der erwarteten Zinspause deutet EZB-Chefin Christine Lagarde ungewohnt deutlich den nächsten Schritt für Dezember an. Auch auf die Situation in Frankreich geht die Präsidentin ein.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "SPIEGEL Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/geldpolitik/ezb-notenbank-steuert-auf-dritte-zinserhoehung-im-dezember-zu/100265320.html",
-    "https://www.handelsblatt.com/finanzen/geldpolitik/inflation-anleihemarkt-preist-die-naechste-zinserhoehung-in-den-usa-ein/100265841.html",
-    "https://www.spiegel.de/wirtschaft/us-notenbank-analysten-wetten-schon-auf-die-naechste-erhoehung-der-zinsen-a-eac685b1-966f-4ef4-89cc-33f1adadc6eb#ref=rss",
-    "https://www.manager-magazin.de/finanzen/boerse/boerse-kursgewinne-in-dax-und-dow-jones-zinspause-bei-fed-und-ezb-a-5dfd2ff7-074c-4481-9490-ac86770d2435#ref=rss"
-   ],
-   "punkte": 20,
-   "text": "EZB-Chefin Christine Lagarde deutet nach der aktuellen Zinspause auf eine dritte Zinserhöhung im Dezember hin. Sie bezieht sich zudem auf die wirtschaftliche Lage in Frankreich.",
-   "positiv": [
-    "Euro (Stärkung)"
-   ],
-   "negativ": [
-    "Eurozone‑Staatsanleihen (Preis‑Druck)"
-   ]
-  },
-  {
-   "id": "3ca129c2",
-   "titel": "Wirtschaft vor acht vom 29.10.2026",
-   "anriss": "Wirtschaft vor acht vom 29.10.2026",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.tagesschau.de/video/video-1674822.html",
-    "https://www.tagesschau.de/multimedia/sendung/tagesschau24/boerselive/video-1674420.html",
-    "https://www.spiegel.de/wirtschaft/unternehmen/usa-wirtschaftswachstum-beschleunigt-sich-staerker-als-erwartet-a-99cd2228-fe47-4a38-aefa-fdc51abace41#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/veronika-grimm-gewinnt-gegen-sachverstaendigenrat-vor-gericht-accg-201632733.html"
-   ],
-   "punkte": 14,
-   "text": "Wirtschaft vor acht vom 29.10.2026",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "aeb14f3a",
-   "titel": "US-Börsen: Wall Street notiert im Minus – Alphabet verliert zweistellig",
-   "anriss": "Während ein wichtiges Inflationsmaß in den USA anzieht, zeigt sich die Wirtschaft robust. Anleger schauen auf mehrere frische Indikatoren. Ob sie dadurch zurück aufs Börsenparkett kommen?",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen"
-   ],
-   "anzahl": 2,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-wall-street-notiert-im-minus-alphabet-verliert-zweistellig/100265906.html",
-    "https://www.handelsblatt.com/finanzen/geldpolitik/preise-wichtiges-us-inflationsmass-steigt-druck-auf-fed-waechst/100265861.html"
-   ],
-   "punkte": 12,
-   "text": "Während ein wichtiges Inflationsmaß in den USA anzieht, zeigt sich die Wirtschaft robust. Anleger schauen auf mehrere frische Indikatoren. Ob sie dadurch zurück aufs Börsenparkett kommen?",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "cc1cb63b",
-   "titel": "Audi-Aufsichtsrat beruft Sondersitzung wegen Trump-Besuch ein",
-   "anriss": "Seit Tagen steht Audi-Boss Gernot Döllner für seinen Auftritt mit US-Präsident Donald Trump in der Kritik. Nun hat Audi eine Aufsichtsratssitzung angesetzt.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.spiegel.de/wirtschaft/unternehmen/audi-aufsichtsrat-beruft-sondersitzung-ein-a-8adc16a9-5c4e-47d1-a6bd-bf3efdc45c7f#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/vw-vorstand-arno-antlitz-warum-der-konzern-in-amerika-wachsen-muss-201633200.html",
-    "https://www.manager-magazin.de/unternehmen/mobilitaet/audi-was-ceo-gernot-doellner-zum-wahlkaempfer-fuer-donald-trump-machte-a-1780a8c8-a018-4e71-9515-0cea878aa42e#ref=rss"
-   ],
-   "punkte": 12,
-   "text": "Seit Tagen steht Audi-Boss Gernot Döllner für seinen Auftritt mit US-Präsident Donald Trump in der Kritik. Nun hat Audi eine Aufsichtsratssitzung angesetzt.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "b08dd444",
-   "titel": "Alphabet-Aktie: Schwächeres Wachstum in Google-Kerngeschäft alarmiert US-Markt",
-   "anriss": "Investoren haben auf enttäuschende Zahlen des Google-Mutterkonzerns reagiert: Die Alphabet-Aktie brach um mehr als zwölf Prozent ein – und steuert damit auf einen Rekordverlust zu.",
-   "region": "dach",
-   "quellen": [
-    "SPIEGEL Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.spiegel.de/wirtschaft/unternehmen/alphabet-aktie-schwaecheres-wachstum-in-google-kerngeschaeft-alarmiert-us-markt-a-8e293b1a-a30b-431c-bf1c-684bf9fa4645#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/alphabet-hohe-ki-ausgaben-belasten-ergebnis-aktie-faellt-zweistellig-a-cfde9073-28f4-401f-91ae-318f15124eb6#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/tech/ki-boom-sorgt-bei-microsoft-fuer-gewinnsprung-a-41565994-391e-40f1-989b-c989ee3ad065#ref=rss"
-   ],
-   "punkte": 10,
-   "text": "Investoren haben auf enttäuschende Zahlen des Google-Mutterkonzerns reagiert: Die Alphabet-Aktie brach um mehr als zwölf Prozent ein – und steuert damit auf einen Rekordverlust zu.",
+   "punkte": 16,
+   "text": "Hohe Abschreibungen und ein schwaches China-Geschäft haben Volkswagen tiefrote Zahlen beschert. Der Konzernverlust lag im dritten Quartal bei 5,8 Milliarden Euro. VW-Aktien fallen.",
    "positiv": [],
    "negativ": []
   }
  ],
  "ketten": [],
- "gegenthese": {
-  "konsens": "Die Märkte gehen davon aus, dass die EZB im Dezember erneut den Leitzins erhöht – dritte Hike seit Jahresbeginn – und dass die Geldpolitik weiter straff bleibt, trotz jüngster Unternehmensverluste.",
-  "gegen": "Gegenargument: Abschwächendes Wachstum in den USA und Europa, insbesondere schwaches Kerngeschäft von Alphabet und VW‑Verlust, könnte die EZB zwingen, die Zinswende zu pausieren, um die Konjunktur zu stützen."
- },
+ "gegenthese": null,
  "matrix": [
   {
    "ticker": "SU.PA",
@@ -390,11 +412,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "116.0 Mrd"
+     "109.4 Mrd"
     ],
     [
      "KGV (erw.)",
-     "21,8"
+     "20,6"
     ],
     [
      "Umsatzwachstum",
@@ -412,7 +434,7 @@
     ],
     [
      "Newsletter",
-     "in 4 Clustern"
+     "in 3 Clustern"
     ],
     [
      "Reddit",
@@ -427,12 +449,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Analysten‑Stimmungsbild ist überwiegend positiv (21 Käufe, 4 Halten, 3 Verkäufe). Umsatzwachstum von +18 % und ein moderates KGV von 21,8 deuten auf solide Ertragskraft hin. Die Diversifikation in Gas‑, Grid‑ und Wind‑Technologien bietet mehrere Wachstumspfade, insbesondere im Zuge der europäischen Energiewende.",
-   "dagegen": "Hohe Verschuldung und mögliche Lieferverzögerungen bei Siemens Gamesa‑Turbinen belasten das Risiko. Das KGV liegt im Branchenvergleich eher am oberen Ende, was auf eine mögliche Überbewertung hindeuten könnte. Zudem fehlt klare Insider‑Information, und die Newsletter‑Cluster geben kein einheitliches Bild, was Unsicherheit erzeugt.",
+   "dafuer": "Die Analystenmeinung ist stark positiv (21 Kauf, 4 Halten, 3 Verkauf), das Kursziel von 193 € liegt deutlich über dem aktuellen Kurs, das erwartete KGV von 20,6 ist moderat, und das Umsatzwachstum von +18 % signalisiert eine robuste Nachfrage nach Turbinen, Generatoren und digitalen Services.",
+   "dagegen": "Gegen das Bild spricht die geringe Aufmerksamkeit in Reddit und das Fehlen von Insider‑Informationen, was auf mögliche Unsicherheiten hindeutet; zudem könnten die hohen Investitionskosten in Wind‑ und Gasprojekte die Margen belasten, und die gemischte Berichterstattung in Newslettern (drei Cluster) lässt keine klare Einschätzung zu.",
    "katalysatoren": [
-    "Steigende Auftragslage für Siemens Gamesa‑Windturbinen im dritten Quartal 2024",
-    "Großaufträge im Grid‑Technologie‑Segment durch EU‑Förderprogramme",
-    "Einführung neuer digitaler Service‑Plattformen für Gasturbinen bis Ende 2024"
+    "Veröffentlichung des Q3‑Ergebnisberichts",
+    "Abschluss großer Gas‑Turbinen‑Aufträge",
+    "Genehmigung neuer Offshore‑Windprojekte"
    ]
   },
   "RHM.DE": {
@@ -443,11 +465,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "48.9 Mrd"
+     "48.3 Mrd"
     ],
     [
      "KGV (erw.)",
-     "19,8"
+     "19,6"
     ],
     [
      "Umsatzwachstum",
@@ -480,12 +502,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Starkes Umsatzwachstum von +69 % zeigt wachsende Nachfrage. Das Unternehmen ist global diversifiziert und deckt Fahrzeugsysteme, Waffen, Munition sowie Elektronik ab, was Risiko streut. Analysten bewerten mit 17 Kauf‑ und 4 Halte‑Empfehlungen, ein KGV von 19,8 erscheint moderat.",
-   "dagegen": "Bewertung könnte überhöht sein, da das KGV im Verteidigungssektor oft niedriger liegt. Rheinmetall ist stark von staatlichen Rüstungsetats abhängig, die bei politischen Änderungen schwanken können. Fehlende Insider‑Informationen und keine Short‑Positionen deuten auf Unsicherheit hin. Fehlende Erwähnung in Newslettern und Reddit widerspricht dem starken Analystenkonsens.",
+   "dafuer": "Rheinmetall verzeichnet ein starkes Umsatzwachstum von 69 % und profitiert von steigenden Verteidigungsausgaben in Europa. Das Unternehmen deckt mit Vehicle Systems, Weapon & Ammunition und Electronic Solutions mehrere Marktsegmente, was Diversifikation bietet. Analysten bewerten die Aktie mit 17 Buy‑Empfehlungen und einem Kursziel von 1.552 €.",
+   "dagegen": "Der forward KGV von 19,6 liegt über dem Branchendurchschnitt und lässt wenig Spielraum für Fehlentwicklungen. Rheinmetall ist stark von staatlichen Aufträgen abhängig, wodurch politische Entscheidungen und Haushaltskürzungen das Ergebnis stark beeinflussen können. Zudem gibt es kaum Short‑Positionen, was auf ein geringes Marktinteresse an Gegenwetten hindeutet.",
    "katalysatoren": [
-    "Abschluss großer Rüstungsaufträge in Deutschland/Europa im dritten Quartal 2024",
-    "Markteinführung neuer vernetzter Elektroniklösungen für militärische Fahrzeuge im vierten Quartal 2024",
-    "Veröffentlichung des Q2‑2025‑Ergebnisberichts mit erwarteter EPS‑Steigerung"
+    "Verabschiedung des deutschen Rüstungsbudgets 2025 mit zusätzlichen Mitteln für gepanzerte Fahrzeuge.",
+    "Auftrag für die Lieferung von 100 Boxer‑Mehrzweckfahrzeugen an die NATO‑Partner.",
+    "Integration und Markteinführung der neuen elektronischen Verteidigungslösung aus der Akquisition von XYZ."
    ]
   },
   "ASML.AS": {
@@ -496,11 +518,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "580.0 Mrd"
+     "549.5 Mrd"
     ],
     [
      "KGV (erw.)",
-     "26,9"
+     "25,5"
     ],
     [
      "Umsatzwachstum",
@@ -533,13 +555,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "ASML dominiert den EUV‑Lithografie‑Markt, profitiert von starkem Nachfragewachstum bei fortgeschrittenen Halbleitern (+55 % Umsatzwachstum) und weist solide Margen sowie eine moderate Bewertung (KGV 26,9) auf. Die Mehrheit der Analysten (38 Buy) sieht langfristiges Wachstumspotenzial.",
-   "dagegen": "Die Bewertung ist hoch, das Geschäft stark konjunkturabhängig und stark auf wenige Großkunden konzentriert. Ein möglicher Abschwung im Chip‑Zyklus oder geopolitische Spannungen könnten die Aufträge dämpfen. Analystenmeinungen divergieren leicht (2 Hold, 1 Sell).",
-   "katalysatoren": [
-    "Q3‑2024 Ergebnisveröffentlichung mit Fokus auf Umsatz‑ und Margenentwicklung",
-    "Markteinführung des nächsten High‑NA‑EUV‑Systems",
-    "Großaufträge von TSMC oder Samsung für das Jahr 2025"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "SU.PA": {
    "ticker": "SU.PA",
@@ -549,11 +567,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "145.6 Mrd"
+     "141.3 Mrd"
     ],
     [
      "KGV (erw.)",
-     "19,6"
+     "19,1"
     ],
     [
      "Umsatzwachstum",
@@ -586,13 +604,9 @@
      "1648,06 % ueber 1700 Halter"
     ]
    ],
-   "dafuer": "Starker Analystenkonsens (19 Kauf, 4 Halten) signalisiert Vertrauen. Das Unternehmen profitiert von diversifizierten Geschäftsbereichen – Energiemanagement, Industrieautomation, erneuerbare Lösungen – und verzeichnet 10 % Umsatzwachstum. Mit einer Marktkapitalisierung von 145,6 Mrd. EUR und einem erwarteten KGV von 19,6 erscheint die Bewertung im Branchenvergleich attraktiv.",
-   "dagegen": "Ein extrem hoher Short‑Interest von über 1.600 % (1700 Halter) weist auf erhebliche Skepsis hin. Reddit‑Erwähnungen sind kaum vorhanden, was das öffentliche Interesse begrenzt. Fehlende Insider‑Meldungen lassen auf mögliche Unsicherheiten bei Akquisitionen oder internen Entwicklungen schließen. Das KGV von 19,6 könnte im Vergleich zu Wettbewerbern überbewertet sein.",
-   "katalysatoren": [
-    "Q3‑2024 Ergebnisveröffentlichung (voraussichtlich Anfang November)",
-    "Markteinführung der neuen EcoStruxure‑Microgrid‑Plattform",
-    "EU‑Regulierung zur Energieeffizienz, die Nachfrage nach Gebäudemanagementsystemen steigert"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "GEV": {
    "ticker": "GEV",
@@ -792,60 +806,6 @@
   }
  },
  "shorts": [
-  {
-   "land": "NL",
-   "halter": "Millennium Capital Partners LLP",
-   "emittent": "Akzo Nobel N.V.",
-   "prozent": 1.3,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "Millennium Capital Partners LLP",
-   "emittent": "Avantium N.V.",
-   "prozent": 0.85,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "Marshall Wace LLP",
-   "emittent": "Koninklijke Ahold Delhaize N.V.",
-   "prozent": 0.7,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "Linden Advisors LP",
-   "emittent": "Basic-Fit N.V.",
-   "prozent": 0.63,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "AQR Capital Management, LLC",
-   "emittent": "Pharming Group N.V.",
-   "prozent": 0.49,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "Citadel Advisors LLC",
-   "emittent": "ARCADIS N.V.",
-   "prozent": 0.49,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
   {
    "land": "UK",
    "halter": "Anavio Capital Partners LLP",
@@ -1061,10 +1021,64 @@
    "datum": "2019-06-13",
    "status": "aufgestockt",
    "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 14.29,
+   "datum": "2019-06-12",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 14.08,
+   "datum": "2019-06-11",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 13.82,
+   "datum": "2019-06-10",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "GUEVOURA FUND LTD",
+   "emittent": "HAMMERSON PLC",
+   "prozent": 13.78,
+   "datum": "2020-09-24",
+   "status": "aufgestockt",
+   "zuvor": 0.57
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 13.68,
+   "datum": "2019-06-07",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 13.5,
+   "datum": "2019-06-06",
+   "status": "aufgestockt",
+   "zuvor": 0.53
   }
  ],
  "shorts_kennzahlen": {
-  "neu_diese_woche": 6,
+  "neu_diese_woche": 0,
   "meistgeshortet": {
    "name": "Premier Oil PLC",
    "summe": 2145.63
@@ -1077,30 +1091,6 @@
  },
  "gespraech": [],
  "termine": [
-  {
-   "datum": "2026-10-29",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-10-29",
-   "zeit": "",
-   "region": "us",
-   "was": "Gross Domestic Product",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-10-29",
-   "zeit": "",
-   "region": "us",
-   "was": "Debt to Gross Domestic Product Ratios",
-   "konsens": "",
-   "wucht": "hoch"
-  },
   {
    "datum": "2026-10-30",
    "zeit": "",
@@ -1172,8 +1162,32 @@
    "was": "Employment Situation",
    "konsens": "",
    "wucht": "hoch"
+  },
+  {
+   "datum": "2026-11-06",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-11-07",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-11-08",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 155,
+ "meldungen_gesamt": 161,
  "llm_aktiv": false
 }
