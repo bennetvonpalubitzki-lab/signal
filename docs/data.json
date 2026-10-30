@@ -1,9 +1,9 @@
 {
- "stand": "2026-10-30T13:42",
- "lauf": "2026103013",
+ "stand": "2026-10-30T20:15",
+ "lauf": "2026103020",
  "synthese": {
-  "kern": "Alle Meldungen drehen sich um Führungswechsel, Wachstumsdruck und geopolitische Spannungen – Markt vernachlässigt strukturelle Risiken.",
-  "erlaeuterung": "Der Rückzug von Lagarde, schwächeres US‑Wachstum und die Automobilkrise signalisieren anhaltende Unsicherheit. Trotzdessen konzentrieren sich Anleger auf kurzfristige Inflationsdaten und Kursentwicklungen, übersehen jedoch die langfristigen institutionellen und sektoralen Belastungen."
+  "kern": "Markt fokussiert kurzfristiges Wachstum, verkennt steigende Inflationsgefahr und sinkende Liquidität.",
+  "erlaeuterung": "Trotz überraschendem US‑Wachstum und robusten Unternehmenszahlen betonen die Regimewerte steigenden Zinsdruck und schwache Liquidität. Diese strukturellen Risiken werden von den aktuellen Nachrichten zu Inflation, Energiepreisen und geopolitischer Unsicherheit überlagert."
  },
  "regime": [
   {
@@ -36,23 +36,23 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 65,
-     "delta": 5
+     "wert": 66,
+     "delta": 6
     },
     "eur": {
      "wert": 91,
      "delta": 0
     }
    },
-   "differenz": 26
+   "differenz": 25
   },
   {
    "name": "risikoappetit",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 40,
-     "delta": 12
+     "wert": 24,
+     "delta": -1
     }
    }
   },
@@ -61,56 +61,32 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 42,
-     "delta": -2
+     "wert": 38,
+     "delta": -6
     },
     "eur": {
      "wert": 4,
      "delta": 0
     }
    },
-   "differenz": 38
+   "differenz": 34
   },
   {
    "name": "geopolitik",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 79,
-     "delta": -1
+     "wert": 78,
+     "delta": -2
     }
    }
   }
  ],
  "cluster": [
   {
-   "id": "35556d26",
-   "titel": "ECB President Lagarde to step down on 7 February 2027",
-   "anriss": "",
-   "region": "eu",
-   "quellen": [
-    "ECB Press",
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 6,
-   "links": [
-    "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
-    "https://www.tagesschau.de/wirtschaft/weltwirtschaft/ezb-ruecktritt-lagarde-100.html",
-    "https://www.tagesschau.de/wirtschaft/finanzen/lagarde-ezb-ruecktritt-100.html",
-    "https://www.tagesschau.de/wirtschaft/finanzen/ezb-zinsen-lagarde-100.html",
-    "https://www.spiegel.de/wirtschaft/christine-lagarde-ezb-praesidentin-verlaesst-notenbank-in-heikler-phase-a-d8530265-f4ff-421a-927a-c741945cb96d#ref=rss"
-   ],
-   "punkte": 25,
-   "text": "Christine Lagarde wird am 7. Februar 2027 ihr Amt als EZB-Präsidentin niederlegen. Der bevorstehende Führungswechsel erhöht die Unsicherheit über die zukünftige Geldpolitik im Euroraum.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "0ceb52a8",
-   "titel": "Inflation: Japans Notenbank hält Zinsen stabil – Inflationsrisiken im Blick",
-   "anriss": "Die Bank of Japan lässt die Zinssätze zwar unverändert, signalisiert aber mögliche Anhebungen. Zugleich setzt sie ihre Inflationsprognose nach oben.",
+   "id": "14390e9b",
+   "titel": "Preise: Zwei-Prozent-Ziel der EZB rückt in weite Ferne: Deutsche Bank befürchtet 2027 3,4 Prozent Inflation",
+   "anriss": "Der Rückgang der Inflation in Deutschland ist europaweit die Ausnahme. Experten erwarten anhaltend hohe Teuerungsraten. Notenbanker äußern sich besorgt. Die Leitzinsen dürften steigen.",
    "region": "dach",
    "quellen": [
     "Handelsblatt Finanzen",
@@ -118,22 +94,23 @@
     "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 4,
+   "anzahl": 6,
    "links": [
+    "https://www.handelsblatt.com/finanzen/geldpolitik/inflation-tankrabatt-sorgt-fuer-entlastung-aber-nur-bis-dezember/100262259.html",
     "https://www.handelsblatt.com/finanzen/geldpolitik/inflation-japans-notenbank-haelt-zinsen-stabil-inflationsrisiken-im-blick/100266049.html",
-    "https://www.tagesschau.de/wirtschaft/weltwirtschaft/ezb-570.html",
-    "https://www.spiegel.de/wirtschaft/geldpolitik-ezb-laesst-leitzins-trotz-hoher-inflation-vorerst-stabil-a-4224eb45-df39-40e7-a54a-efb68920330f#ref=rss",
-    "https://www.manager-magazin.de/finanzen/boerse/ezb-notenbank-wird-leitzins-wohl-nicht-erhoehen-zinspause-a-2faf7096-4411-4618-98a2-02d290f5069f#ref=rss"
+    "https://www.tagesschau.de/wirtschaft/verbraucher/inflationsrate-deutschland-oktober-100.html",
+    "https://www.spiegel.de/wirtschaft/tankrabatt-inflation-im-oktober-gesunken-a-1334be70-9cd6-4182-a5a9-d58c29f0571d#ref=rss",
+    "https://www.spiegel.de/wirtschaft/geldpolitik-ezb-laesst-leitzins-trotz-hoher-inflation-vorerst-stabil-a-4224eb45-df39-40e7-a54a-efb68920330f#ref=rss"
    ],
-   "punkte": 25,
-   "text": "Die Bank of Japan hält die Leitzinsen unverändert, weist jedoch auf mögliche zukünftige Erhöhungen hin und hebt ihre Inflationsprognose an. Das signalisiert steigenden Inflationsdruck in Japan.",
+   "punkte": 30,
+   "text": "Die Deutsche Bank geht davon aus, dass die Inflation in Deutschland bis 2027 bei etwa 3,4 % liegen wird, sodass das zweiprozentige Ziel der EZB in weiter Ferne bleibt. Die anhaltend hohe Teuerungsrate lässt steigende Leitzinsen erwarten.",
    "positiv": [
-    "JPY (Aufwertung)",
-    "Japanische Staatsanleihen (steigende Renditen)"
+    "inflationsindexierte Anleihen"
    ],
    "negativ": [
-    "Japanische Aktien (Druck)",
-    "Risikokapital in Japan (Abfluss)"
+    "nominale deutsche Staatsanleihen",
+    "Euro",
+    "kurzfristige Geldmarktinstrumente"
    ]
   },
   {
@@ -147,52 +124,22 @@
     "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 8,
+   "anzahl": 7,
    "links": [
     "https://www.tagesschau.de/wirtschaft/konjunktur/entwicklung-bip-deutschland-sommer-100.html",
-    "https://www.tagesschau.de/video/video-1674822.html",
-    "https://www.tagesschau.de/multimedia/sendung/tagesschau24/boerselive/video-1674420.html",
     "https://www.spiegel.de/wirtschaft/bip-in-deutschland-wirtschaftsleistung-legt-im-dritten-quartal-leicht-zu-a-fd34e9f5-40ab-41c2-bc12-2c34fb488c3f#ref=rss",
-    "https://www.spiegel.de/wirtschaft/frankreichs-wirtschaft-schrumpft-im-dritten-quartal-a-50efa359-3e3d-4196-a8b0-639fedbe29c1#ref=rss"
+    "https://www.spiegel.de/wirtschaft/frankreichs-wirtschaft-schrumpft-im-dritten-quartal-a-50efa359-3e3d-4196-a8b0-639fedbe29c1#ref=rss",
+    "https://www.spiegel.de/wirtschaft/unternehmen/usa-wirtschaftswachstum-beschleunigt-sich-staerker-als-erwartet-a-99cd2228-fe47-4a38-aefa-fdc51abace41#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/deutschlands-wirtschaft-waechst-trotz-gegenwind-frankreich-schrumpft-201636905.html"
    ],
-   "punkte": 24,
-   "text": "Die deutsche Wirtschaft verzeichnet im Sommer ein überraschendes Wachstum nach einem starken ersten Halbjahr, entgegen der Erwartung einer Stagnation. Die privaten Konsumausgaben bleiben jedoch schwach.",
+   "punkte": 22,
+   "text": "Die deutsche Wirtschaft hat im Sommer überraschend weitergewachsen, entgegen der von vielen Analysten erwarteten Stagnation. Trotz des Wachstums bleiben die privaten Konsumausgaben schwach, was die Erholung dämpfen könnte.",
    "positiv": [
-    "Deutsche Industrieaktien (Aufwertung)",
-    "Exportorientierte Unternehmen (Verbesserte Aussichten)"
+    "deutsche Industrie‑ und Exportaktien"
    ],
    "negativ": [
-    "Konsumgüter‑ und Einzelhandelssektor (Schwäche)",
-    "Dienstleistungssektor, der stark von privaten Ausgaben abhängt (Druck)"
-   ]
-  },
-  {
-   "id": "30db0a19",
-   "titel": "Preise: Rückgang der Inflation – Tankrabatt sorgt vorübergehend für Entlastung",
-   "anriss": "Die Teuerung ist in Deutschland im Oktober etwas zurückgegangen. Das liegt mehrheitlich einem befristeten Sondereffekt – und ist europaweit die Ausnahme.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "Handelsblatt Finanzen",
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/geldpolitik/inflation-der-tankrabatt-sorgt-voruebergehend-fuer-entlastung/100262259.html",
-    "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/arbeitslose-statistik-oktober-100.html",
-    "https://www.spiegel.de/wirtschaft/arbeitsmarkt-zahl-der-arbeitslosen-sinkt-im-oktober-auf-2-95-millionen-a-b7c98379-0fbd-4b82-bbae-bb21315098af#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/zahl-der-arbeitslosen-in-deutschland-sinkt-im-oktober-accg-201635918.html"
-   ],
-   "punkte": 21,
-   "text": "Im Oktober sinkt die deutsche Inflationsrate leicht, hauptsächlich wegen eines befristeten Tankrabattes, ein Phänomen, das in Europa selten ist. Der Rückgang ist temporär und spiegelt keinen strukturellen Preisrückgang wider.",
-   "positiv": [
-    "Deutsche Immobilien (nachfragefördernd)",
-    "Konsumgüter mit geringer Preisempfindlichkeit (Stabilität)"
-   ],
-   "negativ": [
-    "Energie‑ und Kraftstoffunternehmen (Umsatzrückgang)",
-    "Inflationsindex‑basierte Produkte (Wertverlust)"
+    "Konsumgüter‑ und Einzelhandelssektor",
+    "kurzfristige BIP‑Prognosen"
    ]
   },
   {
@@ -204,44 +151,24 @@
     "FAZ Wirtschaft",
     "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft",
-    "manager magazin"
+    "heise"
    ],
-   "anzahl": 6,
+   "anzahl": 5,
    "links": [
     "https://www.tagesschau.de/wirtschaft/unternehmen/automobil-audi-gewinneinbruch-100.html",
     "https://www.tagesschau.de/wirtschaft/unternehmen/volkswagen-milliardenverlust-102.html",
     "https://www.spiegel.de/wirtschaft/unternehmen/audi-quartalsgewinn-bricht-ein-a-edfe8bb4-0644-46b3-b428-044141fe70d3#ref=rss",
-    "https://www.spiegel.de/wirtschaft/unternehmen/volkswagen-so-rot-waren-die-vw-zahlen-selten-a-5c6a6016-e4ae-4a5d-8629-72a6c1f11021#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/big-oil-bp-shell-und-exxonmobil-erzielen-rekordgewinne-201636148.html"
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/big-oil-bp-shell-und-exxonmobil-erzielen-rekordgewinne-201636148.html",
+    "https://www.heise.de/news/Audi-macht-im-dritten-Vierteljahr-nur-minimalen-Gewinn-11506636.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
-   "punkte": 20,
-   "text": "Auch der Autobauer Audi steckt in der Krise: Der Gewinn brach im dritten Quartal deutlich ein. Grund ist unter anderem das schwache China-Geschäft. Neue Automodelle sollen positive Impulse bringen.",
+   "punkte": 18,
+   "text": "Audi verzeichnete im dritten Quartal einen drastischen Gewinnrückgang, vor allem bedingt durch ein schwaches Absatzvolumen in China. Das Unternehmen hofft, mit neuen Modellen künftig wieder Impulse zu setzen, doch die kurzfristige Lage bleibt angespannt.",
    "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "d0fdf0e7",
-   "titel": "Kryptobörse: Größter Krypto-Diebstahl aller Zeiten? Binance meldet Hackerangriff﻿",
-   "anriss": "Nach Angaben von Binance sind insgesamt Werte in Höhe von schätzungsweise 6,3 Milliarden Dollar betroffen. Hinter dem Angriff wird bereits eine bestimmte Hackergruppe vermutet.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "Tagesschau Wirtschaft",
-    "heise",
-    "manager magazin"
-   ],
-   "anzahl": 5,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/binance-kryptoboerse-meldet-hackerangriff-bitcoin-verliert-deutlich/100266046.html",
-    "https://www.tagesschau.de/wirtschaft/technologie/hackerangriff-binance-interview-100.html",
-    "https://www.tagesschau.de/wirtschaft/technologie/hackerangriff-kryptoboerse-binance-100.html",
-    "https://www.manager-magazin.de/unternehmen/banken/hacker-erbeuten-6-3-milliarden-dollar-bei-binance-a-abb1962a-5add-4446-bedb-5faf98f6b91f#ref=rss",
-    "https://www.heise.de/news/6-3-Milliarden-US-Dollar-Neuer-groesster-Krypto-Coup-aller-Zeiten-trifft-Binance-11505601.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 19,
-   "text": "Nach Angaben von Binance sind insgesamt Werte in Höhe von schätzungsweise 6,3 Milliarden Dollar betroffen. Hinter dem Angriff wird bereits eine bestimmte Hackergruppe vermutet.",
-   "positiv": [],
-   "negativ": []
+   "negativ": [
+    "Audi‑Aktie",
+    "deutscher Automobilsektor",
+    "Zulieferer für Verbrennungsmotoren"
+   ]
   },
   {
    "id": "ac041753",
@@ -254,45 +181,112 @@
     "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 4,
+   "anzahl": 5,
    "links": [
     "https://www.tagesschau.de/wirtschaft/konjunktur/bauturbo-wohnungen-immobilien-100.html",
     "https://www.spiegel.de/wirtschaft/ifo-rechnet-mit-weniger-als-200-000-neuen-wohnungen-2027-und-2028-a-8024980f-47d0-482d-9fb3-9082cc764e11#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/immobilien-wohnen/ifo-institut-wohnungsbau-bleibt-2027-und-2028-weit-unter-bedarf-accg-201634958.html",
+    "https://www.faz.net/aktuell/wirtschaft/immobilien-wohnen/bauen-kaufen/gebaeudetyp-e-zusammen-lassen-sich-die-baukosten-senken-201632057.html",
+    "https://www.faz.net/aktuell/wirtschaft/immobilien-wohnen/bauen-kaufen/ifo-institut-wohnungsbau-bleibt-2027-und-2028-weit-unter-bedarf-accg-201634958.html",
     "https://www.manager-magazin.de/unternehmen/dienstleister/ifo-rechnet-mit-weniger-als-200-000-neuen-wohnungen-2027-und-2028-a-d04da6b7-c5e4-474e-a01c-cd9fa69a2d5a#ref=rss"
    ],
-   "punkte": 16,
-   "text": "In Deutschland werden viel zu wenig Wohnungen gebaut. Dabei versucht die Bundesregierung gegenzusteuern - etwa mit dem \"Bau-Turbo\", der seit einem Jahr gilt. Was hat das Gesetz bislang gebracht? Von Axel John.",
+   "punkte": 18,
+   "text": "Der seit einem Jahr geltende „Bau‑Turbo“ hat bislang nur begrenzte Fortschritte beim Wohnungsbau in Deutschland erzielt, sodass das Defizit an neuen Wohnungen weiter besteht. Die bisherige Wirkung des Gesetzes auf die Bauaktivität bleibt daher schwach.",
+   "positiv": [],
+   "negativ": [
+    "deutsche Bau‑ und Immobilienbranche",
+    "Bau‑material‑Hersteller",
+    "Wohnungs‑ETF"
+   ]
+  },
+  {
+   "id": "4f690810",
+   "titel": "Kryptobörse: Größter Krypto-Diebstahl aller Zeiten – Binance meldet Hackerangriff﻿",
+   "anriss": "Nach Angaben von Binance sind insgesamt Werte in Höhe von schätzungsweise 6,3 Milliarden Dollar betroffen. Hinter dem Angriff wird bereits eine bestimmte Hackergruppe vermutet.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 5,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/binance-kryptoboerse-meldet-hackerangriff-bitcoin-verliert-deutlich/100266046.html",
+    "https://www.tagesschau.de/wirtschaft/technologie/hackerangriff-binance-interview-100.html",
+    "https://www.tagesschau.de/wirtschaft/technologie/hackerangriff-kryptoboerse-binance-100.html",
+    "https://www.manager-magazin.de/unternehmen/kryptoboerse-binance-gehackt-6-3-milliarden-dollar-aus-hot-wallet-gestohlen-wohl-mit-ki-a-5730c221-7fee-46f0-9b66-649cb2e2ef51#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/banken/hacker-erbeuten-6-3-milliarden-dollar-bei-binance-a-abb1962a-5add-4446-bedb-5faf98f6b91f#ref=rss"
+   ],
+   "punkte": 17,
+   "text": "Nach Angaben von Binance sind insgesamt Werte in Höhe von schätzungsweise 6,3 Milliarden Dollar betroffen. Hinter dem Angriff wird bereits eine bestimmte Hackergruppe vermutet.",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "19962788",
-   "titel": "Alphabet: Schwächeres Wachstum in Google-Kerngeschäft alarmiert US-Markt",
-   "anriss": "Investoren haben auf enttäuschende Zahlen des Google-Mutterkonzerns reagiert: Die Alphabet-Aktie brach um mehr als zwölf Prozent ein – und steuert damit auf einen Rekordverlust zu.",
+   "id": "35556d26",
+   "titel": "ECB President Lagarde to step down on 7 February 2027",
+   "anriss": "",
+   "region": "eu",
+   "quellen": [
+    "ECB Press",
+    "SPIEGEL Wirtschaft"
+   ],
+   "anzahl": 2,
+   "links": [
+    "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
+    "https://www.spiegel.de/wirtschaft/christine-lagarde-ezb-praesidentin-verlaesst-notenbank-in-heikler-phase-a-d8530265-f4ff-421a-927a-c741945cb96d#ref=rss"
+   ],
+   "punkte": 13,
+   "text": "",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "9c322dd6",
+   "titel": "Wie der VW-Vorstand die Laune bei den Skoda-Mitarbeitern drückt",
+   "anriss": "Während die Konzernmutter Volkswagen viele Probleme hat, erwirtschaftet die tschechische Tochter Skoda passable Gewinne. Doch das ist für den Hersteller nicht automatisch von Vorteil. Von André Berthold.",
    "region": "dach",
    "quellen": [
-    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
     "heise",
     "manager magazin"
    ],
-   "anzahl": 4,
+   "anzahl": 3,
    "links": [
-    "https://www.spiegel.de/wirtschaft/unternehmen/alphabet-aktie-schwaecheres-wachstum-in-google-kerngeschaeft-alarmiert-us-markt-a-8e293b1a-a30b-431c-bf1c-684bf9fa4645#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/tech/intel-aktie-bricht-um-mehr-als-25-prozent-ein-prognose-enttaeuscht-a-71c4017d-36ab-446b-b1c9-468a34fcd554#ref=rss",
-    "https://www.manager-magazin.de/finanzen/boerse/boerse-dax-faellt-intel-aktie-bricht-ein-bayer-aktie-steigt-a-b9b6ed95-2f9a-423a-87fc-684b2f85dfbb#ref=rss",
-    "https://www.heise.de/news/Intel-Aktie-sackt-um-ein-Viertel-ab-Schwache-Progonose-fuers-letzte-Quartal-11506352.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+    "https://www.tagesschau.de/wirtschaft/unternehmen/skoda-144.html",
+    "https://www.manager-magazin.de/unternehmen/mobilitaet/volkswagen-autobauer-stoppt-entwicklung-des-id-golf-a-1a5d31d3-e881-41b3-a893-4b77489bb3b9#ref=rss",
+    "https://www.heise.de/news/Volkswagen-pausiert-Entwicklungsvorleistungen-fuer-den-ID-Golf-11506496.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
-   "punkte": 14,
-   "text": "Investoren haben auf enttäuschende Zahlen des Google-Mutterkonzerns reagiert: Die Alphabet-Aktie brach um mehr als zwölf Prozent ein – und steuert damit auf einen Rekordverlust zu.",
+   "punkte": 12,
+   "text": "Während die Konzernmutter Volkswagen viele Probleme hat, erwirtschaftet die tschechische Tochter Skoda passable Gewinne. Doch das ist für den Hersteller nicht automatisch von Vorteil. Von André Berthold.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "66c4254e",
+   "titel": "Fast drei Millionen Arbeitslose im Oktober",
+   "anriss": "Die Arbeitslosigkeit ist im Oktober zurückgegangen, die übliche Herbstbelebung aber nahezu ausgeblieben. Im Vergleich zum Vorjahr gibt es sogar mehr Arbeitslose. Als Grund nennt BA-Chefin Nahles die wirtschaftlichen Rahmenbedingungen.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/arbeitslose-statistik-oktober-100.html",
+    "https://www.spiegel.de/wirtschaft/arbeitsmarkt-zahl-der-arbeitslosen-sinkt-im-oktober-auf-2-95-millionen-a-b7c98379-0fbd-4b82-bbae-bb21315098af#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/zahl-der-arbeitslosen-in-deutschland-sinkt-im-oktober-accg-201635918.html"
+   ],
+   "punkte": 12,
+   "text": "Die Arbeitslosigkeit ist im Oktober zurückgegangen, die übliche Herbstbelebung aber nahezu ausgeblieben. Im Vergleich zum Vorjahr gibt es sogar mehr Arbeitslose. Als Grund nennt BA-Chefin Nahles die wirtschaftlichen Rahm",
    "positiv": [],
    "negativ": []
   }
  ],
  "ketten": [],
  "gegenthese": {
-  "konsens": "Markt erwartet nach Lagarde‑Abgang stabile EZB‑Politik, sieht Japans Zins‑Pause, deutsche Sommer‑Wachstum und sinkende Inflation als kurzfristige Entlastung, bewertet Audi‑Verlust und Binance‑Hack als Risiko‑Erhöhung, hält Bau‑Turbo für wenig wirksam, befürchtet Alphabets Wachstumsdämpfung.",
-  "gegen": "Gegenargument: Lagarde‑Rücktritt könnte zu unerwarteten EZB‑Kursänderungen führen; Japans Inflationsdruck bleibt unterschätzt; deutsche Sommer‑Wachstum ist konjunkturell begrenzt; Inflationsrückgang ist vorübergehend; Audi‑Verlust weist strukturelle Probleme; Binance‑Hack schwächt Vertrauen; Bau‑Turbo erzielt kaum Neubau; Alphabets Abschwächung könnte breitere Tech‑Abschwächung signalisieren."
+  "konsens": "Die Märkte gehen davon aus, dass die Inflation 2027 noch über 3 % liegt, die EZB die Zinsen länger hoch hält und das Wirtschaftswachstum schwächer bleibt, während Risiken aus der Auto‑ und Immobilienbranche sowie Krypto‑Sektor zunehmen.",
+  "gegen": "Gegenargument: Die überraschend starke Sommerkonjunktur und sinkende Energiepreise könnten die Inflation schneller als erwartet senken, was eine frühere Zinssenkung und verbesserte Unternehmensgewinne, insbesondere im Automobilsektor, ermöglichen würde."
  },
  "matrix": [
   {
@@ -409,11 +403,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "107.4 Mrd"
+     "108.0 Mrd"
     ],
     [
      "KGV (erw.)",
-     "20,2"
+     "20,3"
     ],
     [
      "Umsatzwachstum",
@@ -446,9 +440,13 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "Starker Analystenkonsens (21 Kauf‑Empfehlungen) signalisiert Vertrauen in das Geschäftsmodell. Das Unternehmen verzeichnet ein Umsatzwachstum von 18 % und ein moderates KGV von 20,3, was im Branchenvergleich attraktiv erscheint. Die breite Segmentaufstellung von Turbinen bis Digital‑Services bietet mehrere Wachstumstreiber. Das Kursziel von 193 EUR impliziert erheblichen Aufwärtsspielraum.",
+   "dagegen": "Trotz des Analysten‑Buy‑Consensus gibt es Gegenstimmen (3 Verkäufe) und kaum Diskussionen auf Reddit, was auf geringe Marktaufmerksamkeit hindeutet. Fehlende Insider‑Informationen und keine bekannten Short‑Positionen lassen Unsicherheit über zukünftige Entwicklungen bestehen. Hohe Investitionskosten in Wind‑ und Gastechnik sowie mögliche regulatorische Risiken könnten die Marge belasten.",
+   "katalysatoren": [
+    "Abschluss und Auslieferung großer Gas‑ und Dampfturbinen‑Aufträge im 2. Quartal",
+    "Lieferungen von Siemens Gamesa Offshore‑Windanlagen für neue europäische Projekte",
+    "Einführung einer digitalen Service‑Plattform zur Steigerung von Wartungs‑ und Performance‑Contracts"
+   ]
   },
   "RHM.DE": {
    "ticker": "RHM.DE",
@@ -458,11 +456,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "48.3 Mrd"
+     "48.4 Mrd"
     ],
     [
      "KGV (erw.)",
-     "19,5"
+     "19,6"
     ],
     [
      "Umsatzwachstum",
@@ -495,12 +493,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Rheinmetall verzeichnet ein starkes Umsatzwachstum von +69 % und ein moderates forward KGV von 19,5. Das Unternehmen ist global diversifiziert und deckt Fahrzeugsysteme, Waffen und Elektronik ab. Analysten bewerten die Aktie überwiegend positiv (17 Buy, 4 Hold).",
-   "dagegen": "Die Bewertung erscheint angesichts des hohen KGV relativ teuer, und das Geschäft ist stark von staatlichen Verteidigungsausgaben abhängig, die schwanken können. Es gibt kaum Coverage außerhalb von Analysten‑Ratings (keine Newsletter, kaum Reddit‑Erwähnungen), was auf eine dünne Informationsbasis hindeutet.",
+   "dafuer": "Die Analystenmehrheit (17 Kauf‑Empfehlungen, 4 Halte‑Empfehlungen) spricht für Rheinmetall. Das Unternehmen verzeichnet ein starkes Umsatzwachstum von +69 % und ein Kursziel von 1.552 €, was das aktuelle Kurs‑Gewinn‑Verhältnis von 19,6 als attraktiv erscheinen lässt.",
+   "dagegen": "Gegenargumente: Das hohe KGV von 19,6 deutet auf eine teure Bewertung hin, und das Geschäft ist stark von staatlichen Rüstungsaufträgen abhängig, was bei politischen Änderungen das Risiko erhöht. Zudem fehlt Transparenz über Insider‑Aktivitäten und Short‑Positionen, was Unsicherheit schafft.",
    "katalysatoren": [
-    "Q3‑2024 Ergebnisveröffentlichung mit Update zum Auftragspool",
-    "Zuteilung neuer Rüstungsaufträge, z. B. für die Bundeswehr",
-    "Markteinführung bzw. Serienstart von Elektronik‑Lösungen für unbemannte Systeme"
+    "Anstieg des deutschen Verteidigungsbudgets im kommenden Haushaltsjahr",
+    "Genehmigung und Auslieferung neuer Panzer‑ und Schützenpanzer‑Aufträge in den USA",
+    "Veröffentlichung des Quartalsergebnisses und Ausblick auf weitere Exportaufträge nach Asien"
    ]
   },
   "ASML.AS": {
@@ -511,11 +509,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "547.1 Mrd"
+     "544.5 Mrd"
     ],
     [
      "KGV (erw.)",
-     "25,4"
+     "25,3"
     ],
     [
      "Umsatzwachstum",
@@ -548,12 +546,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Dafür spricht das robuste Umsatzwachstum von +55 % und die dominierende Marktposition im EUV‑Lithografie‑Segment. Das Kurs‑Gewinn‑Verhältnis von 25,4 liegt im Branchendurchschnitt, während 38 Analysten ein Kauf‑Rating geben. Die erwartete Nachfrage aus KI‑ und HPC‑Chips stärkt das langfristige Potenzial.",
-   "dagegen": "Dagegen spricht die hohe Bewertung: KGV von 25,4 ist angesichts des bereits hohen Marktwertes von 547 Mrd. EUR relativ teuer. Das Geschäft ist stark zyklisch und abhängig von Halbleiternachfrage, die bei konjunkturellen Abschwüngen sinken kann. Fehlende Insider‑Informationen und keine Short‑Positionen reduzieren Transparenz.",
+   "dafuer": "ASML dominiert den EUV‑Markt, das einzige Unternehmen mit produktionsreifen 13,5‑nm‑ und 7‑nm‑Lösungen. Das Umsatzwachstum von +55 % unterstreicht die starke Nachfrage nach fortschrittlichen Halbleitern. 38 Analysten empfehlen Kauf, das Kursziel von 2.097 € impliziert weiteres Aufwärtspotenzial.",
+   "dagegen": "Das KGV von 25,3 liegt über dem Branchendurchschnitt, was die Bewertung hoch erscheinen lässt. Ein einzelner Analyst spricht Verkauf, was auf mögliche Risiken wie Lieferkettenengpässe oder nachlassende Chipnachfrage hinweist. Zudem könnte eine Abschwächung der globalen Konjunktur die Investitionen in neue Fabriken bremsen.",
    "katalysatoren": [
-    "Q3‑2026 Quartalsbericht mit Umsatz‑ und Gewinnzahlen",
-    "Markteinführung des nächsten High‑NA EUV‑Systems",
-    "Großauftrag von TSMC oder Samsung für neue Lithografie‑Linien"
+    "Q4‑Ergebnisveröffentlichung mit Fokus auf EUV‑Absatzzahlen",
+    "Auslieferung der neuen 0,55 NA‑EUV‑Maschine an TSMC oder Samsung",
+    "Entscheidung großer Kunden über den Ausbau von EUV‑Fabriken im Rahmen von Chip‑Roadmaps"
    ]
   },
   "SU.PA": {
@@ -564,11 +562,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "140.5 Mrd"
+     "139.7 Mrd"
     ],
     [
      "KGV (erw.)",
-     "19,0"
+     "18,9"
     ],
     [
      "Umsatzwachstum",
@@ -586,7 +584,7 @@
     ],
     [
      "Newsletter",
-     "in 14 Clustern"
+     "in 15 Clustern"
     ],
     [
      "Reddit",
@@ -613,11 +611,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "231.4 Mrd"
+     "226.3 Mrd"
     ],
     [
      "KGV (erw.)",
-     "33,9"
+     "33,2"
     ],
     [
      "Umsatzwachstum",
@@ -650,13 +648,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die Analystenmehrheit (32 Kauf, 6 Halten) bewertet das Unternehmen positiv, gestützt durch ein starkes Umsatzwachstum von 27 % und ein erwartetes KGV von 33,9, das im Kontext des wachsenden Marktes für erneuerbare Energien als angemessen gilt. Das Kursziel von 1.197 USD spiegelt diese Erwartung wider.",
-   "dagegen": "Gegen das Bild spricht das Insider‑Verhalten: vier Verkäufe bei null Käufen deuten auf mögliche Bedenken des Managements hin. Zudem ist das Unternehmen stark von politischen Förderungen abhängig; ein Rückgang der Subventionen könnte die Margen belasten. Die Bewertung erscheint im Vergleich zu etablierten Wettbewerbern relativ hoch.",
-   "katalysatoren": [
-    "Veröffentlichung des Q3‑Ergebnisberichts (voraussichtlich Q4 2026)",
-    "Inbetriebnahme der neuen Windturbinen‑Produktionslinie",
-    "Entscheidung der US‑Regierung zu erneuerbaren Subventionen"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "CCJ": {
    "ticker": "CCJ",
@@ -670,7 +664,7 @@
     ],
     [
      "KGV (erw.)",
-     "39,7"
+     "39,6"
     ],
     [
      "Umsatzwachstum",
@@ -715,11 +709,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "91.0 Mrd"
+     "89.7 Mrd"
     ],
     [
      "KGV (erw.)",
-     "14,6"
+     "14,4"
     ],
     [
      "Umsatzwachstum",
@@ -764,11 +758,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "4.975.2 Mrd"
+     "4.904.7 Mrd"
     ],
     [
      "KGV (erw.)",
-     "12,9"
+     "12,8"
     ],
     [
      "Umsatzwachstum",
@@ -807,6 +801,15 @@
   }
  },
  "shorts": [
+  {
+   "land": "NL",
+   "halter": "Jupiter Asset Management Ltd.",
+   "emittent": "Pharming Group N.V.",
+   "prozent": 0.49,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
   {
    "land": "UK",
    "halter": "Anavio Capital Partners LLP",
@@ -1067,19 +1070,10 @@
    "datum": "2019-06-07",
    "status": "aufgestockt",
    "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 13.5,
-   "datum": "2019-06-06",
-   "status": "aufgestockt",
-   "zuvor": 0.53
   }
  ],
  "shorts_kennzahlen": {
-  "neu_diese_woche": 0,
+  "neu_diese_woche": 1,
   "meistgeshortet": {
    "name": "Premier Oil PLC",
    "summe": 2145.63
@@ -1189,6 +1183,6 @@
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 168,
+ "meldungen_gesamt": 163,
  "llm_aktiv": false
 }
