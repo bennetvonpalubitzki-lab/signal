@@ -1,9 +1,9 @@
 {
- "stand": "2026-10-30T20:15",
- "lauf": "2026103020",
+ "stand": "2026-10-31T13:11",
+ "lauf": "2026103113",
  "synthese": {
-  "kern": "Markt fokussiert kurzfristiges Wachstum, verkennt steigende Inflationsgefahr und sinkende Liquidität.",
-  "erlaeuterung": "Trotz überraschendem US‑Wachstum und robusten Unternehmenszahlen betonen die Regimewerte steigenden Zinsdruck und schwache Liquidität. Diese strukturellen Risiken werden von den aktuellen Nachrichten zu Inflation, Energiepreisen und geopolitischer Unsicherheit überlagert."
+  "kern": "Inflationsdruck steigt, während Wachstum, Arbeitslosigkeit und Risikoappetit gleichzeitig schwächeln – Markt verkennt anhaltende Preis‑ und Strukturkrisen.",
+  "erlaeuterung": "Die EZB‑Inflationsprognose wird durch steigende Energiepreise und anhaltende Wohnungsengpässe weiter nach oben getrieben. Gleichzeitig dämpfen schwacher Liquidität, hohe Arbeitslosigkeit und die jüngsten Unternehmenskrisen die Risikobereitschaft, was von den Märkten kaum reflektiert wird."
  },
  "regime": [
   {
@@ -26,7 +26,7 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 84,
+     "wert": 85,
      "delta": -6
     }
    }
@@ -36,12 +36,12 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 66,
-     "delta": 6
+     "wert": 67,
+     "delta": 7
     },
     "eur": {
-     "wert": 91,
-     "delta": 0
+     "wert": 92,
+     "delta": 1
     }
    },
    "differenz": 25
@@ -51,8 +51,8 @@
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 24,
-     "delta": -1
+     "wert": 29,
+     "delta": 4
     }
    }
   },
@@ -94,23 +94,21 @@
     "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 6,
+   "anzahl": 5,
    "links": [
     "https://www.handelsblatt.com/finanzen/geldpolitik/inflation-tankrabatt-sorgt-fuer-entlastung-aber-nur-bis-dezember/100262259.html",
     "https://www.handelsblatt.com/finanzen/geldpolitik/inflation-japans-notenbank-haelt-zinsen-stabil-inflationsrisiken-im-blick/100266049.html",
     "https://www.tagesschau.de/wirtschaft/verbraucher/inflationsrate-deutschland-oktober-100.html",
     "https://www.spiegel.de/wirtschaft/tankrabatt-inflation-im-oktober-gesunken-a-1334be70-9cd6-4182-a5a9-d58c29f0571d#ref=rss",
-    "https://www.spiegel.de/wirtschaft/geldpolitik-ezb-laesst-leitzins-trotz-hoher-inflation-vorerst-stabil-a-4224eb45-df39-40e7-a54a-efb68920330f#ref=rss"
+    "https://www.manager-magazin.de/politik/deutschland/inflation-tankrabatt-senkt-deutsche-inflationsrate-deutlich-auf-2-8-prozent-a-a85f3182-608c-48fd-9b08-cf21956449d4#ref=rss"
    ],
-   "punkte": 30,
-   "text": "Die Deutsche Bank geht davon aus, dass die Inflation in Deutschland bis 2027 bei etwa 3,4 % liegen wird, sodass das zweiprozentige Ziel der EZB in weiter Ferne bleibt. Die anhaltend hohe Teuerungsrate lässt steigende Leitzinsen erwarten.",
-   "positiv": [
-    "inflationsindexierte Anleihen"
-   ],
+   "punkte": 28,
+   "text": "Die Deutsche Bank rechnet damit, dass die Inflation in Deutschland bis 2027 bei etwa 3,4 % liegen wird, sodass das zweiprozentige Ziel der EZB in weite Ferne gerückt ist. Die Erwartung steigender Leitzinsen dürfte die Renditen von Euro‑Staatsanleihen nach oben treiben und die Kurse von festverzinslichen Papieren sowie inflationssensiblen Aktien belasten.",
+   "positiv": [],
    "negativ": [
-    "nominale deutsche Staatsanleihen",
-    "Euro",
-    "kurzfristige Geldmarktinstrumente"
+    "Euro‑Staatsanleihen",
+    "Deutsche Aktien",
+    "Inflationsabhängige Konsumgüter"
    ]
   },
   {
@@ -124,50 +122,48 @@
     "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 7,
+   "anzahl": 6,
    "links": [
     "https://www.tagesschau.de/wirtschaft/konjunktur/entwicklung-bip-deutschland-sommer-100.html",
     "https://www.spiegel.de/wirtschaft/bip-in-deutschland-wirtschaftsleistung-legt-im-dritten-quartal-leicht-zu-a-fd34e9f5-40ab-41c2-bc12-2c34fb488c3f#ref=rss",
     "https://www.spiegel.de/wirtschaft/frankreichs-wirtschaft-schrumpft-im-dritten-quartal-a-50efa359-3e3d-4196-a8b0-639fedbe29c1#ref=rss",
-    "https://www.spiegel.de/wirtschaft/unternehmen/usa-wirtschaftswachstum-beschleunigt-sich-staerker-als-erwartet-a-99cd2228-fe47-4a38-aefa-fdc51abace41#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/deutschlands-wirtschaft-waechst-trotz-gegenwind-frankreich-schrumpft-201636905.html"
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/deutschlands-wirtschaft-waechst-trotz-gegenwind-frankreich-schrumpft-201636905.html",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/deutsche-wirtschaft-im-sommer-um-0-2-prozent-gewachsen-accg-201635907.html"
    ],
-   "punkte": 22,
-   "text": "Die deutsche Wirtschaft hat im Sommer überraschend weitergewachsen, entgegen der von vielen Analysten erwarteten Stagnation. Trotz des Wachstums bleiben die privaten Konsumausgaben schwach, was die Erholung dämpfen könnte.",
+   "punkte": 20,
+   "text": "Die deutsche Wirtschaft wuchs im Sommer überraschend weiter, nachdem im ersten Halbjahr bereits ein starkes Erholungstempo verzeichnet wurde. Die robuste private Konsumnachfrage unterstützt insbesondere die Konsumgüter‑ und Dienstleistungsbranchen sowie die Gesamtaktienmärkte.",
    "positiv": [
-    "deutsche Industrie‑ und Exportaktien"
+    "Deutsche Aktien",
+    "Konsumgüter",
+    "Dienstleistungssektor"
    ],
-   "negativ": [
-    "Konsumgüter‑ und Einzelhandelssektor",
-    "kurzfristige BIP‑Prognosen"
-   ]
+   "negativ": []
   },
   {
-   "id": "bc7b4c04",
-   "titel": "Krise in Automobilbranche: Gewinn bei Audi bricht drastisch ein",
-   "anriss": "Auch der Autobauer Audi steckt in der Krise: Der Gewinn brach im dritten Quartal deutlich ein. Grund ist unter anderem das schwache China-Geschäft. Neue Automodelle sollen positive Impulse bringen.",
+   "id": "4f690810",
+   "titel": "Kryptobörse: Größter Krypto-Diebstahl aller Zeiten – Binance meldet Hackerangriff﻿",
+   "anriss": "Nach Angaben von Binance sind insgesamt Werte in Höhe von schätzungsweise 6,3 Milliarden Dollar betroffen. Hinter dem Angriff wird bereits eine bestimmte Hackergruppe vermutet.",
    "region": "dach",
    "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
+    "Handelsblatt Finanzen",
     "Tagesschau Wirtschaft",
-    "heise"
+    "manager magazin"
    ],
-   "anzahl": 5,
+   "anzahl": 6,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/unternehmen/automobil-audi-gewinneinbruch-100.html",
-    "https://www.tagesschau.de/wirtschaft/unternehmen/volkswagen-milliardenverlust-102.html",
-    "https://www.spiegel.de/wirtschaft/unternehmen/audi-quartalsgewinn-bricht-ein-a-edfe8bb4-0644-46b3-b428-044141fe70d3#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/big-oil-bp-shell-und-exxonmobil-erzielen-rekordgewinne-201636148.html",
-    "https://www.heise.de/news/Audi-macht-im-dritten-Vierteljahr-nur-minimalen-Gewinn-11506636.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+    "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/binance-kryptoboerse-meldet-hackerangriff-bitcoin-verliert-deutlich/100266046.html",
+    "https://www.tagesschau.de/wirtschaft/technologie/usa-binance-hackerangriff-verluste-100.html",
+    "https://www.tagesschau.de/wirtschaft/technologie/hackerangriff-binance-interview-100.html",
+    "https://www.tagesschau.de/wirtschaft/technologie/hackerangriff-kryptoboerse-binance-100.html",
+    "https://www.manager-magazin.de/unternehmen/kryptoboerse-binance-gehackt-6-3-milliarden-dollar-aus-hot-wallet-gestohlen-wohl-mit-ki-a-5730c221-7fee-46f0-9b66-649cb2e2ef51#ref=rss"
    ],
-   "punkte": 18,
-   "text": "Audi verzeichnete im dritten Quartal einen drastischen Gewinnrückgang, vor allem bedingt durch ein schwaches Absatzvolumen in China. Das Unternehmen hofft, mit neuen Modellen künftig wieder Impulse zu setzen, doch die kurzfristige Lage bleibt angespannt.",
+   "punkte": 19,
+   "text": "Binance meldete einen Hackerangriff, bei dem nach Schätzungen rund 6,3 Mrd. USD an Kryptowerten entwendet wurden – der bislang größte Diebstahl in der Krypto‑Branche. Das Ereignis belastet das Vertrauen in Kryptowährungen und die Kurse von Bitcoin, Ethereum und anderen digitalen Assets sowie die Aktien von Krypto‑Börsen.",
    "positiv": [],
    "negativ": [
-    "Audi‑Aktie",
-    "deutscher Automobilsektor",
-    "Zulieferer für Verbrennungsmotoren"
+    "Kryptowährungen",
+    "Binance‑Aktien",
+    "Krypto‑Börsen"
    ]
   },
   {
@@ -190,53 +186,34 @@
     "https://www.manager-magazin.de/unternehmen/dienstleister/ifo-rechnet-mit-weniger-als-200-000-neuen-wohnungen-2027-und-2028-a-d04da6b7-c5e4-474e-a01c-cd9fa69a2d5a#ref=rss"
    ],
    "punkte": 18,
-   "text": "Der seit einem Jahr geltende „Bau‑Turbo“ hat bislang nur begrenzte Fortschritte beim Wohnungsbau in Deutschland erzielt, sodass das Defizit an neuen Wohnungen weiter besteht. Die bisherige Wirkung des Gesetzes auf die Bauaktivität bleibt daher schwach.",
+   "text": "Der seit einem Jahr geltende „Bau‑Turbo“ hat bislang nicht zu einem signifikanten Anstieg des Wohnungsneubaus in Deutschland geführt, sodass das Angebot an Wohnungen weiterhin hinter der Nachfrage zurückbleibt. Die anhaltende Unterversorgung drückt die Bau‑ und Immobilienbranche, während Unternehmen für Baumaterialien und Wohnungs‑ETFs unter Druck stehen.",
    "positiv": [],
    "negativ": [
-    "deutsche Bau‑ und Immobilienbranche",
-    "Bau‑material‑Hersteller",
-    "Wohnungs‑ETF"
+    "Bau‑ und Immobiliensektor",
+    "Baumaterialhersteller",
+    "Wohnungs‑ETFs"
    ]
   },
   {
-   "id": "4f690810",
-   "titel": "Kryptobörse: Größter Krypto-Diebstahl aller Zeiten – Binance meldet Hackerangriff﻿",
-   "anriss": "Nach Angaben von Binance sind insgesamt Werte in Höhe von schätzungsweise 6,3 Milliarden Dollar betroffen. Hinter dem Angriff wird bereits eine bestimmte Hackergruppe vermutet.",
+   "id": "bc7b4c04",
+   "titel": "Krise in Automobilbranche: Gewinn bei Audi bricht drastisch ein",
+   "anriss": "Auch der Autobauer Audi steckt in der Krise: Der Gewinn brach im dritten Quartal deutlich ein. Grund ist unter anderem das schwache China-Geschäft. Neue Automodelle sollen positive Impulse bringen.",
    "region": "dach",
    "quellen": [
-    "Handelsblatt Finanzen",
+    "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft",
+    "heise",
     "manager magazin"
    ],
-   "anzahl": 5,
+   "anzahl": 4,
    "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/binance-kryptoboerse-meldet-hackerangriff-bitcoin-verliert-deutlich/100266046.html",
-    "https://www.tagesschau.de/wirtschaft/technologie/hackerangriff-binance-interview-100.html",
-    "https://www.tagesschau.de/wirtschaft/technologie/hackerangriff-kryptoboerse-binance-100.html",
-    "https://www.manager-magazin.de/unternehmen/kryptoboerse-binance-gehackt-6-3-milliarden-dollar-aus-hot-wallet-gestohlen-wohl-mit-ki-a-5730c221-7fee-46f0-9b66-649cb2e2ef51#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/banken/hacker-erbeuten-6-3-milliarden-dollar-bei-binance-a-abb1962a-5add-4446-bedb-5faf98f6b91f#ref=rss"
+    "https://www.tagesschau.de/wirtschaft/unternehmen/automobil-audi-gewinneinbruch-100.html",
+    "https://www.spiegel.de/wirtschaft/unternehmen/audi-quartalsgewinn-bricht-ein-a-edfe8bb4-0644-46b3-b428-044141fe70d3#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/mobilitaet/audi-autobauer-rutscht-fast-in-die-roten-zahlen-ziele-gesenkt-a-65d70a7a-ddb1-4772-8e70-28e34c0eac79#ref=rss",
+    "https://www.heise.de/news/Audi-macht-im-dritten-Vierteljahr-nur-minimalen-Gewinn-11506636.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
-   "punkte": 17,
-   "text": "Nach Angaben von Binance sind insgesamt Werte in Höhe von schätzungsweise 6,3 Milliarden Dollar betroffen. Hinter dem Angriff wird bereits eine bestimmte Hackergruppe vermutet.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "35556d26",
-   "titel": "ECB President Lagarde to step down on 7 February 2027",
-   "anriss": "",
-   "region": "eu",
-   "quellen": [
-    "ECB Press",
-    "SPIEGEL Wirtschaft"
-   ],
-   "anzahl": 2,
-   "links": [
-    "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
-    "https://www.spiegel.de/wirtschaft/christine-lagarde-ezb-praesidentin-verlaesst-notenbank-in-heikler-phase-a-d8530265-f4ff-421a-927a-c741945cb96d#ref=rss"
-   ],
-   "punkte": 13,
-   "text": "",
+   "punkte": 16,
+   "text": "Auch der Autobauer Audi steckt in der Krise: Der Gewinn brach im dritten Quartal deutlich ein. Grund ist unter anderem das schwache China-Geschäft. Neue Automodelle sollen positive Impulse bringen.",
    "positiv": [],
    "negativ": []
   },
@@ -281,12 +258,32 @@
    "text": "Die Arbeitslosigkeit ist im Oktober zurückgegangen, die übliche Herbstbelebung aber nahezu ausgeblieben. Im Vergleich zum Vorjahr gibt es sogar mehr Arbeitslose. Als Grund nennt BA-Chefin Nahles die wirtschaftlichen Rahm",
    "positiv": [],
    "negativ": []
+  },
+  {
+   "id": "4b073041",
+   "titel": "Tech-Aktien: „Die Ära der ‚Magnificent Seven‘ scheint vorbei“ – 700 Milliarden Dollar an Börsenwert vernichtet",
+   "anriss": "Alphabet, Amazon, Apple, Meta, Microsoft, Nvidia und Tesla haben die Börsen lange im Alleingang angetrieben. Nun zeichnen sich klare Gewinner und Verlierer ab.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "manager magazin"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/tech-aktien-die-aera-der-magnificent-seven-scheint-vorbei/100266107.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/maerkte-asien-nikkei-und-technologiewerte-in-asien-schliessen-im-minus/100266061.html",
+    "https://www.manager-magazin.de/unternehmen/tech/intel-aktie-bricht-um-mehr-als-25-prozent-ein-prognose-enttaeuscht-a-71c4017d-36ab-446b-b1c9-468a34fcd554#ref=rss"
+   ],
+   "punkte": 12,
+   "text": "Alphabet, Amazon, Apple, Meta, Microsoft, Nvidia und Tesla haben die Börsen lange im Alleingang angetrieben. Nun zeichnen sich klare Gewinner und Verlierer ab.",
+   "positiv": [],
+   "negativ": []
   }
  ],
  "ketten": [],
  "gegenthese": {
-  "konsens": "Die Märkte gehen davon aus, dass die Inflation 2027 noch über 3 % liegt, die EZB die Zinsen länger hoch hält und das Wirtschaftswachstum schwächer bleibt, während Risiken aus der Auto‑ und Immobilienbranche sowie Krypto‑Sektor zunehmen.",
-  "gegen": "Gegenargument: Die überraschend starke Sommerkonjunktur und sinkende Energiepreise könnten die Inflation schneller als erwartet senken, was eine frühere Zinssenkung und verbesserte Unternehmensgewinne, insbesondere im Automobilsektor, ermöglichen würde."
+  "konsens": "Die Märkte gehen davon aus, dass die Inflation bis 2027 deutlich über dem EZB‑Ziel von 2 % bleibt, das Wirtschaftswachstum moderat ist und Risiken für Aktien, insbesondere Tech‑ und Automobilwerte, zunehmen.",
+  "gegen": "Starke Sommer‑Wachstumszahlen, sinkende Energiepreise und die Möglichkeit einer früheren Zinspause könnten die Inflationsprognosen nach unten korrigieren und das Risiko‑Premiummodell schwächen."
  },
  "matrix": [
   {
@@ -425,7 +422,7 @@
     ],
     [
      "Newsletter",
-     "in 1 Clustern"
+     "nicht erwaehnt"
     ],
     [
      "Reddit",
@@ -440,12 +437,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Starker Analystenkonsens (21 Kauf‑Empfehlungen) signalisiert Vertrauen in das Geschäftsmodell. Das Unternehmen verzeichnet ein Umsatzwachstum von 18 % und ein moderates KGV von 20,3, was im Branchenvergleich attraktiv erscheint. Die breite Segmentaufstellung von Turbinen bis Digital‑Services bietet mehrere Wachstumstreiber. Das Kursziel von 193 EUR impliziert erheblichen Aufwärtsspielraum.",
-   "dagegen": "Trotz des Analysten‑Buy‑Consensus gibt es Gegenstimmen (3 Verkäufe) und kaum Diskussionen auf Reddit, was auf geringe Marktaufmerksamkeit hindeutet. Fehlende Insider‑Informationen und keine bekannten Short‑Positionen lassen Unsicherheit über zukünftige Entwicklungen bestehen. Hohe Investitionskosten in Wind‑ und Gastechnik sowie mögliche regulatorische Risiken könnten die Marge belasten.",
+   "dafuer": "Die Analystenmehrheit (21 Kauf) spricht für Siemens Energy. Das Unternehmen verzeichnet ein Umsatzwachstum von 18 % und ein moderates KGV von 20,3, was im Branchenvergleich attraktiv erscheint. Die breite Segmentaufstellung – Gas‑Services, Grid‑Technologies, Industrie‑Transformation und Siemens Gamesa – bietet mehrere Wachstumstreiber, insbesondere im Ausbau erneuerbarer Energien.",
+   "dagegen": "Gegen Siemens Energy spricht die Unsicherheit bei der Gas‑Turbinen‑Nachfrage in einer dekarbonisierenden Wirtschaft. Das Unternehmen trägt hohe Investitionskosten und ist von langen Projektzyklen abhängig, was das Umsatzwachstum volatil macht. Zudem fehlt eine klare Insider‑ oder Short‑Aktivität, und die Bewertung von 20‑fachem KGV könnte bereits Preisprämien widerspiegeln.",
    "katalysatoren": [
-    "Abschluss und Auslieferung großer Gas‑ und Dampfturbinen‑Aufträge im 2. Quartal",
-    "Lieferungen von Siemens Gamesa Offshore‑Windanlagen für neue europäische Projekte",
-    "Einführung einer digitalen Service‑Plattform zur Steigerung von Wartungs‑ und Performance‑Contracts"
+    "Auslieferungsstart neuer H‑Series‑Gasturbinen im nächsten Quartal",
+    "Auftragszuwachs bei Siemens Gamesa‑Windturbinen nach Offshore‑Ausschreibungen",
+    "Abschluss von Groß‑Grid‑Projektverträgen oder digitalen Service-Deals"
    ]
   },
   "RHM.DE": {
@@ -493,12 +490,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die Analystenmehrheit (17 Kauf‑Empfehlungen, 4 Halte‑Empfehlungen) spricht für Rheinmetall. Das Unternehmen verzeichnet ein starkes Umsatzwachstum von +69 % und ein Kursziel von 1.552 €, was das aktuelle Kurs‑Gewinn‑Verhältnis von 19,6 als attraktiv erscheinen lässt.",
-   "dagegen": "Gegenargumente: Das hohe KGV von 19,6 deutet auf eine teure Bewertung hin, und das Geschäft ist stark von staatlichen Rüstungsaufträgen abhängig, was bei politischen Änderungen das Risiko erhöht. Zudem fehlt Transparenz über Insider‑Aktivitäten und Short‑Positionen, was Unsicherheit schafft.",
+   "dafuer": "Starkes Umsatzwachstum von +69 % zeigt steigende Nachfrage, unterstützt durch steigende Verteidigungsausgaben in Europa und den USA. Das diversifizierte Portfolio (Vehicle Systems, Weapon & Ammunition, Electronic Solutions) reduziert Risiko. Analysten‑Konsens (17 Buy, 4 Hold) signalisiert breites Vertrauen. KGV von 19,6 liegt im Branchenmittel.",
+   "dagegen": "Bewertung könnte überhöht sein: Kursziel 1552 € impliziert weiteres starkes Wachstum, das angesichts hoher Konkurrenz und möglicher Budgetkürzungen schwer zu erreichen ist. Abhängigkeit von staatlichen Aufträgen erhöht geopolitisches Risiko. Fehlende Insider‑Transaktionen und geringe Short‑Aktivität deuten auf geringe Marktliquidität hin.",
    "katalysatoren": [
-    "Anstieg des deutschen Verteidigungsbudgets im kommenden Haushaltsjahr",
-    "Genehmigung und Auslieferung neuer Panzer‑ und Schützenpanzer‑Aufträge in den USA",
-    "Veröffentlichung des Quartalsergebnisses und Ausblick auf weitere Exportaufträge nach Asien"
+    "Vertrag über Lieferung von 40 neuen Schützenpanzern an die Bundeswehr, voraussichtlicher Abschluss Q2 2025.",
+    "US‑Verteidigungsministerium vergibt 2025‑Vertrag für Munition und Elektronik‑Komponenten, erwartete Ankündigung Q3 2025.",
+    "Zulassung und Exportfreigabe für das neue elektronische Sensor‑System in Asien, geplant für Q4 2025."
    ]
   },
   "ASML.AS": {
@@ -546,12 +543,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "ASML dominiert den EUV‑Markt, das einzige Unternehmen mit produktionsreifen 13,5‑nm‑ und 7‑nm‑Lösungen. Das Umsatzwachstum von +55 % unterstreicht die starke Nachfrage nach fortschrittlichen Halbleitern. 38 Analysten empfehlen Kauf, das Kursziel von 2.097 € impliziert weiteres Aufwärtspotenzial.",
-   "dagegen": "Das KGV von 25,3 liegt über dem Branchendurchschnitt, was die Bewertung hoch erscheinen lässt. Ein einzelner Analyst spricht Verkauf, was auf mögliche Risiken wie Lieferkettenengpässe oder nachlassende Chipnachfrage hinweist. Zudem könnte eine Abschwächung der globalen Konjunktur die Investitionen in neue Fabriken bremsen.",
+   "dafuer": "ASML verfügt über eine Marktkapitalisierung von 544,5 Mrd. €, ein starkes Umsatzwachstum von +55 % und ein moderates KGV von 25,3. 38 Analysten empfehlen Kauf, nur ein einziger Verkauf. Das Kursziel von 2.097 € spiegelt optimistische Erwartungen an die EUV‑Technologie wider.",
+   "dagegen": "Das Unternehmen ist hoch bewertet; ein KGV von 25,3 könnte bei Abschwächung der Chipnachfrage überteuert sein. Die Abhängigkeit von wenigen Großkunden erhöht das Risiko, und geopolitische Exportbeschränkungen könnten das Wachstum in China bremsen. Fehlende Insider‑ und Short‑Informationen lassen Unsicherheit über Marktstimmung bestehen.",
    "katalysatoren": [
-    "Q4‑Ergebnisveröffentlichung mit Fokus auf EUV‑Absatzzahlen",
-    "Auslieferung der neuen 0,55 NA‑EUV‑Maschine an TSMC oder Samsung",
-    "Entscheidung großer Kunden über den Ausbau von EUV‑Fabriken im Rahmen von Chip‑Roadmaps"
+    "Q3‑2025 Ergebnisveröffentlichung mit erwarteter Umsatzsteigerung",
+    "Markteinführung des nächsten High‑NA EUV‑Systems",
+    "Abschluss neuer Großaufträge von TSMC oder Samsung"
    ]
   },
   "SU.PA": {
@@ -584,7 +581,7 @@
     ],
     [
      "Newsletter",
-     "in 15 Clustern"
+     "in 14 Clustern"
     ],
     [
      "Reddit",
@@ -611,11 +608,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "226.3 Mrd"
+     "227.1 Mrd"
     ],
     [
      "KGV (erw.)",
-     "33,2"
+     "33,1"
     ],
     [
      "Umsatzwachstum",
@@ -623,7 +620,7 @@
     ],
     [
      "Kursziel",
-     "1197 USD"
+     "1195 USD"
     ]
    ],
    "quellen": [
@@ -660,11 +657,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "32.7 Mrd"
+     "33.5 Mrd"
     ],
     [
      "KGV (erw.)",
-     "39,6"
+     "40,7"
     ],
     [
      "Umsatzwachstum",
@@ -758,11 +755,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "4.904.7 Mrd"
+     "4.941.4 Mrd"
     ],
     [
      "KGV (erw.)",
-     "12,8"
+     "12,9"
     ],
     [
      "Umsatzwachstum",
@@ -801,15 +798,6 @@
   }
  },
  "shorts": [
-  {
-   "land": "NL",
-   "halter": "Jupiter Asset Management Ltd.",
-   "emittent": "Pharming Group N.V.",
-   "prozent": 0.49,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
   {
    "land": "UK",
    "halter": "Anavio Capital Partners LLP",
@@ -1070,10 +1058,19 @@
    "datum": "2019-06-07",
    "status": "aufgestockt",
    "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 13.5,
+   "datum": "2019-06-06",
+   "status": "aufgestockt",
+   "zuvor": 0.53
   }
  ],
  "shorts_kennzahlen": {
-  "neu_diese_woche": 1,
+  "neu_diese_woche": 0,
   "meistgeshortet": {
    "name": "Premier Oil PLC",
    "summe": 2145.63
@@ -1086,14 +1083,6 @@
  },
  "gespraech": [],
  "termine": [
-  {
-   "datum": "2026-10-30",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
   {
    "datum": "2026-10-31",
    "zeit": "",
@@ -1181,8 +1170,16 @@
    "was": "FOMC Press Release",
    "konsens": "",
    "wucht": "hoch"
+  },
+  {
+   "datum": "2026-11-09",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 163,
+ "meldungen_gesamt": 147,
  "llm_aktiv": false
 }
