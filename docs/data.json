@@ -1,9 +1,9 @@
 {
- "stand": "2026-11-02T12:45",
- "lauf": "2026110212",
+ "stand": "2026-11-02T16:40",
+ "lauf": "2026110216",
  "synthese": {
-  "kern": "Technologie, Sicherheit und Kapitalflüsse dominieren, während der Markt das geopolitische Risiko unterschätzt.",
-  "erlaeuterung": "Hacker‑Aktivitäten, ein deutsches Raketenteam und KI‑Initiativen zeigen wachsende Innovations- und Sicherheitsdynamik. Gleichzeitig vernachlässigen Anleger die steigende geopolitische Unsicherheit, trotz hoher Risikoappetit‑Perzentile."
+  "kern": "Globale Unsicherheit durch Cyber‑Risiken, Energiepreise und politische Spannungen, während Märkte Zins‑ und Liquiditätsdaten unterschätzen.",
+  "erlaeuterung": "Cyberangriffe destabilisieren Versorgungsketten, steigende Energiepreise belasten Konsum, und geopolitische Konflikte erhöhen das Risiko. Der Markt fokussiert sich auf Zinsentwicklung, vernachlässigt jedoch die kombinierten Auswirkungen von Sicherheitslücken und Rohstoffvolatilität."
  },
  "regime": [
   {
@@ -36,12 +36,12 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 67,
-     "delta": 9
+     "wert": 65,
+     "delta": 7
     },
     "eur": {
-     "wert": 89,
-     "delta": -2
+     "wert": 87,
+     "delta": -4
     }
    },
    "differenz": 22
@@ -51,8 +51,8 @@
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 30,
-     "delta": 1
+     "wert": 26,
+     "delta": -4
     }
    }
   },
@@ -93,28 +93,53 @@
     "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 6,
+   "anzahl": 5,
    "links": [
     "https://www.handelsblatt.com/finanzen/maerkte/warum-nordkoreas-hacker-der-kryptobranche-immer-einen-schritt-voraus-sind/100266555.html",
     "https://www.handelsblatt.com/finanzen/maerkte/boerse-inside/binance-kunden-ziehen-nach-hackerangriff-milliarden-ab/100266622.html",
     "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/binance-fbi-sieht-nordkoreanische-hacker-hinter-krypto-diebstahl/100266403.html",
     "https://www.tagesschau.de/wirtschaft/finanzen/binance-kundengelder-100.html",
-    "https://www.manager-magazin.de/unternehmen/tech/tradertraitor-aus-nordkorea-steckt-laut-fbi-hinter-attacke-auf-binance-a-150cd356-01a8-48f4-a014-d2d5805a856e#ref=rss"
+    "https://www.manager-magazin.de/unternehmen/banken/binance-kunden-ziehen-nach-kryptoraub-3-6-milliarden-dollar-ab-a-a5d57277-9dab-4dac-928a-af901e241f9c#ref=rss"
    ],
-   "punkte": 21,
-   "text": "Nordkoreanische Hacker haben bei Binance Kryptowährungen im Wert von rund 6,3 Mrd. USD erbeutet. Der Vorfall erhöht das Risiko‑ und Vertrauensdefizit im Kryptomarkt und dürfte die Nachfrage nach Sicherheits‑ und Compliance‑Lösungen steigern.",
-   "positiv": [
-    "Cybersecurity‑Dienstleistungen (↑)"
-   ],
+   "punkte": 19,
+   "text": "Bei Binance wurden Kryptowährungen im Wert von rund 6,3 Mrd. USD von mutmaßlichen nordkoreanischen Hackern entwendet. Der Vorfall verdeutlicht weiterhin die Anfälligkeit großer Kryptobörsen gegenüber staatlich unterstützten Angriffen.",
+   "positiv": [],
    "negativ": [
-    "Kryptowährungen (↓)",
-    "Binance (falls börsennotiert) (↓)"
+    "Kryptobörsen",
+    "Kryptocoins"
    ]
   },
   {
-   "id": "54164547",
-   "titel": "Hypersonica: Deutsches Raketen-Start-up sammelt 100 Millionen Euro ein",
-   "anriss": "Die Münchner Firma Hypersonica will binnen kürzester Zeit Hyperschallraketen für die europäische Abschreckung bauen. Amerikanische Investoren und ein deutscher Minister glauben offenbar, dass es klappen kann.",
+   "id": "c230d5e1",
+   "titel": "Cyberangriffe haben Supermärkte in Europa offenbar lahmgelegt",
+   "anriss": "Cyberkriminelle haben offenbar wieder Supermärkte angegriffen. Sie sorgten besonders in Belgien und Schweden dafür, dass Kühlschränke und Tiefkühltruhen wärmer wurden. Es ist nicht das erste Mal.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "heise",
+    "manager magazin"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/technologie/cyberangriff-supermaerkte-100.html",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/cyberangriffe-auf-supermaerkte-in-belgien-und-schweden-accg-201643770.html",
+    "https://www.manager-magazin.de/unternehmen/handel/kuehlsysteme-in-europaeischen-supermaerkten-gestoert-a-c8c13bef-a52e-4eb1-b600-b4ec7b13c1ee#ref=rss",
+    "https://www.heise.de/news/Kuehlschraenke-in-Lebensmittellaeden-weiterer-Laender-geknackt-11507846.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 16,
+   "text": "Cyberkriminelle haben in mehreren europäischen Supermärkten, insbesondere in Belgien und Schweden, Kühlschränke und Tiefkühltruhen manipuliert, wodurch die Kühlkette gestört wurde. Die Angriffe führten zu Betriebsunterbrechungen und potenziellen Lebensmittelverlusten.",
+   "positiv": [],
+   "negativ": [
+    "Einzelhandel (Supermärkte)",
+    "Kühlgeräte",
+    "Lebensmittelversorgung"
+   ]
+  },
+  {
+   "id": "dd8427b2",
+   "titel": "Spritpreisdeckel: Autofahrern droht Preisschub zum Jahreswechsel",
+   "anriss": "Ministerin Katherina Reiche hat einen Spritpreisdeckel ausarbeiten lassen, der vermutlich nie greifen wird. Die Vorgaben sind so lax, dass an den Tankstellen weit über dem EU-Durchschnitt abkassiert werden kann.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
@@ -123,71 +148,66 @@
    ],
    "anzahl": 4,
    "links": [
-    "https://www.spiegel.de/wirtschaft/unternehmen/hypersonica-deutsches-raketen-start-up-sammelt-100-millionen-euro-ein-a-3bdb110d-d57a-4b75-b208-c416a1c239e2#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/hypersonica-sammelt-100-millionen-euro-fuer-europaeische-hyperschallrakete-accg-201643421.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/vishay-investiert-eine-milliarde-dollar-in-itzehoe-accg-201639375.html",
-    "https://www.manager-magazin.de/unternehmen/mobilitaet/fahrrad-warum-ein-urteil-des-europaeischen-gerichts-die-e-bike-produktion-in-europa-gefaehrdet-a-bf4e440a-78fd-4a0c-90ff-0c3c1032826e#ref=rss"
+    "https://www.spiegel.de/wirtschaft/service/spritpreisdeckel-wirkungsloser-deckel-koennte-preisschub-zum-jahreswechsel-bringen-a-b34ba65b-5d0b-437e-8c0c-82864c2d7955#ref=rss",
+    "https://www.spiegel.de/wirtschaft/katherina-reiche-cdu-formuliert-erste-plaene-fuer-spritpreisdeckel-a-f41e4366-d70a-485a-959b-f5d16256e46a#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/auto-verkehr/ein-spritpreisdeckel-den-reiche-eigentlich-ablehnt-201643781.html",
+    "https://www.manager-magazin.de/politik/deutschland/spritpreisdeckel-gesetzentwurf-sieht-deckel-erst-ueber-eu-schnitt-vor-a-05b0c738-9de7-4ddf-b09f-7524f44b2e89#ref=rss"
    ],
-   "punkte": 18,
-   "text": "Das Münchner Raketentechnik‑Start‑up Hypersonica hat 100 Mio. € von US‑Investoren und einem deutschen Minister erhalten, um Hyperschallraketen für die europäische Abschreckung zu entwickeln. Die Kapitalzufuhr dürfte die europäischen Verteidigungs‑ und Luftfahrtunternehmen unterstützen.",
-   "positiv": [
-    "Verteidigungs‑/Luftfahrt‑Sektor (↑)"
-   ],
-   "negativ": []
-  },
-  {
-   "id": "46633d9f",
-   "titel": "Digitalgipfel: Deutsche Unternehmen pochen auf KI made in Germany",
-   "anriss": "Auf dem Digitalgipfel der Bundesregierung stehen zwei Themen ganz oben auf der Agenda: KI und digitale Souveränität. Der Branchenverband Bitkom macht eine klare Ansage, und Digitalminister Wildberger spricht mahnende Worte.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "heise",
-    "manager magazin"
-   ],
-   "anzahl": 5,
-   "links": [
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/digitalgipfel-bitkom-fordert-ki-made-in-germany-accg-201643281.html",
-    "https://www.faz.net/aktuell/wirtschaft/digitalgipfel-deutschland-bleiben-noch-anderthalb-jahre-sagt-die-ki-taskforce-accg-201643385.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/sap-vorstand-saueressig-deutschland-sollte-mehr-in-ki-investieren-accg-201637411.html",
-    "https://www.manager-magazin.de/politik/deutschland/digitalgipfel-in-berlin-oekonomen-fordern-tempo-bei-ki-und-digitaler-verwaltung-a-9db0bc2b-99b9-4d45-89a6-78838a266318#ref=rss",
-    "https://www.heise.de/news/Digitalgipfel-Minister-und-Industrie-hoffen-auf-KI-11507882.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 16,
-   "text": "Auf dem Digitalgipfel fordern Bitkom und Digitalminister Wolfgang Wildberger verstärkt KI‑Entwicklungen aus Deutschland, um digitale Souveränität zu sichern. Die Initiative könnte die Investitionen in heimische KI‑Firmen ankurbeln, während ausländische Anbieter stärker unter Druck geraten.",
-   "positiv": [
-    "Deutsche KI‑Unternehmen (↑)"
-   ],
+   "punkte": 14,
+   "text": "Die von Ministerin Katharina Reiche erarbeitete Regelung für einen Spritpreisdeckel enthält sehr lockere Vorgaben, die voraussichtlich kaum wirksam sein werden. Damit bleibt mit steigenden Kraftstoffpreisen zu rechnen, was die Kosten für Autofahrer und die Automobilbranche belastet.",
+   "positiv": [],
    "negativ": [
-    "Ausländische KI‑Anbieter im deutschen Markt (↓)"
+    "Kraftstoffpreise",
+    "Automobilbranche",
+    "Verbraucher"
    ]
   },
   {
-   "id": "d7140978",
-   "titel": "Geldanlage: Öl, Anleihen und Aktien: So schauen asiatische Profianleger auf die bevorstehenden US‑Midterms",
-   "anriss": "Den asiatischen Aktienmärkten könnten durch die Zwischenwahlen neue politische Unwägbarkeiten drohen. Mit unmittelbaren Folgen für Technologie- oder Energie-Aktien.",
+   "id": "ed5c848c",
+   "titel": "Neobroker: Digitalbank Nordnet stellt Pläne für den deutschen Markt vor",
+   "anriss": "Die schwedische Nordnet expandiert nach Deutschland – und trifft auf ein Marktumfeld mit intensivem Wettbewerb. Dennoch macht die Digitalbank etwas anders als die hiesige Konkurrenz.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "heise",
+    "manager magazin"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/banken-versicherungen/digitalbank-nordnet-stellt-plaene-fuer-den-deutschen-markt-vor/100266160.html",
+    "https://www.manager-magazin.de/politik/deutschland/digitalgipfel-in-berlin-oekonomen-fordern-tempo-bei-ki-und-digitaler-verwaltung-a-9db0bc2b-99b9-4d45-89a6-78838a266318#ref=rss",
+    "https://www.heise.de/news/Digitalgipfel-Minister-und-Industrie-hoffen-auf-KI-11507882.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 13,
+   "text": "Die schwedische Digitalbank Nordnet plant den Markteintritt in Deutschland und positioniert sich mit einem anderen Ansatz als die etablierten Neobroker. Während das Vorhaben Wachstumspotenzial für Nordnet bietet, erhöht es den Wettbewerbsdruck im deutschen Neobroker‑ und Online‑Bankensektor.",
+   "positiv": [
+    "Nordnet (Finanzdienstleistung)",
+    "Digitalbank‑Markt (Deutschland)"
+   ],
+   "negativ": [
+    "Wettbewerb im Neobroker‑Sektor"
+   ]
+  },
+  {
+   "id": "ad24ee4a",
+   "titel": "Vor den US-Zwischenwahlen: Wie ist Trumps Wirtschaftsbilanz?",
+   "anriss": "Die Wirtschaft wächst, doch viele Amerikaner leiden unter hohen Lebenshaltungskosten. Der US-Arbeitsmarkt verliert an Schwung, die Staatsverschuldung steigt. Wie steht es um die Wirtschaft der Vereinigten Staaten? Von Michelle Goddemeier.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
-    "Handelsblatt Finanzen",
+    "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft"
    ],
    "anzahl": 3,
    "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/aktien/geldanlage-so-schauen-profianleger-auf-die-bevorstehenden-usmidterms/100266440.html",
-    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-geldanlage-168.html",
+    "https://www.tagesschau.de/wirtschaft/weltwirtschaft/zwischenstand-us-wirtschaft-entwicklung-100.html",
+    "https://www.spiegel.de/wirtschaft/wirtschaft-in-den-usa-wo-amerika-deutschland-beim-wachstum-ueberholt-a-bd92e004-087f-482f-a7e9-fd122df22a7a#ref=rss",
     "https://www.faz.net/aktuell/wirtschaft/us-midterms-2026-was-donald-trump-zur-halbzeit-wirklich-erreicht-hat-201625540.html"
    ],
-   "punkte": 13,
-   "text": "Asiatische Profianleger sehen in den US‑Midterm‑Wahlen ein erhöhtes politisches Risiko für Technologie‑ und Energiemärkte. In Erwartung möglicher Volatilität wird vermehrt in sichere Anlagen wie Gold und US‑Staatsanleihen investiert.",
-   "positiv": [
-    "Gold (↑)",
-    "US‑Staatsanleihen (↑)"
-   ],
-   "negativ": [
-    "US‑Technologie‑Aktien (↓)",
-    "US‑Energie‑Aktien (↓)"
-   ]
+   "punkte": 12,
+   "text": "Die Wirtschaft wächst, doch viele Amerikaner leiden unter hohen Lebenshaltungskosten. Der US-Arbeitsmarkt verliert an Schwung, die Staatsverschuldung steigt. Wie steht es um die Wirtschaft der Vereinigten Staaten? Von Mi",
+   "positiv": [],
+   "negativ": []
   },
   {
    "id": "7104c482",
@@ -211,26 +231,6 @@
    "negativ": []
   },
   {
-   "id": "8fd86bb7",
-   "titel": "Immobilien: „Erfahrener Investor“ übernimmt insolventes Frankfurter Luxushotel",
-   "anriss": "Für die mehr als 100-köpfige Belegschaft des Hotels bei Frankfurt gibt es wieder eine Perspektive. Eine Besonderheit hatte den Verkauf des ehemaligen Hilton-Hotels erschwert.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "SPIEGEL Wirtschaft"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/immobilien/immobilien-insolventes-luxushotel-hat-eine-neue-eigentuemerin/100266556.html",
-    "https://www.handelsblatt.com/finanzen/immobilien/immobilien-vergesellschaftung-so-reagieren-investoren-und-vermieter/100265175.html",
-    "https://www.spiegel.de/wirtschaft/miete-zu-hoch-mehr-als-11-000-mieter-alarmierten-ueber-app-die-aemter-a-67825372-0385-436f-952e-6f9e8b5f319d#ref=rss"
-   ],
-   "punkte": 12,
-   "text": "Für die mehr als 100-köpfige Belegschaft des Hotels bei Frankfurt gibt es wieder eine Perspektive. Eine Besonderheit hatte den Verkauf des ehemaligen Hilton-Hotels erschwert.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
    "id": "dbc5712d",
    "titel": "Schulden, Frust und Inflation – warum Demokratien scheitern",
    "anriss": "Zu viele demokratische Staaten bekommen ihre Finanzen nicht in den Griff. Ein Krisensymptom, das auf tiefere Fehlfunktionen hinweist. Es gibt drei Szenarien, wie die Sache ausgehen könnte.",
@@ -250,29 +250,29 @@
    "negativ": []
   },
   {
-   "id": "57c7c958",
-   "titel": "Geldanlage: Zehn Dinge, die ich als Anfänger über ETFs gelernt habe",
-   "anriss": "Aus dem Handelsblatt-Archiv: Unser Autor befasst sich zum ersten Mal in seinem Leben mit ETFs – und stellt fest, dass Altersvorsorge damit in der Theorie einfacher ist als in der Praxis.",
+   "id": "c43de582",
+   "titel": "US-Börsen: US-Börsen erholen sich – steht der nächste Absturz bereits bevor?",
+   "anriss": "Nach dem Ausverkauf der vergangenen Woche sind Anleger etwas optimistischer. Doch direkt mehrere Ereignisse könnten die Börsen wieder ins Minus drücken.",
    "region": "dach",
    "quellen": [
-    "FAZ Wirtschaft",
     "Handelsblatt Finanzen"
    ],
-   "anzahl": 2,
+   "anzahl": 3,
    "links": [
-    "https://www.handelsblatt.com/finanzen/anlagestrategie/geldanlage-diese-zehn-dinge-habe-ich-als-einsteiger-ueber-etfs-gelernt/100184984.html",
-    "https://www.faz.net/aktuell/wirtschaft/arm-und-reich/neue-altersvorsorge-ab-januar-was-verbraucher-jetzt-wissen-muessen-201629561.html"
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-wall-street-erholt-sich-steht-der-naechste-absturz-bevor/100266673.html",
+    "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/dax-die-boersenstimmung-steigt-doch-es-fehlt-das-geld-fuer-neue-kaeufe/100266183.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sechs-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html"
    ],
-   "punkte": 9,
-   "text": "Aus dem Handelsblatt-Archiv: Unser Autor befasst sich zum ersten Mal in seinem Leben mit ETFs – und stellt fest, dass Altersvorsorge damit in der Theorie einfacher ist als in der Praxis.",
+   "punkte": 11,
+   "text": "Nach dem Ausverkauf der vergangenen Woche sind Anleger etwas optimistischer. Doch direkt mehrere Ereignisse könnten die Börsen wieder ins Minus drücken.",
    "positiv": [],
    "negativ": []
   }
  ],
  "ketten": [],
  "gegenthese": {
-  "konsens": "Markt erwartet weiter steigende Nachfrage nach KI‑Lösungen „Made in Germany“, stabile Kapitalflüsse in europäische Tech‑ und Infrastruktur‑Start‑ups, während Anleger US‑Midterms als moderat riskant, aber nicht entscheidend ansehen.",
-  "gegen": "Geopolitische Spannungen (Nordkorea, Russland), regulatorische Unsicherheit bei Krypto, steigende Zinsen und Inflation könnten Risikoaversion erhöhen und Kapitalabflüsse aus riskanten Assets auslösen."
+  "konsens": "Marktteilnehmer erwarten steigende Volatilität durch geopolitische Risiken, höhere Energiepreise und regulatorische Unsicherheiten; die US‑Aktien erholen sich, doch breitere Risiken bleiben dominant.",
+  "gegen": "Gegenargument: Datenlage zu vielen Themen ist dünn, kurzfristige US‑Börsenrallye könnte länger anhalten und Inflationsdruck könnte moderat bleiben."
  },
  "matrix": [
   {
@@ -389,11 +389,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "109.0 Mrd"
+     "111.0 Mrd"
     ],
     [
      "KGV (erw.)",
-     "20,5"
+     "20,8"
     ],
     [
      "Umsatzwachstum",
@@ -426,12 +426,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die Siemens Energy AG verzeichnet ein starkes Umsatzwachstum von +18 % und ein moderates KGV von 20,5, was im Branchenvergleich attraktiv erscheint. Die Mehrheit der Analysten (21 Buy) spricht für Vertrauen in die Technologie‑ und Service‑Segmente. Zudem fehlt ein signifikanter Short‑Interest.",
-   "dagegen": "Einige Analysten (3 Verkauf) warnen vor anhaltenden Qualitätsproblemen bei Siemens Gamesa‑Windturbinen und den damit verbundenen Garantiekosten. Die hohe Verschuldung und mögliche Integrationsrisiken nach jüngsten Akquisitionen belasten die Bilanz. Die geringe Erwähnung in Reddit und Newslettern deutet auf begrenzte Marktaufmerksamkeit hin.",
+   "dafuer": "Das Unternehmen verzeichnet ein starkes Umsatzwachstum von +18 % und deckt mit Gas‑, Turbinen‑ und Grid‑Technologien mehrere Marktsegmente ab. Das KGV von 20,8 liegt im Branchendurchschnitt, und 21 Analysten empfehlen Kauf, was auf positive Erwartungen hindeutet.",
+   "dagegen": "Trotz des Kauf‑Consensus gibt es nur geringe Aufmerksamkeit in Newslettern (ein Cluster) und kaum Reddit‑Diskussion, was auf begrenzte Markt‑Transparenz schließen lässt. Fehlende Insider‑Meldungen und das Fehlen von Short‑Positionen können Unsicherheit über die Bewertung signalisieren. Zudem bestehen Risiken bei Wind‑Turbinen‑Lieferungen.",
    "katalysatoren": [
-    "Q4‑2026 Ergebnisveröffentlichung mit Fokus auf Turbinen‑Auslieferungen",
-    "Einführung der nächsten Generation von Gasturbinen (SG 8.0) und zugehöriger Digital‑Services",
-    "Mögliche strategische Partnerschaft oder Teilverkauf im Grid‑Technologies‑Segment"
+    "Abschluss eines Großauftrags für Gasturbinen im ersten Quartal 2027",
+    "Start der neuen Digital‑Service‑Plattform für Anlagenoptimierung im dritten Quartal 2024",
+    "Lieferung der nächsten Siemens‑Gamesa Offshore‑Windanlagen ab viertem Quartal 2024"
    ]
   },
   "RHM.DE": {
@@ -442,11 +442,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "48.3 Mrd"
+     "46.4 Mrd"
     ],
     [
      "KGV (erw.)",
-     "19,6"
+     "18,8"
     ],
     [
      "Umsatzwachstum",
@@ -479,12 +479,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Rheinmetall profitiert von steigenden Verteidigungsausgaben in Europa und den USA, was das Umsatzwachstum von 69 % erklärt. Das Unternehmen verfügt über ein breites Produktportfolio in Fahrzeugsystemen, Waffen und Elektronik, unterstützt durch stabile Auftragsbücher. Das erwartete KGV von 19,6 liegt im Branchendurchschnitt, was die Bewertung relativ attraktiv erscheinen lässt.",
-   "dagegen": "Die Abhängigkeit von staatlichen Rüstungsetats macht Rheinmetall anfällig für politische Entscheidungen und Haushaltskürzungen. Das aktuelle Kursziel von 1.552 € impliziert ein weiteres starkes Kursplus, das bei einem KGV von knapp 20 bereits hoch erscheint. Fehlende Insider‑Informationen und das Fehlen von Short‑Positionen könnten ein Warnsignal für überhöhte Erwartungen sein.",
+   "dafuer": "Rheinmetall verzeichnet ein starkes Umsatzwachstum von +69 % und ein moderates KGV von 18,8, was auf solide Ertragskraft hinweist. Die breite Produktpalette in Fahrzeug‑, Waffen‑ und Elektronik‑Segmenten diversifiziert das Risiko. Analysten‑Consensus mit 17 Kauf‑Ratings und keine Short‑Positionen stärken das Bild.",
+   "dagegen": "Das Unternehmen ist stark von staatlichen Rüstungsbudgets abhängig; bei Kürzungen drohen Auftragsrückgänge. Das KGV von 18,8 liegt über dem Branchendurchschnitt, was die Bewertung hoch erscheinen lässt. Fehlende Insider‑Transaktionen und kaum öffentliche Diskussionen (Reddit, Newsletter) könnten auf Unsicherheit hinweisen.",
    "katalysatoren": [
-    "EU‑Verteidigungsbudget 2025",
-    "Abschluss des Auftragspakets für das neue Schützenpanzer‑Modell",
-    "Veröffentlichung der Q3‑Ergebnisse (Oktober)"
+    "Zusage großer Rüstungsaufträge, z. B. für die Bundeswehr",
+    "Markteinführung neuer elektrischer Antriebssysteme für Militärfahrzeuge",
+    "Veröffentlichung der Q3‑2024‑Ergebnisse (Umsatz, Auftragseingang, Gewinn)"
    ]
   },
   "ASML.AS": {
@@ -495,11 +495,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "545.6 Mrd"
+     "543.9 Mrd"
     ],
     [
      "KGV (erw.)",
-     "25,2"
+     "25,1"
     ],
     [
      "Umsatzwachstum",
@@ -532,13 +532,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "ASML profitiert von starkem Umsatzwachstum von +55 % und einer dominanten Marktposition im EUV‑Lithografie‑Segment. Die Analysten‑Stimmung ist überwiegend positiv (38 Buy, 2 Hold, 1 Sell) und das Kursziel von 2.097 € impliziert weiteres Aufwärtspotenzial. Das KGV von 25,2 liegt im Branchendurchschnitt.",
-   "dagegen": "Das KGV von 25,2 kann als relativ hoch bewertet werden, insbesondere bei erwarteten Abschwächungen der Chipnachfrage. Fehlende Insider‑Informationen und das Fehlen von Short‑Positionen deuten auf Unsicherheit hin. Die Datenlage ist dünn: keine Newsletter‑Analysen, kaum Reddit‑Diskussion und keine aktuellen Insider‑Meldungen.",
-   "katalysatoren": [
-    "Q4 2024 EUV‑Tool‑Auslieferungen an TSMC und Samsung",
-    "Einführung des EUV‑0,55 NA‑Systems im ersten Halbjahr 2025",
-    "Mögliche Lockerung von Exportbeschränkungen für chinesische Chipfertigung"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "SU.PA": {
    "ticker": "SU.PA",
@@ -548,11 +544,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "140.2 Mrd"
+     "141.7 Mrd"
     ],
     [
      "KGV (erw.)",
-     "18,9"
+     "19,1"
     ],
     [
      "Umsatzwachstum",
@@ -570,7 +566,7 @@
     ],
     [
      "Newsletter",
-     "in 11 Clustern"
+     "in 10 Clustern"
     ],
     [
      "Reddit",
@@ -585,9 +581,13 @@
      "1648,06 % ueber 1700 Halter"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "Dafür spricht die überwiegende Analystenmeinung (19 Kauf, 4 Halten), ein robustes Umsatzwachstum von 10 % und ein moderates KGV von 19,1, das im Branchenvergleich attraktiv erscheint. Das breit gefächerte Portfolio in Energie‑Management, Industrieautomation und erneuerbaren Lösungen stärkt die Marktposition.",
+   "dagegen": "Dagegen steht das extrem hohe Short‑Interest von über 1.600 % bei rund 1.700 Aktionären, was im Widerspruch zur positiven Analystenmeinung steht. Fehlende Insider‑Meldungen und geringe Diskussionen auf Reddit deuten auf Unsicherheit hin. Das Kursziel von 323 € impliziert eine erhebliche Aufwärtsbewertung, die nicht eindeutig belegt ist.",
+   "katalysatoren": [
+    "Veröffentlichung des Quartalsberichts (voraussichtlich Ende Q4 2026)",
+    "Markteinführung einer neuen Microgrid‑Lösung für industrielle Kunden",
+    "Mögliche Übernahme eines europäischen Solar‑Installationsunternehmens"
+   ]
   },
   "GEV": {
    "ticker": "GEV",
@@ -597,11 +597,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "227.1 Mrd"
+     "234.1 Mrd"
     ],
     [
      "KGV (erw.)",
-     "33,1"
+     "34,2"
     ],
     [
      "Umsatzwachstum",
@@ -646,11 +646,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "33.5 Mrd"
+     "33.2 Mrd"
     ],
     [
      "KGV (erw.)",
-     "42,3"
+     "42,1"
     ],
     [
      "Umsatzwachstum",
@@ -695,11 +695,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "89.7 Mrd"
+     "93.0 Mrd"
     ],
     [
      "KGV (erw.)",
-     "14,7"
+     "15,1"
     ],
     [
      "Umsatzwachstum",
@@ -732,13 +732,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "FCX profitiert von anhaltend hoher Kupfernachfrage und diversifizierten Bergbaustandorten in Nord‑ und Südamerika sowie Indonesien. Das niedrige KGV von 14,7 und ein Umsatzwachstum von 8 % deuten auf relative Bewertungseffizienz hin. Analysten‑Consensus (18 Buy) unterstützt die positive Sicht.",
-   "dagegen": "Insider‑Verkäufe (8 Transaktionen) ohne begleitende Käufe signalisieren mögliche Bedenken hinsichtlich zukünftiger Erträge. FCX ist stark von Kupferpreisschwankungen und geopolitischen Risiken in Indonesien abhängig. Hohe Kapitalkosten für die Erweiterung des Grasberg‑Projekts können die Margen belasten. Der Analysten‑Consensus steht im Widerspruch zu den Insider‑Verkäufen.",
-   "katalysatoren": [
-    "Q3‑2026 Ergebnisveröffentlichung (voraussichtlich Oktober)",
-    "Fortschritt bei Genehmigungen und Ausbau des Grasberg‑Projekts in Indonesien",
-    "Entwicklung der globalen Kupferpreise, insbesondere nach chinesischen Wirtschaftsdaten"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "NVDA": {
    "ticker": "NVDA",
@@ -748,11 +744,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "4.941.4 Mrd"
+     "4.991.3 Mrd"
     ],
     [
      "KGV (erw.)",
-     "12,9"
+     "13,0"
     ],
     [
      "Umsatzwachstum",
@@ -1173,6 +1169,6 @@
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 136,
+ "meldungen_gesamt": 145,
  "llm_aktiv": false
 }
