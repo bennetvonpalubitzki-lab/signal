@@ -1,9 +1,9 @@
 {
- "stand": "2026-11-02T16:40",
- "lauf": "2026110216",
+ "stand": "2026-11-03T01:24",
+ "lauf": "2026110301",
  "synthese": {
-  "kern": "Globale Unsicherheit durch Cyber‑Risiken, Energiepreise und politische Spannungen, während Märkte Zins‑ und Liquiditätsdaten unterschätzen.",
-  "erlaeuterung": "Cyberangriffe destabilisieren Versorgungsketten, steigende Energiepreise belasten Konsum, und geopolitische Konflikte erhöhen das Risiko. Der Markt fokussiert sich auf Zinsentwicklung, vernachlässigt jedoch die kombinierten Auswirkungen von Sicherheitslücken und Rohstoffvolatilität."
+  "kern": "Technologie‑ und Sicherheitskrisen dominieren, während der Markt das steigende geopolitische und regulatorische Risiko unterschätzt.",
+  "erlaeuterung": "Cyberangriffe auf Kryptobörsen, Supermärkte und die Diskussion um KI zeigen wachsende Anfälligkeit kritischer Infrastrukturen. Gleichzeitig belasten steigende Zinsdruck, Energiepreise und politische Unsicherheiten die makroökonomische Stabilität, was von Anlegern kaum beachtet wird."
  },
  "regime": [
   {
@@ -11,15 +11,15 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 77,
-     "delta": -2
+     "wert": 78,
+     "delta": 0
     },
     "eur": {
      "wert": 90,
      "delta": -4
     }
    },
-   "differenz": 13
+   "differenz": 12
   },
   {
    "name": "wachstum",
@@ -36,23 +36,23 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 65,
-     "delta": 7
+     "wert": 63,
+     "delta": 5
     },
     "eur": {
-     "wert": 87,
-     "delta": -4
+     "wert": 86,
+     "delta": -5
     }
    },
-   "differenz": 22
+   "differenz": 23
   },
   {
    "name": "risikoappetit",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 26,
-     "delta": -4
+     "wert": 20,
+     "delta": -10
     }
    }
   },
@@ -61,15 +61,15 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 38,
-     "delta": -6
+     "wert": 37,
+     "delta": -7
     },
     "eur": {
      "wert": 4,
      "delta": 0
     }
    },
-   "differenz": 34
+   "differenz": 33
   },
   {
    "name": "geopolitik",
@@ -102,11 +102,41 @@
     "https://www.manager-magazin.de/unternehmen/banken/binance-kunden-ziehen-nach-kryptoraub-3-6-milliarden-dollar-ab-a-a5d57277-9dab-4dac-928a-af901e241f9c#ref=rss"
    ],
    "punkte": 19,
-   "text": "Bei Binance wurden Kryptowährungen im Wert von rund 6,3 Mrd. USD von mutmaßlichen nordkoreanischen Hackern entwendet. Der Vorfall verdeutlicht weiterhin die Anfälligkeit großer Kryptobörsen gegenüber staatlich unterstützten Angriffen.",
+   "text": "Nordkoreanische Hacker haben bei Binance Coins im Wert von 6,3 Mrd. $ gestohlen, was den jüngsten großen Diebstahl im Kryptobereich darstellt. Der Vorfall verdeutlicht anhaltende Sicherheitslücken bei Kryptobörsen.",
    "positiv": [],
    "negativ": [
-    "Kryptobörsen",
-    "Kryptocoins"
+    "Kryptobörsen (negativ)",
+    "Kryptowährungen (negativ)"
+   ]
+  },
+  {
+   "id": "d357da63",
+   "titel": "Anthropic macht vor Börsengang Milliardenverluste",
+   "anriss": "Die US-Firma Anthropic will in den kommenden Wochen an die Börse und veröffentlicht nun neue Geschäftszahlen. Der Umsatz ist zwar stark gestiegen, doch seit Jahresbeginn wurden Verluste von 104 Milliarden Dollar angehäuft.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "heise",
+    "manager magazin"
+   ],
+   "anzahl": 5,
+   "links": [
+    "https://www.spiegel.de/wirtschaft/anthropic-macht-vor-boersengang-milliardenverluste-a-de7f75ee-9284-4ae3-a433-8cc2d016df02#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-anthropic-meldet-kurz-vor-boersengang-umsatzplus-von-1100-prozent-faz-200452404.html",
+    "https://www.manager-magazin.de/unternehmen/anthropic-quartalsumsatz-steigt-vor-boersengang-um-1100-prozent-a-fc4a64e5-be83-4bce-838c-fcaf6189d871#ref=rss",
+    "https://www.heise.de/news/Boersenprospekt-104-Milliarden-Verlust-bei-Anthropic-11508595.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "https://www.heise.de/news/Claude-Code-Anthropic-verschaerft-Regeln-gegen-Spieleklone-11508349.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 18,
+   "text": "Anthropic veröffentlicht vor dem geplanten Börsengang stark gestiegene Umsätze, jedoch seit Jahresbeginn Verluste von 104 Mio. $ . Die Verlustentwicklung belastet die Bewertung des Unternehmens und das Interesse am AI‑IPO.",
+   "positiv": [
+    "AI‑Dienstleistungen (positiv)",
+    "Umsatzwachstum (positiv)"
+   ],
+   "negativ": [
+    "Anthropic Aktie (negativ)",
+    "AI‑Unternehmen (negativ)"
    ]
   },
   {
@@ -128,12 +158,40 @@
     "https://www.heise.de/news/Kuehlschraenke-in-Lebensmittellaeden-weiterer-Laender-geknackt-11507846.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
    "punkte": 16,
-   "text": "Cyberkriminelle haben in mehreren europäischen Supermärkten, insbesondere in Belgien und Schweden, Kühlschränke und Tiefkühltruhen manipuliert, wodurch die Kühlkette gestört wurde. Die Angriffe führten zu Betriebsunterbrechungen und potenziellen Lebensmittelverlusten.",
-   "positiv": [],
+   "text": "Cyberkriminelle haben in Belgien und Schweden Supermärkte angegriffen, wodurch Kühlgeräte überhitzt sind und der Betrieb teilweise stillstand. Die Angriffe zeigen die Anfälligkeit des europäischen Einzelhandels für Ransomware‑ und DDoS‑Bedrohungen.",
+   "positiv": [
+    "Cybersicherheitsfirmen (positiv)"
+   ],
    "negativ": [
-    "Einzelhandel (Supermärkte)",
-    "Kühlgeräte",
-    "Lebensmittelversorgung"
+    "Einzelhandel (Supermärkte) (negativ)"
+   ]
+  },
+  {
+   "id": "9b997417",
+   "titel": "Apple: iPhone-Geschäft treibt Umsatz auf Rekordniveau",
+   "anriss": "Die Erwartungen wurden noch übertroffen: Apple hat im vergangenen Quartal seinen Umsatz auf 114,5 Milliarden Dollar gesteigert, vor allem dank Smartphones. Mit seinem Ausblick enttäuscht der Konzern allerdings.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "heise",
+    "manager magazin"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.spiegel.de/wirtschaft/apple-iphone-geschaeft-treibt-umsatz-auf-rekordniveau-a-5709dfd3-fc74-4efb-a4b0-75c9e7929db7#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/trotz-faltbarem-iphone-apples-wachstum-schwaecht-sich-ab-201645589.html",
+    "https://www.manager-magazin.de/unternehmen/tech/apple-mit-q3-zahlen-beginnt-mit-iphone-duo-apples-abstieg-a-364ea4ed-59cf-40cc-b5fd-c2765e3afe44#ref=rss",
+    "https://www.heise.de/news/Face-ID-beim-iPhone-18-Pro-und-18-Pro-Max-Probleme-mit-der-Blickerkennung-11500219.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 16,
+   "text": "Apple hat im letzten Quartal einen Rekordumsatz von 114,5 Mrd. $ erzielt, getrieben vor allem vom iPhone‑Geschäft. Der Ausblick des Unternehmens bleibt jedoch hinter den Erwartungen zurück, was die Bewertung der Konkurrenz beeinflussen könnte.",
+   "positiv": [
+    "Apple (positiv)",
+    "Smartphone‑Markt (positiv)"
+   ],
+   "negativ": [
+    "Konkurrenten im Smartphone‑Segment (negativ)"
    ]
   },
   {
@@ -154,39 +212,9 @@
     "https://www.manager-magazin.de/politik/deutschland/spritpreisdeckel-gesetzentwurf-sieht-deckel-erst-ueber-eu-schnitt-vor-a-05b0c738-9de7-4ddf-b09f-7524f44b2e89#ref=rss"
    ],
    "punkte": 14,
-   "text": "Die von Ministerin Katharina Reiche erarbeitete Regelung für einen Spritpreisdeckel enthält sehr lockere Vorgaben, die voraussichtlich kaum wirksam sein werden. Damit bleibt mit steigenden Kraftstoffpreisen zu rechnen, was die Kosten für Autofahrer und die Automobilbranche belastet.",
+   "text": "Ministerin Katherina Reiche hat einen Spritpreisdeckel ausarbeiten lassen, der vermutlich nie greifen wird. Die Vorgaben sind so lax, dass an den Tankstellen weit über dem EU-Durchschnitt abkassiert werden kann.",
    "positiv": [],
-   "negativ": [
-    "Kraftstoffpreise",
-    "Automobilbranche",
-    "Verbraucher"
-   ]
-  },
-  {
-   "id": "ed5c848c",
-   "titel": "Neobroker: Digitalbank Nordnet stellt Pläne für den deutschen Markt vor",
-   "anriss": "Die schwedische Nordnet expandiert nach Deutschland – und trifft auf ein Marktumfeld mit intensivem Wettbewerb. Dennoch macht die Digitalbank etwas anders als die hiesige Konkurrenz.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "heise",
-    "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/banken-versicherungen/digitalbank-nordnet-stellt-plaene-fuer-den-deutschen-markt-vor/100266160.html",
-    "https://www.manager-magazin.de/politik/deutschland/digitalgipfel-in-berlin-oekonomen-fordern-tempo-bei-ki-und-digitaler-verwaltung-a-9db0bc2b-99b9-4d45-89a6-78838a266318#ref=rss",
-    "https://www.heise.de/news/Digitalgipfel-Minister-und-Industrie-hoffen-auf-KI-11507882.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 13,
-   "text": "Die schwedische Digitalbank Nordnet plant den Markteintritt in Deutschland und positioniert sich mit einem anderen Ansatz als die etablierten Neobroker. Während das Vorhaben Wachstumspotenzial für Nordnet bietet, erhöht es den Wettbewerbsdruck im deutschen Neobroker‑ und Online‑Bankensektor.",
-   "positiv": [
-    "Nordnet (Finanzdienstleistung)",
-    "Digitalbank‑Markt (Deutschland)"
-   ],
-   "negativ": [
-    "Wettbewerb im Neobroker‑Sektor"
-   ]
+   "negativ": []
   },
   {
    "id": "ad24ee4a",
@@ -210,69 +238,49 @@
    "negativ": []
   },
   {
-   "id": "7104c482",
-   "titel": "IG Metall weitet im Tarifstreit Warnstreiks aus",
-   "anriss": "Die ersten Fließbänder standen schon am Sonntag still, mit dem Wochenbeginn rollt in der Metall- und Elektroindustrie nun eine größere Streikwelle an. Nach der ergebnislosen zweiten Tarifrunde rief die IG Metall zu Arbeitsniederlegungen auf.",
-   "region": "dach",
-   "quellen": [
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/ig-metall-warnstreiks-120.html",
-    "https://www.spiegel.de/wirtschaft/metall-und-elektroindustrie-warnstreiks-der-ig-metall-sind-angelaufen-a-4e8ae251-bec3-4e9a-a09b-b32b0eca149c#ref=rss",
-    "https://www.manager-magazin.de/politik/deutschland/warnstreiks-der-ig-metall-haben-begonnen-a-fe500ffe-ed17-4f44-8eec-786cf5c00fa9#ref=rss"
-   ],
-   "punkte": 12,
-   "text": "Die ersten Fließbänder standen schon am Sonntag still, mit dem Wochenbeginn rollt in der Metall- und Elektroindustrie nun eine größere Streikwelle an. Nach der ergebnislosen zweiten Tarifrunde rief die IG Metall zu Arbei",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "dbc5712d",
-   "titel": "Schulden, Frust und Inflation – warum Demokratien scheitern",
-   "anriss": "Zu viele demokratische Staaten bekommen ihre Finanzen nicht in den Griff. Ein Krisensymptom, das auf tiefere Fehlfunktionen hinweist. Es gibt drei Szenarien, wie die Sache ausgehen könnte.",
-   "region": "dach",
-   "quellen": [
-    "heise",
-    "manager magazin"
-   ],
-   "anzahl": 2,
-   "links": [
-    "https://www.manager-magazin.de/politik/deutschland/schulden-frust-und-inflation-warum-demokratien-scheitern-a-72e92aa1-262c-43b4-8df7-0f03db6cf6a1#ref=rss",
-    "https://www.heise.de/news/KI-Agenten-bauen-Zivilisation-in-Minecraft-auf-und-verlieren-sich-in-Buerokratie-11507972.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 12,
-   "text": "Zu viele demokratische Staaten bekommen ihre Finanzen nicht in den Griff. Ein Krisensymptom, das auf tiefere Fehlfunktionen hinweist. Es gibt drei Szenarien, wie die Sache ausgehen könnte.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "c43de582",
-   "titel": "US-Börsen: US-Börsen erholen sich – steht der nächste Absturz bereits bevor?",
-   "anriss": "Nach dem Ausverkauf der vergangenen Woche sind Anleger etwas optimistischer. Doch direkt mehrere Ereignisse könnten die Börsen wieder ins Minus drücken.",
+   "id": "1fb2b0c5",
+   "titel": "US-Börsen: Wall Street schließt uneinheitlich – steht der nächste Absturz bevor?",
+   "anriss": "Nach dem Ausverkauf der vergangenen Woche sind Anleger etwas optimistischer. Doch gleich mehrere Ereignisse drücken die Börsen wieder ins Minus.",
    "region": "dach",
    "quellen": [
     "Handelsblatt Finanzen"
    ],
    "anzahl": 3,
    "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-wall-street-erholt-sich-steht-der-naechste-absturz-bevor/100266673.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-wall-street-schliesst-uneinheitlich-steht-der-naechste-absturz-bevor/100266673.html",
     "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/dax-die-boersenstimmung-steigt-doch-es-fehlt-das-geld-fuer-neue-kaeufe/100266183.html",
     "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sechs-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html"
    ],
    "punkte": 11,
-   "text": "Nach dem Ausverkauf der vergangenen Woche sind Anleger etwas optimistischer. Doch direkt mehrere Ereignisse könnten die Börsen wieder ins Minus drücken.",
+   "text": "Nach dem Ausverkauf der vergangenen Woche sind Anleger etwas optimistischer. Doch gleich mehrere Ereignisse drücken die Börsen wieder ins Minus.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "212aaccb",
+   "titel": "Digitalgipfel in Berlin: Ökonomen fordern Tempo bei KI und digitaler Verwaltung",
+   "anriss": "Zum Auftakt des Digitalgipfels in Berlin mahnen Ökonomen rasche Verbesserungen an. Die deutsche Hightech-Branche sei noch zu klein und die Verwaltung noch zu analog, um vom KI-Boom zu profitieren.",
+   "region": "dach",
+   "quellen": [
+    "heise",
+    "manager magazin"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.manager-magazin.de/politik/deutschland/digitalgipfel-in-berlin-oekonomen-fordern-tempo-bei-ki-und-digitaler-verwaltung-a-9db0bc2b-99b9-4d45-89a6-78838a266318#ref=rss",
+    "https://www.heise.de/news/Merz-Google-Cloud-ausreichend-souveraen-fuer-Nachrichtendienste-11508517.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "https://www.heise.de/news/Digitalgipfel-Minister-und-Industrie-hoffen-auf-KI-11507882.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 10,
+   "text": "Zum Auftakt des Digitalgipfels in Berlin mahnen Ökonomen rasche Verbesserungen an. Die deutsche Hightech-Branche sei noch zu klein und die Verwaltung noch zu analog, um vom KI-Boom zu profitieren.",
    "positiv": [],
    "negativ": []
   }
  ],
  "ketten": [],
  "gegenthese": {
-  "konsens": "Marktteilnehmer erwarten steigende Volatilität durch geopolitische Risiken, höhere Energiepreise und regulatorische Unsicherheiten; die US‑Aktien erholen sich, doch breitere Risiken bleiben dominant.",
-  "gegen": "Gegenargument: Datenlage zu vielen Themen ist dünn, kurzfristige US‑Börsenrallye könnte länger anhalten und Inflationsdruck könnte moderat bleiben."
+  "konsens": "Markt bewertet aktuelle Risiken als hoch, zeigt Risikoaversion, Aktien volatil, Zins‑ und Inflationsängste dominieren, geopolitische Spannungen belasten.",
+  "gegen": "Gegenargument: Solide Unternehmensgewinne, starke Konsumausgaben und anhaltende Geldpolitik‑Lockerung könnten die Stimmung schnell verbessern."
  },
  "matrix": [
   {
@@ -389,7 +397,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "111.0 Mrd"
+     "110.6 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -426,12 +434,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Das Unternehmen verzeichnet ein starkes Umsatzwachstum von +18 % und deckt mit Gas‑, Turbinen‑ und Grid‑Technologien mehrere Marktsegmente ab. Das KGV von 20,8 liegt im Branchendurchschnitt, und 21 Analysten empfehlen Kauf, was auf positive Erwartungen hindeutet.",
-   "dagegen": "Trotz des Kauf‑Consensus gibt es nur geringe Aufmerksamkeit in Newslettern (ein Cluster) und kaum Reddit‑Diskussion, was auf begrenzte Markt‑Transparenz schließen lässt. Fehlende Insider‑Meldungen und das Fehlen von Short‑Positionen können Unsicherheit über die Bewertung signalisieren. Zudem bestehen Risiken bei Wind‑Turbinen‑Lieferungen.",
+   "dafuer": "Die Analystenmeinung ist eindeutig positiv: 21 Kauf‑Empfehlungen gegenüber 4 Halten und 3 Verkaufen. Das Umsatzwachstum von +18 % und ein KGV von 20,8 deuten auf solide Ertragskraft hin. Die Marktkapitalisierung von 110,6 Mrd € unterstreicht die Größe des Unternehmens. Widerspruch: Trotz 21 Kauf‑Empfehlungen fehlt breitere Markt‑Aufmerksamkeit.",
+   "dagegen": "Gegen das Bild spricht die geringe Marktpräsenz in öffentlichen Diskussionen: Reddit erwähnt das Unternehmen kaum, und nur ein Newsletter‑Cluster berichtet. Das KGV von 20,8 könnte im Vergleich zu Wettbewerbern überbewertet sein. Fehlende Insider‑Informationen und keine Short‑Positionen lassen Unsicherheit über zukünftige Kursentwicklungen bestehen.",
    "katalysatoren": [
-    "Abschluss eines Großauftrags für Gasturbinen im ersten Quartal 2027",
-    "Start der neuen Digital‑Service‑Plattform für Anlagenoptimierung im dritten Quartal 2024",
-    "Lieferung der nächsten Siemens‑Gamesa Offshore‑Windanlagen ab viertem Quartal 2024"
+    "Inbetriebnahme der neuen 15 MW‑Gasturbine (Q4 2026)",
+    "Ausbau des Grid‑Technologies‑Segments durch EU‑Förderprogramme (2025‑2026)",
+    "Auftrag für Offshore‑Windanlagen von Siemens Gamesa (2025)"
    ]
   },
   "RHM.DE": {
@@ -442,11 +450,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "46.4 Mrd"
+     "46.7 Mrd"
     ],
     [
      "KGV (erw.)",
-     "18,8"
+     "18,9"
     ],
     [
      "Umsatzwachstum",
@@ -479,12 +487,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Rheinmetall verzeichnet ein starkes Umsatzwachstum von +69 % und ein moderates KGV von 18,8, was auf solide Ertragskraft hinweist. Die breite Produktpalette in Fahrzeug‑, Waffen‑ und Elektronik‑Segmenten diversifiziert das Risiko. Analysten‑Consensus mit 17 Kauf‑Ratings und keine Short‑Positionen stärken das Bild.",
-   "dagegen": "Das Unternehmen ist stark von staatlichen Rüstungsbudgets abhängig; bei Kürzungen drohen Auftragsrückgänge. Das KGV von 18,8 liegt über dem Branchendurchschnitt, was die Bewertung hoch erscheinen lässt. Fehlende Insider‑Transaktionen und kaum öffentliche Diskussionen (Reddit, Newsletter) könnten auf Unsicherheit hinweisen.",
+   "dafuer": "Rheinmetall verzeichnet ein starkes Umsatzwachstum von +69 % und ein moderates KGV von 18,9, was im Vergleich zu vielen Rüstungs‑Peers attraktiv erscheint. Die Analysten‑Stimmung ist eindeutig bullish (17 Buy, 4 Hold, 0 Sell). Das Unternehmen profitiert von einer breiten Produktpalette in Fahrzeug‑, Waffen‑ und Elektronik‑Segmenten sowie von steigenden Verteidigungsausgaben in Europa und den USA.",
+   "dagegen": "Die Bewertung bleibt hoch; ein Kursziel von 1.552 € impliziert weiteres starkes Gewinnwachstum, das schwer zu sichern ist. Rheinmetall ist stark von staatlichen Rüstungsetats abhängig, wodurch politische Entscheidungen und Haushaltskürzungen das Ergebnis stark beeinflussen können. Fehlende Insider‑Transaktionen und das Fehlen von Short‑Positionen geben wenig Hinweis auf Markt‑Skepsis, könnten aber auch auf geringe Liquidität hindeuten.",
    "katalysatoren": [
-    "Zusage großer Rüstungsaufträge, z. B. für die Bundeswehr",
-    "Markteinführung neuer elektrischer Antriebssysteme für Militärfahrzeuge",
-    "Veröffentlichung der Q3‑2024‑Ergebnisse (Umsatz, Auftragseingang, Gewinn)"
+    "Beschluss des deutschen Verteidigungsministeriums zu zusätzlichen Mittel für die Beschaffung von Panzer‑ und Fahrzeugplattformen (2024/25)",
+    "Auslieferung und Inbetriebnahme neuer Fahrzeugprogramme (z. B. Puma‑Nachfolge, Boxer‑Modernisierung) im dritten Quartal 2024",
+    "Quartalsbericht des Electronic‑Solutions‑Segments, insbesondere Ergebnisse aus Digital‑ und Cyber‑Vertragsgewinnen"
    ]
   },
   "ASML.AS": {
@@ -495,11 +503,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "543.9 Mrd"
+     "542.7 Mrd"
     ],
     [
      "KGV (erw.)",
-     "25,1"
+     "25,0"
     ],
     [
      "Umsatzwachstum",
@@ -532,9 +540,13 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "ASML erzielt ein starkes Umsatzwachstum von +55 % und dominiert den EUV‑Lithographiesektor. Analysten‑Consensus ist überwiegend positiv (38 Buy, 2 Hold, 1 Sell) und das Kursziel von 2.097 EUR liegt über dem aktuellen Kurs, was Aufwärtspotenzial signalisiert.",
+   "dagegen": "Das Unternehmen wird mit einem KGV von 25 als relativ hoch bewertet angesehen; die Nachfrage nach Halbleitern ist konjunkturell und kann schwanken. Trotz breiter Kaufempfehlungen gibt es einen widersprüchlichen Verkaufsempfehlung (1 Sell), was auf Bewertungs‑ oder Risikobedenken hindeutet.",
+   "katalysatoren": [
+    "Markteinführung des nächsten High‑NA EUV‑Systems im nächsten Geschäftsjahr",
+    "Großaufträge von Schlüssel­kunden wie TSMC oder Samsung",
+    "Quartalsbericht mit möglicher Umsatz‑ und Gewinn‑Überraschung"
+   ]
   },
   "SU.PA": {
    "ticker": "SU.PA",
@@ -544,7 +556,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "141.7 Mrd"
+     "141.4 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -566,7 +578,7 @@
     ],
     [
      "Newsletter",
-     "in 10 Clustern"
+     "in 11 Clustern"
     ],
     [
      "Reddit",
@@ -581,13 +593,9 @@
      "1648,06 % ueber 1700 Halter"
     ]
    ],
-   "dafuer": "Dafür spricht die überwiegende Analystenmeinung (19 Kauf, 4 Halten), ein robustes Umsatzwachstum von 10 % und ein moderates KGV von 19,1, das im Branchenvergleich attraktiv erscheint. Das breit gefächerte Portfolio in Energie‑Management, Industrieautomation und erneuerbaren Lösungen stärkt die Marktposition.",
-   "dagegen": "Dagegen steht das extrem hohe Short‑Interest von über 1.600 % bei rund 1.700 Aktionären, was im Widerspruch zur positiven Analystenmeinung steht. Fehlende Insider‑Meldungen und geringe Diskussionen auf Reddit deuten auf Unsicherheit hin. Das Kursziel von 323 € impliziert eine erhebliche Aufwärtsbewertung, die nicht eindeutig belegt ist.",
-   "katalysatoren": [
-    "Veröffentlichung des Quartalsberichts (voraussichtlich Ende Q4 2026)",
-    "Markteinführung einer neuen Microgrid‑Lösung für industrielle Kunden",
-    "Mögliche Übernahme eines europäischen Solar‑Installationsunternehmens"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "GEV": {
    "ticker": "GEV",
@@ -597,11 +605,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "234.1 Mrd"
+     "228.2 Mrd"
     ],
     [
      "KGV (erw.)",
-     "34,2"
+     "33,3"
     ],
     [
      "Umsatzwachstum",
@@ -609,7 +617,7 @@
     ],
     [
      "Kursziel",
-     "1191 USD"
+     "1189 USD"
     ]
    ],
    "quellen": [
@@ -646,11 +654,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "33.2 Mrd"
+     "32.0 Mrd"
     ],
     [
      "KGV (erw.)",
-     "42,1"
+     "41,2"
     ],
     [
      "Umsatzwachstum",
@@ -658,7 +666,7 @@
     ],
     [
      "Kursziel",
-     "124 USD"
+     "121 USD"
     ]
    ],
    "quellen": [
@@ -695,11 +703,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "93.0 Mrd"
+     "90.4 Mrd"
     ],
     [
      "KGV (erw.)",
-     "15,1"
+     "14,7"
     ],
     [
      "Umsatzwachstum",
@@ -744,11 +752,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "4.991.3 Mrd"
+     "4.879.1 Mrd"
     ],
     [
      "KGV (erw.)",
-     "13,0"
+     "12,7"
     ],
     [
      "Umsatzwachstum",
@@ -787,6 +795,15 @@
   }
  },
  "shorts": [
+  {
+   "land": "NL",
+   "halter": "Two Sigma Investments, LP",
+   "emittent": "Alfen N.V.",
+   "prozent": 0.71,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
   {
    "land": "UK",
    "halter": "Anavio Capital Partners LLP",
@@ -1047,19 +1064,10 @@
    "datum": "2019-06-07",
    "status": "aufgestockt",
    "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 13.5,
-   "datum": "2019-06-06",
-   "status": "aufgestockt",
-   "zuvor": 0.53
   }
  ],
  "shorts_kennzahlen": {
-  "neu_diese_woche": 0,
+  "neu_diese_woche": 1,
   "meistgeshortet": {
    "name": "Premier Oil PLC",
    "summe": 2145.63
@@ -1072,14 +1080,6 @@
  },
  "gespraech": [],
  "termine": [
-  {
-   "datum": "2026-11-02",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
   {
    "datum": "2026-11-03",
    "zeit": "",
@@ -1167,8 +1167,16 @@
    "was": "FOMC Press Release",
    "konsens": "",
    "wucht": "hoch"
+  },
+  {
+   "datum": "2026-11-10",
+   "zeit": "",
+   "region": "us",
+   "was": "Research Consumer Price Index",
+   "konsens": "",
+   "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 145,
+ "meldungen_gesamt": 151,
  "llm_aktiv": false
 }
