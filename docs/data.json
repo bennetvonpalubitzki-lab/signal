@@ -1,9 +1,9 @@
 {
- "stand": "2026-11-03T01:24",
- "lauf": "2026110301",
+ "stand": "2026-11-03T12:11",
+ "lauf": "2026110312",
  "synthese": {
-  "kern": "Technologie‑ und Sicherheitskrisen dominieren, während der Markt das steigende geopolitische und regulatorische Risiko unterschätzt.",
-  "erlaeuterung": "Cyberangriffe auf Kryptobörsen, Supermärkte und die Diskussion um KI zeigen wachsende Anfälligkeit kritischer Infrastrukturen. Gleichzeitig belasten steigende Zinsdruck, Energiepreise und politische Unsicherheiten die makroökonomische Stabilität, was von Anlegern kaum beachtet wird."
+  "kern": "Der Tag ist von geopolitischer Unsicherheit und unterschätzten Cyber‑ und Strukturrisiken geprägt.",
+  "erlaeuterung": "Während Anleger US‑Wahlen und Wachstum im Blick haben, verdecken Cyberangriffe, Unternehmensumbauten und technologische Spannungen die wahre Risiko‑Lage. Die Marktstimmung bleibt zu optimistisch, weil strukturelle Schwächen und digitale Bedrohungen kaum in Preisbildung einfließen."
  },
  "regime": [
   {
@@ -36,23 +36,23 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 63,
-     "delta": 5
+     "wert": 64,
+     "delta": 4
     },
     "eur": {
-     "wert": 86,
-     "delta": -5
+     "wert": 91,
+     "delta": -6
     }
    },
-   "differenz": 23
+   "differenz": 27
   },
   {
    "name": "risikoappetit",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 20,
-     "delta": -10
+     "wert": 19,
+     "delta": -14
     }
    }
   },
@@ -76,38 +76,144 @@
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 79,
-     "delta": -2
+     "wert": 78,
+     "delta": -4
     }
    }
   }
  ],
  "cluster": [
   {
-   "id": "ea2dc524",
-   "titel": "Binance: Warum Nordkoreas Hacker der Kryptobranche immer einen Schritt voraus sind",
-   "anriss": "Nordkoreanische Hacker beweisen erneut ihre Exzellenz: Bei der Kryptobörse Binance stahlen sie Coins im Wert von 6,3 Milliarden Dollar. Es dürfte nicht der letzte Fall dieser Art sein.",
+   "id": "8f44443f",
+   "titel": "Kospi und CSI 300: US-Wahlen im Fokus – Anleger in Asien agieren vorsichtig",
+   "anriss": "Anleger zeigen sich vor den Zwischenwahlen in den USA sowie weiteren Quartalszahlen großer US-Tech-Konzerne zurückhaltend. Die Aktien der Chip-Hersteller verlieren.",
    "region": "dach",
    "quellen": [
     "Handelsblatt Finanzen",
+    "Tagesschau Wirtschaft"
+   ],
+   "anzahl": 6,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/kospi-und-csi-300-us-wahlen-im-fokus-anleger-in-asien-agieren-vorsichtig/100266822.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-unter-26.000-punkten-dax-notiert-vor-us-midterms-im-minus/100266854.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sechs-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-im-plus-oel-und-gaspreise-fallen/100266531.html",
+    "https://www.handelsblatt.com/finanzen/anlagestrategie/kolumnen/geldanlage-ein-politisches-patt-in-den-usa-waere-fuer-anleger-eine-gute-nachricht/100266185.html"
+   ],
+   "punkte": 21,
+   "text": "Der südkoreanische Kospi und der chinesische CSI 300 handeln vor den US-Zwischenwahlen und den Quartalszahlen großer US‑Tech‑Konzerne vorsichtig. Die Kurse von Halbleiter‑ und Chip‑Herstellern verlieren dabei an Wert.",
+   "positiv": [],
+   "negativ": [
+    "Halbleiter‑/Chip‑Hersteller (fallend)",
+    "Kospi (leicht fallend)",
+    "CSI 300 (leicht fallend)"
+   ]
+  },
+  {
+   "id": "16e09184",
+   "titel": "Kahlschlag bei Schaeffler: Stellenabbau und Standortschließungen",
+   "anriss": "Die Krise der deutschen Autoindustrie lässt Schaeffler zu drastischen Maßnahmen greifen. Tausende Stellen werden gestrichen. In Deutschland stehen vier Werke vor dem Aus.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft",
+    "heise",
     "manager magazin"
    ],
    "anzahl": 5,
    "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/warum-nordkoreas-hacker-der-kryptobranche-immer-einen-schritt-voraus-sind/100266555.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/boerse-inside/binance-kunden-ziehen-nach-hackerangriff-milliarden-ab/100266622.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/binance-fbi-sieht-nordkoreanische-hacker-hinter-krypto-diebstahl/100266403.html",
-    "https://www.tagesschau.de/wirtschaft/finanzen/binance-kundengelder-100.html",
-    "https://www.manager-magazin.de/unternehmen/banken/binance-kunden-ziehen-nach-kryptoraub-3-6-milliarden-dollar-ab-a-a5d57277-9dab-4dac-928a-af901e241f9c#ref=rss"
+    "https://www.tagesschau.de/wirtschaft/unternehmen/schaeffler-154.html",
+    "https://www.spiegel.de/wirtschaft/unternehmen/schaeffler-baut-tausende-stellen-ab-und-schliesst-vier-deutsche-werke-a-d8d594dc-cc55-4a16-9ece-e3c76fcf22b3#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/schaeffler-streicht-3-460-stellen-und-fordert-gehaltsverzicht-accg-201646727.html",
+    "https://www.manager-magazin.de/unternehmen/mobilitaet/schaeffler-schliesst-vier-werke-und-streicht-3400-jobs-a-0b698887-1845-4bd2-b255-1f4fe0a76f11#ref=rss",
+    "https://www.heise.de/news/Schaeffler-streicht-3460-Stellen-und-schliesst-vier-deutsche-Standorte-11508878.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
-   "punkte": 19,
-   "text": "Nordkoreanische Hacker haben bei Binance Coins im Wert von 6,3 Mrd. $ gestohlen, was den jüngsten großen Diebstahl im Kryptobereich darstellt. Der Vorfall verdeutlicht anhaltende Sicherheitslücken bei Kryptobörsen.",
+   "punkte": 20,
+   "text": "Schaeffler kündigt im Zuge der Krise der deutschen Automobilindustrie den Abbau von mehreren tausend Stellen und die Schließung von vier Werken in Deutschland an. Die Ankündigung belastet die Schaeffler‑Aktie und das Umfeld der deutschen Automobilzulieferer.",
    "positiv": [],
    "negativ": [
-    "Kryptobörsen (negativ)",
-    "Kryptowährungen (negativ)"
+    "Schaeffler‑Aktie (fallend)",
+    "Deutsche Automobilzulieferer (fallend)"
    ]
+  },
+  {
+   "id": "ba5ea98f",
+   "titel": "Starkes iPhone-Geschäft sorgt für Rekordumsatz bei Apple",
+   "anriss": "Apple hat unter dem neuen Konzernchef John Ternus ‌die Erwartungen von Börsenprofis übertroffen. Der iPhone-Umsatz und die Konzernerlöse haben im dritten Quartal Rekordwerte erreicht. Die Aktie fällt trotzdem.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "heise",
+    "manager magazin"
+   ],
+   "anzahl": 5,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/unternehmen/apple-rekordumsatz-100.html",
+    "https://www.spiegel.de/wirtschaft/apple-iphone-geschaeft-treibt-umsatz-auf-rekordniveau-a-5709dfd3-fc74-4efb-a4b0-75c9e7929db7#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/trotz-faltbarem-iphone-wachstum-von-apple-schwaecht-sich-ab-201645589.html",
+    "https://www.manager-magazin.de/unternehmen/tech/apple-mit-q3-zahlen-beginnt-mit-iphone-duo-apples-abstieg-a-364ea4ed-59cf-40cc-b5fd-c2765e3afe44#ref=rss",
+    "https://www.heise.de/news/Apple-Zahlen-Umsatzwachstum-China-Enttaeuschung-und-ein-stolzer-John-Ternus-11508633.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 20,
+   "text": "Apple meldet im dritten Quartal Rekordumsätze dank starkem iPhone‑Verkauf und übertrifft damit die Erwartungen der Analysten. Trotz des Gewinn‑Beats fällt die Apple‑Aktie am Handelstag.",
+   "positiv": [
+    "Apple‑Umsatz (steigend)",
+    "iPhone‑Verkauf (steigend)"
+   ],
+   "negativ": [
+    "Apple‑Aktie (fallend)"
+   ]
+  },
+  {
+   "id": "f911c865",
+   "titel": "Was Polens Wirtschaft boomen lässt",
+   "anriss": "Jahrzehntelang galt Polen als der arme Nachbar im Osten. Ein längst veraltetes Klischee: Die polnische Wirtschaft wächst stark - was viele Menschen aus Deutschland anlockt. Von Christiane Cichy.",
+   "region": "dach",
+   "quellen": [
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft"
+   ],
+   "anzahl": 6,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/weltwirtschaft/polen-boom-wirtschaftswunder-100.html",
+    "https://www.tagesschau.de/wirtschaft/weltwirtschaft/zwischenstand-us-wirtschaft-entwicklung-100.html",
+    "https://www.tagesschau.de/video/video-1676936.html",
+    "https://www.tagesschau.de/multimedia/sendung/tagesschau24/boerselive/video-1677148.html",
+    "https://www.spiegel.de/wirtschaft/wirtschaftspolitischer-kurs-warum-deutschland-politisch-rechts-wirtschaftlich-links-tickt-a-7eeed536-37bc-4baa-8f44-9c22738dd603#ref=rss"
+   ],
+   "punkte": 16,
+   "text": "Polens Wirtschaft wächst deutlich schneller als in den Vorjahren und verliert das Bild des armen Nachbarn. Das Wachstum zieht vermehrt deutsche Fachkräfte und Investoren an, insbesondere in Immobilien und Dienstleistungen.",
+   "positiv": [
+    "Polnische Wirtschaft (steigend)",
+    "Polnischer Immobilienmarkt (steigend)",
+    "Dienstleistungssektor Polen (steigend)"
+   ],
+   "negativ": []
+  },
+  {
+   "id": "c51c1e86",
+   "titel": "Cyberangriffe auf Kühlanlagen auch in deutschen Supermärkten",
+   "anriss": "Statt fünf waren es plötzlich 50 Grad: In der Nacht haben Hacker in mehreren Supermärkten die Kühlanlagen umgestellt. Große Mengen an Lebensmitteln mussten entsorgt werden. Ähnliche Cyberangriffe gab es auch in anderen Ländern.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "heise"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/digitales/cyberangriffe-supermarkt-hacker-100.html",
+    "https://www.tagesschau.de/wirtschaft/technologie/cyberangriff-supermaerkte-100.html",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/rewe-und-edeka-hacker-greifen-auch-kuehltruhen-in-deutschen-supermaerkten-an-accg-201647352.html",
+    "https://www.heise.de/news/Cyberangriffe-auf-Kuehlschraenke-Erste-deutsche-Faelle-in-Bayern-und-NRW-11508922.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 14,
+   "text": "Statt fünf waren es plötzlich 50 Grad: In der Nacht haben Hacker in mehreren Supermärkten die Kühlanlagen umgestellt. Große Mengen an Lebensmitteln mussten entsorgt werden. Ähnliche Cyberangriffe gab es auch in anderen L",
+   "positiv": [],
+   "negativ": []
   },
   {
    "id": "d357da63",
@@ -115,111 +221,47 @@
    "anriss": "Die US-Firma Anthropic will in den kommenden Wochen an die Börse und veröffentlicht nun neue Geschäftszahlen. Der Umsatz ist zwar stark gestiegen, doch seit Jahresbeginn wurden Verluste von 104 Milliarden Dollar angehäuft.",
    "region": "dach",
    "quellen": [
-    "FAZ Wirtschaft",
     "SPIEGEL Wirtschaft",
     "heise",
     "manager magazin"
    ],
-   "anzahl": 5,
+   "anzahl": 4,
    "links": [
     "https://www.spiegel.de/wirtschaft/anthropic-macht-vor-boersengang-milliardenverluste-a-de7f75ee-9284-4ae3-a433-8cc2d016df02#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-anthropic-meldet-kurz-vor-boersengang-umsatzplus-von-1100-prozent-faz-200452404.html",
     "https://www.manager-magazin.de/unternehmen/anthropic-quartalsumsatz-steigt-vor-boersengang-um-1100-prozent-a-fc4a64e5-be83-4bce-838c-fcaf6189d871#ref=rss",
-    "https://www.heise.de/news/Boersenprospekt-104-Milliarden-Verlust-bei-Anthropic-11508595.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-    "https://www.heise.de/news/Claude-Code-Anthropic-verschaerft-Regeln-gegen-Spieleklone-11508349.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 18,
-   "text": "Anthropic veröffentlicht vor dem geplanten Börsengang stark gestiegene Umsätze, jedoch seit Jahresbeginn Verluste von 104 Mio. $ . Die Verlustentwicklung belastet die Bewertung des Unternehmens und das Interesse am AI‑IPO.",
-   "positiv": [
-    "AI‑Dienstleistungen (positiv)",
-    "Umsatzwachstum (positiv)"
-   ],
-   "negativ": [
-    "Anthropic Aktie (negativ)",
-    "AI‑Unternehmen (negativ)"
-   ]
-  },
-  {
-   "id": "c230d5e1",
-   "titel": "Cyberangriffe haben Supermärkte in Europa offenbar lahmgelegt",
-   "anriss": "Cyberkriminelle haben offenbar wieder Supermärkte angegriffen. Sie sorgten besonders in Belgien und Schweden dafür, dass Kühlschränke und Tiefkühltruhen wärmer wurden. Es ist nicht das erste Mal.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "heise",
-    "manager magazin"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/technologie/cyberangriff-supermaerkte-100.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/cyberangriffe-auf-supermaerkte-in-belgien-und-schweden-accg-201643770.html",
-    "https://www.manager-magazin.de/unternehmen/handel/kuehlsysteme-in-europaeischen-supermaerkten-gestoert-a-c8c13bef-a52e-4eb1-b600-b4ec7b13c1ee#ref=rss",
-    "https://www.heise.de/news/Kuehlschraenke-in-Lebensmittellaeden-weiterer-Laender-geknackt-11507846.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 16,
-   "text": "Cyberkriminelle haben in Belgien und Schweden Supermärkte angegriffen, wodurch Kühlgeräte überhitzt sind und der Betrieb teilweise stillstand. Die Angriffe zeigen die Anfälligkeit des europäischen Einzelhandels für Ransomware‑ und DDoS‑Bedrohungen.",
-   "positiv": [
-    "Cybersicherheitsfirmen (positiv)"
-   ],
-   "negativ": [
-    "Einzelhandel (Supermärkte) (negativ)"
-   ]
-  },
-  {
-   "id": "9b997417",
-   "titel": "Apple: iPhone-Geschäft treibt Umsatz auf Rekordniveau",
-   "anriss": "Die Erwartungen wurden noch übertroffen: Apple hat im vergangenen Quartal seinen Umsatz auf 114,5 Milliarden Dollar gesteigert, vor allem dank Smartphones. Mit seinem Ausblick enttäuscht der Konzern allerdings.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "heise",
-    "manager magazin"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.spiegel.de/wirtschaft/apple-iphone-geschaeft-treibt-umsatz-auf-rekordniveau-a-5709dfd3-fc74-4efb-a4b0-75c9e7929db7#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/trotz-faltbarem-iphone-apples-wachstum-schwaecht-sich-ab-201645589.html",
-    "https://www.manager-magazin.de/unternehmen/tech/apple-mit-q3-zahlen-beginnt-mit-iphone-duo-apples-abstieg-a-364ea4ed-59cf-40cc-b5fd-c2765e3afe44#ref=rss",
-    "https://www.heise.de/news/Face-ID-beim-iPhone-18-Pro-und-18-Pro-Max-Probleme-mit-der-Blickerkennung-11500219.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 16,
-   "text": "Apple hat im letzten Quartal einen Rekordumsatz von 114,5 Mrd. $ erzielt, getrieben vor allem vom iPhone‑Geschäft. Der Ausblick des Unternehmens bleibt jedoch hinter den Erwartungen zurück, was die Bewertung der Konkurrenz beeinflussen könnte.",
-   "positiv": [
-    "Apple (positiv)",
-    "Smartphone‑Markt (positiv)"
-   ],
-   "negativ": [
-    "Konkurrenten im Smartphone‑Segment (negativ)"
-   ]
-  },
-  {
-   "id": "dd8427b2",
-   "titel": "Spritpreisdeckel: Autofahrern droht Preisschub zum Jahreswechsel",
-   "anriss": "Ministerin Katherina Reiche hat einen Spritpreisdeckel ausarbeiten lassen, der vermutlich nie greifen wird. Die Vorgaben sind so lax, dass an den Tankstellen weit über dem EU-Durchschnitt abkassiert werden kann.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.spiegel.de/wirtschaft/service/spritpreisdeckel-wirkungsloser-deckel-koennte-preisschub-zum-jahreswechsel-bringen-a-b34ba65b-5d0b-437e-8c0c-82864c2d7955#ref=rss",
-    "https://www.spiegel.de/wirtschaft/katherina-reiche-cdu-formuliert-erste-plaene-fuer-spritpreisdeckel-a-f41e4366-d70a-485a-959b-f5d16256e46a#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/auto-verkehr/ein-spritpreisdeckel-den-reiche-eigentlich-ablehnt-201643781.html",
-    "https://www.manager-magazin.de/politik/deutschland/spritpreisdeckel-gesetzentwurf-sieht-deckel-erst-ueber-eu-schnitt-vor-a-05b0c738-9de7-4ddf-b09f-7524f44b2e89#ref=rss"
+    "https://www.heise.de/news/Anthropic-KI-koennte-ihre-eigene-Entwicklung-bald-drastisch-beschleunigen-11509328.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "https://www.heise.de/news/Anthropic-zeigt-Selbst-Imker-Ratschlaege-koennen-KI-Fehlverhalten-ausloesen-11508623.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
    "punkte": 14,
-   "text": "Ministerin Katherina Reiche hat einen Spritpreisdeckel ausarbeiten lassen, der vermutlich nie greifen wird. Die Vorgaben sind so lax, dass an den Tankstellen weit über dem EU-Durchschnitt abkassiert werden kann.",
+   "text": "Die US-Firma Anthropic will in den kommenden Wochen an die Börse und veröffentlicht nun neue Geschäftszahlen. Der Umsatz ist zwar stark gestiegen, doch seit Jahresbeginn wurden Verluste von 104 Milliarden Dollar angehäuf",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "ad24ee4a",
-   "titel": "Vor den US-Zwischenwahlen: Wie ist Trumps Wirtschaftsbilanz?",
-   "anriss": "Die Wirtschaft wächst, doch viele Amerikaner leiden unter hohen Lebenshaltungskosten. Der US-Arbeitsmarkt verliert an Schwung, die Staatsverschuldung steigt. Wie steht es um die Wirtschaft der Vereinigten Staaten? Von Michelle Goddemeier.",
+   "id": "5be07cc4",
+   "titel": "Cyberangriff: Diese Folgen hat der Binance-Hack für die Kryptowelt – die fünf wichtigsten Antworten",
+   "anriss": "Die Preise für den Bitcoin und andere Digitalwährungen haben sich nach dem größten Krypto-Diebstahl aller Zeiten wieder normalisiert. Doch wer entschädigt die betroffenen Kunden?",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "Tagesschau Wirtschaft",
+    "heise"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/kryptowaehrungen-diese-folgen-hat-der-binance-hack-fuer-bitcoin-ether-und-co./100266746.html",
+    "https://www.tagesschau.de/wirtschaft/finanzen/binance-kundengelder-100.html",
+    "https://www.heise.de/news/Milliardenschwerer-Diebstahl-bei-Binance-Nordkorea-weist-Vorwuerfe-zurueck-11508785.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 13,
+   "text": "Die Preise für den Bitcoin und andere Digitalwährungen haben sich nach dem größten Krypto-Diebstahl aller Zeiten wieder normalisiert. Doch wer entschädigt die betroffenen Kunden?",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "681a0278",
+   "titel": "Bundesnetzagentur fördert den Bau elf neuer Gaskraftwerke",
+   "anriss": "Die Bundesnetzagentur vergibt erstmals eine Förderung für neue Gas-Reservekraftwerke. In Brandenburg, NRW und Sachsen sind die meisten Projekte geplant. Mehrere Unternehmen profitieren.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
@@ -228,59 +270,20 @@
    ],
    "anzahl": 3,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/weltwirtschaft/zwischenstand-us-wirtschaft-entwicklung-100.html",
-    "https://www.spiegel.de/wirtschaft/wirtschaft-in-den-usa-wo-amerika-deutschland-beim-wachstum-ueberholt-a-bd92e004-087f-482f-a7e9-fd122df22a7a#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/us-midterms-2026-was-donald-trump-zur-halbzeit-wirklich-erreicht-hat-201625540.html"
+    "https://www.tagesschau.de/wirtschaft/energie/bundesnetzagentur-gaskraftwerke-100.html",
+    "https://www.spiegel.de/wirtschaft/unternehmen/leag-bekommt-zuschlag-fuer-alte-kohlekraftwerke-a-6742bd40-c723-40aa-b15a-005d8206b82b#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/bundesnetzagentur-rwe-leag-und-stadtwerke-karlsruhe-erhalten-milliarden-fuer-neue-kraftwerke-accg-201646252.html"
    ],
    "punkte": 12,
-   "text": "Die Wirtschaft wächst, doch viele Amerikaner leiden unter hohen Lebenshaltungskosten. Der US-Arbeitsmarkt verliert an Schwung, die Staatsverschuldung steigt. Wie steht es um die Wirtschaft der Vereinigten Staaten? Von Mi",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "1fb2b0c5",
-   "titel": "US-Börsen: Wall Street schließt uneinheitlich – steht der nächste Absturz bevor?",
-   "anriss": "Nach dem Ausverkauf der vergangenen Woche sind Anleger etwas optimistischer. Doch gleich mehrere Ereignisse drücken die Börsen wieder ins Minus.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-wall-street-schliesst-uneinheitlich-steht-der-naechste-absturz-bevor/100266673.html",
-    "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/dax-die-boersenstimmung-steigt-doch-es-fehlt-das-geld-fuer-neue-kaeufe/100266183.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sechs-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html"
-   ],
-   "punkte": 11,
-   "text": "Nach dem Ausverkauf der vergangenen Woche sind Anleger etwas optimistischer. Doch gleich mehrere Ereignisse drücken die Börsen wieder ins Minus.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "212aaccb",
-   "titel": "Digitalgipfel in Berlin: Ökonomen fordern Tempo bei KI und digitaler Verwaltung",
-   "anriss": "Zum Auftakt des Digitalgipfels in Berlin mahnen Ökonomen rasche Verbesserungen an. Die deutsche Hightech-Branche sei noch zu klein und die Verwaltung noch zu analog, um vom KI-Boom zu profitieren.",
-   "region": "dach",
-   "quellen": [
-    "heise",
-    "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.manager-magazin.de/politik/deutschland/digitalgipfel-in-berlin-oekonomen-fordern-tempo-bei-ki-und-digitaler-verwaltung-a-9db0bc2b-99b9-4d45-89a6-78838a266318#ref=rss",
-    "https://www.heise.de/news/Merz-Google-Cloud-ausreichend-souveraen-fuer-Nachrichtendienste-11508517.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-    "https://www.heise.de/news/Digitalgipfel-Minister-und-Industrie-hoffen-auf-KI-11507882.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 10,
-   "text": "Zum Auftakt des Digitalgipfels in Berlin mahnen Ökonomen rasche Verbesserungen an. Die deutsche Hightech-Branche sei noch zu klein und die Verwaltung noch zu analog, um vom KI-Boom zu profitieren.",
+   "text": "Die Bundesnetzagentur vergibt erstmals eine Förderung für neue Gas-Reservekraftwerke. In Brandenburg, NRW und Sachsen sind die meisten Projekte geplant. Mehrere Unternehmen profitieren.",
    "positiv": [],
    "negativ": []
   }
  ],
  "ketten": [],
  "gegenthese": {
-  "konsens": "Markt bewertet aktuelle Risiken als hoch, zeigt Risikoaversion, Aktien volatil, Zins‑ und Inflationsängste dominieren, geopolitische Spannungen belasten.",
-  "gegen": "Gegenargument: Solide Unternehmensgewinne, starke Konsumausgaben und anhaltende Geldpolitik‑Lockerung könnten die Stimmung schnell verbessern."
+  "konsens": "Anleger bleiben vorsichtig, setzen auf stabile Unternehmen (Apple) und sichern Energieversorgung (Gaskraftwerke), während Tech‑IPO‑Risiken und Cyber‑Risiken als negativ bewertet werden.",
+  "gegen": "Zu viel Risikoaversion könnte Chancen in Wachstums‑ und Technologiemärkten unterdrücken."
  },
  "matrix": [
   {
@@ -397,11 +400,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "110.6 Mrd"
+     "109.5 Mrd"
     ],
     [
      "KGV (erw.)",
-     "20,8"
+     "20,6"
     ],
     [
      "Umsatzwachstum",
@@ -434,12 +437,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die Analystenmeinung ist eindeutig positiv: 21 Kauf‑Empfehlungen gegenüber 4 Halten und 3 Verkaufen. Das Umsatzwachstum von +18 % und ein KGV von 20,8 deuten auf solide Ertragskraft hin. Die Marktkapitalisierung von 110,6 Mrd € unterstreicht die Größe des Unternehmens. Widerspruch: Trotz 21 Kauf‑Empfehlungen fehlt breitere Markt‑Aufmerksamkeit.",
-   "dagegen": "Gegen das Bild spricht die geringe Marktpräsenz in öffentlichen Diskussionen: Reddit erwähnt das Unternehmen kaum, und nur ein Newsletter‑Cluster berichtet. Das KGV von 20,8 könnte im Vergleich zu Wettbewerbern überbewertet sein. Fehlende Insider‑Informationen und keine Short‑Positionen lassen Unsicherheit über zukünftige Kursentwicklungen bestehen.",
+   "dafuer": "Analysten sehen mit 21 Kaufempfehlungen ein starkes Vertrauen. Das Kurs‑Gewinn‑Verhältnis von 20,6 liegt im Branchendurchschnitt, während das Umsatzwachstum von 18 % das Turnaround‑Potential unterstreicht. Keine bekannten Short‑Positionen und ein Kursziel von 193 € deuten auf positive Marktstimmung hin.",
+   "dagegen": "Gegen das Bild spricht die dünne Informationslage: Reddit erwähnt das Unternehmen kaum, Insider‑Meldungen fehlen und nur ein Newsletter‑Cluster behandelt es. Das Geschäftsmodell bleibt stark von der volatilen Turbinen‑ und Wind‑Markt abhängig, und die Umsetzung neuer Technologien birgt operative Risiken.",
    "katalysatoren": [
-    "Inbetriebnahme der neuen 15 MW‑Gasturbine (Q4 2026)",
-    "Ausbau des Grid‑Technologies‑Segments durch EU‑Förderprogramme (2025‑2026)",
-    "Auftrag für Offshore‑Windanlagen von Siemens Gamesa (2025)"
+    "Abschluss großer Offshore‑Wind‑Aufträge von Siemens Gamesa im Q4 2024",
+    "Markteinführung der nächsten Generation von Gas‑ und Dampfturbinen (H‑Series) im ersten Halbjahr 2025",
+    "Veröffentlichung der Q3‑Ergebnisse und Fortschritt bei Service‑ und Digitalisierungsverträgen"
    ]
   },
   "RHM.DE": {
@@ -450,7 +453,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "46.7 Mrd"
+     "46.6 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -487,12 +490,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Rheinmetall verzeichnet ein starkes Umsatzwachstum von +69 % und ein moderates KGV von 18,9, was im Vergleich zu vielen Rüstungs‑Peers attraktiv erscheint. Die Analysten‑Stimmung ist eindeutig bullish (17 Buy, 4 Hold, 0 Sell). Das Unternehmen profitiert von einer breiten Produktpalette in Fahrzeug‑, Waffen‑ und Elektronik‑Segmenten sowie von steigenden Verteidigungsausgaben in Europa und den USA.",
-   "dagegen": "Die Bewertung bleibt hoch; ein Kursziel von 1.552 € impliziert weiteres starkes Gewinnwachstum, das schwer zu sichern ist. Rheinmetall ist stark von staatlichen Rüstungsetats abhängig, wodurch politische Entscheidungen und Haushaltskürzungen das Ergebnis stark beeinflussen können. Fehlende Insider‑Transaktionen und das Fehlen von Short‑Positionen geben wenig Hinweis auf Markt‑Skepsis, könnten aber auch auf geringe Liquidität hindeuten.",
+   "dafuer": "Rheinmetall verzeichnet ein starkes Umsatzwachstum von 69 % und profitiert von steigenden Verteidigungsbudgets in Europa und den USA. Das Unternehmen deckt mehrere Segmente – Fahrzeugsysteme, Waffen & Munition sowie Elektronik – was Diversifikation und stabile Auftragslage unterstützt. Analysten bewerten die Aktie überwiegend positiv (17 Buy, 4 Hold).",
+   "dagegen": "Trotz des Wachstums ist das forward‑KGV von 18,9 über dem Branchendurchschnitt, was auf eine teure Bewertung hindeutet. Die Abhängigkeit von staatlichen Rüstungsausgaben macht das Unternehmen anfällig für politische Entscheidungen und Haushaltskürzungen. Fehlende Insider‑Käufe und das Fehlen von Short‑Positionen bieten keinen zusätzlichen Optimismus.",
    "katalysatoren": [
-    "Beschluss des deutschen Verteidigungsministeriums zu zusätzlichen Mittel für die Beschaffung von Panzer‑ und Fahrzeugplattformen (2024/25)",
-    "Auslieferung und Inbetriebnahme neuer Fahrzeugprogramme (z. B. Puma‑Nachfolge, Boxer‑Modernisierung) im dritten Quartal 2024",
-    "Quartalsbericht des Electronic‑Solutions‑Segments, insbesondere Ergebnisse aus Digital‑ und Cyber‑Vertragsgewinnen"
+    "Veröffentlichung des deutschen Verteidigungsbudgets 2025",
+    "Auftragsbestätigung für neue Panzerplattformen (z. B. Leopard 2 A8)",
+    "Quartalsbericht Q4 2024 mit Ausblick auf das Elektronik‑Segment"
    ]
   },
   "ASML.AS": {
@@ -503,11 +506,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "542.7 Mrd"
+     "536.3 Mrd"
     ],
     [
      "KGV (erw.)",
-     "25,0"
+     "24,8"
     ],
     [
      "Umsatzwachstum",
@@ -540,12 +543,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "ASML erzielt ein starkes Umsatzwachstum von +55 % und dominiert den EUV‑Lithographiesektor. Analysten‑Consensus ist überwiegend positiv (38 Buy, 2 Hold, 1 Sell) und das Kursziel von 2.097 EUR liegt über dem aktuellen Kurs, was Aufwärtspotenzial signalisiert.",
-   "dagegen": "Das Unternehmen wird mit einem KGV von 25 als relativ hoch bewertet angesehen; die Nachfrage nach Halbleitern ist konjunkturell und kann schwanken. Trotz breiter Kaufempfehlungen gibt es einen widersprüchlichen Verkaufsempfehlung (1 Sell), was auf Bewertungs‑ oder Risikobedenken hindeutet.",
+   "dafuer": "ASML verzeichnet ein starkes Umsatzwachstum von +55 % und hält mit 38 Buy‑Empfehlungen die klare Mehrheit der Analysten. Das Unternehmen ist praktisch ein Monopolist im EUV‑Lithographiesegment, was langfristige Preis‑ und Margenstärke unterstützt. Das Kursziel von 2.097 EUR spiegelt diese positive Erwartung wider.",
+   "dagegen": "Das aktuelle KGV von 24,8 liegt über dem Branchendurchschnitt und könnte auf eine überbewertete Aktie hindeuten. Trotz breiter Analysten‑Unterstützung gibt es einen widersprüchlichen Verkauf (1 Sell), der auf Bedenken hinsichtlich einer möglichen Abschwächung der Chipnachfrage oder technischer Risiken hinweist. Insider‑Aktivität fehlt völlig.",
    "katalysatoren": [
-    "Markteinführung des nächsten High‑NA EUV‑Systems im nächsten Geschäftsjahr",
-    "Großaufträge von Schlüssel­kunden wie TSMC oder Samsung",
-    "Quartalsbericht mit möglicher Umsatz‑ und Gewinn‑Überraschung"
+    "Markteinführung des nächsten High‑NA‑EU‑V‑Lithographiesystems",
+    "Große Aufträge von TSMC und Samsung für neue Fertigungsanlagen",
+    "Mögliche regulatorische Freigabe für EUV‑Verkäufe nach China"
    ]
   },
   "SU.PA": {
@@ -556,11 +559,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "141.4 Mrd"
+     "140.2 Mrd"
     ],
     [
      "KGV (erw.)",
-     "19,1"
+     "18,9"
     ],
     [
      "Umsatzwachstum",
@@ -578,7 +581,7 @@
     ],
     [
      "Newsletter",
-     "in 11 Clustern"
+     "in 10 Clustern"
     ],
     [
      "Reddit",
@@ -593,9 +596,13 @@
      "1648,06 % ueber 1700 Halter"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "Analysten‑Stimmungsbild ist stark positiv (19 Buy, 4 Hold, 0 Sell). Das Unternehmen verzeichnet ein Umsatzwachstum von +10 % und ein moderates KGV von 18,9. Das Kursziel von 323 EUR liegt über dem aktuellen Kurs, was Aufwärtspotenzial signalisiert.",
+   "dagegen": "Die Short‑Position ist extrem hoch (≈ 1.650 % über 1.700 Halter), was auf erhebliche Skepsis des Marktes hindeutet. Reddit‑Erwähnungen sind kaum vorhanden, Insider‑Meldungen fehlen, und die Bewertung könnte angesichts möglicher Konjunktur‑ und Rohstoffschwankungen überzogen sein.",
+   "katalysatoren": [
+    "Veröffentlichung des nächsten Quartalsberichts (Ergebnis‑ und Margen‑Entwicklung).",
+    "Markteinführung neuer Micro‑Grid‑ und Gebäudeautomationslösungen.",
+    "EU‑Regulierungs‑ und Förderprogramme für Energie‑ und Klimamanagement, die die Nachfrage nach den Produkten steigern könnten."
+   ]
   },
   "GEV": {
    "ticker": "GEV",
@@ -666,7 +673,7 @@
     ],
     [
      "Kursziel",
-     "121 USD"
+     "122 USD"
     ]
    ],
    "quellen": [
@@ -1177,6 +1184,6 @@
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 151,
+ "meldungen_gesamt": 152,
  "llm_aktiv": false
 }
