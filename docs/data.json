@@ -1,9 +1,9 @@
 {
- "stand": "2026-11-07T13:39",
- "lauf": "2026110713",
+ "stand": "2026-11-07T19:43",
+ "lauf": "2026110719",
  "synthese": {
-  "kern": "Markt fokussiert US‑Aktien‑Volatilität, vernachlässigt breiten geopolitischen Risiko‑ und Liquiditätsdruck.",
-  "erlaeuterung": "Experten diskutieren US‑Marktbewegungen, während globale Risikoappetit (Perzentil 12) und Liquiditätsengpässe kaum beachtet werden. Die Kombination aus hohem Zinsdruck, schwacher Geldmenge und geopolitischer Unsicherheit könnte die aktuelle Marktstimmung rasch umkehren."
+  "kern": "Markt fokussiert US‑Aktien‑Debatte, übersieht breiten Risiko‑ und Liquiditätsdruck.",
+  "erlaeuterung": "Die aktuelle Berichterstattung konzentriert sich auf einzelne Unternehmens‑ und Politik‑Entwicklungen, während die Regimewerte ein niedriges globales Risikoappetit‑ und Liquiditätsniveau zeigen. Damit unterschätzt der Markt das potenzielle Risiko einer weiteren Marktvolatilität, das aus den divergierenden Zins‑ und Wachstumsbedingungen resultiert."
  },
  "regime": [
   {
@@ -40,11 +40,11 @@
      "delta": -4
     },
     "eur": {
-     "wert": 84,
-     "delta": -14
+     "wert": 82,
+     "delta": -10
     }
    },
-   "differenz": 21
+   "differenz": 19
   },
   {
    "name": "risikoappetit",
@@ -98,45 +98,14 @@
    "links": [
     "https://www.handelsblatt.com/finanzen/maerkte/us-aktien-kaufen-oder-verkaufen-so-bewerten-experten-die-marktturbulenzen/100267829.html",
     "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-erholung-bei-tech-werten-stuetzt-us-boersen-dow-jones-schliesst-tiefer/100267929.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sieben-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
     "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-ki-nasdaq-wall-street-100.html",
+    "https://www.tagesschau.de/wirtschaft/boerse/tech-einbruch-ki-100.html",
     "https://www.spiegel.de/wirtschaft/globaler-tech-ausverkauf-setzt-boersenkurse-unter-druck-a-8d5f2ecd-b9a8-4d71-9ee2-67250b5ed9d5#ref=rss"
    ],
-   "punkte": 27,
-   "text": "Nach den starken Kursverlusten an den US‑Börsen sind Anleger am Freitag wieder in den Aktienmarkt eingestiegen. Ob dies langfristig sinnvoll ist, hängt laut Experten von der Entwicklung der Unternehmensgewinne und der Geldpolitik ab.",
-   "positiv": [
-    "US‑Aktien (allgemein)"
-   ],
-   "negativ": [
-    "Marktvolatilität"
-   ]
-  },
-  {
-   "id": "8092fb4d",
-   "titel": "Tesla will Cybertruck-Produktion in Texas einstellen",
-   "anriss": "Der Cybertruck sollte Teslas Antwort auf die beliebten US-Pickups sein. Doch das Elektroauto blieb hinter den Erwartungen zurück. Nun will Elon Musk die Produktion in Texas beenden und Platz für ein anderes Produkt schaffen.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "heise",
-    "manager magazin"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/unternehmen/tesla-produktion-cybertruck-100.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/tesla-gibt-den-cybertruck-auf-201659054.html",
-    "https://www.manager-magazin.de/unternehmen/mobilitaet/teslas-cybertruck-vor-dem-aus-nun-kommt-das-cybercab-a-2e68ac5f-c9cc-4373-bd86-e084ca4ec108#ref=rss",
-    "https://www.heise.de/news/Tesla-stellt-Cybertruck-Produktion-in-Texas-ein-11515652.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 16,
-   "text": "Tesla plant, die Produktion des Cybertruck im Werk Texas einzustellen und die dortige Fertigungskapazität für andere Modelle umzuwandeln. Der Schritt folgt auf enttäuschende Absatz‑ und Produktionszahlen des Cybertruck‑Programms.",
+   "punkte": 26,
+   "text": "Nach starken Kursverlusten an den US‑Börsen sind Anleger am Freitag wieder in den Aktienmarkt eingestiegen, doch Experten betonen, dass die Bewertung stark von zwei noch nicht genannten Entwicklungen abhängt. Die aktuelle Unsicherheit macht eine eindeutige Einschätzung der kurzfristigen Kursrichtung schwierig.",
    "positiv": [],
-   "negativ": [
-    "Tesla‑Aktie",
-    "Cybertruck‑Projekt",
-    "Texanische Fertigungsstätten (Kurzfristig)"
-   ]
+   "negativ": []
   },
   {
    "id": "dba94525",
@@ -144,41 +113,46 @@
    "anriss": "Nach den Niederlanden reicht nun auch Spanien einen Kandidaten für das oberste Amt der EZB ein. Die Euro-Finanzminister wollen die Nominierungen am Montag sichten.",
    "region": "dach",
    "quellen": [
+    "ECB Press",
     "Handelsblatt Finanzen",
     "SPIEGEL Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 3,
+   "anzahl": 4,
    "links": [
     "https://www.handelsblatt.com/finanzen/geldpolitik/ezb-spanien-nominiertpablo-hernandez-de-cos-fuer-lagarde-nachfolge/100267919.html",
+    "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261107~e7b86fc4ce.en.html",
     "https://www.spiegel.de/wirtschaft/ezb-welche-chancen-deutschland-bei-der-nachfolge-von-christine-lagarde-hat-a-ddb505b8-589a-42ba-b36a-41a19ce63a68#ref=rss",
     "https://www.manager-magazin.de/unternehmen/banken/christine-lagarde-ezb-praesidentin-geht-vorzeitig-rennen-um-nachfolge-startet-a-aef7e7bb-102a-43b6-b347-87ed911617e6#ref=rss"
    ],
-   "punkte": 13,
-   "text": "Spanien hat Pablo Hernández de Cos als Kandidaten für die Nachfolge von EZB‑Präsidentin Christine Lagarde nominiert; die endgültige Entscheidung liegt bei den EZB‑Finanzministern. Die Nominierung selbst hat bislang keine klar erkennbare Auswirkung auf Märkte oder Währungen.",
+   "punkte": 18,
+   "text": "Spanien hat Pablo Hernández de Cos als Kandidaten für die Nachfolge von Christine Lagarde bei der EZB nominiert; die Euro‑Finanzminister werden die Nominierungen am Montag prüfen. Der Vorgang hat bislang keine klaren Auswirkungen auf die Geldpolitik oder die Euro‑Anleihenmärkte.",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "8eb4f56c",
-   "titel": "Luxus in Frankreich: Entwürfe vom besseren Leben",
-   "anriss": "In Frankreich ist der Luxus zu Hause. Die Tradition des verfeinerten Lebensstils begann schon mit Ludwig XIV. Nicht einmal Krisen und Kriege halten ihn auf.",
+   "id": "8092fb4d",
+   "titel": "Tesla will Cybertruck-Produktion in Texas einstellen",
+   "anriss": "Der Cybertruck sollte Teslas Antwort auf die beliebten US-Pickups sein. Doch das Elektroauto blieb hinter den Erwartungen zurück. Nun will Elon Musk die Produktion in Texas beenden und Platz für ein anderes Produkt schaffen.",
    "region": "dach",
    "quellen": [
-    "FAZ Wirtschaft"
+    "Tagesschau Wirtschaft",
+    "heise",
+    "manager magazin"
    ],
-   "anzahl": 5,
+   "anzahl": 3,
    "links": [
-    "https://www.faz.net/aktuell/wirtschaft/der-franzoesische-luxus-eine-epoche-ohne-ende-accg-201648840.html",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/frankreich-als-europas-sorgenkind-droht-eine-staatsschuldenkrise-accg-201650734.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/frankreichs-start-up-szene-wie-paris-zur-tech-weltspitze-aufstieg-accg-201654742.html",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/denis-labrude-ein-franzose-ueber-sein-leben-in-deutschland-accg-201650223.html",
-    "https://www.faz.net/aktuell/wirtschaft/frankreich-und-deutschland-warum-uns-die-krise-des-nachbarn-angeht-201646354.html"
+    "https://www.tagesschau.de/wirtschaft/unternehmen/tesla-produktion-cybertruck-100.html",
+    "https://www.manager-magazin.de/unternehmen/mobilitaet/teslas-cybertruck-vor-dem-aus-nun-kommt-das-cybercab-a-2e68ac5f-c9cc-4373-bd86-e084ca4ec108#ref=rss",
+    "https://www.heise.de/news/Tesla-stellt-Cybertruck-Produktion-in-Texas-ein-11515652.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
    "punkte": 12,
-   "text": "Ein Beitrag beschreibt die lange Tradition des Luxuslebensstils in Frankreich, beginnend mit Ludwig XIV, und betont, dass Krisen und Kriege diesen nicht grundlegend verändern. Der Artikel enthält keine konkreten Informationen zu Finanzmärkten oder Anlageklassen.",
+   "text": "Tesla plant, die Cybertruck‑Produktion im Werk Texas einzustellen, weil das Modell hinter den Erwartungen zurückbleibt. Das dürfte kurzfristig den Aktienkurs von Tesla belasten und die US‑Elektrofahrzeug‑Branche negativ beeinflussen.",
    "positiv": [],
-   "negativ": []
+   "negativ": [
+    "Tesla-Aktie",
+    "US‑Elektrofahrzeug‑Branche"
+   ]
   },
   {
    "id": "858d2779",
@@ -196,9 +170,12 @@
     "https://www.manager-magazin.de/unternehmen/tech/anthropic-boersengang-droht-sich-nach-ki-crash-zu-verzoegern-a-3cf3a33d-f059-4587-93d1-0d14fc27ce5c#ref=rss"
    ],
    "punkte": 11,
-   "text": "Eine Bewertung von zwei Billionen Dollar ist beim KI-Start-up schon lange vom Tisch. Doch auch mit 1,5 Billionen Dollar wäre die Bewertung hoch, kritisieren Experten.",
+   "text": "Der Börsengang von Anthropics, einem KI‑Start‑up, verliert an Bewertung von zwei Billionen auf etwa 1,5 Billionen Dollar, was Experten als überhöht kritisieren. Die Preisreduktion senkt die Attraktivität der Aktie und belastet das Segment KI‑Unternehmen im IPO‑Markt.",
    "positiv": [],
-   "negativ": []
+   "negativ": [
+    "Anthropics-Aktie",
+    "KI‑Start‑up‑Bewertung"
+   ]
   },
   {
    "id": "ba157a7d",
@@ -221,6 +198,26 @@
    "negativ": []
   },
   {
+   "id": "5038c64f",
+   "titel": "Regionale Unterschiede: Frankreich jenseits der Metropolen",
+   "anriss": "Der Unmut in Frankreich beschränkt sich nicht auf die Städte. Während Paris Zentrum von Wirtschaft, Politik und Gesellschaft ist, ringen ländliche Regionen mit Abwanderung und dünner Daseinsvorsorge.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.faz.net/aktuell/wirtschaft/arm-und-reich/frankreichs-fokus-auf-paris-wird-der-laendliche-raum-dabei-vergessen-accg-201642725.html",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/frankreichs-politische-krise-wer-diktiert-die-spielregeln-201654862.html",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/frankreich-als-europas-sorgenkind-droht-eine-staatsschuldenkrise-accg-201650734.html",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/frankreichs-start-up-szene-wie-paris-zur-tech-weltspitze-aufstieg-accg-201654742.html"
+   ],
+   "punkte": 10,
+   "text": "Der Unmut in Frankreich beschränkt sich nicht auf die Städte. Während Paris Zentrum von Wirtschaft, Politik und Gesellschaft ist, ringen ländliche Regionen mit Abwanderung und dünner Daseinsvorsorge.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
    "id": "a17c34ee",
    "titel": "Protest gegen Microsoft-Rechenzentrum in Amsterdam – viele Festnahmen",
    "anriss": "Hunderte dringen auf die Baustelle eines Microsoft-Rechenzentrums in Amsterdam vor, die Polizei nimmt bis zu 200 Menschen fest. Was trieb die beiden Gruppen an?",
@@ -239,31 +236,29 @@
    "negativ": []
   },
   {
-   "id": "4c2e8fe6",
-   "titel": "Every Mac comes with an (undocumented) family member classifier",
-   "anriss": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 208 # Comments: 104",
-   "region": "global",
+   "id": "92300bc0",
+   "titel": "Immobilien: „Visionäre Klarheit und bemerkenswerte politische Umsetzungskraft“",
+   "anriss": "Stephan Schütz plant für das Architekturbüro GMP weltweit Großprojekte. Im Interview erzählt er, was wir von Umbauten für den Neubau lernen können und welches Zukunftsprojekt ihn begeistert.",
+   "region": "dach",
    "quellen": [
-    "Hacker News Top"
+    "Handelsblatt Finanzen",
+    "heise"
    ],
-   "anzahl": 8,
+   "anzahl": 2,
    "links": [
-    "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-    "https://mitchellh.com/writing/libghostty-1-0",
-    "https://hightouch.com/blog/llm-judges-identity-resolution",
-    "https://pwn.ai/blog/firecracker-escape",
-    "https://kevinboone.me/efitest_index.html"
+    "https://www.handelsblatt.com/finanzen/immobilien/immobilien-visionaere-klarheit-und-bemerkenswerte-politische-umsetzungskraft/100258334.html",
+    "https://www.heise.de/hintergrund/Sichere-Architektur-fuer-KI-Agenten-im-Backoffice-11514414.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
-   "punkte": 10,
-   "text": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 208 # Comments: 104",
+   "punkte": 9,
+   "text": "Stephan Schütz plant für das Architekturbüro GMP weltweit Großprojekte. Im Interview erzählt er, was wir von Umbauten für den Neubau lernen können und welches Zukunftsprojekt ihn begeistert.",
    "positiv": [],
    "negativ": []
   }
  ],
  "ketten": [],
  "gegenthese": {
-  "konsens": "Marktteilnehmer zeigen vorsichtige Haltung: US‑Aktien bleiben volatil, Tesla‑Produktionsstopp in Texas wird als kurzfristiger Dämpfer gesehen, die EZB‑Nominierung hält die Geldpolitik stabil, Anthropics‑IPO gilt als überbewertet, regulatorische Risiken bei Microsoft erhöhen die Risikoaversion.",
-  "gegen": "Gegenargument: Starke Unternehmensgewinne, anhaltende Konsolidierung im Technologiesektor und mögliche geldpolitische Lockerungen könnten die aktuelle Risikoaversion rasch auflösen und die Marktstimmung deutlich verbessern."
+  "konsens": "Markt sieht US-Aktien volatil, erwartet kurzfristige Schwäche; EZB‑Entscheidung bleibt unklar, aber keine sofortige Zinsänderung; Teslas Produktionsstopp wird als Kostenmaßnahme bewertet; IPO‑Bewertungen sinken; politische Risiken erhöhen Unsicherheit.",
+  "gegen": "Gegenargument: Unternehmensgewinne in den USA bleiben robust, Inflationsdruck lässt weitere Zinserhöhungen unwahrscheinlich, Teslas Marktposition stärkt langfristige Aussichten, und trotz kurzfristiger Bewertungsabschläge bieten IPOs Wachstumspotenzial."
  },
  "matrix": [
   {
@@ -417,13 +412,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die Analystenmehrheit (21 Kauf‑Empfehlungen) sieht in Siemens Energy ein starkes Umsatzwachstum von +18 % und ein moderates KGV von 18,9, was im Vergleich zum Branchen‑Durchschnitt attraktiv erscheint. Das Kursziel von 193 € impliziert deutliche Aufwärts‑Potentiale bei einer Marktkapitalisierung von 100,5 Mrd. €.",
-   "dagegen": "Die Gegenstimmen (3 Verkäufe) warnen vor hohen Investitions‑ und Entwicklungs‑Kosten, insbesondere im Siemens‑Gamesa‑Zweig, sowie vor Unsicherheiten bei der Auftragslage für Gasturbinen. Fehlende Insider‑Meldungen und das Fehlen von Short‑Positionen deuten auf eine unklare Marktmeinung hin; das Kursziel könnte überbewertet sein.",
-   "katalysatoren": [
-    "Abschluss großer Gasturbinen‑Aufträge im Q4 2026",
-    "EU‑Green‑Deal‑Förderungen für Netz‑Technologien",
-    "Markteinführung der nächsten Generation von Siemens‑Gamesa‑Windturbinen"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "RHM.DE": {
    "ticker": "RHM.DE",
@@ -470,12 +461,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Rheinmetall profitiert von starkem Umsatzwachstum von 36 % und einem moderaten forward KGV von 15,7, was im Vergleich zur Branche attraktiv erscheint. Die Mehrheit der Analysten (16 Buy, 5 Hold) spricht für Kurssteigerungspotenzial, unterstützt durch ein Kursziel von 1.519 EUR.",
-   "dagegen": "Gegenstand sind die Abhängigkeit von Rüstungsausgaben und geopolitischen Risiken, die bei sinkender Nachfrage zu Umsatzrückgängen führen können. Das Unternehmen ist stark im Verteidigungssektor konzentriert, wodurch konjunkturelle Schwankungen und regulatorische Beschränkungen das Ergebnis belasten könnten.",
+   "dafuer": "Analysten‑Stimmungsbild stark positiv (16 Buy, 5 Hold, 0 Sell). Umsatzwachstum von +36 % zeigt robuste Nachfrage. Forward‑KGV von 15,7 liegt im Branchendurchschnitt, was die Bewertung attraktiv macht. Markt‑Kapitalisierung von 37,9 Mrd € unterstreicht stabile Marktposition.",
+   "dagegen": "Starke Abhängigkeit von staatlichen Rüstungsaufträgen macht das Unternehmen anfällig für politische und haushaltsbedingte Schwankungen. Keine Insider‑Transaktionen und keine Short‑Positionen können auf geringe Markt‑Aufmerksamkeit hindeuten. Kursziel von 1.519 € impliziert begrenztes Aufwärtspotenzial gegenüber aktuellem Kurs.",
    "katalysatoren": [
-    "Erhöhung des deutschen Verteidigungsbudgets 2025",
-    "Auftrag für neue Schützenpanzer für NATO‑Partner",
-    "Q3‑Ergebnis mit besser als erwarteten Margen"
+    "Erhöhung des deutschen Verteidigungsbudgets 2025 – potenzielle Auftragszuwächse.",
+    "Auslieferung neuer gepanzerter Fahrzeugplattformen (z. B. Puma, Boxer) an NATO‑Partner.",
+    "Gewinnung von Großaufträgen im Electronic‑Solutions‑Segment, insbesondere CBRN‑Detektionssysteme."
    ]
   },
   "ASML.AS": {
@@ -523,12 +514,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die Analystenmehrheit (38 Buy, 2 Hold, 1 Sell) spricht für ASML. Das Unternehmen führt die EUV‑Technologie an, verzeichnet ein Umsatzwachstum von 55 % und hat ein KGV von 22,7, das im Vergleich zu anderen Halbleiter‑Giganten moderat erscheint. Die Marktkapitalisierung von 494,7 Mrd EUR unterstreicht die Marktstellung.",
-   "dagegen": "Ein einzelner Verkaufsempfehlung widerspricht dem überwiegenden Konsens und weist auf mögliche Bewertungs‑ und Risikoaspekte hin. Das KGV von 22,7 kann als hoch gelten, wenn das Wachstum nachlässt. Zudem besteht ein zyklisches Nachfrage‑Risiko im Halbleitermarkt und keine Insider‑ oder Short‑Informationen, die das Bild verengen.",
+   "dafuer": "ASML verzeichnet ein starkes Umsatzwachstum von +55 % und hält ein marktbeherrschendes Monopol im EUV‑Lithographiesegment. Das KGV von 22,7 spiegelt das erwartete Wachstum wider. Analysten‑Consensus ist eindeutig bullish (38 Buy, 2 Hold, 1 Sell) und das Kursziel liegt bei 2096 EUR.",
+   "dagegen": "Das KGV von 22,7 kann im Kontext des hohen Marktwertes von 494,7 Mrd EUR als überbewertet gelten. Die Abhängigkeit von der zyklischen Halbleiternachfrage birgt Risiko. Während Analysten stark kaufen, fehlt Erwähnung in Newslettern und Reddit, was auf begrenzte Marktbreite hindeutet – ein Widerspruch.",
    "katalysatoren": [
-    "Auslieferung der nächsten EUV‑Generation (High‑NA) im 4. Quartal",
-    "Steigende Aufträge von KI‑ und HPC‑Chip‑Herstellern",
-    "Erweiterung des Metrologie‑ und Inspektionsportfolios für 3‑nm‑ und 2‑nm‑Prozesse"
+    "Q4‑2024 Ergebnisveröffentlichung mit Fokus auf Umsatz‑ und Margenentwicklung",
+    "Markteinführung des nächsten High‑NA EUV‑Systems",
+    "Abschluss großer Kundenaufträge (z. B. TSMC, Samsung) oder Erweiterung der Produktionskapazitäten"
    ]
   },
   "SU.PA": {
@@ -576,13 +567,9 @@
      "1648,06 % ueber 1700 Halter"
     ]
    ],
-   "dafuer": "Analysten bewerten Schneider Electric stark (19 Kauf, 4 Halten) und das Kursziel von 323 €, was das erwartete KGV von 18,2 und ein Umsatzwachstum von 10 % reflektiert. Die breite Produktpalette in Energiemanagement, Industrieautomation und Gebäudetechnik unterstützt langfristige Marktposition.",
-   "dagegen": "Reddit erwähnt das Unternehmen kaum, was auf geringe Retail‑Aufmerksamkeit hindeutet. Zudem ist die Short‑Position extrem hoch (1648 % über 1700 Haltern), was ein starkes Misstrauen gegenüber der Bewertung signalisiert. Diese Diskrepanz zwischen Analysten‑Optimismus und Short‑Interesse widerspricht sich.",
-   "katalysatoren": [
-    "Veröffentlichung des Q4‑2024‑Ergebnisses",
-    "Fortschritt bei großen Smart‑Grid‑ und Microgrid‑Projekten in Europa",
-    "Einführung neuer IoT‑basierten Gebäudesteuerungslösungen"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "GEV": {
    "ticker": "GEV",
@@ -1164,6 +1151,6 @@
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 133,
+ "meldungen_gesamt": 125,
  "llm_aktiv": false
 }
