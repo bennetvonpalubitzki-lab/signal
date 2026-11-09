@@ -1,9 +1,9 @@
 {
- "stand": "2026-11-09T13:12",
- "lauf": "2026110913",
+ "stand": "2026-11-09T16:57",
+ "lauf": "2026110916",
  "synthese": {
-  "kern": "Trotz lauter Unternehmens‑ und Politik‑Skandale vernachlässigt der Markt die anhaltend niedrige Risiko‑Appetit‑ und steigende Zins‑Druck‑Lage.",
-  "erlaeuterung": "Die Meldungen konzentrieren sich auf einzelne Unternehmensereignisse und geopolitische Themen, während das globale Risiko‑Appetit‑Perzentil bei 15 liegt. Zusätzlich zeigen die Zins‑Druck‑Indizes (US 77, EUR 90) kaum Entlastung, was die Marktvolatilität erhöhen könnte."
+  "kern": "Alle Meldungen drehen sich um strukturelle Umbrüche in Tech und Banken, die der Markt zugunsten kurzfristiger Gewinne vernachlässigt.",
+  "erlaeuterung": "Der Nvidia‑Skandal, Fusion‑Spekulationen und KI‑Investitionen zeigen, dass regulatorische und konsolidierungsbedingte Risiken steigen. Gleichzeitig lenken fallende Ölpreise und positive US‑Börsen die Aufmerksamkeit von diesen längerfristigen Herausforderungen ab."
  },
  "regime": [
   {
@@ -36,23 +36,23 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 63,
-     "delta": 0
+     "wert": 65,
+     "delta": 2
     },
     "eur": {
-     "wert": 78,
-     "delta": -11
+     "wert": 79,
+     "delta": -10
     }
    },
-   "differenz": 15
+   "differenz": 14
   },
   {
    "name": "risikoappetit",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 15,
-     "delta": -9
+     "wert": 21,
+     "delta": 2
     }
    }
   },
@@ -96,26 +96,23 @@
     "heise",
     "manager magazin"
    ],
-   "anzahl": 10,
+   "anzahl": 14,
    "links": [
     "https://www.handelsblatt.com/finanzen/maerkte/aktien/huang-affaere-jensen-ist-unersetzbar-nvidia-aktie-faellt-wegen-skandal/100268280.html",
     "https://www.handelsblatt.com/finanzen/maerkte/zweifel-an-zukunft-von-nvidia-chef-huang-bremsen-suedkoreas-boerse/100268306.html",
     "https://www.tagesschau.de/wirtschaft/unternehmen/nvidia-spionage-pruefung-100.html",
-    "https://www.spiegel.de/wirtschaft/unternehmen/nvidia-aktie-faellt-nach-affaeren-gestaendnis-von-konzernchef-jensen-huang-deutlich-a-a4c10877-9327-4b7b-b097-3c5cdc607a3e#ref=rss",
-    "https://www.spiegel.de/wirtschaft/nvidia-jensen-huang-gesteht-affaere-mit-mutmasslicher-china-spionin-was-folgt-daraus-a-20a5fe38-a7c9-4985-8673-30a91902ee6e#ref=rss"
+    "https://www.tagesschau.de/wirtschaft/unternehmen/faq-nvidia-spionage-100.html",
+    "https://www.tagesschau.de/wirtschaft/finanzen/marktbericht-nvidia-ki-huang-100.html"
    ],
-   "punkte": 34,
-   "text": "Der Nvidia‑CEO ist in einen Spionage‑Skandal mit einer mutmaßlichen chinesischen Agentin verwickelt, woraufhin die Nvidia‑Aktie deutlich nachgab. Der Vorfall belastet zudem das Vertrauen in andere große Technologie‑ und KI‑Chip‑Unternehmen.",
+   "punkte": 42,
+   "text": "Nvidia hat durch die Affäre seines Chefs mit einer mutmaßlichen Agentin aus China gleich mehrere Probleme. Die Märkte blicken nervös auf den KI-Ausrüster – und andere große Tech-Aktien.",
    "positiv": [],
-   "negativ": [
-    "Nvidia‑Aktie (↓)",
-    "Technologie‑ und KI‑Chip‑Branche (↓)"
-   ]
+   "negativ": []
   },
   {
-   "id": "31dbb47d",
-   "titel": "Banken: Unicredit erzielt Rekordgewinn und plant für Commerzbank schnellere Fusion mit HVB",
-   "anriss": "Die Mailänder Großbank will Anfang 2027 die Kontrolle bei der Commerzbank übernehmen und die geplante Fusion mit ihrer Deutschland-Tochter vorziehen.",
+   "id": "5cbc6541",
+   "titel": "Banken: „Wenn alle diesen Schritt wollen“: Unicredit-Chef erwägt schnellere Fusion von Commerzbank und HVB",
+   "anriss": "Andrea Orcel begründet den neuen Zeitplan mit dem besseren Austausch mit den Interessenvertretern in Deutschland. Auch zu den Gesprächen mit der Bundesregierung äußert er sich optimistisch.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
@@ -126,162 +123,142 @@
    ],
    "anzahl": 6,
    "links": [
-    "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/banken-unicredit-will-commerzbank-frueher-mit-hvb-zusammenlegen/100266238.html",
+    "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/banken-unicredit-chef-erwaegt-fruehere-fusion-von-commerzbank-und-hvb/100266238.html",
     "https://www.tagesschau.de/wirtschaft/unternehmen/commerzbank-uebernahme-unicredit-100.html",
     "https://www.spiegel.de/wirtschaft/unternehmen/commerzbank-unicredit-moechte-ab-2027-neue-strategie-umsetzen-a-ab6c6747-ebcc-4d11-8be9-ac31272446e0#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/markus-steilemann-kandidiert-fuer-dritte-amtszeit-als-vci-praesident-accg-201665792.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-aldi-sued-erhoeht-mindestlohn-ab-dezember-von-15-auf-16-euro-faz-200452404.html"
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-aldi-sued-erhoeht-mindestlohn-ab-dezember-von-15-auf-16-euro-faz-200452404.html",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/markus-steilemann-kandidiert-fuer-dritte-amtszeit-als-vci-praesident-accg-201665792.html"
    ],
    "punkte": 23,
-   "text": "Die Unicredit meldet einen Rekordgewinn und plant, die Kontrolle über die Commerzbank bereits Anfang 2027 zu übernehmen, wodurch die Fusion mit der HVB vorgezogen wird. Die Ankündigung stärkt die Bewertung beider Banken und wirkt sich positiv auf den europäischen Bankensektor aus.",
-   "positiv": [
-    "Unicredit‑Aktie (↑)",
-    "Commerzbank‑Aktie (↑)",
-    "europäische Bankenbranche (↑)"
-   ],
+   "text": "Andrea Orcel begründet den neuen Zeitplan mit dem besseren Austausch mit den Interessenvertretern in Deutschland. Auch zu den Gesprächen mit der Bundesregierung äußert er sich optimistisch.",
+   "positiv": [],
    "negativ": []
   },
   {
-   "id": "60f00c5c",
-   "titel": "Vodafone streicht jede fünfte Stelle, setzt vermehrt auf KI",
+   "id": "7a9b8865",
+   "titel": "Wall Street: US-Börsen profitieren von sinkenden Ölpreisen – und liegen stark im Plus",
+   "anriss": "US-Midterms, Künstliche Intelligenz, Rohölpreise und die Affäre eines CEOs lasteten jüngst auf der Wall Street. Auch wenn sich die Indizes stabilisieren – ausgestanden ist die Unruhe nicht.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "manager magazin"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-us-boersen-profitieren-von-sinkenden-oelpreisen/100268441.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sechs-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
+    "https://www.manager-magazin.de/politik/deutschland/kuenstliche-intelligenz-demokraten-wahlsieg-schuert-angst-vor-ki-crash-a-9bacc8e7-c01b-4bda-8ca2-3dd82e262574#ref=rss"
+   ],
+   "punkte": 12,
+   "text": "US-Midterms, Künstliche Intelligenz, Rohölpreise und die Affäre eines CEOs lasteten jüngst auf der Wall Street. Auch wenn sich die Indizes stabilisieren – ausgestanden ist die Unruhe nicht.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "9c7cabb5",
+   "titel": "Vodafone streicht jede fünfte Stelle in Deutschland und setzt vermehrt auf KI",
    "anriss": "Vodafone verlor zuletzt Marktanteile, nun legt der Konzern ein Sparprogramm auf. Zahlreiche Jobs sollen wegfallen oder verlagert werden. Aufgaben sollen stattdessen an KI ausgelagert werden.",
    "region": "dach",
    "quellen": [
-    "FAZ Wirtschaft",
     "SPIEGEL Wirtschaft",
     "heise",
     "manager magazin"
    ],
-   "anzahl": 4,
+   "anzahl": 3,
    "links": [
     "https://www.spiegel.de/wirtschaft/unternehmen/vodafone-streicht-jede-fuenfte-stelle-setzt-vermehrt-auf-ki-a-9315dbd7-1f5b-4b54-bcba-94003a64bb91#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/vodafone-streicht-2300-stellen-in-deutschland-accg-201665118.html",
     "https://www.manager-magazin.de/unternehmen/tech/vodafone-konzern-baut-in-deutschland-rund-2300-stellen-ab-a-524a2bff-b709-49a5-a4b7-a2eb02b46674#ref=rss",
     "https://www.heise.de/news/Vodafone-baut-in-Deutschland-rund-2300-Stellen-ab-11517302.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
-   "punkte": 16,
-   "text": "Vodafone kündigt ein Sparprogramm an, bei dem rund 20 % der Stellen abgebaut oder verlagert werden, und setzt künftig stärker auf Künstliche Intelligenz für interne Prozesse. Der Stellenabbau belastet die Vodafone‑Bewertung, während KI‑Dienstleister von der Umstellung profitieren.",
-   "positiv": [
-    "KI‑Dienstleistungsbranche (↑)"
-   ],
-   "negativ": [
-    "Vodafone‑Aktie (↓)",
-    "Telekommunikationsbranche (↓)"
-   ]
-  },
-  {
-   "id": "104c88a2",
-   "titel": "Dax aktuell: Dax klettert wieder über 26.000-Punkte-Marke – Chipaktie legt zu",
-   "anriss": "Nach den Turbulenzen der vergangenen Woche kehrt am deutschen Aktienmarkt Ruhe ein. Die italienische Unicredit hat zudem einen Zeitplan für die Übernahme der Commerzbank vorgelegt.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-klettert-wieder-ueber-26.000-punkte-marke/100268348.html",
-    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-geldanlage-170.html",
-    "https://www.manager-magazin.de/finanzen/boerse/boerse-dax-ohne-erholung-nach-der-kurskorrektur-a-10f0dd6d-a1c4-48f1-b171-42a3516c5430#ref=rss"
-   ],
-   "punkte": 13,
-   "text": "Der DAX hat die Marke von 26 000 Punkten wieder überschritten, nachdem die Märkte nach der Vorwoche beruhigt wurden. Besonders die Chip‑Aktien treiben den Index nach oben, was das Vertrauen in den deutschen Technologiesektor stärkt.",
-   "positiv": [
-    "DAX (↑)",
-    "Chip‑Aktien (↑)",
-    "deutsche Technologiesektor (↑)"
-   ],
-   "negativ": []
-  },
-  {
-   "id": "ecccd2a0",
-   "titel": "Börse am 9. November: Sechs Punkte, die für Anleger heute wichtig sind",
-   "anriss": "US-Midterms, Rohölpreise und Künstliche Intelligenz trieben die Anleger zuletzt um. Nun wird sich zeigen, ob etwa die Bilanzen zweier Dax-Konzerne für einen Stimmungswechsel sorgen können.﻿",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "heise",
-    "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sechs-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
-    "https://www.manager-magazin.de/politik/deutschland/kuenstliche-intelligenz-demokraten-wahlsieg-schuert-angst-vor-ki-crash-a-9bacc8e7-c01b-4bda-8ca2-3dd82e262574#ref=rss",
-    "https://www.heise.de/news/Nach-US-Zwischenwahlen-Kryptowaehrungen-fallen-wieder-11516813.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 13,
-   "text": "US-Midterms, Rohölpreise und Künstliche Intelligenz trieben die Anleger zuletzt um. Nun wird sich zeigen, ob etwa die Bilanzen zweier Dax-Konzerne für einen Stimmungswechsel sorgen können.﻿",
+   "punkte": 12,
+   "text": "Vodafone verlor zuletzt Marktanteile, nun legt der Konzern ein Sparprogramm auf. Zahlreiche Jobs sollen wegfallen oder verlagert werden. Aufgaben sollen stattdessen an KI ausgelagert werden.",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "d68756c7",
-   "titel": "Immobilienmarkt: Neubauwohnungen lohnen sich für Vermieter nicht – oder doch?",
-   "anriss": "Die Baukosten sind explodiert, neu gebaute Immobilien rechnen sich als Geldanlage immer seltener. So holen Kaufwillige mehr Rendite heraus.",
+   "id": "06eb8a4b",
+   "titel": "KI-Ausbau: Droht in Deutschland ein Rechenzentrum-Stopp?",
+   "anriss": "Mehr als 40 Bezirke stimmten bei den amerikanischen Zwischenwahlen gegen den Ausbau von Rechenzentren. Auch in Europa regt sich Protest. Fachleute sehen aber eine Chance für den europäischen Standort.",
    "region": "dach",
    "quellen": [
-    "Handelsblatt Finanzen",
-    "SPIEGEL Wirtschaft",
-    "manager magazin"
+    "FAZ Wirtschaft",
+    "heise"
    ],
-   "anzahl": 3,
+   "anzahl": 2,
    "links": [
-    "https://www.handelsblatt.com/finanzen/immobilien/neubau-als-kapitalanlage-so-rechnet-sich-die-vermietung/100267906.html",
-    "https://www.spiegel.de/wirtschaft/soziales/lars-klingbeil-stopft-haushaltsluecken-mit-milliarden-aus-bundesimmobilienanstalt-a-503663b6-346a-40d2-a22b-e80f2023e5ce#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/immobilien-geheime-macht-im-markt-wie-die-kirche-ihr-immobilienvermoegen-umbaut-a-19031ab3-2b22-4c47-9903-b099d9694286#ref=rss"
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/rechenzentren-in-deutschland-droht-ein-ausbaustopp-accg-201654405.html",
+    "https://www.heise.de/news/Nistkaesten-und-Schutzzaeune-Vorarbeiten-fuer-Rechenzentrum-11516903.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
-   "punkte": 13,
-   "text": "Die Baukosten sind explodiert, neu gebaute Immobilien rechnen sich als Geldanlage immer seltener. So holen Kaufwillige mehr Rendite heraus.",
+   "punkte": 12,
+   "text": "Mehr als 40 Bezirke stimmten bei den amerikanischen Zwischenwahlen gegen den Ausbau von Rechenzentren. Auch in Europa regt sich Protest. Fachleute sehen aber eine Chance für den europäischen Standort.",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "3c7b0fd2",
-   "titel": "Is Opus 5.5 nerfed? Thinking patterns changed on November 3",
-   "anriss": "Article URL: https://twitter.com/shanemelaugh/status/2119192075505893695 Comments URL: https://news.ycombinator.com/item?id=50422069 Points: 271 # Comments: 190",
+   "id": "85c63869",
+   "titel": "Vermögen: Wann sich ein Ehevertrag lohnt – und was er kostet",
+   "anriss": "Ein Ehevertrag gilt als unromantisch. Doch ohne Vertrag gelten starre Regeln. Für Unternehmer, Immobilienbesitzer und Paare mit Kindern kann das teuer werden.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "manager magazin"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/steuern-recht/recht/vermoegen-diese-kosten-kommen-bei-einem-ehevertrag-auf-paare-zu/100224359.html",
+    "https://www.manager-magazin.de/unternehmen/immobilien-geheime-macht-im-markt-wie-die-kirche-ihr-immobilienvermoegen-umbaut-a-19031ab3-2b22-4c47-9903-b099d9694286#ref=rss",
+    "https://www.manager-magazin.de/ueber-uns/jensen-huangs-affaere-vermoegen-der-kirche-friedhelm-lohs-erfolg-a-bf13918c-5c72-4c4d-9262-6207de435043#ref=rss"
+   ],
+   "punkte": 11,
+   "text": "Ein Ehevertrag gilt als unromantisch. Doch ohne Vertrag gelten starre Regeln. Für Unternehmer, Immobilienbesitzer und Paare mit Kindern kann das teuer werden.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "c0ff17eb",
+   "titel": "I Saw Your HN Comment",
+   "anriss": "Article URL: https://joshstrange.com/2026/11/09/i-saw-your-hn-comment/ Comments URL: https://news.ycombinator.com/item?id=50426582 Points: 215 # Comments: 143",
    "region": "global",
    "quellen": [
     "Hacker News Top"
    ],
-   "anzahl": 11,
+   "anzahl": 9,
    "links": [
-    "https://twitter.com/shanemelaugh/status/2119192075505893695",
+    "https://joshstrange.com/2026/11/09/i-saw-your-hn-comment/",
+    "https://www.economist.com/culture/2026/10/29/humans-will-never-again-create-a-project-quite-like-wikipedia",
+    "https://www.foldableflight.com",
     "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/",
-    "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
-    "https://chimera-vocal-synth.vercel.app/",
-    "https://ketchup3d.github.io/app/"
+    "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists"
    ],
-   "punkte": 13,
-   "text": "Article URL: https://twitter.com/shanemelaugh/status/2119192075505893695 Comments URL: https://news.ycombinator.com/item?id=50422069 Points: 271 # Comments: 190",
+   "punkte": 11,
+   "text": "Article URL: https://joshstrange.com/2026/11/09/i-saw-your-hn-comment/ Comments URL: https://news.ycombinator.com/item?id=50426582 Points: 215 # Comments: 143",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "995835d9",
-   "titel": "Börse: Chinas KI-Boom bekommt Risse: Private und institutionelle Aktienanleger ziehen ihr Geld ab",
-   "anriss": "Peking investiert Milliarden, um das Land technologisch unabhängig zu machen. Doch an den Börsen wachsen die Zweifel, ob sich die hohen Investitionen auszahlen.",
+   "id": "ce533d1f",
+   "titel": "Geldpolitik: „Der Zeitplan ist eng“: Finanzminister beraten über Lagardes Nachfolge an der EZB-Spitze",
+   "anriss": "Spanien und die Niederlande werben für ihre nominierten Kandidaten. Eine Entscheidung über die EZB-Präsidentschaft dürfte schon bald fallen. Dann stehen weitere Personalentscheidungen an.",
    "region": "dach",
    "quellen": [
-    "Handelsblatt Finanzen",
-    "manager magazin"
+    "FAZ Wirtschaft",
+    "Handelsblatt Finanzen"
    ],
-   "anzahl": 3,
+   "anzahl": 2,
    "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/aktienmarkt-chinas-ki-boom-bekommt-risse/100267523.html",
-    "https://www.handelsblatt.com/finanzen/anlagestrategie/kolumnen/geldanlage-ki-aengste-investoren-reissen-sich-um-neue-anleihen-von-big-tech/100266249.html",
-    "https://www.manager-magazin.de/finanzen/geldanlage/berkshire-hathaway-kauft-so-viele-aktien-zurueck-wie-noch-nie-a-bf2fbdb1-7e5a-408c-8195-02d887bdacfc#ref=rss"
+    "https://www.handelsblatt.com/finanzen/geldpolitik/ezb-enger-zeitplan-finanzminister-beraten-ueber-neue-spitze/100268439.html",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/nachfolge-von-lagarde-die-ezb-braucht-mehr-als-laenderproporz-sie-braucht-frauen-accg-201659746.html"
    ],
-   "punkte": 12,
-   "text": "Peking investiert Milliarden, um das Land technologisch unabhängig zu machen. Doch an den Börsen wachsen die Zweifel, ob sich die hohen Investitionen auszahlen.",
+   "punkte": 9,
+   "text": "Spanien und die Niederlande werben für ihre nominierten Kandidaten. Eine Entscheidung über die EZB-Präsidentschaft dürfte schon bald fallen. Dann stehen weitere Personalentscheidungen an.",
    "positiv": [],
    "negativ": []
   }
  ],
  "ketten": [],
  "gegenthese": {
-  "konsens": "Markt sieht weiterhin Aufwärtspotenzial für KI‑ und Chip‑Aktien, unterstützt durch Bankenfusionen und Vodafone‑AI‑Strategie; Nvidia‑Sturz als kurzfristiger Effekt, Immobilien‑Neubau bleibt unattraktiv.",
-  "gegen": "Gegenargument: Nvidia‑Skandal könnte Vertrauen und Lieferketten nachhaltig schädigen, chinesische KI‑Investitionen verlieren Kapital, und überhitzte Chip‑Bewertungen riskieren Korrektur; Neubau‑Rentabilität könnte bei steigenden Zinsen steigen."
+  "konsens": "Markt erwartet, dass US-Aktien weiter steigen dank fallender Ölpreise, während der Nvidia‑Skandal als kurzfristiger Abreißer gilt; europäische Banken‑Fusionen werden als beschleunigt angesehen, und KI‑Investitionen erhalten breiten Support.",
+  "gegen": "Gegenargument: Der Nvidia‑Skandal könnte das Vertrauen in Halbleiteraktien nachhaltig beschädigen, regulatorische Hürden könnten deutsche Rechenzentren bremsen, und Fusionen könnten Integrationsrisiken sowie höhere Kosten erzeugen."
  },
  "matrix": [
   {
@@ -398,11 +375,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "102.6 Mrd"
+     "105.6 Mrd"
     ],
     [
      "KGV (erw.)",
-     "19,3"
+     "19,8"
     ],
     [
      "Umsatzwachstum",
@@ -435,12 +412,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die Siemens Energy AG verzeichnet ein starkes Umsatzwachstum von 18 % und ein moderates forward KGV von 19,3, was im Branchenvergleich attraktiv erscheint. Der Großteil der Analysten (21 von 28) empfiehlt Kauf, und das Kursziel von 193 EUR impliziert weiteres Aufwärtspotenzial.",
-   "dagegen": "Gegen das Bild spricht das anhaltende Transformationsrisiko im Windsegment, wo Siemens Gamesa mit Lieferverzögerungen und Qualitätsproblemen kämpft. Drei Analysten bewerten die Aktie bereits mit Verkauf, und die geringe Reddit‑Präsenz deutet auf schwaches Retail‑Interesse hin. Zudem könnte die hohe Verschuldung die Bilanz belasten.",
+   "dafuer": "Das Unternehmen verzeichnet ein starkes Umsatzwachstum von +18 % und ein moderates KGV von 19,8, was im Vergleich zur Branche attraktiv erscheint. Analysten sehen mit 21 Kauf‑Empfehlungen und einem Kursziel von 193 EUR Aufwärtspotenzial. Die breite Produktpalette in Turbinen, Netze und Services diversifiziert das Geschäft.",
+   "dagegen": "Trotz positiver Zahlen gibt es Unsicherheiten: Der Markt für Gasturbinen ist volatil, und Siemens Gamesa hat in den letzten Jahren Gewinnrückgänge erlebt. Drei Analysten empfehlen Verkauf, was auf Bedenken hinsichtlich Margen und Umsetzung von Transformationsprojekten hindeutet. Fehlende Insider‑Informationen und geringe Reddit‑Diskussionen reduzieren Transparenz.",
    "katalysatoren": [
-    "Auslieferung und Inbetriebnahme der neuen SG 8.0 Gasturbinen im Q2 2024",
-    "Auftragszuwachs im Grid‑Technologies‑Segment durch EU‑Förderprogramme für erneuerbare Netze",
-    "Zulassung und Serienstart der Siemens Gamesa Offshore‑Turbine 15 MW im Jahr 2025"
+    "Auslieferung neuer 8‑MW‑Windturbinen von Siemens Gamesa",
+    "Abschluss großer Service‑Verträge für Gasturbinen im europäischen Markt",
+    "Ankündigung einer strategischen Partnerschaft oder Spin‑Off zur Stärkung der Margen im Grid‑Segment"
    ]
   },
   "RHM.DE": {
@@ -451,11 +428,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "38.3 Mrd"
+     "39.5 Mrd"
     ],
     [
      "KGV (erw.)",
-     "16,1"
+     "16,6"
     ],
     [
      "Umsatzwachstum",
@@ -463,13 +440,13 @@
     ],
     [
      "Kursziel",
-     "1453 EUR"
+     "1435 EUR"
     ]
    ],
    "quellen": [
     [
      "Analysten",
-     "17 Kauf / 5 Halten / 0 Verkauf"
+     "16 Kauf / 6 Halten / 0 Verkauf"
     ],
     [
      "Newsletter",
@@ -488,13 +465,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Dafür spricht das robuste Umsatzwachstum von +36 % im letzten Geschäftsjahr, das KGV von 16,1, das unter dem Branchendurchschnitt liegt, und die breite geografische Diversifikation in Fahrzeug‑ und Rüstungssystemen. Die Mehrheit der Analysten (17 Kauf‑Empfehlungen) signalisiert positive Markterwartungen.",
-   "dagegen": "Ein Gegenargument ist die hohe Abhängigkeit von staatlichen Rüstungsausgaben, die politisch und konjunkturell schwanken können. Zudem kann die starke Gewichtung im Fahrzeug‑Segment bei steigenden Rohstoff‑ und Energiekosten die Margen belasten. Das Kursziel von 1453 € impliziert bereits erhebliche Aufwärts‑Erwartungen, die schwer zu übertreffen sind.",
-   "katalysatoren": [
-    "Abschluss der Lieferungen neuer Panzerfahrzeuge an die Bundeswehr im nächsten Quartal",
-    "Veröffentlichung des Q3‑2026‑Quartalsberichts mit erwarteter Umsatzsteigerung",
-    "Entscheidung über den Ausbau des Electronic‑Solutions‑Geschäfts in den USA"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "ASML.AS": {
    "ticker": "ASML.AS",
@@ -504,11 +477,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "509.4 Mrd"
+     "517.9 Mrd"
     ],
     [
      "KGV (erw.)",
-     "23,4"
+     "23,8"
     ],
     [
      "Umsatzwachstum",
@@ -541,9 +514,13 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "ASML dominiert den EUV‑Lithographiesektor, profitiert von starkem Umsatzwachstum (+55 %) und hohen Eintrittsbarrieren. Das KGV von 23,8 reflektiert stabile Ertragskraft, während Analysten (38 Buy, 2 Hold) das langfristige Nachfragepotenzial in fortschrittlichen Halbleitern betonen.",
+   "dagegen": "Einziger Analyst (1 Sell) warnt vor hohen Bewertung, Abhängigkeit von wenigen Kunden und möglichen Lieferengpässen bei kritischen Komponenten. Marktvolatilität und geopolitische Risiken könnten die Auftragslage beeinträchtigen, was das Kursziel von 2096 € in Frage stellt.",
+   "katalysatoren": [
+    "Start der Serienproduktion von High‑NA EUV‑Systemen (voraussichtlich 2025)",
+    "Vertragserweiterungen mit führenden Chip‑Foundries (TSMC, Samsung) im 2. Quartal",
+    "Einführung neuer Metrologie‑ und Inspektionslösungen für 3‑nm‑Prozesse"
+   ]
   },
   "SU.PA": {
    "ticker": "SU.PA",
@@ -553,11 +530,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "136.6 Mrd"
+     "137.8 Mrd"
     ],
     [
      "KGV (erw.)",
-     "18,5"
+     "18,6"
     ],
     [
      "Umsatzwachstum",
@@ -575,7 +552,7 @@
     ],
     [
      "Newsletter",
-     "in 9 Clustern"
+     "in 13 Clustern"
     ],
     [
      "Reddit",
@@ -602,11 +579,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "204.9 Mrd"
+     "219.5 Mrd"
     ],
     [
      "KGV (erw.)",
-     "29,9"
+     "32,1"
     ],
     [
      "Umsatzwachstum",
@@ -651,11 +628,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "31.1 Mrd"
+     "32.5 Mrd"
     ],
     [
      "KGV (erw.)",
-     "41,5"
+     "43,4"
     ],
     [
      "Umsatzwachstum",
@@ -663,13 +640,13 @@
     ],
     [
      "Kursziel",
-     "119 USD"
+     "117 USD"
     ]
    ],
    "quellen": [
     [
      "Analysten",
-     "18 Kauf / 2 Halten / 0 Verkauf"
+     "19 Kauf / 2 Halten / 0 Verkauf"
     ],
     [
      "Newsletter",
@@ -700,11 +677,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "85.3 Mrd"
+     "89.7 Mrd"
     ],
     [
      "KGV (erw.)",
-     "13,9"
+     "14,6"
     ],
     [
      "Umsatzwachstum",
@@ -749,11 +726,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "4.506.8 Mrd"
+     "4.260.7 Mrd"
     ],
     [
      "KGV (erw.)",
-     "11,7"
+     "11,1"
     ],
     [
      "Umsatzwachstum",
@@ -767,7 +744,7 @@
    "quellen": [
     [
      "Analysten",
-     "59 Kauf / 2 Halten / 1 Verkauf"
+     "58 Kauf / 3 Halten / 1 Verkauf"
     ],
     [
      "Newsletter",
@@ -1174,6 +1151,6 @@
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 137,
+ "meldungen_gesamt": 153,
  "llm_aktiv": false
 }
