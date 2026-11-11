@@ -1,9 +1,9 @@
 {
- "stand": "2026-11-10T21:31",
- "lauf": "2026111021",
+ "stand": "2026-11-11T12:01",
+ "lauf": "2026111112",
  "synthese": {
-  "kern": "AI-Hype dominiert, während steigende Inflation, Renditen und sinkende Liquidität vom Markt vernachlässigt werden.",
-  "erlaeuterung": "Die Meldungen fokussieren auf KI‑Entwicklungen und Unternehmensskandale, doch makroökonomische Daten zeigen hohen Zinsdruck und schwache Liquidität. Investoren übersehen, dass steigende US‑Anleiherenditen und ein restriktiveres Geldklima das Risiko‑Appetit‑Perzentil auf 26 drücken."
+  "kern": "Markt fokussiert Tech‑ und Energie‑Booms, verkennt jedoch schwächelnde Liquidität und niedrigen Risikoappetit.",
+  "erlaeuterung": "Während Nvidia‑Verlust und Anthropic‑Bewertung die Aufmerksamkeit auf extreme Bewertungen lenken, zeigen die Regimewerte geringe Liquidität und Risikoappetit. Damit unterschätzt der Markt die potenzielle Volatilität bei anhaltendem Zinsdruck und schwacher Geldversorgung."
  },
  "regime": [
   {
@@ -11,15 +11,15 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 78,
-     "delta": 0
+     "wert": 80,
+     "delta": 3
     },
     "eur": {
      "wert": 90,
      "delta": -4
     }
    },
-   "differenz": 12
+   "differenz": 10
   },
   {
    "name": "wachstum",
@@ -36,23 +36,23 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 66,
-     "delta": 3
+     "wert": 67,
+     "delta": 7
     },
     "eur": {
-     "wert": 75,
-     "delta": -13
+     "wert": 78,
+     "delta": -2
     }
    },
-   "differenz": 9
+   "differenz": 11
   },
   {
    "name": "risikoappetit",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 26,
-     "delta": 6
+     "wert": 30,
+     "delta": -6
     }
    }
   },
@@ -76,20 +76,49 @@
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 80,
-     "delta": 2
+     "wert": 81,
+     "delta": 0
     }
    }
   }
  ],
  "cluster": [
   {
-   "id": "6105b8d7",
-   "titel": "Anthropic: Die Antworten auf die zehn wichtigsten Fragen zum Mega-IPO",
-   "anriss": "Das Start-up hinter dem KI-Modell Claude macht bei seinem geplanten Börsengang Tempo. Der aktualisierte Börsenprospekt liefert die Informationen, auf die Anleger lange gewartet haben.",
+   "id": "e71727de",
+   "titel": "Huang-Affäre: Nvidia verliert binnen einer Woche rund eine Billion Dollar an Börsenwert",
+   "anriss": "Auch am Dienstag geben die Aktien des Chipherstellers Nvidia deutlich nach. Davon profitiert haben dürfte ein US‑Shortseller. Der warnte bereits vor Monaten vor einem Problem bei Nvidia.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
+    "Handelsblatt Finanzen",
+    "SPIEGEL Wirtschaft",
+    "heise",
+    "manager magazin"
+   ],
+   "anzahl": 8,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/nvidia-aktie-chipkonzern-verliert-in-einer-woche-knapp-eine-billion-dollar-boersenwert/100268874.html",
+    "https://www.spiegel.de/wirtschaft/nvidia-aktie-faellt-auf-tiefsten-stand-seit-maerz-a-27332fd1-f19b-4a4f-a0d3-5f1012e4bf5d#ref=rss",
+    "https://www.spiegel.de/wirtschaft/unternehmen/lori-huang-welche-rolle-die-frau-von-nvidia-chef-jensen-huang-im-unternehmen-spielt-a-cfe58599-a415-4744-b3dd-48a8a64a84f2#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/jensen-huang-affaere-kostet-billionen-nvidia-aktie-auf-tiefstem-stand-seit-maerz-accg-201671288.html",
+    "https://www.manager-magazin.de/unternehmen/jensen-huang-wer-jetzt-ueber-das-schicksal-des-nvidia-chefs-entscheidet-a-63b49944-9129-4dc8-9be3-41f31dbf0a88#ref=rss"
+   ],
+   "punkte": 27,
+   "text": "Nvidia hat innerhalb einer Woche rund eine Billion Dollar an Börsenwert verloren, die Aktie fiel deutlich. Ein US‑Shortseller, der bereits vor Monaten vor einem Problem gewarnt hatte, dürfte von dem Kursrückgang profitiert haben.",
+   "positiv": [
+    "Short-Position (up)"
+   ],
+   "negativ": [
+    "Nvidia‑Aktie (down)",
+    "Halbleiter‑/KI‑Hardware‑Branche (down)"
+   ]
+  },
+  {
+   "id": "91e2261d",
+   "titel": "IPO: Banken wollen wohl Anthropic-Bewertung auf 1,5 Billionen Dollar erhöhen",
+   "anriss": "Anthropic hat am Dienstag sein Börsenprospekt vorgelegt. Demnach würde der KI-Entwickler eine Bewertung von einer Billionen Dollar erreichen. Doch die Banken hoffen offenbar auf noch mehr.",
+   "region": "dach",
+   "quellen": [
     "Handelsblatt Finanzen",
     "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft",
@@ -98,76 +127,110 @@
    ],
    "anzahl": 7,
    "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/aktien/anthropic-die-antworten-auf-die-zehn-wichtigsten-fragen-zum-mega-ipo/100258657.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/aktien/anthropic-banken-wollen-wohl-ipo-bewertung-auf-15-billionen-dollar-erhoehen/100269019.html",
     "https://www.tagesschau.de/wirtschaft/unternehmen/anthropic-boerse-kuenstliche-intelligenz-100.html",
     "https://www.tagesschau.de/wirtschaft/digitales/goldrausch-san-fransisco-anthropic-vor-boersengang-100.html",
     "https://www.spiegel.de/wirtschaft/unternehmen/anthropic-ki-firma-peilt-billionenbewertung-beim-boersengang-an-a-01ee7304-2fb0-45da-a9c9-1afec33f201f#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-thyssenkrupps-betriebsratschef-wechselt-die-seiten-faz-200452404.html"
+    "https://www.manager-magazin.de/unternehmen/tech/openai-anthropic-konkurrent-mit-50-prozent-umsatzplus-a-db68b39f-9a74-4ca5-b4d9-b870800b4e3f#ref=rss"
    ],
-   "punkte": 27,
-   "text": "Anthropic hat den aktualisierten Börsenprospekt für den geplanten Börsengang veröffentlicht, wobei das Unternehmen ein KI‑Modell‑Portfolio um Claude 2 erweitert. Der IPO wird voraussichtlich frisches Kapital in den US‑Tech‑IPO‑Markt bringen und das Angebot von KI‑Aktien erhöhen.",
+   "punkte": 25,
+   "text": "Anthropic hat sein Börsenprospekt mit einer Bewertung von einer Billion Dollar eingereicht, die Banken streben eine Erhöhung auf 1,5 Billionen Dollar an. Das deutet auf ein starkes Anlegerinteresse an KI‑Entwicklern hin.",
    "positiv": [
-    "KI‑Aktien",
-    "US‑Tech‑IPO‑Markt"
+    "Anthropic‑Aktie (up)",
+    "KI‑Entwickler‑Branche (up)"
    ],
-   "negativ": [
-    "bestehende Aktionäre (Verwässerung)"
-   ]
+   "negativ": []
   },
   {
-   "id": "ab84a5b1",
-   "titel": "Affäre von Nvidia-Chef Huang: Darum geht es beim Spionage-Verdacht",
-   "anriss": "Der US-Chipkonzern Nvidia ermittelt gegen seinen Chef Jensen Huang wegen einer Affäre mit einer mutmaßlichen chinesischen Spionin. Welche Vorwürfe konkret im Raum stehen - und welche Folgen sie haben könnten.",
+   "id": "d93b0c34",
+   "titel": "Nikkei, Yen, Hang Seng: Zinssorgen belasten Märkte in Asien nicht - Indizes in Japan legen zu",
+   "anriss": "Die mäßigen Vorgaben der Wall Street bleiben weitestgehend ohne Folgen. Stattdessen fokusieren sich die Anleger auf das Thema Künstliche Intelligenz.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
+    "Handelsblatt Finanzen",
     "Tagesschau Wirtschaft",
-    "heise",
+    "heise"
+   ],
+   "anzahl": 5,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-yen-hang-seng-zinssorgen-belasten-maerkte-in-asien-nicht/100268928.html",
+    "https://www.tagesschau.de/wirtschaft/arbeitslosigkeit-akademiker-rekord-100.html",
+    "https://www.tagesschau.de/wirtschaft/technologie/ki-milliarden-investitionen-profiteure-100.html",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/michael-waidner-und-haya-schulmann-zu-ki-nicht-alles-was-quakt-ist-eine-ente-accg-201651009.html",
+    "https://www.heise.de/news/Nahles-800-000-Jobs-werden-aufgrund-von-KI-wegfallen-11520276.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 19,
+   "text": "Die Zinssorgen haben die asiatischen Märkte bislang kaum belastet; die japanischen Indizes legen zu. Anleger richten ihr Augenmerk vermehrt auf das Thema Künstliche Intelligenz.",
+   "positiv": [
+    "Japanische Aktienindizes (up)"
+   ],
+   "negativ": []
+  },
+  {
+   "id": "502eaf33",
+   "titel": "Immobilien: „Sitz im Aufsichtsrat ist Option“: So äußert sich Grand City Properties zum Einstieg bei LEG",
+   "anriss": "Der Immobilieninvestor, hinter dem der Gewerbeimmobilienspezialist Aroundtown steht, legt das erste Mal seit dem Einstieg beim Düsseldorfer MDax-Konzern LEG Zahlen vor.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
     "manager magazin"
    ],
-   "anzahl": 8,
+   "anzahl": 5,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/unternehmen/faq-nvidia-spionage-100.html",
-    "https://www.tagesschau.de/wirtschaft/finanzen/marktbericht-nvidia-ki-huang-100.html",
-    "https://www.spiegel.de/wirtschaft/unternehmen/lori-huang-welche-rolle-die-frau-von-nvidia-chef-jensen-huang-im-unternehmen-spielt-a-cfe58599-a415-4744-b3dd-48a8a64a84f2#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/jensen-huang-ist-nun-chipkoenig-auf-abruf-von-nvidia-201665989.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/bleibt-jensen-huang-der-chef-von-nvidia-accg-201664832.html"
+    "https://www.handelsblatt.com/finanzen/immobilien/immobilien-so-aeussert-sich-grand-city-properties-zum-einstieg-bei-leg/100268810.html",
+    "https://www.handelsblatt.com/finanzen/immobilien/immobilien-warum-deutschland-bei-investoren-an-attraktivitaet-verliert/100266860.html",
+    "https://www.handelsblatt.com/finanzen/immobilien/immobilien-neuer-millionenpoker-was-plant-aroundtown-beim-rivalen-leg/100266866.html",
+    "https://www.manager-magazin.de/unternehmen/immobilien-der-unheimliche-aufstieg-des-maklers-evernest-a-12f69d68-1f3e-43bd-9ab9-fa27c461b524#ref=rss",
+    "https://www.manager-magazin.de/finanzen/geldanlage/immobilien-fonds-anleger-bereiten-klagen-gegen-deutsche-bank-und-dws-vor-a-ff4ea8b3-630a-4246-8f2b-ecc433d2cc9d#ref=rss"
    ],
-   "punkte": 26,
-   "text": "Nvidia prüft Vorwürfe, dass CEO Jensen Huang eine Beziehung zu einer mutmaßlichen chinesischen Spionin hatte, was zu internen Ermittlungen führt. Die Unsicherheit belastet das Vertrauen in das Unternehmen und kann den Aktienkurs sowie das Sentiment im Halbleitersektor belasten.",
+   "punkte": 17,
+   "text": "Grand City Properties äußert sich zu einem möglichen Sitz im Aufsichtsrat von LEG und legt erstmals Zahlen des MDAX‑Konzerns vor. Die Meldung enthält keine klaren Hinweise auf Kursentwicklungen der beteiligten Unternehmen.",
    "positiv": [],
-   "negativ": [
-    "Nvidia‑Aktie",
-    "Halbleiter‑Branche"
-   ]
+   "negativ": []
   },
   {
-   "id": "28c05f49",
-   "titel": "Maschinenbau will mit Künstlicher Intelligenz aus der Krise",
-   "anriss": "Der deutsche Maschinenbau steckt in seinem vierten Krisenjahr. Die Branche leidet unter hohen Energiekosten und zu viel Bürokratie. Beim Maschinenbaugipfel gibt es aber auch Hoffnungssignale - etwa die Künstliche Intelligenz. Von A. John.",
+   "id": "9f4763bc",
+   "titel": "Protecting SSH Keys with macOS Secure Enclave",
+   "anriss": "Article URL: https://gatezh.com/posts/macos-secure-enclave-ssh-keys/ Comments URL: https://news.ycombinator.com/item?id=50449748 Points: 228 # Comments: 85",
+   "region": "global",
+   "quellen": [
+    "Hacker News Top"
+   ],
+   "anzahl": 14,
+   "links": [
+    "https://gatezh.com/posts/macos-secure-enclave-ssh-keys/",
+    "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+    "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+    "https://teorth.github.io/tao-web/six-math-essentials.html",
+    "https://www.theautopian.com/scion-is-back-and-its-going-to-sell-a-freaking-kei-truck-in-america/"
+   ],
+   "punkte": 16,
+   "text": "Article URL: https://gatezh.com/posts/macos-secure-enclave-ssh-keys/ Comments URL: https://news.ycombinator.com/item?id=50449748 Points: 228 # Comments: 85",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "f56d603c",
+   "titel": "Boom bei Windkraft und Rechenzentren beschert Siemens Energy Rekordjahr",
+   "anriss": "Der Hype um Künstliche Intelligenz, E-Mobilität und Digitalisierung beschert Siemens Energy ein Rekordjahr. Und das soll nach Prognose des Energietechnik-Konzerns so weitergehen.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft"
+    "Tagesschau Wirtschaft",
+    "manager magazin"
    ],
    "anzahl": 4,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/technologie/maschinenbauer-boom-kuenstliche-intelligenz-100.html",
-    "https://www.spiegel.de/wirtschaft/soziales/maschinenbau-gipfel-katherina-reiche-kritisiert-eigene-regierung-a-207e0fe5-9058-450f-b83c-f102fcbc7236#ref=rss",
-    "https://www.spiegel.de/wirtschaft/deutschland-maschinenbauer-werfen-bundesregierung-vor-reformen-zu-blockieren-a-a24b11f7-4700-4a09-9eb6-3dcc1a5732dc#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/vdma-praesident-bertram-kawlath-deutschland-macht-uns-fassungslos-accg-201661284.html"
+    "https://www.tagesschau.de/wirtschaft/unternehmen/siemens-bilanz-energie-strom-ki-100.html",
+    "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/nach-rekordjahr-strotzt-siemens-energy-vor-zuversicht-accg-201671693.html",
+    "https://www.manager-magazin.de/unternehmen/tech/siemens-energy-aktie-mit-kursrallye-ki-konzern-lockt-mit-aktienrueckkauf-und-hoher-dividende-a-48efd504-a128-4fdc-a7ba-87ee010e9018#ref=rss",
+    "https://www.manager-magazin.de/finanzen/boerse/boerse-dax-nimmt-kurs-auf-rekordhoch-siemens-energy-aktie-gibt-auftrieb-a-3aefc682-53db-4d26-a0c5-913efe4880d9#ref=rss"
    ],
    "punkte": 14,
-   "text": "Der deutsche Maschinenbaugipfel betont den Einsatz von Künstlicher Intelligenz, um die aktuelle Krise des Sektors zu mildern, der unter hohen Energiekosten und Bürokratie leidet. KI‑Dienstleister und Anbieter von Automatisierungslösungen könnten von einer steigenden Nachfrage profitieren, während der Maschinenbau selbst weiterhin unter strukturellen Belastungen steht.",
-   "positiv": [
-    "KI‑Dienstleister",
-    "Automatisierungslösungen"
-   ],
-   "negativ": [
-    "deutscher Maschinenbau (kurzfristig)"
-   ]
+   "text": "Der Hype um Künstliche Intelligenz, E-Mobilität und Digitalisierung beschert Siemens Energy ein Rekordjahr. Und das soll nach Prognose des Energietechnik-Konzerns so weitergehen.",
+   "positiv": [],
+   "negativ": []
   },
   {
    "id": "6b3ec967",
@@ -186,101 +249,73 @@
     "https://www.faz.net/aktuell/wirtschaft/auto-verkehr/haushalt-klingbeil-und-die-autobahn-erpressung-201669350.html"
    ],
    "punkte": 13,
-   "text": "Bundesfinanzminister Klingbeil plant die Abschaffung der Steuerklassen III und V und ermöglicht Ehepartnern, den Splitting‑Vorteil künftig fair zu teilen, ohne die Klassen zu wechseln. Die Maßnahme dürfte das verfügbare Einkommen von Paaren erhöhen und die Konsumausgaben ankurbeln, während die Steuerbasis des Bundes potenziell geschwächt wird.",
-   "positiv": [
-    "Konsumgüter‑Aktien",
-    "Einzelhandel"
-   ],
-   "negativ": [
-    "Staatsanleihen (geringere Renditeerwartung)"
-   ]
-  },
-  {
-   "id": "2466c49b",
-   "titel": "Immobilien: Mietsteigerung: In diesen Großstädten wird es besonders teuer – Regional unterscheidet sich Entwicklung deutlich",
-   "anriss": "Neue Zahlen des Verbands deutscher Pfandbriefbanken zeigen, wo die Mieten in den Metropolen im dritten Quartal 2026 am stärksten zulegen – und warum sich Kaufpreise anders entwickeln.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "SPIEGEL Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/immobilien/immobilien-wo-die-mieten-in-deutschland-am-staerksten-steigen/100266848.html",
-    "https://www.spiegel.de/wirtschaft/service/immobilien-mieten-ziehen-deutlich-an-lage-spitzt-sich-laut-banken-zu-a-e867587b-e01c-4898-94e4-81961204d4d4#ref=rss",
-    "https://www.manager-magazin.de/finanzen/geldanlage/offene-immobilienfonds-anwaelte-nehmen-deutsche-bank-wegen-dws-fonds-ins-visier-a-ff4ea8b3-630a-4246-8f2b-ecc433d2cc9d#ref=rss"
-   ],
-   "punkte": 13,
-   "text": "Neue Zahlen des Verbands deutscher Pfandbriefbanken zeigen, wo die Mieten in den Metropolen im dritten Quartal 2026 am stärksten zulegen – und warum sich Kaufpreise anders entwickeln.",
+   "text": "Bundesfinanzminister Klingbeil will die Steuerklassen III und V abschaffen. Schon heute können Eheleute ihren Steuerrabatt, fair aufteilen – sogar ohne die Steuerklasse zu wechseln.",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "996dbe53",
-   "titel": "Viele deutsche Unternehmen bauen die KI-Infrastruktur mit auf",
-   "anriss": "US-Tech-Giganten investieren Milliarden in Künstliche Intelligenz. Anleger werden vorsichtiger mit Blick auf die Kosten. Warum deutsche und europäische Unternehmen davon profitieren könnten. Von Bianca von der Au.",
+   "id": "cb5eba79",
+   "titel": "Tankrabatt drückt Inflation im Oktober",
+   "anriss": "Die Teuerungsrate ist im Oktober in Deutschland zurückgegangen. Der Tankrabatt zeigt offenbar Wirkung. Energie - vor allem Heizöl - bleibt aber teuer. Und auch einige Lebensmittel kosten wieder mehr.",
    "region": "dach",
    "quellen": [
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "heise"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/technologie/ki-milliarden-investitionen-profiteure-100.html",
-    "https://www.spiegel.de/wirtschaft/unternehmen/kuenstliche-intelligenz-andrea-nahles-rechnet-mit-verlust-von-800-000-jobs-a-64556960-bdcf-4d85-becc-93ef14bb937e#ref=rss",
-    "https://www.heise.de/news/Apple-CEO-Ternus-draengt-auf-mehr-Tempo-bei-KI-Entwicklung-11519012.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 12,
-   "text": "US-Tech-Giganten investieren Milliarden in Künstliche Intelligenz. Anleger werden vorsichtiger mit Blick auf die Kosten. Warum deutsche und europäische Unternehmen davon profitieren könnten. Von Bianca von der Au.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "0c514ac3",
-   "titel": "Kalifornier lehnen Milliardärssteuer ab",
-   "anriss": "Die Wähler in Kalifornien haben per Volksentscheid gegen eine einmalige Sonderabgabe durch die etwa 250 Milliardäre im US-Bundesstaat gestimmt. Die Superreichen hatten Millionen US-Dollar in Werbespots gegen die Reichensteuer gesteckt.",
-   "region": "dach",
-   "quellen": [
-    "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft",
     "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.tagesschau.de/ausland/amerika/kalifornien-milliardaerssteuer-abgelehnt-100.html",
-    "https://www.spiegel.de/wirtschaft/unternehmen/kalifornien-waehler-lehnen-milliardaerssteuer-ab-a-8158b657-1bb4-4248-9b65-d282c08da566#ref=rss",
-    "https://www.manager-magazin.de/politik/weltwirtschaft/usa-kalifornier-lehnen-milliardaerssteuer-ab-a-d1828aac-58b4-4d01-8af8-aae07bd19012#ref=rss"
-   ],
-   "punkte": 12,
-   "text": "Die Wähler in Kalifornien haben per Volksentscheid gegen eine einmalige Sonderabgabe durch die etwa 250 Milliardäre im US-Bundesstaat gestimmt. Die Superreichen hatten Millionen US-Dollar in Werbespots gegen die Reichens",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "e71727de",
-   "titel": "Huang-Affäre: Nvidia verliert binnen einer Woche rund eine Billion Dollar an Börsenwert",
-   "anriss": "Auch am Dienstag geben die Aktien des Chipherstellers Nvidia deutlich nach. Davon profitiert haben dürfte ein US‑Shortseller. Der warnte bereits vor Monaten vor einem Problem bei Nvidia.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen"
    ],
    "anzahl": 2,
    "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/nvidia-aktie-chipkonzern-verliert-in-einer-woche-eine-billion-dollar-boersenwert/100268874.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-inflationsdaten-belasten-wall-street-nvidia-aktien-verlieren/100268787.html"
+    "https://www.tagesschau.de/wirtschaft/konjunktur/inflation-tankrabatt-spritpreise-oktober-100.html",
+    "https://www.manager-magazin.de/unternehmen/mobilitaet/volkswagen-vw-steigert-e-auto-absatz-in-china-im-oktober-deutlich-a-94baf822-dc73-454a-8e45-95603095314d#ref=rss"
    ],
    "punkte": 12,
-   "text": "Auch am Dienstag geben die Aktien des Chipherstellers Nvidia deutlich nach. Davon profitiert haben dürfte ein US‑Shortseller. Der warnte bereits vor Monaten vor einem Problem bei Nvidia.",
+   "text": "Die Teuerungsrate ist im Oktober in Deutschland zurückgegangen. Der Tankrabatt zeigt offenbar Wirkung. Energie - vor allem Heizöl - bleibt aber teuer. Und auch einige Lebensmittel kosten wieder mehr.",
    "positiv": [],
    "negativ": []
   }
  ],
- "ketten": [],
+ "ketten": [
+  {
+   "ausloeser": "US-SEC eröffnet formelle Untersuchung zu Nvidia wegen möglicher Marktmanipulation im Zusammenhang mit der Huang‑Affäre",
+   "direkt": "Aktienkurs von Nvidia fällt kurzfristig um 12 % nach Bekanntwerden der Untersuchung",
+   "zweite": "Technologie‑ETFs, die Nvidia stark gewichten (z. B. iShares MSCI World Information Technology UCITS ETF), verlieren ebenfalls, weil Anleger das Risiko einer breiteren regulatorischen Welle in der Halbleiterbranche sehen",
+   "dritte": "Europäische Halbleiter‑ und Chip‑Hersteller (z. B. ASML, Infineon) erleben Kursrückgänge, da die Unsicherheit über mögliche weitere US‑Untersuchungen auf die gesamte Lieferkette übergreift; gleichzeitig steigt die Nachfrage nach alternativen GPU‑Anbietern (z. B. AMD) und deren Aktienkurse steigen leicht",
+   "positiv": [
+    "AMD (NASDAQ: AMD, indirekt über ADRs in europäischen Portfolios)",
+    "ASML‑Aktien (Euronext Amsterdam) – profitieren von relativ geringerer regulatorischer Belastung",
+    "iShares MSCI Europe Information Technology UCITS ETF (IE00BJ0KDQ92) – relativ geringere Nvidia‑Exponierung"
+   ],
+   "negativ": [
+    "Nvidia (NASDAQ: NVDA, über ADRs in europäischen Portfolios)",
+    "iShares MSCI World Information Technology UCITS ETF (IE00BJ0KDQ92)",
+    "ASML‑Aktien (falls die Untersuchung zu einer breiteren US‑Halbleiter‑Krise ausweitet)",
+    "Infineon (FRA: IFX)"
+   ],
+   "konfidenz": "mittel"
+  },
+  {
+   "ausloeser": "EU-Kommission beschließt ab Q2 2027 eine verpflichtende CO₂‑Steuer für den Betrieb von Rechenzentren, die über 100 MW Leistung verfügen",
+   "direkt": "Betriebskosten großer Cloud‑Provider (z. B. Microsoft, Amazon, Google) in Europa steigen um geschätzte 8 % jährlich",
+   "zweite": "Investoren reduzieren Exposure zu Unternehmen mit hohem Energieverbrauch in Rechenzentren; europäische Versorger, die erneuerbare Energien für Rechenzentren bereitstellen (z. B. Ørsted, Enel Green Power), erhalten vermehrt Aufträge",
+   "dritte": "Aktien von Unternehmen, die erneuerbare‑Energie‑Infrastruktur für Rechenzentren bauen (z. B. Siemens Energy, Vestas) steigen, während klassische Energieversorger mit hohem Anteil fossiler Erzeugung (z. B. RWE, EDF) Kursdruck erfahren; gleichzeitig profitieren europäische REITs, die in Rechenzentrums‑Immobilien mit Green‑Power‑Verträgen investieren (z. B. LEG Immobilien), da ihre Mietverträge attraktiver werden",
+   "positiv": [
+    "Siemens Energy (ETR: ENR)",
+    "Vestas Wind Systems (CPH: VWS)",
+    "Ørsted (CPH: ORSTED)",
+    "Enel Green Power (ENEL: ENEL)",
+    "LEG Immobilien (ETR: LEG) – steigende Nachfrage nach nachhaltigen Rechenzentrums‑Immobilien"
+   ],
+   "negativ": [
+    "RWE (ETR: RWE)",
+    "EDF (EPA: EDF)",
+    "Traditionelle Energieversorger mit hohem Kohle‑/Gaskraftanteil",
+    "Cloud‑Provider‑Aktien (Microsoft, Amazon, Google) über ADRs in europäischen Portfolios"
+   ],
+   "konfidenz": "hoch"
+  }
+ ],
  "gegenthese": {
-  "konsens": "KI‑Boom treibt Aktien und Investitionen, IPO‑ und Infrastruktur‑Projekte werden positiv bewertet.",
-  "gegen": "Gefahr von Überbewertung und regulatorischen/ethischen Risiken, etwa durch den Nvidia‑Skandal, die zu starken Korrekturen führen können."
+  "konsens": "Nvidia‑Korrektur wird als temporär gesehen; Anthropic‑Bewertung dürfte weiter steigen; Asien‑Aktien profitieren von nachlassenden Zinsängsten; Siemens Energy profitiert vom Wind‑ und Rechenzentrumsboom; Steuer‑Splitting bleibt vorteilhaft; Tankrabatt senkt Inflation.",
+  "gegen": "Nvidia‑Verlust könnte strukturelle Nachfrage‑Schwäche signalisieren; Anthropic‑Bewertung überbewertet KI‑Risiken; Asien‑Markt bleibt anfällig für globale Zins‑ und Wachstums‑Unsicherheiten; Siemens Energy‑Ergebnis stark von staatlichen Subventionen abhängig; Steuer‑Splitting kann zu Ungerechtigkeit führen; Tankrabatt ist temporär und könnte zu Preisinstabilität führen."
  },
  "matrix": [
   {
@@ -397,11 +432,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "102.0 Mrd"
+     "111.5 Mrd"
     ],
     [
      "KGV (erw.)",
-     "19,1"
+     "20,9"
     ],
     [
      "Umsatzwachstum",
@@ -419,7 +454,7 @@
     ],
     [
      "Newsletter",
-     "nicht erwaehnt"
+     "in 1 Clustern"
     ],
     [
      "Reddit",
@@ -434,12 +469,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Starkes Auftragsbuch in Gas‑ und Dampfturbinen sowie im Windsektor, 18 % Umsatzwachstum im letzten Geschäftsjahr, solide Bewertung (KGV 19,1) und breiter Analystenkonsens (21 Buy) sprechen für die Aktie.",
-   "dagegen": "Risiken bestehen in der Umsetzung neuer Windturbinenplattformen, hohen Verschuldungsgrad, Margendruck durch steigende Rohstoffpreise und divergierenden Analystenmeinungen (3 Verkauf), was die Bewertung belasten könnte.",
+   "dafuer": "Die Analystenmehrheit (21 Kauf, 4 Halten, 3 Verkauf) spricht für Siemens Energy. Das erwartete KGV von 20,9 liegt im Branchenmittel, das Umsatzwachstum von +18 % deutet auf starke Nachfrage. Das Kursziel von 193 € liegt über dem aktuellen Kurs, was Aufwärtspotenzial signalisiert.",
+   "dagegen": "Die Gegenargumente: Das Unternehmen trägt eine hohe Verschuldung, die bei steigenden Zinsen die Bilanz belasten könnte. Die Siemens‑Gamesa‑Sparte hat Lieferverzögerungen und Qualitätsprobleme, was das Vertrauen mindert. Der geringe Dividendenanteil und die drei Verkaufs‑Analysten zeigen Unsicherheit trotz positiver Kennzahlen.",
    "katalysatoren": [
-    "Q3‑2024 Quartalsbericht mit erwarteter Umsatzsteigerung",
-    "Lieferung des ersten 500‑MW‑Gas‑Turbinen‑Auftrags",
-    "Inbetriebnahme der neuen Siemens Gamesa SG 14‑236‑Windturbine"
+    "Q3‑Ergebnisbericht (Juli 2024)",
+    "Auslieferung neuer Gasturbinen‑Serie",
+    "Vertrag für Offshore‑Windpark in der Nordsee"
    ]
   },
   "RHM.DE": {
@@ -450,11 +485,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "39.8 Mrd"
+     "38.7 Mrd"
     ],
     [
      "KGV (erw.)",
-     "17,1"
+     "16,6"
     ],
     [
      "Umsatzwachstum",
@@ -462,7 +497,7 @@
     ],
     [
      "Kursziel",
-     "1402 EUR"
+     "1381 EUR"
     ]
    ],
    "quellen": [
@@ -487,12 +522,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Rheinmetall profitiert von steigenden Rüstungsausgaben in Deutschland und Europa, was das Umsatzwachstum von 36 % erklärt. Der Auftragspool für gepanzerte Fahrzeuge und elektronische Lösungen ist robust, und das KGV von 17,1 liegt im Branchendurchschnitt, was die Bewertung relativ attraktiv erscheinen lässt.",
-   "dagegen": "Die Abhängigkeit von staatlichen Verteidigungsbudgets macht das Unternehmen anfällig für politische Entscheidungen und Haushaltskürzungen. Die Bewertung von 1.402 € Kursziel erscheint hoch im Vergleich zum historischen Mittel, und das operative Ergebnis kann durch steigende Rohstoff- und Personalkosten belastet werden.",
+   "dafuer": "Starkes Umsatzwachstum von +36 % zeigt steigende Nachfrage, insbesondere im Vehicle‑Systems‑Segment. Das moderate KGV von 16,6 deutet auf relative Bewertung im Vergleich zum Branchen‑Durchschnitt hin. Analysten‑Consensus ist überwiegend positiv (17 Buy, 5 Hold). Zudem profitieren mögliche Rüstungsetats‑Erhöhungen in Kern‑Märkten.",
+   "dagegen": "Hohe Abhängigkeit von Rüstungsaufträgen erhöht konjunkturelle und politische Risiken; sinkende Verteidigungsbudgets könnten Umsatz belasten. Das Geschäftsmodell ist stark auf staatliche Beschaffungen fokussiert, was Lieferverzögerungen oder Auftragskürzungen begünstigt. Zudem fehlt transparente Insider‑Information, und die Analysten‑Abdeckung ist relativ dünn.",
    "katalysatoren": [
-    "Erhöhung des deutschen Verteidigungsbudgets 2025",
-    "Vergabe neuer US‑Verteidigungsaufträge im zweiten Quartal",
-    "Veröffentlichung des Q3‑Ergebnisses und Ausblick"
+    "Verkündung des deutschen Verteidigungsbudgets 2025 mit möglicher Aufstockung für Fahrzeugsysteme",
+    "Zuteilung eines Großauftrags für neue gepanzerte Transportfahrzeuge an die Bundeswehr",
+    "Eintritt in den US‑Markt mit elektronischen Verteidigungslösungen und Abschluss erster Lieferverträge"
    ]
   },
   "ASML.AS": {
@@ -503,11 +538,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "524.6 Mrd"
+     "541.1 Mrd"
     ],
     [
      "KGV (erw.)",
-     "24,1"
+     "24,9"
     ],
     [
      "Umsatzwachstum",
@@ -540,12 +575,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "ASML dominiert den Markt für EUV‑Lithografie, das Kernsegment für modernste Chip‑Fertigung. Das Umsatzwachstum von +55 % und ein starkes KGV von 24,1 deuten auf robuste Nachfrage und Gewinnpotenzial hin. Analysten‑Consensus (38 Buy) signalisiert breites Vertrauen in die langfristige Marktposition.",
-   "dagegen": "Einige Analysten (2 Hold, 1 Sell) warnen vor hohen Bewertungsniveaus und Abhängigkeit von wenigen Großkunden. Das Fehlen von Insider‑Aktivität und Shorts kann auf geringe Marktliquidität hindeuten. Zudem besteht das Risiko regulatorischer Beschränkungen für kritische Halbleiterausrüstung.",
+   "dafuer": "ASML profitiert von seiner Monopolstellung im EUV‑Lithografie‑Markt, was zu einem Umsatzwachstum von 55 % führte. Der Auftragsbestand bleibt robust, und die Analysten‑Mehrheit (38 Buy) spiegelt starkes Vertrauen wider. Keine bekannten Short‑Positionen und ein Kursziel von 2.096 € unterstützen die positive Sicht.",
+   "dagegen": "Gegen das Bild spricht das relativ hohe KGV von 24,9, das die Bewertung im Vergleich zu historischen Werten überhöht erscheinen lässt. Die Abhängigkeit von wenigen Großkunden erhöht das Risiko bei einer Abschwächung der Chipnachfrage. Ein einzelner Analyst empfiehlt Verkauf, was auf mögliche Bedenken hinweist.",
    "katalysatoren": [
-    "Auslieferungsstart der nächsten EUV‑Generation (High‑NA) im Jahr 2025",
-    "Vertragserweiterungen mit führenden Foundries (TSMC, Samsung) für 2024‑2025",
-    "Erwartete Anhebung der US‑Exportkontrollen für Halbleiterausrüstung"
+    "Q3‑2024 Ergebnisbericht mit Auftrags‑ und Margenentwicklung",
+    "Markteinführung des nächsten High‑NA‑EUV‑Systems",
+    "Abschluss neuer Langzeit‑Lieferverträge mit TSMC oder Samsung"
    ]
   },
   "SU.PA": {
@@ -556,11 +591,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "138.3 Mrd"
+     "142.1 Mrd"
     ],
     [
      "KGV (erw.)",
-     "18,7"
+     "19,2"
     ],
     [
      "Umsatzwachstum",
@@ -578,7 +613,7 @@
     ],
     [
      "Newsletter",
-     "in 13 Clustern"
+     "in 16 Clustern"
     ],
     [
      "Reddit",
@@ -593,12 +628,12 @@
      "1648,06 % ueber 1700 Halter"
     ]
    ],
-   "dafuer": "Die Analystenmeinung ist überwiegend positiv (19 Kauf, 4 Halten, kein Verkauf) und das Unternehmen weist ein Umsatzwachstum von 10 % sowie ein moderates forward KGV von 18,7 auf. Das Kursziel von 323 € unterstützt die Erwartung einer weiteren Kurssteigerung.",
-   "dagegen": "Ein starkes Short‑Interest von 1.648 % bei über 1.700 Haltern steht im Widerspruch zur Analysten‑Bullish‑Stimmung und deutet auf mögliche Bewertungszweifel hin. Reddit‑Nennung ist gering, was auf fehlende Retail‑Aufmerksamkeit schließen lässt; zudem fehlen Insider‑Transaktionen, die sonst als positives Signal gelten könnten.",
+   "dafuer": "Die Analystenmeinung ist überwiegend positiv (19 Kauf, 4 Halten, 0 Verkauf). Das Unternehmen weist ein Umsatzwachstum von 10 % auf, ein KGV von 19,2 und ein Kursziel von 323 €, das über dem aktuellen Kurs liegt. Die breite Produktpalette im Energiemanagement und in der Industrieautomation stärkt das langfristige Wachstumspotenzial.",
+   "dagegen": "Gegen die positive Sicht spricht ein extrem hoher Short‑Interest von über 1 600 % und mehr als 1 700 Short‑Positionen, was auf erhebliche Skepsis des Marktes hindeutet. Es gibt keine Insiderkäufe und kaum Diskussionen auf Reddit, was die Transparenz und das Vertrauen in die Aktie mindern kann.",
    "katalysatoren": [
-    "Veröffentlichung des Q3‑Ergebnisses (Erwartung: Umsatz‑ und Gewinnsteigerung)",
-    "Markteinführung der neuen IoT‑Energie‑Management‑Plattform für Gebäude",
-    "EU‑Green‑Deal‑Förderungen für energieeffiziente Gebäudetechnik"
+    "Q3‑2024 Ergebnisveröffentlichung (voraussichtlich Ende Oktober)",
+    "Einführung einer neuen Micro‑grid‑Lösung für industrielle Kunden",
+    "Abschluss einer strategischen Partnerschaft im Bereich erneuerbare Energien"
    ]
   },
   "GEV": {
@@ -695,13 +730,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Dafür spricht die starke Analystenmeinung (19 Kauf, 2 Halten) und die Diversifizierung in Uran, Fuel Services und Westinghouse, die langfristige Nachfrage nach Kernenergie bedienen. Das Marktwert von 31,7 Mrd USD und ein Kursziel von 116 USD spiegeln Optimismus wider.",
-   "dagegen": "Dagegen spricht das hohe erwartete KGV von 42,5, das auf mögliche Überbewertung hindeutet, sowie das geringe Umsatzwachstum von nur +1 %. Fehlende Insider‑Meldungen und kaum Diskussion in Newsletter oder Reddit lassen Zweifel an kurzfristiger Dynamik aufkommen.",
-   "katalysatoren": [
-    "US‑Politik zur Stärkung der heimischen Kernbrennstoffversorgung",
-    "Neue Aufträge oder Fortschritte bei Westinghouse‑Reaktoren",
-    "Genehmigungen für die Erweiterung kanadischer Uranminen"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "FCX": {
    "ticker": "FCX",
@@ -803,69 +834,6 @@
   }
  },
  "shorts": [
-  {
-   "land": "NL",
-   "halter": "O'Connor Alternative Investments, LLC",
-   "emittent": "Akzo Nobel N.V.",
-   "prozent": 1.34,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "PDT Partners, LLC",
-   "emittent": "Signify N.V.",
-   "prozent": 1.3,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "Capital Fund Management S.A.",
-   "emittent": "IMCD N.V.",
-   "prozent": 0.91,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "Citadel Advisors LLC",
-   "emittent": "Sligro Food Group N.V.",
-   "prozent": 0.88,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "Citadel Securities (Europe) Limited",
-   "emittent": "Sif Holding N.V.",
-   "prozent": 0.79,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "Numeric Investors LLC",
-   "emittent": "TomTom N.V.",
-   "prozent": 0.59,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "D. E. Shaw & Co., L.P.",
-   "emittent": "Basic-Fit N.V.",
-   "prozent": 0.58,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
   {
    "land": "UK",
    "halter": "Anavio Capital Partners LLP",
@@ -1072,10 +1040,73 @@
    "datum": "2019-06-14",
    "status": "aufgestockt",
    "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 14.49,
+   "datum": "2019-06-13",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 14.29,
+   "datum": "2019-06-12",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 14.08,
+   "datum": "2019-06-11",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 13.82,
+   "datum": "2019-06-10",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "GUEVOURA FUND LTD",
+   "emittent": "HAMMERSON PLC",
+   "prozent": 13.78,
+   "datum": "2020-09-24",
+   "status": "aufgestockt",
+   "zuvor": 0.57
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 13.68,
+   "datum": "2019-06-07",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 13.5,
+   "datum": "2019-06-06",
+   "status": "aufgestockt",
+   "zuvor": 0.53
   }
  ],
  "shorts_kennzahlen": {
-  "neu_diese_woche": 7,
+  "neu_diese_woche": 0,
   "meistgeshortet": {
    "name": "Premier Oil PLC",
    "summe": 2145.63
@@ -1088,38 +1119,6 @@
  },
  "gespraech": [],
  "termine": [
-  {
-   "datum": "2026-11-10",
-   "zeit": "",
-   "region": "us",
-   "was": "Consumer Price Index",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-11-10",
-   "zeit": "",
-   "region": "us",
-   "was": "Consumer Price Index Excluding Energy Commodities",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-11-10",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-11-11",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
   {
    "datum": "2026-11-12",
    "zeit": "",
@@ -1183,8 +1182,40 @@
    "was": "G.17 Industrial Production and Capacity Utilization",
    "konsens": "",
    "wucht": "hoch"
+  },
+  {
+   "datum": "2026-11-17",
+   "zeit": "",
+   "region": "us",
+   "was": "Selected Real Retail Sales Series",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-11-18",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-11-19",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-11-20",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 158,
- "llm_aktiv": false
+ "meldungen_gesamt": 191,
+ "llm_aktiv": true
 }
