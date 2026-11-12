@@ -1,9 +1,9 @@
 {
- "stand": "2026-11-12T15:40",
- "lauf": "2026111215",
+ "stand": "2026-11-12T21:58",
+ "lauf": "2026111221",
  "synthese": {
-  "kern": "Der Tag verbindet KI‑Umbruch, Bankenrisiken und politische Unsicherheit – der Markt verkennt die kombinierte Volatilitätsgefahr.",
-  "erlaeuterung": "Nvidia‑Führungspersonalwechsel und erneute Bewertungsdebatten treiben KI‑Aktien, während steigende Zinsdruck‑ und Liquiditätswerte Banken belasten. Gleichzeitig erhöhen geopolitische Spannungen und ein schwacher Euro‑Liquiditätsindex das systemische Risiko, das von den Märkten kaum beachtet wird."
+  "kern": "Markt fokussiert US‑Tech‑Schwäche, übersieht breiten Risiko‑ und Liquiditätsdruck in Europa.",
+  "erlaeuterung": "Während Nvidia‑Verluste die US‑Börsen belasten, zeigen die Regimewerte steigenden Zinsdruck und sinkende Liquidität in Europa. Gleichzeitig erhöhen geopolitische Spannungen und schwacher Risikoappetit das systemische Risiko, das von Anlegern kaum beachtet wird."
  },
  "regime": [
   {
@@ -36,23 +36,23 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 67,
-     "delta": 5
+     "wert": 70,
+     "delta": 8
     },
     "eur": {
-     "wert": 80,
-     "delta": -2
+     "wert": 82,
+     "delta": 0
     }
    },
-   "differenz": 13
+   "differenz": 12
   },
   {
    "name": "risikoappetit",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 32,
-     "delta": 20
+     "wert": 31,
+     "delta": 19
     }
    }
   },
@@ -61,15 +61,15 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 44,
-     "delta": 2
+     "wert": 47,
+     "delta": 3
     },
     "eur": {
      "wert": 2,
      "delta": -3
     }
    },
-   "differenz": 42
+   "differenz": 45
   },
   {
    "name": "geopolitik",
@@ -84,9 +84,9 @@
  ],
  "cluster": [
   {
-   "id": "b480b62a",
-   "titel": "KI-Aktien: „Ein dunkles Kapitel für Nvidia“ – Analysten bewerten Aktie neu",
-   "anriss": "Nach dem Rücktritt von Nvidia-Chef Huang bricht die Aktie ein. Analysten müssen sich nun auf eine neue Ära beim größten Chipkonzern einstellen.",
+   "id": "2a888836",
+   "titel": "Wall Street: Nvidia-Aktie im Minus – US-Börsen leicht unter Druck",
+   "anriss": "Die neuen Enthüllungen über Nvidia-Chef Jensen Huang und sein Abgang kosten Aktionäre des Chipherstellers Milliarden. Doch die Verluste fallen geringer aus als in der Vorwoche.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
@@ -96,52 +96,27 @@
     "heise",
     "manager magazin"
    ],
-   "anzahl": 14,
+   "anzahl": 19,
    "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-nvidia-aktie-im-minus-us-boersen-leicht-unter-druck/100269457.html",
     "https://www.handelsblatt.com/finanzen/maerkte/geldanlage-dunkles-kapitel-fuer-nvidia-analysten-bewerten-aktie-neu/100269354.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-nvidia-aktie-bricht-ein-und-zieht-chip-werte-ins-minus/100269457.html",
     "https://www.handelsblatt.com/finanzen/maerkte/aktien/geldanlage-was-waere-die-nvidia-aktie-ohne-ceo-jensen-huang-wert/100268777.html",
-    "https://www.tagesschau.de/wirtschaft/unternehmen/nvidia-beratung-chefwechsel-kursrueckgang-100.html",
-    "https://www.spiegel.de/wirtschaft/nvidia-affaere-sprecher-des-us-repraesentantenhauses-bringt-nach-aus-von-jensen-huang-exportbeschraenkungen-nach-china-ins-spiel-a-57708f11-fca9-4140-ae71-495c4c9b1781#ref=rss"
+    "https://www.tagesschau.de/wirtschaft/unternehmen/nvidia-huang-rolle-100.html",
+    "https://www.tagesschau.de/wirtschaft/unternehmen/nvidia-huang-ruecktritt-100.html"
    ],
-   "punkte": 43,
-   "text": "Nach dem Rücktritt von CEO Jensen Huang fällt die Nvidia‑Aktie stark. Analysten müssen die Bewertung des weltweit größten Chip‑Herstellers neu ausrichten.",
+   "punkte": 53,
+   "text": "Die Nvidia‑Aktie ist nach den jüngsten Enthüllungen über CEO Jensen Huang und seinem Abgang im Minus, wobei die Verluste im Vergleich zur Vorwoche geringer ausfallen. Gleichzeitig belastet die Nachricht die US‑Börsen insgesamt leicht.",
    "positiv": [],
    "negativ": [
-    "Nvidia‑Aktie: down",
-    "Halbleiter‑Branche: down"
+    "Nvidia‑Aktie",
+    "US‑Technologiesektor",
+    "US‑Börsen"
    ]
   },
   {
-   "id": "9b2706f2",
-   "titel": "Börse: Dax überschreitet erstmals 27.000‑Punkte-Marke – Trump-Post verringert Gewinne",
-   "anriss": "Starke Bilanzen wichtiger Dax-Werte treiben den Index zum Handelsstart auf neue Höhen. Innerhalb nur einer Woche hat der Dax mehr als 1300 Punkte gewonnen.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "SPIEGEL Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 5,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-ueberschreitet-erstmals-27.000-punkte-marke/100269311.html",
-    "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/dax-vier-entwicklungen-erklaeren-die-jahresendrally/100269323.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sechs-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
-    "https://www.spiegel.de/wirtschaft/neuer-rekord-dax-knackt-erstmals-marke-von-27-000-punkten-a-dc114850-1845-407a-9ed4-981f12b936db#ref=rss",
-    "https://www.manager-magazin.de/finanzen/boerse/dax-mit-gewinnen-erwartet-wie-geht-es-weiter-mit-nvidia-chef-jensen-huang-a-2937a6d7-4f94-451e-8df7-c490a4b992ed#ref=rss"
-   ],
-   "punkte": 19,
-   "text": "Der DAX überschreitet erstmals die Marke von 27 000 Punkten, getrieben von soliden Bilanzen wichtiger deutscher Unternehmen. Der Index legt innerhalb einer Woche rund 1 300 Punkte zu.",
-   "positiv": [
-    "DAX: up",
-    "Deutsche Großunternehmen: up"
-   ],
-   "negativ": []
-  },
-  {
-   "id": "afd6c315",
-   "titel": "Wirtschaftsweise korrigieren Wachstumsprognose deutlich nach oben",
-   "anriss": "Die Wirtschaft wächst wieder stärker - doch der Sachverständigenrat der Bundesregierung fordert harte Sparmaßnahmen. Und bringt eine Art \"Soli\" für Verteidigung ins Spiel. Von Alina Leimbach.",
+   "id": "5a289326",
+   "titel": "Wirtschaft vor acht vom 11.11.2026",
+   "anriss": "Wirtschaft vor acht vom 11.11.2026",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
@@ -149,23 +124,70 @@
     "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 5,
+   "anzahl": 6,
    "links": [
+    "https://www.tagesschau.de/video/video-1682292.html",
+    "https://www.tagesschau.de/multimedia/sendung/tagesschau24/boerselive/video-1682464.html",
     "https://www.tagesschau.de/wirtschaft/konjunktur/wirtschaftsweise-jahresgutachten-2026-100.html",
     "https://www.spiegel.de/wirtschaft/stromsteuer-wirtschaft-kritisiert-schlingerkurs-der-regierung-a-1b53162b-b41a-4462-9e5c-896a8a327156#ref=rss",
-    "https://www.spiegel.de/wirtschaft/soziales/wirtschaftsweise-warnen-vor-explodierenden-ruestungsausgaben-und-steuererhoehungen-a-83c81b94-005d-40ae-82b6-a23a1a69b44d#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/wirtschaftsweise-warnen-merz-und-klingbeil-heilige-kuehe-opfern-201673025.html",
-    "https://www.manager-magazin.de/politik/deutschland/konjunktur-wirtschaftsweise-erhoehen-wachstumsprognose-deutlich-a-3cb9eef7-74a1-4517-aa7e-cdc3893043eb#ref=rss"
+    "https://www.faz.net/aktuell/wirtschaft/wirtschaftsweise-warnen-merz-und-klingbeil-heilige-kuehe-opfern-201673025.html"
    ],
-   "punkte": 18,
-   "text": "Der Sachverständigenrat hebt die Wachstumsprognose für die deutsche Wirtschaft deutlich an, fordert jedoch gleichzeitig strenge Sparmaßnahmen und einen neuen „Soli“ für die Verteidigung. Die höhere Wachstumsrate stärkt die Konjunktur, die fiskalpolitischen Vorgaben belasten öffentliche Haushalte.",
+   "punkte": 20,
+   "text": "Der Beitrag \"Wirtschaft vor acht\" vom 11.11.2026 enthält keine konkreten Informationen zu wirtschaftlichen Entwicklungen. Aufgrund fehlender Faktenlage können keine Auswirkungen auf Anlagen oder Branchen beurteilt werden.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "f68d8e64",
+   "titel": "Mercedes stoppt Investitionen in Deutschland - und prüft Schließungen",
+   "anriss": "In den Verhandlungen um Kostensenkungen bei Mercedes ist keine Lösung in Sicht. Jetzt erhöht der Konzern den Druck: Der Vorstand legt alle Investitionen in deutsche Standorte auf Eis - und will Werksschließungen prüfen.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/unternehmen/mercedes-stopp-investitionen-100.html",
+    "https://www.spiegel.de/wirtschaft/unternehmen/mercedes-benz-konzern-stoppt-investitionen-in-deutsche-werke-und-prueft-schliessungen-a-e7f79c73-ef81-4715-a6ad-a7033a1fac75#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-mercedes-stoppt-alle-neuen-investitionen-in-deutsche-standorte-faz-200452404.html",
+    "https://www.manager-magazin.de/unternehmen/mobilitaet/mercedes-prueft-werksschliessungen-in-deutschland-a-00a4d8e4-42bb-4b6f-b3f2-91f8a6c412dd#ref=rss"
+   ],
+   "punkte": 16,
+   "text": "Mercedes hat alle Investitionen an deutschen Standorten gestoppt und prüft mögliche Werksschließungen, was den Druck auf die Kostenstruktur erhöht. Die Maßnahme wirkt sich negativ auf die deutsche Automobilproduktion und die zugehörigen Aktien aus, während ausländische Wettbewerber potenziell profitieren könnten.",
    "positiv": [
-    "Deutsches BIP‑Wachstum: up",
-    "Verteidigungs‑Industrie: up"
+    "Ausländische Automobilhersteller"
    ],
    "negativ": [
-    "Staatsfinanzen: down",
-    "Unternehmenssteuer‑last: up (negative Wirkung)"
+    "Mercedes‑Aktie",
+    "Deutsche Automobilindustrie",
+    "Deutsche Industrie‑Aktien"
+   ]
+  },
+  {
+   "id": "2b474af8",
+   "titel": "Finanzstabilität: Bundesbank sieht vor allem drei Risiken für die deutschen Banken",
+   "anriss": "Die Gefahren für das Finanzsystem nehmen zu. Überrascht zeigten sich die Notenbanker vor allem über aktuelle Zahlen zu den hohen Schulden bei privaten Immobilienkrediten.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/banken-versicherungen/finanzstabilitaet-bundesbank-sieht-im-kern-drei-risiken-fuer-deutsche-banken/100265362.html",
+    "https://www.tagesschau.de/wirtschaft/finanzen/risiken-finanzsystem-bundesbank-100.html",
+    "https://www.spiegel.de/wirtschaft/unternehmen/bundesbank-warnt-vor-wachsenden-risiken-fuer-deutschlands-banken-a-b53aea9b-ff04-4b9f-a3e5-59f07fd19cdc#ref=rss"
+   ],
+   "punkte": 13,
+   "text": "Die Bundesbank warnt vor drei Hauptgefahren für das deutsche Bankensystem, insbesondere vor hohen privaten Immobilienkrediten. Diese Einschätzung belastet das Vertrauen in deutsche Banken und den deutschen Immobilienmarkt.",
+   "positiv": [],
+   "negativ": [
+    "Deutsche Banken",
+    "Deutscher Immobiliensektor"
    ]
   },
   {
@@ -178,61 +200,53 @@
     "SPIEGEL Wirtschaft",
     "heise"
    ],
-   "anzahl": 4,
+   "anzahl": 3,
    "links": [
     "https://www.handelsblatt.com/finanzen/immobilien/immobilienfonds-deutscher-bank-drohen-klagen-wegen-moeglicher-falschberatung/100269211.html",
-    "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/it-probleme-bei-der-postbank-bafin-verhaengt-millionenstrafe-fuer-die-deutsche-bank/100269298.html",
     "https://www.spiegel.de/wirtschaft/unternehmen/bafin-verhaengt-millionenstrafe-gegen-deutsche-bank-wegen-it-pannen-bei-postbank-kunden-a-1323fe0e-ee27-4137-a3d3-8429b0e1bf8a#ref=rss",
     "https://www.heise.de/news/BaFin-verhaengt-Millionenstrafe-gegen-Deutsche-Bank-wegen-Postbank-IT-Pannen-11522003.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
-   "punkte": 16,
-   "text": "Anwälte bereiten Klagen gegen die Deutsche Bank wegen angeblich falscher Beratung zum offenen Immobilienfonds „Grundbesitz Europa“ vor, gestützt durch ein vergleichbares Urteil aus Dresden. Das Verfahren belastet das Vertrauen in die Bank und den betreffenden Immobilienfonds.",
-   "positiv": [],
-   "negativ": [
-    "Deutsche Bank: down",
-    "DWS‑Immobilienfonds: down"
-   ]
-  },
-  {
-   "id": "1dc05fe1",
-   "titel": "Jensen Huang resigns as Nvidia CEO immediately",
-   "anriss": "Article URL: https://www.reuters.com/live/nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12/ Comments URL: https://news.ycombinator.com/item?id=50467132 Points: 300 # Comments: 159",
-   "region": "global",
-   "quellen": [
-    "Hacker News Top"
-   ],
-   "anzahl": 14,
-   "links": [
-    "https://www.reuters.com/live/nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12/",
-    "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
-    "https://ipo.anthropic.com/us/",
-    "https://pron.github.io/posts/correctness-and-complexity",
-    "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability"
-   ],
-   "punkte": 16,
-   "text": "Article URL: https://www.reuters.com/live/nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12/ Comments URL: https://news.ycombinator.com/item?id=50467132 Points: 300 # Comments: 159",
+   "punkte": 13,
+   "text": "Die Deutsche Bank soll Kunden zum offenen Immobilienfonds „Grundbesitz Europa“ der DWS falsch beraten haben. Ein neues Urteil zu einem anderen Fonds bestärkt die Kläger.",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "2b474af8",
-   "titel": "Finanzstabilität: Bundesbank sieht vor allem drei Risiken für die deutschen Banken",
-   "anriss": "Die Gefahren für das Finanzsystem nehmen zu. Überrascht zeigten sich die Notenbanker vor allem über aktuelle Zahlen zu den hohen Schulden bei privaten Immobilienkrediten.",
+   "id": "b9f3960c",
+   "titel": "\"Tankrabatt\" drückt Inflation im Oktober",
+   "anriss": "Die Teuerungsrate ist im Oktober in Deutschland zurückgegangen. Der \"Tankrabatt\" zeigt offenbar Wirkung. Energie - vor allem Heizöl - bleibt aber teuer. Und auch einige Lebensmittel kosten wieder mehr.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "Tagesschau Wirtschaft"
+   ],
+   "anzahl": 2,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/konjunktur/inflation-tankrabatt-spritpreise-oktober-100.html",
+    "https://www.faz.net/aktuell/wirtschaft/arm-und-reich/gefuehlte-inflation-in-deutschland-warum-2-8-prozent-falsch-wirken-201658905.html"
+   ],
+   "punkte": 12,
+   "text": "Die Teuerungsrate ist im Oktober in Deutschland zurückgegangen. Der \"Tankrabatt\" zeigt offenbar Wirkung. Energie - vor allem Heizöl - bleibt aber teuer. Und auch einige Lebensmittel kosten wieder mehr.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "a4ee310e",
+   "titel": "Börse: Dax fällt nach Rekordlauf wieder unter die 27.000-Punkte-Marke",
+   "anriss": "Starke Bilanzen wichtiger Dax-Werte trieben den Index zum Handelsstart auf neue Höhen. Innerhalb nur einer Woche hat der Dax mehr als 1300 Punkte zugelegt.",
    "region": "dach",
    "quellen": [
     "Handelsblatt Finanzen",
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft"
+    "SPIEGEL Wirtschaft"
    ],
-   "anzahl": 4,
+   "anzahl": 3,
    "links": [
-    "https://www.handelsblatt.com/finanzen/banken-versicherungen/finanzstabilitaet-bundesbank-sieht-im-kern-drei-risiken-fuer-deutsche-banken/100265362.html",
-    "https://www.tagesschau.de/wirtschaft/verbraucher/mehr-menschen-ueberschuldet-schuldneratlas-100.html",
-    "https://www.spiegel.de/wirtschaft/unternehmen/bundesbank-warnt-vor-wachsenden-risiken-fuer-deutschlands-banken-a-b53aea9b-ff04-4b9f-a3e5-59f07fd19cdc#ref=rss",
-    "https://www.spiegel.de/wirtschaft/schulden-in-deutschland-jeder-zehnte-erwachsene-ist-ueberschuldet-a-6c3851b7-fc55-4574-bae8-71344e0ff43b#ref=rss"
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-faellt-nach-rekordlauf-wieder-unter-die-27.000-punkte-marke/100269311.html",
+    "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/dax-vier-entwicklungen-erklaeren-die-jahresendrally/100269323.html",
+    "https://www.spiegel.de/wirtschaft/neuer-rekord-dax-knackt-erstmals-marke-von-27-000-punkten-a-dc114850-1845-407a-9ed4-981f12b936db#ref=rss"
    ],
-   "punkte": 15,
-   "text": "Die Gefahren für das Finanzsystem nehmen zu. Überrascht zeigten sich die Notenbanker vor allem über aktuelle Zahlen zu den hohen Schulden bei privaten Immobilienkrediten.",
+   "punkte": 12,
+   "text": "Starke Bilanzen wichtiger Dax-Werte trieben den Index zum Handelsstart auf neue Höhen. Innerhalb nur einer Woche hat der Dax mehr als 1300 Punkte zugelegt.",
    "positiv": [],
    "negativ": []
   },
@@ -245,45 +259,22 @@
     "FAZ Wirtschaft",
     "Handelsblatt Finanzen"
    ],
-   "anzahl": 4,
+   "anzahl": 3,
    "links": [
     "https://www.handelsblatt.com/finanzen/banken-versicherungen/versicherung-talanx-peilt-im-naechsten-jahr-drei-milliarden-euro-gewinn-an/100269303.html",
     "https://www.handelsblatt.com/finanzen/banken-versicherungen/versicherer/rueckversicherung-munich-re-rechnet-mit-profitableren-geschaeften/100266551.html",
-    "https://www.handelsblatt.com/finanzen/banken-versicherungen/versicherung-allianz-erhoeht-prognose-rekordgewinn-nach-neun-monaten/100266550.html",
     "https://www.faz.net/aktuell/wirtschaft/unternehmen/allianz-hebt-gewinnprognose-an-rekordergebnis-ueberrascht-analysten-accg-201673860.html"
    ],
-   "punkte": 15,
+   "punkte": 12,
    "text": "In den ersten drei Quartalen steigert der Versicherungskonzern sein Ergebnis auf einen Rekordwert. Für den Gewinnsprung gibt es gleich mehrere Gründe.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "41f08bd9",
-   "titel": "IG Metall beschließt erstmals seit acht Jahren ganztägige Streiks",
-   "anriss": "Ab sofort sind im Tarifstreit der Metall- und Elektroindustrie ganztägige Warnstreiks möglich. Die IG Metall wirft den Arbeitgebern nach drei Verhandlungsrunden eine Blockadehaltung vor. Wo genau gestreikt werden soll, ist noch nicht bekannt.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/unternehmen/ig-metall-streiks-100.html",
-    "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/warnstreik-ig-metall-122.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-ig-metall-beschliesst-ganztaegige-warnstreiks-faz-200452404.html",
-    "https://www.manager-magazin.de/unternehmen/ig-metall-gewerkschaft-beschliesst-ganztaegige-warnstreiks-a-3588c5e3-6234-43ce-bd13-93fffb230e70#ref=rss"
-   ],
-   "punkte": 14,
-   "text": "Ab sofort sind im Tarifstreit der Metall- und Elektroindustrie ganztägige Warnstreiks möglich. Die IG Metall wirft den Arbeitgebern nach drei Verhandlungsrunden eine Blockadehaltung vor. Wo genau gestreikt werden soll, i",
    "positiv": [],
    "negativ": []
   }
  ],
  "ketten": [],
  "gegenthese": {
-  "konsens": "Der DAX hat die 27.000‑Punkte‑Marke überschritten, was als Zeichen für anhaltende Stärke der deutschen Wirtschaft trotz Banken‑ und Rechtsrisiken gewertet wird.",
-  "gegen": "Gegenargument ist die unsichere Lage bei Banken, die Rechtsstreitigkeiten gegen die Deutsche Bank und die überraschende Nvidia‑CEO‑Resignation, die das Vertrauen in KI‑Aktien stark belasten könnte."
+  "konsens": "Derzeit herrscht ein leicht negativer Konsens: US‑Aktien unter Druck, DAX unter 27 000, deutsche Banken Risiken, Investitionen zurückhaltend, Inflation sinkt, Versicherer optimistisch.",
+  "gegen": "Technologie‑ und Halbleiternachfrage bleibt robust, und geldpolitische Lockerungen könnten die Wirtschaft stützen, was die aktuelle Risikoaversion übersteuern könnte."
  },
  "matrix": [
   {
@@ -400,11 +391,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "112.2 Mrd"
+     "112.8 Mrd"
     ],
     [
      "KGV (erw.)",
-     "15,6"
+     "15,7"
     ],
     [
      "Umsatzwachstum",
@@ -422,7 +413,7 @@
     ],
     [
      "Newsletter",
-     "in 1 Clustern"
+     "nicht erwaehnt"
     ],
     [
      "Reddit",
@@ -437,12 +428,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Dafür spricht das robuste Umsatzwachstum von +23 % und ein moderates KGV von 15,6, das im Branchenvergleich attraktiv erscheint. Analysten bewerten das Unternehmen überwiegend positiv (21 Kauf‑Empfehlungen). Das Kursziel von 191 € liegt über dem aktuellen Kurs, was Aufwärtspotenzial signalisiert.",
-   "dagegen": "Dagegen spricht die hohe Abhängigkeit von konjunkturellen Schwankungen im Gas‑ und Dampfturbinen‑Geschäft sowie anhaltende Qualitätsprobleme bei Siemens Gamesa, die das Vertrauen mindern. Fehlende Insider‑Transaktionen und kaum Diskussionen in sozialen Medien deuten auf geringe Marktaufmerksamkeit hin.",
+   "dafuer": "Analysten sehen mit 21 Kaufempfehlungen ein starkes Vertrauen. Das Unternehmen verzeichnet ein Umsatzwachstum von 23 % und ein moderates KGV von 15,7, was im Vergleich zur Branche attraktiv erscheint. Das Kursziel von 191 € impliziert weiteres Aufwärtspotenzial.",
+   "dagegen": "Gegenseite betont Risiken: Siemens Gamesa leidet weiterhin unter Lieferverzögerungen und Qualitätsproblemen, was das Ergebnis belasten könnte. Hohe Investitionskosten in Gas‑ und Windprojekte erhöhen die Kapitalbindung. Zudem bleibt die Marktvolatilität im Energiesektor ein Unsicherheitsfaktor.",
    "katalysatoren": [
-    "Abschluss großer Gas‑Turbinen‑Aufträge im nächsten Quartal",
-    "Fortschritt bei europäischen Grid‑Technologie‑Projekten",
-    "Einführung neuer digitaler Services zur Kraftwerksoptimierung"
+    "Q3‑2024 Ergebnisveröffentlichung mit Fokus auf Gas Services und Grid Technologies",
+    "Einführung neuer Siemens Gamesa‑Windturbinen und mögliche Kostenreduktionen",
+    "Ausbau von Aufträgen für erneuerbare‑Energie‑ und Netzprojekte in Europa und den USA"
    ]
   },
   "RHM.DE": {
@@ -453,11 +444,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "35.9 Mrd"
+     "36.1 Mrd"
     ],
     [
      "KGV (erw.)",
-     "15,4"
+     "15,5"
     ],
     [
      "Umsatzwachstum",
@@ -490,12 +481,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Rheinmetall profitiert von starkem Auftragsbestand und einem Umsatzwachstum von 36 %, das die Nachfrage nach gepanzerten Fahrzeugen und Munition widerspiegelt. Das erwartete KGV von 15,4 liegt im unteren Bereich der Branche, und die Analystenmeinung ist mit 17 Kaufempfehlungen klar positiv.",
-   "dagegen": "Die Bewertung erscheint im Vergleich zu internationalen Wettbewerbern hoch, und das Unternehmen ist stark von staatlichen Rüstungsetats abhängig, die politisch schwanken können. Fehlende Insider‑Informationen und geringe Erwähnung in Newslettern sowie Reddit deuten auf begrenzte Markttransparenz hin.",
+   "dafuer": "Die Analystenmeinung ist überwiegend positiv (17 Kauf‑Empfehlungen, 5 Halte‑Empfehlungen, kein Verkauf). Das Kurs‑Gewinn‑Verhältnis von 15,5 liegt im historischen Mittelfeld, das Umsatzwachstum von +36 % signalisiert starkes Top‑Line‑Momentum. Das Kursziel von 1.375 € impliziert weiteres Aufwärtspotenzial.",
+   "dagegen": "Keine Short‑Positionen gemeldet, jedoch fehlt eine Gegenstimme von Analysten, sodass das Risiko einer einseitigen Bewertung nicht quantifiziert werden kann. Die Bewertung könnte bei anhaltender Auftragslage überbewertet sein, und das KGV lässt wenig Spielraum für ein plötzliches Gewinnrückgang.",
    "katalysatoren": [
-    "Erhöhung des deutschen Verteidigungsbudgets 2025",
-    "Vergabe neuer US‑Verteidigungsaufträge für gepanzerte Fahrzeuge",
-    "Markteinführung der nächsten Generation von Elektronik‑Lösungen für vernetzte Systeme"
+    "Veröffentlichung des Quartals‑Ergebnisses (voraussichtlich Q4‑2026).",
+    "Zuteilung zusätzlicher Rüstungsgelder im deutschen Verteidigungsbudget.",
+    "Vertrag über neue Panzer‑ bzw. Elektronik‑Systeme mit internationalen Kunden."
    ]
   },
   "ASML.AS": {
@@ -506,11 +497,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "524.7 Mrd"
+     "530.6 Mrd"
     ],
     [
      "KGV (erw.)",
-     "24,1"
+     "24,4"
     ],
     [
      "Umsatzwachstum",
@@ -543,12 +534,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Starkes Umsatzwachstum von +55 % zeigt wachsende Nachfrage nach EUV‑Lithografie. Marktführerposition und breites Produktportfolio sichern langfristige Auftragslage. Analysten bewerten das Unternehmen überwiegend positiv (38 Buy vs. 2 Hold, 1 Sell). Das KGV von 24,1 liegt im Branchen‑Durchschnitt.",
-   "dagegen": "KGV von 24,1 kann als teuer gelten, besonders bei möglicher Abschwächung der Chipnachfrage. Hohe Abhängigkeit von wenigen Großkunden erhöht das Risiko. Fehlende Insider‑Informationen und keine Short‑Positionen deuten auf Unsicherheit hin. Ein einzelner Verkaufsempfehlung widerspricht der breiten Kauf‑Stimmung.",
+   "dafuer": "ASML verzeichnet ein Umsatzwachstum von 55 % und hält mit 38 von 41 Analysten‑Empfehlungen ein starkes Kauf‑Signal, was das Vertrauen in die Marktführerschaft bei EUV‑Lithografie unterstreicht. Das Unternehmen profitiert von steigender Chipnachfrage und hohen Eintrittsbarrieren im Halbleiter‑Equipment‑Markt.",
+   "dagegen": "Das KGV von 24,4 liegt über dem Branchendurchschnitt und deutet auf eine teure Bewertung hin; das massive Umsatzwachstum könnte schwer nachhaltig zu halten sein, wenn die Chipnachfrage nachlässt. Zudem fehlt ein klarer Insider‑Signal und es gibt keine Short‑Positionen, was die Marktliquidität einschränken kann.",
    "katalysatoren": [
-    "Einführung neuer EUV‑50/100 Systeme im nächsten Quartal",
-    "Veröffentlichung des Q4‑2026‑Ergebnisberichts mit Umsatz‑ und Gewinnzahlen",
-    "Bestätigung großer Aufträge von TSMC und Intel für 3‑nm‑Fertigung"
+    "Q3‑2024 Ergebnisveröffentlichung mit Fokus auf Umsatz‑ und Gewinnentwicklung",
+    "Markteinführung des nächsten High‑NA EUV‑Systems für fortgeschrittene Knoten",
+    "Großaufträge von Schlüssel‑Kunden (z. B. TSMC, Intel) für neue Fertigungsanlagen"
    ]
   },
   "SU.PA": {
@@ -559,11 +550,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "142.5 Mrd"
+     "143.9 Mrd"
     ],
     [
      "KGV (erw.)",
-     "19,3"
+     "19,4"
     ],
     [
      "Umsatzwachstum",
@@ -581,7 +572,7 @@
     ],
     [
      "Newsletter",
-     "in 5 Clustern"
+     "in 13 Clustern"
     ],
     [
      "Reddit",
@@ -596,12 +587,12 @@
      "1648,06 % ueber 1700 Halter"
     ]
    ],
-   "dafuer": "Schneider Electric profitiert von starkem Umsatzwachstum von 10 % und einem diversifizierten Portfolio in Energie‑Management, Industrie‑Automation und erneuerbaren Lösungen. Das Kurs‑Gewinn‑Verhältnis von 19,3 liegt im Branchen‑Durchschnitt, und Analysten sehen mit einem Kursziel von 323 € erhebliches Aufwärtspotenzial.",
-   "dagegen": "Gegenstück ist das extrem hohe Short‑Interest von über 1.600 % bei mehr als 1.700 Haltern, was auf erhebliche Skepsis hindeutet. Reddit‑Erwähnungen sind kaum vorhanden, Insider‑Transaktionen fehlen, und die massive Leerverkaufsposition widerspricht dem überwiegend positiven Analystenkonsens.",
+   "dafuer": "Schneider Electric verfügt über globale Marktführerschaft im Energiemanagement, profitiert von steigender Nachfrage nach Automatisierung und erneuerbaren Lösungen. Das erwartete Umsatzwachstum von 10 % und ein moderates forward KGV von 19,4 unterstützen die Analysten‑Mehrheit (19 Buy). Das Kursziel von 323 EUR impliziert Aufwärtspotenzial.",
+   "dagegen": "Ein erheblicher Widerspruch ergibt sich aus dem extremen Short‑Interest von über 1.600 % bei mehr als 1.700 Haltern, was auf starkes Misstrauen des Marktes hindeutet. Fehlende Insider‑Meldungen und kaum Reddit‑Aufmerksamkeit deuten auf Unsicherheit hin; makroökonomische Risiken und mögliche Margendrucke bleiben kritisch.",
    "katalysatoren": [
-    "Q3‑Ergebnisveröffentlichung (voraussichtlich Q4 2026)",
-    "Markteinführung neuer Micro‑Grid‑Lösungen für Industrie‑ und Gebäudebereich",
-    "Abschluss einer geplanten Akquisition im Bereich erneuerbare Energien"
+    "Veröffentlichung des Q3‑2024 Geschäftsergebnisses",
+    "Markteinführung einer neuen Microgrid‑Produktlinie",
+    "EU‑Förderprogramme für Energieeffizienz, die Auftragsvolumen erhöhen könnten"
    ]
   },
   "GEV": {
@@ -612,11 +603,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "217.1 Mrd"
+     "216.6 Mrd"
     ],
     [
      "KGV (erw.)",
-     "31,7"
+     "31,4"
     ],
     [
      "Umsatzwachstum",
@@ -661,11 +652,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "31.4 Mrd"
+     "31.3 Mrd"
     ],
     [
      "KGV (erw.)",
-     "42,0"
+     "41,9"
     ],
     [
      "Umsatzwachstum",
@@ -710,7 +701,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "86.8 Mrd"
+     "86.7 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -759,11 +750,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "3.980.6 Mrd"
+     "4.013.0 Mrd"
     ],
     [
      "KGV (erw.)",
-     "10,3"
+     "10,4"
     ],
     [
      "Umsatzwachstum",
@@ -802,6 +793,33 @@
   }
  },
  "shorts": [
+  {
+   "land": "NL",
+   "halter": "Capstone Volatility Master (Cayman) Limited",
+   "emittent": "Pharming Group N.V.",
+   "prozent": 0.84,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "Jane Street Group LLC",
+   "emittent": "Pharming Group N.V.",
+   "prozent": 0.5,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "Voleon Capital Management LP",
+   "emittent": "Fugro N.V.",
+   "prozent": 0.5,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
   {
    "land": "UK",
    "halter": "Anavio Capital Partners LLP",
@@ -1044,37 +1062,10 @@
    "datum": "2019-06-10",
    "status": "aufgestockt",
    "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "GUEVOURA FUND LTD",
-   "emittent": "HAMMERSON PLC",
-   "prozent": 13.78,
-   "datum": "2020-09-24",
-   "status": "aufgestockt",
-   "zuvor": 0.57
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 13.68,
-   "datum": "2019-06-07",
-   "status": "aufgestockt",
-   "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 13.5,
-   "datum": "2019-06-06",
-   "status": "aufgestockt",
-   "zuvor": 0.53
   }
  ],
  "shorts_kennzahlen": {
-  "neu_diese_woche": 0,
+  "neu_diese_woche": 3,
   "meistgeshortet": {
    "name": "Premier Oil PLC",
    "summe": 2145.63
@@ -1184,6 +1175,6 @@
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 156,
+ "meldungen_gesamt": 154,
  "llm_aktiv": false
 }
