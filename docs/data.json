@@ -1,9 +1,9 @@
 {
- "stand": "2026-11-13T12:29",
- "lauf": "2026111312",
+ "stand": "2026-11-13T14:58",
+ "lauf": "2026111314",
  "synthese": {
-  "kern": "Technologie‑Skandale, Serviceausfälle und steigende Energiepreise bündeln Risiko, während Markt den drohenden Liquiditätsengpass verkennt.",
-  "erlaeuterung": "Nvidia‑Affäre, Microsoft‑Störungen und Googles neue Wasserstofftechnologie erhöhen Unsicherheit im Tech‑Sektor. Gleichzeitig zeigen steigende Energiepreise und ein sinkender Liquiditätsindex, dass die Märkte die breitere makroökonomische Belastung unterschätzen."
+  "kern": "Technologie‑ und Unternehmenskrisen bündeln die Marktstimmung, während das Risiko von Governance‑ und Kosten‑Schocks unterschätzt wird.",
+  "erlaeuterung": "Ausfälle bei Microsoft, Nvidia‑Skandal und Mercedes‑Investitionsstop signalisieren strukturelle Schwächen in Schlüsselbranchen. Der Markt fokussiert kurzfristige Liquiditätsdaten, vernachlässigt jedoch die wachsende Anfälligkeit durch operative und regulatorische Risiken."
  },
  "regime": [
   {
@@ -41,7 +41,7 @@
     },
     "eur": {
      "wert": 82,
-     "delta": -2
+     "delta": 0
     }
    },
    "differenz": 14
@@ -51,8 +51,8 @@
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 33,
-     "delta": 18
+     "wert": 30,
+     "delta": 15
     }
    }
   },
@@ -84,9 +84,9 @@
  ],
  "cluster": [
   {
-   "id": "ac3e5dde",
-   "titel": "Nvidia: Huang-Affäre könnte zu Trump-Skandal werden",
-   "anriss": "Laut Medienberichten wurde Trump zwei Mal von der Affäre des Nvidia-Chefs Huang mit einer mutmaßlichen chinesischen Spionin unterrichtet. Doch der Präsident beteuert, von nichts gewusst zu haben. Von C. Kühntopp.",
+   "id": "3fe0c01b",
+   "titel": "Was über den Ausfall von Microsoft-Diensten bekannt ist",
+   "anriss": "Eine stundenlange Großstörung hat weltweit Dienste des US-Softwarekonzerns Microsoft lahmgelegt, unter anderem das E-Mail-Programm Outlook. Wen es getroffen hat und welche Hintergründe vermutet werden - ein Überblick.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
@@ -95,80 +95,119 @@
     "heise",
     "manager magazin"
    ],
-   "anzahl": 15,
+   "anzahl": 9,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/unternehmen/faq-ausfall-microsoft-dienste-weltweit-100.html",
+    "https://www.spiegel.de/wirtschaft/microsoft-bsi-betrachtet-ausfall-als-grosses-problem-fuer-die-wirtschaft-a-2250258a-aef5-45ae-aa22-8e21c4107ee5#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/stoerung-von-outlook-und-teams-microsoft-hat-ein-ernsthaftes-qualitaetsproblem-201679755.html",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/microsoft-ausfall-warum-bundesbehoerden-ungestoert-weiterarbeiteten-201680148.html",
+    "https://www.faz.net/aktuell/wirtschaft/outlook-und-teams-warum-microsoft-alternativen-aus-europa-jetzt-noetig-sind-201679732.html"
+   ],
+   "punkte": 28,
+   "text": "Ein weltweiter Ausfall von Microsoft‑Diensten, darunter Outlook, führte zu mehrstündigen Unterbrechungen für Unternehmen und Privatnutzer. Die Störung dürfte kurzfristig das Vertrauen in die Cloud‑ und SaaS‑Plattform von Microsoft belasten.",
+   "positiv": [],
+   "negativ": [
+    "Microsoft-Aktie",
+    "Cloud‑Dienstleister"
+   ]
+  },
+  {
+   "id": "ac3e5dde",
+   "titel": "Nvidia: Huang-Affäre könnte zu Trump-Skandal werden",
+   "anriss": "Laut Medienberichten wurde Trump zwei Mal von der Affäre des Nvidia-Chefs Huang mit einer mutmaßlichen chinesischen Spionin unterrichtet. Doch der Präsident beteuert, von nichts gewusst zu haben. Von C. Kühntopp.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 10,
    "links": [
     "https://www.tagesschau.de/ausland/amerika/nvidia-trump-100.html",
     "https://www.tagesschau.de/ausland/amerika/nvidia-huang-us-handelsausschuss-100.html",
     "https://www.tagesschau.de/podcast-11km-nvidia-huang-100.html",
     "https://www.spiegel.de/wirtschaft/unternehmen/nvidia-jensen-huang-steht-beim-chip-konzern-vor-dem-aus-wer-auf-ihn-folgen-koennte-a-ab681d07-4346-42de-810e-15b6e63c4568#ref=rss",
-    "https://www.spiegel.de/wirtschaft/jensen-huang-nvidia-chef-tritt-nach-spionageaffaere-zurueck-a-776bb012-48a6-4c08-9939-a77fad020e47#ref=rss"
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/nvidia-skandal-wird-colette-kress-dauerhafte-nachfolgerin-von-jensen-huang-accg-201678861.html"
    ],
-   "punkte": 40,
-   "text": "Medien berichten, dass Präsident Trump zweimal über die angebliche Beziehung des Nvidia‑CEO Jensen Huang zu einer mutmaßlichen chinesischen Spionin informiert wurde, er jedoch jede Kenntnis verneint. Die Vorwürfe belasten das Ansehen von Nvidia und könnten das politische Risiko für US‑Tech‑Unternehmen erhöhen.",
+   "punkte": 28,
+   "text": "Berichte über eine mögliche Verwicklung von Nvidia‑CEO Jensen Huang in eine Affäre mit einer mutmaßlichen chinesischen Spionin haben politische Risiken für das Unternehmen erhöht. Die Unsicherheit könnte den Nvidia‑Kurs belasten und die US‑China‑Technikbeziehungen weiter belasten.",
    "positiv": [],
    "negativ": [
     "Nvidia-Aktie",
-    "US‑Technologie‑Aktien",
-    "Politisches Risiko für US‑Tech"
+    "US‑China‑Techniksektor"
    ]
   },
   {
-   "id": "3fe0c01b",
-   "titel": "Was über den Ausfall von Microsoft-Diensten bekannt ist",
-   "anriss": "Weltweit sind seit vielen Stunden Dienste des US-Softwarekonzerns Microsoft ausgefallen oder gestört, unter anderem das E-Mail-Programm Outlook. Wer davon betroffen ist und welche Hintergründe vermutet werden - ein Überblick.",
+   "id": "d0170cf0",
+   "titel": "Mercedes-Benz: Vorstand stoppt Investitionen und prüft Werksschließungen in Deutschland",
+   "anriss": "Der Streit zwischen Management und Arbeitnehmervertretung bei Mercedes-Benz eskaliert. Intern droht der Vorstand drastische Maßnahmen an: Künftige Fahrzeuge könnten »ausschließlich im Ausland« produziert werden.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
-    "Tagesschau Wirtschaft",
+    "SPIEGEL Wirtschaft",
     "heise",
     "manager magazin"
    ],
-   "anzahl": 9,
+   "anzahl": 6,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/unternehmen/faq-ausfall-microsoft-dienste-weltweit-100.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/outlook-und-teams-was-sie-ueber-den-microsoft-ausfall-wissen-muessen-accg-201680619.html",
-    "https://www.faz.net/aktuell/wirtschaft/outlook-und-teams-warum-microsoft-alternativen-aus-europa-jetzt-noetig-sind-201679732.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/stoerung-von-outlook-und-teams-microsoft-hat-ein-ernsthaftes-qualitaetsproblem-201679755.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/outlook-und-teams-weltweite-stoerung-bei-diensten-von-microsoft-accg-201679156.html"
+    "https://www.spiegel.de/wirtschaft/unternehmen/mercedes-benz-konzern-stoppt-investitionen-in-deutsche-werke-und-prueft-schliessungen-a-e7f79c73-ef81-4715-a6ad-a7033a1fac75#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/mercedes-in-der-krise-warum-chinas-markt-die-loehne-in-deutschland-gefaehrdet-201680591.html",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/krise-mercedes-stellt-selbst-werk-sindelfingen-in-frage-accg-201680335.html",
+    "https://www.manager-magazin.de/unternehmen/mobilitaet/ig-metall-kritisiert-standortdebatte-bei-mercedes-a-22226353-7473-45ac-a837-8284373615ad#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/mobilitaet/mercedes-prueft-werksschliessungen-in-deutschland-a-00a4d8e4-42bb-4b6f-b3f2-91f8a6c412dd#ref=rss"
    ],
-   "punkte": 26,
-   "text": "Weltweit sind seit mehreren Stunden zentrale Microsoft‑Dienste, darunter Outlook, nicht erreichbar oder stark gestört. Der Ausfall kann kurzfristig zu Umsatzeinbußen bei Microsoft und zu einer erhöhten Nachfrage nach alternativen Cloud‑ und E‑Mail‑Anbietern führen.",
+   "punkte": 20,
+   "text": "Der Mercedes‑Benz‑Vorstand hat Investitionen in Deutschland gestoppt und prüft die Schließung von Werken, um Kosten zu senken. Das erhöht den Abwärtsdruck auf die deutsche Automobilindustrie, während ausländische Hersteller potenziell profitieren könnten.",
    "positiv": [
-    "Konkurrenten im Cloud‑/E‑Mail‑Markt (z. B. Google, Amazon)"
+    "Ausländische Automobilhersteller"
    ],
    "negativ": [
-    "Microsoft‑Aktie",
-    "Microsoft‑Cloud‑Dienstleistungen",
-    "Unternehmen, die auf Microsoft‑Infrastruktur angewiesen sind"
+    "Mercedes‑Benz-Aktie",
+    "Deutsche Automobilbranche"
    ]
   },
   {
-   "id": "a9992c50",
-   "titel": "Gemini 4 Hydrogen: Googles effiziente Alternative zu Argon und Carbon",
-   "anriss": "Gemini 4 Hydrogen treibt den KI-Modus der Google-Suche an. Unabhängige Benchmarks zeigen je nach Denkstufe große Unterschiede bei Bearbeitungszeit und Kosten.",
+   "id": "99aba2c2",
+   "titel": "Doomsday: Friday, 13 November, A.D. 2026 (1960)",
+   "anriss": "Article URL: https://www.science.org/doi/10.1126/science.132.3436.1291 Comments URL: https://news.ycombinator.com/item?id=50482379 Points: 237 # Comments: 145",
    "region": "global",
    "quellen": [
-    "Hacker News Top",
-    "heise"
+    "Hacker News Top"
    ],
-   "anzahl": 16,
+   "anzahl": 13,
    "links": [
-    "https://www.heise.de/news/Gemini-4-Hydrogen-Googles-effiziente-Alternative-zu-Argon-und-Carbon-11523818.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "https://www.science.org/doi/10.1126/science.132.3436.1291",
     "https://status.claude.com/incidents/nn11wk485zfn",
-    "https://twitter.com/MSFT365Status/status/2121079061774491735",
+    "https://www.cnn.com/2026/11/12/business/live-news/microsoft-global-outage-intl-hnk",
     "https://ice-wm.org/",
-    "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/"
+    "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer"
    ],
-   "punkte": 21,
-   "text": "Google hat das KI‑Modell Gemini 4 Hydrogen eingeführt, das als kostengünstigere und schnellere Alternative zu den bisher genutzten Modellen Argon und Carbon beworben wird. Unabhängige Benchmarks zeigen je nach Anwendungsfall signifikante Unterschiede bei Verarbeitungszeit und Kosten.",
-   "positiv": [
-    "Google‑KI‑Dienstleistungen",
-    "Unternehmen, die auf kostengünstige KI-Modelle setzen"
+   "punkte": 15,
+   "text": "Der Artikel „Doomsday: Friday, 13 November, A.D. 2026 (1960)“ behandelt ein historisches Szenario ohne direkten Bezug zu aktuellen Märkten. Es lässt sich keine klare Markt‑ oder Branchenwirkung ableiten.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "b480b62a",
+   "titel": "KI-Aktien: „Ein dunkles Kapitel für Nvidia“ – Analysten bewerten Aktie neu",
+   "anriss": "Nach dem Rücktritt von Nvidia-Chef Huang bricht die Aktie ein. Analysten müssen sich nun auf eine neue Ära beim größten Chipkonzern einstellen.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft"
    ],
-   "negativ": [
-    "Anbieter von Argon‑ und Carbon‑Modellen",
-    "Kunden, die bereits in teurere Modelle investiert haben"
-   ]
+   "anzahl": 3,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/geldanlage-dunkles-kapitel-fuer-nvidia-analysten-bewerten-aktie-neu/100269354.html",
+    "https://www.tagesschau.de/wirtschaft/unternehmen/nvidia-huang-rolle-100.html",
+    "https://www.spiegel.de/wirtschaft/nvidia-affaere-sprecher-des-us-repraesentantenhauses-bringt-nach-aus-von-jensen-huang-exportbeschraenkungen-nach-china-ins-spiel-a-57708f11-fca9-4140-ae71-495c4c9b1781#ref=rss"
+   ],
+   "punkte": 13,
+   "text": "Nach dem Rücktritt von Nvidia-Chef Huang bricht die Aktie ein. Analysten müssen sich nun auf eine neue Ära beim größten Chipkonzern einstellen.",
+   "positiv": [],
+   "negativ": []
   },
   {
    "id": "c24ce527",
@@ -178,44 +217,16 @@
    "quellen": [
     "Handelsblatt Finanzen",
     "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft"
-   ],
-   "anzahl": 5,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-wall-street-schliesst-im-minus-nvidia-turbulenzen-belasten/100269457.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/geldanlage-dunkles-kapitel-fuer-nvidia-analysten-bewerten-aktie-neu/100269354.html",
-    "https://www.tagesschau.de/wirtschaft/unternehmen/nvidia-huang-rolle-100.html",
-    "https://www.spiegel.de/wirtschaft/spionage-affaere-nvidia-aktien-buessen-nach-jensen-huangs-ruecktritt-an-wert-ein-a-a7155d5a-d0f2-43d4-b287-1f89bcb863ea#ref=rss",
-    "https://www.spiegel.de/wirtschaft/nvidia-affaere-sprecher-des-us-repraesentantenhauses-bringt-nach-aus-von-jensen-huang-exportbeschraenkungen-nach-china-ins-spiel-a-57708f11-fca9-4140-ae71-495c4c9b1781#ref=rss"
-   ],
-   "punkte": 18,
-   "text": "Neue Enthüllungen über Jensen Huang und seinen angeblichen Rückzug belasten die Nvidia‑Aktie, wobei die Verluste im Vergleich zur Vorwoche geringer ausfallen. Die Turbulenzen wirken sich negativ auf den Halbleitersektor aus, während andere Technologie‑Aktien weniger stark betroffen sind.",
-   "positiv": [],
-   "negativ": [
-    "Nvidia-Aktie",
-    "Halbleiter‑ und Chip‑Hersteller",
-    "US‑Technologie‑Aktien"
-   ]
-  },
-  {
-   "id": "0e5bc7f4",
-   "titel": "Dax aktuell: Dax entfernt sich von 27.000‑Punkte-Marke – folgt trotzdem die Jahresendrally?﻿",
-   "anriss": "Der Leitindex konnte bisher den negativen Vorzeichen aus den USA trotzen. Zum Ende der Handelswoche geht den Anlegern allerdings die Luft aus.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "SPIEGEL Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 4,
+   "anzahl": 3,
    "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-bewegt-sich-kaum-entfernt-sich-aber-vom-rekord/100269627.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-faellt-nach-rekordlauf-wieder-unter-die-27.000-punkte-marke/100269311.html",
-    "https://www.spiegel.de/wirtschaft/neuer-rekord-dax-knackt-erstmals-marke-von-27-000-punkten-a-dc114850-1845-407a-9ed4-981f12b936db#ref=rss",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-wall-street-schliesst-im-minus-nvidia-turbulenzen-belasten/100269457.html",
+    "https://www.spiegel.de/wirtschaft/spionage-affaere-nvidia-aktien-buessen-nach-jensen-huangs-ruecktritt-an-wert-ein-a-a7155d5a-d0f2-43d4-b287-1f89bcb863ea#ref=rss",
     "https://www.manager-magazin.de/finanzen/boerse/dax-nach-rekordhoch-schwaecher-mercedes-im-blick-bitcoin-mit-kurssturz-a-2ab3546d-7844-4875-82e8-54d98005f9bc#ref=rss"
    ],
-   "punkte": 16,
-   "text": "Der Leitindex konnte bisher den negativen Vorzeichen aus den USA trotzen. Zum Ende der Handelswoche geht den Anlegern allerdings die Luft aus.",
+   "punkte": 13,
+   "text": "Die neuen Enthüllungen über Nvidia-Chef Jensen Huang und sein Abgang kosten Aktionäre des Chipherstellers Milliarden. Doch die Verluste fallen geringer aus als in der Vorwoche.",
    "positiv": [],
    "negativ": []
   },
@@ -241,27 +252,6 @@
    "negativ": []
   },
   {
-   "id": "61f86fec",
-   "titel": "Update Wirtschaft vom 13.11.2026",
-   "anriss": "Update Wirtschaft vom 13.11.2026",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.tagesschau.de/multimedia/sendung/tagesschau24/boerselive/video-1683034.html",
-    "https://www.spiegel.de/wirtschaft/stromsteuer-wirtschaft-kritisiert-schlingerkurs-der-regierung-a-1b53162b-b41a-4462-9e5c-896a8a327156#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/so-enttaeuscht-ist-die-wirtschaft-von-der-merz-regierung-elite-panel-von-allensbach-accg-201668594.html"
-   ],
-   "punkte": 12,
-   "text": "Update Wirtschaft vom 13.11.2026",
-   "positiv": [],
-   "negativ": []
-  },
-  {
    "id": "ef7bf7c0",
    "titel": "Warum immer mehr Menschen in die Schuldenfalle rutschen",
    "anriss": "Die Zahl überschuldeter Menschen in Deutschland steigt im zweiten Jahr in Folge. Auslöser einer finanziellen Notlage sind häufig Krankheit, Sucht, Unfälle oder Arbeitslosigkeit. Betroffen sind vor allem Jüngere.",
@@ -283,8 +273,8 @@
  ],
  "ketten": [],
  "gegenthese": {
-  "konsens": "Nvidia‑Volatilität drückt US‑Aktien, DAX bleibt knapp unter 27 000, Microsoft‑Ausfälle gelten als kurzfristig, Gemini 4 Hydrogen gilt als kostengünstige Alternative, DHL‑Preiserhöhung wird akzeptiert, private Verschuldung steigt.",
-  "gegen": "Nvidia‑Probleme könnten überbewertet sein, DAX‑Rallye könnte zurückkehren, Microsoft‑Störungen könnten systemisch sein, Gemini‑Technologie unbewährt, DHL‑Preise könnten Kunden abwandern lassen, Verschuldung könnte zu Ausfällen führen."
+  "konsens": "Die Märkte reagieren zurückhaltend: Microsoft‑Ausfälle werden als kurzfristig eingestuft, Nvidia‑Kontroverse belastet das Sentiment, Mercedes‑Planungen drücken den Automobilsektor, DHL‑Preiserhöhung wird bereits eingepreist, Schuldentrends erhöhen Risiko‑Premien.",
+  "gegen": "Gegenargument: Viele Einschätzungen basieren auf unvollständigen Informationen – Microsoft‑Ausfälle könnten länger dauern, Nvidia‑Skandal könnte begrenzt bleiben, Mercedes‑Entscheidungen könnten neue Investitionen nach sich ziehen, DHL‑Preise könnten durch Wettbewerb gedämpft werden."
  },
  "matrix": [
   {
@@ -401,11 +391,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "113.1 Mrd"
+     "112.0 Mrd"
     ],
     [
      "KGV (erw.)",
-     "15,7"
+     "15,6"
     ],
     [
      "Umsatzwachstum",
@@ -438,12 +428,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die Analystenmehrheit (21 Kauf‑Empfehlungen) spricht für Siemens Energy. Das Unternehmen verzeichnet ein starkes Umsatzwachstum von 23 % und ein moderates KGV von 15,7, was im Branchenvergleich attraktiv erscheint. Das Kursziel von 193 € liegt über dem aktuellen Kurs und signalisiert Aufwärtspotenzial.",
-   "dagegen": "Risiken bestehen in der Abhängigkeit von der Windturbinen‑Sparte Siemens Gamesa, die seit Jahren mit Leistungs‑ und Lieferproblemen kämpft. Hohe Investitionskosten und mögliche Verzögerungen bei Großprojekten können die Marge belasten. Zudem fehlt Transparenz zu Verschuldung und Cash‑Flow‑Entwicklung, was Unsicherheit erzeugt.",
+   "dafuer": "Analysten‑Stimmungsbild ist stark positiv (21 Buy, 5 Hold, 2 Sell). Das Unternehmen weist ein KGV von 15,6 und ein Umsatzwachstum von +23 % auf, was auf steigende Nachfrage nach Turbinen‑ und Grid‑Lösungen hindeutet. Das Kursziel von 193 € liegt deutlich über dem aktuellen Kurs.",
+   "dagegen": "Die Bewertung könnte übertrieben sein, da keine Insider‑ oder Short‑Informationen vorliegen und die Markt‑ und Reddit‑Berichterstattung gering ist. Siemens Gamesa hat Qualitäts‑ und Lieferprobleme, die das Ergebnis belasten könnten. Ohne klare Daten zu Verschuldung und Cash‑Flow bleibt das Risiko unklar.",
    "katalysatoren": [
-    "Q3‑2024 Quartalsbericht mit Ergebnis‑ und Ausblick‑Update",
-    "Inbetriebnahme der nächsten Generation von Gasturbinen (SGT‑XX)",
-    "Großauftrag für Netz‑technologien in Europa (Smart‑Grid‑Projekt)"
+    "Q4‑Ergebnisbericht 2026 mit erwarteter Margenverbesserung",
+    "Inbetriebnahme neuer Gas‑ und Dampfturbinen‑Aufträge in Asien",
+    "Mögliche strategische Partnerschaft oder Teilverkauf von Siemens Gamesa"
    ]
   },
   "RHM.DE": {
@@ -454,11 +444,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "35.5 Mrd"
+     "35.3 Mrd"
     ],
     [
      "KGV (erw.)",
-     "15,3"
+     "15,2"
     ],
     [
      "Umsatzwachstum",
@@ -491,13 +481,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Starkes Umsatzwachstum von +36 % und ein moderates forward KGV von 15,3 deuten auf solide Bewertung hin. 17 Analysten empfehlen Kauf, es gibt keine Short‑Positionen und das Kursziel liegt bei 1 375 €, was Aufwärtspotenzial signalisiert.",
-   "dagegen": "Hohe Abhängigkeit von staatlichen Rüstungsbudgets macht das Unternehmen anfällig für politische Entscheidungen. Fehlende Insider‑Käufe und kaum Diskussionen in Newslettern oder Reddit könnten auf begrenztes Marktinteresse hindeuten. Bewertungsdruck entsteht, wenn das Wachstum nicht nachhaltig bleibt.",
-   "katalysatoren": [
-    "Erhöhung des deutschen Verteidigungsbudgets 2025",
-    "Markteinführung einer neuen gepanzerten Fahrzeugplattform",
-    "Quartals‑Update des Auftragsbestands Q4 2024"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "ASML.AS": {
    "ticker": "ASML.AS",
@@ -507,11 +493,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "526.2 Mrd"
+     "522.7 Mrd"
     ],
     [
      "KGV (erw.)",
-     "24,2"
+     "24,0"
     ],
     [
      "Umsatzwachstum",
@@ -544,12 +530,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "ASML verzeichnet ein starkes Umsatzwachstum von +55 % und dominiert den EUV‑Lithographiesektor, was das Vertrauen von 38 Analysten (Buy) erklärt. Das Unternehmen profitiert von langfristigen Chip‑Investitionen und hat ein Kursziel von 2096 EUR, das Aufwärtspotenzial signalisiert.",
-   "dagegen": "Das aktuelle KGV von 24,2 ist im Vergleich zu historischen Werten hoch, was auf eine teure Bewertung hindeutet. Ein einzelner Analyst empfiehlt Verkauf, was einen Widerspruch zur überwiegenden Buy‑Meinung darstellt. Zudem besteht ein Risiko durch mögliche Abschwächungen der Chip‑Nachfrage und fehlende Insider‑Käufe.",
+   "dafuer": "ASML verfügt über eine Marktkapitalisierung von 522,7 Mrd. €, ein starkes Umsatzwachstum von 55 % und ein moderates KGV von 24. Die Analystenmeinung ist eindeutig positiv (38 Buy, 2 Hold, 1 Sell). Das Kursziel von 2.096 € spiegelt das Vertrauen in die Marktposition wider.",
+   "dagegen": "Die Bewertung ist mit einem KGV von 24 relativ hoch, was bei einer möglichen Abschwächung der Chipnachfrage Risiken birgt. ASML ist stark von EUV‑Technologie und wenigen Großkunden abhängig; fehlende Insider‑Informationen und kaum Short‑Aktivität deuten auf begrenzte Transparenz hin.",
    "katalysatoren": [
-    "Q3‑2024 Ergebnisveröffentlichung mit Fokus auf Umsatz‑ und Margenentwicklung",
-    "Markteinführung des nächsten EUV‑High‑NA‑Systems",
-    "Kapitalpläne großer Kunden (TSMC, Samsung) und mögliche staatliche Förderprogramme für fortgeschrittene Halbleitertechnologien"
+    "Veröffentlichung der Quartalszahlen Q4 2024",
+    "Markteinführung des nächsten EUV‑Systems „High‑NA“",
+    "Entwicklung der Export‑ und Lieferbedingungen für den chinesischen Markt"
    ]
   },
   "SU.PA": {
@@ -560,11 +546,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "143.1 Mrd"
+     "143.5 Mrd"
     ],
     [
      "KGV (erw.)",
-     "19,3"
+     "19,4"
     ],
     [
      "Umsatzwachstum",
@@ -582,7 +568,7 @@
     ],
     [
      "Newsletter",
-     "in 15 Clustern"
+     "in 12 Clustern"
     ],
     [
      "Reddit",
@@ -597,12 +583,12 @@
      "1648,06 % ueber 1700 Halter"
     ]
    ],
-   "dafuer": "Schneider Electric verfügt über ein breites Portfolio in Energie‑Management und Industrieautomation, profitiert von 10 % Umsatzwachstum und einem moderaten KGV von 19,3. Der von Analysten erwartete Kurs von 323 € impliziert erhebliches Aufwärtspotenzial gegenüber dem aktuellen Kurs.",
-   "dagegen": "Ein extrem hoher Short‑Interest von über 1.600 % bei mehr als 1.700 Haltern signalisiert skeptische Marktteilnehmer. Die geringe Reddit‑Präsenz und das Fehlen von Insider‑News deuten auf begrenzte Aufmerksamkeit hin, während das Kursziel möglicherweise bereits im aktuellen Kurs eingepreist ist.",
+   "dafuer": "Analysten‑Konsens stark: 19 Kauf‑, 4 Halte‑Empfehlungen bei einem KGV von 19,4 und +10 % Umsatzwachstum. Breites Produktportfolio in Energiemanagement, Industrie‑Automation und erneuerbaren Energien. Marktwert 143,5 Mrd. €, Kursziel 323 € signalisiert Aufwärtspotenzial.",
+   "dagegen": "Extrem hohe Short‑Position von 1.648 % über 1.700 Haltern deutet auf starkes Misstrauen. Reddit kaum Erwähnung, keine Insider‑Meldungen, mögliche Überbewertung trotz Wachstum. Risiko durch makroökonomische Unsicherheiten im Energiesektor und mögliche Margendrucke.",
    "katalysatoren": [
-    "Quartalsbericht Q3 2024 mit erwarteter Umsatzsteigerung",
-    "Markteinführung neuer Microgrid‑Lösungen für erneuerbare Energien",
-    "Abschluss einer strategischen Akquisition im Solar‑Segment"
+    "Quartalsbericht Q3 2024 (Ergebnis‑ und Umsatzentwicklung)",
+    "Markteinführung neuer Mikro‑Grid‑ und Inverter‑Lösungen",
+    "EU‑Regulierung zu Energieeffizienz und Gebäudemanagement"
    ]
   },
   "GEV": {
@@ -613,11 +599,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "216.6 Mrd"
+     "211.1 Mrd"
     ],
     [
      "KGV (erw.)",
-     "31,4"
+     "30,6"
     ],
     [
      "Umsatzwachstum",
@@ -650,9 +636,13 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "Dafür spricht das starke Umsatzwachstum von 27 % und ein erwartetes KGV von 30,6, was auf Wachstumspotenzial hindeutet. Die Marktkapitalisierung von 211 Mrd USD und das positive Analysten‑Sentiment (32 Kauf‑Empfehlungen, keine Verkauf) unterstreichen die Attraktivität.",
+   "dagegen": "Daneben wirft die Insider‑Aktivität Bedenken auf: vier Verkäufe bei null Käufen deuten auf mögliche Bedenken des Managements hin. Das KGV von 30,6 ist im Vergleich zu etablierten Energie‑Peers hoch, und das Unternehmen ist stark von geopolitischen und regulatorischen Risiken in allen Regionen abhängig.",
+   "katalysatoren": [
+    "Abschluss der Integration von Vernova nach dem Spin‑Off und damit verbundene Kostensynergien",
+    "Auslieferung neuer Wind‑Turbinen in Europa, die die Umsatzbasis erweitern könnte",
+    "Veröffentlichung des Q3‑Ergebnisses und Update der Unternehmens‑Guidance"
+   ]
   },
   "CCJ": {
    "ticker": "CCJ",
@@ -662,11 +652,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "31.3 Mrd"
+     "31.1 Mrd"
     ],
     [
      "KGV (erw.)",
-     "41,9"
+     "41,6"
     ],
     [
      "Umsatzwachstum",
@@ -711,11 +701,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "86.7 Mrd"
+     "86.0 Mrd"
     ],
     [
      "KGV (erw.)",
-     "14,3"
+     "14,2"
     ],
     [
      "Umsatzwachstum",
@@ -760,11 +750,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "4.013.0 Mrd"
+     "3.921.5 Mrd"
     ],
     [
      "KGV (erw.)",
-     "10,5"
+     "10,2"
     ],
     [
      "Umsatzwachstum",
@@ -1185,6 +1175,6 @@
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 156,
+ "meldungen_gesamt": 158,
  "llm_aktiv": false
 }
