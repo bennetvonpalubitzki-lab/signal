@@ -1,9 +1,9 @@
 {
- "stand": "2026-11-15T20:39",
- "lauf": "2026111520",
+ "stand": "2026-11-16T13:04",
+ "lauf": "2026111613",
  "synthese": {
-  "kern": "Alltägliche Unternehmens- und Regulierungsrisiken überschattet makroökonomische Daten.",
-  "erlaeuterung": "Technologieausfälle, hohe Strafen und strategische Unsicherheiten zeigen, dass operative und regulatorische Risiken stärker zunehmen. Der Markt fokussiert weiterhin Zins‑ und Wachstumsdaten, vernachlässigt jedoch die potenzielle Volatilität aus diesen Unternehmensereignissen."
+  "kern": "Markt fokussiert Tech‑Aktien, übersieht breiten Risiko‑ und Liquiditätsdruck aus Banken‑Deal, geopolitischer Unsicherheit und schwacher Energie‑Nachfrage.",
+  "erlaeuterung": "Der Zusammenschluss von Commerzbank und UniCredit erhöht den Kreditrisikodruck, während die Liquidität in Europa weiter schrumpft. Gleichzeitig dämpfen ein schwacher Energiemarkt, geopolitische Spannungen und ein Rückgang der Industrie­nachfrage die Stimmung, die vom Fokus auf Nvidia und Gold ablenkt."
  },
  "regime": [
   {
@@ -36,12 +36,12 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 67,
-     "delta": 4
+     "wert": 65,
+     "delta": 0
     },
     "eur": {
-     "wert": 82,
-     "delta": -2
+     "wert": 80,
+     "delta": 4
     }
    },
    "differenz": 15
@@ -51,8 +51,8 @@
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 33,
-     "delta": 22
+     "wert": 29,
+     "delta": 7
     }
    }
   },
@@ -77,187 +77,250 @@
    "spuren": {
     "glob": {
      "wert": 78,
-     "delta": -4
+     "delta": -5
     }
    }
   }
  ],
  "cluster": [
   {
-   "id": "3fe0c01b",
-   "titel": "Was über den Ausfall von Microsoft-Diensten bekannt ist",
-   "anriss": "Eine stundenlange Großstörung hat weltweit Dienste des US-Softwarekonzerns Microsoft lahmgelegt, unter anderem das E-Mail-Programm Outlook. Wen es getroffen hat und welche Hintergründe vermutet werden - ein Überblick.",
+   "id": "f46c281d",
+   "titel": "Banken: EU und Fed erlauben Commerzbank-Übernahme durch Unicredit",
+   "anriss": "Die EU-Kommission geht bei der Genehmigung auf die Finanzierung des deutschen Mittelstands ein. Zudem hält sie den Deal aus einem übergeordneten Grund für wichtig.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "Handelsblatt Finanzen",
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 5,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/banken-eu-und-fed-erlauben-commerzbank-uebernahme-durch-unicredit/100270206.html",
+    "https://www.tagesschau.de/wirtschaft/unternehmen/commerzbank-unicredit-eu-genehmigung-100.html",
+    "https://www.spiegel.de/wirtschaft/eu-genehmigt-uebernahme-der-commerzbank-durch-unicredit-a-d345f44c-486c-43ed-968c-6d33229c6372#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-eu-gibt-unicredit-gruenes-licht-fuer-commerzbank-uebernahme-faz-200452404.html",
+    "https://www.manager-magazin.de/unternehmen/banken/commerzbank-uebernahme-eu-kommission-genehmigt-unicredit-deal-ohne-auflagen-a-8304b831-feaa-4b8a-8b7a-403bc63e3d8e#ref=rss"
+   ],
+   "punkte": 21,
+   "text": "Die EU‑Kommission hat die Übernahme der Commerzbank durch Unicredit genehmigt und betont, dass der Deal die Finanzierung des deutschen Mittelstands stärkt und aus übergeordneten Gründen wichtig ist. Die Genehmigung dürfte Unicredit positiv, während die Konsolidierung im deutschen Bankensektor als belastend für die Konkurrenz angesehen wird.",
+   "positiv": [
+    "Unicredit‑Aktie (up)",
+    "Mittelstand‑Finanzierung (up)"
+   ],
+   "negativ": [
+    "Deutsche Banken (Konsolidierungsdruck, down)"
+   ]
+  },
+  {
+   "id": "7d4611f8",
+   "titel": "Missglückter Raketenstart: Amazon verliert 40 Satelliten",
+   "anriss": "Techmilliardär Musks Starlink-Netzwerk dominiert, aber Amazon will ihm Konkurrenz machen. Nun muss das Unternehmen von Jeff Bezos aber einen Rückschlag hinnehmen - und der könnte langfristige Folgen haben.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "heise",
+    "manager magazin"
+   ],
+   "anzahl": 5,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/technologie/rakete-amazon-satelliten-100.html",
+    "https://www.spiegel.de/wirtschaft/amazon-absturz-der-vulcan-rakete-kostet-us-konzern-40-satelliten-a-8bd0dc5f-699c-493e-a188-437d49521bcb#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/40-amazon-satelliten-bei-absturz-von-vulcan-rakete-zerstoert-accg-201686018.html",
+    "https://www.manager-magazin.de/unternehmen/tech/vulcan-rakete-absturz-kostet-amazon-40-satelliten-fuer-internetdienst-leo-a-d08e1b4c-da9b-4597-a45a-d69c058b4f2b#ref=rss",
+    "https://www.heise.de/news/Amazon-Satelliten-nach-Problem-einer-Vulcan-Traegerrakete-im-All-verloren-11525671.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 20,
+   "text": "Ein fehlgeschlagener Raketenstart hat dazu geführt, dass Amazon 40 Satelliten verloren hat und damit sein Satelliten‑Broadband‑Projekt zurückfällt. Der Rückschlag schwächt Amazons Position im Wettbewerb mit Starlink von Elon Musk.",
+   "positiv": [
+    "Starlink (up)"
+   ],
+   "negativ": [
+    "Amazon‑Satelliten‑Broadband (down)",
+    "Amazon‑Aktie (down)"
+   ]
+  },
+  {
+   "id": "bb05791f",
+   "titel": "Edelmetalle: Gold notiert auf tiefstem Stand seit Oktober 2025",
+   "anriss": "Der starke Dollar belastet den Kurs des Edelmetalls. Doch nicht nur das beeinflusst den Goldpreis. Anleger achten unterdessen auf eine Rede von Fed-Chef Kevin Warsh.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft"
+   ],
+   "anzahl": 5,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/gold-edelmetall-notiert-auf-tiefstem-stand-seit-oktober-2025/100270118.html",
+    "https://www.handelsblatt.com/finanzen/anlagestrategie/kolumnen/geldanlage-der-dollar-wird-fuer-investoren-zum-risiko/100268638.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/kryptowaehrungen-neue-schwaechephase-bitcoin-faellt-unter-65.000-dollar/100269990.html",
+    "https://www.tagesschau.de/wirtschaft/finanzen/gold-und-bitcoin-fallen-zinssorgen-100.html",
+    "https://www.spiegel.de/wirtschaft/bitcoin-kostete-zeitweise-nur-noch-rund-62-500-dollar-a-ce2126df-8f14-49c2-bfda-cb46bfcb1b67#ref=rss"
+   ],
+   "punkte": 19,
+   "text": "Gold notiert seit Oktober 2025 auf seinem tiefsten Kurs, weil ein starker US‑Dollar den Edelmetallpreis belastet. Zusätzlich beobachten Anleger die Rede von Fed‑Chef Kevin Warsh, die weitere Unsicherheit für den Goldmarkt birgt.",
+   "positiv": [
+    "US‑Dollar (up)"
+   ],
+   "negativ": [
+    "Gold (down)"
+   ]
+  },
+  {
+   "id": "5d1dc068",
+   "titel": "Dax aktuell: Dax tritt auf der Stelle – Nvidia bleibt im Fokus",
+   "anriss": "Nach dem Rekordhoch in der vergangenen Woche zeigt sich der Dax richtungslos. Anleger warten gespannt auf die Nvidia-Zahlen, die am Dienstagabend veröffentlicht werden.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "heise",
+    "manager magazin"
+   ],
+   "anzahl": 5,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-tritt-auf-der-stelle-nvidia-bleibt-im-fokus/100270107.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sieben-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/boerse-asien-asiens-boersen-geben-nach-nvidia-zahlen-und-anthropic-boersengang-im-blick/100270076.html",
+    "https://www.manager-magazin.de/finanzen/boerse/boerse-dax-stabil-auf-hohem-niveau-nvidia-zahlen-und-oelpreis-im-fokus-a-3cdd4662-3e31-49c3-913e-2b34eea499cc#ref=rss",
+    "https://www.heise.de/ratgeber/Anthropic-Was-Anleger-vor-dem-Boersengang-wissen-sollten-11502575.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus"
+   ],
+   "punkte": 19,
+   "text": "Der DAX bleibt nach dem Rekordhoch der Vorwoche seitwärts, während Investoren auf die Nvidia‑Quartalszahlen am Dienstagabend warten. Ohne klare Ergebnisprognose lässt sich die Richtung für den deutschen Leitindex und Nvidia derzeit nicht eindeutig bestimmen.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "5fa02281",
+   "titel": "Geld: Der Millionenerbe, der die Millionen nicht will",
+   "anriss": "Kai Viehof hat den Großteil seines Erbes ausgeschlagen, auch vom Rest will der Enkel des Allkauf-Gründers das meiste weggeben. Über einen Mann, dessen Beruf es ist, sinnvoll Geld loszuwerden.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "SPIEGEL Wirtschaft",
+    "heise",
+    "manager magazin"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/steuern-recht/reichtum-warum-allkauf-erbe-kai-viehof-sein-millionenvermoegen-verschenkt/100204748.html",
+    "https://www.spiegel.de/wirtschaft/unternehmen/meta-facebook-muss-wegen-ausgelesener-fotogalerien-805-millionen-euro-zahlen-a-3347008b-5b9a-4955-82be-f7aa6f7e20ef#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/tech/meta-facebook-muss-wegen-ausgelesener-fotogalerien-805-millionen-euro-zahlen-a-1ad95765-8e2f-450f-b64a-976b31376fea#ref=rss",
+    "https://www.heise.de/news/Datenschutzverstoss-Meta-soll-in-Italien-805-Millionen-Euro-Strafe-zahlen-11525635.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 17,
+   "text": "Kai Viehof hat den Großteil seines Erbes ausgeschlagen, auch vom Rest will der Enkel des Allkauf-Gründers das meiste weggeben. Über einen Mann, dessen Beruf es ist, sinnvoll Geld loszuwerden.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "504e0de8",
+   "titel": "Ex-Nvidia-Chef Huang arbeitet offenbar bereits an seinem Comeback",
+   "anriss": "Seine Affären - auch mit einer mutmaßlichen chinesischen Spionin - haben mehr als eine Billion Dollar Börsenwert vernichtet. Damit war der Rücktritt des Nvidia-Chefs unvermeidlich. Nun plant Jensen Huang offenbar bereits sein Comeback.",
    "region": "dach",
    "quellen": [
     "Tagesschau Wirtschaft",
     "heise",
     "manager magazin"
    ],
-   "anzahl": 4,
+   "anzahl": 5,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/unternehmen/faq-ausfall-microsoft-dienste-weltweit-100.html",
-    "https://www.manager-magazin.de/unternehmen/tech/microsoft-nach-megastoerung-laufen-outlook-teams-und-copilot-wieder-a-a7dff8d1-58b5-41e9-92c8-483e7d38135f#ref=rss",
-    "https://www.heise.de/news/Phishing-Kampagne-nutzt-Microsoft-Cloud-Ausfall-11525471.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-    "https://www.heise.de/news/Microsoft-Ausfall-Woran-es-lag-und-wer-besonders-litt-11525257.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+    "https://www.tagesschau.de/wirtschaft/unternehmen/nvidia-huang-chefposten-100.html",
+    "https://www.manager-magazin.de/unternehmen/tech/nvidia-gestuerzter-ceo-huang-stoesst-mit-comeback-plaenen-auf-widerstand-a-88265699-cb4f-4f45-8460-00bebb0e5ca6#ref=rss",
+    "https://www.heise.de/news/Tage-nach-dem-Ruecktritt-Jensen-Huang-will-angeblich-wieder-Nvidia-CEO-werden-11525691.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "https://www.heise.de/news/Montag-Rufe-nach-Rueckkehr-Jensen-Huangs-Huang-Affaere-nicht-mehr-bei-Megaspeed-11525681.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "https://www.heise.de/news/Nvidia-Angestellte-wollen-Jensen-Huang-zurueck-11525279.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
-   "punkte": 14,
-   "text": "Ein weltweiter Ausfall von Microsoft‑Diensten, darunter Outlook, hat mehrere Stunden gedauert und betraf Unternehmen sowie Privatnutzer. Die Störung wird auf technische Probleme in der Azure‑Infrastruktur zurückgeführt.",
+   "punkte": 16,
+   "text": "Seine Affären - auch mit einer mutmaßlichen chinesischen Spionin - haben mehr als eine Billion Dollar Börsenwert vernichtet. Damit war der Rücktritt des Nvidia-Chefs unvermeidlich. Nun plant Jensen Huang offenbar bereits",
    "positiv": [],
-   "negativ": [
-    "Microsoft-Aktie",
-    "Cloud‑Dienstleistungssektor"
-   ]
+   "negativ": []
   },
   {
-   "id": "43c341fe",
-   "titel": "Meta: Italien verhängt 805-Millionen-Euro-Strafe wegen ausgelesener Fotogalerien",
-   "anriss": "Facebook las die Fotogalerien von 20 Millionen Android-Nutzern aus, ohne wirksame Einwilligung. Nun wird der Konzern zur Kasse gebeten. Die Funktion muss er binnen 60 Tagen abschalten.",
-   "region": "dach",
-   "quellen": [
-    "SPIEGEL Wirtschaft",
-    "heise",
-    "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.spiegel.de/wirtschaft/unternehmen/meta-facebook-muss-wegen-ausgelesener-fotogalerien-805-millionen-euro-zahlen-a-3347008b-5b9a-4955-82be-f7aa6f7e20ef#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/tech/meta-facebook-muss-wegen-ausgelesener-fotogalerien-805-millionen-euro-zahlen-a-1ad95765-8e2f-450f-b64a-976b31376fea#ref=rss",
-    "https://www.heise.de/news/Datenschutzverstoss-Meta-soll-in-Italien-805-Millionen-Euro-Strafe-zahlen-11525635.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 12,
-   "text": "Die italienische Aufsichtsbehörde hat Meta wegen unrechtmäßiger Auslese von Fotogalerien von rund 20 Millionen Android‑Nutzern mit einer Geldstrafe von 805 Mio. € belegt und verlangt die Abschaltung der Funktion innerhalb von 60 Tagen. Das Verfahren erhöht das regulatorische Risiko für das Unternehmen.",
-   "positiv": [],
-   "negativ": [
-    "Meta‑Aktie",
-    "Digital‑Advertising‑Branche"
-   ]
-  },
-  {
-   "id": "57e9a596",
-   "titel": "Business-Ticker: FT: Jensen Huang erwägt Rückkehr als Nvidia-CEO",
-   "anriss": "Huang-Verbündete wollen den Ex-CEO zurück an die Nvidia-Spitze holen +++ Cyberangriff auf französischen Post-Dienstleister: Daten von 22 Millionen Menschen abgegriffen +++ alle Neuigkeiten im Unternehmen-Liveblog",
+   "id": "d343eae8",
+   "titel": "Outlook: Alter Programmfehler löste Microsoft-Ausfall aus",
+   "anriss": "Ein Fehler schlummerte seit Juli in Microsofts System – bis drei Faktoren eine weltweite Kettenreaktion auslösten. Warum der Ausfall ausgerechnet zur Hauptnutzungszeit begann.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
     "heise"
    ],
-   "anzahl": 4,
+   "anzahl": 3,
    "links": [
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-mutmassliche-tech-spionin-alice-huang-arbeitet-nicht-mehr-fuer-megaspeed-faz-200452404.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/jensen-huang-aufstieg-und-fall-des-nvidia-gruenders-accg-201669719.html",
-    "https://www.heise.de/news/Nvidia-Angestellte-wollen-Jensen-Huang-zurueck-11525279.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-    "https://www.heise.de/news/Megaspeed-bestaetigt-Alice-Huang-hat-Unternehmen-verlassen-11525549.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/microsoft-ausfall-alter-programmfehler-loeste-weltweite-stoerung-bei-outlook-und-teams-aus-accg-201687527.html",
+    "https://www.heise.de/meinung/Kommentar-Wofuer-nochmal-braucht-man-M365-11525667.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "https://www.heise.de/news/Microsoft-Cloud-Ausfall-fuehrte-zu-15-Verletzten-im-Phantasialand-11525711.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
-   "punkte": 12,
-   "text": "Laut dem Financial Times wird diskutiert, Jensen Huang könnte erneut die Position des CEOs von Nvidia übernehmen, unterstützt von einem Teil des Vorstands. Eine mögliche Rückkehr wird von Investoren als Signal für Kontinuität im KI‑Geschäft gewertet.",
-   "positiv": [
-    "Nvidia‑Aktie",
-    "KI‑Halbleiter‑Sektor"
-   ],
+   "punkte": 10,
+   "text": "Ein Fehler schlummerte seit Juli in Microsofts System – bis drei Faktoren eine weltweite Kettenreaktion auslösten. Warum der Ausfall ausgerechnet zur Hauptnutzungszeit begann.",
+   "positiv": [],
    "negativ": []
   },
   {
-   "id": "aafa0439",
-   "titel": "CSU will Abschläge für Frührentner erhöhen",
-   "anriss": "Wegen der angespannten Haushaltslage will die Regierung weniger Milliarden an die Rentenversicherung überweisen. Um das Loch zu stopfen, sollen die Abschläge für Frührentner steigen.",
+   "id": "ced4561f",
+   "titel": "Apec-Gipfel: Kanadas neuer Freund heißt China",
+   "anriss": "Auf die USA können sich die Kanadier nicht mehr verlassen. Premierminister Carney sucht in China einen Verbündeten. Manche sehen darin einen Testfall für Europa.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft"
+    "manager magazin"
    ],
    "anzahl": 3,
    "links": [
-    "https://www.spiegel.de/wirtschaft/soziales/csu-will-abschlaege-fuer-fruehrentner-erhoehen-a-e30254e8-833b-4ad1-ab30-a6114735d64b#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/arm-und-reich/csu-fordert-hoehere-abschlaege-fuer-fruehrentner-streit-mit-spd-eskaliert-accg-201684748.html",
-    "https://www.faz.net/aktuell/wirtschaft/arm-und-reich/csu-fordert-hoehere-abschlaege-fuer-fruehrentner-accg-201684734.html"
+    "https://www.faz.net/aktuell/wirtschaft/kanada-sucht-in-china-einen-ausweg-aus-der-trump-krise-accg-201669741.html",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/donald-trump-beim-apec-gipfel-in-shenzhen-chinas-chipskandal-belastet-die-reise-accg-201682846.html",
+    "https://www.manager-magazin.de/politik/weltwirtschaft/asean-und-apec-gipfel-wie-china-seine-nachbarn-zunehmend-nervoes-macht-a-d4e66c7f-857b-4069-8d39-3a8d4d14623e#ref=rss"
    ],
    "punkte": 10,
-   "text": "Ein Cyberangriff auf einen französischen Post‑Dienstleister hat Daten von etwa 22 Millionen Personen kompromittiert. Der Vorfall verstärkt Bedenken hinsichtlich der IT‑Sicherheit im Logistik‑ und Telekommunikationssektor.",
-   "positiv": [],
-   "negativ": [
-    "Logistik‑ und Post‑Dienstleister",
-    "Datensicherheits‑Branche"
-   ]
-  },
-  {
-   "id": "1d8b9c7f",
-   "titel": "Krise im Handwerk: \"Stilles Sterben der Betriebe\"",
-   "anriss": "Weniger Aufträge, steigende Kosten: Handwerkspräsident Dittrich warnt davor, dass die Branche bis zu 80.000 Arbeitsplätze pro Jahr verlieren könnte - wenn nicht gegengesteuert wird.",
-   "region": "dach",
-   "quellen": [
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft"
-   ],
-   "anzahl": 2,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/unternehmen/handwerk-krise-100.html",
-    "https://www.spiegel.de/wirtschaft/unternehmen/handwerk-warnt-vor-stillem-sterben-der-betriebe-a-8ae8249b-be4e-467e-b6c8-dce66525f1e0#ref=rss"
-   ],
-   "punkte": 8,
-   "text": "Weniger Aufträge, steigende Kosten: Handwerkspräsident Dittrich warnt davor, dass die Branche bis zu 80.000 Arbeitsplätze pro Jahr verlieren könnte - wenn nicht gegengesteuert wird.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "62242a9e",
-   "titel": "Märkte Insight: Der Dollar wird für Investoren zum Risiko",
-   "anriss": "In Krisenzeiten wertete die US-Währung in der Vergangenheit auf und minderte damit die Verluste internationaler Aktieninvestoren. Das Muster verändert sich nun, warnt Martin Müller.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen"
-   ],
-   "anzahl": 2,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/anlagestrategie/kolumnen/geldanlage-der-dollar-wird-fuer-investoren-zum-risiko/100268638.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/kryptowaehrungen-neue-schwaechephase-bitcoin-faellt-unter-65.000-dollar/100269990.html"
-   ],
-   "punkte": 8,
-   "text": "In Krisenzeiten wertete die US-Währung in der Vergangenheit auf und minderte damit die Verluste internationaler Aktieninvestoren. Das Muster verändert sich nun, warnt Martin Müller.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "202e418d",
-   "titel": "Immobilien: Wie Sie ein Mehrfamilienhaus bis zu 50 Prozent teurer verkaufen",
-   "anriss": "Wer statt des ganzen Hauses alle Wohnungen einzeln verkauft, kann deutlich mehr erlösen. Doch Eigentümer müssen Rechtliches, Mieter und Behörden im Blick haben. So gelingt die Aufteilung.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen"
-   ],
-   "anzahl": 2,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/immobilien/immobilien-wie-sie-ein-mehrfamilienhaus-bis-zu-50-prozent-teurer-verkaufen/100260999.html",
-    "https://www.handelsblatt.com/finanzen/immobilien/immobilien-wo-sich-ein-immobilienkauf-rund-um-duesseldorf-fuer-pendler-lohnt/100266843.html"
-   ],
-   "punkte": 8,
-   "text": "Wer statt des ganzen Hauses alle Wohnungen einzeln verkauft, kann deutlich mehr erlösen. Doch Eigentümer müssen Rechtliches, Mieter und Behörden im Blick haben. So gelingt die Aufteilung.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "485f04ed",
-   "titel": "Grüne und Patientenschützer warnen vor Bezahlschranke für Arzttermine",
-   "anriss": "Mit privat bezahlten Sprechstunden sollen gesetzlich Versicherte schneller Termine bei Fachärzten bekommen können. Die Grünen kritisieren dies als ungerecht. Ein Patientenschützer erklärt, Mangel dürfe kein Geschäftsmodell sein.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft"
-   ],
-   "anzahl": 2,
-   "links": [
-    "https://www.spiegel.de/wirtschaft/gruene-und-patientenschuetzer-warnen-vor-bezahlschranke-fuer-arzttermine-a-c1c3b771-a1ec-41f4-9818-034799ca96e5#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/kbv-vorschlag-schneller-zum-facharzt-gegen-bezahlung-accg-201684747.html"
-   ],
-   "punkte": 8,
-   "text": "Mit privat bezahlten Sprechstunden sollen gesetzlich Versicherte schneller Termine bei Fachärzten bekommen können. Die Grünen kritisieren dies als ungerecht. Ein Patientenschützer erklärt, Mangel dürfe kein Geschäftsmode",
+   "text": "Auf die USA können sich die Kanadier nicht mehr verlassen. Premierminister Carney sucht in China einen Verbündeten. Manche sehen darin einen Testfall für Europa.",
    "positiv": [],
    "negativ": []
   }
  ],
- "ketten": [],
+ "ketten": [
+  {
+   "ausloeser": "EU-Kommission genehmigt im Q4 2026 eine weitere Kapitalerhöhung von UniCredit zur Finanzierung der Commerzbank-Übernahme",
+   "direkt": "UniCredit erhöht sein Eigenkapital um 5 Mrd. EUR, wodurch die Verwässerung der bestehenden Aktionäre steigt",
+   "zweite": "Die gestiegene Eigenkapitalbasis senkt den Risikoaufschlag auf UniCredits Schuldverschreibungen, die Rendite von UniCredit Senior Notes fällt von 3,2 % auf 2,6 %",
+   "dritte": "Niedrigere Renditen machen UniCredit-Anleihen für europäische Rentenfonds attraktiver, während die Verwässerung den Kurs der UniCredit-Aktie um ca. 4 % drücken könnte",
+   "positiv": [
+    "UniCredit Senior Notes (EUR‑5‑2029)",
+    "Euro‑Staatsanleihen mit hoher Liquidität (z. B. DE10Y)",
+    "Deutsche Bank – Anleihe‑Portfolio (wegen relativ höherer Spread‑Attraktivität)"
+   ],
+   "negativ": [
+    "UniCredit Aktie (ISIN: IT0005239362)",
+    "Commerzbank Aktie (ISIN: DE000CBK1001)",
+    "Europäische Banken‑ETF (z. B. Xetra‑DAX‑Banken) wegen erhöhter Branchenverwässerung"
+   ],
+   "konfidenz": "mittel"
+  },
+  {
+   "ausloeser": "Amazon bestätigt im Januar 2027, dass ein zweiter Satelliten‑Launch wegen technischer Defekte erneut 30 % seiner Low‑Earth‑Orbit‑Konstellation verliert",
+   "direkt": "Der Ausfall reduziert das verfügbare Satelliten‑Kapazitätsangebot im globalen Cloud‑Markt um rund 12 % und erhöht die Preise für Bandbreite kurzfristig um 5‑7 %",
+   "zweite": "Kunden von Amazon Web Services (AWS) migrieren teilweise zu europäischen Cloud‑Anbietern, insbesondere zu Microsoft Azure und zu lokalen Anbietern wie Deutsche Telekom (T‑Systems) und OVHcloud",
+   "dritte": "Die gestiegene Nachfrage stärkt die Umsatz‑ und Ergebnisprognosen der genannten europäischen Cloud‑Provider, was deren Aktienkurse und die Bewertung von zugehörigen Infrastruktur‑REITs (z. B. Deutsche Wohnen) positiv beeinflusst; gleichzeitig sinkt das Vertrauen in US‑Satelliten‑ und Raumfahrt‑Aktien, darunter L3Harris und Boeing",
+   "positiv": [
+    "Deutsche Telekom AG (ISIN: DE0005557508)",
+    "Microsoft Corp. – ADR (ISIN: US5949181045) – wegen europäischer Nachfrage",
+    "OVHcloud SA (ISIN: FR0013226180)",
+    "Deutsche REIT‑AG – Infrastruktur‑REIT (ISIN: DE000A0D9PT1)"
+   ],
+   "negativ": [
+    "Amazon.com Inc. – ADR (ISIN: US0231351067)",
+    "L3Harris Technologies Inc. (ISIN: US49456U1064)",
+    "Boeing Co. (ISIN: US0970231058)",
+    "Global X Space & Satellite ETF (Ticker: SPACE) – wegen breiterer Marktdepression"
+   ],
+   "konfidenz": "hoch"
+  }
+ ],
  "gegenthese": {
-  "konsens": "Die Ereignisse werden als vorübergehende, regulatorische oder strukturelle Risiken gesehen, die die langfristigen Trends in Technologie, Immobilien und Geldpolitik nicht grundlegend verändern.",
-  "gegen": "Kumulativ könnten Datenschutzstrafen, Rentenpolitiken und Liquiditätsengpässe systemische Spannungen erzeugen und die Marktvolatilität stärker erhöhen als bisher angenommen."
+  "konsens": "Die Übernahme der Commerzbank durch UniCredit wird als Stabilisierungsmaßnahme gesehen; der Amazon‑Satellitenverlust gilt als einmaliges technisches Problem; der Gold‑Preisverfall spiegelt steigende Zins­erwartungen wider; DAX bleibt seitwärts, Nvidia bleibt Treiber; die übrigen Themen gelten als kurzfristig neutral.",
+  "gegen": "Risiken bestehen in Integrationsschwierigkeiten bei der Bankübernahme, möglichen langfristigen Auswirkungen des Satellitenverlusts auf AWS, einer Rückkehr des Goldes bei Inflation, einer erneuten Korrektur des DAX und einer Überbewertung von Nvidia."
  },
  "matrix": [
   {
@@ -374,11 +437,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "111.7 Mrd"
+     "110.5 Mrd"
     ],
     [
      "KGV (erw.)",
-     "15,2"
+     "15,0"
     ],
     [
      "Umsatzwachstum",
@@ -396,7 +459,7 @@
     ],
     [
      "Newsletter",
-     "nicht erwaehnt"
+     "in 2 Clustern"
     ],
     [
      "Reddit",
@@ -411,12 +474,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die Analystenmehrheit (22 Kauf‑Empfehlungen) spricht für Siemens Energy. Das erwartete Umsatzwachstum von 23 % und ein moderates KGV von 15,2 deuten auf Bewertungspotenzial hin. Das Kursziel von 192 € liegt über dem aktuellen Kurs, was Aufwärtsspielraum suggeriert.",
-   "dagegen": "Gegen die Aktie spricht die dünne Informationsbasis: Reddit und Newsletter erwähnen Siemens Energy kaum, und es gibt keine Insider‑ oder Short‑Aktivität. Das Unternehmen bleibt stark von Gas‑Turbinen abhängig, was in einer Dekarbonisierungsphase Risiken birgt.",
+   "dafuer": "Die Mehrheit der Analysten (22 Kauf‑Empfehlungen) bewertet Siemens Energy mit einem moderaten KGV von 15 und starkem Umsatzwachstum von 23 %. Das Kursziel von 192 € impliziert Aufwärtspotenzial. Das Unternehmen profitiert von steigender Nachfrage nach Turbinen, Grid‑Lösungen und digitalen Services.",
+   "dagegen": "Gegen das Bild sprechen anhaltende Probleme bei Siemens Gamesa, insbesondere Lieferverzögerungen und Qualitätsmängel bei Windturbinen, die das Ergebnis belasten. Das hohe Marktwert‑Risiko und die geringe Short‑Position deuten auf fehlende Skepsis hin. Reddit‑Nennung ist kaum vorhanden, was auf begrenzte Marktbreite schließen lässt.",
    "katalysatoren": [
-    "Auslieferung der nächsten Generation von Gasturbinen (z. B. SG 8.0) im geplanten Zeitrahmen",
-    "Gewinnung neuer Großaufträge im Grid‑Technologies‑Segment in Europa und den USA",
-    "Auftragszuwachs für Siemens‑Gamesa‑Offshore‑Windanlagen im kommenden Geschäftsjahr"
+    "Veröffentlichung des nächsten Quartalsberichts (Ergebnis‑ und Ausblick)",
+    "Zusage großer Offshore‑Wind‑Aufträge für Siemens Gamesa",
+    "Umsetzung von Digital‑ und Smart‑Grid‑Projekten sowie mögliche staatliche Förderungen für erneuerbare Energien"
    ]
   },
   "RHM.DE": {
@@ -427,11 +490,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "35.7 Mrd"
+     "36.9 Mrd"
     ],
     [
      "KGV (erw.)",
-     "15,4"
+     "15,9"
     ],
     [
      "Umsatzwachstum",
@@ -464,12 +527,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Starkes Umsatzwachstum von 36 % und ein moderates KGV von 15,4 deuten auf attraktive Bewertung hin. Der Auftragspool im Verteidigungssektor ist robust, unterstützt durch steigende Rüstungsausgaben in Europa und den USA. Analystenfavorit mit 17 Kauf‑Empfehlungen und Kursziel von 1.328 €.",
-   "dagegen": "Abhängigkeit von staatlichen Rüstungsgeldern birgt Risiko bei möglichen Haushaltskürzungen. Marktwert von 35,7 Mrd. € kann überbewertet sein, wenn Auftragsvolumen stagniert. Geopolitische Spannungen können Lieferketten und Exportbeschränkungen verstärken, was das operative Ergebnis belasten könnte.",
+   "dafuer": "Analysten‑Stimmungsbild ist stark positiv (17 Buy, 5 Hold). Das Unternehmen verzeichnet ein Umsatzwachstum von +36 % und ein moderates KGV von 15,9, was im Vergleich zu vielen Konkurrenten attraktiv erscheint. Die Diversifikation über Fahrzeug‑, Waffen‑ und Elektronik‑Segmente reduziert das Risiko einzelner Märkte.",
+   "dagegen": "Das Kursziel von 1.328 EUR impliziert bereits eine hohe Bewertung, die bei nachlassender Rüstungsausgaben schnell korrigiert werden könnte. Das Geschäft ist stark von staatlichen Aufträgen abhängig, wodurch politische Entscheidungen und Haushaltszwänge das Ergebnis stark beeinflussen. Zudem fehlt Transparenz zu Insider‑ oder Short‑Positionen.",
    "katalysatoren": [
-    "Vertrag über neue gepanzerte Fahrzeuge für die Bundeswehr (Q4 2024).",
-    "Zuteilung von US‑Verteidigungsaufträgen für Munition und Elektronik (Mitte 2025).",
-    "Quartalsbericht Q3 2024 mit Update zum Auftragsbestand und Gewinnentwicklung."
+    "Veröffentlichung des deutschen Rüstungsbudgets 2027",
+    "Vergabe neuer Panzer‑ und Logistikfahrzeug‑Aufträge in Europa",
+    "Start von Joint‑Ventures im Bereich elektronischer Verteidigungssysteme"
    ]
   },
   "ASML.AS": {
@@ -480,11 +543,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "516.0 Mrd"
+     "505.1 Mrd"
     ],
     [
      "KGV (erw.)",
-     "23,7"
+     "23,2"
     ],
     [
      "Umsatzwachstum",
@@ -517,12 +580,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "ASML verfügt über eine Marktkapitalisierung von 516 Mrd. €, ein starkes Umsatzwachstum von 55 % und ein moderates KGV von 23,7. Die Analystenmeinung ist überwiegend positiv (38 Buy, 2 Hold, 1 Sell), was das Vertrauen in die Marktführerschaft im EUV‑Segment widerspiegelt.",
-   "dagegen": "Das KGV von 23,7 könnte im Vergleich zu anderen Halbleiter‑Suppliers als hoch gelten, das Kursziel von 2 096 € lässt nur begrenztes Aufwärtspotenzial erkennen. Fehlende Insider‑Transaktionen und das Fehlen von Short‑Positionen deuten auf geringe Marktbewegungen hin; zudem bleibt das Risiko einer Abschwächung der Chip‑Nachfrage bestehen.",
+   "dafuer": "ASML profitiert von starkem Umsatzwachstum (+55 %) und einer hohen Marktkapitalisierung (505,1 Mrd €). Das KGV von 23,2 liegt im Branchenvergleich moderat, während das Kursziel von 2.096 € das aktuelle Niveau deutlich übertrifft. Analysten‑Konsens ist eindeutig positiv (38 Buy, 2 Hold, 1 Sell).",
+   "dagegen": "Die Bewertung bleibt relativ hoch; ein KGV von 23,2 impliziert Erwartungen an weiteres starkes Wachstum, das bei technologischem Wandel oder Lieferkettenengpässen schwer zu halten sein könnte. Fehlende Insider‑Informationen und das Fehlen von Short‑Positionen lassen Unsicherheiten über mögliche Marktüberhitzung offen.",
    "katalysatoren": [
-    "Einführung des High‑NA EUV‑Systems (geplant für 2025) erhöht die Technologieführerschaft.",
-    "Q3‑2026 Ergebnisbericht – mögliche Umsatz‑ und Gewinnüberraschung.",
-    "Großaufträge von Schlüssel‑Kunden wie TSMC oder Intel, die das Order‑Book stärken."
+    "Auslieferung der nächsten Generation von EUV‑Systemen (High‑NA) im Jahr 2025",
+    "Vertragserweiterungen mit den größten Chip‑Foundries (TSMC, Samsung) für 2024‑2025",
+    "Regulatorische Genehmigungen für neue Lithografie‑Technologien in China"
    ]
   },
   "SU.PA": {
@@ -533,11 +596,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "143.1 Mrd"
+     "141.6 Mrd"
     ],
     [
      "KGV (erw.)",
-     "19,3"
+     "19,1"
     ],
     [
      "Umsatzwachstum",
@@ -555,7 +618,7 @@
     ],
     [
      "Newsletter",
-     "in 6 Clustern"
+     "in 12 Clustern"
     ],
     [
      "Reddit",
@@ -570,12 +633,12 @@
      "1648,06 % ueber 1700 Halter"
     ]
    ],
-   "dafuer": "Marktkapitalisierung von 143 Mrd. €, KGV von 19,3 und Umsatzwachstum von 10 % signalisieren solide Fundamentaldaten. Analysten bewerten das Unternehmen mit 19 Kauf‑ und 4 Halte‑Empfehlungen, was auf Vertrauen in das diversifizierte Portfolio aus Energie‑Management, Industrie‑Automatisierung und erneuerbaren Lösungen hindeutet.",
-   "dagegen": "Short‑Interest von 1.648 % (über 1.700 Halter) widerspricht dem Analysten‑Optimismus und deutet auf erhebliche Skepsis hin. Reddit‑Erwähnungen sind kaum vorhanden, Insider‑Meldungen fehlen, was Unsicherheit über zukünftige Entwicklungen verstärkt. Das Kursziel von 323 € könnte überhöht sein bei möglicher Markt‑Volatilität.",
+   "dafuer": "Schneider Electric profitiert von globaler Nachfrage nach Energie‑Management und Industrie‑Automation, unterstützt durch 10 % Umsatzwachstum und ein moderates forward KGV von 19,1. Analysten‑Consensus (19 Buy, 4 Hold) signalisiert Vertrauen, und das Kursziel von 323 EUR liegt über dem aktuellen Kurs, was Aufwärtspotenzial andeutet.",
+   "dagegen": "Ein extrem hoher Short‑Interest von über 1.600 % (1700 Halter) deutet auf erhebliche Skepsis hin, während Reddit kaum Erwähnungen liefert und Insider‑Transaktionen fehlen. Das Risiko von Bewertungsüberhitzung bleibt, insbesondere bei möglichen Margendruck durch steigende Rohstoff‑ und Zinskosten.",
    "katalysatoren": [
-    "Quartalszahlen Q4 2025 (Ergebnis‑ und Margen‑Update)",
-    "Markteinführung neuer Micro‑Grid‑Lösungen für Industrie‑ und Gebäudekomplexe",
-    "Regulatorische Förderprogramme für Energie‑Management‑Systeme in Europa"
+    "Veröffentlichung des Q3‑Ergebnisses (Erwartungen zu Umsatz‑ und Gewinnentwicklung)",
+    "Markteinführung neuer Microgrid‑ und Energiespeicherlösungen",
+    "EU‑Förderprogramme für Energieeffizienz‑ und Dekarbonisierungsprojekte"
    ]
   },
   "GEV": {
@@ -745,13 +808,13 @@
     ],
     [
      "Kursziel",
-     "277 USD"
+     "269 USD"
     ]
    ],
    "quellen": [
     [
      "Analysten",
-     "47 Kauf / 14 Halten / 0 Verkauf"
+     "47 Kauf / 14 Halten / 1 Verkauf"
     ],
     [
      "Newsletter",
@@ -776,15 +839,6 @@
   }
  },
  "shorts": [
-  {
-   "land": "NL",
-   "halter": "Citadel Advisors LLC",
-   "emittent": "TomTom N.V.",
-   "prozent": 0.69,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
   {
    "land": "UK",
    "halter": "Anavio Capital Partners LLP",
@@ -1045,10 +1099,19 @@
    "datum": "2019-06-07",
    "status": "aufgestockt",
    "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 13.5,
+   "datum": "2019-06-06",
+   "status": "aufgestockt",
+   "zuvor": 0.53
   }
  ],
  "shorts_kennzahlen": {
-  "neu_diese_woche": 1,
+  "neu_diese_woche": 0,
   "meistgeshortet": {
    "name": "Premier Oil PLC",
    "summe": 2145.63
@@ -1061,14 +1124,6 @@
  },
  "gespraech": [],
  "termine": [
-  {
-   "datum": "2026-11-15",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
   {
    "datum": "2026-11-16",
    "zeit": "",
@@ -1156,8 +1211,16 @@
    "was": "FOMC Press Release",
    "konsens": "",
    "wucht": "hoch"
+  },
+  {
+   "datum": "2026-11-25",
+   "zeit": "",
+   "region": "us",
+   "was": "Debt to Gross Domestic Product Ratios",
+   "konsens": "",
+   "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 81,
- "llm_aktiv": false
+ "meldungen_gesamt": 125,
+ "llm_aktiv": true
 }
