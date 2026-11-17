@@ -1,9 +1,9 @@
 {
- "stand": "2026-11-16T16:34",
- "lauf": "2026111616",
+ "stand": "2026-11-17T02:11",
+ "lauf": "2026111702",
  "synthese": {
-  "kern": "Tagesspannung: Markt unterschätzt operative Risiken und Liquiditätsengpässe trotz steigender geopolitischer und regulatorischer Belastungen.",
-  "erlaeuterung": "Bankenfusion, Tesla-Investition und Microsoft-Ausfall zeigen, dass operative und regulatorische Ereignisse die Marktstimmung dominieren. Der Markt fokussiert weiterhin auf Zins- und Energieindikatoren, vernachlässigt jedoch die wachsende Anfälligkeit von Infrastruktur und Liquidität."
+  "kern": "Technologie‑ und Finanz‑Disruptionen dominieren, während Markt die steigende Liquiditätsknappheit und geopolitische Risiken vernachlässigt.",
+  "erlaeuterung": "Bankenfusion, US‑Marktabschwung und mehrere Tech‑Störfälle verdeutlichen erhöhte Unsicherheit in Kernsektoren. Gleichzeitig wird die drohende Liquiditätsverknappung in Europa und das geopolitische Risiko von den Kursen kaum reflektiert."
  },
  "regime": [
   {
@@ -12,14 +12,14 @@
    "spuren": {
     "us": {
      "wert": 80,
-     "delta": 3
+     "delta": 2
     },
     "eur": {
-     "wert": 90,
-     "delta": -4
+     "wert": 89,
+     "delta": -5
     }
    },
-   "differenz": 10
+   "differenz": 9
   },
   {
    "name": "wachstum",
@@ -36,23 +36,23 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 63,
-     "delta": -2
+     "wert": 61,
+     "delta": -4
     },
     "eur": {
-     "wert": 78,
-     "delta": 2
+     "wert": 77,
+     "delta": 0
     }
    },
-   "differenz": 15
+   "differenz": 16
   },
   {
    "name": "risikoappetit",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 26,
-     "delta": 3
+     "wert": 22,
+     "delta": -1
     }
    }
   },
@@ -61,15 +61,15 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 46,
-     "delta": 2
+     "wert": 47,
+     "delta": 3
     },
     "eur": {
      "wert": 2,
      "delta": -3
     }
    },
-   "differenz": 44
+   "differenz": 45
   },
   {
    "name": "geopolitik",
@@ -104,43 +104,65 @@
     "https://www.manager-magazin.de/unternehmen/banken/commerzbank-uebernahme-eu-kommission-genehmigt-unicredit-deal-ohne-auflagen-a-8304b831-feaa-4b8a-8b7a-403bc63e3d8e#ref=rss"
    ],
    "punkte": 21,
-   "text": "Die EU‑Kommission hat die Übernahme der Commerzbank durch die Unicredit genehmigt und betont die Bedeutung für die Finanzierung des deutschen Mittelstands. Der Deal wird als strategisch wichtig für das europäische Bankensystem eingeschätzt.",
+   "text": "Die EU‑Kommission und die US‑Fed haben die Übernahme der Commerzbank durch die UniCredit genehmigt. Sie betont, dass der Deal die Finanzierung des deutschen Mittelstands stärkt und aus übergeordnetem Grund wichtig ist.",
    "positiv": [
-    "Unicredit‑Aktie (Aufwärts)",
-    "Commerzbank‑Aktie (Aufwärts)",
-    "Mittelstand‑Finanzierungssektor (Aufwärts)"
+    "Commerzbank",
+    "UniCredit",
+    "Deutscher Mittelstand"
    ],
    "negativ": []
   },
   {
-   "id": "2c28c6ac",
-   "titel": "Tesla kündigt Milliarden-Investition in Werk in Brandenburg an",
-   "anriss": "Tesla will drei Milliarden Euro für den Ausbau des Werks in Grünheide östlich von Berlin ausgeben. Der US-Elektroautobauer will damit ein neues Produktionsgebäude finanzieren. Künftig sollen dort \"Cybercabs\" - fahrerlose Taxis - gebaut werden.",
+   "id": "1b5459d5",
+   "titel": "Wall Street: S&P 500 schließt fast zwei Prozent im Minus – Microsoft wertvoller als Nvidia",
+   "anriss": "Die US-Investoren nehmen die Sorgen rund um die Führungskrise bei Nvidia auch mit in die neue Woche. Am Dienstag legt der Konzern Zahlen vor – zum ersten Mal ohne Huang.",
    "region": "dach",
    "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
+    "Handelsblatt Finanzen",
     "Tagesschau Wirtschaft",
-    "heise",
     "manager magazin"
    ],
    "anzahl": 5,
    "links": [
-    "https://www.tagesschau.de/inland/regional/brandenburg/tesla-investitionen-brandenburg-100.html",
-    "https://www.spiegel.de/wirtschaft/unternehmen/tesla-investiert-milliardensumme-fuer-robotaxi-bau-in-deutschland-a-65132952-1c63-4862-b2ce-f82c5def838f#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/tesla-investiert-drei-milliarden-euro-in-gigafactory-gruenheide-accg-201687612.html",
-    "https://www.manager-magazin.de/unternehmen/tesla-elon-musk-investiert-drei-milliarden-euro-in-gruenheide-a-c5402185-e181-4e41-a4c8-6c425136eec2#ref=rss",
-    "https://www.heise.de/news/Tesla-will-drei-Milliarden-Euro-in-Werk-in-Gruenheide-stecken-11526787.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-nvidia-affaere-und-anthropic-debuet-machen-wall-street-zu-schaffen/100270217.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-im-minus-ruestungsaktie-legt-zu/100270107.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sieben-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
+    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-nvidia-rekordhoch-100.html",
+    "https://www.manager-magazin.de/finanzen/boerse/boerse-dax-stabil-auf-hohem-niveau-nvidia-zahlen-und-oelpreis-im-fokus-a-3cdd4662-3e31-49c3-913e-2b34eea499cc#ref=rss"
    ],
-   "punkte": 20,
-   "text": "Tesla investiert rund drei Milliarden Euro in den Ausbau des Werks in Grünheide, Brandenburg, um ein neues Produktionsgebäude zu errichten. Die Investition stärkt die lokale Bau‑ und Zulieferindustrie sowie den europäischen Elektro‑Automobilmarkt.",
+   "punkte": 19,
+   "text": "Der S&P 500 beendete die Woche mit einem Verlust von fast zwei Prozent, weil Anleger die Führungskrise bei Nvidia befürchten. Gleichzeitig wird Microsoft als wertvoller als Nvidia dargestellt, was die relative Attraktivität von Microsoft stärkt.",
    "positiv": [
-    "Tesla‑Aktie (Aufwärts)",
-    "Bau‑ und Infrastruktur‑Unternehmen (Aufwärts)",
-    "EU‑EV‑Industrie (Aufwärts)"
+    "Microsoft"
    ],
    "negativ": [
-    "konventionelle Automobilhersteller (Abwärts)"
+    "S&P 500",
+    "Nvidia",
+    "Technologiesektor"
+   ]
+  },
+  {
+   "id": "504e0de8",
+   "titel": "Ex-Nvidia-Chef Huang arbeitet offenbar bereits an seinem Comeback",
+   "anriss": "Seine Affären - auch mit einer mutmaßlichen chinesischen Spionin - haben mehr als eine Billion Dollar Börsenwert vernichtet. Damit war der Rücktritt des Nvidia-Chefs unvermeidlich. Nun plant Jensen Huang offenbar bereits sein Comeback.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/unternehmen/nvidia-huang-chefposten-100.html",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/jensen-huang-petition-fuer-rueckkehr-zu-nvidia-gewinnt-zulauf-201687756.html",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/nach-jensen-huangs-rauswurf-wer-nvidia-jetzt-herausfordert-201685178.html",
+    "https://www.manager-magazin.de/unternehmen/tech/nvidia-gestuerzter-ceo-huang-stoesst-mit-comeback-plaenen-auf-widerstand-a-88265699-cb4f-4f45-8460-00bebb0e5ca6#ref=rss"
+   ],
+   "punkte": 18,
+   "text": "Der ehemalige Nvidia‑Chef Jensen Huang arbeitet bereits an einem Come‑back, nachdem seine Skandale den Börsenwert des Unternehmens um mehr als eine Billion Dollar reduziert haben. Der Rücktritt war unvermeidlich, und die geplante Rückkehr könnte das Vertrauen in Nvidia wiederherstellen.",
+   "positiv": [],
+   "negativ": [
+    "Nvidia"
    ]
   },
   {
@@ -162,131 +184,104 @@
     "https://www.heise.de/meinung/Kommentar-Wofuer-nochmal-braucht-man-M365-11525667.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
    "punkte": 16,
-   "text": "Ein älterer Programmfehler führte zu mehrstündigen Ausfällen von Microsoft‑Diensten wie Outlook und Teams. Die Störung hat kurzfristig das Vertrauen in die Verfügbarkeit von Cloud‑ und SaaS‑Angeboten von Microsoft beschädigt.",
-   "positiv": [
-    "Amazon‑Web‑Services (Aufwärts)",
-    "Google‑Cloud (Aufwärts)"
-   ],
+   "text": "Ein älterer Programmfehler führte zu einem mehrstündigen Ausfall von Microsoft‑Diensten wie Outlook und Teams und verursachte weltweit erhebliche Schäden. Die Analyse des Vorfalls erklärt die Ursache und zeigt, warum die Störung auftrat.",
+   "positiv": [],
    "negativ": [
-    "Microsoft‑Aktie (Abwärts)",
-    "Cloud‑Dienstleistungssektor (Abwärts)"
+    "Microsoft",
+    "Microsoft‑Cloud‑Dienste"
    ]
   },
   {
-   "id": "db334e5e",
-   "titel": "Dax aktuell: Dax dreht ins Minus – Rüstungsaktie legt zu",
-   "anriss": "Nach dem Rekordhoch in der vergangenen Woche zeigen sich Anlegerinnen und Anleger am deutschen Aktienmarkt zurückhaltend. Besonders ein Termin in der neuen Handelswoche rückt in den Fokus.",
+   "id": "2c28c6ac",
+   "titel": "Tesla kündigt Milliarden-Investition in Werk in Brandenburg an",
+   "anriss": "Tesla will drei Milliarden Euro für den Ausbau des Werks in Grünheide östlich von Berlin ausgeben. Der US-Elektroautobauer will damit ein neues Produktionsgebäude finanzieren. Künftig sollen dort \"Cybercabs\" - fahrerlose Taxis - gebaut werden.",
    "region": "dach",
    "quellen": [
-    "Handelsblatt Finanzen",
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "heise",
     "manager magazin"
    ],
    "anzahl": 4,
    "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-dreht-ins-minus-ruestungsaktie-legt-zu/100270107.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sieben-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/boerse-asien-asiens-boersen-geben-nach-nvidia-zahlen-und-anthropic-boersengang-im-blick/100270076.html",
-    "https://www.manager-magazin.de/finanzen/boerse/boerse-dax-stabil-auf-hohem-niveau-nvidia-zahlen-und-oelpreis-im-fokus-a-3cdd4662-3e31-49c3-913e-2b34eea499cc#ref=rss"
+    "https://www.tagesschau.de/inland/regional/brandenburg/tesla-investitionen-brandenburg-100.html",
+    "https://www.spiegel.de/wirtschaft/unternehmen/tesla-investiert-milliardensumme-fuer-robotaxi-bau-in-deutschland-a-65132952-1c63-4862-b2ce-f82c5def838f#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/tesla-elon-musk-investiert-drei-milliarden-euro-in-gruenheide-a-c5402185-e181-4e41-a4c8-6c425136eec2#ref=rss",
+    "https://www.heise.de/news/Tesla-will-drei-Milliarden-Euro-in-Werk-in-Gruenheide-stecken-11526787.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
-   "punkte": 15,
-   "text": "Der DAX hat nach dem Rekordhoch der Vorwoche wieder an Boden verloren, während die Rüstungsaktie im Index zulegte. Anleger zeigen sich vorsichtig gegenüber dem breiten deutschen Aktienmarkt, jedoch optimistisch bei Verteidigungswerten.",
-   "positiv": [
-    "Rüstungssektor (Aufwärts)"
-   ],
-   "negativ": [
-    "DAX‑Gesamt (Abwärts)",
-    "deutsche Aktien (Abwärts)"
-   ]
-  },
-  {
-   "id": "ff80df17",
-   "titel": "What is w2rt6byl5nf1opmc-a.com?",
-   "anriss": "Article URL: https://jack.cab/blog/siterate Comments URL: https://news.ycombinator.com/item?id=50517602 Points: 238 # Comments: 98",
-   "region": "global",
-   "quellen": [
-    "Hacker News Top"
-   ],
-   "anzahl": 12,
-   "links": [
-    "https://jack.cab/blog/siterate",
-    "https://pub.cba.mit.edu/863.26/site/",
-    "https://qwen.ai/blog?id=qwen4-max",
-    "https://iter.ca/post/ubo-uxss/",
-    "https://forum.torproject.org/t/security-release-0-4-9-17/22454"
-   ],
-   "punkte": 14,
-   "text": "Article URL: https://jack.cab/blog/siterate Comments URL: https://news.ycombinator.com/item?id=50517602 Points: 238 # Comments: 98",
+   "punkte": 16,
+   "text": "Tesla will drei Milliarden Euro für den Ausbau des Werks in Grünheide östlich von Berlin ausgeben. Der US-Elektroautobauer will damit ein neues Produktionsgebäude finanzieren. Künftig sollen dort \"Cybercabs\" - fahrerlose",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "7ac64957",
-   "titel": "Mapping NGFS Climate Pathways to GICS Sectors: Application to Portfolio Decarbonization",
-   "anriss": "arXiv:2611.17942v1 Announce Type: new Abstract: Portfolio climate alignment is limited by the mismatch between asset managers' sector classifications and those of climate scenarios. This article proposes an NGFS-GICS mapping based on the materiality of Scope 1 and 2 GHG emissions rather than on sema",
-   "region": "global",
-   "quellen": [
-    "arXiv q-fin"
-   ],
-   "anzahl": 8,
-   "links": [
-    "https://arxiv.org/abs/2611.17942",
-    "https://arxiv.org/abs/2611.18150",
-    "https://arxiv.org/abs/2611.17515",
-    "https://arxiv.org/abs/2611.18367",
-    "https://arxiv.org/abs/2611.18531"
-   ],
-   "punkte": 14,
-   "text": "arXiv:2611.17942v1 Announce Type: new Abstract: Portfolio climate alignment is limited by the mismatch between asset managers' sector classifications and those of climate scenarios. This article proposes an NGFS-GICS map",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "4e80d934",
-   "titel": "Wall Street: Wall Street startet im Minus – Microsoft wertvoller als Nvidia",
-   "anriss": "Die US-Quartalssaison lief bisher solide – und für Nvidia vor der Affäre rund um Ex-Chef Jensen Huang ebenfalls. Nun setzt letztere die Märkte allerdings unter Druck.",
+   "id": "1289a454",
+   "titel": "Lebensversicherung: Die Hälfte der Riester-Kunden könnte ins Altersvorsorgedepot wechseln",
+   "anriss": "Eine neue Umfrage zeigt, dass es schon vor dem Vertriebsstart der neuen geförderten Altersvorsorge viele Wechselwillige gibt. So bereiten sich die Lebensversicherer darauf vor.",
    "region": "dach",
    "quellen": [
+    "FAZ Wirtschaft",
     "Handelsblatt Finanzen",
+    "Tagesschau Wirtschaft"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/banken-versicherungen/versicherer/lebensversicherung-viele-riester-kunden-wollen-ins-altersvorsorgedepot/100270222.html",
+    "https://www.tagesschau.de/wirtschaft/verbraucher/altersvorsorgedepot-rente-aktienmarkt-sparplan-100.html",
+    "https://www.faz.net/aktuell/wirtschaft/altersvorsorge-macht-uns-die-rente-bald-innovativer-201673615.html"
+   ],
+   "punkte": 13,
+   "text": "Eine neue Umfrage zeigt, dass es schon vor dem Vertriebsstart der neuen geförderten Altersvorsorge viele Wechselwillige gibt. So bereiten sich die Lebensversicherer darauf vor.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "87f6f588",
+   "titel": "Künstliche Intelligenz: Kalifornien verklagt OpenAI wegen Cyberangriffen",
+   "anriss": "Der Generalstaatsanwalt von Kalifornien klagt OpenAI an - ein gefährliches Produkt ohne angemessene Sicherheitsverfahren oder Aufsicht habe das Unternehmen entwickelt und getestet. Von R. Spiegelhauer.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
     "Tagesschau Wirtschaft",
     "manager magazin"
    ],
    "anzahl": 3,
    "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-wall-street-startet-im-minus-microsoft-wertvoller-als-nvidia/100270217.html",
-    "https://www.tagesschau.de/wirtschaft/unternehmen/nvidia-huang-chefposten-100.html",
-    "https://www.manager-magazin.de/unternehmen/tech/nvidia-gestuerzter-ceo-huang-stoesst-mit-comeback-plaenen-auf-widerstand-a-88265699-cb4f-4f45-8460-00bebb0e5ca6#ref=rss"
+    "https://www.tagesschau.de/wirtschaft/unternehmen/openai-klage-kalifornien-100.html",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/kalifornien-verklagt-openai-wegen-ki-hacking-attacken-201689398.html",
+    "https://www.manager-magazin.de/unternehmen/tech/openai-kalifornien-verklagt-chatgpt-entwickler-wegen-cyberangriffen-a-553a7916-af19-4454-82dc-bb093d693775#ref=rss"
    ],
-   "punkte": 13,
-   "text": "Die US-Quartalssaison lief bisher solide – und für Nvidia vor der Affäre rund um Ex-Chef Jensen Huang ebenfalls. Nun setzt letztere die Märkte allerdings unter Druck.",
+   "punkte": 12,
+   "text": "Der Generalstaatsanwalt von Kalifornien klagt OpenAI an - ein gefährliches Produkt ohne angemessene Sicherheitsverfahren oder Aufsicht habe das Unternehmen entwickelt und getestet. Von R. Spiegelhauer.",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "bb05791f",
-   "titel": "Edelmetalle: Gold notiert auf tiefstem Stand seit Oktober 2025",
-   "anriss": "Der starke Dollar belastet den Kurs des Edelmetalls. Doch nicht nur das beeinflusst den Goldpreis. Anleger achten unterdessen auf eine Rede von Fed-Chef Kevin Warsh.",
+   "id": "7d4611f8",
+   "titel": "Missglückter Raketenstart: Amazon verliert 40 Satelliten",
+   "anriss": "Techmilliardär Musks Starlink-Netzwerk dominiert, aber Amazon will ihm Konkurrenz machen. Nun muss das Unternehmen von Jeff Bezos aber einen Rückschlag hinnehmen - und der könnte langfristige Folgen haben.",
    "region": "dach",
    "quellen": [
-    "Handelsblatt Finanzen",
     "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft"
+    "Tagesschau Wirtschaft",
+    "manager magazin"
    ],
    "anzahl": 3,
    "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/gold-edelmetall-notiert-auf-tiefstem-stand-seit-oktober-2025/100270118.html",
-    "https://www.tagesschau.de/wirtschaft/finanzen/gold-und-bitcoin-fallen-zinssorgen-100.html",
-    "https://www.spiegel.de/wirtschaft/bitcoin-kostete-zeitweise-nur-noch-rund-62-500-dollar-a-ce2126df-8f14-49c2-bfda-cb46bfcb1b67#ref=rss"
+    "https://www.tagesschau.de/wirtschaft/technologie/rakete-amazon-satelliten-100.html",
+    "https://www.spiegel.de/wirtschaft/amazon-absturz-der-vulcan-rakete-kostet-us-konzern-40-satelliten-a-8bd0dc5f-699c-493e-a188-437d49521bcb#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/tech/vulcan-rakete-absturz-kostet-amazon-40-satelliten-fuer-internetdienst-leo-a-d08e1b4c-da9b-4597-a45a-d69c058b4f2b#ref=rss"
    ],
-   "punkte": 13,
-   "text": "Der starke Dollar belastet den Kurs des Edelmetalls. Doch nicht nur das beeinflusst den Goldpreis. Anleger achten unterdessen auf eine Rede von Fed-Chef Kevin Warsh.",
+   "punkte": 12,
+   "text": "Techmilliardär Musks Starlink-Netzwerk dominiert, aber Amazon will ihm Konkurrenz machen. Nun muss das Unternehmen von Jeff Bezos aber einen Rückschlag hinnehmen - und der könnte langfristige Folgen haben.",
    "positiv": [],
    "negativ": []
   }
  ],
  "ketten": [],
  "gegenthese": {
-  "konsens": "Die Märkte sehen die Unicredit‑Commerzbank‑Fusion als genehmigt und potenziell wertschöpfend, Teslas Brandenburg‑Investition als Wachstumsboost, Microsoft‑Störung als kurzfristig, während Aktien (DAX, Wall Street) schwach und Gold am Tief.",
-  "gegen": "Kritiker warnen, dass die Fusion zu hohen Kreditrisiken führen kann, Teslas Investition die Auslastung übersteigt und die schwachen Aktienkurse auf tiefe Fundamentaldaten hindeuten, nicht nur temporäre Stimmungen."
+  "konsens": "Die Übernahme der Commerzbank durch UniCredit wird als Stabilisierungsmaßnahme gewertet; der S&P‑500‑Rückgang wird als kurzfristige Korrektur gesehen; Teslas Brandenburg‑Investition stärkt die Branche; die OpenAI‑Klage birgt begrenztes Risiko.",
+  "gegen": "Kritiker sehen die UniCredit‑Übernahme als Risiko für Kreditqualität, Nvidia‑Bewertung als überhyped, Tesla‑Investition könnte Rendite verzögern, OpenAI‑Klage könnte regulatorische Belastungen erhöhen, Amazon‑Verlust zeigt Anfälligkeit von Satelliten."
  },
  "matrix": [
   {
@@ -403,11 +398,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "110.1 Mrd"
+     "109.7 Mrd"
     ],
     [
      "KGV (erw.)",
-     "14,8"
+     "14,7"
     ],
     [
      "Umsatzwachstum",
@@ -415,7 +410,7 @@
     ],
     [
      "Kursziel",
-     "192 EUR"
+     "191 EUR"
     ]
    ],
    "quellen": [
@@ -425,7 +420,7 @@
     ],
     [
      "Newsletter",
-     "in 1 Clustern"
+     "nicht erwaehnt"
     ],
     [
      "Reddit",
@@ -440,12 +435,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die Analysten‑Stimmung ist überwiegend positiv (22 Buy, 4 Hold, 2 Sell). Das erwartete Umsatzwachstum von +23 % und ein moderates KGV von 14,8 deuten auf Bewertungs‑ und Wachstumspotenzial hin. Die Markt‑Kapitalisierung von 110,1 Mrd € unterstreicht die Größe des Unternehmens im Energiesektor.",
-   "dagegen": "Nur wenige Erwähnungen auf Reddit und keine Insider‑Meldungen lassen das Informationsfundament dünn erscheinen. Zwei Analysten‑Verkäufe widersprechen der breiten Kauf‑Mehrheit, was auf Unsicherheiten bei der Umsetzung von Transformations‑ und Wind‑Geschäftsstrategien hindeuten könnte. Kurzfristige Risiken bleiben unklar.",
+   "dafuer": "Analysten sehen ein starkes Umsatzwachstum von 23 % und ein attraktives KGV von 14,7. Der Marktwert von 109,7 Mrd EUR und ein Kursziel von 191 EUR deuten auf Aufwärtspotenzial hin. Der Großteil der Analysten (22 Buy) spricht für die Aktie.",
+   "dagegen": "Risiken bestehen in hoher Verschuldung und Abhängigkeit von Gas‑ und Wind‑Turbinen‑Marktzyklen. Die Umsetzung von Transformations‑ und Digitalisierungsprogrammen ist unsicher, und die Dividende bleibt niedrig. Zwei Analysten empfehlen Verkauf, was auf Bedenken hinsichtlich Margen und Cash‑Flow hindeutet.",
    "katalysatoren": [
-    "Veröffentlichung des Quartals‑Ergebnisses (voraussichtlich Q3‑2026)",
-    "Zuteilung großer Grid‑Technologie‑Aufträge in Europa",
-    "EU‑Förderprogramme für erneuerbare Energien und Wasserstoff"
+    "Auslieferung und Inbetriebnahme der nächsten Generation von Gasturbinen (z. B. SG 8.0) mit steigenden Service‑Umsätzen.",
+    "Zunehmende Aufträge im Grid‑Technologies‑Segment durch europäische Netzmodernisierungsprojekte.",
+    "Zertifizierung und Serienstart der neuen Offshore‑Windturbine von Siemens Gamesa."
    ]
   },
   "RHM.DE": {
@@ -456,11 +451,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "36.2 Mrd"
+     "35.9 Mrd"
     ],
     [
      "KGV (erw.)",
-     "15,6"
+     "15,5"
     ],
     [
      "Umsatzwachstum",
@@ -493,13 +488,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Dafür spricht das robuste Umsatzwachstum von +36 % und ein moderates KGV von 15,6, das im Vergleich zur Branche attraktiv ist. Die Analystenmeinung ist überwiegend positiv (17 Buy, 5 Hold). Das Kursziel von 1.328 € impliziert weiteres Aufwärtspotenzial.",
-   "dagegen": "Dagegen steht die starke Abhängigkeit von Rüstungsausgaben, die politisch schwanken können. Die Bewertung könnte bei weiter steigenden Erwartungen überhitzt sein, obwohl das KGV moderat erscheint. Fehlende Insider‑Informationen und geringe Marktberichterstattung erhöhen das Informationsrisiko.",
-   "katalysatoren": [
-    "Verabschiedung des deutschen Rüstungshaushalts 2025 mit erhöhten Mittel",
-    "Zusage großer Lieferverträge für neue gepanzerte Fahrzeuge (z. B. Puma, Boxer)",
-    "Eintritt in den US‑Verteidigungsmarkt durch Elektronik‑Lösungen oder Partnerschaften"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "ASML.AS": {
    "ticker": "ASML.AS",
@@ -509,7 +500,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "503.7 Mrd"
+     "503.6 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -546,12 +537,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "ASML profitiert von starkem Umsatzwachstum (+55 % YoY) und seiner Monopolstellung im EUV‑Lithografie‑Markt. Die Technologie ist für fortgeschrittene Knoten unverzichtbar, was langfristige Auftragsbücher bei Kunden wie TSMC und Samsung sichert. Analysten sehen 38 Buy‑Ratings, was das Vertrauen stärkt.",
-   "dagegen": "Das aktuelle KGV von 23,2 liegt über dem Branchendurchschnitt, was die Bewertung hoch erscheinen lässt. Ein Verkaufsempfehlung von einem Analysten widerspricht dem Konsens und signalisiert mögliche Risiken, etwa eine Abschwächung der Chipnachfrage oder Lieferkettenengpässe. Keine Shorts, aber Unsicherheit bleibt.",
+   "dafuer": "Die überwältigende Analystenmeinung (38 Buy, 2 Hold, 1 Sell) spricht für ASML. Das Unternehmen profitiert von starkem Umsatzwachstum von +55 % und einem hohen Marktwert von 503,6 Mrd. EUR, was die Marktposition im Lithografie‑Segment unterstreicht.",
+   "dagegen": "Ein KGV von 23,2 deutet auf eine relativ teure Bewertung hin. Das Kursziel von 2.096 EUR impliziert hohe Erwartungen, die bei einem möglichen Abschwung der Halbleiternachfrage nicht erfüllt werden könnten. Datenlage zu Insider‑Transaktionen und Short‑Positionen ist nicht verfügbar.",
    "katalysatoren": [
-    "Q3‑2025 Quartalsbericht mit erwarteter Umsatzsteigerung",
-    "Markteinführung des High‑NA EUV‑Systems",
-    "Großaufträge von TSMC oder Samsung für 3‑nm‑ und 2‑nm‑Produktionen"
+    "Einführung neuer EUV‑Systeme für die 3‑nm‑Technologie",
+    "Vertragserweiterungen mit führenden Foundries (z. B. TSMC, Samsung)",
+    "Quartalszahlen‑Veröffentlichung Q4 2024"
    ]
   },
   "SU.PA": {
@@ -584,7 +575,7 @@
     ],
     [
      "Newsletter",
-     "in 11 Clustern"
+     "in 16 Clustern"
     ],
     [
      "Reddit",
@@ -599,12 +590,12 @@
      "1648,06 % ueber 1700 Halter"
     ]
    ],
-   "dafuer": "Die Mehrheit der Analysten (19 von 23) stuft Schneider Electric mit „Buy“ ein, das erwartete KGV von 19,2 liegt im Branchen‑Durchschnitt. Das Umsatzwachstum von +10 % spiegelt die steigende Nachfrage nach Energie‑Management‑ und Automatisierungslösungen wider. Das Kursziel von 323 € impliziert weiteres Aufwärtspotenzial.",
-   "dagegen": "Ein extrem hoher Short‑Interest von 1648 % (über 1700 Halter) deutet auf erhebliche Skepsis hin. Auf Reddit wird das Unternehmen kaum diskutiert, was auf fehlende Retail‑Begeisterung schließen lässt. Es gibt keine Insider‑Meldungen, und das Kursziel basiert stark auf Analysten‑Optimismus, was das Risiko einer Überbewertung erhöht.",
+   "dafuer": "Starke Analystenmeinung (19 Kauf, 4 Halten) unterstützt die Aktie, ebenso das robuste Umsatzwachstum von +10 % und ein moderates KGV von 19,2. Das breit diversifizierte Portfolio – Energie‑Management, Industrie‑Automation, erneuerbare‑Energielösungen – bietet langfristige Wachstums‑ und Margenpotenziale.",
+   "dagegen": "Ein erheblicher Widerspruch besteht zum Analystenkonsens: Die Short‑Interest‑Quote von 1.648 % bei über 1.700 Haltern signalisiert starkes Misstrauen. Fehlende Insider‑Meldungen und kaum Reddit‑Diskussionen deuten auf geringe Marktaufmerksamkeit hin. Das Kursziel von 323 € könnte das aktuelle Niveau überbewerten.",
    "katalysatoren": [
-    "Q3‑2024 Ergebnisveröffentlichung mit erwarteter Umsatz‑ und Gewinnsteigerung",
-    "Einführung der neuen EcoStruxure‑IoT‑Plattform für Gebäudeautomation",
-    "Abschluss der geplanten Akquisition von XYZ‑Energy, einem Anbieter von Mikrogrid‑Lösungen"
+    "Q3‑Finanzbericht mit erwarteter Umsatzsteigerung",
+    "Markteinführung neuer Micro‑Grid‑ und Solar‑Inverter‑Produktlinien",
+    "EU‑Förderprogramme für Energie‑Management‑Systeme"
    ]
   },
   "GEV": {
@@ -615,11 +606,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "205.6 Mrd"
+     "202.1 Mrd"
     ],
     [
      "KGV (erw.)",
-     "29,8"
+     "29,3"
     ],
     [
      "Umsatzwachstum",
@@ -627,7 +618,7 @@
     ],
     [
      "Kursziel",
-     "1178 USD"
+     "1176 USD"
     ]
    ],
    "quellen": [
@@ -664,11 +655,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "29.4 Mrd"
+     "28.7 Mrd"
     ],
     [
      "KGV (erw.)",
-     "39,5"
+     "38,5"
     ],
     [
      "Umsatzwachstum",
@@ -713,11 +704,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "81.0 Mrd"
+     "79.2 Mrd"
     ],
     [
      "KGV (erw.)",
-     "13,4"
+     "13,1"
     ],
     [
      "Umsatzwachstum",
@@ -762,11 +753,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "3.859.7 Mrd"
+     "3.770.3 Mrd"
     ],
     [
      "KGV (erw.)",
-     "10,1"
+     "9,9"
     ],
     [
      "Umsatzwachstum",
@@ -774,7 +765,7 @@
     ],
     [
      "Kursziel",
-     "269 USD"
+     "268 USD"
     ]
    ],
    "quellen": [
@@ -1084,20 +1075,12 @@
   },
   "aktivster_halter": {
    "name": "Marshall Wace LLP",
-   "anzahl": 14032
+   "anzahl": 14033
   },
-  "gesamt": 107395
+  "gesamt": 107394
  },
  "gespraech": [],
  "termine": [
-  {
-   "datum": "2026-11-16",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
   {
    "datum": "2026-11-17",
    "zeit": "",
@@ -1111,14 +1094,6 @@
    "zeit": "",
    "region": "us",
    "was": "G.17 Industrial Production and Capacity Utilization",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-11-17",
-   "zeit": "",
-   "region": "us",
-   "was": "Selected Real Retail Sales Series",
    "konsens": "",
    "wucht": "hoch"
   },
@@ -1185,8 +1160,24 @@
    "was": "Debt to Gross Domestic Product Ratios",
    "konsens": "",
    "wucht": "hoch"
+  },
+  {
+   "datum": "2026-11-25",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-11-25",
+   "zeit": "",
+   "region": "us",
+   "was": "Gross Domestic Product",
+   "konsens": "",
+   "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 153,
+ "meldungen_gesamt": 152,
  "llm_aktiv": false
 }
