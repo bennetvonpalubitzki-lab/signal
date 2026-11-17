@@ -1,9 +1,9 @@
 {
- "stand": "2026-11-17T02:11",
- "lauf": "2026111702",
+ "stand": "2026-11-17T13:44",
+ "lauf": "2026111713",
  "synthese": {
-  "kern": "Technologie‑ und Finanz‑Disruptionen dominieren, während Markt die steigende Liquiditätsknappheit und geopolitische Risiken vernachlässigt.",
-  "erlaeuterung": "Bankenfusion, US‑Marktabschwung und mehrere Tech‑Störfälle verdeutlichen erhöhte Unsicherheit in Kernsektoren. Gleichzeitig wird die drohende Liquiditätsverknappung in Europa und das geopolitische Risiko von den Kursen kaum reflektiert."
+  "kern": "Cyber‑Leaks und geopolitische Spannungen belasten Banken und Tech, doch das Markt‑Sentiment verkennt breitere Liquiditäts‑ und Risiko‑Erschütterungen.",
+  "erlaeuterung": "Der Datenleck‑Skandal bei der Deutschen Bank verdeutlicht wachsende Cyber‑Risiken im Finanzsektor. Gleichzeitig drücken US‑Chip‑Sanktionen, niedrige Liquidität in Europa und ein zurückgehender Risikoappetit die globale Marktstimmung."
  },
  "regime": [
   {
@@ -36,12 +36,12 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 61,
-     "delta": -4
+     "wert": 63,
+     "delta": -3
     },
     "eur": {
-     "wert": 77,
-     "delta": 0
+     "wert": 79,
+     "delta": 2
     }
    },
    "differenz": 16
@@ -52,7 +52,7 @@
    "spuren": {
     "glob": {
      "wert": 22,
-     "delta": -1
+     "delta": -2
     }
    }
   },
@@ -77,39 +77,158 @@
    "spuren": {
     "glob": {
      "wert": 77,
-     "delta": -6
+     "delta": -3
     }
    }
   }
  ],
  "cluster": [
   {
+   "id": "4c978eb2",
+   "titel": "Datenleck: Interne Dokumente belasten die Deutsche Bank",
+   "anriss": "Die Schatten der Vergangenheit holen die Deutsche Bank erneut ein. Informationen aus einem Datenleck offenbaren fragwürdige Geschäftspraktiken und mutmaßliche Probleme bei den Kontrollen beim größten deutschen Geldhaus.",
+   "region": "dach",
+   "quellen": [
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 15,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/unternehmen/deutsche-bank-datenleak-100.html",
+    "https://www.tagesschau.de/wirtschaft/finanzen/deutschebank-226.html",
+    "https://www.spiegel.de/wirtschaft/unternehmen/deutsche-bank-aufsichtsratschef-stellt-sich-nach-datenleak-hinter-vorstandschef-christian-sewing-a-ad3b2d2d-db1f-43ac-84a1-655f6ebdea19#ref=rss",
+    "https://www.spiegel.de/wirtschaft/unternehmen/inside-deutsche-bank-so-hat-der-spiegel-recherchiert-a-b12f204e-8126-444b-85fb-1d7d5c767b64#ref=rss",
+    "https://www.spiegel.de/wirtschaft/deutsche-bank-aktienkurs-bricht-nach-datenleak-ein-a-0f7a4819-4fe7-4eec-babd-d480fa2741f1#ref=rss"
+   ],
+   "punkte": 36,
+   "text": "Ein Datenleck hat interne Dokumente der Deutschen Bank veröffentlicht, die fragwürdige Geschäftspraktiken und mangelhafte Kontrollen aufzeigen. Die Enthüllungen betreffen insbesondere das Russlandgeschäft der Bank kurz vor dem Ukraine‑Krieg.",
+   "positiv": [],
+   "negativ": [
+    "Deutsche Bank Aktie ↓",
+    "europäischer Bankensektor ↓"
+   ]
+  },
+  {
+   "id": "cee1b4a3",
+   "titel": "Kreditinstitute: Datenleak von Millionen Dokumenten belastet Deutsche Bank – Aktie reagiert deutlich",
+   "anriss": "Die Unterlagen zeigen laut Berichten etwa, wie das Institut sein Russlandgeschäft noch kurz vor Beginn des Ukrainekriegs ausbauen wollte. Was die Deutsche Bank zu den Enthüllungen sagt.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "SPIEGEL Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 9,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/deutsche-bank-datenleak-von-millionen-dokumenten-belastet-das-institut/100270448.html",
+    "https://www.spiegel.de/wirtschaft/unternehmen/das-russland-geschaeft-der-deutschen-bank-podcast-karrierekiller-a-d9dfc61e-e641-454a-adf1-988f1de804d1#ref=rss",
+    "https://www.spiegel.de/wirtschaft/unternehmen/donald-trumps-geschaefte-mit-der-deutschen-bank-podcast-karrierekiller-a-18d7118d-1ffe-4816-bfd1-22a46efb6f84#ref=rss",
+    "https://www.spiegel.de/wirtschaft/unternehmen/jeffrey-epsteins-geschaefte-mit-der-deutschen-bank-podcast-karrierekiller-a-a4282424-e6d9-49fc-92f9-58b6f6009b43#ref=rss",
+    "https://www.spiegel.de/wirtschaft/unternehmen/jeffrey-epstein-interne-unterlagen-belasten-deutsche-bank-mit-weiteren-zahlungen-a-7055c4a4-a3ac-41f8-a1f7-e6312c13abb3#ref=rss"
+   ],
+   "punkte": 25,
+   "text": "Millionen Dokumente aus einem Datenleak belegen, dass die Deutsche Bank ihr Russlandgeschäft unmittelbar vor dem Ukraine‑Krieg ausbauen wollte. Die Bank hat zu den Vorwürfen Stellung genommen, jedoch bleibt die Bewertung der Vorwürfe unklar.",
+   "positiv": [],
+   "negativ": [
+    "Deutsche Bank Aktie ↓",
+    "europäischer Bankensektor ↓"
+   ]
+  },
+  {
+   "id": "62bbdbea",
+   "titel": "Nikkei, Topix, CSI 300: Asiens Börsen geben nach – US-Chip-Sanktionen und Nvidia belasten",
+   "anriss": "Kurz vor der Ankunft von US-Präsident Donald Trump in Asien hat die US-Regierung die Auflagen für den Export fortschrittlichster KI-Chips verschärft. Nikkei und Topix reagierten negativ.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "Handelsblatt Finanzen",
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-topix-csi-300-asiens-boersen-geben-nach-us-chip-sanktionen-und-nvidia-belasten/100270404.html",
+    "https://www.tagesschau.de/wirtschaft/weltwirtschaft/usa-einschraenkungen-export-ki-chips-nvidia-100.html",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/china-soll-nicht-von-nvidia-chips-profitieren-usa-verschaerft-regeln-201688502.html",
+    "https://www.manager-magazin.de/unternehmen/tech/usa-verschaerfen-exportbeschraenkungen-fuer-ki-chips-a-5ca68afa-88cc-4b3f-8454-a8eb25e611fb#ref=rss"
+   ],
+   "punkte": 17,
+   "text": "Die US‑Regierung hat die Exportauflagen für fortschrittliche KI‑Chips verschärft, was die asiatischen Börsen Nikkei, Topix und CSI 300 nach unten drückt. Der Rückgang spiegelt die Besorgnis über mögliche Lieferengpässe im Technologiesektor wider.",
+   "positiv": [
+    "US‑Halbleiterhersteller ↑"
+   ],
+   "negativ": [
+    "asiatische Aktienindizes ↓",
+    "asiatischer Technologie‑/Halbleitermarkt ↓"
+   ]
+  },
+  {
+   "id": "9a7b1e7e",
+   "titel": "Geldanlage: Wie Gutverdiener ihr Altersvorsorgedepot noch besser machen",
+   "anriss": "Der Riester-Nachfolger bietet neben der Förderung Steuervorteile. Das klingt für Gutverdiener verlockend. Doch es gibt Alternativen – auch ein Produkt, das früher umstritten war, zählt dazu.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "Handelsblatt Finanzen",
+    "Tagesschau Wirtschaft"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/vorsorge/versicherung/geldanlage-altersvorsorgedepot-oder-etf-was-sich-fuer-gutverdiener-lohnt/100256477.html",
+    "https://www.handelsblatt.com/finanzen/banken-versicherungen/versicherer/lebensversicherung-viele-riester-kunden-wollen-ins-altersvorsorgedepot/100270222.html",
+    "https://www.tagesschau.de/wirtschaft/verbraucher/altersvorsorgedepot-rente-aktienmarkt-sparplan-100.html",
+    "https://www.faz.net/aktuell/wirtschaft/regierung-krempelt-rente-um-wieso-auch-start-ups-profitieren-koennten-201673615.html"
+   ],
+   "punkte": 16,
+   "text": "Ein neuer Riester‑Nachfolger bietet neben staatlicher Förderung zusätzliche Steuervorteile und richtet sich besonders an Gutverdiener. Weitere Produkte, darunter ein zuvor umstrittenes, werden als Alternativen zur klassischen Altersvorsorge genannt.",
+   "positiv": [
+    "Steuerbegünstigte Altersvorsorgeprodukte ↑"
+   ],
+   "negativ": [
+    "klassische Riester‑Produkte ↓"
+   ]
+  },
+  {
+   "id": "ea438c0a",
+   "titel": "Dax aktuell: Dax notiert im Minus – Deutsche-Bank-Aktie im Fokus",
+   "anriss": "Die Stimmung an der Börse bleibt angespannt. Anleger warten auf die Quartalszahlen von Nvidia und neue Signale zur Entwicklung des KI-Booms.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "Tagesschau Wirtschaft"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-notiert-im-minus-deutsche-bank-aktie-verliert-deutlich/100270429.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sechs-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-im-minus-ruestungsaktie-legt-zu/100270107.html",
+    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-ki-dow-nvidia-100.html"
+   ],
+   "punkte": 15,
+   "text": "Die Stimmung an der Börse bleibt angespannt. Anleger warten auf die Quartalszahlen von Nvidia und neue Signale zur Entwicklung des KI-Booms.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
    "id": "f46c281d",
    "titel": "Banken: EU und Fed erlauben Commerzbank-Übernahme durch Unicredit",
    "anriss": "Die EU-Kommission geht bei der Genehmigung auf die Finanzierung des deutschen Mittelstands ein. Zudem hält sie den Deal aus einem übergeordneten Grund für wichtig.",
    "region": "dach",
    "quellen": [
-    "FAZ Wirtschaft",
     "Handelsblatt Finanzen",
-    "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 5,
+   "anzahl": 3,
    "links": [
     "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/banken-eu-und-fed-erlauben-commerzbank-uebernahme-durch-unicredit/100270206.html",
     "https://www.tagesschau.de/wirtschaft/unternehmen/commerzbank-unicredit-eu-genehmigung-100.html",
-    "https://www.spiegel.de/wirtschaft/eu-genehmigt-uebernahme-der-commerzbank-durch-unicredit-a-d345f44c-486c-43ed-968c-6d33229c6372#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-eu-gibt-unicredit-gruenes-licht-fuer-commerzbank-uebernahme-faz-200452404.html",
     "https://www.manager-magazin.de/unternehmen/banken/commerzbank-uebernahme-eu-kommission-genehmigt-unicredit-deal-ohne-auflagen-a-8304b831-feaa-4b8a-8b7a-403bc63e3d8e#ref=rss"
    ],
-   "punkte": 21,
-   "text": "Die EU‑Kommission und die US‑Fed haben die Übernahme der Commerzbank durch die UniCredit genehmigt. Sie betont, dass der Deal die Finanzierung des deutschen Mittelstands stärkt und aus übergeordnetem Grund wichtig ist.",
-   "positiv": [
-    "Commerzbank",
-    "UniCredit",
-    "Deutscher Mittelstand"
-   ],
+   "punkte": 13,
+   "text": "Die EU-Kommission geht bei der Genehmigung auf die Finanzierung des deutschen Mittelstands ein. Zudem hält sie den Deal aus einem übergeordneten Grund für wichtig.",
+   "positiv": [],
    "negativ": []
   },
   {
@@ -118,170 +237,47 @@
    "anriss": "Die US-Investoren nehmen die Sorgen rund um die Führungskrise bei Nvidia auch mit in die neue Woche. Am Dienstag legt der Konzern Zahlen vor – zum ersten Mal ohne Huang.",
    "region": "dach",
    "quellen": [
+    "FAZ Wirtschaft",
     "Handelsblatt Finanzen",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
+    "heise"
    ],
-   "anzahl": 5,
+   "anzahl": 3,
    "links": [
     "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-nvidia-affaere-und-anthropic-debuet-machen-wall-street-zu-schaffen/100270217.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-im-minus-ruestungsaktie-legt-zu/100270107.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sieben-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
-    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-nvidia-rekordhoch-100.html",
-    "https://www.manager-magazin.de/finanzen/boerse/boerse-dax-stabil-auf-hohem-niveau-nvidia-zahlen-und-oelpreis-im-fokus-a-3cdd4662-3e31-49c3-913e-2b34eea499cc#ref=rss"
-   ],
-   "punkte": 19,
-   "text": "Der S&P 500 beendete die Woche mit einem Verlust von fast zwei Prozent, weil Anleger die Führungskrise bei Nvidia befürchten. Gleichzeitig wird Microsoft als wertvoller als Nvidia dargestellt, was die relative Attraktivität von Microsoft stärkt.",
-   "positiv": [
-    "Microsoft"
-   ],
-   "negativ": [
-    "S&P 500",
-    "Nvidia",
-    "Technologiesektor"
-   ]
-  },
-  {
-   "id": "504e0de8",
-   "titel": "Ex-Nvidia-Chef Huang arbeitet offenbar bereits an seinem Comeback",
-   "anriss": "Seine Affären - auch mit einer mutmaßlichen chinesischen Spionin - haben mehr als eine Billion Dollar Börsenwert vernichtet. Damit war der Rücktritt des Nvidia-Chefs unvermeidlich. Nun plant Jensen Huang offenbar bereits sein Comeback.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/unternehmen/nvidia-huang-chefposten-100.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/jensen-huang-petition-fuer-rueckkehr-zu-nvidia-gewinnt-zulauf-201687756.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/nach-jensen-huangs-rauswurf-wer-nvidia-jetzt-herausfordert-201685178.html",
-    "https://www.manager-magazin.de/unternehmen/tech/nvidia-gestuerzter-ceo-huang-stoesst-mit-comeback-plaenen-auf-widerstand-a-88265699-cb4f-4f45-8460-00bebb0e5ca6#ref=rss"
-   ],
-   "punkte": 18,
-   "text": "Der ehemalige Nvidia‑Chef Jensen Huang arbeitet bereits an einem Come‑back, nachdem seine Skandale den Börsenwert des Unternehmens um mehr als eine Billion Dollar reduziert haben. Der Rücktritt war unvermeidlich, und die geplante Rückkehr könnte das Vertrauen in Nvidia wiederherstellen.",
-   "positiv": [],
-   "negativ": [
-    "Nvidia"
-   ]
-  },
-  {
-   "id": "7bba1cae",
-   "titel": "Älterer Programmfehler löste Ausfall von Microsoft-Diensten aus",
-   "anriss": "Ausfälle bei Outlook oder Teams - und das über viele Stunden. Ende letzter Woche hatte die Microsoft-Störung weltweit für massive Schäden gesorgt. Jetzt ist klar, wie es dazu kommen konnte - und warum die Reparatur so lange gedauert hat.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "heise",
-    "manager magazin"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/unternehmen/microsoft-stoerung-fehler-100.html",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/microsoft-ausfall-alter-programmfehler-loeste-weltweite-stoerung-bei-outlook-und-teams-aus-accg-201687527.html",
-    "https://www.manager-magazin.de/unternehmen/tech/microsoft-dominoeffekt-eines-alten-programmfehlers-fuehrte-zur-megastoerung-a-8cb109ee-4c91-46d1-837c-dd1a8e10a71f#ref=rss",
-    "https://www.heise.de/meinung/Kommentar-Wofuer-nochmal-braucht-man-M365-11525667.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 16,
-   "text": "Ein älterer Programmfehler führte zu einem mehrstündigen Ausfall von Microsoft‑Diensten wie Outlook und Teams und verursachte weltweit erhebliche Schäden. Die Analyse des Vorfalls erklärt die Ursache und zeigt, warum die Störung auftrat.",
-   "positiv": [],
-   "negativ": [
-    "Microsoft",
-    "Microsoft‑Cloud‑Dienste"
-   ]
-  },
-  {
-   "id": "2c28c6ac",
-   "titel": "Tesla kündigt Milliarden-Investition in Werk in Brandenburg an",
-   "anriss": "Tesla will drei Milliarden Euro für den Ausbau des Werks in Grünheide östlich von Berlin ausgeben. Der US-Elektroautobauer will damit ein neues Produktionsgebäude finanzieren. Künftig sollen dort \"Cybercabs\" - fahrerlose Taxis - gebaut werden.",
-   "region": "dach",
-   "quellen": [
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "heise",
-    "manager magazin"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.tagesschau.de/inland/regional/brandenburg/tesla-investitionen-brandenburg-100.html",
-    "https://www.spiegel.de/wirtschaft/unternehmen/tesla-investiert-milliardensumme-fuer-robotaxi-bau-in-deutschland-a-65132952-1c63-4862-b2ce-f82c5def838f#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/tesla-elon-musk-investiert-drei-milliarden-euro-in-gruenheide-a-c5402185-e181-4e41-a4c8-6c425136eec2#ref=rss",
-    "https://www.heise.de/news/Tesla-will-drei-Milliarden-Euro-in-Werk-in-Gruenheide-stecken-11526787.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 16,
-   "text": "Tesla will drei Milliarden Euro für den Ausbau des Werks in Grünheide östlich von Berlin ausgeben. Der US-Elektroautobauer will damit ein neues Produktionsgebäude finanzieren. Künftig sollen dort \"Cybercabs\" - fahrerlose",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "1289a454",
-   "titel": "Lebensversicherung: Die Hälfte der Riester-Kunden könnte ins Altersvorsorgedepot wechseln",
-   "anriss": "Eine neue Umfrage zeigt, dass es schon vor dem Vertriebsstart der neuen geförderten Altersvorsorge viele Wechselwillige gibt. So bereiten sich die Lebensversicherer darauf vor.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "Handelsblatt Finanzen",
-    "Tagesschau Wirtschaft"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/banken-versicherungen/versicherer/lebensversicherung-viele-riester-kunden-wollen-ins-altersvorsorgedepot/100270222.html",
-    "https://www.tagesschau.de/wirtschaft/verbraucher/altersvorsorgedepot-rente-aktienmarkt-sparplan-100.html",
-    "https://www.faz.net/aktuell/wirtschaft/altersvorsorge-macht-uns-die-rente-bald-innovativer-201673615.html"
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/vaa-umfrage-fuehrungskraefte-in-der-chemie-bleiben-in-der-krise-gelassen-201673934.html",
+    "https://www.heise.de/news/iX-Konferenz-fuer-agile-Fuehrungskraefte-digitale-Transformation-im-Team-meistern-11525769.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
    "punkte": 13,
-   "text": "Eine neue Umfrage zeigt, dass es schon vor dem Vertriebsstart der neuen geförderten Altersvorsorge viele Wechselwillige gibt. So bereiten sich die Lebensversicherer darauf vor.",
+   "text": "Die US-Investoren nehmen die Sorgen rund um die Führungskrise bei Nvidia auch mit in die neue Woche. Am Dienstag legt der Konzern Zahlen vor – zum ersten Mal ohne Huang.",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "87f6f588",
-   "titel": "Künstliche Intelligenz: Kalifornien verklagt OpenAI wegen Cyberangriffen",
-   "anriss": "Der Generalstaatsanwalt von Kalifornien klagt OpenAI an - ein gefährliches Produkt ohne angemessene Sicherheitsverfahren oder Aufsicht habe das Unternehmen entwickelt und getestet. Von R. Spiegelhauer.",
-   "region": "dach",
+   "id": "5a3a2067",
+   "titel": "Optimizely compromised, served malware on Zoom, GitLab",
+   "anriss": "Article URL: https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/ Comments URL: https://news.ycombinator.com/item?id=50524767 Points: 443 # Comments: 189",
+   "region": "global",
    "quellen": [
-    "FAZ Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
+    "Hacker News Top"
    ],
-   "anzahl": 3,
+   "anzahl": 11,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/unternehmen/openai-klage-kalifornien-100.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/kalifornien-verklagt-openai-wegen-ki-hacking-attacken-201689398.html",
-    "https://www.manager-magazin.de/unternehmen/tech/openai-kalifornien-verklagt-chatgpt-entwickler-wegen-cyberangriffen-a-553a7916-af19-4454-82dc-bb093d693775#ref=rss"
+    "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+    "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+    "https://www.bugmenot.com/",
+    "https://opencode.ai/product/browse",
+    "https://www.cs.cmu.edu/learn/"
    ],
-   "punkte": 12,
-   "text": "Der Generalstaatsanwalt von Kalifornien klagt OpenAI an - ein gefährliches Produkt ohne angemessene Sicherheitsverfahren oder Aufsicht habe das Unternehmen entwickelt und getestet. Von R. Spiegelhauer.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "7d4611f8",
-   "titel": "Missglückter Raketenstart: Amazon verliert 40 Satelliten",
-   "anriss": "Techmilliardär Musks Starlink-Netzwerk dominiert, aber Amazon will ihm Konkurrenz machen. Nun muss das Unternehmen von Jeff Bezos aber einen Rückschlag hinnehmen - und der könnte langfristige Folgen haben.",
-   "region": "dach",
-   "quellen": [
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/technologie/rakete-amazon-satelliten-100.html",
-    "https://www.spiegel.de/wirtschaft/amazon-absturz-der-vulcan-rakete-kostet-us-konzern-40-satelliten-a-8bd0dc5f-699c-493e-a188-437d49521bcb#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/tech/vulcan-rakete-absturz-kostet-amazon-40-satelliten-fuer-internetdienst-leo-a-d08e1b4c-da9b-4597-a45a-d69c058b4f2b#ref=rss"
-   ],
-   "punkte": 12,
-   "text": "Techmilliardär Musks Starlink-Netzwerk dominiert, aber Amazon will ihm Konkurrenz machen. Nun muss das Unternehmen von Jeff Bezos aber einen Rückschlag hinnehmen - und der könnte langfristige Folgen haben.",
+   "punkte": 13,
+   "text": "Article URL: https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/ Comments URL: https://news.ycombinator.com/item?id=50524767 Points: 443 # Comments: 189",
    "positiv": [],
    "negativ": []
   }
  ],
  "ketten": [],
  "gegenthese": {
-  "konsens": "Die Übernahme der Commerzbank durch UniCredit wird als Stabilisierungsmaßnahme gewertet; der S&P‑500‑Rückgang wird als kurzfristige Korrektur gesehen; Teslas Brandenburg‑Investition stärkt die Branche; die OpenAI‑Klage birgt begrenztes Risiko.",
-  "gegen": "Kritiker sehen die UniCredit‑Übernahme als Risiko für Kreditqualität, Nvidia‑Bewertung als überhyped, Tesla‑Investition könnte Rendite verzögern, OpenAI‑Klage könnte regulatorische Belastungen erhöhen, Amazon‑Verlust zeigt Anfälligkeit von Satelliten."
+  "konsens": "Der Datenleck‑Skandal drückt die Deutsche‑Bank‑Aktie, DAX bleibt im Minus, asiatische Indizes fallen wegen US‑Chip‑Sanktionen; insgesamt herrscht Risikoaversion und Tech‑Gewichte werden belastet.",
+  "gegen": "Gegenargument: Das Datenleck betrifft nur interne Dokumente, die langfristige Kreditqualität und Kapitalausstattung der DB bleiben intakt; zudem stützt die EU‑Freigabe der Commerzbank‑Übernahme das Banken‑Sentiment."
  },
  "matrix": [
   {
@@ -398,11 +394,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "109.7 Mrd"
+     "108.9 Mrd"
     ],
     [
      "KGV (erw.)",
-     "14,7"
+     "14,6"
     ],
     [
      "Umsatzwachstum",
@@ -420,7 +416,7 @@
     ],
     [
      "Newsletter",
-     "nicht erwaehnt"
+     "in 2 Clustern"
     ],
     [
      "Reddit",
@@ -435,12 +431,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Analysten sehen ein starkes Umsatzwachstum von 23 % und ein attraktives KGV von 14,7. Der Marktwert von 109,7 Mrd EUR und ein Kursziel von 191 EUR deuten auf Aufwärtspotenzial hin. Der Großteil der Analysten (22 Buy) spricht für die Aktie.",
-   "dagegen": "Risiken bestehen in hoher Verschuldung und Abhängigkeit von Gas‑ und Wind‑Turbinen‑Marktzyklen. Die Umsetzung von Transformations‑ und Digitalisierungsprogrammen ist unsicher, und die Dividende bleibt niedrig. Zwei Analysten empfehlen Verkauf, was auf Bedenken hinsichtlich Margen und Cash‑Flow hindeutet.",
+   "dafuer": "Die Analystenmeinung ist stark positiv (22 Kauf‑Empfehlungen gegenüber 4 Halten und 2 Verkaufen). Ein moderates KGV von 14,6 deutet auf relative Bewertungseffizienz hin, während das Umsatzwachstum von 23 % das operative Momentum unterstreicht. Die Marktkapitalisierung von rund 108 Mrd. € signalisiert Größe und Liquidität.",
+   "dagegen": "Trotz positiver Kennzahlen bleibt das Geschäftsmodell anfällig für konjunkturelle Schwankungen im Energiesektor und hohe Investitionskosten. Die Bilanz weist erhebliche Verschuldung auf, die Cash‑Flow‑Stabilität belastet. Ein Widerspruch entsteht zwischen der starken Analysten‑Stimmung und der geringen Erwähnung in Newslettern und Reddit, was Unsicherheit signalisiert.",
    "katalysatoren": [
-    "Auslieferung und Inbetriebnahme der nächsten Generation von Gasturbinen (z. B. SG 8.0) mit steigenden Service‑Umsätzen.",
-    "Zunehmende Aufträge im Grid‑Technologies‑Segment durch europäische Netzmodernisierungsprojekte.",
-    "Zertifizierung und Serienstart der neuen Offshore‑Windturbine von Siemens Gamesa."
+    "Auslieferungsrampen bei Siemens Gamesa‑Windturbinen im kommenden Quartal",
+    "Neue Großaufträge im Grid‑Technologies‑Segment",
+    "Veröffentlichung der Q3‑Ergebnisse und mögliche Restrukturierungs‑Updates"
    ]
   },
   "RHM.DE": {
@@ -451,11 +447,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "35.9 Mrd"
+     "35.5 Mrd"
     ],
     [
      "KGV (erw.)",
-     "15,5"
+     "15,3"
     ],
     [
      "Umsatzwachstum",
@@ -488,9 +484,13 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "Rheinmetall profitiert von anhaltend hohen Rüstungsausgaben in Europa und den USA, was das Auftragsvolumen stärkt. Das Unternehmen verzeichnet ein Umsatzwachstum von 36 % und ein attraktives erwartetes KGV von 15,3. Die breite Segmentaufstellung reduziert konjunkturelle Risiken.",
+   "dagegen": "Gegenstand sind die starke Abhängigkeit von staatlichen Rüstungsetats und damit verbundene politische Risiken. Bei sinkenden Budgets könnte das Auftragsvolumen schrumpfen. Das aktuelle Kursziel von 1328 € impliziert bereits eine hohe Bewertung, die bei enttäuschenden Ergebnissen nach unten korrigiert werden könnte.",
+   "katalysatoren": [
+    "Genehmigung des deutschen Rüstungshaushalts 2027",
+    "Vertrag über Lieferung von Leopard‑2‑Kampffahrzeugen an Polen",
+    "Quartalsbericht Q4 2025 mit erwarteter Umsatzsteigerung"
+   ]
   },
   "ASML.AS": {
    "ticker": "ASML.AS",
@@ -500,11 +500,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "503.6 Mrd"
+     "497.0 Mrd"
     ],
     [
      "KGV (erw.)",
-     "23,2"
+     "22,8"
     ],
     [
      "Umsatzwachstum",
@@ -537,12 +537,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die überwältigende Analystenmeinung (38 Buy, 2 Hold, 1 Sell) spricht für ASML. Das Unternehmen profitiert von starkem Umsatzwachstum von +55 % und einem hohen Marktwert von 503,6 Mrd. EUR, was die Marktposition im Lithografie‑Segment unterstreicht.",
-   "dagegen": "Ein KGV von 23,2 deutet auf eine relativ teure Bewertung hin. Das Kursziel von 2.096 EUR impliziert hohe Erwartungen, die bei einem möglichen Abschwung der Halbleiternachfrage nicht erfüllt werden könnten. Datenlage zu Insider‑Transaktionen und Short‑Positionen ist nicht verfügbar.",
+   "dafuer": "ASML dominiert den EUV-Markt, erzielt 55 % Umsatzwachstum und hat ein starkes Kursziel von 2096 EUR. Das KGV von 22,8 liegt im Branchenrahmen, und 38 Analysten empfehlen Kauf, was auf Vertrauen in langfristige Nachfrage nach fortschrittlicher Lithografie hindeutet.",
+   "dagegen": "Die Bewertung ist hoch, und das Fehlen von Insider‑Käufen sowie keine Short‑Positionen könnten auf Unsicherheit hinweisen. Ein einzelner Verkauf und zwei Halte zeigen Divergenz im Analystenkonsens, und ein Abschwung der Chipnachfrage könnte das Wachstum bremsen.",
    "katalysatoren": [
-    "Einführung neuer EUV‑Systeme für die 3‑nm‑Technologie",
-    "Vertragserweiterungen mit führenden Foundries (z. B. TSMC, Samsung)",
-    "Quartalszahlen‑Veröffentlichung Q4 2024"
+    "Q3‑2024 Ergebnisveröffentlichung mit erwarteter Umsatzsteigerung",
+    "Markteinführung des nächsten High‑NA EUV‑Systems",
+    "Abschluss neuer Langzeit‑Supply‑Verträge mit TSMC oder Samsung"
    ]
   },
   "SU.PA": {
@@ -553,11 +553,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "141.9 Mrd"
+     "141.3 Mrd"
     ],
     [
      "KGV (erw.)",
-     "19,2"
+     "19,1"
     ],
     [
      "Umsatzwachstum",
@@ -575,7 +575,7 @@
     ],
     [
      "Newsletter",
-     "in 16 Clustern"
+     "in 9 Clustern"
     ],
     [
      "Reddit",
@@ -590,12 +590,12 @@
      "1648,06 % ueber 1700 Halter"
     ]
    ],
-   "dafuer": "Starke Analystenmeinung (19 Kauf, 4 Halten) unterstützt die Aktie, ebenso das robuste Umsatzwachstum von +10 % und ein moderates KGV von 19,2. Das breit diversifizierte Portfolio – Energie‑Management, Industrie‑Automation, erneuerbare‑Energielösungen – bietet langfristige Wachstums‑ und Margenpotenziale.",
-   "dagegen": "Ein erheblicher Widerspruch besteht zum Analystenkonsens: Die Short‑Interest‑Quote von 1.648 % bei über 1.700 Haltern signalisiert starkes Misstrauen. Fehlende Insider‑Meldungen und kaum Reddit‑Diskussionen deuten auf geringe Marktaufmerksamkeit hin. Das Kursziel von 323 € könnte das aktuelle Niveau überbewerten.",
+   "dafuer": "Marktkapitalisierung von 141,3 Mrd. €, erwartetes Umsatzwachstum von 10 % und ein KGV von 19,1 deuten auf solide Bewertung hin. Analysten‑Stimmungsbild ist stark positiv (19 Kauf, 4 Halten). Das Portfolio umfasst wachsende Segmente wie erneuerbare Energien, Gebäude‑ und Industrieautomation.",
+   "dagegen": "Kurzpositionen von über 1.600 % signalisieren starkes Misstrauen, während Reddit kaum Erwähnungen liefert – ein Hinweis auf mögliche Markt‑Unsicherheit. Fehlende Insider‑Meldungen und ein Kursziel von 323 € ohne aktuelle Kursangabe könnten auf Überbewertung hindeuten.",
    "katalysatoren": [
-    "Q3‑Finanzbericht mit erwarteter Umsatzsteigerung",
-    "Markteinführung neuer Micro‑Grid‑ und Solar‑Inverter‑Produktlinien",
-    "EU‑Förderprogramme für Energie‑Management‑Systeme"
+    "Q3‑2024‑Ergebnisveröffentlichung mit Fokus auf Margin‑Entwicklung",
+    "Markteinführung neuer Microgrid‑Lösungen für industrielle Kunden",
+    "Abschluss möglicher Akquisition im Bereich Gebäude‑management"
    ]
   },
   "GEV": {
@@ -667,7 +667,7 @@
     ],
     [
      "Kursziel",
-     "115 USD"
+     "116 USD"
     ]
    ],
    "quellen": [
@@ -757,7 +757,7 @@
     ],
     [
      "KGV (erw.)",
-     "9,9"
+     "9,8"
     ],
     [
      "Umsatzwachstum",
@@ -1178,6 +1178,6 @@
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 152,
+ "meldungen_gesamt": 166,
  "llm_aktiv": false
 }
