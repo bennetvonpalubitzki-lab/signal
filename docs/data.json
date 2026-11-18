@@ -1,9 +1,9 @@
 {
- "stand": "2026-11-18T01:26",
- "lauf": "2026111801",
+ "stand": "2026-11-18T13:18",
+ "lauf": "2026111813",
  "synthese": {
-  "kern": "Datenlecks, Governance‑Probleme und Nvidia‑Unsicherheit treiben Marktvolatilität, während das Risiko unterschätzt wird.",
-  "erlaeuterung": "Lecks bei großen Institutionen und mögliche Führungswechsel bei Nvidia erhöhen Unsicherheit in Technologie- und Finanzsektoren. Trotz niedriger Risikoappetit‑Bewertung übersehen Investoren die kombinierten geopolitischen Spannungen und regulatorischen Risiken, die die Liquidität belasten könnten."
+  "kern": "Datenlecks und KI‑Boom treiben Aufregung, während Markt die sinkende Risikobereitschaft und Liquidität verkennt.",
+  "erlaeuterung": "Große Datenverluste und starkes Nvidia‑Wachstum erhöhen das Interesse an Technologie, doch das globale Risiko‑Appetit‑Perzentil liegt bei nur 16. Gleichzeitig zeigen US‑ und Euro‑Liquiditätswerte schwache Werte, was die Marktteilnehmer bei der Bewertung von KI‑Investitionen unterschätzen."
  },
  "regime": [
   {
@@ -36,23 +36,23 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 63,
-     "delta": -3
+     "wert": 64,
+     "delta": -1
     },
     "eur": {
-     "wert": 78,
-     "delta": 1
+     "wert": 75,
+     "delta": -3
     }
    },
-   "differenz": 15
+   "differenz": 11
   },
   {
    "name": "risikoappetit",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 15,
-     "delta": -11
+     "wert": 16,
+     "delta": -18
     }
    }
   },
@@ -77,7 +77,7 @@
    "spuren": {
     "glob": {
      "wert": 77,
-     "delta": -3
+     "delta": -2
     }
    }
   }
@@ -89,202 +89,203 @@
    "anriss": "Der Chef der Deutschen Bank äußert sich im Interview zu dem Datenleck, das gerade weltweit Schlagzeilen macht – und reagiert auf Vorwürfe, er habe Profit über interne Kontrollen gestellt.",
    "region": "dach",
    "quellen": [
+    "FAZ Wirtschaft",
     "Handelsblatt Finanzen",
     "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 15,
+   "anzahl": 14,
    "links": [
     "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/deutsche-bank-wie-konnte-das-passieren-herr-sewing/100270599.html",
-    "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/deutsche-bank-datenleak-von-millionen-dokumenten-belastet-das-institut/100270448.html",
     "https://www.tagesschau.de/wirtschaft/unternehmen/deutsche-bank-datenleak-100.html",
     "https://www.tagesschau.de/wirtschaft/finanzen/deutschebank-226.html",
-    "https://www.spiegel.de/wirtschaft/unternehmen/christian-sewing-wie-sich-der-deutsche-bank-chef-an-die-spitze-kaempfte-a-89df9ba3-c6d1-4ebf-b75d-b353e5066448#ref=rss"
+    "https://www.spiegel.de/wirtschaft/unternehmen/deutsche-bank-so-stimmt-die-bank-mitarbeitende-auf-die-berichterstattung-ein-a-eb701341-d665-4e23-9db1-335d39547474#ref=rss",
+    "https://www.spiegel.de/wirtschaft/unternehmen/aldi-wie-die-deutsche-bank-dem-milliardenschweren-aldi-clan-die-steuern-kleinrechnete-a-f913f562-d1e7-480b-8957-063d3dad3f52#ref=rss"
    ],
-   "punkte": 40,
-   "text": "Ein Datenleck bei der Deutschen Bank hat rund 15 Millionen Dokumente und 9 Millionen E‑Mails nach außen gelangen lassen. Der CEO äußert sich im Interview zu den Vorwürfen, dass Profitinteressen interne Kontrollen untergraben haben.",
-   "positiv": [],
+   "punkte": 39,
+   "text": "Der CEO der Deutschen Bank erklärt im Interview, dass ein Datenleck von rund 15 Millionen Dokumenten und neun Millionen E‑Mails auf interne Schwächen zurückzuführen sei und betont, dass kein Profit über die Kontrollen gestellt wurde. Das Ereignis belastet das Vertrauen in die Bank und verdeutlicht die Bedeutung von Cyber‑Sicherheitsmaßnahmen im Finanzsektor.",
+   "positiv": [
+    "Cyber‑Sicherheits‑Dienstleister"
+   ],
    "negativ": [
-    "Deutsche Bank‑Aktie",
-    "Bankensektor",
-    "Datensicherheits‑Ruf"
+    "Deutsche Bank",
+    "Bankensektor"
    ]
   },
   {
-   "id": "79df5f08",
-   "titel": "Jensen Huang kann sich Rückkehr an Nvidia-Spitze vorstellen",
-   "anriss": "Der wegen einer Affäre mit einer mutmaßlichen chinesischen Spionin zurückgetretene Chef des US-Chipkonzerns Nvidia hat gravierende Fehler eingeräumt. Doch sollte der Vorstand das wünschen, würde er gerne an die Unternehmensspitze zurückkehren.",
+   "id": "5cdebd66",
+   "titel": "Neue Quartalszahlen: Nvidia verdoppelt Umsatz und Gewinn",
+   "anriss": "Wenige Tage nach der Spionageaffäre rund um den bisherigen Konzernchef Huang hat Nvidia überraschend starke Quartalsergebnisse vorgelegt. Die Zahlen des US-Chipkonzerns lagen deutlich über den Erwartungen von Analysten.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
     "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft"
+    "Tagesschau Wirtschaft",
+    "heise",
+    "manager magazin"
    ],
-   "anzahl": 8,
+   "anzahl": 10,
    "links": [
+    "https://www.tagesschau.de/wirtschaft/unternehmen/nvidia-quartalsergebnisse-100.html",
     "https://www.tagesschau.de/wirtschaft/unternehmen/nvidia-huang-rueckkehr-100.html",
+    "https://www.spiegel.de/wirtschaft/unternehmen/nvidia-jensen-huang-konzern-verkauft-keine-ki-chips-mehr-nach-china-a-e59ab63e-68d8-48c0-9f9b-5621595d27a2#ref=rss",
     "https://www.spiegel.de/wirtschaft/unternehmen/nvidia-will-jensen-huang-nicht-als-chef-zurueckholen-a-f28605ac-ea1f-421b-afd9-4649bc8b91e6#ref=rss",
-    "https://www.spiegel.de/wirtschaft/unternehmen/nvidia-ex-ceo-jensen-huang-ist-bereit-zu-chiphersteller-zurueckzukehren-a-bc20dd25-f830-42e0-a404-de9743ecaf95#ref=rss",
-    "https://www.spiegel.de/wirtschaft/unternehmen/ex-nvidia-ceo-jensen-huang-sagt-vor-us-senat-aus-a-0256fbdb-f7c3-4c6d-876f-097e3557807c#ref=rss",
-    "https://www.spiegel.de/wirtschaft/unternehmen/nvidia-warum-die-tech-bosse-jensen-huangs-rueckkehr-fordern-a-7c966f6a-6430-47e6-b5f4-edb6202a2617#ref=rss"
+    "https://www.spiegel.de/wirtschaft/unternehmen/nvidia-ex-ceo-jensen-huang-ist-bereit-zu-chiphersteller-zurueckzukehren-a-bc20dd25-f830-42e0-a404-de9743ecaf95#ref=rss"
    ],
-   "punkte": 22,
-   "text": "Jensen Huang, der nach einer Affäre mit einer mutmaßlichen chinesischen Spionin zurückgetreten war, signalisiert seine Bereitschaft, wieder an die Spitze von Nvidia zurückzukehren. Er räumt gravierende Fehler ein, betont jedoch seine Motivation, das Unternehmen zu stabilisieren.",
+   "punkte": 30,
+   "text": "Nvidia hat im zuletzt veröffentlichten Quartal Umsatz und Gewinn nahezu verdoppelt, trotz einer kürzlich aufgetretenen Spionageaffäre um den ehemaligen CEO. Die starken Zahlen stärken die Position des Unternehmens im KI‑ und Halbleitermarkt.",
    "positiv": [
-    "Nvidia‑Aktie",
-    "Halbleiter‑/Chip‑Sektor"
+    "Nvidia",
+    "Halbleiter‑/KI‑Branche"
    ],
-   "negativ": [
-    "Corporate‑Governance‑Risiko"
-   ]
+   "negativ": []
   },
   {
-   "id": "58d7ce04",
-   "titel": "US-Börsen: Vor Nvidia-Zahlen – Wall Street rutscht ins Minus",
-   "anriss": "Vor Bekanntgabe der ersten Quartalszahlen des Chipkonzerns seit dem Abgang von Jensen Huang warten die Anleger ab. Auch der geplante Börsengang von Anthropic sorgt für Zurückhaltung.",
+   "id": "f40c6305",
+   "titel": "Börsengang: IPO-Forscher: Marktdominanz ohne Riesen-Gewinne – wird Anthropic zur Boeing der KI?",
+   "anriss": "Der KI-Entwickler Anthropic steht vor einem historischen Börsengang. IPO-Experte Ritter erklärt, warum der Markt die hohe Bewertung in Kauf nimmt – und Investoren trotzdem verlieren könnten.",
    "region": "dach",
    "quellen": [
     "Handelsblatt Finanzen",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 6,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-vor-nvidia-zahlen-wall-street-schliesst-im-minus/100270596.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-folgt-us-boersen-ins-minus-und-verliert-ueber-zwei-prozent/100270429.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sechs-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-nvidia-affaere-und-anthropic-debuet-machen-wall-street-zu-schaffen/100270217.html",
-    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-ki-dow-nvidia-100.html"
-   ],
-   "punkte": 22,
-   "text": "Vor der Veröffentlichung der ersten Quartalszahlen von Nvidia seit dem Abgang von Jensen Huang zeigen sich die US‑Börsen im Minus, da Anleger auf die Zahlen warten. Zusätzlich sorgt die bevorstehende Notierung von Anthropic für Zurückhaltung im Markt.",
-   "positiv": [
-    "Anthropic‑IPO‑Potenzial"
-   ],
-   "negativ": [
-    "US‑Aktienmarkt",
-    "Nvidia‑Aktie",
-    "Kurzfristige Marktstimmung"
-   ]
-  },
-  {
-   "id": "f45a34cf",
-   "titel": "Jeffrey Epstein: Interne Unterlagen belasten Deutsche Bank mit weiteren Zahlungen",
-   "anriss": "Interne Unterlagen zeigen: Die Deutsche Bank hat deutlich mehr Zahlungen für Jeffrey Epstein abgewickelt als bekannt – weil sie auf hohe Millionengewinne spekulierte. Ein Dokument warnt vor weiteren Fällen von dem »Ausmaß«.",
-   "region": "dach",
-   "quellen": [
-    "SPIEGEL Wirtschaft",
     "manager magazin"
    ],
    "anzahl": 7,
    "links": [
-    "https://www.spiegel.de/wirtschaft/unternehmen/jeffrey-epstein-interne-unterlagen-belasten-deutsche-bank-mit-weiteren-zahlungen-a-7055c4a4-a3ac-41f8-a1f7-e6312c13abb3#ref=rss",
-    "https://www.spiegel.de/wirtschaft/unternehmen/das-russland-geschaeft-der-deutschen-bank-podcast-karrierekiller-a-d9dfc61e-e641-454a-adf1-988f1de804d1#ref=rss",
-    "https://www.spiegel.de/wirtschaft/unternehmen/donald-trumps-geschaefte-mit-der-deutschen-bank-podcast-karrierekiller-a-18d7118d-1ffe-4816-bfd1-22a46efb6f84#ref=rss",
-    "https://www.spiegel.de/wirtschaft/unternehmen/jeffrey-epsteins-geschaefte-mit-der-deutschen-bank-podcast-karrierekiller-a-a4282424-e6d9-49fc-92f9-58b6f6009b43#ref=rss",
-    "https://www.spiegel.de/wirtschaft/unternehmen/jeffrey-epstein-donald-trump-die-gefaehrlichsten-kunden-der-deutschen-bank-a-ab8e3ad4-6b0c-463f-b027-8388b3a54cf8#ref=rss"
+    "https://www.handelsblatt.com/finanzen/maerkte/boersengang-vor-mega-ipo-warum-anthropic-in-die-kostenfalle-tappen-koennte/100270298.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/aktien/hendrik-leber-ich-will-bei-anthropic-mit-dabei-sein/100269164.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-kospi-co.-starke-nvidia-zahlen-stuetzen-asiatische-boersen/100270767.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sieben-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-vor-nvidia-zahlen-wall-street-schliesst-im-minus/100270596.html"
    ],
-   "punkte": 18,
-   "text": "Interne Unterlagen belegen, dass die Deutsche Bank deutlich mehr Zahlungen an Jeffrey Epstein geleistet hat, als bislang öffentlich bekannt, weil sie auf hohe Gewinne spekulierte. Ein internes Memo warnt vor weiteren finanziellen und reputationsbezogenen Risiken.",
-   "positiv": [],
+   "punkte": 24,
+   "text": "Der KI‑Entwickler Anthropic plant einen Börsengang mit einer Bewertung, die mit der von Boeing verglichen wird, obwohl das Unternehmen bislang keine Riesen‑Gewinne erwirtschaftet hat. Analysten warnen, dass die hohe Bewertung das Risiko von Investorenverlusten erhöhen könnte.",
+   "positiv": [
+    "KI‑Branche"
+   ],
    "negativ": [
-    "Deutsche Bank‑Aktie",
-    "Bankensektor",
-    "Reputations‑Risiko"
+    "Anthropic (Bewertung)",
+    "Tech‑IPO‑Markt"
    ]
   },
   {
-   "id": "62bbdbea",
-   "titel": "Nikkei, Topix, CSI 300: Asiens Börsen geben nach – US-Chip-Sanktionen und Nvidia belasten",
-   "anriss": "Kurz vor der Ankunft von US-Präsident Donald Trump in Asien hat die US-Regierung die Auflagen für den Export fortschrittlichster KI-Chips verschärft. Nikkei und Topix reagierten negativ.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "Handelsblatt Finanzen",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-topix-csi-300-asiens-boersen-geben-nach-us-chip-sanktionen-und-nvidia-belasten/100270404.html",
-    "https://www.tagesschau.de/wirtschaft/weltwirtschaft/usa-einschraenkungen-export-ki-chips-nvidia-100.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/nvidia-chips-und-china-asien-droht-der-kalte-entzug-201689910.html",
-    "https://www.manager-magazin.de/unternehmen/tech/usa-verschaerfen-exportbeschraenkungen-fuer-ki-chips-a-5ca68afa-88cc-4b3f-8454-a8eb25e611fb#ref=rss"
-   ],
-   "punkte": 17,
-   "text": "Kurz vor der Ankunft von US-Präsident Donald Trump in Asien hat die US-Regierung die Auflagen für den Export fortschrittlichster KI-Chips verschärft. Nikkei und Topix reagierten negativ.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "27e69214",
-   "titel": "Quad9's withdrawal from France: A canary in the coal mine",
-   "anriss": "Article URL: https://blog.cloudflare.com/quad9-withdrawal-from-france/ Comments URL: https://news.ycombinator.com/item?id=50538994 Points: 266 # Comments: 75",
+   "id": "cacec585",
+   "titel": "Codeberg.org Not Reachable",
+   "anriss": "Article URL: https://social.anoxinon.de/@codebergstatus/117636437840688845 Comments URL: https://news.ycombinator.com/item?id=50544261 Points: 241 # Comments: 232",
    "region": "global",
    "quellen": [
     "Hacker News Top"
    ],
-   "anzahl": 13,
+   "anzahl": 17,
    "links": [
-    "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
-    "https://calif.io/java4shell/",
-    "https://github.com/jquery/jquery/releases/tag/4.1.0",
-    "https://www.solidjs.com/blog/solid-2-0-the-long-hold/",
-    "https://phrack.org/issues/73/introduction_md"
+    "https://social.anoxinon.de/@codebergstatus/117636437840688845",
+    "https://nicolasbouliane.com/blog/death-by-ai",
+    "https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in",
+    "https://revscope.co/blog/search-seo-geo-2026/",
+    "https://wiki.archiveteam.org/index.php/Apple_Discussions"
+   ],
+   "punkte": 19,
+   "text": "Der Open‑Source‑Git‑Hoster Codeberg.org ist derzeit nicht erreichbar, was zu Ausfällen für Nutzer und Projekte führt. Wettbewerber im Bereich Code‑Hosting könnten von der Störung profitieren.",
+   "positiv": [
+    "Alternative Git‑Hosting‑Anbieter"
+   ],
+   "negativ": [
+    "Codeberg.org",
+    "Open‑Source‑Hosting‑Dienstleistungen"
+   ]
+  },
+  {
+   "id": "008f59d5",
+   "titel": "Stromsteuersenkung und Spritpreisdeckel: Was die Entlastungen im Alltag bringen könnten",
+   "anriss": "Ab Januar wollen Union und SPD die Stromsteuer für ein Jahr auf das europäische Mindestniveau senken. Auch ein Spritpreisdeckel ist vereinbart. Was wurde konkret beschlossen und wie viel Entlastung könnte das im Alltag bringen?",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "heise"
+   ],
+   "anzahl": 5,
+   "links": [
+    "https://www.tagesschau.de/inland/innenpolitik/was-bringt-stromsteuer-senkung-koalitionsausschuss-100.html",
+    "https://www.tagesschau.de/inland/innenpolitik/koalitionsausschuss-einigung-stromsteuer-spritpreisdeckel-100.html",
+    "https://www.faz.net/aktuell/wirtschaft/stromsteuer-und-tankdeckel-erfolg-fuer-friedrich-merz-201693627.html",
+    "https://www.faz.net/aktuell/wirtschaft/was-die-niedrigere-stromsteuer-fuer-sie-im-alltag-bedeutet-accg-201694284.html",
+    "https://www.heise.de/news/Spritpreisdeckel-soll-ab-Januar-aktiviert-werden-11529286.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 16,
+   "text": "Ab Januar wollen Union und SPD die Stromsteuer für ein Jahr auf das europäische Mindestniveau senken. Auch ein Spritpreisdeckel ist vereinbart. Was wurde konkret beschlossen und wie viel Entlastung könnte das im Alltag b",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "4f51a334",
+   "titel": "Who sees the sea? Sea-view potential by fa\\c{c}ade and floor from cadastral LoD1 models on the Costa del Sol",
+   "anriss": "arXiv:2611.21672v1 Announce Type: new Abstract: Views are among the most valued and least measured attributes of a home. We present an open-data method that estimates the sea-view potential of every free fa\\c{c}ade of every residential building at three floors (ground, middle and top; other floors t",
+   "region": "global",
+   "quellen": [
+    "arXiv q-fin"
+   ],
+   "anzahl": 9,
+   "links": [
+    "https://arxiv.org/abs/2611.21672",
+    "https://arxiv.org/abs/2611.21641",
+    "https://arxiv.org/abs/2611.22033",
+    "https://arxiv.org/abs/2009.00868",
+    "https://arxiv.org/abs/2601.05274"
    ],
    "punkte": 15,
-   "text": "Article URL: https://blog.cloudflare.com/quad9-withdrawal-from-france/ Comments URL: https://news.ycombinator.com/item?id=50538994 Points: 266 # Comments: 75",
+   "text": "arXiv:2611.21672v1 Announce Type: new Abstract: Views are among the most valued and least measured attributes of a home. We present an open-data method that estimates the sea-view potential of every free fa\\c{c}ade of ev",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "8b82759b",
-   "titel": "Nvidia-Investments: Soros und weitere Familienbüros verkauften Nvidia-Aktien kurz vor Huangs Abgang als CEO",
-   "anriss": "George Soros' Family Office hat im dritten Quartal seine Beteiligung an Nvidia deutlich reduziert. Zahlreiche Familienbüros halten dennoch weiterhin große Anteile.",
+   "id": "7f94ca90",
+   "titel": "Waymo stoppt autonome Fahrten auf US-Autobahnen",
+   "anriss": "Probleme mit Baustellen und der Polizei: Wegen mehreren Vorfällen in den USA dürfen Waymos Robotaxis in Kalifornien nicht mehr auf Autobahnen unterwegs sein. Der Hersteller weitet den Stopp aus.",
    "region": "dach",
    "quellen": [
-    "Handelsblatt Finanzen",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/investment-soros-verkaufte-nvidia-aktien-kurz-vor-huangs-ruecktritt/100270465.html",
-    "https://www.tagesschau.de/wirtschaft/unternehmen/nvidia-quartalsergebnisse-100.html",
-    "https://www.manager-magazin.de/unternehmen/tech/nvidia-stellt-umsatz-ueber-den-erwartungen-in-aussicht-a-107346fa-fb4d-4779-a965-f7ae0c86964b#ref=rss"
-   ],
-   "punkte": 13,
-   "text": "George Soros' Family Office hat im dritten Quartal seine Beteiligung an Nvidia deutlich reduziert. Zahlreiche Familienbüros halten dennoch weiterhin große Anteile.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "f0c99c67",
-   "titel": "EZB: Bundesregierung erhält Lob für Brunnermeier-Nominierung – doch ein Detail sorgt für Erstaunen",
-   "anriss": "Die Bundesregierung hat ihre Wahl für den wichtigen Posten im EZB-Direktorium getroffen und die Resonanz könnte positiver kaum sein. Dabei zeichnet sich eine brisante Konstellation ab.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
     "SPIEGEL Wirtschaft",
+    "heise",
     "manager magazin"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.spiegel.de/wirtschaft/unternehmen/waymo-stoppt-autonome-fahrten-auf-us-autobahnen-a-022b4b7c-103a-40d8-9dda-e6365a5ec28e#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/mobilitaet/waymo-nach-fahrfehlern-stoppt-alphabet-tochter-autobahnfahrten-a-1637c458-fedc-404b-b45a-8c2f94ad99de#ref=rss",
+    "https://www.heise.de/news/Uber-und-Momenta-starten-Dienst-mit-Robotaxis-in-Muenchen-11529320.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "https://www.heise.de/news/Gefahr-fuer-die-oeffentliche-Sicherheit-Waymo-stoppt-Autobahnfahrten-in-den-USA-11528657.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 14,
+   "text": "Probleme mit Baustellen und der Polizei: Wegen mehreren Vorfällen in den USA dürfen Waymos Robotaxis in Kalifornien nicht mehr auf Autobahnen unterwegs sein. Der Hersteller weitet den Stopp aus.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "2e0220c8",
+   "titel": "Immobilien: Zahl der Baugenehmigungen bricht nach starkem Anstieg ein",
+   "anriss": "In den vergangenen Monaten waren die Baugenehmigungen stark gestiegen, nun geht es wieder bergab. Neben den Energiekosten macht sich auch das Zinsniveau bemerkbar.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "Handelsblatt Finanzen",
+    "Tagesschau Wirtschaft"
    ],
    "anzahl": 3,
    "links": [
-    "https://www.handelsblatt.com/finanzen/geldpolitik/ezb-lob-fuer-nominierung-von-markus-brunnermeier-zum-chefvolkswirt/100270602.html",
-    "https://www.spiegel.de/wirtschaft/ezb-deutschland-favorisiert-pablo-hernandez-de-cos-fuer-lagarde-nachfolge-a-8d14de67-7e02-4b43-91ae-c41db8571dc2#ref=rss",
-    "https://www.manager-magazin.de/politik/europa/ezb-markus-brunnermeier-soll-chefoekonom-werden-a-601f21c8-a7ff-4032-a678-a7863bd74200#ref=rss"
+    "https://www.handelsblatt.com/finanzen/immobilien/immobilien-zahl-der-baugenehmigungen-bricht-nach-starkem-anstieg-ein/100270855.html",
+    "https://www.tagesschau.de/wirtschaft/konjunktur/wohnungsbau-september-100.html",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/eu-einigt-sich-auf-schnelleren-ausbau-der-stromnetze-in-europa-accg-201693038.html"
    ],
    "punkte": 13,
-   "text": "Die Bundesregierung hat ihre Wahl für den wichtigen Posten im EZB-Direktorium getroffen und die Resonanz könnte positiver kaum sein. Dabei zeichnet sich eine brisante Konstellation ab.",
+   "text": "In den vergangenen Monaten waren die Baugenehmigungen stark gestiegen, nun geht es wieder bergab. Neben den Energiekosten macht sich auch das Zinsniveau bemerkbar.",
    "positiv": [],
    "negativ": []
   }
  ],
  "ketten": [],
  "gegenthese": {
-  "konsens": "Analysten erwarten, dass Nvidia die Quartalszahlen deutlich übertrifft, was die Tech‑Rallye stützt; US‑Aktien und Asien‑Märkte bleiben kurzfristig volatil, aber keine grundsätzliche Trendwende.",
-  "gegen": "Kürzlicher Insider‑Verkauf großer Investoren, US‑Chip‑Sanktionen und mögliche Nachfragerückgang bei KI‑Hardware könnten Nvidia‑Erwartungen enttäuschen und die Marktstimmung dämpfen."
+  "konsens": "Nvidia‑Ergebnisse beflügeln KI‑Aktien, während Anleger Anthropic skeptisch wegen hoher Bewertung sehen; Datenleck löst Sicherheitsbedenken aus, Bau‑Boom endet, Steuer‑Entlastungen gelten als marginal, Waymo‑Pause als temporär.",
+  "gegen": "Kritiker warnen, dass überhöhte KI‑Bewertungen zu Korrekturen führen können, das Datenleck systemische Risiken birgt, Steuer‑ und Sprit‑Entlastungen kaum Nachfrage stimulieren und der Rückgang der Baugenehmigungen auf längerfristige Abschwächung hindeutet."
  },
  "matrix": [
   {
@@ -401,11 +402,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "106.4 Mrd"
+     "109.6 Mrd"
     ],
     [
      "KGV (erw.)",
-     "14,2"
+     "14,5"
     ],
     [
      "Umsatzwachstum",
@@ -423,7 +424,7 @@
     ],
     [
      "Newsletter",
-     "in 1 Clustern"
+     "nicht erwaehnt"
     ],
     [
      "Reddit",
@@ -438,12 +439,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die Analystenmehrheit (22 Kauf‑Empfehlungen) sieht in dem starken Umsatzwachstum von +23 % und einem moderaten KGV von 14,2 ein attraktives Bewertungs‑ und Wachstumspotenzial. Das Kursziel von 192 € impliziert eine deutliche Aufwärtsbewegung gegenüber dem aktuellen Kurs.",
-   "dagegen": "Gegen das Bild spricht die Minderheit von 2 Verkäufern, die Bedenken wegen anhaltender Lieferverzögerungen bei Siemens Gamesa und der Abhängigkeit von volatilen Gas‑ und Strommärkten äußern. Die geringe Reddit‑Präsenz deutet auf begrenztes Anlegerinteresse hin.",
+   "dafuer": "Die Aktie profitiert von starkem Umsatzwachstum von +23 % und einem moderaten forward KGV von 14,5, was im Vergleich zum Branchen‑Durchschnitt attraktiv erscheint. 22 Analysten bewerten das Unternehmen mit „Kauf“, das Kursziel von 192 EUR impliziert weiteres Aufwärtspotenzial.",
+   "dagegen": "Gegen die Aktie spricht die hohe Abhängigkeit von konjunkturellen Schwankungen im Gas‑ und Windsegment sowie das Risiko von Lieferverzögerungen bei Siemens Gamesa. Zwei Analysten empfehlen „Verkauf“, und das Fehlen von Insider‑ oder Short‑Informationen lässt die Marktmeinung unvollständig erscheinen.",
    "katalysatoren": [
-    "Auslieferung und Inbetriebnahme der neuen SG‑8‑Gasturbine ab Q2 2027",
-    "Abschluss großer Grid‑Technologie‑Aufträge in Europa und Nordamerika 2024/25",
-    "Verbesserte Kostenstruktur und neue Offshore‑Wind‑Aufträge bei Siemens Gamesa"
+    "Auslieferung neuer Gasturbinen im zweiten Quartal",
+    "Auftragszuwachs im Grid‑Technologies‑Segment durch europäische Infrastrukturprogramme",
+    "Verbesserte Lieferfähigkeit und neue Aufträge für Siemens Gamesa‑Windturbinen nach Technologierevision"
    ]
   },
   "RHM.DE": {
@@ -454,11 +455,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "35.5 Mrd"
+     "35.7 Mrd"
     ],
     [
      "KGV (erw.)",
-     "15,3"
+     "15,4"
     ],
     [
      "Umsatzwachstum",
@@ -491,12 +492,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Dafür spricht das robuste Umsatzwachstum von +36 % und ein moderates erwartetes KGV von 15,3, was im Vergleich zur Branche attraktiv erscheint. Die Mehrheit der Analysten (17 Käufe) bewertet das Unternehmen positiv, und die breite Aufstellung in Fahrzeug‑, Waffen‑ und Elektronik‑Segmenten bietet mehrere Wachstumstreiber.",
-   "dagegen": "Dagegen steht das hohe Abhängigkeitsrisiko von staatlichen Rüstungsetats, das bei politischen oder wirtschaftlichen Änderungen volatil werden kann. Die Bewertung könnte angesichts des aktuellen Kurs‑Ziels von 1.328 EUR überhöht sein, wenn das Wachstum nicht nachhaltig bleibt. Zudem fehlt es an Insider‑Signals und breiter Markt‑Aufmerksamkeit.",
+   "dafuer": "Rheinmetall verzeichnet ein Umsatzwachstum von 36 % und ein erwartetes KGV von 15,4, was im Vergleich zur Branche moderat erscheint. Die Analysten‑Stimmungs‑Bilanz ist mit 17 Kauf‑ und 5 Halte‑Empfehlungen stark positiv. Das Unternehmen profitiert von steigenden Rüstungsausgaben in Europa und Nordamerika.",
+   "dagegen": "Die Quellenlage ist dünn: kaum Reddit‑Diskussion, keine Newsletter‑Analyse und keine Insider‑Meldungen, was die Transparenz einschränkt. Rheinmetall ist stark von staatlichen Rüstungsetats abhängig; bei politischen Kurswechseln oder Budgetkürzungen könnte die Auftragslage sinken. Das Kursziel von 1.328 € basiert auf optimistischen Annahmen.",
    "katalysatoren": [
-    "Veröffentlichung der Quartalszahlen Q3 2024",
-    "Zuteilung neuer Rüstungsaufträge (z. B. Leopard‑2‑Modernisierung)",
-    "Erhöhung der Verteidigungsbudgets in EU‑ und US‑Staaten"
+    "Verkauf neuer Leopard‑2‑Kampffahrzeuge an die Bundeswehr (geplanter Liefertermin 2025)",
+    "Auftrag für elektronische Verteidigungssysteme im Nahen Osten (Vertrag 2024)",
+    "Erhöhung der Verteidigungsbudgets in den USA und EU (Jahresbudget 2025)"
    ]
   },
   "ASML.AS": {
@@ -507,11 +508,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "476.7 Mrd"
+     "492.1 Mrd"
     ],
     [
      "KGV (erw.)",
-     "21,9"
+     "22,6"
     ],
     [
      "Umsatzwachstum",
@@ -544,12 +545,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Dafür spricht die stark positive Analystenmeinung (38 Kauf, 2 Halten, 1 Verkauf) und das beeindruckende Umsatzwachstum von +55 % bei gleichzeitig führender Position im EUV‑Lithografie‑Markt. Das Kursziel von 2.096 € impliziert weiteres Aufwärtspotenzial.",
-   "dagegen": "Dagegen spricht das relativ hohe KGV von 21,9, das bei einem bereits stark bewerteten Marktwert von 476,7 Mrd. € auf eine mögliche Überbewertung hindeutet. Die Nachfrage nach Lithografie‑Equipment ist konjunkturell abhängig; ein Abschwung im Halbleitermarkt könnte das Wachstum bremsen.",
+   "dafuer": "ASML verzeichnet ein starkes Umsatzwachstum von +55 % und hält eine marktführende Position im EUV‑Lithographiesegment. 38 Analysten empfehlen Kauf, das Kursziel von 2 096 EUR liegt deutlich über dem aktuellen Kurs, was Aufwärtspotenzial signalisiert. Das forward‑KGV von 22,6 erscheint im Vergleich zu Peer‑Unternehmen moderat.",
+   "dagegen": "Das forward‑KGV von 22,6 kann als relativ hoch bewertet werden, insbesondere bei möglicher Abschwächung der Chipnachfrage. Trotz breiter Analysten‑Buy‑Meinung gibt es einen Gegenstimme‑Verkauf, was auf Unsicherheit hinweist. Fehlende Insider‑Transaktionen und das Fehlen von Short‑Positionen lassen das Risiko schwer quantifizierbar erscheinen.",
    "katalysatoren": [
-    "Q4‑2026 Ergebnisbericht mit EUV‑Absatzzahlen",
-    "Auslieferung des nächsten High‑NA‑EUV‑Systems (NA‑2) im ersten Halbjahr 2027",
-    "Neue Großaufträge von TSMC oder Samsung im Rahmen steigender KI‑Chip‑Nachfrage"
+    "Q4‑Ergebnisbericht (Umsatz‑ und Margenentwicklung)",
+    "Einführung des nächsten EUV‑Systems (NXE:3400B) und Kundenbestellungen",
+    "Entscheidende Aufträge von TSMC/Samsung im Rahmen von KI‑ und HPC‑Fertigungsplänen"
    ]
   },
   "SU.PA": {
@@ -560,11 +561,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "139.0 Mrd"
+     "141.1 Mrd"
     ],
     [
      "KGV (erw.)",
-     "18,8"
+     "19,1"
     ],
     [
      "Umsatzwachstum",
@@ -582,7 +583,7 @@
     ],
     [
      "Newsletter",
-     "in 6 Clustern"
+     "in 10 Clustern"
     ],
     [
      "Reddit",
@@ -613,7 +614,7 @@
     ],
     [
      "KGV (erw.)",
-     "29,9"
+     "30,1"
     ],
     [
      "Umsatzwachstum",
@@ -631,7 +632,7 @@
     ],
     [
      "Newsletter",
-     "in 1 Clustern"
+     "nicht erwaehnt"
     ],
     [
      "Reddit",
@@ -646,13 +647,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Dafür spricht das starke Umsatzwachstum von 27 % und das breite Produktportfolio in Power, Wind und Electrification, das globale Marktpotenzial nutzt. Der Forward‑KGV von 29,9 liegt im Branchendurchschnitt, die Analystenmeinung ist überwiegend positiv (32 Kauf‑Empfehlungen).",
-   "dagegen": "Entgegen steht, dass Insider in den letzten Monaten vier Verkäufe meldeten, was auf Bedenken hinsichtlich der Bewertung oder operativer Risiken hindeuten kann. Reddit‑Nutzer erwähnen das Unternehmen kaum, was auf geringes Marktinteresse schließen lässt. Der Kursziel von 1176 USD impliziert ein hohes Aufwärtspotenzial, das bereits im aktuellen Kurs eingepreist sein könnte.",
-   "katalysatoren": [
-    "Veröffentlichung der nächsten Quartalszahlen (Q3 2024)",
-    "Abschluss großer Offshore‑Windprojekte in Europa",
-    "Genehmigung neuer Kernkraftwerke in den USA"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "CCJ": {
    "ticker": "CCJ",
@@ -674,7 +671,7 @@
     ],
     [
      "Kursziel",
-     "115 USD"
+     "116 USD"
     ]
    ],
    "quellen": [
@@ -748,9 +745,13 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "Die Analysten‑Stimmung ist überwiegend positiv (18 Kauf‑, 4 Halte‑, 1 Verkauf‑Empfehlungen). Das Unternehmen weist ein niedriges KGV von 13,1 und ein Umsatzwachstum von 8 % auf. Steigende Kupfernachfrage und robuste Cash‑Flows aus den US‑Minen stärken das Bild.",
+   "dagegen": "Insider‑Transaktionen zeigen 8 Verkäufe bei keinen Käufen, was auf ein mögliches negatives Signal hindeutet. Zudem besteht geopolitisches Risiko am indonesischen Grasberg‑Projekt und die Bewertung könnte angesichts hoher Kapitalintensität überbewertet sein. Medien‑ und Reddit‑Präsenz ist gering.",
+   "katalysatoren": [
+    "Entwicklung und Freigabe der Grasberg‑Erweiterung in Indonesien",
+    "Steigende Kupferpreise und damit verbundene Margenverbesserungen",
+    "Kostenoptimierungsprogramme an den US‑Minen (Morenci, Bagdad)"
+   ]
   },
   "NVDA": {
    "ticker": "NVDA",
@@ -764,7 +765,7 @@
     ],
     [
      "KGV (erw.)",
-     "9,8"
+     "9,6"
     ],
     [
      "Umsatzwachstum",
@@ -1185,6 +1186,6 @@
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 161,
+ "meldungen_gesamt": 176,
  "llm_aktiv": false
 }
