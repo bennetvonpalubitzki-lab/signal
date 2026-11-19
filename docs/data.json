@@ -1,9 +1,9 @@
 {
- "stand": "2026-11-19T00:50",
- "lauf": "2026111900",
+ "stand": "2026-11-19T13:42",
+ "lauf": "2026111913",
  "synthese": {
-  "kern": "Markt fokussiert auf Inflation und Zinsdruck, übersieht das kombinierte Risiko aus geopolitischer Unsicherheit und schwacher Liquidität.",
-  "erlaeuterung": "Während die Daten auf hohen Inflationsdruck und zurückgehenden Risikoappetit hinweisen, bleibt die geringe Liquidität in Europa unterschätzt. Zusätzlich verstärken geopolitische Spannungen und ein historischer IPO die Unsicherheit, was die Marktstimmung weiter belastet."
+  "kern": "Technologie‑Hype dominiert, während schwache Liquidität und fallender Risikoappetit vom Markt kaum beachtet werden.",
+  "erlaeuterung": "AI‑IPO und KI‑Investitionen lenken die Aufmerksamkeit, doch die Regimewerte zeigen geringe Geldverfügbarkeit. Damit könnten überbewertete Aktien und M&A‑Deals bei gleichzeitigem Liquiditätsengpass zu Kurskorrekturen führen."
  },
  "regime": [
   {
@@ -26,8 +26,8 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 80,
-     "delta": -5
+     "wert": 78,
+     "delta": -2
     }
    }
   },
@@ -36,12 +36,12 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 63,
-     "delta": -2
+     "wert": 65,
+     "delta": -4
     },
     "eur": {
-     "wert": 73,
-     "delta": -5
+     "wert": 75,
+     "delta": -7
     }
    },
    "differenz": 10
@@ -51,8 +51,8 @@
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 13,
-     "delta": -22
+     "wert": 17,
+     "delta": -13
     }
    }
   },
@@ -77,37 +77,97 @@
    "spuren": {
     "glob": {
      "wert": 77,
-     "delta": -2
+     "delta": -1
     }
    }
   }
  ],
  "cluster": [
   {
-   "id": "1b4c20cb",
-   "titel": "Deutsche Bank: So stimmt die Bank Mitarbeitende auf die Berichterstattung ein",
-   "anriss": "Die Deutsche Bank hat intern Empfehlungen veröffentlicht, wie Angestellte nach den Enthüllungen von SPIEGEL und weiteren Medien mit kritischen Kundenfragen umgehen können. Darunter entlädt sich auch Unmut.",
+   "id": "b4d31c92",
+   "titel": "Nikkei, Topix, CSI 300: Asiens Börsen profitieren von Anthropic-Börsengang",
+   "anriss": "Der Entwickler des KI-Assistenten Claude knackt den IPO-Rekord von SpaceX. Zu den klaren Gewinnern in Tokio zählt zum Verkaufsstart des Videospiels „GTA VI“ Sony.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "Handelsblatt Finanzen",
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "heise",
+    "manager magazin"
+   ],
+   "anzahl": 11,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-topix-csi-300-asiens-boersen-profitieren-von-anthropic-boersengang/100271133.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/aktien/anthropic-fuenf-ueberraschende-fakten-zum-rekord-boersengang/100270457.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/boersengang-anthropic-uebertrifft-ipo-rekord-von-spacex/100270370.html",
+    "https://www.tagesschau.de/wirtschaft/unternehmen/anthropic-boersengang-aktie-100.html",
+    "https://www.spiegel.de/wirtschaft/unternehmen/anthropic-europaeische-industrie-zweifelt-am-nutzen-superintelligenter-ki-a-fbad94cf-be43-4ef9-99b8-1cf03479a0b1#ref=rss"
+   ],
+   "punkte": 37,
+   "text": "Der KI‑Entwickler Anthropic hat mit seinem Börsengang in Tokio einen neuen Rekord aufgestellt, was die Kurse asiatischer Technologie‑ und KI‑Aktien nach oben treiben lässt. Zusätzlich profitiert Sony von der Verkaufsstart‑Freigabe von „GTA VI“ in Japan, was das Entertainment‑Segment unterstützt.",
+   "positiv": [
+    "Asiatische Technologie‑Aktien (↑)",
+    "KI‑Aktien (↑)",
+    "Sony / Entertainment‑Aktien (↑)"
+   ],
+   "negativ": []
+  },
+  {
+   "id": "14ab14ab",
+   "titel": "Banken: Bund und Unicredit einigen sich bei Commerzbank-Übernahme",
+   "anriss": "Unicredit macht Zusagen zum Standort Deutschland. Der Bund gibt seine Forderung nach Sitzen im Aufsichtsrat auf. Betriebsratschef Uebel sieht eine Basis, „jahrelange Gefechte“ zu vermeiden.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "Handelsblatt Finanzen",
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 5,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/banken-bund-und-unicredit-einigen-sich-bei-commerzbank-uebernahme/100271077.html",
+    "https://www.tagesschau.de/wirtschaft/unternehmen/unicredit-bundesregierung-100.html",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-black-week-gmx-und-web-de-warnen-vor-spam-mails-faz-200452404.html",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/commerzbank-besser-mit-unicredit-ohne-staat-201697515.html",
+    "https://www.manager-magazin.de/unternehmen/banken/commerzbank-bundesregierung-und-unicredit-sind-sich-bei-uebernahme-einig-a-8663353a-b240-475a-b574-8ea62e14f0eb#ref=rss"
+   ],
+   "punkte": 19,
+   "text": "Der Bund und die Unicredit haben sich über die Übernahme der Commerzbank geeinigt; Unicredit sichert sich damit einen stärkeren Standort Deutschland, während der Bund auf ein Aufsichtsratssitz‑Recht verzichtet. Der Betriebsrat sieht die Einigung als Chance, langjährige Konflikte zu beenden.",
+   "positiv": [
+    "Unicredit / italienische Banken (↑)",
+    "Deutsche Banken‑Konsolidierung (↑)"
+   ],
+   "negativ": [
+    "Commerzbank‑Aktionäre (unsicher, potenziell ↓)"
+   ]
+  },
+  {
+   "id": "3b5ae8db",
+   "titel": "Marktbericht: Deutsche Telekom steigt bei KI-Start-up Mistral ein",
+   "anriss": "Unternehmen und Behörden sollen durch eine Beteiligung der Telekom am französischen Start-up Mistral mit \"vertrauenswürdiger KI aus Europa\" versorgt werden. Der Rekord-Börsengang von Anthropic stabilisiert derweil den DAX.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
     "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 9,
+   "anzahl": 5,
    "links": [
-    "https://www.spiegel.de/wirtschaft/unternehmen/deutsche-bank-so-stimmt-die-bank-mitarbeitende-auf-die-berichterstattung-ein-a-eb701341-d665-4e23-9db1-335d39547474#ref=rss",
-    "https://www.spiegel.de/wirtschaft/unternehmen/deutsche-bank-und-ruestung-wie-das-geldhaus-lernte-die-bomben-zu-lieben-a-089adde5-f23c-4544-9fbb-5e66e13bce6b#ref=rss",
-    "https://www.spiegel.de/wirtschaft/unternehmen/aldi-wie-die-deutsche-bank-dem-milliardenschweren-aldi-clan-die-steuern-kleinrechnete-a-f913f562-d1e7-480b-8957-063d3dad3f52#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/deutsche-bank-hat-christian-sewing-die-kultur-wirklich-verbessert-201693184.html",
-    "https://www.manager-magazin.de/unternehmen/banken/deutsche-bank-leak-die-brisanten-deals-mit-deutschlands-milliardaeren-a-90fbfafd-854e-4608-87d1-b470757e984e#ref=rss"
+    "https://www.tagesschau.de/wirtschaft/finanzen/mistral-telekom-ki-anthropic-marktbericht-100.html",
+    "https://www.spiegel.de/wirtschaft/unternehmen/deutsche-telekom-steigt-bei-europas-ki-hoffnung-mistral-ein-a-d3e7a956-a3eb-4eec-8f7e-0366020961bc#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/telekom-steigt-mit-100-millionen-euro-bei-ki-firma-mistral-ein-accg-201697612.html",
+    "https://www.manager-magazin.de/unternehmen/tech/deutsche-telekom-und-sap-holger-friedrichs-greift-deutschland-app-mit-eigener-d-app-an-a-34b389b5-2164-4d37-b5c7-a6a699630410#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/tech/deutsche-telekom-steigt-bei-ki-hoffnungstraeger-mistral-ein-a-35783f0c-3de6-4218-970f-662e5d92eff1#ref=rss"
    ],
-   "punkte": 24,
-   "text": "Die Deutsche Bank hat intern Leitlinien veröffentlicht, wie Mitarbeitende nach den Enthüllungen von SPIEGEL und anderen Medien auf kritische Kundenfragen reagieren sollen. Die Maßnahme zielt darauf ab, Reputationsrisiken zu steuern, liefert jedoch keinen Hinweis auf konkrete finanzielle Auswirkungen.",
-   "positiv": [],
-   "negativ": [
-    "Deutsche Bank",
-    "Bankensektor"
-   ]
+   "punkte": 18,
+   "text": "Die Deutsche Telekom erhöht ihr Engagement im KI‑Sektor durch eine Beteiligung am französischen Start‑up Mistral, das vertrauenswürdige KI‑Lösungen aus Europa anbietet. Die Beteiligung soll sowohl das eigene Produktportfolio als auch die Nachfrage von Unternehmen und Behörden stärken.",
+   "positiv": [
+    "Deutsche Telekom (↑)",
+    "Europäische KI‑Start‑ups (↑)"
+   ],
+   "negativ": []
   },
   {
    "id": "008f59d5",
@@ -117,171 +177,153 @@
    "quellen": [
     "FAZ Wirtschaft",
     "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "heise"
+    "Tagesschau Wirtschaft"
    ],
-   "anzahl": 6,
+   "anzahl": 5,
    "links": [
     "https://www.tagesschau.de/inland/innenpolitik/was-bringt-stromsteuer-senkung-koalitionsausschuss-100.html",
     "https://www.tagesschau.de/inland/innenpolitik/koalitionsausschuss-einigung-stromsteuer-spritpreisdeckel-100.html",
-    "https://www.spiegel.de/wirtschaft/soziales/stromsteuer-runter-spritpreisdeckel-ab-2027-das-bringen-ihnen-die-neuen-entlastungen-a-7a13da31-0fe1-40ea-a60c-457fef341154#ref=rss",
+    "https://www.spiegel.de/wirtschaft/service/stromsteuer-senkung-gutverdiener-haushalte-profitieren-laut-rwth-aachen-am-meisten-a-30e17f86-1948-41f9-9d80-19ef1b477653#ref=rss",
     "https://www.faz.net/aktuell/wirtschaft/stromsteuer-und-tankdeckel-erfolg-fuer-friedrich-merz-201693627.html",
     "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/koalitionseinigung-wer-von-stromsteuer-und-spritpreisdeckel-profitiert-201694358.html"
    ],
-   "punkte": 20,
-   "text": "Ab Januar senken Union und SPD die Stromsteuer für ein Jahr auf das europäische Mindestniveau und führen einen Spritpreisdeckel ein. Die Entlastungen erhöhen die Kaufkraft der privaten Haushalte, während Energieversorger und Ölunternehmen mit geringeren Einnahmen rechnen müssen.",
+   "punkte": 16,
+   "text": "Ab Januar senken Union und SPD die Stromsteuer auf das EU‑Mindestniveau für ein Jahr und führen einen Spritpreisdeckel ein, was die privaten Haushalte entlasten soll. Die Maßnahmen reduzieren staatliche Einnahmen und können die Margen von Energie‑ und Mineralölunternehmen belasten.",
    "positiv": [
-    "Privathaushalte",
-    "Verbraucher"
+    "Privathaushalte (↑ Kaufkraft)"
    ],
    "negativ": [
-    "Stromanbieter",
-    "Öl- und Kraftstoffunternehmen"
+    "Strom‑ und Mineralölunternehmen (↓)"
    ]
   },
   {
-   "id": "966ee7cd",
-   "titel": "Erstnotiz: Historischer IPO – Anthropic sammelt 81 Milliarden Dollar ein",
-   "anriss": "Der KI-Entwickler hat seinen Ausgabepreis auf 83 Dollar je Aktie angehoben und sammelt über 81 Milliarden Dollar ein – mehr als SpaceX. Es ist der größte Börsengang aller Zeiten.",
+   "id": "90d99e8b",
+   "titel": "Welche Erwartungen die Gaming-Branche mit GTA VI verbindet",
+   "anriss": "Die Entwicklung des Videospiels \"Grand Theft Auto VI\" dürfte eine Milliardensumme gekostet haben - womit es das bislang teuerste Produkt der Unterhaltungsindustrie ist. Die gesamte Branche erhofft sich davon einen Schub. Von C. Prössl.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
-    "Handelsblatt Finanzen",
-    "SPIEGEL Wirtschaft",
-    "heise"
-   ],
-   "anzahl": 5,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/erstnotiz-historischer-ipo-anthropic-sammelt-81-milliarden-dollar-ein/100270370.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/boersengang-vor-mega-ipo-warum-anthropic-in-die-kostenfalle-tappen-koennte/100270298.html",
-    "https://www.spiegel.de/wirtschaft/unternehmen/anthropic-boersengang-ausgabepreis-von-83-dollar-je-aktie-festgelegt-a-816300aa-dd4b-44d5-90cd-f7f5403e3b35#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/anthropic-aktie-soll-laut-berichten-83-dollar-kosten-201696457.html",
-    "https://www.heise.de/news/KI-Update-kompakt-Destillation-Anthropics-Boersengang-OpenAI-Klage-IdeaLens-11528179.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 20,
-   "text": "Der KI‑Entwickler Anthropic hat mit einem Ausgabepreis von 83 USD pro Aktie einen Börsengang von rund 81 Mrd. USD abgeschlossen – der bislang größte IPO. Der Erfolg stärkt das Kapital für das Unternehmen und kann das Interesse an KI‑Aktien insgesamt beflügeln.",
-   "positiv": [
-    "Anthropic",
-    "KI‑Branche",
-    "Technologie‑Aktien"
-   ],
-   "negativ": []
-  },
-  {
-   "id": "203e9f65",
-   "titel": "Wie riskant ist Nvidias Kurssturz für ETF-Sparer?",
-   "anriss": "Nach dem Rücktritt von Jensen Huang hat die Nvidia-Aktie massiv an Wert verloren. Weil sie im MSCI World gelistet ist, betrifft das viele ETF-Sparer. Wie schwer der Kursrutsch wiegt - und wo jetzt weitere Gefahren lauern. Von Angela Göpfert.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 5,
+   "anzahl": 4,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/finanzen/nvidia-kurssturz-etf-sparer-risiken-100.html",
-    "https://www.tagesschau.de/wirtschaft/unternehmen/nvidia-huang-rueckkehr-100.html",
-    "https://www.spiegel.de/wirtschaft/unternehmen/nvidia-jensen-huang-konzern-verkauft-keine-ki-chips-mehr-nach-china-a-e59ab63e-68d8-48c0-9f9b-5621595d27a2#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/kuenstliche-intelligenz/jensen-huang-scheitert-mit-comeback-nvidia-setzt-auf-colette-kress-201692999.html",
-    "https://www.manager-magazin.de/unternehmen/tech/nvidia-stellt-umsatz-ueber-den-erwartungen-in-aussicht-a-107346fa-fb4d-4779-a965-f7ae0c86964b#ref=rss"
+    "https://www.tagesschau.de/wirtschaft/digitales/gta-rockstar-games-100.html",
+    "https://www.tagesschau.de/wirtschaft/unternehmen/spiele-gta-sechs-neuerscheinung-100.html",
+    "https://www.faz.net/aktuell/wirtschaft/gta-6-warum-gibt-es-keinen-deutschen-videospiel-blockbuster-201687565.html",
+    "https://www.manager-magazin.de/unternehmen/tech/gta-vi-erste-kritiken-treiben-aktie-von-entwickler-take-two-an-a-67450681-a8fc-4d64-b391-14ba9d32f6db#ref=rss"
    ],
-   "punkte": 18,
-   "text": "Nach dem Rücktritt von CEO Jensen Huang hat die Nvidia‑Aktie stark an Wert verloren, was insbesondere MSCI‑World‑ETFs belastet, die die Aktie enthalten. Der Kursrückgang wirkt sich negativ auf Technologie‑ und Halbleiter‑Sektoren aus, während Short‑Positionen profitieren könnten.",
-   "positiv": [],
-   "negativ": [
-    "Nvidia",
-    "Technologie‑Sektor",
-    "MSCI‑World‑ETFs"
-   ]
-  },
-  {
-   "id": "58fd5859",
-   "titel": "Großbritannien: Britische Inflation steigt auf Jahreshoch von 3,6 Prozent",
-   "anriss": "Die Bank of England erwartet die Inflation im Laufe des nächsten Jahres bei fast fünf Prozent. Marktteilnehmer rechnen daher fest mit mehreren Zinserhöhungen.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/geldpolitik/grossbritannien-britische-inflation-steigt-auf-jahreshoch-von-36-prozent/100270860.html",
-    "https://www.tagesschau.de/wirtschaft/finanzen/inflation-interview-bundesbankpraesident-nagel-100.html",
-    "https://www.spiegel.de/wirtschaft/gold-preis-feinunze-so-guenstig-wie-seit-14-monaten-nicht-a-21cef3d0-a660-45b0-b04d-ecccf0d4e9d0#ref=rss"
-   ],
-   "punkte": 17,
-   "text": "Die Bank of England erwartet die Inflation im Laufe des nächsten Jahres bei fast fünf Prozent. Marktteilnehmer rechnen daher fest mit mehreren Zinserhöhungen.",
+   "punkte": 14,
+   "text": "Die Entwicklung des Videospiels \"Grand Theft Auto VI\" dürfte eine Milliardensumme gekostet haben - womit es das bislang teuerste Produkt der Unterhaltungsindustrie ist. Die gesamte Branche erhofft sich davon einen Schub.",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "4f51a334",
-   "titel": "Who sees the sea? Sea-view potential by fa\\c{c}ade and floor from cadastral LoD1 models on the Costa del Sol",
-   "anriss": "arXiv:2611.21672v1 Announce Type: new Abstract: Views are among the most valued and least measured attributes of a home. We present an open-data method that estimates the sea-view potential of every free fa\\c{c}ade of every residential building at three floors (ground, middle and top; other floors t",
-   "region": "global",
-   "quellen": [
-    "arXiv q-fin"
-   ],
-   "anzahl": 9,
-   "links": [
-    "https://arxiv.org/abs/2611.21672",
-    "https://arxiv.org/abs/2611.21641",
-    "https://arxiv.org/abs/2611.22033",
-    "https://arxiv.org/abs/2009.00868",
-    "https://arxiv.org/abs/2601.05274"
-   ],
-   "punkte": 15,
-   "text": "arXiv:2611.21672v1 Announce Type: new Abstract: Views are among the most valued and least measured attributes of a home. We present an open-data method that estimates the sea-view potential of every free fa\\c{c}ade of ev",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "cce0df2f",
-   "titel": "EZB: Bestätigt – Inflation im Euro-Raum steigt im Oktober auf 4,0 Prozent",
-   "anriss": "Treiber für den Anstieg der Teuerung sind die hohen Energiepreise. EZB-Chefvolkswirt Philip Lane stellt die Märkte darauf ein, dass der Preisdruck vorerst hoch bleibt.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "Tagesschau Wirtschaft"
-   ],
-   "anzahl": 2,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/geldpolitik/ezb-bestaetigt-inflation-im-euro-raum-steigt-auf-40-prozent/100270907.html",
-    "https://www.tagesschau.de/wirtschaft/finanzen/bundesregierung-ezb-chefvolkswirt-100.html"
-   ],
-   "punkte": 13,
-   "text": "Treiber für den Anstieg der Teuerung sind die hohen Energiepreise. EZB-Chefvolkswirt Philip Lane stellt die Märkte darauf ein, dass der Preisdruck vorerst hoch bleibt.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "2e0220c8",
-   "titel": "Immobilien: Zahl der Baugenehmigungen bricht nach starkem Anstieg ein",
-   "anriss": "In den vergangenen Monaten waren die Baugenehmigungen stark gestiegen, nun geht es wieder bergab. Neben den Energiekosten macht sich auch das Zinsniveau bemerkbar.",
+   "id": "eb7df1f1",
+   "titel": "Deutsche Bank: Grüne drängen auf Untersuchung durch Sicherheitsgremium",
+   "anriss": "Das gewaltige Datenleak bei der Deutschen Bank alarmiert Sicherheitspolitiker. Die Grünen drängen auf eine Untersuchung durch einen Kabinettsausschuss, ein CDU-Politiker pocht auf striktere Standards.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
-    "Handelsblatt Finanzen",
-    "Tagesschau Wirtschaft"
+    "SPIEGEL Wirtschaft",
+    "manager magazin"
    ],
-   "anzahl": 3,
+   "anzahl": 4,
    "links": [
-    "https://www.handelsblatt.com/finanzen/immobilien/immobilien-zahl-der-baugenehmigungen-bricht-nach-starkem-anstieg-ein/100270855.html",
-    "https://www.tagesschau.de/wirtschaft/konjunktur/wohnungsbau-september-100.html",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/baugenehmigungen-in-deutschland-brechen-im-september-ein-201694683.html"
+    "https://www.spiegel.de/wirtschaft/unternehmen/deutsche-bank-leak-gruene-verlangen-einberufung-des-nationalen-sicherheitsrats-a-2f07df9d-87d1-440d-9f24-1e90751c2883#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/mercedes-benz-unter-druck-us-kongress-fordert-vertraege-und-vorstandsnotizen-201694477.html",
+    "https://www.manager-magazin.de/unternehmen/banken/deutsche-bank-gruene-draengen-auf-untersuchung-durch-sicherheitsgremium-a-0926caf1-dacc-424b-a7fe-30d6b66a17e0#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/mobilitaet/us-ausschuss-nimmt-mercedes-wegen-china-verbindung-in-die-zange-a-7e752139-1b01-4362-bfa4-69341bb3a383#ref=rss"
    ],
-   "punkte": 13,
-   "text": "In den vergangenen Monaten waren die Baugenehmigungen stark gestiegen, nun geht es wieder bergab. Neben den Energiekosten macht sich auch das Zinsniveau bemerkbar.",
+   "punkte": 14,
+   "text": "Das gewaltige Datenleak bei der Deutschen Bank alarmiert Sicherheitspolitiker. Die Grünen drängen auf eine Untersuchung durch einen Kabinettsausschuss, ein CDU-Politiker pocht auf striktere Standards.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "c88ba9e8",
+   "titel": "Tesla-Fabrik in Grünheide: Was hinter dem jüngsten Milliardenversprechen steckt",
+   "anriss": "Deutsche Autobauer beklagen Standortschwächen, Tesla will Milliarden in Brandenburg investieren. Politiker feiern die Ankündigung als Aufbruchssignal. Dabei erneuert der Konzern vor allem alte Versprechen.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.spiegel.de/wirtschaft/unternehmen/tesla-fabrik-in-gruenheide-was-hinter-dem-juengsten-milliardenversprechen-steckt-a-274340c0-88db-40c0-b4b6-508200b5c16d#ref=rss",
+    "https://www.spiegel.de/wirtschaft/andre-thierig-strafbefehl-gegen-tesla-werksleiter-in-gruenheide-erlassen-a-eb920848-0f46-4d31-a3b9-91447b5764ae#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/gruenheide-amtsgericht-erlaesst-strafbefehl-gegen-tesla-werkleiter-201696191.html",
+    "https://www.manager-magazin.de/unternehmen/tesla-strafbefehl-gegen-werksleiter-in-gruenheide-erlassen-a-cc24f0b6-ae3e-4878-8c80-21b69366ca77#ref=rss"
+   ],
+   "punkte": 14,
+   "text": "Deutsche Autobauer beklagen Standortschwächen, Tesla will Milliarden in Brandenburg investieren. Politiker feiern die Ankündigung als Aufbruchssignal. Dabei erneuert der Konzern vor allem alte Versprechen.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "56798e7b",
+   "titel": "How the European Commission rolled out Matrix to more than 40k staff",
+   "anriss": "Article URL: https://element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff/ Comments URL: https://news.ycombinator.com/item?id=50558533 Points: 235 # Comments: 91",
+   "region": "global",
+   "quellen": [
+    "Hacker News Top"
+   ],
+   "anzahl": 12,
+   "links": [
+    "https://element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff/",
+    "https://kapteko.com/15-million-webservers/",
+    "https://verialabs.com/ruby2shell/",
+    "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/",
+    "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+   ],
+   "punkte": 14,
+   "text": "Article URL: https://element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff/ Comments URL: https://news.ycombinator.com/item?id=50558533 Points: 235 # Comments: 91",
    "positiv": [],
    "negativ": []
   }
  ],
- "ketten": [],
+ "ketten": [
+  {
+   "ausloeser": "EU‑Kommission genehmigt im Q4 2026 ein 5 Mrd. €‑Förderprogramm für KI‑Start‑ups, inkl. einer direkten Beteiligung an Mistral",
+   "direkt": "Mistral erhält signifikante Eigenkapitalzufuhr, Bewertung steigt, Partnerschaften mit Telekom‑Netzbetreibern werden ausgeweitet",
+   "zweite": "Erhöhte Nachfrage nach Hochleistungs‑Halbleitern und Netzwerk‑Equipment, europäische Chip‑ und Halbleiterausrüster profitieren von Auftragszuwachs",
+   "dritte": "Telekommunikations‑ und Infrastruktur‑Investitionen in 5G‑ und KI‑Netze steigen, Bau‑ und Energieunternehmen erhalten größere Aufträge für Netz‑ und Strom‑infrastruktur",
+   "positiv": [
+    "Deutsche Telekom AG",
+    "ASML Holding NV",
+    "Infineon Technologies AG",
+    "Hochtief AG",
+    "E.ON SE"
+   ],
+   "negativ": [
+    "ProSiebenSat.1 Media SE (Konkurrenz zu KI‑Content‑Anbietern)",
+    "Deutsche Bank AG (geringere KI‑Fokus‑Investitionen)"
+   ],
+   "konfidenz": "mittel"
+  },
+  {
+   "ausloeser": "Bund und Unicredit schließen im November 2026 die Übernahme der Commerzbank durch Unicredit",
+   "direkt": "Commerzbank‑Aktie steigt kurzfristig, Unicredit‑Aktie passt sich an, Synergie‑ und Kosteneinsparungs‑Prognosen werden veröffentlicht",
+   "zweite": "Konsolidierung im deutschen Bankenmarkt reduziert den Wettbewerb im Mittelstandskreditgeschäft, Zinsmargen für SME‑Kredite steigen, was Banken mit starkem SME‑Portfolio zugutekommt",
+   "dritte": "Höhere Kreditkosten erhöhen die Finanzierungskosten für exportorientierte Industrieunternehmen, deren Margen unter Druck geraten",
+   "positiv": [
+    "UniCredit S.p.A.",
+    "Banco Santander S.A.",
+    "ING Groep N.V."
+   ],
+   "negativ": [
+    "Commerzbank AG (Integrationsrisiko)",
+    "Siemens AG",
+    "Volkswagen AG"
+   ],
+   "konfidenz": "niedrig"
+  }
+ ],
  "gegenthese": {
-  "konsens": "Die Märkte sehen bei Steuerentlastungen leichte Konsum‑Stimulation, DB‑Bericht ändert Profitabilität kaum, Anthropic‑IPO bestätigt KI‑Interesse, Nvidia‑Einbruch belastet ETFs moderat, UK‑Inflation erhöht Zins‑Druck, EZB‑Inflation stärkt Ausblick, Baugenehmigungen‑Rückgang weist Immobilien‑Abschwächung.",
-  "gegen": "Ein Gegenargument ist, dass die Steuerentlastungen kaum Konsum anregen, weil Haushalte sparen; das DB‑Reporting verbirgt mögliche Kreditausfälle; Anthropic ist überbewertet; Nvidia‑Einbruch könnte breitere Tech‑Verluste auslösen; UK‑Inflation könnte temporär sein; EZB‑Prognose übertrieben; Baugenehmigungen‑Rückgang ist saisonal."
+  "konsens": "Markt sieht kurzfristig Aufwärtsmomentum durch AI‑IPO‑Boom, Banken‑M&A und fiskalische Entlastungen; Risiko bleibt überhitzte Bewertungen und regulatorische Unsicherheiten.",
+  "gegen": "Gegenargument: Die Begeisterung könnte überbewertet sein, weil AI‑Geschäfte noch unprofitabel, M&A‑Risiken, Inflationsdruck und politische Gegenreaktionen (Umwelt‑ und Steuerpolitik) die Kurse belasten."
  },
  "matrix": [
   {
@@ -398,11 +440,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "107.8 Mrd"
+     "110.8 Mrd"
     ],
     [
      "KGV (erw.)",
-     "14,3"
+     "14,7"
     ],
     [
      "Umsatzwachstum",
@@ -420,7 +462,7 @@
     ],
     [
      "Newsletter",
-     "nicht erwaehnt"
+     "in 1 Clustern"
     ],
     [
      "Reddit",
@@ -435,12 +477,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Das Unternehmen verzeichnet ein Umsatzwachstum von 23 % und ein erwartetes KGV von 14,3, was im Vergleich zum Branchen‑Durchschnitt attraktiv erscheint. Die Analysten‑Meinung ist eindeutig positiv (22 Kauf, 4 Halten, 2 Verkauf). Das Kursziel von 192 € impliziert weiteres Aufwärtspotenzial.",
-   "dagegen": "Trotz des Wachstums belastet Siemens Energy nach wie vor die schwankende Wind‑Turbinen‑Division und mögliche Kostenüberschreitungen bei Großprojekten. Fehlende Insider‑Informationen und kaum Reddit‑Diskussionen deuten auf geringe Markt‑Transparenz hin. Kurzfristige Risiken bleiben durch Lieferketten‑ und Zinsentwicklungen bestehen.",
+   "dafuer": "Dafür spricht ein starkes Umsatzwachstum von +23 % und ein moderates KGV von 14,7, was die Bewertung attraktiv macht. Die Diversifizierung über Gas‑, Grid‑ und Industrie‑Segmente sowie ein robustes Order‑Backlog in Turbinen und digitalen Services unterstützen das Aufwärtspotenzial.",
+   "dagegen": "Dagegen stehen hohe Verschuldung, Lieferverzögerungen bei Siemens Gamesa‑Windturbinen und volatile Energiepreise, die Margen belasten. Zwei Analysten empfehlen Verkauf, was auf Bedenken hinsichtlich der Integration und der Ertragslage hinweist. Fehlende Insider‑Informationen und keine bekannten Shorts deuten auf Unsicherheit hin.",
    "katalysatoren": [
-    "Q3‑Ergebnisbericht mit erwarteter Gewinnsteigerung",
-    "Auslieferung neuer Siemens‑Gamesa‑Turbinen und Zertifizierungen",
-    "Auftragseingänge im Grid‑Technologies‑Segment für erneuerbare‑Energien"
+    "Auslieferung neuer H‑Klasse Gasturbinen 2024/25",
+    "Großauftrag für Netztechnologien zur Integration erneuerbarer Energien",
+    "Veröffentlichung des Restrukturierungs‑ und Kostensenkungsplans"
    ]
   },
   "RHM.DE": {
@@ -451,11 +493,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "34.7 Mrd"
+     "34.1 Mrd"
     ],
     [
      "KGV (erw.)",
-     "15,0"
+     "14,7"
     ],
     [
      "Umsatzwachstum",
@@ -463,7 +505,7 @@
     ],
     [
      "Kursziel",
-     "1328 EUR"
+     "1326 EUR"
     ]
    ],
    "quellen": [
@@ -488,12 +530,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die Mehrheit der Analysten (17 Kauf, 5 Halten) bewertet Rheinmetall positiv, gestützt durch ein starkes Umsatzwachstum von 36 % und ein moderates KGV von 15,0, was im Vergleich zur Branche attraktiv erscheint. Die breite Aufstellung in Fahrzeugsystemen, Waffen und Elektronik profitiert von steigenden Rüstungsausgaben in Europa und den USA.",
-   "dagegen": "Ein Gegenargument ist die hohe Abhängigkeit von staatlichen Rüstungsetats, die bei politischen Änderungen oder Haushaltskürzungen das Ergebnis belasten können. Zudem fehlt es an unabhängigen Informationsquellen – keine Newsletter, kaum Reddit‑Diskussionen und keine Insider‑Meldungen – was die Transparenz einschränkt.",
+   "dafuer": "Rheinmetall profitiert von steigenden Verteidigungsausgaben in Deutschland und Europa, was das Umsatzwachstum von 36 % erklärt. Das Unternehmen verfügt über ein umfangreiches Auftragsbuch in den Segmenten Fahrzeugsysteme und Waffen, und das erwartete KGV von 14,7 liegt unter dem Branchendurchschnitt.",
+   "dagegen": "Die Abhängigkeit von Rüstungsgeschäften erhöht das Risiko politischer und regulatorischer Änderungen. Hohe Bewertung von 1.326 € Kursziel könnte bei schwächerer Auftragslage zu Kursverlusten führen. Zudem fehlt eine nennenswerte Diversifikation in zivilen Märkten, was das Umsatzwachstum begrenzt.",
    "katalysatoren": [
-    "Deutsche Bundeswehr‑Beschaffungsplan 2025",
-    "US‑Verteidigungsbudget‑Entscheidungen 2024",
-    "Veröffentlichung des Q3‑Ergebnisses (voraussichtlich Q3 2026)"
+    "Erhöhung des deutschen Verteidigungsbudgets im kommenden Haushaltsjahr",
+    "Exportgenehmigungen für neue gepanzerte Fahrzeugplattformen",
+    "Veröffentlichung der Quartalszahlen Q3 2026 mit Ausblick auf Auftragslage"
    ]
   },
   "ASML.AS": {
@@ -504,11 +546,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "485.9 Mrd"
+     "504.9 Mrd"
     ],
     [
      "KGV (erw.)",
-     "22,3"
+     "23,2"
     ],
     [
      "Umsatzwachstum",
@@ -541,12 +583,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "ASML profitiert von seiner Monopolstellung im EUV‑Lithografie‑Markt. Das Unternehmen verzeichnet ein starkes Umsatzwachstum von +55 % und ist zentral für die Chip‑Fertigung führender Kunden wie TSMC und Samsung. Die Analysten‑Mehrheit (38 Buy) spiegelt optimistische Erwartungen wider.",
-   "dagegen": "Ein KGV von 22,3 impliziert eine hohe Bewertung, besonders bei zyklischer Nachfrage nach Halbleitern. Ein einzelner Analyst empfiehlt Verkauf, was auf Bedenken hinsichtlich möglicher Abschwächung des Chip‑Marktes hinweist. Fehlende Insider‑Transaktionen und geringe Short‑Aktivität lassen Unsicherheit über zukünftige Kursentwicklung bestehen.",
+   "dafuer": "ASML verzeichnet ein starkes Umsatzwachstum von +55 % und hält eine marktführende Position im EUV‑Lithografiemarkt. Das Kurs‑Gewinn‑Verhältnis von 23,2 ist im High‑Tech‑Umfeld akzeptabel, und 38 Analysten empfehlen Kauf, was das Vertrauen in zukünftige Erträge stärkt.",
+   "dagegen": "Die Bewertung erscheint im Vergleich zu anderen Halbleiter‑Equipment‑Herstellern hoch, und ein einzelner Analyst spricht Verkauf, was auf Bedenken hinsichtlich einer möglichen Abschwächung der Chip‑Nachfrage hinweist. Zudem besteht ein Konzentrationsrisiko, weil ASML stark von wenigen Großkunden abhängig ist.",
    "katalysatoren": [
-    "Q3‑2024 Ergebnisveröffentlichung",
-    "Einführung des High‑NA‑EUV‑Systems",
-    "Ausbau von Kundenkapazitäten bei TSMC und Samsung"
+    "Einführung des nächsten High‑NA‑EUV‑Systems (geplant für 2025)",
+    "Quartalsbericht Q2 2027 mit erwarteten Umsatz‑ und Gewinnzahlen",
+    "Bekanntgabe großer Aufträge von TSMC oder Samsung für neue Fertigungskapazitäten"
    ]
   },
   "SU.PA": {
@@ -557,11 +599,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "139.9 Mrd"
+     "140.9 Mrd"
     ],
     [
      "KGV (erw.)",
-     "18,9"
+     "19,0"
     ],
     [
      "Umsatzwachstum",
@@ -579,7 +621,7 @@
     ],
     [
      "Newsletter",
-     "in 9 Clustern"
+     "in 12 Clustern"
     ],
     [
      "Reddit",
@@ -594,9 +636,13 @@
      "1648,06 % ueber 1700 Halter"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "Die Analysten‑Mehrheit (19 Buy, 4 Hold) bewertet Schneider Electric positiv. Das Unternehmen verzeichnet 10 % Umsatzwachstum, ein moderates KGV von 19 und ein Kursziel von 323 €, was Aufwärtspotenzial suggeriert. Die breite Produktpalette in Energie‑Management und Industrieautomation stärkt die Marktposition.",
+   "dagegen": "Gegenargumente: Die extrem hohe Short‑Interest‑Quote von über 1600 % (1700 Halter) signalisiert starkes Misstrauen. Reddit‑Erwähnungen sind kaum vorhanden, Insider‑Transaktionen fehlen, was Unsicherheit über zukünftige Entwicklungen verstärkt. Das aktuelle KGV könnte bei steigenden Zinsen oder schwächerer Konjunktur überbewertet sein.",
+   "katalysatoren": [
+    "Q3‑Ergebnisveröffentlichung (voraussichtlich Oktober)",
+    "Einführung neuer Microgrid‑Lösungen für Industrie",
+    "EU‑Förderprogramme für Energieeffizienz, die Aufträge erhöhen könnten"
+   ]
   },
   "GEV": {
    "ticker": "GEV",
@@ -667,7 +713,7 @@
     ],
     [
      "Kursziel",
-     "115 USD"
+     "116 USD"
     ]
    ],
    "quellen": [
@@ -761,17 +807,17 @@
     ],
     [
      "Umsatzwachstum",
-     "+106 %"
+     "+103 %"
     ],
     [
      "Kursziel",
-     "254 USD"
+     "247 USD"
     ]
    ],
    "quellen": [
     [
      "Analysten",
-     "46 Kauf / 15 Halten / 2 Verkauf"
+     "45 Kauf / 15 Halten / 2 Verkauf"
     ],
     [
      "Newsletter",
@@ -1178,6 +1224,6 @@
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 168,
- "llm_aktiv": false
+ "meldungen_gesamt": 181,
+ "llm_aktiv": true
 }
