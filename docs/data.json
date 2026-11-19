@@ -1,9 +1,9 @@
 {
- "stand": "2026-11-18T16:02",
- "lauf": "2026111816",
+ "stand": "2026-11-19T00:50",
+ "lauf": "2026111900",
  "synthese": {
-  "kern": "Verdeckte Risiken aus Datenlecks und regulatorischen Eingriffen werden vom Markt unterschätzt.",
-  "erlaeuterung": "Ein Datenleck bei der Deutschen Bank und die jüngsten Kursverluste von Nvidia zeigen, dass Unternehmens‑ und Technologierisiken stärker zunehmen. Gleichzeitig verlangsamen höhere Inflation, sinkende Baugenehmigungen und regulatorische Maßnahmen wie Steuerentlastungen die Marktliquidität, was von Anlegern kaum beachtet wird."
+  "kern": "Markt fokussiert auf Inflation und Zinsdruck, übersieht das kombinierte Risiko aus geopolitischer Unsicherheit und schwacher Liquidität.",
+  "erlaeuterung": "Während die Daten auf hohen Inflationsdruck und zurückgehenden Risikoappetit hinweisen, bleibt die geringe Liquidität in Europa unterschätzt. Zusätzlich verstärken geopolitische Spannungen und ein historischer IPO die Unsicherheit, was die Marktstimmung weiter belastet."
  },
  "regime": [
   {
@@ -40,11 +40,11 @@
      "delta": -2
     },
     "eur": {
-     "wert": 74,
-     "delta": -4
+     "wert": 73,
+     "delta": -5
     }
    },
-   "differenz": 11
+   "differenz": 10
   },
   {
    "name": "risikoappetit",
@@ -84,58 +84,29 @@
  ],
  "cluster": [
   {
-   "id": "4c978eb2",
-   "titel": "Datenleck: Interne Dokumente belasten die Deutsche Bank",
-   "anriss": "Die Schatten der Vergangenheit holen die Deutsche Bank erneut ein. Informationen aus einem Datenleck offenbaren fragwürdige Geschäftspraktiken und mutmaßliche Probleme bei den Kontrollen beim größten deutschen Geldhaus.",
+   "id": "1b4c20cb",
+   "titel": "Deutsche Bank: So stimmt die Bank Mitarbeitende auf die Berichterstattung ein",
+   "anriss": "Die Deutsche Bank hat intern Empfehlungen veröffentlicht, wie Angestellte nach den Enthüllungen von SPIEGEL und weiteren Medien mit kritischen Kundenfragen umgehen können. Darunter entlädt sich auch Unmut.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
     "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 12,
+   "anzahl": 9,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/unternehmen/deutsche-bank-datenleak-100.html",
-    "https://www.tagesschau.de/wirtschaft/finanzen/deutschebank-226.html",
-    "https://www.tagesschau.de/wirtschaft/finanzen/marktbericht-146.html",
     "https://www.spiegel.de/wirtschaft/unternehmen/deutsche-bank-so-stimmt-die-bank-mitarbeitende-auf-die-berichterstattung-ein-a-eb701341-d665-4e23-9db1-335d39547474#ref=rss",
-    "https://www.spiegel.de/wirtschaft/unternehmen/christian-sewing-wie-sich-der-deutsche-bank-chef-an-die-spitze-kaempfte-a-89df9ba3-c6d1-4ebf-b75d-b353e5066448#ref=rss"
+    "https://www.spiegel.de/wirtschaft/unternehmen/deutsche-bank-und-ruestung-wie-das-geldhaus-lernte-die-bomben-zu-lieben-a-089adde5-f23c-4544-9fbb-5e66e13bce6b#ref=rss",
+    "https://www.spiegel.de/wirtschaft/unternehmen/aldi-wie-die-deutsche-bank-dem-milliardenschweren-aldi-clan-die-steuern-kleinrechnete-a-f913f562-d1e7-480b-8957-063d3dad3f52#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/deutsche-bank-hat-christian-sewing-die-kultur-wirklich-verbessert-201693184.html",
+    "https://www.manager-magazin.de/unternehmen/banken/deutsche-bank-leak-die-brisanten-deals-mit-deutschlands-milliardaeren-a-90fbfafd-854e-4608-87d1-b470757e984e#ref=rss"
    ],
-   "punkte": 32,
-   "text": "Ein Datenleck hat interne Dokumente der Deutschen Bank veröffentlicht, die fragwürdige Geschäftspraktiken und Schwächen in den internen Kontrollen aufzeigen. Die Enthüllungen belasten das Vertrauen in die Bank und können den Aktienkurs sowie das Ansehen des deutschen Bankensektors beeinträchtigen.",
+   "punkte": 24,
+   "text": "Die Deutsche Bank hat intern Leitlinien veröffentlicht, wie Mitarbeitende nach den Enthüllungen von SPIEGEL und anderen Medien auf kritische Kundenfragen reagieren sollen. Die Maßnahme zielt darauf ab, Reputationsrisiken zu steuern, liefert jedoch keinen Hinweis auf konkrete finanzielle Auswirkungen.",
    "positiv": [],
    "negativ": [
     "Deutsche Bank",
-    "Deutscher Bankensektor"
-   ]
-  },
-  {
-   "id": "203e9f65",
-   "titel": "Wie riskant ist Nvidias Kurssturz für ETF-Sparer?",
-   "anriss": "Nach dem Rücktritt von Jensen Huang hat die Nvidia-Aktie massiv an Wert verloren. Weil sie im MSCI World gelistet ist, betrifft das viele ETF-Sparer. Wie schwer der Kursrutsch wiegt - und wo jetzt weitere Gefahren lauern. Von Angela Göpfert.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 7,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/finanzen/nvidia-kurssturz-etf-sparer-risiken-100.html",
-    "https://www.tagesschau.de/wirtschaft/unternehmen/nvidia-huang-rueckkehr-100.html",
-    "https://www.spiegel.de/wirtschaft/unternehmen/nvidia-jensen-huang-konzern-verkauft-keine-ki-chips-mehr-nach-china-a-e59ab63e-68d8-48c0-9f9b-5621595d27a2#ref=rss",
-    "https://www.spiegel.de/wirtschaft/unternehmen/nvidia-will-jensen-huang-nicht-als-chef-zurueckholen-a-f28605ac-ea1f-421b-afd9-4649bc8b91e6#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/kuenstliche-intelligenz/jensen-huang-scheitert-mit-comeback-nvidia-setzt-auf-colette-kress-201692999.html"
-   ],
-   "punkte": 22,
-   "text": "Nach dem Rücktritt von CEO Jensen Huang hat die Nvidia‑Aktie stark an Wert verloren, was insbesondere Anleger von MSCI‑World‑ETFs betrifft, die Nvidia enthalten. Der Kursrückgang erhöht das Risiko für Technologie‑ und Halbleiter‑ETFs, während das Unternehmen selbst stark unter Druck steht.",
-   "positiv": [],
-   "negativ": [
-    "Nvidia",
-    "Technologie‑ETFs",
-    "Halbleiter‑ETFs"
+    "Bankensektor"
    ]
   },
   {
@@ -149,116 +120,99 @@
     "Tagesschau Wirtschaft",
     "heise"
    ],
-   "anzahl": 5,
+   "anzahl": 6,
    "links": [
     "https://www.tagesschau.de/inland/innenpolitik/was-bringt-stromsteuer-senkung-koalitionsausschuss-100.html",
     "https://www.tagesschau.de/inland/innenpolitik/koalitionsausschuss-einigung-stromsteuer-spritpreisdeckel-100.html",
     "https://www.spiegel.de/wirtschaft/soziales/stromsteuer-runter-spritpreisdeckel-ab-2027-das-bringen-ihnen-die-neuen-entlastungen-a-7a13da31-0fe1-40ea-a60c-457fef341154#ref=rss",
     "https://www.faz.net/aktuell/wirtschaft/stromsteuer-und-tankdeckel-erfolg-fuer-friedrich-merz-201693627.html",
-    "https://www.heise.de/news/Spritpreisdeckel-soll-ab-Januar-aktiviert-werden-11529286.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/koalitionseinigung-wer-von-stromsteuer-und-spritpreisdeckel-profitiert-201694358.html"
    ],
-   "punkte": 18,
-   "text": "Ab Januar senkt die Bundesregierung die Stromsteuer auf das europäische Mindestniveau und führt einen Spritpreisdeckel ein, was die privaten Haushalte unmittelbar entlastet. Die Maßnahmen können die Margen von Energie‑ und Öl‑Unternehmen belasten, während die Nachfrage nach Strom potenziell steigt.",
+   "punkte": 20,
+   "text": "Ab Januar senken Union und SPD die Stromsteuer für ein Jahr auf das europäische Mindestniveau und führen einen Spritpreisdeckel ein. Die Entlastungen erhöhen die Kaufkraft der privaten Haushalte, während Energieversorger und Ölunternehmen mit geringeren Einnahmen rechnen müssen.",
    "positiv": [
     "Privathaushalte",
-    "Stromnachfrage"
+    "Verbraucher"
    ],
    "negativ": [
-    "Energieversorger",
-    "Öl‑ und Gasunternehmen"
+    "Stromanbieter",
+    "Öl- und Kraftstoffunternehmen"
    ]
   },
   {
-   "id": "7a0ef969",
-   "titel": "US-Börsen: Nvidia-Aktie dreht ins Minus – Anthropic-IPO erwartet",
-   "anriss": "Anlegerinnen und Anleger reagieren zufrieden auf die aktuellen Quartalsdaten des Chipherstellers. Der nächste Test für die KI-Stimmung am Markt steht schon am Abend bevor.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "manager magazin"
-   ],
-   "anzahl": 5,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-nvidia-aktie-dreht-ins-minus-anthropic-ipo-erwartet/100270966.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-kospi-co.-starke-nvidia-zahlen-stuetzen-asiatische-boersen/100270767.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sieben-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-vor-nvidia-zahlen-wall-street-schliesst-im-minus/100270596.html",
-    "https://www.manager-magazin.de/finanzen/boerse/boerse-dax-schwaecher-erwartet-anthropic-und-konjunkturdaten-im-fokus-a-d6678b6b-51c0-4976-84c4-ff4983b21f9e#ref=rss"
-   ],
-   "punkte": 18,
-   "text": "Die Nvidia‑Aktie hat an den US‑Börsen wieder an Wert verloren, während gleichzeitig das bevorstehende IPO von Anthropic die Stimmung im KI‑Sektor beflügelt. Der Kursverlust belastet Nvidia und verwandte Halbleiterwerte, während das IPO das Interesse an KI‑Unternehmen und das allgemeine IPO‑Umfeld stärkt.",
-   "positiv": [
-    "KI‑Sektor",
-    "Anthropic‑IPO",
-    "US‑IPO‑Markt"
-   ],
-   "negativ": [
-    "Nvidia",
-    "Halbleiter‑Aktien"
-   ]
-  },
-  {
-   "id": "cce0df2f",
-   "titel": "EZB: Bestätigt – Inflation im Euro-Raum steigt im Oktober auf 4,0 Prozent",
-   "anriss": "Treiber für den Anstieg der Teuerung sind die hohen Energiepreise. EZB-Chefvolkswirt Philip Lane stellt die Märkte darauf ein, dass der Preisdruck vorerst hoch bleibt.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/geldpolitik/ezb-bestaetigt-inflation-im-euro-raum-steigt-auf-40-prozent/100270907.html",
-    "https://www.tagesschau.de/wirtschaft/finanzen/bundesregierung-ezb-chefvolkswirt-100.html",
-    "https://www.manager-magazin.de/politik/europa/ezb-markus-brunnermeier-soll-chefoekonom-werden-a-601f21c8-a7ff-4032-a678-a7863bd74200#ref=rss"
-   ],
-   "punkte": 17,
-   "text": "Treiber für den Anstieg der Teuerung sind die hohen Energiepreise. EZB-Chefvolkswirt Philip Lane stellt die Märkte darauf ein, dass der Preisdruck vorerst hoch bleibt.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "2e0220c8",
-   "titel": "Immobilien: Zahl der Baugenehmigungen bricht nach starkem Anstieg ein",
-   "anriss": "In den vergangenen Monaten waren die Baugenehmigungen stark gestiegen, nun geht es wieder bergab. Neben den Energiekosten macht sich auch das Zinsniveau bemerkbar.",
+   "id": "966ee7cd",
+   "titel": "Erstnotiz: Historischer IPO – Anthropic sammelt 81 Milliarden Dollar ein",
+   "anriss": "Der KI-Entwickler hat seinen Ausgabepreis auf 83 Dollar je Aktie angehoben und sammelt über 81 Milliarden Dollar ein – mehr als SpaceX. Es ist der größte Börsengang aller Zeiten.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
     "Handelsblatt Finanzen",
-    "Tagesschau Wirtschaft"
+    "SPIEGEL Wirtschaft",
+    "heise"
    ],
    "anzahl": 5,
    "links": [
-    "https://www.handelsblatt.com/finanzen/immobilien/immobilien-zahl-der-baugenehmigungen-bricht-nach-starkem-anstieg-ein/100270855.html",
-    "https://www.tagesschau.de/wirtschaft/konjunktur/wohnungsbau-september-100.html",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/baugenehmigungen-in-deutschland-brechen-im-september-ein-201694683.html",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/eu-will-stromleitungen-kuenftig-innerhalb-eines-jahres-genehmigen-201692196.html",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/eu-einigt-sich-auf-schnelleren-ausbau-der-stromnetze-in-europa-accg-201693038.html"
+    "https://www.handelsblatt.com/finanzen/maerkte/erstnotiz-historischer-ipo-anthropic-sammelt-81-milliarden-dollar-ein/100270370.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/boersengang-vor-mega-ipo-warum-anthropic-in-die-kostenfalle-tappen-koennte/100270298.html",
+    "https://www.spiegel.de/wirtschaft/unternehmen/anthropic-boersengang-ausgabepreis-von-83-dollar-je-aktie-festgelegt-a-816300aa-dd4b-44d5-90cd-f7f5403e3b35#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/anthropic-aktie-soll-laut-berichten-83-dollar-kosten-201696457.html",
+    "https://www.heise.de/news/KI-Update-kompakt-Destillation-Anthropics-Boersengang-OpenAI-Klage-IdeaLens-11528179.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
-   "punkte": 17,
-   "text": "In den vergangenen Monaten waren die Baugenehmigungen stark gestiegen, nun geht es wieder bergab. Neben den Energiekosten macht sich auch das Zinsniveau bemerkbar.",
-   "positiv": [],
+   "punkte": 20,
+   "text": "Der KI‑Entwickler Anthropic hat mit einem Ausgabepreis von 83 USD pro Aktie einen Börsengang von rund 81 Mrd. USD abgeschlossen – der bislang größte IPO. Der Erfolg stärkt das Kapital für das Unternehmen und kann das Interesse an KI‑Aktien insgesamt beflügeln.",
+   "positiv": [
+    "Anthropic",
+    "KI‑Branche",
+    "Technologie‑Aktien"
+   ],
    "negativ": []
   },
   {
-   "id": "c5b85719",
-   "titel": "Quad9 Is Leaving France: Why DNS Resolvers Are the Wrong Place to Fight Piracy",
-   "anriss": "Article URL: https://techstackups.com/articles/quad9-leaves-france-dns-blocking/ Comments URL: https://news.ycombinator.com/item?id=50545958 Points: 269 # Comments: 61",
-   "region": "global",
+   "id": "203e9f65",
+   "titel": "Wie riskant ist Nvidias Kurssturz für ETF-Sparer?",
+   "anriss": "Nach dem Rücktritt von Jensen Huang hat die Nvidia-Aktie massiv an Wert verloren. Weil sie im MSCI World gelistet ist, betrifft das viele ETF-Sparer. Wie schwer der Kursrutsch wiegt - und wo jetzt weitere Gefahren lauern. Von Angela Göpfert.",
+   "region": "dach",
    "quellen": [
-    "Hacker News Top"
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "manager magazin"
    ],
-   "anzahl": 14,
+   "anzahl": 5,
    "links": [
-    "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
-    "https://energy-based-reasoners.github.io/",
-    "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/",
-    "https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in",
-    "https://revscope.co/blog/search-seo-geo-2026/"
+    "https://www.tagesschau.de/wirtschaft/finanzen/nvidia-kurssturz-etf-sparer-risiken-100.html",
+    "https://www.tagesschau.de/wirtschaft/unternehmen/nvidia-huang-rueckkehr-100.html",
+    "https://www.spiegel.de/wirtschaft/unternehmen/nvidia-jensen-huang-konzern-verkauft-keine-ki-chips-mehr-nach-china-a-e59ab63e-68d8-48c0-9f9b-5621595d27a2#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/kuenstliche-intelligenz/jensen-huang-scheitert-mit-comeback-nvidia-setzt-auf-colette-kress-201692999.html",
+    "https://www.manager-magazin.de/unternehmen/tech/nvidia-stellt-umsatz-ueber-den-erwartungen-in-aussicht-a-107346fa-fb4d-4779-a965-f7ae0c86964b#ref=rss"
    ],
-   "punkte": 16,
-   "text": "Article URL: https://techstackups.com/articles/quad9-leaves-france-dns-blocking/ Comments URL: https://news.ycombinator.com/item?id=50545958 Points: 269 # Comments: 61",
+   "punkte": 18,
+   "text": "Nach dem Rücktritt von CEO Jensen Huang hat die Nvidia‑Aktie stark an Wert verloren, was insbesondere MSCI‑World‑ETFs belastet, die die Aktie enthalten. Der Kursrückgang wirkt sich negativ auf Technologie‑ und Halbleiter‑Sektoren aus, während Short‑Positionen profitieren könnten.",
+   "positiv": [],
+   "negativ": [
+    "Nvidia",
+    "Technologie‑Sektor",
+    "MSCI‑World‑ETFs"
+   ]
+  },
+  {
+   "id": "58fd5859",
+   "titel": "Großbritannien: Britische Inflation steigt auf Jahreshoch von 3,6 Prozent",
+   "anriss": "Die Bank of England erwartet die Inflation im Laufe des nächsten Jahres bei fast fünf Prozent. Marktteilnehmer rechnen daher fest mit mehreren Zinserhöhungen.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/geldpolitik/grossbritannien-britische-inflation-steigt-auf-jahreshoch-von-36-prozent/100270860.html",
+    "https://www.tagesschau.de/wirtschaft/finanzen/inflation-interview-bundesbankpraesident-nagel-100.html",
+    "https://www.spiegel.de/wirtschaft/gold-preis-feinunze-so-guenstig-wie-seit-14-monaten-nicht-a-21cef3d0-a660-45b0-b04d-ecccf0d4e9d0#ref=rss"
+   ],
+   "punkte": 17,
+   "text": "Die Bank of England erwartet die Inflation im Laufe des nächsten Jahres bei fast fünf Prozent. Marktteilnehmer rechnen daher fest mit mehreren Zinserhöhungen.",
    "positiv": [],
    "negativ": []
   },
@@ -282,12 +236,52 @@
    "text": "arXiv:2611.21672v1 Announce Type: new Abstract: Views are among the most valued and least measured attributes of a home. We present an open-data method that estimates the sea-view potential of every free fa\\c{c}ade of ev",
    "positiv": [],
    "negativ": []
+  },
+  {
+   "id": "cce0df2f",
+   "titel": "EZB: Bestätigt – Inflation im Euro-Raum steigt im Oktober auf 4,0 Prozent",
+   "anriss": "Treiber für den Anstieg der Teuerung sind die hohen Energiepreise. EZB-Chefvolkswirt Philip Lane stellt die Märkte darauf ein, dass der Preisdruck vorerst hoch bleibt.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "Tagesschau Wirtschaft"
+   ],
+   "anzahl": 2,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/geldpolitik/ezb-bestaetigt-inflation-im-euro-raum-steigt-auf-40-prozent/100270907.html",
+    "https://www.tagesschau.de/wirtschaft/finanzen/bundesregierung-ezb-chefvolkswirt-100.html"
+   ],
+   "punkte": 13,
+   "text": "Treiber für den Anstieg der Teuerung sind die hohen Energiepreise. EZB-Chefvolkswirt Philip Lane stellt die Märkte darauf ein, dass der Preisdruck vorerst hoch bleibt.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "2e0220c8",
+   "titel": "Immobilien: Zahl der Baugenehmigungen bricht nach starkem Anstieg ein",
+   "anriss": "In den vergangenen Monaten waren die Baugenehmigungen stark gestiegen, nun geht es wieder bergab. Neben den Energiekosten macht sich auch das Zinsniveau bemerkbar.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "Handelsblatt Finanzen",
+    "Tagesschau Wirtschaft"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/immobilien/immobilien-zahl-der-baugenehmigungen-bricht-nach-starkem-anstieg-ein/100270855.html",
+    "https://www.tagesschau.de/wirtschaft/konjunktur/wohnungsbau-september-100.html",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/baugenehmigungen-in-deutschland-brechen-im-september-ein-201694683.html"
+   ],
+   "punkte": 13,
+   "text": "In den vergangenen Monaten waren die Baugenehmigungen stark gestiegen, nun geht es wieder bergab. Neben den Energiekosten macht sich auch das Zinsniveau bemerkbar.",
+   "positiv": [],
+   "negativ": []
   }
  ],
  "ketten": [],
  "gegenthese": {
-  "konsens": "Markt erwartet vorübergehende Volatilität: DB‑Leck, Nvidia‑Fall, höhere Inflation und schwache Baugenehmigungen belasten einzelne Sektoren, doch breites Portfolio bleibt robust; Steuersenkungen und Spritdeckel sollen Konsum leicht ankurbeln.",
-  "gegen": "Gegenargument: Anhaltende Daten‑ und Inflationsrisiken, schwächerer Immobilienmarkt und mögliche regulatorische Eingriffe könnten systemische Schwächen offenbaren und zu längerfristigen Kursverlusten führen."
+  "konsens": "Die Märkte sehen bei Steuerentlastungen leichte Konsum‑Stimulation, DB‑Bericht ändert Profitabilität kaum, Anthropic‑IPO bestätigt KI‑Interesse, Nvidia‑Einbruch belastet ETFs moderat, UK‑Inflation erhöht Zins‑Druck, EZB‑Inflation stärkt Ausblick, Baugenehmigungen‑Rückgang weist Immobilien‑Abschwächung.",
+  "gegen": "Ein Gegenargument ist, dass die Steuerentlastungen kaum Konsum anregen, weil Haushalte sparen; das DB‑Reporting verbirgt mögliche Kreditausfälle; Anthropic ist überbewertet; Nvidia‑Einbruch könnte breitere Tech‑Verluste auslösen; UK‑Inflation könnte temporär sein; EZB‑Prognose übertrieben; Baugenehmigungen‑Rückgang ist saisonal."
  },
  "matrix": [
   {
@@ -404,11 +398,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "108.5 Mrd"
+     "107.8 Mrd"
     ],
     [
      "KGV (erw.)",
-     "14,4"
+     "14,3"
     ],
     [
      "Umsatzwachstum",
@@ -441,12 +435,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die Analystenmeinung ist überwiegend positiv (22 Kauf‑Empfehlungen). Das erwartete Umsatzwachstum von +23 % und ein moderates KGV von 14,4 deuten auf Bewertungsattraktivität hin. Das Kursziel von 192 € liegt deutlich über dem aktuellen Kurs, was Aufwärtspotenzial signalisiert.",
-   "dagegen": "Risiken bestehen in der Umsetzung der Transformationsstrategie, insbesondere im Gamesa‑Segment, das von Lieferverzögerungen und Margendruck betroffen ist. Hohe Verschuldung und volatile Energiepreise können die Finanzlage belasten. Die Informationslage ist insgesamt dünn, da Insider‑ und Short‑Aktivitäten nicht vorliegen.",
+   "dafuer": "Das Unternehmen verzeichnet ein Umsatzwachstum von 23 % und ein erwartetes KGV von 14,3, was im Vergleich zum Branchen‑Durchschnitt attraktiv erscheint. Die Analysten‑Meinung ist eindeutig positiv (22 Kauf, 4 Halten, 2 Verkauf). Das Kursziel von 192 € impliziert weiteres Aufwärtspotenzial.",
+   "dagegen": "Trotz des Wachstums belastet Siemens Energy nach wie vor die schwankende Wind‑Turbinen‑Division und mögliche Kostenüberschreitungen bei Großprojekten. Fehlende Insider‑Informationen und kaum Reddit‑Diskussionen deuten auf geringe Markt‑Transparenz hin. Kurzfristige Risiken bleiben durch Lieferketten‑ und Zinsentwicklungen bestehen.",
    "katalysatoren": [
-    "Auslieferung neuer Gasturbinen‑Modelle im zweiten Quartal",
-    "Abschluss großer Grid‑Technologie‑Aufträge in Europa und Asien",
-    "Steigerung der Offshore‑Windproduktion durch Siemens Gamesa bis Ende 2025"
+    "Q3‑Ergebnisbericht mit erwarteter Gewinnsteigerung",
+    "Auslieferung neuer Siemens‑Gamesa‑Turbinen und Zertifizierungen",
+    "Auftragseingänge im Grid‑Technologies‑Segment für erneuerbare‑Energien"
    ]
   },
   "RHM.DE": {
@@ -457,11 +451,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "35.0 Mrd"
+     "34.7 Mrd"
     ],
     [
      "KGV (erw.)",
-     "15,1"
+     "15,0"
     ],
     [
      "Umsatzwachstum",
@@ -494,12 +488,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die Analysten‑Mehrheit (17 Buy, 5 Hold) spricht für Rheinmetall. Das Unternehmen verzeichnet ein starkes Umsatzwachstum von +36 % und ein moderates KGV von 15,1, was im Vergleich zur Branche attraktiv erscheint. Der steigende Rüstungsetat in Deutschland und Europa bietet langfristige Auftragsgrundlage.",
-   "dagegen": "Die Informationslage ist dünn: Neben Analysten‑Stimmen fehlen Newsletter‑Analysen, Reddit‑Diskussionen und Insider‑Hinweise. Das Geschäftsmodell ist stark von staatlichen Verteidigungsbudgets abhängig, was bei politischen Änderungen das Risiko erhöht. Das Kursziel von 1.328 EUR impliziert bereits hohe Erwartungen.",
+   "dafuer": "Die Mehrheit der Analysten (17 Kauf, 5 Halten) bewertet Rheinmetall positiv, gestützt durch ein starkes Umsatzwachstum von 36 % und ein moderates KGV von 15,0, was im Vergleich zur Branche attraktiv erscheint. Die breite Aufstellung in Fahrzeugsystemen, Waffen und Elektronik profitiert von steigenden Rüstungsausgaben in Europa und den USA.",
+   "dagegen": "Ein Gegenargument ist die hohe Abhängigkeit von staatlichen Rüstungsetats, die bei politischen Änderungen oder Haushaltskürzungen das Ergebnis belasten können. Zudem fehlt es an unabhängigen Informationsquellen – keine Newsletter, kaum Reddit‑Diskussionen und keine Insider‑Meldungen – was die Transparenz einschränkt.",
    "katalysatoren": [
-    "Verabschiedung des deutschen Rüstungsetat‑Erhöhungsplans 2025",
-    "Auslieferung des neuen Panzer‑Programms (Kampfpanzer‑Future) an die Bundeswehr",
-    "Erweiterung von Exportaufträgen in Asien, insbesondere für das CBRN‑Fahrzeugportfolio"
+    "Deutsche Bundeswehr‑Beschaffungsplan 2025",
+    "US‑Verteidigungsbudget‑Entscheidungen 2024",
+    "Veröffentlichung des Q3‑Ergebnisses (voraussichtlich Q3 2026)"
    ]
   },
   "ASML.AS": {
@@ -510,11 +504,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "486.8 Mrd"
+     "485.9 Mrd"
     ],
     [
      "KGV (erw.)",
-     "22,4"
+     "22,3"
     ],
     [
      "Umsatzwachstum",
@@ -547,9 +541,13 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "ASML profitiert von seiner Monopolstellung im EUV‑Lithografie‑Markt. Das Unternehmen verzeichnet ein starkes Umsatzwachstum von +55 % und ist zentral für die Chip‑Fertigung führender Kunden wie TSMC und Samsung. Die Analysten‑Mehrheit (38 Buy) spiegelt optimistische Erwartungen wider.",
+   "dagegen": "Ein KGV von 22,3 impliziert eine hohe Bewertung, besonders bei zyklischer Nachfrage nach Halbleitern. Ein einzelner Analyst empfiehlt Verkauf, was auf Bedenken hinsichtlich möglicher Abschwächung des Chip‑Marktes hinweist. Fehlende Insider‑Transaktionen und geringe Short‑Aktivität lassen Unsicherheit über zukünftige Kursentwicklung bestehen.",
+   "katalysatoren": [
+    "Q3‑2024 Ergebnisveröffentlichung",
+    "Einführung des High‑NA‑EUV‑Systems",
+    "Ausbau von Kundenkapazitäten bei TSMC und Samsung"
+   ]
   },
   "SU.PA": {
    "ticker": "SU.PA",
@@ -559,11 +557,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "140.4 Mrd"
+     "139.9 Mrd"
     ],
     [
      "KGV (erw.)",
-     "19,0"
+     "18,9"
     ],
     [
      "Umsatzwachstum",
@@ -596,13 +594,9 @@
      "1648,06 % ueber 1700 Halter"
     ]
    ],
-   "dafuer": "Dafür spricht die überwältigende Analystenmeinung (19 Kauf, 4 Halten, kein Verkauf), ein robustes Umsatzwachstum von 10 % und ein diversifiziertes Portfolio in Energie‑Management, Industrieautomation und erneuerbare‑Energien. Das Kurs‑Gewinn‑Verhältnis von 19 erscheint im Branchenvergleich moderat, und das Kursziel von 323 € impliziert weiteres Aufwärtspotenzial.",
-   "dagegen": "Dagegen wirft die extrem hohe Short‑Interest‑Quote von über 1.600 % (1700 Halter) Fragen zur Marktstimmung auf; ein solches Ausmaß kann auf erwartete Schwächen im Gewinnwachstum oder auf regulatorische Risiken hindeuten. Zudem fehlen Insider‑Transaktionen und die Diskussion in sozialen Medien ist gering, was Unsicherheit signalisiert.",
-   "katalysatoren": [
-    "Q3‑Ergebnisveröffentlichung mit Fokus auf Margin‑Entwicklung",
-    "Markteinführung neuer Micro‑Grid‑ und Smart‑Building‑Lösungen",
-    "EU‑Regulierung für Energieeffizienz, die Nachfrage nach Automatisierung steigern könnte"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "GEV": {
    "ticker": "GEV",
@@ -612,11 +606,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "208.9 Mrd"
+     "204.4 Mrd"
     ],
     [
      "KGV (erw.)",
-     "30,5"
+     "29,8"
     ],
     [
      "Umsatzwachstum",
@@ -661,11 +655,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "27.6 Mrd"
+     "27.2 Mrd"
     ],
     [
      "KGV (erw.)",
-     "37,0"
+     "36,4"
     ],
     [
      "Umsatzwachstum",
@@ -691,7 +685,7 @@
     ],
     [
      "Insider",
-     "0 Kaeufe / 0 Verkaeufe"
+     "keine Meldungen"
     ],
     [
      "Shorts",
@@ -710,11 +704,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "73.4 Mrd"
+     "73.8 Mrd"
     ],
     [
      "KGV (erw.)",
-     "12,1"
+     "12,2"
     ],
     [
      "Umsatzwachstum",
@@ -759,11 +753,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "3.683.3 Mrd"
+     "3.645.2 Mrd"
     ],
     [
      "KGV (erw.)",
-     "9,2"
+     "9,1"
     ],
     [
      "Umsatzwachstum",
@@ -802,6 +796,15 @@
   }
  },
  "shorts": [
+  {
+   "land": "NL",
+   "halter": "Citadel Advisors LLC",
+   "emittent": "Alfen N.V.",
+   "prozent": 0.5,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
   {
    "land": "UK",
    "halter": "Anavio Capital Partners LLP",
@@ -1062,19 +1065,10 @@
    "datum": "2019-06-07",
    "status": "aufgestockt",
    "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 13.5,
-   "datum": "2019-06-06",
-   "status": "aufgestockt",
-   "zuvor": 0.53
   }
  ],
  "shorts_kennzahlen": {
-  "neu_diese_woche": 0,
+  "neu_diese_woche": 1,
   "meistgeshortet": {
    "name": "Premier Oil PLC",
    "summe": 2145.63
@@ -1083,18 +1077,10 @@
    "name": "Marshall Wace LLP",
    "anzahl": 14033
   },
-  "gesamt": 107394
+  "gesamt": 107395
  },
  "gespraech": [],
  "termine": [
-  {
-   "datum": "2026-11-18",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
   {
    "datum": "2026-11-19",
    "zeit": "",
@@ -1182,8 +1168,16 @@
    "was": "Personal Income and Outlays",
    "konsens": "",
    "wucht": "hoch"
+  },
+  {
+   "datum": "2026-11-26",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 179,
+ "meldungen_gesamt": 168,
  "llm_aktiv": false
 }
