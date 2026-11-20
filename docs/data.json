@@ -1,9 +1,9 @@
 {
- "stand": "2026-11-20T00:59",
- "lauf": "2026112000",
+ "stand": "2026-11-20T13:25",
+ "lauf": "2026112013",
  "synthese": {
-  "kern": "Arbeitskonflikte und Unternehmensstrategien dominieren, während Markt den steigenden Risikoappetit vernachlässigt.",
-  "erlaeuterung": "Die Meldungen verbinden starke Unternehmensentscheidungen mit eskalierenden Arbeitskämpfen, was das Marktumfeld stark belastet. Trotz niedriger Risikoappetit‑Bewertung (Perzentil 8) bleibt die Marktstimmung von kurzfristigen Kursgewinnen abgelenkt."
+  "kern": "Globale Risikoaversion steigt: Arbeitskonflikte, Unternehmenskrisen und asiatischer Marktcrash werden von Anlegern unterschätzt.",
+  "erlaeuterung": "Der Rückgang der ostasiatischen Indizes, kombiniert mit intensiven Arbeitskämpfen und Unternehmensunsicherheiten, erhöht das systemische Risiko. Der Markt fokussiert weiterhin auf Zins‑ und Liquiditätsdaten, vernachlässigt jedoch die wachsende geopolitische und strukturelle Belastung."
  },
  "regime": [
   {
@@ -36,23 +36,23 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 62,
-     "delta": -7
+     "wert": 66,
+     "delta": -1
     },
     "eur": {
      "wert": 75,
-     "delta": -7
+     "delta": -6
     }
    },
-   "differenz": 13
+   "differenz": 9
   },
   {
    "name": "risikoappetit",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 8,
-     "delta": -22
+     "wert": 7,
+     "delta": -21
     }
    }
   },
@@ -84,9 +84,9 @@
  ],
  "cluster": [
   {
-   "id": "15201a6c",
-   "titel": "Rekord-Börsengang: Anthropic-Aktie schließt 17 Prozent im Plus – Deutlicher Kursrückgang im Handelsverlauf",
-   "anriss": "Der KI-Anbieter feiert den größten Börsengang der Welt. Doch nach anfänglichen Kursgewinnen von über 30 Prozent ebbt die frühe Euphorie merklich ab. Experten suchen nach Gründen.",
+   "id": "33d3c7dc",
+   "titel": "Nikkei, Kospi & Co.: Ostasiens Börsen trotz Anthropics Börsengang im Minus – Nikkei sackt um 4,5 Prozent ab",
+   "anriss": "Der Verkauf von Chipaktien in Japan, Südkorea und Taiwan geht weiter. Sorgen um neue Exportkontrollen der USA für KI-Chips belasten die Märkte zusätzlich, auch in China.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
@@ -96,238 +96,181 @@
     "heise",
     "manager magazin"
    ],
-   "anzahl": 16,
+   "anzahl": 17,
    "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/ostasiens-boersen-brechen-nach-anthropics-boersengang-ein/100271416.html",
     "https://www.handelsblatt.com/finanzen/maerkte/aktien/boersengang-anthropic-schliesst-17-prozent-im-plus-kursrueckgang-im-handelsverlauf/100270027.html",
     "https://www.handelsblatt.com/finanzen/maerkte/anthropic-ipo-vor-der-nasdaq-warnen-sie-vor-dem-terminator-und-kursverlusten/100271388.html",
     "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-im-minus-sap-aktie-setzt-verlustserie-fort/100271164.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-us-boersen-schliessen-deutlich-im-minus-anthropic-drueckt-kurse/100271288.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/aktien/anthropic-trubel-an-der-nasdaq-die-wichtigsten-bilder-des-mega-ipos/100271322.html"
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-us-boersen-schliessen-deutlich-im-minus-anthropic-drueckt-kurse/100271288.html"
    ],
-   "punkte": 49,
-   "text": "Der KI‑Anbieter Anthropic verzeichnete beim Börsengang einen Kursanstieg von über 30 % und schloss den ersten Handelstag mit einem Plus von 17 %. Im weiteren Handelsverlauf fiel der Kurs jedoch merklich zurück, was die anfängliche Euphorie dämpfte.",
-   "positiv": [
-    "Anthropic‑Aktie (kurzfristig)",
-    "KI‑Branche (nach IPO)"
-   ],
-   "negativ": [
-    "Anthropic‑Aktie (nach Rückgang)",
-    "KI‑Branche (Bewertungsdruck)"
-   ]
+   "punkte": 51,
+   "text": "Der Verkauf von Chipaktien in Japan, Südkorea und Taiwan geht weiter. Sorgen um neue Exportkontrollen der USA für KI-Chips belasten die Märkte zusätzlich, auch in China.",
+   "positiv": [],
+   "negativ": []
   },
   {
-   "id": "04f46361",
-   "titel": "Volkswagen will Nullrunden für zwei Jahre",
-   "anriss": "Nullrunden, weniger Zulagen und Änderungen bei der Arbeitszeit - Volkswagen will harte Einschnitte in der anstehenden Tarifrunde durchsetzen. Die IG Metall wirft dem Konzern vor, mit dem \"Messer in den Rücken\" der Arbeitnehmer zu fallen.",
+   "id": "86980aae",
+   "titel": "Was die Volkswagen-Forderungen für Beschäftigte bedeuten könnten",
+   "anriss": "Kein Lohnplus, mehr Arbeit, weniger Extras: VW hat der IG Metall einen Forderungskatalog vorgelegt, der es in sich hat. Was auf die Beschäftigten zukommen könnte - und warum eine schnelle Einigung kaum möglich ist.",
+   "region": "dach",
+   "quellen": [
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "heise",
+    "manager magazin"
+   ],
+   "anzahl": 6,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/unternehmen/volkswagen-tarifstreit-ig-metall-100.html",
+    "https://www.tagesschau.de/wirtschaft/unternehmen/vw-nullrunde-100.html",
+    "https://www.spiegel.de/wirtschaft/unternehmen/volkswagen-harte-einschnitte-das-kommt-in-tarifrunde-auf-beschaeftigte-zu-a-87d9642c-3a9f-4bdc-a0e1-d03e40436839#ref=rss",
+    "https://www.spiegel.de/wirtschaft/unternehmen/vw-legt-tarifforderungen-vor-konzern-setzt-auf-mehr-arbeit-fuer-weniger-geld-a-a1adc456-4b16-441b-b7a8-81d08ad1d3f0#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/mobilitaet/volkswagen-neuer-tarifzoff-zwischen-vorstand-und-betriebsrat-a-dddc416f-5111-4194-a1ce-456a03fe03a5#ref=rss"
+   ],
+   "punkte": 20,
+   "text": "Kein Lohnplus, mehr Arbeit, weniger Extras: VW hat der IG Metall einen Forderungskatalog vorgelegt, der es in sich hat. Was auf die Beschäftigten zukommen könnte - und warum eine schnelle Einigung kaum möglich ist.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "7db68b57",
+   "titel": "Medienberichte: Lufthansa will 1.000 Stellen streichen",
+   "anriss": "An ihren Drehkreuzen Frankfurt und München will die Lufthansa insgesamt 1.000 Stellen streichen. Das geht aus einem Brief an Mitarbeiter hervor. Wann und wie die Einsparungen umgesetzt werden, ist noch nicht bekannt.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
     "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft",
+    "heise",
     "manager magazin"
    ],
-   "anzahl": 4,
+   "anzahl": 5,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/unternehmen/vw-nullrunde-100.html",
-    "https://www.spiegel.de/wirtschaft/unternehmen/vw-legt-tarifforderungen-vor-konzern-setzt-auf-mehr-arbeit-fuer-weniger-geld-a-a1adc456-4b16-441b-b7a8-81d08ad1d3f0#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/volkswagen-fordert-nullrunde-ig-metall-will-5-prozent-mehr-201698945.html",
-    "https://www.manager-magazin.de/unternehmen/mobilitaet/volkswagen-neuer-tarifzoff-zwischen-vorstand-und-betriebsrat-a-dddc416f-5111-4194-a1ce-456a03fe03a5#ref=rss"
+    "https://www.tagesschau.de/wirtschaft/lufthansa-1000-stellen-100.html",
+    "https://www.spiegel.de/wirtschaft/unternehmen/lufthansa-will-an-deutschen-drehkreuzen-rund-1000-stellen-abbauen-a-7be97521-a2ad-4a67-bc82-3c7453488916#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/lufthansa-streicht-1000-stellen-an-drehkreuzen-frankfurt-und-muenchen-accg-201701299.html",
+    "https://www.manager-magazin.de/unternehmen/mobilitaet/lufthansa-airline-will-1000-stellen-an-drehkreuzen-streichen-a-cb88fe77-d7f4-4e8d-b7be-ddfb18195795#ref=rss",
+    "https://www.heise.de/news/Lufthansa-will-1000-Stellen-an-Drehkreuzen-streichen-11531961.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
-   "punkte": 16,
-   "text": "Volkswagen plant in den kommenden zwei Tarifjahren Nullrunden, weniger Zulagen und Änderungen bei der Arbeitszeit, um die Kosten zu senken. Die IG Metall kritisiert die Vorhaben als einseitiges Sparen mit potenziell negativer Wirkung auf die Beschäftigtenzufriedenheit.",
+   "punkte": 20,
+   "text": "An ihren Drehkreuzen Frankfurt und München will die Lufthansa insgesamt 1.000 Stellen streichen. Das geht aus einem Brief an Mitarbeiter hervor. Wann und wie die Einsparungen umgesetzt werden, ist noch nicht bekannt.",
    "positiv": [],
-   "negativ": [
-    "Volkswagen‑Aktie",
-    "Automobilsektor (Kosten‑ und Lohnpolitik)"
-   ]
+   "negativ": []
   },
   {
-   "id": "6e747450",
-   "titel": "Commerzbank-Übernahme: Bundesregierung und UniCredit einigen sich",
-   "anriss": "UniCredit garantiert Standort und Arbeitnehmerrechte - der Bund verzichtet auf Aufsichtsratsvertreter: Die Bundesregierung und die italienische Großbank haben sich bei der Commerzbank-Übernahme geeinigt.",
+   "id": "92df40ea",
+   "titel": "BASF bläst Evonik-Übernahme ab",
+   "anriss": "BASF nimmt Abstand von einer Übernahme des Konkurrenten Evonik. Der Chemiekonzern gibt die Pläne auf, nachdem Evonik zuvor zwei unverbindliche Kaufangebote zurückgewiesen hatte.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft",
     "manager magazin"
    ],
    "anzahl": 5,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/unternehmen/unicredit-bundesregierung-100.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-lufthansa-will-1000-stellen-an-drehkreuzen-streichen-faz-200452404.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/generali-und-unicredit-wollen-gemeinsam-in-deutschland-wachsen-201698114.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/commerzbank-besser-mit-unicredit-ohne-staat-201697515.html",
-    "https://www.manager-magazin.de/unternehmen/banken/commerzbank-bundesregierung-und-unicredit-sind-sich-bei-uebernahme-einig-a-8663353a-b240-475a-b574-8ea62e14f0eb#ref=rss"
+    "https://www.tagesschau.de/wirtschaft/unternehmen/basf-evonik-uebernahme-absage-100.html",
+    "https://www.spiegel.de/wirtschaft/basf-sagt-evonik-uebernahme-ab-a-8ac0a370-d80e-4f40-834b-6ebbaec30a90#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/uebernahme-von-evonik-abgesagt-die-pommes-pleite-der-basf-201701517.html",
+    "https://www.manager-magazin.de/unternehmen/industrie/evonik-ist-keine-pommesbude-a-cc44ce63-c8a3-4bfd-bbc2-53d6f17d50f4#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/industrie/evonik-basf-verzichtet-auf-uebernahme-des-spezialchemiekonzerns-a-16ef1802-67dd-48fb-af05-f12e6e84ea77#ref=rss"
    ],
-   "punkte": 16,
-   "text": "Die Bundesregierung und die italienische UniCredit haben sich über die Übernahme der Commerzbank geeinigt, wobei UniCredit Standortgarantien und Arbeitnehmerrechte zusichert. Der Bund verzichtet im Gegenzug auf einen Aufsichtsratsplatz, was die Transaktion erleichtert.",
-   "positiv": [
-    "UniCredit‑Aktie"
-   ],
-   "negativ": [
-    "Commerzbank‑Aktie"
-   ]
-  },
-  {
-   "id": "fb1a7511",
-   "titel": "Arbeitskampf: IG Metall startet 24-Stunden-Warnstreiks",
-   "anriss": "In ganz Deutschland sollen Betriebe einen Tag lang stillstehen - seit Mitternacht rollt die Streikwelle der IG Metall an. Betroffen sind Betriebe der Metall- und Elektroindustrie.",
-   "region": "dach",
-   "quellen": [
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/warnstreik-ig-metall-126.html",
-    "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/warnstreik-ig-metall-124.html",
-    "https://www.spiegel.de/wirtschaft/unternehmen/ig-metall-startet-ganztages-streiks-a-b4346d94-7de0-4764-ad94-2a4eb5f9342f#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/mobilitaet/bmw-audi-porsche-warnstreiks-der-ig-metall-belasten-werke-deutscher-autobauer-a-c9a4f367-30a8-45ef-9864-a8216f261e6c#ref=rss"
-   ],
-   "punkte": 14,
-   "text": "Die IG Metall hat zu einem 24‑Stunden‑Warnstreik in der Metall‑ und Elektroindustrie aufgerufen, wodurch zahlreiche Betriebe in Deutschland stillstehen. Der Streik erhöht den kurzfristigen Produktionsausfall und belastet die betroffenen Unternehmen.",
-   "positiv": [],
-   "negativ": [
-    "Metall‑ und Elektroindustrie‑Aktien",
-    "Industrie‑Produktionsindex"
-   ]
-  },
-  {
-   "id": "3b5ae8db",
-   "titel": "Marktbericht: Deutsche Telekom steigt bei KI-Start-up Mistral ein",
-   "anriss": "Unternehmen und Behörden sollen durch eine Beteiligung der Telekom am französischen Start-up Mistral mit \"vertrauenswürdiger KI aus Europa\" versorgt werden. Der Rekord-Börsengang von Anthropic stabilisiert derweil den DAX.",
-   "region": "dach",
-   "quellen": [
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/finanzen/mistral-telekom-ki-anthropic-marktbericht-100.html",
-    "https://www.spiegel.de/wirtschaft/unternehmen/deutsche-telekom-steigt-bei-europas-ki-hoffnung-mistral-ein-a-d3e7a956-a3eb-4eec-8f7e-0366020961bc#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/tech/deutsche-telekom-und-sap-holger-friedrichs-greift-deutschland-app-mit-eigener-d-app-an-a-34b389b5-2164-4d37-b5c7-a6a699630410#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/tech/deutsche-telekom-steigt-bei-ki-hoffnungstraeger-mistral-ein-a-35783f0c-3de6-4218-970f-662e5d92eff1#ref=rss"
-   ],
-   "punkte": 14,
-   "text": "Unternehmen und Behörden sollen durch eine Beteiligung der Telekom am französischen Start-up Mistral mit \"vertrauenswürdiger KI aus Europa\" versorgt werden. Der Rekord-Börsengang von Anthropic stabilisiert derweil den DA",
+   "punkte": 18,
+   "text": "BASF nimmt Abstand von einer Übernahme des Konkurrenten Evonik. Der Chemiekonzern gibt die Pläne auf, nachdem Evonik zuvor zwei unverbindliche Kaufangebote zurückgewiesen hatte.",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "a397d2a2",
-   "titel": "Tesla gegen IG Metall: Fortsetzung folgt",
-   "anriss": "Tesla-Werkleiter André Thierig muss sich im Clinch mit der IG Metall vor Gericht verteidigen. Konzernchef Elon Musk dürfte das kaum stören.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "heise",
-    "manager magazin"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/strafbefehl-gegen-tesla-werkleiter-elon-musk-duerfte-das-nicht-stoeren-201698697.html",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/strafbefehl-gegen-tesla-werkleiter-andre-thierig-wegen-uebler-nachrede-201696475.html",
-    "https://www.manager-magazin.de/unternehmen/tesla-strafbefehl-gegen-werksleiter-in-gruenheide-erlassen-a-cc24f0b6-ae3e-4878-8c80-21b69366ca77#ref=rss",
-    "https://www.heise.de/news/Tesla-in-Gruenheide-Werksleiter-bekommt-Strafbefehl-wegen-uebler-Nachrede-11531454.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 14,
-   "text": "Tesla-Werkleiter André Thierig muss sich im Clinch mit der IG Metall vor Gericht verteidigen. Konzernchef Elon Musk dürfte das kaum stören.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "8cb4b6d9",
-   "titel": "Claude solves two open problems in the physics of black holes",
-   "anriss": "Article URL: https://www.anthropic.com/research/claude-black-hole-physics Comments URL: https://news.ycombinator.com/item?id=50563148 Points: 364 # Comments: 166",
-   "region": "global",
-   "quellen": [
-    "Hacker News Top"
-   ],
-   "anzahl": 12,
-   "links": [
-    "https://www.anthropic.com/research/claude-black-hole-physics",
-    "https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/",
-    "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
-    "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/",
-    "https://thedataexchange.media/pete-warden-moonshine/"
-   ],
-   "punkte": 14,
-   "text": "Article URL: https://www.anthropic.com/research/claude-black-hole-physics Comments URL: https://news.ycombinator.com/item?id=50563148 Points: 364 # Comments: 166",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "5ddb6804",
-   "titel": "The Structural Number of Parties: An Electoral-Outcome-Independent Baseline for Comparing Party-System Scale",
-   "anriss": "arXiv:2611.24714v1 Announce Type: cross Abstract: How many parties can a country structurally sustain? Standard measures such as the effective number of parties (ENP) cannot answer this question. They are descriptive and post hoc: they summarize competition only after an election, and they depend on",
+   "id": "706d36d2",
+   "titel": "A joint framework for SPX, VIX and VXX",
+   "anriss": "arXiv:2611.25047v1 Announce Type: new Abstract: Options on VXX bring the dynamics of the VIX futures curve into the joint SPX-VIX calibration problem. We construct a common model by specifying the VIX and then recovering instantaneous SPX variance from the requirement that its risk-neutral condition",
    "region": "global",
    "quellen": [
     "arXiv q-fin"
    ],
-   "anzahl": 8,
+   "anzahl": 11,
    "links": [
-    "https://arxiv.org/abs/2611.24714",
-    "https://arxiv.org/abs/2509.03964",
-    "https://arxiv.org/abs/2608.06618",
-    "https://arxiv.org/abs/2611.16540",
-    "https://arxiv.org/abs/2611.18660"
+    "https://arxiv.org/abs/2611.25047",
+    "https://arxiv.org/abs/2508.05022",
+    "https://arxiv.org/abs/2611.25218",
+    "https://arxiv.org/abs/1910.14023",
+    "https://arxiv.org/abs/2408.03134"
    ],
-   "punkte": 14,
-   "text": "arXiv:2611.24714v1 Announce Type: cross Abstract: How many parties can a country structurally sustain? Standard measures such as the effective number of parties (ENP) cannot answer this question. They are descriptive and",
+   "punkte": 13,
+   "text": "arXiv:2611.25047v1 Announce Type: new Abstract: Options on VXX bring the dynamics of the VIX futures curve into the joint SPX-VIX calibration problem. We construct a common model by specifying the VIX and then recovering",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "17674abe",
+   "titel": "Galeria schließt drei Filialen - und noch viele mehr?",
+   "anriss": "Galeria trennt sich von Filialen in Berlin, Köln und München. Medienberichten zufolge ist das jedoch erst der Anfang: Von den derzeitigen Standorten könnte am Ende nur etwa die Hälfte übrig bleiben.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/unternehmen/galerie-schliessung-filialen-100.html",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/galeria-schliesst-filialen-in-berlin-koeln-und-muenchen-accg-201702040.html",
+    "https://www.manager-magazin.de/unternehmen/handel/galeria-insolvenz-jeder-zweiten-filiale-der-kaufhauskette-droht-schliessung-auch-in-berlin-koeln-und-muenchen-a-3d585bba-d7b1-4101-9119-08844629204f#ref=rss"
+   ],
+   "punkte": 12,
+   "text": "Galeria trennt sich von Filialen in Berlin, Köln und München. Medienberichten zufolge ist das jedoch erst der Anfang: Von den derzeitigen Standorten könnte am Ende nur etwa die Hälfte übrig bleiben.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "cdc21a83",
+   "titel": "Arbeitskampf: 24-Stunden-Warnstreiks der IG Metall gestartet",
+   "anriss": "Erstmals seit acht Jahren setzt die Gewerkschaft IG Metall auf 24-Stunden-Warnstreiks. Heute stehen Betriebe in ganz Deutschland still. Unter den Tarifvertrag in der Metall- und Elektroindustrie fallen etwa 3,7 Millionen Beschäftigte.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/warnstreik-ig-metall-126.html",
+    "https://www.faz.net/aktuell/wirtschaft/ig-metall-erstmals-seit-2018-wieder-24-stunden-streiks-accg-201701268.html",
+    "https://www.manager-magazin.de/unternehmen/industrie/ig-metall-warnstreiks-legen-unternehmen-bundesweit-still-a-094cbd0c-b172-49a1-9e23-1ae726547b84#ref=rss"
+   ],
+   "punkte": 12,
+   "text": "Erstmals seit acht Jahren setzt die Gewerkschaft IG Metall auf 24-Stunden-Warnstreiks. Heute stehen Betriebe in ganz Deutschland still. Unter den Tarifvertrag in der Metall- und Elektroindustrie fallen etwa 3,7 Millionen",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "5957d794",
+   "titel": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+   "anriss": "Article URL: https://architectlabs.com/blog/frostbite Comments URL: https://news.ycombinator.com/item?id=50572503 Points: 219 # Comments: 139",
+   "region": "global",
+   "quellen": [
+    "Hacker News Top"
+   ],
+   "anzahl": 9,
+   "links": [
+    "https://architectlabs.com/blog/frostbite",
+    "https://ecohustler.com/article/one-corporation-to-pollute-them-all/",
+    "https://em-online.bearblog.dev/i-can-tell-you-wrote-this-yourself/",
+    "https://www.postgresql.org/docs/release/19.0/",
+    "https://github.com/openssl/openssl/pull/33652"
+   ],
+   "punkte": 11,
+   "text": "Article URL: https://architectlabs.com/blog/frostbite Comments URL: https://news.ycombinator.com/item?id=50572503 Points: 219 # Comments: 139",
    "positiv": [],
    "negativ": []
   }
  ],
- "ketten": [
-  {
-   "ausloeser": "Anthropic-Aktie fällt innerhalb einer Woche nach dem IPO um mehr als 30 % aufgrund einer unerwarteten Gewinnwarnung",
-   "direkt": "Vertrauensverlust in jüngst notierte KI‑Start‑Ups und erhöhte Risikoaversion bei Technologie‑ETFs",
-   "zweite": "Kapitalabflüsse aus europäischen Technologie‑ und Halbleiterwerten (z. B. SAP, Infineon, ASML) und verstärkte Rotation in defensive Sektoren",
-   "dritte": "Steigende Nachfrage nach sicheren Anlagen (Versorger, Konsumgüter, Gold) und sinkende Renditen von Technologie‑Aktien im Euro‑Stoxx‑50",
-   "positiv": [
-    "E.ON",
-    "RWE",
-    "Nestlé",
-    "Unilever",
-    "Gold (z. B. Xetra‑Gold‑ETF)",
-    "iShares MSCI Europe Utilities UCITS ETF"
-   ],
-   "negativ": [
-    "iShares MSCI World Information Technology UCITS ETF",
-    "SAP",
-    "Infineon Technologies",
-    "ASML Holding",
-    "Deutsche Telekom (wegen KI‑Abhängigkeit)",
-    "Anthropic‑SPAC‑Holding"
-   ],
-   "konfidenz": "hoch"
-  },
-  {
-   "ausloeser": "Regulatorische Genehmigung der geplanten Übernahme der Commerzbank durch UniCredit innerhalb der nächsten zwei Monate",
-   "direkt": "Erhöhung der Eigenkapitalquote von UniCredit und sofortige Konsolidierung von Commerzbank‑Aktiva",
-   "zweite": "Verstärkte Marktkonzentration im europäischen Banken‑Sektor, Druck auf kleinere deutsche und italienische Banken sowie auf das Euro‑Stoxx‑Banks‑Segment",
-   "dritte": "Umschichtung von Risiko‑Kapital in sichere Staatsanleihen; Bund‑Yields fallen, während die Renditen von Unternehmensanleihen kleinerer Banken steigen",
-   "positiv": [
-    "UniCredit‑Aktie",
-    "Deutsche Bundesanleihen (10 J) – Kurssteigerung",
-    "Schweizer Franken (als Safe‑Haven)",
-    "ING Groep",
-    "BNP Paribas"
-   ],
-   "negativ": [
-    "Commerzbank‑Aktie (nach Integration)",
-    "Euro‑Stoxx‑Banks‑ETF",
-    "Kleinstbanken und Regionalbanken (z. B. Deutsche Pfandbriefbank, Landesbanken)",
-    "Unternehmensanleihen von schwächeren europäischen Banken"
-   ],
-   "konfidenz": "mittel"
-  }
- ],
+ "ketten": [],
  "gegenthese": {
-  "konsens": "Der Markt ist von starkem Wachstumspotenzial bei KI‑Aktien überzeugt und preist jüngste IPO‑Erfolge wie Anthropic hoch, während etablierte Unternehmen wie VW und Telekom als stabile Ertragsquellen gelten.",
-  "gegen": "Die KI‑Aktien sind stark überbewertet, weisen noch keine nachhaltige Profitabilität auf, und regulatorische sowie makroökonomische Risiken könnten zu einer schnellen Kurskorrektur führen."
+  "konsens": "Globale Märkte zeigen Risikoaversion: Ostasiens Indizes fallen stark, europäische Unternehmen kämpfen mit Kosten und Arbeitskonflikten, Anleger erwarten weitere Schwäche.",
+  "gegen": "Starke Unternehmensgewinne, mögliche geldpolitische Lockerungen und KI‑Innovation könnten die Stimmung schnell umkehren."
  },
  "matrix": [
   {
@@ -444,11 +387,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "107.8 Mrd"
+     "102.0 Mrd"
     ],
     [
      "KGV (erw.)",
-     "14,3"
+     "13,5"
     ],
     [
      "Umsatzwachstum",
@@ -466,7 +409,7 @@
     ],
     [
      "Newsletter",
-     "in 1 Clustern"
+     "in 2 Clustern"
     ],
     [
      "Reddit",
@@ -481,12 +424,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die Mehrheit der Analysten (22 Kauf‑Empfehlungen) sieht ein starkes Umsatzwachstum von +23 % und ein attraktives KGV von 14,3 als Zeichen für eine Unterbewertung. Die Marktkapitalisierung von 107,8 Mrd EUR und das Kursziel von 192 EUR deuten auf erhebliches Aufwärtspotenzial hin.",
-   "dagegen": "Zwei Analysten empfehlen Verkauf, was auf Bedenken hinsichtlich der Umsetzung von Transformationsprogrammen und möglicher Margendrucke hindeutet. Die geringe Aufmerksamkeit in Reddit und das Fehlen von Insider‑ oder Short‑Aktivitäten lassen Unsicherheit über das Marktinteresse und mögliche Risiken bestehen.",
+   "dafuer": "Analysten‑Stimmungsbild ist überwiegend positiv (22 Buy, 4 Hold, 2 Sell). Das Unternehmen verzeichnet ein starkes Umsatzwachstum von +23 % und ein moderates KGV von 13,5. Das Kursziel von 192 EUR deutet auf erhebliches Aufwärtspotenzial hin.",
+   "dagegen": "Trotz positiver Kennzahlen gibt es Unsicherheiten: Die geringe Erwähnung auf Reddit und das Fehlen von Insider‑Transaktionen lassen auf ein begrenztes Marktinteresse schließen. Historische Qualitätsprobleme bei Siemens Gamesa‑Windturbinen und das geringe Short‑Interest könnten auf verborgene Risiken hindeuten.",
    "katalysatoren": [
-    "Fertigstellung und Inbetriebnahme neuer Gas‑ und Dampfturbinen‑Projekte im zweiten Quartal",
-    "Ausweitung des digitalen Service‑Portfolios für Windkraftanlagen",
-    "Veröffentlichung des Jahresberichts 2025 mit aktualisierten Prognosen für das Grid‑Technologies‑Segment"
+    "Auslieferung und Inbetriebnahme neuer H‑Klasse‑Gasturbinen‑Projekte",
+    "Steigerung der Lieferungen von Siemens Gamesa‑Windturbinen, insbesondere der 5.X‑Plattform",
+    "Vertragsabschlüsse für digitale Service‑ und Performance‑Optimierungsangebote"
    ]
   },
   "RHM.DE": {
@@ -497,11 +440,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "33.9 Mrd"
+     "32.7 Mrd"
     ],
     [
      "KGV (erw.)",
-     "14,6"
+     "14,1"
     ],
     [
      "Umsatzwachstum",
@@ -534,12 +477,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Dafür spricht die starke Umsatzsteigerung von 36 % im letzten Geschäftsjahr, ein moderates KGV von 14,6 im Vergleich zum Branchen‑Durchschnitt und ein positives Analysten‑Sentiment (17 Buy, 5 Hold). Das Kursziel von 1 326 € impliziert weiteres Aufwärtspotenzial.",
-   "dagegen": "Dagegen spricht, dass die Bewertung von 14,6‑fachem Gewinn zwar moderat erscheint, aber im Kontext des hohen Marktwertes von 33,9 Mrd. € ein signifikanter Anteil am Portfolio vieler Investoren darstellt. Das Unternehmen ist stark von staatlichen Rüstungsausgaben abhängig; bei Haushaltskürzungen oder Lieferverzögerungen könnte das Ergebnis leiden.",
+   "dafuer": "Rheinhmetall profitiert von starkem Umsatzwachstum (+36 %) und einem moderaten KGV von 14,1, was im Vergleich zur Branche attraktiv erscheint. Die Mehrheit der Analysten (17 Buy, 5 Hold) signalisiert Vertrauen, während das Kursziel von 1.326 € Aufwärtspotenzial impliziert.",
+   "dagegen": "Gegenargumente sind die hohe Abhängigkeit von Rüstungsausgaben, die politisch und konjunkturell schwanken können, sowie das Risiko von Exportbeschränkungen für militärische Systeme. Das aktuelle Kursziel von 1.326 € impliziert bereits ein starkes Aufwärtspotenzial, das bei stagnierendem Auftragseingang überbewertet sein könnte.",
    "katalysatoren": [
-    "Veröffentlichung des Quartals‑Ergebnisses (Q3) mit Ausblick auf Auftragslage",
-    "Zuteilung neuer Großaufträge für gepanzerte Fahrzeuge durch die Bundeswehr",
-    "Erweiterung des Electronic‑Solutions‑Geschäfts in Asien nach Abschluss von Partnerschaften"
+    "Erhöhung des deutschen Verteidigungsbudgets 2025",
+    "Zulassung neuer Exportgenehmigungen für Schützenpanzer",
+    "Großauftrag für elektronische Verteidigungssysteme in Asien"
    ]
   },
   "ASML.AS": {
@@ -550,11 +493,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "496.5 Mrd"
+     "465.2 Mrd"
     ],
     [
      "KGV (erw.)",
-     "22,8"
+     "21,4"
     ],
     [
      "Umsatzwachstum",
@@ -587,12 +530,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die Analystenmeinung ist eindeutig positiv: 38 Kauf‑Empfehlungen, nur 2 Halte‑ und 1 Verkauf‑Rating. Das Unternehmen verzeichnet ein Umsatzwachstum von +55 % und ein Kursziel von 2.096 €, was das starke Wachstumspotenzial der EUV‑Lithografie widerspiegelt.",
-   "dagegen": "Gegenargumente: Das KGV von 22,8 liegt über dem Branchendurchschnitt und signalisiert eine teure Bewertung. Die Abhängigkeit von EUV‑Technologie erhöht das Risiko bei möglichen Exportbeschränkungen und geopolitischen Spannungen, insbesondere im Hinblick auf China.",
+   "dafuer": "ASML profitiert von seiner Monopolstellung im EUV‑Lithografie‑Markt, was zu starkem Umsatzwachstum von +55 % führte. Das Unternehmen weist ein robustes Kurs‑Gewinn‑Verhältnis von 21,4 und ein Kursziel von 2 096 € auf, das aktuelle Niveau deutlich übertrifft. Analysten‑Consensus (38 Buy) unterstützt die positive Sicht.",
+   "dagegen": "Trotz des Wachstums bleibt die Bewertung mit einem KGV von 21,4 relativ hoch, insbesondere bei möglicher Abschwächung der Chip‑Nachfrage. Das Unternehmen ist stark von wenigen Großkunden abhängig, und Lieferketten‑Engpässe könnten die Produktion von EUV‑Systemen verzögern. Keine Insider‑Transaktionen oder Short‑Positionen belegen Unsicherheit.",
    "katalysatoren": [
-    "Q4‑2026 Ergebnisbericht mit EUV‑Absatzzahlen",
-    "Markteinführung des High‑NA‑EUV‑Systems (voraussichtlich 2027)",
-    "Klärung von US‑Exportbeschränkungen für Halbleiterausrüstung nach China"
+    "Veröffentlichung des Q3‑2024 Quartalsergebnisses",
+    "Markteinführung des High‑NA EUV‑Systems",
+    "Bekanntgabe eines Großauftrags von TSMC oder Samsung"
    ]
   },
   "SU.PA": {
@@ -603,11 +546,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "138.2 Mrd"
+     "133.0 Mrd"
     ],
     [
      "KGV (erw.)",
-     "18,7"
+     "18,0"
     ],
     [
      "Umsatzwachstum",
@@ -625,7 +568,7 @@
     ],
     [
      "Newsletter",
-     "in 14 Clustern"
+     "in 11 Clustern"
     ],
     [
      "Reddit",
@@ -640,13 +583,9 @@
      "1648,06 % ueber 1700 Halter"
     ]
    ],
-   "dafuer": "Dafür spricht ein breites Analysten‑Buy‑Rating (19 Buy, 4 Hold), ein robustes Umsatzwachstum von 10 % und ein moderates KGV von 18,7, das im Branchenvergleich attraktiv ist. Die globale Präsenz in Energie‑Management, Industrie‑Automation und erneuerbaren Lösungen sowie ein Kursziel von 323 EUR unterstreichen das Aufwärtspotenzial.",
-   "dagegen": "Dagegen spricht das extrem hohe Short‑Interest von 1648 % bei über 1.700 Haltern, was auf erhebliche Bedenken hinsichtlich Bewertung oder zukünftiger Ergebnisse hindeutet. Die kaum vorhandene Reddit‑Präsenz und das Fehlen von Insider‑Meldungen reduzieren die Transparenz. Zudem könnten steigende Zinsen und geopolitische Risiken die Investitionen in Industrie‑Automation bremsen.",
-   "katalysatoren": [
-    "Q3‑2024‑Ergebnisveröffentlichung (voraussichtlich Oktober) mit Fokus auf Umsatz‑ und Margenentwicklung",
-    "Markteinführung der neuen Microgrid‑Plattform für industrielle Kunden",
-    "Umsetzung der EU‑Fit‑for‑55‑Regelungen, die die Nachfrage nach Energie‑Management‑Lösungen steigern könnte"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "GEV": {
    "ticker": "GEV",
@@ -693,9 +632,13 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "Starkes Umsatzwachstum von +27 % zeigt steigende Nachfrage, während das Unternehmen in drei Kernsegmenten (Power, Wind, Electrification) diversifiziert ist. Das Kursziel von 1.167 USD impliziert erhebliches Aufwärtspotenzial. Das durchschnittliche KGV von 29,2 liegt im Branchendurchschnitt, was die Bewertung nicht übermäßig überhöht erscheinen lässt.",
+   "dagegen": "Insiderverkäufe von vier Führungskräften signalisieren mögliche Bedenken hinsichtlich kurzfristiger Aussichten. Die geringe Aufmerksamkeit in Reddit und das Fehlen von Newsletter‑Analysen deuten auf begrenztes Marktinteresse hin. Trotz positiver Analystenmeinung könnte das KGV von 29,2 im Vergleich zu Wachstumserwartungen überbewertet sein, insbesondere bei Unsicherheiten in der Wind‑ und Kernenergie.",
+   "katalysatoren": [
+    "Veröffentlichung des Quartalsberichts (Q3) mit Fokus auf Umsatz- und Margenentwicklung",
+    "Ausweitung von Windprojekten dank US‑Infrastructure‑Bill‑Förderungen",
+    "Genehmigung und Inbetriebnahme neuer Kernkraft‑ oder Wasserstoff‑Anlagen in Europa"
+   ]
   },
   "CCJ": {
    "ticker": "CCJ",
@@ -717,7 +660,7 @@
     ],
     [
      "Kursziel",
-     "115 USD"
+     "116 USD"
     ]
    ],
    "quellen": [
@@ -1228,6 +1171,6 @@
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 179,
- "llm_aktiv": true
+ "meldungen_gesamt": 173,
+ "llm_aktiv": false
 }
