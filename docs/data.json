@@ -1,9 +1,9 @@
 {
- "stand": "2026-11-21T21:16",
- "lauf": "2026112121",
+ "stand": "2026-11-22T14:57",
+ "lauf": "2026112214",
  "synthese": {
-  "kern": "Alle Meldungen betonen steigende Risiken und regulatorische Belastungen, während der Markt die drohende Risikoaversion unterschätzt.",
-  "erlaeuterung": "Zinsdruck und Liquiditätsengpässe steigen, Risikoappetit fällt auf historische Tiefstwerte, was die aktuelle Aktienvolatilität erklärt. Regulatorische Untersuchungen bei Nvidia und Unsicherheit im KI‑Sektor verstärken die Abwärtsdynamik, die Anleger bislang kaum einpreisen."
+  "kern": "Politische und regulatorische Spannungen erhöhen Risiko, während Märkte weiterhin niedrige Risikoappetit‑Werte übersehen.",
+  "erlaeuterung": "Die Meldungen zeigen steigende fiskalische Belastungen, geopolitische Unsicherheiten und regulatorische Eingriffe, die den Liquiditäts‑ und Risiko‑Puffer belasten. Trotzdessen bleibt das globale Risikoappetit‑Perzentil bei 4, was die Markt‑Unterschätzung der strukturellen Risiken verdeutlicht."
  },
  "regime": [
   {
@@ -36,15 +36,15 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 66,
-     "delta": -1
+     "wert": 69,
+     "delta": 2
     },
     "eur": {
-     "wert": 78,
-     "delta": -4
+     "wert": 76,
+     "delta": -6
     }
    },
-   "differenz": 12
+   "differenz": 7
   },
   {
    "name": "risikoappetit",
@@ -84,83 +84,77 @@
  ],
  "cluster": [
   {
-   "id": "ec2d63cf",
-   "titel": "Aktien: Anthropic-Aktie stürzt Richtung Ausgabekurs – Ist der KI-Boom nach dem Mega-Börsengang vorbei?",
-   "anriss": "„Alle Bären wachen auf“: Am zweiten Handelstag startet die Aktie des KI-Pioniers zehn Prozent im Minus. Die Wall Street steuert auf die längste Verluststrecke seit drei Jahren zu.",
+   "id": "eae36a7d",
+   "titel": "Geldanlage: Nachgerechnet: So hoch ist der Steuervorteil beim Altersvorsorgedepot wirklich",
+   "anriss": "Das neue staatlich geförderte Depot soll die Rente der Deutschen aufbessern. Doch ist es steuerlich günstiger als ein normales Depot? Exklusive Berechnungen zeigen, wer am Ende mehr behält.",
    "region": "dach",
    "quellen": [
-    "FAZ Wirtschaft",
     "Handelsblatt Finanzen",
     "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "heise",
-    "manager magazin"
+    "Tagesschau Wirtschaft"
    ],
-   "anzahl": 7,
+   "anzahl": 4,
    "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/boerse-inside/aktien-ist-der-ki-boom-nach-dem-anthropic-boersengang-vorbei/100270470.html",
-    "https://www.tagesschau.de/wirtschaft/boerse/anthropic-ki-tech-werte-boersen-100.html",
-    "https://www.spiegel.de/wirtschaft/nvidia-und-anthropic-das-steckt-hinter-dem-boersenbeben-a-f2133f0d-0378-4c58-9875-7410412e0df1#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/zuckerberg-musk-anthropic-wie-tech-milliardaere-macht-zementieren-201700143.html",
-    "https://www.manager-magazin.de/finanzen/boerse/anthropic-aktie-bricht-auch-freitag-weiter-ein-a-66c2a563-421c-4927-afac-9e69c361a09a#ref=rss"
+    "https://www.handelsblatt.com/finanzen/steuern-recht/steuern/geldanlage-so-hoch-ist-der-steuervorteil-beim-altersvorsorgedepot-wirklich/100268247.html",
+    "https://www.tagesschau.de/wirtschaft/verbraucher/altersvorsorgedepot-tipps-riester-100.html",
+    "https://www.tagesschau.de/wirtschaft/verbraucher/altersvorsorgedepot-staatlicher-fonds-nicht-startklar-100.html",
+    "https://www.spiegel.de/wirtschaft/service/altersvorsorgedepot-staatliches-depot-fuer-zusatzrente-verzoegert-sich-wohl-a-705ab323-1c12-4e1e-b81f-4293c37475d6#ref=rss"
    ],
-   "punkte": 27,
-   "text": "Am zweiten Handelstag nach dem Börsengang fiel die Anthropic‑Aktie um rund zehn Prozent und befindet sich damit auf dem längsten Verlustpfad seit drei Jahren. Der Kursrückgang deutet auf eine nachlassende Euphorie im KI‑Sektor nach dem Mega‑IPO hin.",
-   "positiv": [],
+   "punkte": 15,
+   "text": "Das neue staatlich geförderte Altersvorsorge‑Depot ermöglicht im Vergleich zu einem regulären Depot eine steuerliche Entlastung, die nach Berechnungen bis zu mehreren Prozentpunkten der Rendite ausmachen kann. Die Vorteile gelten jedoch nur, solange die gesetzlichen Rahmenbedingungen unverändert bleiben.",
+   "positiv": [
+    "Altersvorsorge‑Depot (Steuerersparnis)"
+   ],
    "negativ": [
-    "Anthropic‑Aktie (down)",
-    "KI‑Branche (down)"
+    "normales Depot (weniger vorteilhaft)"
    ]
   },
   {
-   "id": "a296f10e",
-   "titel": "Nvidia: US-Börsenaufsicht ermittelt gegen Chip-Riesen",
-   "anriss": "Der Techkonzern Nvidia rutscht immer tiefer in die Krise. Nach dem Skandal um Jensen Huang untersucht die US-Börsenaufsicht nun offenbar mutmaßliche Bilanzprobleme. Bekannt werden auch neue Details über seine Geliebte.",
+   "id": "d2b9e4a9",
+   "titel": "Scheitert die UN-Klimakonferenz in Antalya?",
+   "anriss": "Dass eine Weltklimakonferenz pünktlich endet, passiert praktisch nie. Auch die COP31 in Antalya ist schon seit mehr als 24 Stunden in der Verlängerung. Droht ein Rückfall bei den Klimazielen - oder sogar ein Scheitern?",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "manager magazin"
+    "Tagesschau Wirtschaft"
    ],
    "anzahl": 5,
    "links": [
-    "https://www.spiegel.de/wirtschaft/unternehmen/nvidia-us-boersenaufsicht-ermittelt-gegen-chip-riesen-a-89d79e61-5ac5-4389-aca3-f8e8d8aba4a5#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/nvidia-aktie-faellt-um-14-prozent-sec-ermittelt-accg-201704341.html",
-    "https://www.manager-magazin.de/unternehmen/industrie/nvidia-verlust-von-jensen-huang-belastet-den-chipkonzern-a-ca015749-bc14-43ca-b567-ac6146fb440b#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/tech/nvidia-us-boersenaufsicht-ermittelt-2-7-billionen-dollar-boersenwert-verbrannt-a-c34d5ac8-df77-44a6-bb3c-e4b8cace062c#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/tech/nvidia-wie-jensen-huang-bei-nvidia-die-mitarbeiter-tyrannisierte-a-f82c9e68-e02d-494e-b52f-af8662e319ac#ref=rss"
+    "https://www.tagesschau.de/wissen/klima/klimakonferenz/cop31-haengepartie-abschlusserklaerung-100.html",
+    "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/das-klima-drama-von-antalya-accg-201704569.html",
+    "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/einigung-bei-weltklimakonferenz-gescheitert-accg-201706517.html",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/weltklimakonferenz-carsten-schneider-haelt-einigung-fuer-unwahrscheinlich-accg-201706259.html",
+    "https://www.faz.net/aktuell/wirtschaft/klimagipfel-cop31-textentwurf-erwaehnt-fossile-energien-nicht-accg-201705645.html"
    ],
-   "punkte": 16,
-   "text": "Die US‑Börsenaufsicht (SEC) hat ein Ermittlungsverfahren gegen Nvidia eingeleitet, das mögliche Bilanzirrtümer im Zusammenhang mit dem Jensen‑Huang‑Skandal untersucht. Die Untersuchung belastet das Unternehmen weiter und könnte das Vertrauen in den US‑Halbleitermarkt schwächen.",
+   "punkte": 14,
+   "text": "Die COP31 in Antalya ist bereits seit über 24 Stunden in der Verlängerung, wodurch die Verhandlungsdynamik und die Verbindlichkeit zukünftiger Klimaziele unsicher bleiben. Ein möglicher Rückschritt bei den Klimazielen würde die Marktbedingungen für klimabezogene Anlagen beeinträchtigen.",
    "positiv": [],
    "negativ": [
-    "Nvidia‑Aktie (down)",
-    "Halbleiter‑ und Tech‑Branche (down)"
+    "Erneuerbare‑Energien‑Branche (Unsicherheit)",
+    "Kohlenstoffintensive Industrie (potenziell weniger regulatorischer Druck)"
    ]
   },
   {
-   "id": "335204e9",
-   "titel": "Inkling-2-Mini in 5.4 GB Memory",
-   "anriss": "Article URL: https://github.com/ShinMegamiBoson/lookatmyquant Comments URL: https://news.ycombinator.com/item?id=50591853 Points: 234 # Comments: 46",
-   "region": "global",
+   "id": "132b4fe2",
+   "titel": "Argentinien: Milei unter Zugwang – Druck auf Staatsanleihen wächst",
+   "anriss": "Die Krise an den internationalen Märkten belastet auch die Staatsfinanzen in Argentinien. Die Zinsen auf Staatsanleihen wachsen – auch weil Mileis Wiederwahl gefährdet ist.",
+   "region": "dach",
    "quellen": [
-    "Hacker News Top"
+    "FAZ Wirtschaft",
+    "Handelsblatt Finanzen"
    ],
-   "anzahl": 11,
+   "anzahl": 2,
    "links": [
-    "https://github.com/ShinMegamiBoson/lookatmyquant",
-    "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
-    "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
-    "https://blog.tymscar.com/posts/studiodisplayethernet/",
-    "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html"
+    "https://www.handelsblatt.com/finanzen/maerkte/anleihen/argentinien-milei-unter-zugwang-druck-auf-staatsanleihen-waechst/100271849.html",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/lars-klingbeil-und-das-defizit-tappt-deutschland-in-die-schuldenfalle-201621537.html"
    ],
    "punkte": 13,
-   "text": "Der Inkling‑2‑Mini wurde mit einem Arbeitsspeicher von 5,4 GB vorgestellt und sorgt in der Hacker‑News‑Community für rege Diskussionen. Das Produkt signalisiert eine mögliche Aufwertung im Markt für kompakte Embedded‑Hardware.",
-   "positiv": [
-    "Inkling‑2‑Mini (up)",
-    "Embedded‑Hardware‑Markt (up)"
-   ],
-   "negativ": []
+   "text": "In Argentinien steigen die Renditen auf Staatsanleihen, weil die politische Lage um Präsident Milei und die Gefahr einer Wiederwahlverlustes die Kreditwürdigkeit des Landes belasten. Gleichzeitig erhöht die allgemeine Marktkrise die Refinanzierungsrisiken für die argentinische Regierung.",
+   "positiv": [],
+   "negativ": [
+    "Argentinische Staatsanleihen (Kursverlust, steigende Renditen)",
+    "Argentinische Schwellenländer‑Aktien (Risiko)"
+   ]
   },
   {
    "id": "e99930cd",
@@ -179,102 +173,97 @@
     "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/eu-und-indonesien-unterzeichnen-weitreichendes-freihandelsabkommen-accg-201704887.html"
    ],
    "punkte": 12,
-   "text": "Die EU und Indonesien haben nach fast einem Jahrzehnt Verhandlungen ein Freihandelsabkommen unterzeichnet, das Zölle auf nahezu alle Waren zwischen den Partnern abschafft. Das Abkommen dürfte das Handelsvolumen und die Exportmöglichkeiten beider Seiten erhöhen, während einige geschützte Sektoren stärkerem Wettbewerb ausgesetzt werden könnten.",
+   "text": "Nach fast einem Jahrzehnt Verhandlungen haben die EU und Indonesien ein Freihandelsabkommen unterzeichnet, das die Zölle auf nahezu alle Waren zwischen den Partnern abschafft. Das Abkommen dürfte den bilateralen Handel ankurbeln und die Wettbewerbsfähigkeit exportorientierter Branchen stärken.",
    "positiv": [
-    "EU‑Exportsektor (up)",
-    "Indonesischer Exportsektor (up)"
+    "EU‑Exporte nach Indonesien (Zollabbau)",
+    "Indonesische Importe in die EU (Zollabbau)",
+    "Textil‑ und Maschinenbau (Handelserleichterung)"
    ],
-   "negativ": [
-    "geschützte Binnenmärkte (down)"
-   ]
+   "negativ": []
   },
   {
-   "id": "dac2b58c",
-   "titel": "Im Streit über EU-Budget legt Costa Kompromiss vor",
-   "anriss": "Die EU-Staaten ringen um einen neuen Budgetplan. Jetzt legt Ratspräsident Costa einen Kompromiss vor. Die Zeit wird langsam knapp: Bis Jahresende soll eine Einigung erzielt werden.",
+   "id": "06d7a9c5",
+   "titel": "Ministerium will Autobahntankstellen vom Spritpreisdeckel ausnehmen",
+   "anriss": "Ab Januar soll der Preisdeckel für Benzin und Diesel gelten. Wirtschaftsministerin Reiche plant offenbar, Autobahntankstellen davon ausnehmen. Ihr neuer Gesetzentwurf ist noch in der Abstimmung zwischen den Ministerien.",
+   "region": "dach",
+   "quellen": [
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.tagesschau.de/inland/spritpreis-autobahntankstellen-ausnahme-100.html",
+    "https://www.spiegel.de/wirtschaft/service/hohe-spritpreise-katherina-reiche-will-autobahntankstellen-von-preisdeckel-ausnehmen-a-98639391-2d38-4b1a-873b-927535a346a9#ref=rss",
+    "https://www.manager-magazin.de/politik/deutschland/spritpreise-ein-deckel-mit-vielen-loechern-opposition-uebt-massive-kritik-a-2614d790-ede1-4da4-a14e-e6a054da5c6f#ref=rss"
+   ],
+   "punkte": 12,
+   "text": "Ab Januar soll der Preisdeckel für Benzin und Diesel gelten. Wirtschaftsministerin Reiche plant offenbar, Autobahntankstellen davon ausnehmen. Ihr neuer Gesetzentwurf ist noch in der Abstimmung zwischen den Ministerien.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "4deeeff5",
+   "titel": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+   "anriss": "Article URL: https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/ Comments URL: https://news.ycombinator.com/item?id=50597612 Points: 317 # Comments: 428",
+   "region": "global",
+   "quellen": [
+    "Hacker News Top"
+   ],
+   "anzahl": 9,
+   "links": [
+    "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+    "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+    "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+    "https://stulle.app/",
+    "https://linebender.org/blog/next-100-guis/"
+   ],
+   "punkte": 11,
+   "text": "Article URL: https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/ Comments URL: https://news.ycombinator.com/item?id=50597612 Points: 317 # Comments: 428",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "7a1de46c",
+   "titel": "Private Equity: Wachstumsfinanzierer zieht es nach Griechenland",
+   "anriss": "Der Standort gewinnt für Beteiligungskapital an Bedeutung. Das belegen aktuelle Zahlen zu Finanzierungen sowie zu Fusionen und Übernahmen. Doch einige Hürden gilt es noch zu überwinden.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "SPIEGEL Wirtschaft"
+   ],
+   "anzahl": 2,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/private-equity-wachstumsfinanzierer-zieht-es-nach-griechenland/100271032.html",
+    "https://www.spiegel.de/wirtschaft/autobahnen-vertrauliches-gutachten-empfiehlt-pkw-maut-zur-finanzierung-a-e105dfef-32ed-4421-9a26-b935f697e8f9#ref=rss"
+   ],
+   "punkte": 9,
+   "text": "Der Standort gewinnt für Beteiligungskapital an Bedeutung. Das belegen aktuelle Zahlen zu Finanzierungen sowie zu Fusionen und Übernahmen. Doch einige Hürden gilt es noch zu überwinden.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "85beda9f",
+   "titel": "Cyber Risk: Wie Versicherer und Analysten das Risiko durch Hackerangriffe berechnen",
+   "anriss": "Viele Unternehmen wissen nicht, wie groß die Gefahr durch Cyberangriffe wirklich ist. Auch auf Druck von Versicherern berechnen immer mehr Betriebe die Risiken nun in Euro und Cent.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft"
+    "Handelsblatt Finanzen"
    ],
-   "anzahl": 3,
+   "anzahl": 2,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/digitales/digitalsteuer-streit-eu-deutschland-100.html",
-    "https://www.spiegel.de/wirtschaft/antonio-costa-kuerzt-friedrich-merz-kritisiert-dennoch-den-eu-budget-vorschlag-a-dabd98ed-f515-48af-af87-b52c783e71ee#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/eu-digitalsteuer-costas-plan-fuer-den-haushalt-und-trumps-moegliche-reaktion-accg-201704604.html"
+    "https://www.handelsblatt.com/finanzen/banken-versicherungen/versicherer/cyber-risk-wie-sich-das-risiko-durch-hackerangriffe-berechnen-laesst/100271003.html",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/was-denkt-harald-christ-der-investor-lobbyist-und-mann-zwischen-den-welten-201689491.html"
    ],
-   "punkte": 12,
-   "text": "Die EU-Staaten ringen um einen neuen Budgetplan. Jetzt legt Ratspräsident Costa einen Kompromiss vor. Die Zeit wird langsam knapp: Bis Jahresende soll eine Einigung erzielt werden.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "20ac56a2",
-   "titel": "\"Altersvorsorgedepot für nahezu alle Riester-Sparer interessant\"",
-   "anriss": "Die Bundesregierung stellt die Altersvorsorge ab dem kommenden Jahr neu auf. Die staatliche Förderung könnte beim neuen Altersvorsorgedepot für viele lukrativer sein als beim bisherigen \"Riestern\". Das sollte man beachten. Von P. Sauer.",
-   "region": "dach",
-   "quellen": [
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/verbraucher/altersvorsorgedepot-tipps-riester-100.html",
-    "https://www.tagesschau.de/wirtschaft/verbraucher/altersvorsorgedepot-staatlicher-fonds-nicht-startklar-100.html",
-    "https://www.spiegel.de/wirtschaft/service/altersvorsorgedepot-staatliches-depot-fuer-zusatzrente-verzoegert-sich-wohl-a-705ab323-1c12-4e1e-b81f-4293c37475d6#ref=rss"
-   ],
-   "punkte": 10,
-   "text": "Die Bundesregierung stellt die Altersvorsorge ab dem kommenden Jahr neu auf. Die staatliche Förderung könnte beim neuen Altersvorsorgedepot für viele lukrativer sein als beim bisherigen \"Riestern\". Das sollte man beachte",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "292ace4d",
-   "titel": "Deutsche Bank: Islamisten gesucht. Buddhisten und Dönerhersteller gefunden",
-   "anriss": "Jahrelang hat die Deutsche Bank die Konten von islamischen Vereinen durchleuchtet. Interne Unterlagen zeigen: Bei der Suche nach vermeintlichen Terrorfinanziers gerieten auch harmlose Organisationen ins Visier – wie der Verein eines früheren CSU-Ministers.",
-   "region": "dach",
-   "quellen": [
-    "SPIEGEL Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.spiegel.de/wirtschaft/unternehmen/deutsche-bank-islamisten-gesucht-buddhisten-und-doenerhersteller-gefunden-a-ca7c78d3-5ee1-4a47-acfb-21ba6832b6e7#ref=rss",
-    "https://www.spiegel.de/wirtschaft/deutsche-bank-wie-carsten-maschmeyer-zum-risikokunden-wurde-a-b7def544-3f6e-47e6-b740-1975f7c94243#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/tech/deutsche-bank-und-lakestar-geheimplan-sollte-bank-zur-techbank-machen-a-511427f8-11c7-4057-8b13-1973a945c6d2#ref=rss"
-   ],
-   "punkte": 10,
-   "text": "Jahrelang hat die Deutsche Bank die Konten von islamischen Vereinen durchleuchtet. Interne Unterlagen zeigen: Bei der Suche nach vermeintlichen Terrorfinanziers gerieten auch harmlose Organisationen ins Visier – wie der ",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "709f10cf",
-   "titel": "Deutschland: Friedrich Merz kündigt Milliardeninvestitionen aus Katar an",
-   "anriss": "Katar kauft sich gern bei deutschen Unternehmen ein. Bundeskanzler Friedrich Merz hat mit dem Emir nun neue Investitionen vereinbart.",
-   "region": "dach",
-   "quellen": [
-    "SPIEGEL Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.spiegel.de/wirtschaft/katar-friedrich-merz-begruesst-milliarden-investitionen-in-deutschland-a-43570797-3fed-4b48-91a3-5bcd3d31d2d0#ref=rss",
-    "https://www.spiegel.de/wirtschaft/soziales/deutsch-ukrainisches-wirtschaftsforum-fuer-friedrich-merz-geht-es-in-der-ukraine-auch-ums-geschaeft-a-2848de43-1eaa-4c1a-9657-61708a4cd52c#ref=rss",
-    "https://www.manager-magazin.de/politik/katar-will-weitere-15-milliarden-euro-in-deutsche-unternehmen-investieren-a-b8e90bca-7f55-493e-86f4-317be602b8b7#ref=rss"
-   ],
-   "punkte": 10,
-   "text": "Katar kauft sich gern bei deutschen Unternehmen ein. Bundeskanzler Friedrich Merz hat mit dem Emir nun neue Investitionen vereinbart.",
+   "punkte": 9,
+   "text": "Viele Unternehmen wissen nicht, wie groß die Gefahr durch Cyberangriffe wirklich ist. Auch auf Druck von Versicherern berechnen immer mehr Betriebe die Risiken nun in Euro und Cent.",
    "positiv": [],
    "negativ": []
   }
  ],
  "ketten": [],
- "gegenthese": {
-  "konsens": "Der Markt geht davon aus, dass der KI‑Boom nach den spektakulären Börsengängen abkühlt, regulatorische Risiken für Chip‑Hersteller zunehmen und geopolitische/handels‑ und Investitionsnachrichten eher neutral bis positiv bewertet werden.",
-  "gegen": "Trotz kurzfristiger Kursrückgänge zeigen anhaltende Unternehmensinvestitionen und steigende Rechenzentrenutzung, dass die zugrundeliegende Nachfrage nach KI‑Leistung langfristig robust bleibt."
- },
+ "gegenthese": null,
  "matrix": [
   {
    "ticker": "SU.PA",
@@ -412,7 +401,7 @@
     ],
     [
      "Newsletter",
-     "in 3 Clustern"
+     "in 1 Clustern"
     ],
     [
      "Reddit",
@@ -427,12 +416,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die Analystenmehrheit (22 Kauf‑Empfehlungen) spricht für Siemens Energy. Das Unternehmen verzeichnet ein starkes Umsatzwachstum von +23 % und ein attraktives KGV von 13,3. Das Kursziel von 192 € liegt deutlich über dem aktuellen Kurs, was Aufwärtspotenzial signalisiert.",
-   "dagegen": "Trotz der positiven Analystenstimmung gibt es 2 Verkaufsempfehlungen, was einen Widerspruch zur Kauf‑Mehrheit darstellt. Die Abhängigkeit von Gas‑ und Windturbinen birgt Risiken im Zuge der Energiewende, und das Fehlen von Insider‑Transaktionen könnte auf zurückhaltende Marktteilnehmer hindeuten.",
+   "dafuer": "Dafür spricht ein starkes Analysten‑Umfeld (22 Kauf, 4 Halten, 2 Verkauf) und ein attraktives KGV von 13,3 bei erwarteten Umsatzsteigerungen von 23 %. Das Kursziel von 192 € impliziert weiteres Aufwärtspotenzial, unterstützt durch solide Marktposition in Turbinen und Netzinfrastruktur.",
+   "dagegen": "Dagegen stehen Risiken durch die Abhängigkeit von Gas‑ und Wind‑Geschäften, mögliche Kostenüberschreitungen bei Großprojekten und die Notwendigkeit, die digitale Transformation zu skalieren. Zudem fehlt Insider‑Information und Short‑Interest, was Unsicherheit über die Bewertung signalisiert.",
    "katalysatoren": [
-    "Auslieferung und Auftragszusage für neue SG‑8‑Gasturbinen‑Serie",
-    "Erweiterung des Grid‑Technologies‑Auftragsbuchs und digitale Service‑Verträge",
-    "Mögliche Restrukturierung oder Spin‑Off von Siemens Gamesa zur Verbesserung der Marge"
+    "Abschluss großer Gas‑Turbinen‑Aufträge im Q2",
+    "Lieferungen von Siemens Gamesa‑Windkraftanlagen nach Europa",
+    "Einführung einer neuen digitalen Serviceplattform für Anlagen"
    ]
   },
   "RHM.DE": {
@@ -480,12 +469,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Dafür spricht das robuste Umsatzwachstum von +36 % und ein attraktives erwartetes KGV von 14, was im Vergleich zur Branche unterbewertet wirkt. Die breite Produktpalette in Fahrzeug‑ und Waffensystemen profitiert von steigenden Verteidigungsbudgets in Europa und den USA. Analysten‑Consensus (17 Buy) unterstützt die positive Sicht.",
-   "dagegen": "Dagegen sind Risiken durch die starke Abhängigkeit von staatlichen Rüstungsaufträgen und möglichen Haushaltskürzungen in Kernmärkten zu beachten. Hohe Investitionen in neue Fahrzeugplattformen können die Marge belasten. Das Kursziel von 1.326 € impliziert ein erhebliches Aufwärtspotenzial, das bei unerwarteten politischen Wendungen schnell korrigiert werden könnte.",
+   "dafuer": "Dafür spricht das robuste Umsatzwachstum von +36 % und die breite Aufstellung in Fahrzeugsysteme, Waffen und Elektronik, die defensive Nachfrage stabilisieren. Das KGV von 14 ist im Vergleich zur Branche moderat, und die Analystenmehrheit (17 Buy) signalisiert Vertrauen.",
+   "dagegen": "Dagegen steht die starke Abhängigkeit von staatlichen Rüstungsbudgets; bei Haushaltskürzungen oder politischen Kurswechseln kann die Auftragslage sinken. Das Kursziel von 1326 € impliziert ein Aufwärtspotenzial, das bereits im aktuellen Kurs teilweise eingepreist sein könnte.",
    "katalysatoren": [
-    "Erhöhung des deutschen Verteidigungsbudgets 2025",
-    "Vergabe eines Großauftrags für eine neue Panzerplattform an Rheinmetall",
-    "Integration von Elektronik‑ und Sensorlösungen in EU‑Luftfahrtsysteme"
+    "Q3‑2024 Quartalsbericht – Ergebnis‑ und Ausblickveröffentlichung",
+    "Genehmigung neuer Exportlizenzen für gepanzerte Fahrzeuge in EU/USA",
+    "Erhöhung des deutschen Verteidigungsbudgets im Zuge des NATO‑2‑Prozent‑Ziels"
    ]
   },
   "ASML.AS": {
@@ -533,12 +522,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Dafür spricht die überwältigende Analysten‑Konsens von 38 Käufern bei nur wenigen Gegenstimmen, das robuste Umsatzwachstum von +55 % und die führende Stellung im EUV‑Lithographiesegment, das von der steigenden Chipnachfrage getragen wird. Das KGV von 20,7 erscheint im Vergleich zur Branche moderat.",
-   "dagegen": "Dagegen spricht die hohe Marktkapitalisierung von 450 Mrd. EUR, die ein hohes Risiko bei makroökonomischen Abschwüngen impliziert, sowie das Kursziel von 2096 EUR, das eine erhebliche Aufwärtsbewegung voraussetzt. Die Datenbasis ist dünn: keine Insider‑Meldungen, kaum Reddit‑Diskussion und keine Short‑Positionen, die Unsicherheit über Marktmeinung signalisiert.",
+   "dafuer": "ASML profitiert von starkem Umsatzwachstum von +55 % und einem relativ moderaten KGV von 20,7, was im Vergleich zur Branche attraktiv erscheint. Die Marktkapitalisierung von 450,2 Mrd. € unterstreicht die Marktposition. 38 Analysten empfehlen Kauf, was auf Vertrauen in die Technologie und langfristige Nachfrage hindeutet.",
+   "dagegen": "Gegenargumente sind die hohe Bewertung: ein KGV von 20,7 liegt über dem Durchschnitt vieler Halbleiterhersteller und lässt wenig Spielraum für Fehlentwicklungen. Das Geschäft ist stark kunden‑konzentriert, wobei wenige Chip‑Fabs den Großteil des Umsatzes ausmachen, was das Unternehmen anfällig für Nachfragerückgänge macht.",
    "katalysatoren": [
-    "Q4‑2026 EUV‑Tool‑Auslieferungen",
-    "Einführung des High‑NA‑EUV‑Systems",
-    "Kapazitätserweiterungen bei TSMC und Intel"
+    "Einführung neuer High‑NA EUV‑Systeme im geplanten Zeitraum 2025",
+    "Steigende Auftragsvolumen von KI‑ und HPC‑Chip‑Fertigern",
+    "Q4‑2024‑Ergebnisbericht mit erwarteter Umsatzsteigerung"
    ]
   },
   "SU.PA": {
@@ -571,7 +560,7 @@
     ],
     [
      "Newsletter",
-     "in 10 Clustern"
+     "in 6 Clustern"
     ],
     [
      "Reddit",
@@ -586,13 +575,9 @@
      "1648,06 % ueber 1700 Halter"
     ]
    ],
-   "dafuer": "Dafür spricht die globale Präsenz von Schneider Electric im Energiemanagement und der Industrieautomation, ein diversifiziertes Produktportfolio von Inverter‑ bis Gebäude‑Steuerungssystemen sowie ein erwartetes Umsatzwachstum von 10 % und ein moderates forward KGV von 18. Analysten bewerten das Unternehmen überwiegend positiv (19 Buy).",
-   "dagegen": "Dagegen steht das extrem hohe Short‑Interest von über 1 600 % bei rund 1 700 Aktionären, das auf erhebliche Bärenmeinungen hindeutet. Insider‑Transaktionen fehlen, und die geringe Diskussion auf Reddit deutet auf ein begrenztes Markt‑Sentiment hin. Die Kursziel‑Bewertung könnte im Vergleich zum aktuellen Kurs überhöht sein.",
-   "katalysatoren": [
-    "Quartalsbericht Q3 2026 mit erwarteter Umsatzsteigerung im Bereich erneuerbare Energien",
-    "Markteinführung einer neuen Microgrid‑Lösung für industrielle Kunden",
-    "Mögliche Akquisition eines europäischen Smart‑Building‑Technologie‑Anbieters"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "GEV": {
    "ticker": "GEV",
@@ -792,24 +777,6 @@
   }
  },
  "shorts": [
-  {
-   "land": "NL",
-   "halter": "BlackRock Advisors, LLC",
-   "emittent": "Akzo Nobel N.V.",
-   "prozent": 1.54,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "PDT Partners, LLC",
-   "emittent": "Signify N.V.",
-   "prozent": 1.3,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
   {
    "land": "UK",
    "halter": "Anavio Capital Partners LLP",
@@ -1061,10 +1028,28 @@
    "datum": "2020-09-24",
    "status": "aufgestockt",
    "zuvor": 0.57
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 13.68,
+   "datum": "2019-06-07",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 13.5,
+   "datum": "2019-06-06",
+   "status": "aufgestockt",
+   "zuvor": 0.53
   }
  ],
  "shorts_kennzahlen": {
-  "neu_diese_woche": 2,
+  "neu_diese_woche": 0,
   "meistgeshortet": {
    "name": "Premier Oil PLC",
    "summe": 2145.63
@@ -1077,14 +1062,6 @@
  },
  "gespraech": [],
  "termine": [
-  {
-   "datum": "2026-11-21",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
   {
    "datum": "2026-11-22",
    "zeit": "",
@@ -1172,8 +1149,16 @@
    "was": "FOMC Press Release",
    "konsens": "",
    "wucht": "hoch"
+  },
+  {
+   "datum": "2026-11-29",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 137,
+ "meldungen_gesamt": 87,
  "llm_aktiv": false
 }
