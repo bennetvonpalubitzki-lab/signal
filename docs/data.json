@@ -1,9 +1,9 @@
 {
- "stand": "2026-11-22T21:23",
- "lauf": "2026112221",
+ "stand": "2026-11-23T15:08",
+ "lauf": "2026112315",
  "synthese": {
-  "kern": "Märkte übersehen, dass steigender KI‑Energiebedarf und fiskalische Belastungen die aktuelle Risiko‑Appetit‑Erosion verstärken.",
-  "erlaeuterung": "Der Ausstieg aus dem Spritpreisdeckel, Argentiniens Anleihedruck und das EU‑Budget‑Komplott erhöhen fiskalische Unsicherheit. Gleichzeitig treibt der KI‑induzierte Energiehunger strukturelle Kosten, die das niedrige globale Risiko‑Appetit‑Perzentil von 4 erklärt."
+  "kern": "Fokus auf Nvidia‑Chefwechsel und Börsenrally, während Markt das schwache Risikoappetit‑ und Liquiditätsumfeld verkennt.",
+  "erlaeuterung": "Der Rücktritt von Jensen Huang löst kurzfristige Euphorie aus, die DAX‑ und US‑Indizes beflügelt. Gleichzeitig signalisieren das globale Risikoappetit‑Perzentil von 5 und die US‑Liquidität von 44 anhaltende Schwäche, die von Anlegern unterschätzt wird."
  },
  "regime": [
   {
@@ -36,23 +36,23 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 69,
-     "delta": 2
+     "wert": 65,
+     "delta": 3
     },
     "eur": {
-     "wert": 76,
-     "delta": -6
+     "wert": 75,
+     "delta": -2
     }
    },
-   "differenz": 7
+   "differenz": 10
   },
   {
    "name": "risikoappetit",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 4,
-     "delta": -29
+     "wert": 5,
+     "delta": -17
     }
    }
   },
@@ -76,197 +76,204 @@
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 75,
-     "delta": -3
+     "wert": 76,
+     "delta": -1
     }
    }
   }
  ],
  "cluster": [
   {
-   "id": "06d7a9c5",
-   "titel": "Ministerium will Autobahntankstellen vom Spritpreisdeckel ausnehmen",
-   "anriss": "Ab Januar soll der Preisdeckel für Benzin und Diesel gelten. Wirtschaftsministerin Reiche plant offenbar, Autobahntankstellen davon ausnehmen. Ihr neuer Gesetzentwurf ist noch in der Abstimmung zwischen den Ministerien.",
+   "id": "cfa6b515",
+   "titel": "Nvidia setzt Jensen Huang wieder als Chef ein",
+   "anriss": "Spekulationen gab es bereits, jetzt ist es offiziell: Jensen Huang kehrt an die Spitze des US-Techkonzerns Nvidia zurück. Er war erst vor wenigen Wochen wegen eines Spionageskandals zurückgetreten.",
    "region": "dach",
    "quellen": [
+    "FAZ Wirtschaft",
     "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft",
+    "heise",
     "manager magazin"
    ],
-   "anzahl": 3,
+   "anzahl": 9,
    "links": [
-    "https://www.tagesschau.de/inland/spritpreis-autobahntankstellen-ausnahme-100.html",
-    "https://www.spiegel.de/wirtschaft/service/hohe-spritpreise-katherina-reiche-will-autobahntankstellen-von-preisdeckel-ausnehmen-a-98639391-2d38-4b1a-873b-927535a346a9#ref=rss",
-    "https://www.manager-magazin.de/politik/deutschland/spritpreise-ein-deckel-mit-vielen-loechern-opposition-uebt-massive-kritik-a-2614d790-ede1-4da4-a14e-e6a054da5c6f#ref=rss"
+    "https://www.tagesschau.de/wirtschaft/huang-wieder-nvidia-chef-100.html",
+    "https://www.tagesschau.de/wirtschaft/unternehmen/nvidia-skandal-kontakt-chinesischer-geheimdienst-100.html",
+    "https://www.spiegel.de/wirtschaft/nvidia-jensen-huang-kehrt-als-chef-zurueck-a-0b0c979f-9cf5-4e4d-be27-79ecbbb6945e#ref=rss",
+    "https://www.spiegel.de/wirtschaft/unternehmen/nvidia-verbindungen-zwischen-alice-huang-und-chinas-chip-unterwelt-a-87b31bb5-ed67-4363-bfd5-782009a3d796#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/nvidia-beruft-ex-chef-huang-zurueck-an-die-firmenspitze-accg-201709972.html"
    ],
-   "punkte": 12,
-   "text": "Ab Januar gilt ein Preisdeckel für Benzin und Diesel, jedoch sollen Autobahntankstellen von dieser Regelung ausgenommen werden. Der Gesetzentwurf befindet sich noch in der parlamentarischen Abstimmung.",
+   "punkte": 28,
+   "text": "Der Nvidia‑Vorstand hat Jensen Huang nach einem kurzen Rücktritt wegen eines Spionagevorwurfs wieder zum Präsidenten, CEO und Vorstandsmitglied ernannt. Die Wiederbestellung beendet die kurze Führungsunsicherheit im Unternehmen.",
    "positiv": [
-    "Autobahntankstellen",
-    "Kraftstoffhändler an Autobahnen"
+    "Nvidia‑Aktie",
+    "Halbleiter‑ und KI‑Hardware‑Branche"
    ],
-   "negativ": [
-    "Kraftstoffpreis‑Deckel‑Unternehmen",
-    "Verbraucher außerhalb der Autobahnen"
-   ]
-  },
-  {
-   "id": "eae36a7d",
-   "titel": "Geldanlage: Nachgerechnet: So hoch ist der Steuervorteil beim Altersvorsorgedepot wirklich",
-   "anriss": "Das neue staatlich geförderte Depot soll die Rente der Deutschen aufbessern. Doch ist es steuerlich günstiger als ein normales Depot? Exklusive Berechnungen zeigen, wer am Ende mehr behält.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "Tagesschau Wirtschaft"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/steuern-recht/steuern/geldanlage-so-hoch-ist-der-steuervorteil-beim-altersvorsorgedepot-wirklich/100268247.html",
-    "https://www.tagesschau.de/wirtschaft/verbraucher/altersvorsorgedepot-tipps-riester-100.html",
-    "https://www.tagesschau.de/wirtschaft/verbraucher/altersvorsorgedepot-staatlicher-fonds-nicht-startklar-100.html"
-   ],
-   "punkte": 11,
-   "text": "Ein neuer Report quantifiziert den steigenden Strombedarf von KI‑Rechenzentren in den nächsten zehn Jahren. Der Bericht legt nahe, dass Unternehmen, die Energie‑Infrastruktur und Halbleiterausrüstung liefern, von diesem Trend profitieren könnten.",
-   "positiv": [
-    "Erneuerbare‑Energie‑Erzeuger",
-    "Versorger",
-    "Data‑Center‑REITs"
-   ],
-   "negativ": [
-    "Kohlekraftwerke",
-    "Unternehmen mit hohem Energieverbrauch ohne Effizienzsteigerungen"
-   ]
-  },
-  {
-   "id": "eb11e3d4",
-   "titel": "Märkte Insight: Der unglaubliche Energiehunger der KI-Industrie",
-   "anriss": "Ein neuer Report legt den gigantischen Strombedarf von Rechenzentren in den kommenden zehn Jahren offen. Anleger sollten auf die Ausrüster des digitalen Goldrauschs setzen, meint Jakob Blume.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "Handelsblatt Finanzen"
-   ],
-   "anzahl": 2,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/anlagestrategie/kolumnen/maerkte-insight-der-unglaubliche-energiehunger-der-ki-industrie/100269633.html",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/stromnetze-bdew-und-vku-fordern-krisengipfel-mit-katherina-reiche-201701678.html"
-   ],
-   "punkte": 9,
-   "text": "Das staatlich geförderte Altersvorsorgedepot soll die private Rente erhöhen, wobei die steuerlichen Vorteile gegenüber einem regulären Depot berechnet wurden. Die Analyse zeigt, dass Anleger mit diesem Produkt am Jahresende mehr Nettovermögen behalten können, sofern sie die Voraussetzungen erfüllen.",
-   "positiv": [
-    "Altersvorsorgedepots (steuerlich gefördert)"
-   ],
-   "negativ": [
-    "Konventionelle, nicht geförderte Depots",
-    "Anleger, die die Fördervoraussetzungen nicht erfüllen"
-   ]
-  },
-  {
-   "id": "dd76bb47",
-   "titel": "Geldanlage: Welche Sektoren vom demografischen Wandel profitieren",
-   "anriss": "Die Bevölkerung wird immer älter. Das hat Auswirkungen auf die Wirtschaft: Denn alte Menschen konsumieren anders als junge. Welche Branchen daher auch für Anleger interessant sein können.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "Handelsblatt Finanzen"
-   ],
-   "anzahl": 2,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/anlagestrategie/geldanlage-welche-sektoren-vom-demografischen-wandel-profitieren/100269798.html",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/sinkende-geburtenraten-werden-kinder-zum-demografischen-luxus-201699085.html"
-   ],
-   "punkte": 9,
-   "text": "Der demografische Wandel führt zu einer älteren Bevölkerung, die andere Konsummuster aufweist. Branchen, die Produkte und Dienstleistungen für Senioren anbieten, könnten dadurch langfristig stärker nachgefragt werden.",
-   "positiv": [
-    "Gesundheits‑ und Pflegewesen",
-    "Pharmaindustrie",
-    "Senioren‑Immobilien"
-   ],
-   "negativ": [
-    "Sektoren, die stark von jüngeren Konsumenten abhängen (z. B. Fast‑Fashion, Bildungs‑Dienstleistungen)"
-   ]
-  },
-  {
-   "id": "132b4fe2",
-   "titel": "Argentinien: Milei unter Zugwang – Druck auf Staatsanleihen wächst",
-   "anriss": "Die Krise an den internationalen Märkten belastet auch die Staatsfinanzen in Argentinien. Die Zinsen auf Staatsanleihen wachsen – auch weil Mileis Wiederwahl gefährdet ist.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen"
-   ],
-   "anzahl": 1,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/anleihen/argentinien-milei-unter-zugwang-druck-auf-staatsanleihen-waechst/100271849.html"
-   ],
-   "punkte": 9,
-   "text": "Die Krise an den internationalen Märkten belastet auch die Staatsfinanzen in Argentinien. Die Zinsen auf Staatsanleihen wachsen – auch weil Mileis Wiederwahl gefährdet ist.",
-   "positiv": [],
    "negativ": []
   },
   {
-   "id": "e6697976",
-   "titel": "Perplexity and Intelligence",
-   "anriss": "Article URL: https://openai.com/index/perplexity-and-intelligence/ Comments URL: https://news.ycombinator.com/item?id=50601525 Points: 355 # Comments: 238",
+   "id": "4f135e13",
+   "titel": "Wer ist schuld am Scheitern des Klimagipfels?",
+   "anriss": "Die Klimakonferenz in Antalya ist nach zwei Wochen zäher Verhandlungen ohne Abschlusserklärung zu Ende gegangen. Woran lag das? Bei der Suche nach möglichen Schuldigen richtet sich der Blick auch auf die Doppelpräsidentschaft. Von Jakob Mayr.",
+   "region": "dach",
+   "quellen": [
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 5,
+   "links": [
+    "https://www.tagesschau.de/ausland/europa/klimakonferenz-scheitern-verantwortung-100.html",
+    "https://www.tagesschau.de/wissen/klima/klimakonferenz/weltklimakonferenz-reaktionen-100.html",
+    "https://www.tagesschau.de/kommentar/weltklimakonferenz-cop31-scheitern-100.html",
+    "https://www.tagesschau.de/wissen/klima/klimakonferenz/weltklimakonferenz-cop31-antalya-kein-abschlussdokument-100.html",
+    "https://www.manager-magazin.de/politik/weltwirtschaft/un-klimakonferenz-in-antalya-gipfel-endet-ohne-zentralen-beschlusstext-a-55bd228e-39d9-45ba-81fd-a0be703b0459#ref=rss"
+   ],
+   "punkte": 14,
+   "text": "Die Klimakonferenz in Antalya endete nach zwei Wochen Verhandlungen ohne verbindliche Abschluss‑Erklärung, was die internationale Klimapolitik schwächt. Die Ursachen liegen in divergierenden Positionen der Staaten und mangelnder Einigung über konkrete Maßnahmen.",
+   "positiv": [],
+   "negativ": [
+    "Erneuerbare‑Energien‑Aktien",
+    "ESG‑Fonds",
+    "Klimapolitik‑bezogene Unternehmen"
+   ]
+  },
+  {
+   "id": "627f8abc",
+   "titel": "Jensen Huang Reinstated as Nvidia CEO",
+   "anriss": "Article URL: https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director Comments URL: https://news.ycombinator.com/item?id=50611588 Points: 948 # Comments: 721",
    "region": "global",
    "quellen": [
     "Hacker News Top"
    ],
-   "anzahl": 7,
+   "anzahl": 12,
    "links": [
-    "https://openai.com/index/perplexity-and-intelligence/",
-    "https://github.com/gulivan/worker755",
-    "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
-    "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
-    "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/"
+    "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+    "https://z.ai/blog/glm-5.4",
+    "https://github.com/AFK-surf/xnulinux",
+    "https://spelunkr.tv",
+    "https://www.gl-inet.com/en-us/blogs/blog/glinet-security-notice-2026-11-20"
    ],
-   "punkte": 9,
-   "text": "Article URL: https://openai.com/index/perplexity-and-intelligence/ Comments URL: https://news.ycombinator.com/item?id=50601525 Points: 355 # Comments: 238",
+   "punkte": 14,
+   "text": "Nvidia hat Jensen Huang offiziell als Präsident, CEO und Vorstandsmitglied reinstatiert, nachdem er wegen eines Spionage‑Skandals zurückgetreten war. Die Entscheidung stabilisiert die Führungsstruktur des Unternehmens und signalisiert Kontinuität für die KI‑Strategie.",
+   "positiv": [
+    "Nvidia‑Aktie",
+    "KI‑Chip‑Markt"
+   ],
+   "negativ": []
+  },
+  {
+   "id": "01981143",
+   "titel": "Immobilien: Neue Pflichtversicherung, die für Vermieter teuer werden kann",
+   "anriss": "Die Bundesregierung will Immobilienbesitzer besser gegen Naturkatastrophen absichern. Was das für Millionen Eigentümer bedeutet und welche Kosten auf sie zukommen.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "SPIEGEL Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/immobilien/immobilien-warum-diese-neue-pflichtversicherung-fuer-vermieter-teuer-werden-kann/100266164.html",
+    "https://www.spiegel.de/wirtschaft/verschaerfung-der-regeln-fuer-altersteilzeit-koennte-milliarden-einbringen-a-27bb3a60-c9b2-446e-8f99-abe739300de7#ref=rss",
+    "https://www.manager-magazin.de/politik/deutschland/studie-verschaerfung-der-regeln-fuer-altersteilzeit-koennte-milliarden-einbringen-a-bb78ca70-6d41-4064-9631-397e83c40bd3#ref=rss"
+   ],
+   "punkte": 13,
+   "text": "Die Bundesregierung plant eine verpflichtende Versicherung für Vermieter, um Schäden durch Naturkatastrophen abzudecken, was zu zusätzlichen Kosten für Immobilienbesitzer führen wird. Die Regelung eröffnet neue Geschäftsmöglichkeiten für Versicherungsunternehmen, während sie die Rentabilität von Vermietern belastet.",
+   "positiv": [
+    "Versicherungs‑Branche"
+   ],
+   "negativ": [
+    "Immobilien‑Vermieter",
+    "Immobilien‑Investment‑Trusts (REITs)"
+   ]
+  },
+  {
+   "id": "c4e60e1c",
+   "titel": "Dax aktuell: Dax steigt um über 400 Punkte nach Huangs Rückkehr",
+   "anriss": "Dieser Tage trennen nur wenige Tage Rekorde von Tiefpunkten. Nach der schwächsten Woche seit April 2025 gibt es am Montag eine starke Bewegung am Aktienmarkt. Grund ist der Nvidia-Chef.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "SPIEGEL Wirtschaft"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-steigt-um-ueber-400-punkte-nach-huangs-rueckkehr/100271947.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sechs-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
+    "https://www.spiegel.de/wirtschaft/boerse-dax-erholt-sich-leicht-nach-sechs-verlusttagen-in-folge-a-745db546-edc4-4c0a-bf25-824fba43f63c#ref=rss"
+   ],
+   "punkte": 12,
+   "text": "Dieser Tage trennen nur wenige Tage Rekorde von Tiefpunkten. Nach der schwächsten Woche seit April 2025 gibt es am Montag eine starke Bewegung am Aktienmarkt. Grund ist der Nvidia-Chef.",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "e99930cd",
-   "titel": "EU und Indonesien unterzeichnen Freihandelsabkommen",
-   "anriss": "Fast zehn Jahre haben die Verhandlungen gedauert: Nun haben die EU und Indonesien ein Freihandelsabkommen unterzeichnet, mit dem die Zölle auf fast alle Waren wegfallen sollen. Davon könnte auch die Autobranche profitieren.",
+   "id": "285b7996",
+   "titel": "Obi und Toom: Fusion in der Baumarktbranche, Marke Toom verschwindet",
+   "anriss": "In der deutschen Baumarktbranche zeichnen sich große Veränderungen ab: Die Ketten Obi und Toom wollen sich zusammenschließen. Die Marke Toom soll wegfallen.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.spiegel.de/wirtschaft/unternehmen/baumarktketten-obi-und-toom-schliessen-sich-zusammen-a-3a984bb7-6185-415f-a62e-146a593dd5c7#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/toom-heisst-demnaechst-obi-accg-201709558.html",
+    "https://www.manager-magazin.de/unternehmen/handel/baumarkt-obi-und-toom-fusionieren-marke-toom-verschwindet-a-25ed7272-f61f-429f-afe0-460dce041a33#ref=rss"
+   ],
+   "punkte": 12,
+   "text": "In der deutschen Baumarktbranche zeichnen sich große Veränderungen ab: Die Ketten Obi und Toom wollen sich zusammenschließen. Die Marke Toom soll wegfallen.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "a7dd05ab",
+   "titel": "Russland: Wie ein Satellit des Start-ups Iceye aus Finnland bedrängt wurde",
+   "anriss": "Ein Satellit des finnischen Raumfahrtunternehmens Iceye ist von einem russischen Satelliten bedrängt worden. Co-Gründer Rafal Modrzewski erklärt, wie seine Firma damit umgeht. Und welche Pläne er in Deutschland hat.",
+   "region": "dach",
+   "quellen": [
+    "SPIEGEL Wirtschaft",
+    "heise",
+    "manager magazin"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.spiegel.de/wirtschaft/russland-wie-ein-satellit-des-start-ups-iceye-aus-finnland-bedraengt-wurde-a-ff5b0831-a793-4834-b0b9-a24f353a2060#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/tech/tatjana-kim-chefin-von-russischem-onlinehaendler-wildberries-tritt-zurueck-a-cd81852b-37ab-4193-a237-41b775e93248#ref=rss",
+    "https://www.heise.de/news/Bericht-Geheimdienste-sehen-russischen-Satelliten-mit-Atomwaffe-kurz-vor-Start-11534307.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 12,
+   "text": "Ein Satellit des finnischen Raumfahrtunternehmens Iceye ist von einem russischen Satelliten bedrängt worden. Co-Gründer Rafal Modrzewski erklärt, wie seine Firma damit umgeht. Und welche Pläne er in Deutschland hat.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "6c26a3f3",
+   "titel": "Neue Warnstreiks in Metall- und Elektroindustrie angelaufen",
+   "anriss": "In der Metall- und Elektroindustrie in Norddeutschland läuft seit der Nacht der nächste Warnstreik. Vielerorts sind die Tarifverhandlungen festgefahren. Die Gewerkschaft IG Metall fordert fünf Prozent mehr Gehalt.",
    "region": "dach",
    "quellen": [
     "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft"
    ],
-   "anzahl": 2,
+   "anzahl": 3,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/weltwirtschaft/eu-indonesien-handelsabkommen-102.html",
-    "https://www.spiegel.de/wirtschaft/eu-und-indonesien-unterzeichnen-weitreichenden-handelspakt-a-169be32d-6dd7-4308-8329-005d9e97b0bc#ref=rss"
+    "https://www.tagesschau.de/wirtschaft/unternehmen/streiks-ig-metall-norden-100.html",
+    "https://www.tagesschau.de/wirtschaft/unternehmen/ig-metall-warnstreik-102.html",
+    "https://www.spiegel.de/wirtschaft/siemens-chef-busch-bescheinigt-deutscher-industrie-grosses-ki-talent-a-44d2b992-08e0-4848-a205-3f4743eb0244#ref=rss"
    ],
-   "punkte": 8,
-   "text": "Fast zehn Jahre haben die Verhandlungen gedauert: Nun haben die EU und Indonesien ein Freihandelsabkommen unterzeichnet, mit dem die Zölle auf fast alle Waren wegfallen sollen. Davon könnte auch die Autobranche profitier",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "dac2b58c",
-   "titel": "Im Streit über EU-Budget legt Costa Kompromiss vor",
-   "anriss": "Die EU-Staaten ringen um einen neuen Budgetplan. Jetzt legt Ratspräsident Costa einen Kompromiss vor. Die Zeit wird langsam knapp: Bis Jahresende soll eine Einigung erzielt werden.",
-   "region": "dach",
-   "quellen": [
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft"
-   ],
-   "anzahl": 2,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/digitales/digitalsteuer-streit-eu-deutschland-100.html",
-    "https://www.spiegel.de/wirtschaft/antonio-costa-kuerzt-friedrich-merz-kritisiert-dennoch-den-eu-budget-vorschlag-a-dabd98ed-f515-48af-af87-b52c783e71ee#ref=rss"
-   ],
-   "punkte": 8,
-   "text": "Die EU-Staaten ringen um einen neuen Budgetplan. Jetzt legt Ratspräsident Costa einen Kompromiss vor. Die Zeit wird langsam knapp: Bis Jahresende soll eine Einigung erzielt werden.",
+   "punkte": 10,
+   "text": "In der Metall- und Elektroindustrie in Norddeutschland läuft seit der Nacht der nächste Warnstreik. Vielerorts sind die Tarifverhandlungen festgefahren. Die Gewerkschaft IG Metall fordert fünf Prozent mehr Gehalt.",
    "positiv": [],
    "negativ": []
   }
  ],
  "ketten": [],
  "gegenthese": {
-  "konsens": "Markt erwartet, dass die jüngsten politischen Entscheidungen – Preisdeckelausnahme, Reformen in Argentinien, EU‑Indonesien‑FTA – kurzfristig Volatilität erhöhen, langfristig jedoch keine fundamentalen Trendwechsel, während KI‑Energiebedarf und demografischer Wandel sektorale Chancen bieten.",
-  "gegen": "Kritiker warnen, dass die Preisdeckelausnahme die Kraftstoffpreise stark treiben, KI‑Energiebedarf die Stromnetze überlasten könnte und die demografische Alterung fiskalische Belastungen erzeugt; Argentiniens Reformen könnten politisch scheitern."
+  "konsens": "Huang‑Rückkehr stärkt Nvidia‑Stimmung, DAX‑Zuwachs bestätigt, Fusion Toom‑Obi gilt als logische Konsolidierung, neue Vermieter‑Versicherung belastet Immobilien, Klimagipfel‑Scheitern wird politisch verursacht, Warnstreiks belasten Metall‑/Elektro‑Sektor.",
+  "gegen": "Risiko: Führungswechsel kann strategische Kontinuität gefährden, DAX‑Gewinn kann überhitzen, Fusion birgt Integrationsprobleme, Versicherung erhöht Kosten für Vermieter, Klimagipfel‑Misserfolg schwächt Vertrauen, Streiks könnten Produktion stark dämpfen."
  },
  "matrix": [
   {
@@ -383,11 +390,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "100.7 Mrd"
+     "106.5 Mrd"
     ],
     [
      "KGV (erw.)",
-     "13,3"
+     "14,1"
     ],
     [
      "Umsatzwachstum",
@@ -405,7 +412,7 @@
     ],
     [
      "Newsletter",
-     "nicht erwaehnt"
+     "in 2 Clustern"
     ],
     [
      "Reddit",
@@ -420,13 +427,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die Analystenmehrheit (22 Kauf‑Empfehlungen) sieht in Siemens Energy ein attraktives Bewertungsprofil (forward P/E 13,3) und starkes Umsatzwachstum (+23 %). Die diversifizierten Segmente – Gas Services, Grid Technologies, Industrie‑Transformation und Siemens Gamesa – bieten mehrere Wachstumstreiber. Das Kursziel von 192 € impliziert ein erhebliches Aufwärtspotenzial.",
-   "dagegen": "Gegen die positive Sicht spricht die Abhängigkeit von gas‑ und dampfgetriebenen Kraftwerken, die konjunkturellen Schwankungen unterliegen. Die Wind‑Sparte Siemens Gamesa hat in den letzten Jahren Qualitäts‑ und Lieferprobleme erlebt. Nur vier Analysten halten die Aktie, zwei empfehlen Verkauf, was auf Unsicherheiten hinsichtlich Umsetzung und Margen hindeutet.",
-   "katalysatoren": [
-    "Start der Serienproduktion und Auslieferung neuer Gas‑Turbinen‑Modelle (z. B. SG‑XX)",
-    "Abschluss großer Grid‑Technologie‑Aufträge in Europa und den USA",
-    "Wiederaufnahme von Siemens Gamesa‑Windturbinenauslieferungen nach Qualitätsverbesserungen"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "RHM.DE": {
    "ticker": "RHM.DE",
@@ -436,11 +439,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "32.4 Mrd"
+     "33.4 Mrd"
     ],
     [
      "KGV (erw.)",
-     "14,0"
+     "14,4"
     ],
     [
      "Umsatzwachstum",
@@ -473,12 +476,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Starkes Umsatzwachstum von +36 % zeigt wachsende Nachfrage, insbesondere im Vehicle‑Systems‑Segment. Das forward KGV von 14 liegt unter vielen Industrie‑Peers, was relative Attraktivität suggeriert. 17 Analysten empfehlen Kauf, kein Short‑Interest, und das Kursziel von 1.326 € impliziert weiteres Aufwärtspotenzial.",
-   "dagegen": "Das Unternehmen ist stark von staatlichen Rüstungsausgaben abhängig; bei politischen Kurswechseln oder Haushaltskürzungen könnte die Auftragslage sinken. Das KGV von 14 ist im Vergleich zu historischen Werten nicht besonders niedrig, und das hohe Kursziel lässt wenig Spielraum für Fehlentwicklungen. Fehlende Insider‑Transaktionen reduzieren Informationsvorsprung.",
+   "dafuer": "Rheinmetall profitiert von steigenden Verteidigungsausgaben in Europa und den USA, was das Umsatzwachstum von 36 % erklärt. Das Unternehmen verfügt über ein robustes Auftragsbuch in den Segmenten Vehicle Systems und Weapon & Ammunition. Das erwartete KGV von 14,4 liegt unter dem Branchendurchschnitt, was die Bewertung attraktiv macht.",
+   "dagegen": "Die Abhängigkeit von staatlichen Rüstungsetats macht Rheinmetall anfällig für politische Entscheidungen und Budgetkürzungen. Ein Großteil des Umsatzes stammt aus Deutschland, wodurch das Unternehmen regional konzentriert ist. Zudem können Lieferkettenprobleme bei Halbleitern und Rohstoffen die Produktion verzögern.",
    "katalysatoren": [
-    "Ankündigung zusätzlicher Rüstungsetats im deutschen Verteidigungsbudget 2027",
-    "Genehmigung und Auslieferung neuer Leopard‑2‑Aufrüstungspakete für NATO‑Partner",
-    "Abschluss eines Großauftrags für elektronische Verteidigungssysteme in Asien"
+    "Vertrag über neue Panzerfahrzeuge für die Bundeswehr, erwartete Ankündigung im Q4 2026",
+    "Zuteilung von US‑Verteidigungsbudget für Munition und Elektronik, Bericht im ersten Halbjahr 2027",
+    "Quartalsbericht Q3 2026 mit erwarteter Margenverbesserung und Auftragszuwachs"
    ]
   },
   "ASML.AS": {
@@ -489,11 +492,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "450.2 Mrd"
+     "487.4 Mrd"
     ],
     [
      "KGV (erw.)",
-     "20,7"
+     "22,4"
     ],
     [
      "Umsatzwachstum",
@@ -526,12 +529,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Dafür spricht das robuste Umsatzwachstum von +55 % und die marktführende Position von ASML im EUV‑Lithografie‑Segment, das für die Weiterentwicklung von Halbleitern unverzichtbar ist. Die Analystenmeinung ist überwiegend positiv (38 Buy), das Kursziel von 2096 € impliziert weiteres Aufwärtspotenzial.",
-   "dagegen": "Dagegen spricht die relativ hohe Bewertung (KGV 20,7) in einem zyklischen Markt sowie das Risiko von Lieferverzögerungen bei EUV‑Systemen. Trotz der Kauf‑Mehrheit gibt es einen einzelnen Verkauf und kaum Diskussionen auf Reddit, was auf Unsicherheit bei einigen Investoren hindeutet.",
+   "dafuer": "Die Analystenmehrheit (38 Kauf, 2 Halten, 1 Verkauf) spricht für ASML. Das Unternehmen verzeichnet ein starkes Umsatzwachstum von +55 % und hält mit 487 Mrd. € die größte Marktkapitalisierung im Lithographiesegment. Das aktuelle KGV von 22,4 ist im Branchenvergleich moderat, das Kursziel von 2.096 € impliziert weiteres Aufwärtspotenzial.",
+   "dagegen": "Gegen ASML spricht die dünne Informationsbasis: Neben Analystenberichten fehlt breitere Medienberichterstattung, Reddit‑Erwähnungen sind kaum vorhanden und es gibt keine Insider‑Updates. Das Unternehmen ist kapitalintensiv, die Nachfrage nach Halbleitern ist konjunkturabhängig, und das aktuelle Kursziel könnte bereits im Marktpreis eingepreist sein.",
    "katalysatoren": [
-    "Auslieferung der nächsten EUV‑Generation (NXE:3400B)",
-    "Quartalsbericht mit möglichem Umsatz‑ und Gewinn‑Beat",
-    "Ankündigung großer Kapazitätserweiterungen bei Kunden wie TSMC oder Samsung"
+    "Markteinführung des nächsten High‑NA EUV‑Systems",
+    "Großaufträge von Schlüssel‑Kunden wie TSMC oder Samsung",
+    "Quartalsbericht mit möglicher Umsatz‑ und Gewinnüberraschung"
    ]
   },
   "SU.PA": {
@@ -542,11 +545,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "133.1 Mrd"
+     "138.1 Mrd"
     ],
     [
      "KGV (erw.)",
-     "18,0"
+     "18,7"
     ],
     [
      "Umsatzwachstum",
@@ -564,7 +567,7 @@
     ],
     [
      "Newsletter",
-     "in 8 Clustern"
+     "in 13 Clustern"
     ],
     [
      "Reddit",
@@ -591,11 +594,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "185.1 Mrd"
+     "201.1 Mrd"
     ],
     [
      "KGV (erw.)",
-     "27,0"
+     "29,3"
     ],
     [
      "Umsatzwachstum",
@@ -613,7 +616,7 @@
     ],
     [
      "Newsletter",
-     "nicht erwaehnt"
+     "in 1 Clustern"
     ],
     [
      "Reddit",
@@ -640,11 +643,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "25.3 Mrd"
+     "27.0 Mrd"
     ],
     [
      "KGV (erw.)",
-     "33,9"
+     "36,2"
     ],
     [
      "Umsatzwachstum",
@@ -689,11 +692,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "66.0 Mrd"
+     "71.4 Mrd"
     ],
     [
      "KGV (erw.)",
-     "10,9"
+     "11,8"
     ],
     [
      "Umsatzwachstum",
@@ -738,11 +741,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "3.031.2 Mrd"
+     "4.016.9 Mrd"
     ],
     [
      "KGV (erw.)",
-     "7,6"
+     "10,0"
     ],
     [
      "Umsatzwachstum",
@@ -1067,14 +1070,6 @@
  "gespraech": [],
  "termine": [
   {
-   "datum": "2026-11-22",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
    "datum": "2026-11-23",
    "zeit": "",
    "region": "us",
@@ -1161,8 +1156,16 @@
    "was": "FOMC Press Release",
    "konsens": "",
    "wucht": "hoch"
+  },
+  {
+   "datum": "2026-11-30",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 84,
+ "meldungen_gesamt": 162,
  "llm_aktiv": false
 }
