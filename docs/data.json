@@ -1,9 +1,9 @@
 {
- "stand": "2026-11-23T18:50",
- "lauf": "2026112318",
+ "stand": "2026-11-24T04:08",
+ "lauf": "2026112404",
  "synthese": {
-  "kern": "Markt jubelt über Führungswechsel und Fusionen, verkennt jedoch die schwache Risikoappetit‑ und Liquiditätslage.",
-  "erlaeuterung": "Nvidia‑CEO‑Rückkehr und Einzelhandelsfusionen treiben kurzfristige Kursgewinne, während geopolitische und regulatorische Risiken bestehen. Der Markt ignoriert den globalen Risikoappetit von 7 und die US‑Liquiditäts‑Abschwächung, die Volatilität erhöhen könnten."
+  "kern": "Technologie‑Rückkehr, M&A‑Spekulation und geopolitische Risiken bündeln die Marktstimmung, während Liquiditätsengpässe übersehen werden.",
+  "erlaeuterung": "Nvidia‑Chefwechsel und US‑Chinesen‑Verbindungen erhöhen Technologierisiko, während Fusionen und EU‑Regulierungen das M&A‑Umfeld belasten. Gleichzeitig drückt der niedrige Liquiditätsindex die Handelbarkeit, was von den positiven Kursreaktionen kaum beachtet wird."
  },
  "regime": [
   {
@@ -11,15 +11,15 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 79,
-     "delta": -1
+     "wert": 78,
+     "delta": -2
     },
     "eur": {
      "wert": 89,
      "delta": -5
     }
    },
-   "differenz": 10
+   "differenz": 11
   },
   {
    "name": "wachstum",
@@ -36,15 +36,15 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 64,
-     "delta": 2
+     "wert": 62,
+     "delta": 0
     },
     "eur": {
-     "wert": 74,
+     "wert": 73,
      "delta": -4
     }
    },
-   "differenz": 10
+   "differenz": 11
   },
   {
    "name": "risikoappetit",
@@ -62,7 +62,7 @@
    "spuren": {
     "us": {
      "wert": 44,
-     "delta": -2
+     "delta": -3
     },
     "eur": {
      "wert": 1,
@@ -95,23 +95,21 @@
     "heise",
     "manager magazin"
    ],
-   "anzahl": 12,
+   "anzahl": 13,
    "links": [
     "https://www.tagesschau.de/wirtschaft/huang-wieder-nvidia-chef-100.html",
-    "https://www.tagesschau.de/wirtschaft/unternehmen/nvidia-skandal-kontakt-chinesischer-geheimdienst-100.html",
-    "https://www.spiegel.de/wirtschaft/unternehmen/donald-trump-will-nvidia-verwaltungsrat-von-comeback-von-jensen-huang-ueberzeugt-haben-a-dcc9fc56-d6ab-49fb-8f7f-c5305ca1d498#ref=rss",
-    "https://www.spiegel.de/wirtschaft/unternehmen/jensen-huang-spionage-affaere-aktieneinbruch-rueckkehr-der-nvidia-skandal-um-seien-firmenchef-a-1a743c65-aff8-4c40-bb80-a0e2398f1863#ref=rss",
-    "https://www.spiegel.de/wirtschaft/nvidia-jensen-huang-kehrt-als-chef-zurueck-a-0b0c979f-9cf5-4e4d-be27-79ecbbb6945e#ref=rss"
+    "https://www.tagesschau.de/wirtschaft/huang-nvidia-chef-trump-demokraten-100.html",
+    "https://www.spiegel.de/wirtschaft/unternehmen/nvidia-jensen-huang-feiert-comeback-und-gelobt-besserung-a-aff2ebf3-e78a-40d4-9770-9f19439197f8#ref=rss",
+    "https://www.spiegel.de/wirtschaft/unternehmen/nvidia-jensen-huang-kehrt-auf-druck-von-donald-trump-zurueck-a-24b07e86-c1ee-4a84-833e-61d4784dd87f#ref=rss",
+    "https://www.spiegel.de/wirtschaft/unternehmen/donald-trump-will-nvidia-verwaltungsrat-von-comeback-von-jensen-huang-ueberzeugt-haben-a-dcc9fc56-d6ab-49fb-8f7f-c5305ca1d498#ref=rss"
    ],
-   "punkte": 34,
-   "text": "Jensen Huang kehrt nach seinem Rücktritt wegen eines Spionageskandals wieder an die Spitze von Nvidia zurück. Die Wiederbesetzung beendet die Spekulationsphase, lässt jedoch das Reputationsrisiko des Unternehmens bestehen.",
+   "punkte": 36,
+   "text": "Jensen Huang ist nach seinem Rücktritt wegen eines Spionageskandals wieder zum CEO von Nvidia ernannt worden. Die offizielle Rückkehr beendet die Spekulationsphase, lässt jedoch das Reputationsrisiko des Unternehmens bestehen.",
    "positiv": [
-    "Nvidia‑Aktie (Stabilität)",
-    "US‑Halbleiterbranche (Führungskontinuität)"
+    "Nvidia‑Aktie (Stabilisierung durch bekannte Führung)"
    ],
    "negativ": [
-    "Nvidia‑Aktie (Reputationsrisiko)",
-    "US‑Techsektor (Vertrauensverlust)"
+    "Nvidia‑Aktie (Reputations‑ und Rechtsrisiko)"
    ]
   },
   {
@@ -133,20 +131,44 @@
     "https://www.manager-magazin.de/unternehmen/handel/baumarkt-obi-und-toom-fusionieren-marke-toom-verschwindet-a-25ed7272-f61f-429f-afe0-460dce041a33#ref=rss"
    ],
    "punkte": 16,
-   "text": "Die Baumarktketten OBI und Toom planen die Fusion ihrer über 600 Filialen, wobei die Marke Toom aufgegeben werden soll. Die Transaktion bedarf noch der Zustimmung des Bundeskartellamts, das mögliche Wettbewerbsbedenken prüfen wird.",
+   "text": "Die Baumarktketten OBI und Toom planen die Fusion ihrer über 600 Filialen und wollen die Marke Toom aufgeben. Die Transaktion muss noch vom Bundeskartellamt genehmigt werden, was kurzfristig Unsicherheit für die beteiligten Aktien schafft.",
    "positiv": [
-    "DIY‑Markt (Konsolidierung)",
-    "OBI‑Aktionäre (Skaleneffekte)"
+    "Baumarkt‑Branche (Konsolidierung, Skaleneffekte)"
    ],
    "negativ": [
     "Toom‑Marke (Wegfall)",
-    "Wettbewerb (Regulierungsrisiko)"
+    "OBI‑/Toom‑Aktien (Kartell‑Genehmigungsrisiko)"
+   ]
+  },
+  {
+   "id": "4f135e13",
+   "titel": "Wer ist schuld am Scheitern des Klimagipfels?",
+   "anriss": "Die Klimakonferenz in Antalya ist nach zwei Wochen zäher Verhandlungen ohne Abschlusserklärung zu Ende gegangen. Woran lag das? Bei der Suche nach möglichen Schuldigen richtet sich der Blick auch auf die Doppelpräsidentschaft. Von Jakob Mayr.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 5,
+   "links": [
+    "https://www.tagesschau.de/ausland/europa/klimakonferenz-scheitern-verantwortung-100.html",
+    "https://www.tagesschau.de/ausland/europa/klimakonferenz-scheitern-schneider-100.html",
+    "https://www.tagesschau.de/wissen/klima/klimakonferenz/weltklimakonferenz-reaktionen-100.html",
+    "https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/klimaschutz-nach-antalya-was-das-pariser-abkommen-noch-bewirkt-201708169.html",
+    "https://www.manager-magazin.de/politik/weltwirtschaft/un-klimakonferenz-in-antalya-gipfel-endet-ohne-zentralen-beschlusstext-a-55bd228e-39d9-45ba-81fd-a0be703b0459#ref=rss"
+   ],
+   "punkte": 16,
+   "text": "Der Klimagipfel in Antalya endete nach zwei Wochen Verhandlungen ohne verbindliche Abschluss‑Erklärung. Das Fehlen eines Konsenses belastet klimabezogene Investment‑ und Versicherungsprodukte, während konkrete Schuldzuweisungen bislang nicht vorliegen.",
+   "positiv": [],
+   "negativ": [
+    "Klimaschutz‑ETFs und -Anleihen (Verlust an Vertrauen)"
    ]
   },
   {
    "id": "081fcb21",
    "titel": "BYD: Aktie fällt nach EU-Verkaufsverbot für Ti7-SUV wegen Defender-Ähnlichkeit",
-   "anriss": "BYD hat ein Verkaufsverbot für seinen SUV Ti7 in der EU erhalten. Das Modell sehe dem Land Rover Defender zu ähnlich, so das Gericht. Die Aktie des chinesischen Autobauers fällt, er kündigt rechtlichen Gegenwehr an.",
+   "anriss": "BYD hat ein Verkaufsverbot für seinen SUV Ti7 in der EU erhalten. Das Modell sehe dem Land Rover Defender zu ähnlich, so das Gericht. Die Aktie des chinesischen Autobauers fällt, er kündigt rechtliche Gegenwehr an.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
@@ -162,174 +184,101 @@
     "https://www.heise.de/news/Streit-ums-Design-Gericht-verhindert-EU-weiten-Verkauf-des-E-SUV-BYD-Ti7-11534173.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
    "punkte": 16,
-   "text": "Ein EU‑Gericht hat den Verkauf des BYD‑SUV Ti7 verboten, weil das Design dem Land‑Rover‑Defender zu ähnlich sei; BYDs Aktie reagierte mit einem Kursrückgang. Der Hersteller kündigt rechtliche Schritte gegen das Verbot an.",
-   "positiv": [
-    "Land‑Rover (Marken‑Schutz)",
-    "EU‑Justiz (Durchsetzung von Designrechten)"
-   ],
-   "negativ": [
-    "BYD‑Aktie (Kursverlust)",
-    "BYD‑Verkäufe in der EU (Umsatzverlust)",
-    "Chinesische Automobilbranche (Regulatorisches Risiko)"
-   ]
-  },
-  {
-   "id": "4f135e13",
-   "titel": "Wer ist schuld am Scheitern des Klimagipfels?",
-   "anriss": "Die Klimakonferenz in Antalya ist nach zwei Wochen zäher Verhandlungen ohne Abschlusserklärung zu Ende gegangen. Woran lag das? Bei der Suche nach möglichen Schuldigen richtet sich der Blick auch auf die Doppelpräsidentschaft. Von Jakob Mayr.",
-   "region": "dach",
-   "quellen": [
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 5,
-   "links": [
-    "https://www.tagesschau.de/ausland/europa/klimakonferenz-scheitern-verantwortung-100.html",
-    "https://www.tagesschau.de/wissen/klima/klimakonferenz/weltklimakonferenz-reaktionen-100.html",
-    "https://www.tagesschau.de/kommentar/weltklimakonferenz-cop31-scheitern-100.html",
-    "https://www.tagesschau.de/wissen/klima/klimakonferenz/weltklimakonferenz-cop31-antalya-kein-abschlussdokument-100.html",
-    "https://www.manager-magazin.de/politik/weltwirtschaft/un-klimakonferenz-in-antalya-gipfel-endet-ohne-zentralen-beschlusstext-a-55bd228e-39d9-45ba-81fd-a0be703b0459#ref=rss"
-   ],
-   "punkte": 14,
-   "text": "Die Klimakonferenz in Antalya endete nach zwei Wochen Verhandlungen ohne abschließende Erklärung, was die Wirksamkeit des Prozesses in Frage stellt. Analysen richten den Blick auf strukturelle Schwächen und mangelnde Einigkeit der Verhandlungsparteien.",
-   "positiv": [
-    "Umwelt‑NGOs (höhere Aufmerksamkeit)"
-   ],
-   "negativ": [
-    "Internationale Klimapolitik (Vertrauensverlust)",
-    "Verhandlungsparteien (Uneinigkeit)"
-   ]
-  },
-  {
-   "id": "a6b1ac41",
-   "titel": "Wall Street: Sprunghafter Anstieg der Kurse: Nasdaq nach Huang-Rückkehr sieben Prozent im Plus",
-   "anriss": "Nach dem drastischen Kursrutsch greifen Investoren im großen Stil wieder bei Aktien zu. Mit dem Handelsstart wird einmal mehr der große Einfluss von Nvidia deutlich.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-nasdaq-nach-huang-rueckkehr-sieben-prozent-im-plus/100272031.html",
-    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-geldanlage-172.html",
-    "https://www.manager-magazin.de/unternehmen/tech/nvidia-affaere-us-demokraten-pruefen-trumps-rolle-bei-huang-rueckkehr-a-d9b9bc41-0144-4b2d-83f9-024d06c13b9d#ref=rss"
-   ],
-   "punkte": 13,
-   "text": "Nach dem drastischen Kursrutsch greifen Investoren im großen Stil wieder bei Aktien zu. Mit dem Handelsstart wird einmal mehr der große Einfluss von Nvidia deutlich.",
+   "text": "Ein EU‑Gericht hat den Verkauf des BYD‑Modells Ti7 verboten, weil es dem Land‑Rover‑Defender zu ähnlich sei; BYD reagiert mit einer rechtlichen Anfechtung. Die Aktie des chinesischen Herstellers fiel nach Bekanntgabe des Verbots, was das Risiko für europäische Investoren erhöht.",
    "positiv": [],
-   "negativ": []
+   "negativ": [
+    "BYD‑Aktie (Kursrückgang)",
+    "EU‑Automobil‑Markt (Regulatorisches Risiko)"
+   ]
   },
   {
-   "id": "01981143",
-   "titel": "Immobilien: Neue Pflichtversicherung, die für Vermieter teuer werden kann",
-   "anriss": "Die Bundesregierung will Immobilienbesitzer besser gegen Naturkatastrophen absichern. Was das für Millionen Eigentümer bedeutet und welche Kosten auf sie zukommen.",
+   "id": "e41ac96f",
+   "titel": "Affäre von Ex-Nvidia-Chef wohl in Kontakt zu Chinas Geheimdienst",
+   "anriss": "Alice Huang, Geliebte des ehemaligen Nvidia-Chefs, hatte offenbar mehr als ein Jahr lang Kontakt zu einem Mitarbeiter des chinesischen Geheimdienstes. Die Chinesin steht im Mittelpunkt des Skandals um den US-Chipkonzern.",
    "region": "dach",
    "quellen": [
-    "Handelsblatt Finanzen",
     "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
     "manager magazin"
    ],
    "anzahl": 3,
    "links": [
-    "https://www.handelsblatt.com/finanzen/immobilien/immobilien-warum-diese-neue-pflichtversicherung-fuer-vermieter-teuer-werden-kann/100266164.html",
-    "https://www.spiegel.de/wirtschaft/verschaerfung-der-regeln-fuer-altersteilzeit-koennte-milliarden-einbringen-a-27bb3a60-c9b2-446e-8f99-abe739300de7#ref=rss",
-    "https://www.manager-magazin.de/politik/deutschland/studie-verschaerfung-der-regeln-fuer-altersteilzeit-koennte-milliarden-einbringen-a-bb78ca70-6d41-4064-9631-397e83c40bd3#ref=rss"
-   ],
-   "punkte": 13,
-   "text": "Die Bundesregierung will Immobilienbesitzer besser gegen Naturkatastrophen absichern. Was das für Millionen Eigentümer bedeutet und welche Kosten auf sie zukommen.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "542f1e5f",
-   "titel": "Dax aktuell: Dax schließt nach Huangs Rückkehr mehr als 500 Punkte im Plus",
-   "anriss": "Dieser Tage trennen nur wenige Tage Rekorde von Tiefpunkten. Nach der schwächsten Woche seit April 2025 gab es am Montag eine starke Bewegung am Aktienmarkt. Grund ist der alte und neue Nvidia-Chef.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "SPIEGEL Wirtschaft"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-nach-huangs-rueckkehr-mehr-als-500-punkte-im-plus/100271947.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sechs-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
-    "https://www.spiegel.de/wirtschaft/boerse-dax-erholt-sich-leicht-nach-sechs-verlusttagen-in-folge-a-745db546-edc4-4c0a-bf25-824fba43f63c#ref=rss"
+    "https://www.tagesschau.de/wirtschaft/unternehmen/nvidia-skandal-kontakt-chinesischer-geheimdienst-100.html",
+    "https://www.spiegel.de/wirtschaft/unternehmen/nvidia-verbindungen-zwischen-alice-huang-und-chinas-chip-unterwelt-a-87b31bb5-ed67-4363-bfd5-782009a3d796#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/tech/nvidia-alice-huang-hatte-laut-new-york-times-kontakt-zu-chinas-geheimdienst-a-20910adc-ee63-4aa5-bce8-8cb0ced3f736#ref=rss"
    ],
    "punkte": 12,
-   "text": "Dieser Tage trennen nur wenige Tage Rekorde von Tiefpunkten. Nach der schwächsten Woche seit April 2025 gab es am Montag eine starke Bewegung am Aktienmarkt. Grund ist der alte und neue Nvidia-Chef.",
+   "text": "Alice Huang, Geliebte des ehemaligen Nvidia-Chefs, hatte offenbar mehr als ein Jahr lang Kontakt zu einem Mitarbeiter des chinesischen Geheimdienstes. Die Chinesin steht im Mittelpunkt des Skandals um den US-Chipkonzern.",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "95626533",
-   "titel": "Ladybird is now in alpha",
-   "anriss": "Article URL: https://ladybird.org/posts/alpha/ Comments URL: https://news.ycombinator.com/item?id=50614249 Points: 629 # Comments: 164",
+   "id": "f6e27fa1",
+   "titel": "Verbraucherschützer warnen zur Black Week vor Betrugsmaschen",
+   "anriss": "Rabatte von 50, 60 oder sogar 70 Prozent: Rund um den Black Friday lockt der Handel mit vermeintlichen Schnäppchen. Die Branche erwartet Rekordumsätze. Doch Verbraucherschützer warnen auch vor Preisfallen und Betrügern. Von Jens Eberl.",
+   "region": "dach",
+   "quellen": [
+    "Tagesschau Wirtschaft",
+    "heise"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/verbraucher/blackweek-preisfallen-100.html",
+    "https://www.heise.de/bestenlisten/deals/black-friday-deals-tastaturen-maeuse-und-gaming-zubehoer-bis-40-prozent-reduziert/52x2pw2?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "https://www.heise.de/news/Black-Friday-Interessante-Hardware-Deals-fuer-Apple-Nutzer-11534920.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "https://www.heise.de/bestenlisten/deals/20-prozent-rabatt-auf-garmin-black-friday-deals-zu-wearables-und-smartphones/770jzpc?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 12,
+   "text": "Rabatte von 50, 60 oder sogar 70 Prozent: Rund um den Black Friday lockt der Handel mit vermeintlichen Schnäppchen. Die Branche erwartet Rekordumsätze. Doch Verbraucherschützer warnen auch vor Preisfallen und Betrügern. ",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "c3258320",
+   "titel": "Wall Street: Nasdaq schließt nach Huang-Rückkehr mehr als sechs Prozent im Plus",
+   "anriss": "Nach dem drastischen Kursrutsch greifen Investoren im großen Stil wieder bei Aktien zu. Nur Anthropic kann nicht von der großen Rally profitieren.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "Tagesschau Wirtschaft"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-nasdaq-schliesst-nach-huang-rueckkehr-mehr-als-sechs-prozent-im-plus/100272031.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-nach-huangs-rueckkehr-mehr-als-500-punkte-im-plus/100271947.html",
+    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-geldanlage-172.html"
+   ],
+   "punkte": 12,
+   "text": "Nach dem drastischen Kursrutsch greifen Investoren im großen Stil wieder bei Aktien zu. Nur Anthropic kann nicht von der großen Rally profitieren.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "00450651",
+   "titel": "Stalwart is now a drop-in replacement for Microsoft Exchange",
+   "anriss": "Article URL: https://stalw.art/blog/microsoft-exchange-replacement/ Comments URL: https://news.ycombinator.com/item?id=50620349 Points: 280 # Comments: 138",
    "region": "global",
    "quellen": [
     "Hacker News Top"
    ],
    "anzahl": 9,
    "links": [
-    "https://ladybird.org/posts/alpha/",
-    "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
-    "https://z.ai/blog/glm-5.4",
-    "https://micjm.com/blog/yes-17m-lines-of-lean-is-a-lot/",
-    "https://github.com/AFK-surf/xnulinux"
+    "https://stalw.art/blog/microsoft-exchange-replacement/",
+    "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
+    "https://arm.jonpalmisc.com/",
+    "https://blog.kagi.com/kagi-mail-public-beta",
+    "https://twitter.com/ylecun/status/2124550037912920090"
    ],
    "punkte": 11,
-   "text": "Article URL: https://ladybird.org/posts/alpha/ Comments URL: https://news.ycombinator.com/item?id=50614249 Points: 629 # Comments: 164",
+   "text": "Article URL: https://stalw.art/blog/microsoft-exchange-replacement/ Comments URL: https://news.ycombinator.com/item?id=50620349 Points: 280 # Comments: 138",
    "positiv": [],
    "negativ": []
   }
  ],
- "ketten": [
-  {
-   "ausloeser": "Die US‑SEC genehmigt ein neu strukturiertes, gehebeltes ETF‑Produkt, das Nvidia‑Aktien (NVDA) beinhaltet",
-   "direkt": "Nachfrage nach Nvidia‑Aktien steigt, Kurs von NVDA und Nasdaq‑Index legen zu",
-   "zweite": "Positive Stimmung im Halbleiter‑ und KI‑Sektor überträgt sich auf europäische Chip‑ und Lithographie‑Hersteller, insbesondere ASML (AMS) und Infineon (IFX)",
-   "dritte": "Einfluss auf europäische Technologie‑ETFs (z. B. iShares Digitalisation UCITS ETF) führt zu breiteren Zuflüssen in den Technologiebereich des DAX, wodurch SAP (SAP) und weitere DAX‑Tech‑Komponenten profitieren",
-   "positiv": [
-    "NVDA",
-    "NASDAQ",
-    "ASML",
-    "Infineon",
-    "SAP",
-    "iShares Digitalisation UCITS ETF",
-    "DAX‑Tech‑Komponente"
-   ],
-   "negativ": [
-    "RWE",
-    "E.ON",
-    "Deutsche Bank (als Vertreter von breiteren Rotations‑Flows aus defensiven Sektoren)"
-   ],
-   "konfidenz": "mittel"
-  },
-  {
-   "ausloeser": "Die EU‑Kommission hebt das Verkaufsverbot für den BYD Ti7‑SUV auf, nachdem BYD das Design angepasst hat",
-   "direkt": "BYD‑Aktie (BYD) erholt sich stark, europäische Investoren erhöhen ihre Positionen in chinesischen EV‑Herstellern",
-   "zweite": "Europäische Zulieferer von EV‑Komponenten – insbesondere Continental (CON) und ZF Friedrichshafen (ZF) – verzeichnen steigende Auftragsbücher; Batteriefirmen wie Northvolt (NVT) profitieren von erhöhtem Nachfrage‑Signal",
-   "dritte": "Der STOXX Europe Auto Index steigt, was die Bewertung von traditionellen europäischen Automobilherstellern wie Volkswagen (VOW3) und BMW (BMW) unterstützt, weil das Marktumfeld für EV‑Entwicklungen als günstiger wahrgenommen wird",
-   "positiv": [
-    "BYD",
-    "Continental",
-    "ZF Friedrichshafen",
-    "Northvolt",
-    "Volkswagen",
-    "BMW",
-    "STOXX Europe Auto Index"
-   ],
-   "negativ": [
-    "Stellantis (STLA) – wegen stärkerer Konkurrenz aus China",
-    "LNG‑ und Kohleunternehmen (z. B. Glencore) – wegen beschleunigtem EV‑Umstieg"
-   ],
-   "konfidenz": "niedrig"
-  }
- ],
+ "ketten": [],
  "gegenthese": {
-  "konsens": "Der Markt bewertet Huang‑Rückkehr bei Nvidia als Hauptimpuls für Tech‑Rally, sieht OBI/Toom‑Fusion als wertschöpfend, erwartet kurzfristigen Druck für BYD, hält neue Vermieter‑Versicherung als Kostenfaktor, bleibt skeptisch bei Klima‑Gipfel‑Ergebnis.",
-  "gegen": "Gegner warnen vor überhitzter Nvidia‑Bewertung, regulatorischen Hürden und Integrationsrisiken der OBI/Toom‑Fusion, langfristiger BYD‑Wachstumspotenzial bleibt unberührt, Versicherungsprämien könnten stärker steigen, Klimagipfel‑Scheitern ist strukturell."
+  "konsens": "Nvidia‑Rückkehr treibt Nasdaq stark nach oben; OBI/Toom‑Fusion gilt als wertschöpfend; BYD‑Aktie belastet das EU‑Verkaufsverbot; Markt bleibt vorsichtig bei China‑Beziehungen und Konsumenten‑Betrugsrisiken.",
+  "gegen": "Risiko von Überbewertung bei Nvidia, Integrations‑ und Wettbewerbsrisiken der OBI/Toom‑Fusion, mögliche weitere Regulierungen für BYD und anhaltende geopolitische Spannungen, die das Vertrauen in China‑bezogene Unternehmen schwächen."
  },
  "matrix": [
   {
@@ -483,12 +432,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Das Unternehmen verzeichnet ein starkes Umsatzwachstum von +23 % und ein attraktives erwartetes KGV von 14,3, was im Vergleich zu Branchenkollegen günstig erscheint. Die breite Produktpalette in Gas‑ und Dampfturbinen sowie digitale Services bietet stabile Ertragsquellen. Die Analysten‑Stimmung ist mit 22 Kauf‑Ratings überwiegend positiv.",
-   "dagegen": "Trotz positiver Analystenmeinung fehlt breitere Marktakzeptanz: Reddit erwähnt das Unternehmen kaum und Newsletter‑Cluster zeigen keine klare Empfehlung. Das KGV könnte im Kontext hoher Investitionsausgaben überbewertet sein, und die Abhängigkeit von Aufträgen im Wind‑ und Gas‑Segment birgt konjunkturelle Risiken. Hier widerspricht die starke Analysten‑Kaufempfehlung der geringen Retail‑Beachtung.",
+   "dafuer": "Analysten sehen Siemens Energy stark: 22 Kauf‑Empfehlungen, ein attraktives KGV von 14,3 und ein erwartetes Umsatzwachstum von 23 % unterstützen das Kursziel von 192 EUR. Das Unternehmen profitiert von steigender Nachfrage nach Turbinen, Netzinfrastruktur und Wärmepumpen in der Energiewende.",
+   "dagegen": "Trotz Analysten‑Optimismus fehlt breitere Marktstimmung – Reddit erwähnt das Unternehmen kaum und es gibt keine Insider‑Aktivität. Risiken liegen in der Umsetzung der Transformations‑ und Gamesa‑Segmente, möglichen Lieferkettenengpässen und der Abhängigkeit von staatlichen Förderungen, die das Wachstum bremsen könnten.",
    "katalysatoren": [
-    "Q3‑2024 Ergebnisveröffentlichung (Ende Oktober)",
-    "Abschluss der Integration von Siemens Gamesa und verbesserte Lieferkette",
-    "Zuteilung großer Gasturbinen‑Aufträge in Asien (z. B. China, Indien)"
+    "Veröffentlichung des Q3‑Geschäftsberichts (Ergebnis‑ und Ausblick)",
+    "Abschluss großer Grid‑Technologie‑Aufträge in Europa und Nordamerika",
+    "Zulassung neuer Siemens‑Gamesa‑Windturbinenmodelle und Start von Green‑Hydrogen‑Projekten"
    ]
   },
   "RHM.DE": {
@@ -536,12 +485,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Rheinmetall profitiert von starkem Auftragsbestand im Verteidigungssektor, unterstützt durch steigende Militärausgaben in Deutschland und den USA. Das Umsatzwachstum von 36 % und ein erwartetes KGV von 14,6 deuten auf attraktives Gewinnpotenzial hin. Analystenfavoriten: 17 Kauf‑ und 5 Halte‑Ratings.",
-   "dagegen": "Die Bewertung bleibt im Vergleich zu europäischen Rüstungsherstellern hoch, und das Unternehmen ist stark von staatlichen Haushalten abhängig, was bei politischen Änderungen das Ergebnis belasten kann. Fehlende Insider‑Informationen und keine Short‑Positionen reduzieren Markttransparenz.",
+   "dafuer": "Dafür spricht das robuste Umsatzwachstum von +36 % und ein moderates KGV von 14,6, das im Vergleich zu Peer‑Unternehmen attraktiv ist. Die breite Segmentaufstellung (Vehicle Systems, Weapon & Ammunition, Electronic Solutions) reduziert das Risiko einzelner Marktentwicklungen. Die Analysten‑Meinung ist überwiegend positiv (17 Buy, 5 Hold).",
+   "dagegen": "Dagegen spricht die starke Abhängigkeit von staatlichen Rüstungsetats, die bei politischen oder wirtschaftlichen Änderungen sinken könnten. Das Kursziel von 1.326 € impliziert bereits ein hohes Kurs‑Niveau, sodass weiteres Aufwärtspotenzial begrenzt sein könnte. Fehlende Short‑Positionen deuten auf geringe Markt‑Skepsis, aber auch auf geringe Liquidität.",
    "katalysatoren": [
     "Erhöhung des deutschen Verteidigungsbudgets 2025",
-    "Vertrag über neue Panzerplattform mit US‑Militär",
-    "Quartalsbericht Q4 2025 mit erwarteter Gewinnsteigerung"
+    "Auslieferung neuer gepanzerter Fahrzeugplattformen (z. B. Puma, Boxer) im Q3 2024",
+    "Durchbruch im Electronic‑Solutions‑Segment mit Aufträgen für UAV‑Steuerungen und KI‑basierte Systeme bis Ende 2024"
    ]
   },
   "ASML.AS": {
@@ -589,13 +538,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "ASML verzeichnet ein starkes Umsatzwachstum von +55 % und gilt als Technologieführer im EUV‑Lithografie‑Segment. 38 Analysten empfehlen Kauf, das Kursziel liegt bei 2 096 €, und das Unternehmen besitzt eine Marktkapitalisierung von 490,3 Mrd. €, was Stabilität signalisiert.",
-   "dagegen": "Das aktuelle KGV von 22,5 ist im Vergleich zu anderen Halbleiter‑Equipment‑Herstellern hoch, was auf eine teils überbewertete Aktie hindeutet. Es gibt nur einen Analysten, der verkauft, und keine Insider‑Transaktionen, was das Vertrauen in zukünftiges Wachstum einschränken könnte.",
-   "katalysatoren": [
-    "Einführung des nächsten High‑NA‑EUV‑Systems (geplant für 2025).",
-    "Quartalsbericht Q4 2024 mit erwarteten Umsatz‑ und Gewinnzahlen.",
-    "EU‑Förderprogramme für Chip‑Fabriken, die die Nachfrage nach Lithografie‑Equipment ankurbeln könnten."
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "SU.PA": {
    "ticker": "SU.PA",
@@ -627,7 +572,7 @@
     ],
     [
      "Newsletter",
-     "in 16 Clustern"
+     "in 17 Clustern"
     ],
     [
      "Reddit",
@@ -691,9 +636,13 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "Analysten sehen GE Vernova stark, 32 Kauf‑Empfehlungen bei nur fünf Halte‑Ratings. Das Unternehmen verzeichnet +27 % Umsatzwachstum, profitiert von diversifizierten Segmenten (Power, Wind, Electrification) und einem breiten globalen Markt. Das Kursziel von 1 162 USD spiegelt erwartete Gewinnsteigerungen.",
+   "dagegen": "Insider‑Verkäufe (vier Verkäufe, keine Käufe) deuten auf mögliche Bedenken. Das KGV von 29,2 liegt über dem Branchendurchschnitt, was die Bewertung hoch erscheinen lässt. Reddit‑Diskussionen sind kaum vorhanden, was auf geringes Anlegerinteresse schließen lässt. Keine Short‑Positionen, aber das Fehlen von Skepsis‑Signals kann irreführend sein.",
+   "katalysatoren": [
+    "Q4‑2026 Ergebnisveröffentlichung (Erwartungen zu Gewinn und Cash‑Flow)",
+    "Start der Serienproduktion neuer Windturbinen im europäischen Markt",
+    "Genehmigungen für geplante Kernkraft‑ und Wasserstoffprojekte in den USA"
+   ]
   },
   "CCJ": {
    "ticker": "CCJ",
@@ -703,11 +652,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "26.7 Mrd"
+     "26.8 Mrd"
     ],
     [
      "KGV (erw.)",
-     "35,8"
+     "35,9"
     ],
     [
      "Umsatzwachstum",
@@ -752,7 +701,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "71.7 Mrd"
+     "71.3 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -789,13 +738,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Starkes Umsatzwachstum von 8 % und ein attraktives KGV von 11,8 deuten auf Unterbewertung hin. Analysten sehen 18 Buy‑Empfehlungen, das Kursziel von 78 USD liegt über dem aktuellen Kurs. Die breite geografische Präsenz und steigende Kupfernachfrage unterstützen das Bild.",
-   "dagegen": "Insiderverkäufe von acht Transaktionen ohne Gegenkäufe signalisieren mögliche Bedenken. Die Aktie wird kaum von Reddit oder Newslettern diskutiert, was auf geringe Marktaufmerksamkeit schließen lässt. Risiken bestehen durch geopolitische Unsicherheiten in Indonesien, volatile Kupferpreise und hohe Investitionskosten für die Erweiterung des Grasberg‑Projekts.",
-   "katalysatoren": [
-    "Steigende Kupferpreise durch erhöhte Nachfrage aus China",
-    "Fertigstellung und Inbetriebnahme der Grasberg‑Erweiterung in Indonesien",
-    "Produktionsoptimierung und Kostensenkungsmaßnahmen bei der Morenci‑Mine"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "NVDA": {
    "ticker": "NVDA",
@@ -805,7 +750,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "3.976.0 Mrd"
+     "3.985.5 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -817,13 +762,13 @@
     ],
     [
      "Kursziel",
-     "244 USD"
+     "245 USD"
     ]
    ],
    "quellen": [
     [
      "Analysten",
-     "45 Kauf / 16 Halten / 2 Verkauf"
+     "48 Kauf / 12 Halten / 2 Verkauf"
     ],
     [
      "Newsletter",
@@ -848,6 +793,42 @@
   }
  },
  "shorts": [
+  {
+   "land": "NL",
+   "halter": "Two Sigma Investments, LP",
+   "emittent": "Theon International Plc",
+   "prozent": 0.61,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "Two Sigma Investments, LP",
+   "emittent": "Flow Traders Ltd.",
+   "prozent": 0.6,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "Jane Street Group LLC",
+   "emittent": "Alfen N.V.",
+   "prozent": 0.52,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
+  {
+   "land": "NL",
+   "halter": "Citadel Advisors LLC",
+   "emittent": "ASR Nederland N.V.",
+   "prozent": 0.5,
+   "datum": "",
+   "status": "neu",
+   "zuvor": null
+  },
   {
    "land": "UK",
    "halter": "Anavio Capital Partners LLP",
@@ -1081,46 +1062,10 @@
    "datum": "2019-06-11",
    "status": "aufgestockt",
    "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 13.82,
-   "datum": "2019-06-10",
-   "status": "aufgestockt",
-   "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "GUEVOURA FUND LTD",
-   "emittent": "HAMMERSON PLC",
-   "prozent": 13.78,
-   "datum": "2020-09-24",
-   "status": "aufgestockt",
-   "zuvor": 0.57
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 13.68,
-   "datum": "2019-06-07",
-   "status": "aufgestockt",
-   "zuvor": 0.53
-  },
-  {
-   "land": "UK",
-   "halter": "Asia Research & Capital Management Ltd",
-   "emittent": "Premier Oil PLC",
-   "prozent": 13.5,
-   "datum": "2019-06-06",
-   "status": "aufgestockt",
-   "zuvor": 0.53
   }
  ],
  "shorts_kennzahlen": {
-  "neu_diese_woche": 0,
+  "neu_diese_woche": 4,
   "meistgeshortet": {
    "name": "Premier Oil PLC",
    "summe": 2145.63
@@ -1133,14 +1078,6 @@
  },
  "gespraech": [],
  "termine": [
-  {
-   "datum": "2026-11-23",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
   {
    "datum": "2026-11-24",
    "zeit": "",
@@ -1228,8 +1165,16 @@
    "was": "FOMC Press Release",
    "konsens": "",
    "wucht": "hoch"
+  },
+  {
+   "datum": "2026-12-01",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 168,
- "llm_aktiv": true
+ "meldungen_gesamt": 163,
+ "llm_aktiv": false
 }
