@@ -1,9 +1,9 @@
 {
- "stand": "2026-11-24T18:26",
- "lauf": "2026112418",
+ "stand": "2026-11-25T02:52",
+ "lauf": "2026112502",
  "synthese": {
-  "kern": "Der Tag verbindet KI‑Hype mit drohender Kredit‑ und Inflationsbelastung, die Märkte unterschätzen.",
-  "erlaeuterung": "Während Medien KI‑Entwicklungen und Tarifverhandlungen betonen, verdecken sie die wachsende Refinanzierungs‑krise im Gewerbe‑Immobiliensektor und das niedrige Risiko‑Appetit‑Perzentil. Zusätzlich zeigen geopolitische Spannungen und sinkende Liquidität in den USA, dass die Marktstimmung fragil bleibt."
+  "kern": "Der Tag ist von KI-Hype getrieben, während schwache Liquidität und sinkender Risikoappetit übersehen werden.",
+  "erlaeuterung": "Investoren feiern Nvidia‑Erfolge und KI‑Strategien, doch die Regimewerte zeigen hohen Zinsdruck und minimale globale Risikobereitschaft. Diese Diskrepanz lässt die drohende Refinanzierungs‑ und Liquiditätskrise im Gewerbeimmobilien‑ und Euroraum‑Sektor unbeachtet."
  },
  "regime": [
   {
@@ -11,15 +11,15 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 78,
-     "delta": -2
+     "wert": 79,
+     "delta": -1
     },
     "eur": {
      "wert": 89,
      "delta": -5
     }
    },
-   "differenz": 11
+   "differenz": 10
   },
   {
    "name": "wachstum",
@@ -36,12 +36,12 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 66,
-     "delta": 2
+     "wert": 65,
+     "delta": 1
     },
     "eur": {
-     "wert": 75,
-     "delta": -3
+     "wert": 74,
+     "delta": -4
     }
    },
    "differenz": 9
@@ -62,7 +62,7 @@
    "spuren": {
     "us": {
      "wert": 44,
-     "delta": -3
+     "delta": -2
     },
     "eur": {
      "wert": 4,
@@ -84,9 +84,9 @@
  ],
  "cluster": [
   {
-   "id": "a49261d3",
-   "titel": "Aktien: Huang-Effekt verpufft – wovon der KI-Trade nun abhängt",
-   "anriss": "Mit dem Comeback von Jensen Huang an der Spitze von Nvidia setzte eine neue Phase der KI-Rally ein. Doch alte Risiken bleiben. Wie nachhaltig ist die Rückkehr des KI-Trades?",
+   "id": "487e124e",
+   "titel": "Nvidia: Einsatz verdreifacht: Ein Investor verdiente mehr als 150.000 Dollar durch die Rückkehr Huangs",
+   "anriss": "Als Nvidia die Rückkehr von Jensen Huang verkündet, reagiert ein Polymarket-Konto schneller als alle anderen. Medien berichten erst Minuten später. Wie konnte das gelingen?",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
@@ -95,53 +95,21 @@
     "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 21,
+   "anzahl": 19,
    "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/aktien/aktien-huang-effekt-verpufft-wovon-der-ki-trade-nun-abhaengt/100272271.html",
     "https://www.handelsblatt.com/finanzen/maerkte/nvidia-ein-anleger-verdient-mit-huangs-rueckkehr-ueber-150.000-dollar/100272161.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-und-hang-seng-jensen-huang-rally-in-asien-raeumt-zweifel-an-ki-boom-nicht-aus/100272218.html",
+    "https://www.tagesschau.de/wirtschaft/unternehmen/huang-folgen-nvidia-rueckkehr-100.html",
     "https://www.tagesschau.de/wirtschaft/finanzen/trump-nvidia-aktien-100.html",
-    "https://www.tagesschau.de/wirtschaft/finanzen/marktbericht-nvidia-102.html"
+    "https://www.tagesschau.de/wirtschaft/unternehmen/nvidia-huang-rueckkehr-trump-100.html",
+    "https://www.tagesschau.de/wirtschaft/huang-nvidia-chef-trump-demokraten-100.html"
    ],
-   "punkte": 55,
-   "text": "Nach dem Come‑back von Nvidia‑CEO Jensen Huang hat sich der anfängliche „Huang‑Effekt“ bereits abgeflacht; die weitere Kursentwicklung von KI‑Aktien hängt nun stärker von realen Umsatz‑ und Margenaussichten ab. Alte Risiken wie überhöhte Bewertungen und Lieferengpässe bleiben bestehen.",
+   "punkte": 49,
+   "text": "Ein Investor erzielte über 150 000 USD Gewinn, weil ein Polymarket‑Konto die Ankündigung von Jensen Huangs Rückkehr zu Nvidia schneller verarbeitete als andere Marktteilnehmer. Die Meldung verdeutlicht, dass Informationsvorsprung im Bereich Krypto‑Prediction‑Markets zu erheblichen Erträgen führen kann.",
    "positiv": [
-    "Nvidia (↑)",
-    "KI‑Software‑Unternehmen (↑)"
+    "Nvidia‑Aktie",
+    "Polymarket‑Plattform"
    ],
-   "negativ": [
-    "KI‑Hype (↓)",
-    "Chip‑Aktien (↓)"
-   ]
-  },
-  {
-   "id": "4da2e756",
-   "titel": "VW-Tarifrunde beginnt in Emden - wo die Streitpunkte liegen",
-   "anriss": "Mitten in der tiefsten Krise der Konzerngeschichte startet heute die Tarifrunde für rund 120.000 Volkswagen-Beschäftigte. Das Management will Kosten senken, die IG Metall wehrt sich gegen weitere Einbußen. Von T. Hildebrandt.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 5,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/unternehmen/volkswagen-tarifrunde-emden-auftakt-100.html",
-    "https://www.tagesschau.de/wirtschaft/unternehmen/streiks-ig-metall-norden-100.html",
-    "https://www.spiegel.de/wirtschaft/unternehmen/vw-und-mercedes-preschen-vor-in-der-autoindustrie-wackelt-die-35-stundenwoche-a-8bd3a926-6d68-4968-9616-377e9688f170#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/vw-tarifstreit-volkswagen-zeigt-die-eiskalte-fratze-des-kapitalismus-201712613.html",
-    "https://www.manager-magazin.de/unternehmen/mobilitaet/volkswagen-start-der-tarifverhandlungen-zwischen-ig-metall-und-vw-a-d24f0b2c-0b7e-4533-9f46-2eb274f1c55c#ref=rss"
-   ],
-   "punkte": 18,
-   "text": "Die Tarifrunde bei Volkswagen beginnt in Emden, wobei das Management vor allem Lohn‑ und Sozialkosten senken will, während die IG Metall gegen weitere Kürzungen kämpft. Die Verhandlungen finden inmitten der schwersten Unternehmenskrise in der Geschichte von VW statt.",
-   "positiv": [
-    "Volkswagen (potenziell ↑ bei Kostenreduktion)"
-   ],
-   "negativ": [
-    "Lohnkosten (↑)",
-    "Arbeitskonflikt (↓)"
-   ]
+   "negativ": []
   },
   {
    "id": "10dffac2",
@@ -162,13 +130,11 @@
     "https://www.manager-magazin.de/finanzen/boerse/boerse-dax-setzt-erholung-fort-infineon-und-siemens-energy-im-plus-a-413adf95-6c59-4067-92aa-4d02b4c4a9d6#ref=rss"
    ],
    "punkte": 17,
-   "text": "Der DAX schloss im Minus, nachdem die übermäßige Euphorie um Nvidia bereits eingepreist war; insbesondere die Chip‑Aktie, die zuvor stark gestiegen war, verlor mehr als neun Prozent. Trotz des Rückgangs blieben einige defensive Sektoren stabil.",
-   "positiv": [
-    "Defensive Sektoren (≈)"
-   ],
+   "text": "Der DAX schloss im Minus, während die führende Chip‑Aktie um mehr als neun Prozent fiel, weil das positive Echo auf Huangs Rückkehr bereits eingepreist war. Trotz des Rückgangs blieben einige defensive Sektoren stabil, jedoch ohne nennenswerte Kursgewinne.",
+   "positiv": [],
    "negativ": [
-    "DAX (↓)",
-    "Chip‑Aktien (↓)"
+    "DAX",
+    "Chip‑Sektor"
    ]
   },
   {
@@ -177,43 +143,85 @@
    "anriss": "Die Versicherungsindustrie steht in den nächsten zehn Jahren vor großen und teuren Veränderungen. Experten sind sich einig: Um wettbewerbsfähig zu bleiben, sind vier Bereiche entscheidend.",
    "region": "dach",
    "quellen": [
-    "Handelsblatt Finanzen",
-    "Tagesschau Wirtschaft"
+    "Handelsblatt Finanzen"
    ],
    "anzahl": 3,
    "links": [
     "https://www.handelsblatt.com/finanzen/banken-versicherungen/versicherer/insurance-summit-2026-wie-versicherer-mit-der-ki-transformation-umgehen/100268674.html",
     "https://www.handelsblatt.com/finanzen/banken-versicherungen/versicherer/generali-deutschland-800-stellen-fallen-weg-jobgarantie-gilt-bis-2032/100272478.html",
-    "https://www.tagesschau.de/wissen/ki-letzte-erfindung-der-menschheit-100.html"
+    "https://www.handelsblatt.com/finanzen/banken-versicherungen/altersvorsorgedepot-kunden-wollen-sicherheit-versicherer-setzen-auf-risiko/100270328.html"
    ],
-   "punkte": 16,
-   "text": "Beim Insurance Summit 2026 betonten Experten, dass Versicherer in den nächsten zehn Jahren massive Investitionen in KI tätigen müssen, um wettbewerbsfähig zu bleiben; vier Schlüsselbereiche wurden als besonders entscheidend hervorgehoben. Die Transformation wird jedoch mit hohen Kosten und regulatorischen Herausforderungen verbunden sein.",
+   "punkte": 15,
+   "text": "Auf dem Insurance Summit 2026 wurde betont, dass die Versicherungsbranche in den nächsten zehn Jahren vor kostenintensiven KI‑Transformationen steht und vier Handlungsfelder – Dateninfrastruktur, Underwriting, Schadenbearbeitung und Risikomanagement – entscheidend sind. Die Umsetzung wird voraussichtlich sowohl Investitionsbedarf als auch neue Ertragsquellen mit sich bringen.",
    "positiv": [
-    "Versicherungsunternehmen (↑ bei KI‑Adoption)"
+    "Versicherungs‑Tech‑Unternehmen"
    ],
    "negativ": [
-    "Transformationskosten (↑)",
-    "Regulatorische Risiken (↑)"
+    "Traditionelle Versicherer (Kostenbelastung)"
    ]
   },
   {
-   "id": "745c6b5d",
-   "titel": "Börse am 24. November: Geht die Dax-Erholung weiter? Sechs Punkte, die für Anleger wichtig sind",
-   "anriss": "Die Rückkehr des Nvidia-Chefs hat den deutschen Leitindex wieder deutlich über die Marke von 25.000 Punkten getrieben. Kann die jüngste Euphorie zu einer nachhaltigen Trendwende werden?",
+   "id": "a49261d3",
+   "titel": "Aktien: Huang-Effekt verpufft – wovon der KI-Trade nun abhängt",
+   "anriss": "Mit dem Comeback von Jensen Huang an der Spitze von Nvidia setzte eine neue Phase der KI-Rally ein. Doch alte Risiken bleiben. Wie nachhaltig ist die Rückkehr des KI-Trades?",
    "region": "dach",
    "quellen": [
     "Handelsblatt Finanzen",
-    "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft"
    ],
    "anzahl": 3,
    "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sechs-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/aktien/aktien-huang-effekt-verpufft-wovon-der-ki-trade-nun-abhaengt/100272271.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-und-hang-seng-jensen-huang-rally-in-asien-raeumt-zweifel-an-ki-boom-nicht-aus/100272218.html",
+    "https://www.tagesschau.de/wirtschaft/finanzen/marktbericht-nvidia-102.html"
+   ],
+   "punkte": 12,
+   "text": "Der anfängliche „Huang‑Effekt“ hat nachgelassen, und die weitere Entwicklung von KI‑bezogenen Trades hängt nun stärker von makroökonomischen Rahmenbedingungen und regulatorischen Risiken ab. Alte Risikofaktoren wie Bewertungslücken und Lieferkettenengpässe bleiben bestehen, was die Nachhaltigkeit der Rallye in Frage stellt.",
+   "positiv": [],
+   "negativ": [
+    "KI‑Aktien",
+    "Tech‑Rallye"
+   ]
+  },
+  {
+   "id": "563f932c",
+   "titel": "Ifo-Index steigt: \"Erholung der deutschen Wirtschaft kommt voran\"",
+   "anriss": "In der deutschen Wirtschaft nimmt der Aufschwung weiter Fahrt auf: Die Stimmung hat sich im November den siebten Monat in Folge verbessert. Der ifo-Index erreichte sogar den höchsten Stand seit dem Frühjahr 2023.",
+   "region": "dach",
+   "quellen": [
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft"
+   ],
+   "anzahl": 4,
+   "links": [
     "https://www.tagesschau.de/wirtschaft/konjunktur/ifo-geschaeftsklima-110.html",
+    "https://www.tagesschau.de/video/video-1689280.html",
+    "https://www.tagesschau.de/multimedia/sendung/tagesschau24/boerselive/video-1688878.html",
     "https://www.spiegel.de/wirtschaft/unternehmen/konjunktur-ifo-geschaeftsklima-steigt-auf-hoechststand-seit-fruehjahr-2023-a-cfccd10f-85d6-4cab-b772-17222a85e822#ref=rss"
    ],
-   "punkte": 13,
-   "text": "Die Rückkehr des Nvidia-Chefs hat den deutschen Leitindex wieder deutlich über die Marke von 25.000 Punkten getrieben. Kann die jüngste Euphorie zu einer nachhaltigen Trendwende werden?",
+   "punkte": 12,
+   "text": "In der deutschen Wirtschaft nimmt der Aufschwung weiter Fahrt auf: Die Stimmung hat sich im November den siebten Monat in Folge verbessert. Der ifo-Index erreichte sogar den höchsten Stand seit dem Frühjahr 2023.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "4da2e756",
+   "titel": "VW-Tarifrunde beginnt in Emden - wo die Streitpunkte liegen",
+   "anriss": "Mitten in der tiefsten Krise der Konzerngeschichte startet heute die Tarifrunde für rund 120.000 Volkswagen-Beschäftigte. Das Management will Kosten senken, die IG Metall wehrt sich gegen weitere Einbußen. Von T. Hildebrandt.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/unternehmen/volkswagen-tarifrunde-emden-auftakt-100.html",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/vw-tarifstreit-volkswagen-zeigt-die-eiskalte-fratze-des-kapitalismus-201712613.html",
+    "https://www.manager-magazin.de/unternehmen/mobilitaet/volkswagen-start-der-tarifverhandlungen-zwischen-ig-metall-und-vw-a-d24f0b2c-0b7e-4533-9f46-2eb274f1c55c#ref=rss"
+   ],
+   "punkte": 12,
+   "text": "Mitten in der tiefsten Krise der Konzerngeschichte startet heute die Tarifrunde für rund 120.000 Volkswagen-Beschäftigte. Das Management will Kosten senken, die IG Metall wehrt sich gegen weitere Einbußen. Von T. Hildebr",
    "positiv": [],
    "negativ": []
   },
@@ -238,92 +246,31 @@
    "negativ": []
   },
   {
-   "id": "638c2613",
-   "titel": "Tidal bans AI-generated music",
-   "anriss": "Article URL: https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/ Comments URL: https://news.ycombinator.com/item?id=50630309 Points: 250 # Comments: 205",
+   "id": "63c7970f",
+   "titel": "Ternary Bonsai 2.5 27B",
+   "anriss": "Article URL: https://prismml.com/news/bonsai-2-5-27b Comments URL: https://news.ycombinator.com/item?id=50633922 Points: 354 # Comments: 121",
    "region": "global",
    "quellen": [
     "Hacker News Top"
    ],
-   "anzahl": 9,
+   "anzahl": 8,
    "links": [
-    "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
-    "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
-    "https://quad9.net/news/blog/quad9-service-deactivation-in-france/",
-    "https://fzakaria.com/2026/11/23/2035-came-early",
-    "https://www.phoronix.com/review/amd-epyc-9006-7601"
-   ],
-   "punkte": 11,
-   "text": "Article URL: https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/ Comments URL: https://news.ycombinator.com/item?id=50630309 Points: 250 # Comments: 205",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "f6e27fa1",
-   "titel": "Verbraucherschützer warnen zur Black Week vor Betrugsmaschen",
-   "anriss": "Rabatte von 50, 60 oder sogar 70 Prozent: Rund um den Black Friday lockt der Handel mit vermeintlichen Schnäppchen. Die Branche erwartet Rekordumsätze. Doch Verbraucherschützer warnen auch vor Preisfallen und Betrügern. Von Jens Eberl.",
-   "region": "dach",
-   "quellen": [
-    "Tagesschau Wirtschaft",
-    "heise"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/verbraucher/blackweek-preisfallen-100.html",
-    "https://www.heise.de/bestenlisten/deals/black-friday-bei-saugrobotern-kraeftig-sparen-topmodelle-zum-tiefstpreis/69x6ye0?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-    "https://www.heise.de/bestenlisten/deals/black-friday-die-besten-kopfhoerer-zum-tiefstpreis-sonos-ace-nothing-und-shokz/ce1wvmg?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+    "https://prismml.com/news/bonsai-2-5-27b",
+    "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
+    "http://hypercritical.co/2026/11/23/jetty-pro",
+    "https://twitter.com/raul_bs3/status/2125213756238291075",
+    "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/"
    ],
    "punkte": 10,
-   "text": "Rabatte von 50, 60 oder sogar 70 Prozent: Rund um den Black Friday lockt der Handel mit vermeintlichen Schnäppchen. Die Branche erwartet Rekordumsätze. Doch Verbraucherschützer warnen auch vor Preisfallen und Betrügern. ",
+   "text": "Article URL: https://prismml.com/news/bonsai-2-5-27b Comments URL: https://news.ycombinator.com/item?id=50633922 Points: 354 # Comments: 121",
    "positiv": [],
    "negativ": []
   }
  ],
- "ketten": [
-  {
-   "ausloeser": "EU-Kommission verabschiedet im Q4 2026 ein strenges KI‑Regulierungspaket, das große Technologie‑ und Datenunternehmen zu umfangreichen Beschränkungen beim Training von KI‑Modellen zwingt (Inkrafttreten Q1 2027).",
-   "direkt": "Nachfrage nach spezialisierten europäischen KI‑Chipherstellern (z. B. Infineon, STMicroelectronics) sinkt, weil KI‑Entwickler ihre Modelle auf weniger rechenintensive Plattformen verlagern.",
-   "zweite": "KI‑gestützte Handels- und Asset‑Management‑Firmen reduzieren ihr Handelsvolumen, was die Marktliquidität an europäischen Börsen verringert und die Volatilität im DAX erhöht.",
-   "dritte": "Produktivitätsgewinne in der Industrie bremsen, weil KI‑Optimierungen langsamer eingeführt werden; Exportorientierte Hersteller wie Siemens und Deutsche Telekom verzeichnen geringere Margenwachstumsraten.",
-   "positiv": [
-    "SAP (Compliance‑Software und Daten‑Governance‑Lösungen)",
-    "AstraZeneca (weniger KI‑Abhängigkeit im Forschungs‑ und Entwicklungs‑Portfolio)",
-    "Deutsche Post (logistische Prozesse profitieren weiterhin von etablierten Automatisierungslösungen)"
-   ],
-   "negativ": [
-    "Infineon Technologies",
-    "STMicroelectronics",
-    "ASML (indirekt über geringere Nachfrage nach KI‑optimierten Lithografie‑Prozessen)",
-    "Deutsche Bank (geringeres Handelsvolumen)",
-    "Siemens AG",
-    "Deutsche Telekom"
-   ],
-   "konfidenz": "mittel"
-  },
-  {
-   "ausloeser": "Im November 2026 startet die neue VW‑Tarifrunde in Emden mit dem Vorschlag, den Mindestlohn für Facharbeiter um 5 % (ca. 300 € pro Monat) ab Januar 2025 zu erhöhen.",
-   "direkt": "Volkswagen erhöht seine Lohnkosten um rund 1,2 % des Jahresumsatzes, was die operative Marge im nächsten Geschäftsjahr drückt.",
-   "zweite": "Automobilzulieferer, die stark von VW‑Aufträgen abhängig sind (z. B. Continental, ZF Friedrichshafen), sehen Auftragsverzögerungen, weil VW die Fahrzeugpreise anheben muss, um die höheren Lohnkosten zu kompensieren.",
-   "dritte": "Steigende Fahrzeugpreise dämpfen die Konsumausgaben im deutschen Privatsektor; Einzelhandels‑REITs (z. B. Vonovia) und Konsumgüterhersteller (z. B. Henkel) verzeichnen rückläufige Einnahmen.",
-   "positiv": [
-    "KUKA (Automatisierungslösungen, die Kostendruck bei Automobilherstellern abfedern)",
-    "BASF (Chemikalien für Leichtbau, die bei höheren Fahrzeugpreisen stärker nachgefragt werden)",
-    "Deutsche Börse (höhere Volatilität kann Handelsaktivität steigern)"
-   ],
-   "negativ": [
-    "Volkswagen AG",
-    "Continental AG",
-    "ZF Friedrichshafen AG",
-    "Vonovia SE",
-    "Henkel AG & Co. KGaA",
-    "Adidas (geringere Konsumausgaben für Freizeit‑ und Sportartikel)"
-   ],
-   "konfidenz": "hoch"
-  }
- ],
+ "ketten": [],
  "gegenthese": {
-  "konsens": "KI‑Aktien verlieren nach dem Huang‑Effekt an Attraktivität, DAX‑Erholung bleibt fragil, VW‑Tarif verhandelt um Lohn‑ und Arbeitszeit‑Kosten, Gewerbe‑Immobilien‑Finanzierung 2027 wird schwierig, Regulierungen steigen.",
-  "gegen": "KI‑Aktien könnten durch neue Anwendungsfälle und staatliche Förderungen wieder boomen; DAX‑Erholung könnte durch positive Unternehmenszahlen und geldpolitische Lockerungen gestützt werden."
+  "konsens": "KI‑Aktien verlieren nach dem Huang‑Effekt; DAX bleibt kurzfristig leicht im Minus; Ifo‑Aufschwung deutet leichte Konjunkturerholung an; Versicherer setzen KI fort; VW‑Tarif verhandelt; Bau‑Finanzierung bleibt riskant.",
+  "gegen": "Gegenargument: Die KI‑Nachfrage könnte durch neue Anwendungen wieder stark steigen, was die aktuelle Abschwächung der Tech‑Aktien überholt und den DAX‑Verlust kurzfristig ausgleichen."
  },
  "matrix": [
   {
@@ -462,7 +409,7 @@
     ],
     [
      "Newsletter",
-     "in 5 Clustern"
+     "in 3 Clustern"
     ],
     [
      "Reddit",
@@ -477,13 +424,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Analysten‑Stimmungsbild ist stark positiv (22 Kauf‑Empfehlungen). Das Kurs‑Gewinn‑Verhältnis von 13,3 liegt unter dem Branchendurchschnitt, das Umsatzwachstum von +23 % zeigt robuste Nachfrage. Das Unternehmen profitiert von einem breiten Produktportfolio in Gas‑ und Wind‑Turbinen sowie von langfristigen Service‑Verträgen.",
-   "dagegen": "Die hohe Abhängigkeit von Gas‑Turbinen‑Verkäufen birgt Risiko bei sinkender Energie‑Nachfrage. Integration der Segmente und Kostenstruktur bleiben unsicher, während der Markt für Windenergie volatil ist. Reddit‑Nutzer erwähnen das Unternehmen kaum, was auf geringe Retail‑Aufmerksamkeit hindeutet; Insider‑Transaktionen fehlen komplett.",
-   "katalysatoren": [
-    "Veröffentlichung der Quartalszahlen Q4 2025 (Ergebnis‑ und Margen‑Update)",
-    "Auslieferung und Inbetriebnahme der neuen SG‑8‑Gasturbinen‑Serie",
-    "Fortschritt bei Offshore‑Wind‑Projekten von Siemens Gamesa (Auftragsbestätigung 2024/25)"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "RHM.DE": {
    "ticker": "RHM.DE",
@@ -530,12 +473,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Starkes Umsatzwachstum von +36 % zeigt, dass Rheinmetall von steigenden Rüstungsausgaben profitiert. Das Unternehmen deckt mit Vehicle Systems, Weapon & Ammunition sowie Electronic Solutions mehrere Marktsegmente ab, was die Ertragsbasis diversifiziert. Das durchschnittliche KGV von 14,9 liegt im Branchenvergleich moderat.",
-   "dagegen": "Das Unternehmen ist stark von staatlichen Rüstungsetats abhängig; bei Haushaltskürzungen oder politischen Kurswechseln kann die Auftragslage schnell sinken. Das Kursziel von 1296 € impliziert bereits ein erhebliches Aufwärtspotenzial, das bei weiter steigenden Bewertungen schwer zu realisieren ist. Fehlende Short-Positionen deuten auf geringe Marktmeinung zu Risiken hin.",
+   "dafuer": "Dafür spricht das robuste Umsatzwachstum von +36 % und ein moderates KGV von 14,9, das im Vergleich zur Branche attraktiv erscheint. Die breite Produktpalette in Fahrzeugsystemen, Waffen und Elektronik profitiert von steigenden Verteidigungsausgaben. Analystenfavoriten (17 Buy, 5 Hold) bestärken das Bild.",
+   "dagegen": "Ein Gegenargument ist die hohe Abhängigkeit von staatlichen Rüstungsetats, die bei Haushaltskürzungen oder geopolitischen Spannungen sinken können. Die Bewertung könnte bereits das erwartete Wachstum einpreisen, sodass Aufwärtsrisiken begrenzt sind. Zudem fehlt Transparenz zu Insider‑Transaktionen und Short‑Positionen.",
    "katalysatoren": [
-    "Veröffentlichung des deutschen Verteidigungsbudgets 2025 mit möglicher Erhöhung der Mittel für gepanzerte Fahrzeuge",
-    "Zulassung und Auslieferung neuer Leopard‑2‑Ausstattungen an NATO‑Partner",
-    "Quartalsbericht Q4 2025, bei dem das Umsatzwachstum und die Auftragspipeline detailliert dargestellt werden"
+    "Erhöhung des deutschen Verteidigungsbudgets 2025",
+    "Vergabe eines großen US‑Auftrags für gepanzerte Fahrzeuge",
+    "Markteinführung des neuen modularen Fahrzeugkonzepts für NATO‑Partner"
    ]
   },
   "ASML.AS": {
@@ -583,12 +526,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "ASML profitiert von starkem Umsatzwachstum von +55 % und einer dominanten Marktposition im EUV‑Lithografie‑Segment. Die Analysten‑Stimmung ist überwiegend positiv (38 Buy vs. 2 Hold, 1 Sell). Das KGV von 21,3 erscheint für das Wachstum moderat.",
-   "dagegen": "Das Unternehmen ist stark von der zyklischen Halbleiternachfrage abhängig, was das Risiko bei Abschwüngen erhöht. Das KGV von 21,3 könnte im Vergleich zu historischen Werten überbewertet sein. Fehlende Insider‑Informationen und keine Short‑Positionen lassen Unsicherheit über mögliche Kurskorrekturen bestehen.",
+   "dafuer": "ASML dominiert den EUV-Markt, das Kernsegment für fortschrittliche Halbleiter. Das Umsatzwachstum von +55 % belegt stark steigende Nachfrage. Das KGV von 21,3 ist angesichts des Wachstums moderat. Analystenfavoriten: 38 Kauf‑Empfehlungen gegenüber nur 2 Halten und 1 Verkauf.",
+   "dagegen": "Die Bewertung bleibt hoch; ein KGV von 21,3 könnte bei einer Abschwächung der Chipnachfrage überbewertet sein. ASML ist stark zyklisch und abhängig von wenigen Großkunden. Fehlende Insider‑Meldungen und keine Short‑Positionen erschweren die Risikoabschätzung.",
    "katalysatoren": [
-    "Markteinführung des High‑NA EUV‑Systems (geplant für 2025)",
-    "Große Aufträge von TSMC und Samsung im Q4 2024",
-    "EU‑Subventionen für Chip‑Fertigung (CHIPS‑Act‑Europe) steigern die Nachfrage"
+    "Q4‑2026 Ergebnis‑ und Ausblick‑Veröffentlichung",
+    "Markteinführung des High‑NA‑EUV‑Systems",
+    "Großauftrag von TSMC oder Samsung für neue Produktionslinien"
    ]
   },
   "SU.PA": {
@@ -636,13 +579,9 @@
      "1648,06 % ueber 1700 Halter"
     ]
    ],
-   "dafuer": "Schneider Electric verfügt über ein breites Portfolio in Energie‑Management und Industrieautomation, profitiert von steigender Nachfrage nach erneuerbaren Energien und Smart‑Building‑Lösungen. Das Unternehmen weist ein Umsatzwachstum von +10 % und ein moderates KGV von 18 auf, was relative Bewertung attraktiv macht.",
-   "dagegen": "Ein hoher Short‑Interest von 1648 % gegenüber 1700 Haltern signalisiert erhebliche Bärenmeinung, während Analysten 19 Käufe gegenüber nur 4 Halte‑Empfehlungen aussprechen – ein klarer Widerspruch. Zudem fehlt substanzielle Insider‑Information und die Diskussion in sozialen Medien ist kaum vorhanden, was Unsicherheit erhöht.",
-   "katalysatoren": [
-    "Q3‑2026‑Ergebnisbericht (voraussichtliche Umsatz‑ und Gewinnzahlen)",
-    "Markteinführung der nächsten Generation von Micro‑Grid‑Lösungen",
-    "EU‑Förderprogramme für Energie‑Management‑Technologien"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "GEV": {
    "ticker": "GEV",
@@ -652,11 +591,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "190.0 Mrd"
+     "190.7 Mrd"
     ],
     [
      "KGV (erw.)",
-     "27,4"
+     "27,5"
     ],
     [
      "Umsatzwachstum",
@@ -701,11 +640,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "26.1 Mrd"
+     "26.0 Mrd"
     ],
     [
      "KGV (erw.)",
-     "35,0"
+     "35,7"
     ],
     [
      "Umsatzwachstum",
@@ -713,7 +652,7 @@
     ],
     [
      "Kursziel",
-     "116 USD"
+     "114 USD"
     ]
    ],
    "quellen": [
@@ -750,11 +689,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "68.3 Mrd"
+     "68.5 Mrd"
     ],
     [
      "KGV (erw.)",
-     "11,3"
+     "11,4"
     ],
     [
      "Umsatzwachstum",
@@ -799,11 +738,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "3.707.3 Mrd"
+     "3.752.0 Mrd"
     ],
     [
      "KGV (erw.)",
-     "9,2"
+     "9,4"
     ],
     [
      "Umsatzwachstum",
@@ -844,17 +783,8 @@
  "shorts": [
   {
    "land": "NL",
-   "halter": "Two Sigma Investments, LP",
-   "emittent": "Theon International Plc",
-   "prozent": 0.61,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "Two Sigma Investments, LP",
-   "emittent": "Flow Traders Ltd.",
+   "halter": "Citadel Advisors LLC",
+   "emittent": "PostNL N.V.",
    "prozent": 0.6,
    "datum": "",
    "status": "neu",
@@ -862,18 +792,9 @@
   },
   {
    "land": "NL",
-   "halter": "Jane Street Group LLC",
-   "emittent": "Alfen N.V.",
-   "prozent": 0.52,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "Citadel Advisors LLC",
-   "emittent": "ASR Nederland N.V.",
-   "prozent": 0.5,
+   "halter": "Millennium International Management LP",
+   "emittent": "Sligro Food Group N.V.",
+   "prozent": 0.51,
    "datum": "",
    "status": "neu",
    "zuvor": null
@@ -1111,38 +1032,40 @@
    "datum": "2019-06-11",
    "status": "aufgestockt",
    "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 13.82,
+   "datum": "2019-06-10",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "GUEVOURA FUND LTD",
+   "emittent": "HAMMERSON PLC",
+   "prozent": 13.78,
+   "datum": "2020-09-24",
+   "status": "aufgestockt",
+   "zuvor": 0.57
   }
  ],
  "shorts_kennzahlen": {
-  "neu_diese_woche": 4,
+  "neu_diese_woche": 2,
   "meistgeshortet": {
    "name": "Premier Oil PLC",
    "summe": 2145.63
   },
   "aktivster_halter": {
    "name": "Marshall Wace LLP",
-   "anzahl": 14032
+   "anzahl": 14033
   },
   "gesamt": 107395
  },
  "gespraech": [],
  "termine": [
-  {
-   "datum": "2026-11-24",
-   "zeit": "",
-   "region": "us",
-   "was": "FOMC Press Release",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-11-24",
-   "zeit": "",
-   "region": "us",
-   "was": "G.17 Industrial Production and Capacity Utilization",
-   "konsens": "",
-   "wucht": "hoch"
-  },
   {
    "datum": "2026-11-25",
    "zeit": "",
@@ -1164,14 +1087,6 @@
    "zeit": "",
    "region": "us",
    "was": "Gross Domestic Product",
-   "konsens": "",
-   "wucht": "hoch"
-  },
-  {
-   "datum": "2026-11-25",
-   "zeit": "",
-   "region": "us",
-   "was": "Personal Income and Outlays",
    "konsens": "",
    "wucht": "hoch"
   },
@@ -1222,8 +1137,32 @@
    "was": "FOMC Press Release",
    "konsens": "",
    "wucht": "hoch"
+  },
+  {
+   "datum": "2026-12-01",
+   "zeit": "",
+   "region": "us",
+   "was": "Job Openings and Labor Turnover Survey",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-12-02",
+   "zeit": "",
+   "region": "us",
+   "was": "FOMC Press Release",
+   "konsens": "",
+   "wucht": "hoch"
+  },
+  {
+   "datum": "2026-12-02",
+   "zeit": "",
+   "region": "us",
+   "was": "Gross Domestic Product by County",
+   "konsens": "",
+   "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 156,
- "llm_aktiv": true
+ "meldungen_gesamt": 148,
+ "llm_aktiv": false
 }
