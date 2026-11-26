@@ -1,9 +1,9 @@
 {
- "stand": "2026-11-26T02:00",
- "lauf": "2026112602",
+ "stand": "2026-11-26T14:10",
+ "lauf": "2026112614",
  "synthese": {
-  "kern": "Tarif- und Regulierungswellen treffen auf schwächelnde Risikobereitschaft, während Märkte das steigende geopolitische Risiko unterschätzen.",
-  "erlaeuterung": "Neue US‑Zölle, EU‑Kartenzahlung und EU‑Quantensicherheit erhöhen makroökonomische Unsicherheit. Trotzdessen bleibt das globale Risikoappetit‑Perzentil bei 6, was die Marktvolatilität unterschätzt."
+  "kern": "Der Tag verbindet KI‑Hype und Discount‑Wettstreit, während der Markt die sinkende Liquidität und das geringe Risiko‑Appetit verkennt.",
+  "erlaeuterung": "Trotz starkem Interesse an KI‑Anwendungen und aggressiven Preisstrategien bleibt die Liquiditätslage in den USA schwach und das globale Risiko‑Appetit‑Perzentil bei 7 %. Investoren übersehen, dass diese Fundamentaldaten das Potenzial haben, die aktuelle Aufwärtsdynamik zu dämpfen."
  },
  "regime": [
   {
@@ -37,11 +37,11 @@
    "spuren": {
     "us": {
      "wert": 69,
-     "delta": 4
+     "delta": 6
     },
     "eur": {
      "wert": 77,
-     "delta": 1
+     "delta": 0
     }
    },
    "differenz": 8
@@ -51,8 +51,8 @@
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 6,
-     "delta": -7
+     "wert": 7,
+     "delta": -2
     }
    }
   },
@@ -76,205 +76,221 @@
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 75,
-     "delta": -2
+     "wert": 76,
+     "delta": 0
     }
    }
   }
  ],
  "cluster": [
   {
-   "id": "1a49b281",
-   "titel": "Wall Street: US-Börsen schließen uneinheitlich – Nvidia verliert",
-   "anriss": "Auch die Rückendeckung des US-Präsidenten für Nvidia-Chef Huang ändert nichts am Ausverkauf der Techwerte. Derweil denkt Trump sogar über eine Staatsbeteiligung bei dem Unternehmen nach.",
+   "id": "c10dfcbf",
+   "titel": "Black Weeks: Wie die Rabattschlacht Handel und Kunden verändert",
+   "anriss": "Früher war es ein einzelner Einkaufstag, heute zieht sich die Schnäppchenjagd über Wochen: Der Black Friday hat sich auf den ganzen Monat ausgedehnt. Verbraucher warten gezielt auf Rabatte, Händler müssen mitziehen. Von Anke Heinhaus.",
    "region": "dach",
    "quellen": [
-    "Handelsblatt Finanzen",
     "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft",
+    "heise",
     "manager magazin"
    ],
-   "anzahl": 7,
+   "anzahl": 5,
    "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-sp-500-nasdaq-us-boersen-schliessen-uneinheitlich-nvidia-verliert/100272701.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-kospi-taiex-viele-chipaktien-in-asien-fallen-unter-das-niveau-vor-der-rally/100272545.html",
+    "https://www.tagesschau.de/wirtschaft/verbraucher/black-friday-schnaeppchen-wahnsinn-100.html",
+    "https://www.spiegel.de/wirtschaft/amazon-ver-di-ruft-am-black-friday-an-elf-standorten-zum-streik-auf-a-244aa9b2-39a8-4bad-97f2-a1d3c44bc4dd#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/handel/verdi-ruft-zu-streiks-bei-amazon-am-black-friday-auf-a-ec30cc60-b5e5-448d-982c-3aab87043cf3#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/banken/black-friday-die-heiklen-lockangebote-der-sparkassen-zum-black-friday-a-dfcea6bb-7ad4-4d4f-a84d-9be10aff17c7#ref=rss",
+    "https://www.heise.de/bestenlisten/deals/e-bike-und-e-scooter-angebote-zum-black-friday-echte-rabatte-bis-23-prozent/pf2d6ps?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 18,
+   "text": "Der Black‑Friday hat sich von einem einzelnen Aktions‑Tag zu einer mehrwöchigen „Black‑Weeks‑“Phase entwickelt, in der Verbraucher gezielt auf Rabatte warten. Händler erhöhen dadurch das Umsatzvolumen, aber die verlängerten Preisnachlässe belasten die Margen und erhöhen die Logistikkosten.",
+   "positiv": [
+    "Einzelhandel",
+    "E‑Commerce",
+    "Consumer‑Discretionary (Umsatz)"
+   ],
+   "negativ": [
+    "Einzelhandel (Marge)",
+    "Logistik",
+    "Lieferketten"
+   ]
+  },
+  {
+   "id": "d3c1c776",
+   "titel": "SpaceX darf eine Million Satelliten für KI-Rechenzentren ins All schicken",
+   "anriss": "SpaceX plant im All ein Netz aus Satelliten, die als Rechenzentren dienen sollen. Die US-Behörden haben das Vorhaben nun erlaubt. Ziel ist es, die enorme Nachfrage nach Rechenleistung für Künstliche Intelligenz zu befriedigen.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "heise",
+    "manager magazin"
+   ],
+   "anzahl": 5,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/unternehmen/spacex-eine-million-satelliten-100.html",
+    "https://www.faz.net/aktuell/wirtschaft/starmind-was-hinter-den-plaenen-von-spacex-fuer-rechenzentren-im-all-steckt-accg-201719903.html",
+    "https://www.manager-magazin.de/unternehmen/tech/spacex-genehmigung-fuer-bis-zu-eine-million-ki-satelliten-im-all-a-da002296-add9-4a0d-93a3-7b9fc96c5c04#ref=rss",
+    "https://www.heise.de/news/Starterlaubnis-fuer-eine-Million-SpaceX-Satelliten-Bereitet-mir-Bauchschmerzen-11539365.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+    "https://www.heise.de/news/Donnerstag-Datenabfluss-bei-1Password-1-Million-Rechenzentren-im-All-erlaubt-11538479.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
+   ],
+   "punkte": 18,
+   "text": "SpaceX hat von den US‑Behörden die Genehmigung erhalten, ein Netzwerk von bis zu einer Million Satelliten zu starten, die als KI‑Rechenzentren im Orbit dienen sollen. Das eröffnet neue Einnahmequellen für die Raumfahrt‑ und Satelliten‑Industrie, birgt jedoch regulatorische und wettbewerbsbezogene Risiken für traditionelle terrestrische Rechenzentren.",
+   "positiv": [
+    "Raumfahrt‑ und Satellitenhersteller",
+    "Cloud‑ und KI‑Dienstleister (zusätzliche Rechenkapazität)"
+   ],
+   "negativ": [
+    "Terrestrische Rechenzentrumsbetreiber",
+    "Regulatorisches Risiko"
+   ]
+  },
+  {
+   "id": "37f36d67",
+   "titel": "Viele offene Fragen bei Chipkonzern Nvidia",
+   "anriss": "Jensen Huang steht wieder an der Spitze von Nvidia - und die Tech-Welt scheint wieder in Ordnung. Aber das kurzlebige Ausscheiden des Mitgründers hat Fragen aufgeworfen - und viele davon bleiben erst mal offen. Von Antje Sieb.",
+   "region": "dach",
+   "quellen": [
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft",
+    "heise",
+    "manager magazin"
+   ],
+   "anzahl": 5,
+   "links": [
     "https://www.tagesschau.de/wirtschaft/unternehmen/nvidia-offene-fragen-100.html",
-    "https://www.spiegel.de/wirtschaft/donald-trump-und-nvidia-ceo-jensen-huang-der-oekonomische-american-dream-ist-am-ende-a-2e49fbe0-f898-410b-bf08-f077bc0fde4e#ref=rss",
-    "https://www.spiegel.de/wirtschaft/unternehmen/nvidia-jensen-huang-entschuldigt-sich-bei-belegschaft-und-spricht-ueber-seine-therapie-a-b5286ad4-9ebb-4aa8-b004-d1825b9f262e#ref=rss"
+    "https://www.spiegel.de/wirtschaft/jensen-huang-was-genau-hat-der-nvidia-chef-falsch-gemacht-a-557707a4-35ac-4f45-aeda-32058f3e1b9b#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/tech/nvidia-pentagon-erwog-kriegsgesetz-fuer-rueckkehr-von-jensen-huang-a-4c3ebe97-a269-46e8-87be-d0d8c518036a#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/tech/nvidia-justizministerium-soll-nie-gegen-jensen-huang-ermittelt-haben-a-2fc61c6d-053f-4c61-b81a-e0d7b3530251#ref=rss",
+    "https://www.heise.de/news/heiseshow-Jensen-ist-zurueck-Ladybird-Browser-GTA-6-11538152.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
    ],
-   "punkte": 24,
-   "text": "Die US-Börsen schlossen uneinheitlich, wobei die Technologiewerte weiter unter Druck standen und Nvidia besonders stark fiel. Präsident Biden unterstützt den Nvidia‑CEO, doch die Kursverluste halten an, und Donald Trump erwägt sogar eine staatliche Beteiligung am Unternehmen.",
-   "positiv": [],
-   "negativ": [
-    "Nvidia-Aktie (↓)",
-    "US-Tech-Aktien (↓)"
-   ]
-  },
-  {
-   "id": "3f6bee64",
-   "titel": "Deutsche Industrie: Wo es hakt und wo es rund läuft",
-   "anriss": "Die Aussichten für die Wirtschaft haben sich zuletzt verbessert. Doch es gibt große Unterschiede: Während in manchen Branchen Firmen ums Überleben kämpfen, läuft das Geschäft anderswo prächtig. Ein Überblick von Axel John.",
-   "region": "dach",
-   "quellen": [
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft"
-   ],
-   "anzahl": 6,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/konjunktur/wirtschaftswachstum-branchen-100.html",
-    "https://www.tagesschau.de/wirtschaft/konjunktur/bip-deutschland-wirtschaftsleistung-100.html",
-    "https://www.tagesschau.de/wirtschaft/weltwirtschaft/steinmeier-deutsch-afrikanischer-wirtschaftsgipfel-100.html",
-    "https://www.tagesschau.de/video/video-1689964.html",
-    "https://www.tagesschau.de/multimedia/sendung/tagesschau24/boerselive/video-1689580.html"
-   ],
-   "punkte": 16,
-   "text": "Die aktuelle Lage der deutschen Industrie ist stark fragmentiert: In einigen Branchen kämpfen Unternehmen ums Überleben, während andere von einer verbesserten Auftragslage profitieren. Insgesamt haben sich die Wirtschaftsaussichten leicht verbessert, jedoch bleibt die Situation branchenspezifisch unterschiedlich.",
+   "punkte": 18,
+   "text": "Nvidia bleibt trotz des kurzfristigen Ausscheidens eines Mitgründers ein zentraler Akteur im KI‑ und GPU‑Markt, wobei Jensen Huang wieder an der Spitze steht. Die offene Frage nach der langfristigen Unternehmensführung erzeugt jedoch Unsicherheit bei Investoren und kann zu erhöhter Volatilität führen.",
    "positiv": [
-    "Branchen mit Auftragszuwachs (↑)"
+    "Nvidia (KI‑ und GPU‑Nachfrage)"
    ],
    "negativ": [
-    "Krisenbetroffene Branchen (↓)"
+    "Nvidia (Governance‑Risiko)",
+    "Marktvolatilität"
    ]
   },
   {
-   "id": "66bda957",
-   "titel": "Beige Book: US-Wirtschaft wächst laut Notenbank-Bericht leicht bis moderat",
-   "anriss": "Im Konjunkturbericht Beige Book der Fed heißt es, zugleich bleibe die Inflation hartnäckig. Die Notenbanker zeigen sich zunehmend besorgt über die Teuerung.",
-   "region": "dach",
+   "id": "1276b95c",
+   "titel": "The Information Content of News Embeddings",
+   "anriss": "arXiv:2611.33458v1 Announce Type: new Abstract: Does the predictive success of news embeddings reflect a better measure of news surprises or other sources of return predictability in text? We decompose news embeddings by content into event-category, firm-identity, and idiosyncratic components, and b",
+   "region": "global",
    "quellen": [
-    "Handelsblatt Finanzen"
+    "arXiv q-fin"
    ],
-   "anzahl": 2,
+   "anzahl": 16,
    "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/konjunktur-us-wirtschaft-waechst-laut-notenbank-bericht-leicht-bis-moderat/100272820.html",
-    "https://www.handelsblatt.com/finanzen/geldpolitik/us-konjunktur-inflationsmass-in-den-usa-steigt-weiter/100272700.html"
+    "https://arxiv.org/abs/2611.33458",
+    "https://arxiv.org/abs/2611.33584",
+    "https://arxiv.org/abs/2611.33603",
+    "https://arxiv.org/abs/2611.34099",
+    "https://arxiv.org/abs/2611.33593"
    ],
-   "punkte": 16,
-   "text": "Das Beige Book der Federal Reserve berichtet von einem leichten bis moderaten Wachstum der US‑Wirtschaft, was das konjunkturelle Umfeld positiv stützt. Gleichzeitig bleibt die Inflation hartnäckig, was die Sorge der Notenbanker über steigende Preise verstärkt.",
+   "punkte": 18,
+   "text": "Ein neues arXiv‑Papier untersucht, ob News‑Embeddings tatsächlich überraschende Informationen für die Renditevorhersage liefern oder lediglich andere Rückkehr‑Prädiktoren widerspiegeln. Die Ergebnisse könnten die Bewertung von NLP‑basierten Quant‑Strategien beeinflussen, bleiben jedoch vorerst theoretisch und haben keine unmittelbare Marktauswirkung.",
    "positiv": [
-    "US-Wirtschaftswachstum (↑)"
+    "FinTech‑ und Quant‑Fonds (NLP‑Analyse)",
+    "Daten‑Provider für Nachrichten"
    ],
    "negativ": [
-    "Inflation (↑)",
-    "Anleihen mit festem Kupon (↓)"
+    "Marktteilnehmer (Unsicherheit über Nutzen von News‑Embeddings)"
    ]
   },
   {
-   "id": "c428fc4a",
-   "titel": "USA kündigen neue Zölle an - auch gegen EU und China",
-   "anriss": "Die USA haben neue Sonderzölle gegen die EU und weitere Handelspartner angekündigt. Für betroffene EU-Produkte ist ein Zollsatz von 15 Prozent vorgesehen, auf chinesische Waren soll eine Abgabe von 20 Prozent fällig werden.",
-   "region": "dach",
-   "quellen": [
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.tagesschau.de/ausland/amerika/usa-zoelle-124.html",
-    "https://www.spiegel.de/wirtschaft/us-zoelle-welche-folgen-donald-trumps-neue-strafmassnahmen-fuer-die-eu-haben-a-e8098dd8-1e2e-4161-bd76-0310a466a835#ref=rss",
-    "https://www.spiegel.de/wirtschaft/usa-planen-neue-zoelle-gegen-eu-china-und-13-weitere-handelspartner-a-7ef83cdc-c400-43be-afd1-e5ab1a246e7d#ref=rss",
-    "https://www.manager-magazin.de/politik/weltwirtschaft/usa-planen-zollerhoehungen-gegen-china-und-andere-laender-a-65feadc9-996e-4b58-b155-470a8da9f0a5#ref=rss"
-   ],
-   "punkte": 14,
-   "text": "Die USA haben neue Sonderzölle von 15 % auf ausgewählte EU‑Produkte und 20 % auf chinesische Waren angekündigt, was die Exportkosten für diese Regionen erhöht. Für US-Hersteller können die Maßnahmen zu einer verbesserten Wettbewerbsposition führen.",
-   "positiv": [
-    "US-Hersteller (↑)"
-   ],
-   "negativ": [
-    "EU-Exportprodukte (↓)",
-    "Chinesische Exportwaren (↓)"
-   ]
-  },
-  {
-   "id": "7280fe3e",
-   "titel": "Flixtrain-Tickets bald auch bei Deutscher Bahn buchbar",
-   "anriss": "Zugreisende können demnächst auch Tickets für den Wettbewerber Flixtrain auf der Buchungsplattform der Deutschen Bahn buchen. Das vereinfacht den Ticketkauf erheblich - einige Hürden bleiben aber bestehen.",
-   "region": "dach",
-   "quellen": [
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/unternehmen/flixtrain-deutsche-bahn-ticketverkauf-100.html",
-    "https://www.spiegel.de/wirtschaft/unternehmen/deutsche-bahn-streit-ueber-provisionen-bahn-erzielt-teilerfolg-vor-gericht-a-695a6d76-519f-43df-b9b2-887a0a2739d0#ref=rss",
-    "https://www.spiegel.de/wirtschaft/service/deutsche-bahn-und-flixtrain-verkaufen-bald-gemeinsam-tickets-a-e776561d-f14e-4697-aa9e-5cf7315f0ffa#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/mobilitaet/deutsche-bahn-konzern-verkauft-demnaechst-tickets-fuer-flixtrain-a-be2b71f4-020e-4401-b078-656c8e462e4a#ref=rss"
-   ],
-   "punkte": 14,
-   "text": "Zugreisende können demnächst auch Tickets für den Wettbewerber Flixtrain auf der Buchungsplattform der Deutschen Bahn buchen. Das vereinfacht den Ticketkauf erheblich - einige Hürden bleiben aber bestehen.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "600a3c6c",
-   "titel": "Geldanlage: Aktien, Anleihen, ETFs, Optionen: So klappt es mit dem Nebenverdienst ohne Arbeit",
-   "anriss": "Nichts tun und das Geld fließt trotzdem: Damit die Verheißung vom passiven Einkommen wahr werden kann, gilt es, häufige Fehler zu vermeiden – und sich von einer Illusion zu verabschieden.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.handelsblatt.com/finanzen/anlagestrategie/geldanlage-so-bauen-sie-schritt-fuer-schritt-ihr-passives-einkommen-auf/100188789.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/anleihen/geldanlage-ist-jetzt-eine-gute-zeit-fuer-anleihen-frau-gomez-bravo/100270186.html",
-    "https://www.handelsblatt.com/finanzen/anlagestrategie/fonds-etf/geldanlage-wie-diese-fehler-etf-sparern-jedes-jahr-viel-geld-kosten/100154021.html",
-    "https://www.handelsblatt.com/finanzen/maerkte/aktien/geldanlage-warum-diese-150-jahre-alte-boersengrafik-anleger-aufhorchen-laesst/100189715.html"
-   ],
-   "punkte": 14,
-   "text": "Nichts tun und das Geld fließt trotzdem: Damit die Verheißung vom passiven Einkommen wahr werden kann, gilt es, häufige Fehler zu vermeiden – und sich von einer Illusion zu verabschieden.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "59e7ab00",
-   "titel": "Börsen: Die Furcht vor einem KI-Crash will nicht weichen: Was kann die Angst der Anleger jetzt stoppen?",
-   "anriss": "Die US-Börsen haben ihre hohen Anfangsverluste am Mittwoch weitgehend aufgeholt. Nicht nur neue Zolldrohungen und die Aussicht auf höhere Zinsen belasten die Anleger.",
+   "id": "40d578b1",
+   "titel": "Unicredit: Orcel will Aufsichtsratschef der Commerzbank werden und Vorstände rasch austauschen",
+   "anriss": "Unicredit hat alle Genehmigungen für die Übernahme der Commerzbank und will neun Aufsichtsratsmitglieder austauschen. Auch im Vorstand wollen die Italiener schnell Fakten schaffen.",
    "region": "dach",
    "quellen": [
     "Handelsblatt Finanzen",
     "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft"
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/banken-versicherungen/unicredit-orcel-will-aufsichtsratschef-der-commerzbank-werden/100272891.html",
+    "https://www.tagesschau.de/wirtschaft/unternehmen/unicredit-commerzbank-hauptversammlung-100.html",
+    "https://www.spiegel.de/wirtschaft/unternehmen/unicredit-ist-bei-commerzbank-am-ziel-und-will-schnell-personal-austauschen-a-ca320f98-a8ad-4687-a3e5-e6930ac6ff09#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/banken/commerzbank-uebernahme-unicredit-fordert-ausserordentliche-hauptversammlung-a-79aa66b7-7211-4592-b6f2-2a3f1e196d4e#ref=rss"
+   ],
+   "punkte": 17,
+   "text": "Unicredit hat alle Genehmigungen für die Übernahme der Commerzbank und will neun Aufsichtsratsmitglieder austauschen. Auch im Vorstand wollen die Italiener schnell Fakten schaffen.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "8a41389f",
+   "titel": "Dax aktuell: Dax folgt Erholung an der Wall Street und notiert im Plus",
+   "anriss": "Nachlassende Zollsorgen bescheren der deutschen Börse Gewinne. Der Leitindex schafft es wieder über die Marke von 25.000 Punkten. Anleger greifen bei zuletzt stark gefallenen Aktien zu.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "manager magazin"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-folgt-erholung-an-der-wall-street-und-notiert-im-plus/100272884.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-und-boerse-aktuell-sieben-punkte-die-fuer-anleger-heute-wichtig-sind/100002161.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-auf-tiefstem-stand-seit-ende-juni/100272589.html",
+    "https://www.manager-magazin.de/finanzen/boerse/boerse-dax-folgt-us-boersen-ins-plus-techwerte-legen-am-morgen-zu-a-e5047cd6-9222-4d1b-972c-8e3b4e785156#ref=rss"
+   ],
+   "punkte": 15,
+   "text": "Nachlassende Zollsorgen bescheren der deutschen Börse Gewinne. Der Leitindex schafft es wieder über die Marke von 25.000 Punkten. Anleger greifen bei zuletzt stark gefallenen Aktien zu.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "82d3a66f",
+   "titel": "Künstliche Intelligenz: Trotz Tech-Ausverkauf – Michael Burry setzt vor allem auf Kursanstiege",
+   "anriss": "Lange wettete Investor Michael Burry gegen den Boom von Künstlicher Intelligenz. Nun setzt er vorwiegend auf steigende Kurse der Branche – zumindest vorerst.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "Tagesschau Wirtschaft",
+    "manager magazin"
    ],
    "anzahl": 3,
    "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/boersen-die-angst-vor-einem-ki-crash-haelt-an/100272767.html",
+    "https://www.handelsblatt.com/finanzen/maerkte/aktien/tech-ausverkauf-michael-burry-setzt-staerker-auf-kursanstiege-bei-ki/100272955.html",
     "https://www.tagesschau.de/wirtschaft/technologie/nvidia-rueckkehr-huang-boersen-100.html",
-    "https://www.spiegel.de/wirtschaft/ki-ausverkauf-und-neue-zoelle-zollplaene-belasten-us-boersen-a-cf9db6a8-f3a2-4e85-9fd9-f448c9cf168f#ref=rss"
+    "https://www.manager-magazin.de/karriere/kuenstliche-intelligenz-wie-ki-rollen-und-verantwortlichkeiten-veraendert-a-08fac4c1-3494-4979-9c33-653abe8d77d9#ref=rss"
    ],
    "punkte": 13,
-   "text": "Die US-Börsen haben ihre hohen Anfangsverluste am Mittwoch weitgehend aufgeholt. Nicht nur neue Zolldrohungen und die Aussicht auf höhere Zinsen belasten die Anleger.",
+   "text": "Lange wettete Investor Michael Burry gegen den Boom von Künstlicher Intelligenz. Nun setzt er vorwiegend auf steigende Kurse der Branche – zumindest vorerst.",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "7640e1f4",
-   "titel": "EZB: Im Euro-Raum wird erstmals mehr mit Karte als in bar bezahlt",
-   "anriss": "Verbraucher bezahlen in Geschäften zunehmend mit Karte oder Smartphone. Laut EZB entfielen 2026 erstmals mehr Transaktionen auf Karten als auf Scheine und Münzen.",
+   "id": "a7b84100",
+   "titel": "Geldpolitik: Pablo Hernández de Cos wird neuer Chef der Europäischen Zentralbank",
+   "anriss": "Der Spanier wechselt von der Bank für Internationalen Zahlungsausgleich an die EZB-Spitze. Damit verbunden sind weitere wichtige Personalentscheidungen.",
    "region": "dach",
    "quellen": [
     "Handelsblatt Finanzen",
     "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft"
+    "manager magazin"
    ],
    "anzahl": 3,
    "links": [
-    "https://www.handelsblatt.com/finanzen/ezb-kartenzahlungen-ueberholen-erstmals-bargeld-im-euro-raum/100272418.html",
-    "https://www.tagesschau.de/wirtschaft/verbraucher/ezb-zahlungsverhalten-bargeld-kartenzahlung-100.html",
-    "https://www.spiegel.de/wirtschaft/service/befragung-der-ezb-kartenzahlung-ueberholt-erstmals-bargeld-in-geschaeften-a-c4d64b3b-ca8d-4c98-a329-8564cf224ba7#ref=rss"
+    "https://www.handelsblatt.com/finanzen/geldpolitik/ezb-pablo-hernandez-de-cos-wird-neuer-chef-der-notenbank/100272970.html",
+    "https://www.spiegel.de/wirtschaft/ezb-spanier-pablo-hernandez-de-cos-soll-nachfolger-von-christine-lagarde-werden-a-9cbee37b-5d10-4e23-8cd8-6bb207ea6809#ref=rss",
+    "https://www.manager-magazin.de/politik/ezb-pablo-hernandez-de-cos-wird-chef-der-ezb-a-a8e4a4af-bd07-4604-bca6-f0f998935d50#ref=rss"
    ],
    "punkte": 13,
-   "text": "Verbraucher bezahlen in Geschäften zunehmend mit Karte oder Smartphone. Laut EZB entfielen 2026 erstmals mehr Transaktionen auf Karten als auf Scheine und Münzen.",
+   "text": "Der Spanier wechselt von der Bank für Internationalen Zahlungsausgleich an die EZB-Spitze. Damit verbunden sind weitere wichtige Personalentscheidungen.",
    "positiv": [],
    "negativ": []
   }
  ],
  "ketten": [],
  "gegenthese": {
-  "konsens": "US-Wirtschaft wächst leicht, Inflation bleibt moderat, Fed‑Politik stabil; Aktienmarkt bleibt trotz KI‑Bedenken robust, Risiko durch neue Zölle und Nvidia‑Schwäche.",
-  "gegen": "Neue Zölle, anhaltende KI‑Volatilität und schwacher Nvidia‑Ausblick könnten das Wachstum bremsen und die Marktstimmung stark belasten."
+  "konsens": "Derzeit gehen die Märkte von einer moderaten Erholung aus, getrieben von US‑Rallye, DAX‑Zuwachs, und erwarten, dass die EZB‑Führung stabil bleibt; KI‑ und Chip‑Risiken bleiben begrenzt.",
+  "gegen": "Gegenargument: Anhaltende Unsicherheiten bei KI‑Regulierung, Chip‑Nachfrage und geopolitischen Spannungen könnten die Erholung schnell abbrechen."
  },
  "matrix": [
   {
@@ -391,11 +407,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "95.7 Mrd"
+     "100.2 Mrd"
     ],
     [
      "KGV (erw.)",
-     "12,7"
+     "13,3"
     ],
     [
      "Umsatzwachstum",
@@ -413,7 +429,7 @@
     ],
     [
      "Newsletter",
-     "nicht erwaehnt"
+     "in 1 Clustern"
     ],
     [
      "Reddit",
@@ -428,9 +444,13 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "Starkes Umsatzwachstum von +23 % und ein moderates erwartetes KGV von 13,3 deuten auf attraktives Bewertungs‑ und Wachstumspotenzial hin. Die Analysten‑Stimmungsübersicht ist überwiegend positiv (22 Buy, 4 Hold, 2 Sell). Keine bekannten Short‑Positionen und ein breites Segmentportfolio reduzieren das Risiko.",
+   "dagegen": "Trotz positiver Kennzahlen gibt es Bedenken: Das Unternehmen bleibt abhängig von der Siemens‑Gamesa‑Wind‑Spitze, die in der Vergangenheit mit Lieferverzögerungen kämpfte. Zwei Analysten empfehlen Verkauf, was auf Unsicherheiten bei der Umsetzung neuer Projekte hindeuten kann. Reddit‑Nennung ist kaum vorhanden, was das Interesse der Retail‑Community widerspiegelt.",
+   "katalysatoren": [
+    "Abschluss großer Gas‑ und Dampfturbinen‑Aufträge im dritten Quartal 2024",
+    "Markteinführung neuer digitaler Services für Grid‑Technologien",
+    "Lieferungen und Inbetriebnahme von Siemens‑Gamesa‑Offshore‑Windanlagen mit verbesserter Auslastung"
+   ]
   },
   "RHM.DE": {
    "ticker": "RHM.DE",
@@ -440,11 +460,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "34.3 Mrd"
+     "35.8 Mrd"
     ],
     [
      "KGV (erw.)",
-     "14,9"
+     "15,7"
     ],
     [
      "Umsatzwachstum",
@@ -452,7 +472,7 @@
     ],
     [
      "Kursziel",
-     "1296 EUR"
+     "1283 EUR"
     ]
    ],
    "quellen": [
@@ -477,12 +497,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Starkes Umsatzwachstum von +36 % und ein moderates KGV von 14,9 deuten auf attraktive Bewertung hin. Die Mehrheit der Analysten (17 Käufe) signalisiert Vertrauen. Die diversifizierten Segmente Vehicle Systems, Weapon & Ammunition sowie Electronic Solutions profitieren von steigenden Verteidigungsausgaben weltweit.",
-   "dagegen": "Abhängigkeit von staatlichen Rüstungsetats macht das Unternehmen konjunkturell empfindlich. Politische Entscheidungen oder Budgetkürzungen könnten Aufträge reduzieren. Das Fehlen von Insider-Transaktionen und Shorts lässt keine Marktstimmung erkennen. Geringe Diskussion in Reddit weist auf begrenztes Retail-Interesse hin.",
+   "dafuer": "Rheinmetall verzeichnet ein starkes Umsatzwachstum von +36 % und ein moderates forward KGV von 15,7, was im Vergleich zur Branche attraktiv erscheint. Die Analystenmeinung ist überwiegend positiv (17 Buy, 5 Hold, 0 Sell) und es gibt keinen bekannten Short‑Pressure.",
+   "dagegen": "Die Bewertung könnte im Kontext hoher Verteidigungsbudgets überbewertet sein; das Unternehmen ist stark von staatlichen Aufträgen abhängig, was bei politischen Änderungen Risiken birgt. Zudem gibt es kaum ergänzende Meinungen aus Newslettern, Reddit oder Insider‑Quellen, was die Informationsbasis dünn macht.",
    "katalysatoren": [
     "Q3‑2024 Ergebnisveröffentlichung mit erwarteter Fortsetzung des Umsatzwachstums",
-    "Zuteilung neuer Rüstungsaufträge, z. B. für Panzer oder gepanzerte Fahrzeuge in Deutschland",
-    "Markteinführung von elektronischen Verteidigungslösungen für unbemannte Systeme"
+    "Auftragseingang für neue Fahrzeug‑ und Panzerprogramme (z. B. Leopard‑2‑Modernisierung)",
+    "Fortschritt bei Elektronik‑Solutions, insbesondere Vergabe von Luftverteidigungs‑Aufträgen"
    ]
   },
   "ASML.AS": {
@@ -493,11 +513,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "436.1 Mrd"
+     "450.6 Mrd"
     ],
     [
      "KGV (erw.)",
-     "20,1"
+     "20,7"
     ],
     [
      "Umsatzwachstum",
@@ -530,12 +550,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die überwältigende Analysten‑Stimmung (38 Buy, 2 Hold, 1 Sell) spiegelt ASMLs Marktführerschaft im EUV‑Lithografie‑Segment wider. Das Unternehmen verzeichnet ein Umsatzwachstum von +55 % und ein KGV von 20,1, was im Vergleich zum Branchen‑Durchschnitt attraktiv erscheint.",
-   "dagegen": "Trotz starkem Wachstum bleibt die Bewertung hoch; ein KGV von 20,1 ist im Kontext erwarteter künftiger Margensteigerungen kritisch. Die Abhängigkeit von wenigen Großkunden erhöht das Konzentrationsrisiko, und ein einzelner negativer Analysten‑Rating widerspricht der breiten Kauf‑Stimmung.",
+   "dafuer": "ASML verzeichnet ein starkes Umsatzwachstum von +55 % und ein KGV von 20,7, was im Vergleich zur Branche moderat erscheint. Die Analystenmeinung ist eindeutig positiv (38 Buy, 2 Hold, 1 Sell). Marktführer im EUV‑Segment sichert langfristige Nachfrage.",
+   "dagegen": "Die Bewertung bleibt hoch, und das Unternehmen ist stark von der konjunkturellen Entwicklung der Halbleitermärkte abhängig. Lieferkettenengpässe oder Verzögerungen bei Kundeninvestitionen könnten das Wachstum bremsen. Es gibt keine Insider‑Transaktionen, was die Transparenz nicht erhöht.",
    "katalysatoren": [
-    "In‑Series‑Start des High‑NA EUV‑Systems (geplant für 2025) erhöht die Technologieführerschaft.",
-    "Langfristige Lieferverträge mit TSMC und Samsung sichern Auftragsvolumen.",
-    "Erholung der weltweiten Chip‑Nachfrage, insbesondere im Automobil‑ und KI‑Bereich."
+    "Q4‑2024 Ergebnisveröffentlichung mit Fokus auf Umsatz‑ und Margenentwicklung",
+    "Markteinführung des nächsten High‑NA‑EUV‑Systems",
+    "Abschluss neuer Großaufträge von TSMC, Samsung oder Intel"
    ]
   },
   "SU.PA": {
@@ -546,11 +566,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "127.3 Mrd"
+     "129.2 Mrd"
     ],
     [
      "KGV (erw.)",
-     "17,2"
+     "17,5"
     ],
     [
      "Umsatzwachstum",
@@ -568,7 +588,7 @@
     ],
     [
      "Newsletter",
-     "in 14 Clustern"
+     "in 15 Clustern"
     ],
     [
      "Reddit",
@@ -599,7 +619,7 @@
     ],
     [
      "KGV (erw.)",
-     "27,6"
+     "27,3"
     ],
     [
      "Umsatzwachstum",
@@ -632,13 +652,9 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Dafür spricht die überwältigende Analystenmeinung (32 Kauf‑Empfehlungen, 5 Halte, keine Verkäufe), ein starkes Umsatzwachstum von +27 % und ein breites Segmentportfolio (Power, Wind, Electrification), das von globaler Energiewende profitiert. Das Kurs‑Gewinn‑Verhältnis von 27,6 liegt im Branchendurchschnitt, das Kursziel von 1.148 USD signalisiert weiteres Aufwärtspotenzial.",
-   "dagegen": "Dagegen stehen vier Insider‑Verkäufe, was auf mögliche Bedenken im Management hindeutet, sowie die kaum vorhandene Diskussion in Reddit und das Fehlen von Newsletter‑Analysen, was die Informationsbasis dünn macht. Das KGV von 27,6 könnte im Vergleich zu traditionellen Energieunternehmen überbewertet sein, und die Integration der Segmente birgt operative Risiken.",
-   "katalysatoren": [
-    "Q3‑2025 Ergebnisveröffentlichung",
-    "Ausgabe neuer Windkraftaufträge in Europa",
-    "Regulatorische Förderprogramme für Energiespeicher in den USA"
-   ]
+   "dafuer": "",
+   "dagegen": "",
+   "katalysatoren": []
   },
   "CCJ": {
    "ticker": "CCJ",
@@ -678,7 +694,7 @@
     ],
     [
      "Insider",
-     "0 Kaeufe / 0 Verkaeufe"
+     "keine Meldungen"
     ],
     [
      "Shorts",
@@ -1171,6 +1187,6 @@
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 151,
+ "meldungen_gesamt": 174,
  "llm_aktiv": false
 }
