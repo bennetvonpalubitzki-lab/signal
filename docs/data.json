@@ -1,9 +1,9 @@
 {
- "stand": "2026-11-27T17:02",
- "lauf": "2026112717",
+ "stand": "2026-11-28T01:43",
+ "lauf": "2026112801",
  "synthese": {
-  "kern": "Spannung entsteht durch gleichzeitig wachsende Reform‑ und Technologiedebatten, die Markt‑Risiko‑Appetit unterschätzen.",
-  "erlaeuterung": "Die Meldungen verbinden zentrale politische Entscheidungen – von der EZB‑Leitung über Arbeits‑ und Rentenreformen bis zu KI‑ und Chip‑Regulierung – mit Unternehmens‑ und Branchenentwicklungen. Der Markt fokussiert hauptsächlich Zins‑ und Inflationsdaten, vernachlässigt jedoch die kumulative Wirkung dieser strukturellen Veränderungen auf Risiko‑ und Liquiditätspräferenzen."
+  "kern": "Markt fokussiert auf Unternehmens‑ und Tarifnachrichten, übersieht steigenden geopolitischen Risiko‑ und Liquiditätsdruck.",
+  "erlaeuterung": "Während US‑ und EU‑Zinsdruck hoch bleibt, drängen geopolitische Spannungen und sinkende Liquidität die Risikobereitschaft nach unten. Die positiven Kursentwicklungen an den Börsen verkennen diese strukturellen Belastungen, die das Marktumfeld langfristig belasten könnten."
  },
  "regime": [
   {
@@ -11,7 +11,7 @@
    "fenster": "5J",
    "spuren": {
     "us": {
-     "wert": 80,
+     "wert": 79,
      "delta": 0
     },
     "eur": {
@@ -19,7 +19,7 @@
      "delta": -5
     }
    },
-   "differenz": 9
+   "differenz": 10
   },
   {
    "name": "wachstum",
@@ -40,19 +40,19 @@
      "delta": 0
     },
     "eur": {
-     "wert": 75,
-     "delta": -3
+     "wert": 76,
+     "delta": -2
     }
    },
-   "differenz": 9
+   "differenz": 10
   },
   {
    "name": "risikoappetit",
    "fenster": "5J",
    "spuren": {
     "glob": {
-     "wert": 10,
-     "delta": 4
+     "wert": 11,
+     "delta": 7
     }
    }
   },
@@ -62,7 +62,7 @@
    "spuren": {
     "us": {
      "wert": 44,
-     "delta": -2
+     "delta": 0
     },
     "eur": {
      "wert": 4,
@@ -84,29 +84,6 @@
  ],
  "cluster": [
   {
-   "id": "d92db74c",
-   "titel": "Wofür steht der designierte EZB-Präsident Pablo Hernández de Cos?",
-   "anriss": "Der Spanier Pablo Hernández de Cos bringt viel geldpolitische Erfahrung mit. Welcher Kurs ist von dem 55-Jährigen Ökonomen zu erwarten, wenn er an die Spitze der Europäischen Zentralbank rückt?",
-   "region": "dach",
-   "quellen": [
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 5,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/konjunktur/nachfolger-ezb-de-cos-portrait-100.html",
-    "https://www.tagesschau.de/wirtschaft/finanzen/neuer-ezb-chef-de-cos-geldpolitik-100.html",
-    "https://www.tagesschau.de/wirtschaft/ezb-chef-de-cos-100.html",
-    "https://www.spiegel.de/wirtschaft/ezb-spanier-pablo-hernandez-de-cos-soll-nachfolger-von-christine-lagarde-werden-a-9cbee37b-5d10-4e23-8cd8-6bb207ea6809#ref=rss",
-    "https://www.manager-magazin.de/politik/europa/kuenftiger-ezb-chef-pablo-hernandez-de-cos-bekommt-dieser-mann-die-inflation-in-den-griff-a-a776980f-4d2e-406e-83ec-e1060525e7cf#ref=rss"
-   ],
-   "punkte": 20,
-   "text": "Pablo Hernández de Cos, 55‑jähriger Ökonom, wurde zum designierten Präsidenten der Europäischen Zentralbank ernannt. Er bringt langjährige geldpolitische Erfahrung mit, doch seine konkrete Ausrichtung für die künftige Zins‑ und Inflationspolitik ist bislang nicht eindeutig kommuniziert.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
    "id": "08f495dd",
    "titel": "Einigung im Tarifstreit der Metall- und Elektroindustrie",
    "anriss": "Die Beschäftigten in der Metall- und Elektroindustrie sollen in zwei Stufen insgesamt 4,3 Prozent mehr Lohn erhalten. Darauf haben sich Arbeitgeber und IG Metall geeinigt. Der Pilotabschluss ermöglicht aber auch Ausnahmen.",
@@ -117,22 +94,21 @@
     "Tagesschau Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 5,
+   "anzahl": 6,
    "links": [
     "https://www.tagesschau.de/wirtschaft/tarifabschluss-metall-elektroindustrie-100.html",
     "https://www.spiegel.de/wirtschaft/tarifabschluss-in-der-metall-und-elektroindustrie-das-herz-der-deutschen-wirtschaft-schlaegt-noch-a-866a0dba-a8ab-471b-bdc7-ace99989afb2#ref=rss",
     "https://www.spiegel.de/wirtschaft/ig-metall-und-arbeitgeber-einigen-sich-in-tarifstreit-a-152b7f28-1470-44a8-9958-c6fe9db5d584#ref=rss",
     "https://www.faz.net/aktuell/wirtschaft/tarifeinigung-in-der-metallindustrie-die-mitarbeiter-in-die-pflicht-nehmen-201722276.html",
-    "https://www.manager-magazin.de/unternehmen/industrie/tarifeinigung-in-der-metall-und-elektroindustrie-a-d2ef2c58-39bc-4a89-a36f-1ea35bd0fb1c#ref=rss"
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/christiane-benner-verteidigt-die-35-stunden-woche-der-ig-metall-201722993.html"
    ],
-   "punkte": 18,
-   "text": "Arbeitgeber und IG Metall haben im Tarifstreit der Metall‑ und Elektroindustrie eine Lohnsteigerung von insgesamt 4,3 % in zwei Stufen vereinbart. Die höheren Lohnkosten belasten die Unternehmen, während die Beschäftigten von einem realen Einkommenszuwachs profitieren.",
+   "punkte": 20,
+   "text": "Arbeitgeber und IG Metall haben sich auf eine zweistufige Lohnerhöhung von insgesamt 4,3 % für die Beschäftigten der Metall‑ und Elektroindustrie geeinigt. Die Maßnahme erhöht die Kaufkraft der Beschäftigten, belastet jedoch die Kostenstruktur der betroffenen Unternehmen.",
    "positiv": [
-    "Metall‑ und Elektroindustrie – Beschäftigte"
+    "Konsumgüter‑ und Einzelhandelsaktien (steigende Nachfrage)"
    ],
    "negativ": [
-    "Metall‑ und Elektroindustrie – Unternehmen",
-    "Branchenaktien wegen steigender Kosten"
+    "Metall‑ und Elektroindustrie‑Aktien (Kostensteigerung)"
    ]
   },
   {
@@ -154,14 +130,34 @@
     "https://www.manager-magazin.de/unternehmen/tech/kreise-sap-erwaegt-abbau-von-rund-10-prozent-aller-stellen-a-815f754c-c751-4119-9fc5-9383d029928c#ref=rss"
    ],
    "punkte": 16,
-   "text": "Der Software‑Konzern SAP prüft laut Medienberichten den Abbau von tausenden Stellen, wobei die Automatisierung durch Künstliche Intelligenz als treibende Kraft genannt wird. Der Stellenabbau könnte kurzfristig zu höheren Arbeitslosenzahlen führen, langfristig jedoch die Kostenstruktur des Unternehmens verbessern.",
+   "text": "Medienberichten zufolge plant SAP den Abbau von mehreren tausend Stellen, wobei die Automatisierung durch Künstliche Intelligenz als ein Treiber genannt wird. Der Stellenabbau könnte das operative Ergebnis kurzfristig belasten, während KI‑Dienstleister von der Umstrukturierung profitieren könnten.",
    "positiv": [
-    "SAP‑Aktie – potenzielle Kostenreduktion"
+    "KI‑ und Cloud‑Dienstleister (nachfragebedingte Aufwärtsdynamik)"
    ],
    "negativ": [
-    "SAP‑Mitarbeiter",
-    "IT‑Dienstleistungssektor – Beschäftigungsrisiko"
+    "SAP‑Aktie (potenzielle Gewinnwarnung)"
    ]
+  },
+  {
+   "id": "d92db74c",
+   "titel": "Wofür steht der designierte EZB-Präsident Pablo Hernández de Cos?",
+   "anriss": "Der Spanier Pablo Hernández de Cos bringt viel geldpolitische Erfahrung mit. Welcher Kurs ist von dem 55-Jährigen Ökonomen zu erwarten, wenn er an die Spitze der Europäischen Zentralbank rückt?",
+   "region": "dach",
+   "quellen": [
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
+   "anzahl": 4,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/konjunktur/nachfolger-ezb-de-cos-portrait-100.html",
+    "https://www.tagesschau.de/wirtschaft/finanzen/neuer-ezb-chef-de-cos-geldpolitik-100.html",
+    "https://www.tagesschau.de/wirtschaft/ezb-chef-de-cos-100.html",
+    "https://www.manager-magazin.de/politik/europa/kuenftiger-ezb-chef-pablo-hernandez-de-cos-bekommt-dieser-mann-die-inflation-in-den-griff-a-a776980f-4d2e-406e-83ec-e1060525e7cf#ref=rss"
+   ],
+   "punkte": 16,
+   "text": "Pablo Hernández de Cos, ein erfahrener Geldpolitiker, ist designierter Präsident der Europäischen Zentralbank; konkrete geldpolitische Vorgaben seiner Amtszeit sind jedoch noch nicht bekannt. Aufgrund der geringen Faktenlage lässt sich keine klare Richtung für Zins‑ oder Marktbewegungen ableiten.",
+   "positiv": [],
+   "negativ": []
   },
   {
    "id": "671c52a5",
@@ -173,20 +169,20 @@
     "SPIEGEL Wirtschaft",
     "Tagesschau Wirtschaft"
    ],
-   "anzahl": 5,
+   "anzahl": 4,
    "links": [
     "https://www.tagesschau.de/ausland/europa/eu-haushalt-vorzeitig-beendet-100.html",
-    "https://www.tagesschau.de/ausland/europa/slowakei-blockiert-eu-haushalt-100.html",
     "https://www.spiegel.de/wirtschaft/eu-gipfel-wie-der-milliarden-streit-ueber-das-budget-im-chaos-versank-a-2a5848d7-950e-4ab5-8faa-f2ea66bc9d62#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/eu-haushalt-das-scheitern-des-sondergipfels-wirft-zweifel-auf-accg-201721661.html",
-    "https://www.faz.net/aktuell/wirtschaft/eu-gipfel-mit-merz-und-macron-scheitern-nach-plan-201722832.html"
+    "https://www.faz.net/aktuell/wirtschaft/eu-gipfel-mit-merz-und-macron-scheitern-nach-plan-201722832.html",
+    "https://www.faz.net/aktuell/wirtschaft/eu-haushalt-das-scheitern-des-sondergipfels-wirft-zweifel-auf-accg-201721661.html"
    ],
-   "punkte": 16,
-   "text": "Bundesinnenminister Merz hat das vorzeitige Ende des EU‑Sondergipfels erklärt, weil die 27 Staats‑ und Regierungschefs zu stark divergierende Vorstellungen über ein mehrmilliardenschweres Finanzpaket hatten. Die fehlende Einigung lässt die erwarteten EU‑Fonds‑Zahlungen ungewiss und erhöht die politische Unsicherheit.",
-   "positiv": [],
+   "punkte": 14,
+   "text": "Bundesinnenminister Friedrich Merz hat das vorzeitige Ende des EU‑Sondergipfels angekündigt, weil die Staats‑ und Regierungschefs keine Einigung über mehrere Milliarden Euro an Fördermitteln erzielen konnten. Das Fehlen einer Zusage kann die Finanzierung von Infrastruktur‑ und Klimaprojekten in der EU schwächen, während fiskalisch konservative Marktteilnehmer von geringeren Ausgaben profitieren könnten.",
+   "positiv": [
+    "Fiskal‑konservative Anleihen‑ und Geldmarkt‑Positionen (weniger Ausgaben)"
+   ],
    "negativ": [
-    "EU‑Finanzierungsprojekte – Unsicherheit",
-    "Marktteilnehmer – erhöhte Risikoaversion"
+    "EU‑infrastruktur‑ und Erneuerbare‑Energie‑Unternehmen (Finanzierungsunsicherheit)"
    ]
   },
   {
@@ -203,7 +199,7 @@
     "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/banken-unicredit-erwaegt-aufstockung-von-anteil-an-generali/100273371.html",
     "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/commerzbank-bundesregierung-stellt-sich-hinter-orcels-plaene-fuer-den-aufsichtsrat/100273270.html",
     "https://www.manager-magazin.de/unternehmen/banken/commerzbank-das-sind-die-personalplaene-von-unicredit-boss-griff-zur-macht-a-14aba68c-8f62-4113-ae09-91141287e537#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/banken/commerzbank-uebernahme-unicredit-fordert-ausserordentliche-hauptversammlung-a-79aa66b7-7211-4592-b6f2-2a3f1e196d4e#ref=rss"
+    "https://www.manager-magazin.de/unternehmen/banken/unicredit-andrea-orcel-erwaegt-offenbar-generali-anteil-aufzustocken-a-d936965f-dc03-41f9-8ecd-ff076d92f1a9#ref=rss"
    ],
    "punkte": 14,
    "text": "Nach dem Einstieg bei der Commerzbank nimmt UniCredit den italienischen Versicherer Generali stärker ins Visier. Die Beteiligung könnte auf bis zu 13,4 Prozent steigen.",
@@ -211,73 +207,74 @@
    "negativ": []
   },
   {
-   "id": "bb3fe391",
-   "titel": "Claude sabotaging ML research tasks?",
-   "anriss": "Article URL: https://twitter.com/RealAstropulse/status/2126119408997466389 Comments URL: https://news.ycombinator.com/item?id=50664325 Points: 249 # Comments: 142",
-   "region": "global",
-   "quellen": [
-    "Hacker News Top"
-   ],
-   "anzahl": 12,
-   "links": [
-    "https://twitter.com/RealAstropulse/status/2126119408997466389",
-    "https://construct22.com/",
-    "https://www.buynothingday.co.uk/",
-    "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
-    "https://janlukas.blog/posts/ai-self-hosting"
-   ],
-   "punkte": 14,
-   "text": "Article URL: https://twitter.com/RealAstropulse/status/2126119408997466389 Comments URL: https://news.ycombinator.com/item?id=50664325 Points: 249 # Comments: 142",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "6198f49f",
-   "titel": "Bundesregierung will KI-Anbieter zur Kasse bitten",
-   "anriss": "KI-Anbieter sollen nach dem Willen der Bundesregierung künftig für die Erzeugung von Inhalten zahlen. Und zwar dann, wenn ihre Modelle Inhalte produzieren, die mit von Menschen geschaffenen Werken konkurrieren.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "heise"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/technologie/ki-urheberrecht-verguetung-100.html",
-    "https://www.faz.net/aktuell/wirtschaft/immobilien-wohnen/bauen-kaufen/baugenehmigungen-brechen-ein-schwerer-stand-fuer-verena-hubertz-201715044.html",
-    "https://www.heise.de/news/Bundesregierung-will-KI-Anbieter-zur-Kasse-bitten-11540057.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag"
-   ],
-   "punkte": 12,
-   "text": "KI-Anbieter sollen nach dem Willen der Bundesregierung künftig für die Erzeugung von Inhalten zahlen. Und zwar dann, wenn ihre Modelle Inhalte produzieren, die mit von Menschen geschaffenen Werken konkurrieren.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "bae067bd",
-   "titel": "Nvidia: Weitere Beziehung einer Führungskraft mit China-Bezug wirft Fragen auf",
-   "anriss": "Nvidia-Chef Huang stolperte über Affären, eine der Frauen soll eine chinesische Spionin sein. Das »Wall Street Journal« berichtet über eine weitere potenziell heikle Liaison aus dem Unternehmenskosmos.",
+   "id": "6623c2ed",
+   "titel": "Rheinmetall-Mitarbeiter in Kuwait durch Drohnenangriff getötet",
+   "anriss": "In Kuwait sind zwei Italiener getötet worden. Aus Rom heißt es, sie seien Mitarbeiter des deutschen Rüstungsunternehmens Rheinmetall gewesen.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
     "SPIEGEL Wirtschaft",
     "manager magazin"
    ],
+   "anzahl": 4,
+   "links": [
+    "https://www.spiegel.de/wirtschaft/unternehmen/rheinmetall-mitarbeiter-in-kuwait-durch-drohnenangriff-getoetet-a-c745dda3-d0ef-41cf-825e-3ee0e047e575#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/rheinmetall-senkt-ziele-armin-papperger-will-konservativer-planen-201723237.html",
+    "https://www.manager-magazin.de/unternehmen/industrie/rheinmetall-zerbombte-aktie-steigt-nach-gekappten-zielen-keine-prognose-fuer-2027-a-07ae3a70-e38c-43ef-b972-f3a64f2994b7#ref=rss",
+    "https://www.manager-magazin.de/unternehmen/handel/rheinmetall-zwei-techniker-bei-drohnenangriff-in-kuwait-getoetet-a-e2b8f41f-d945-4f80-a2fa-21ce48f733ea#ref=rss"
+   ],
+   "punkte": 14,
+   "text": "In Kuwait sind zwei Italiener getötet worden. Aus Rom heißt es, sie seien Mitarbeiter des deutschen Rüstungsunternehmens Rheinmetall gewesen.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "309bb356",
+   "titel": "Dax aktuell: Dax beendet die Woche im Plus – „Black Friday“ verläuft ruhig",
+   "anriss": "Die Erholung an den Märkten setzt sich am „Black Friday“ weiter fort. Unterstützung kommt dabei aus Asien und von den US‑Börsen. Anleger greifen bei hiesigen Tech-Aktien zu.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "Tagesschau Wirtschaft",
+    "manager magazin"
+   ],
    "anzahl": 3,
    "links": [
-    "https://www.spiegel.de/wirtschaft/unternehmen/nvidia-auch-diese-beziehung-einer-fuehrungskraft-wirft-fragen-auf-womoeglich-verbindungen-nach-china-a-7f83f64a-dd44-44b2-abdb-b3ece72cd6fb#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/nvidia-wird-zum-familienbetrieb-plant-jensen-huang-seine-nachfolge-accg-201717897.html",
-    "https://www.manager-magazin.de/unternehmen/tech/jensen-huang-wird-der-nvidia-chef-nach-seiner-rueckkehr-seinen-fuehrungsstil-aendern-a-507b0c07-351d-4021-9a9f-95e32f0e4350#ref=rss"
+    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-beendet-die-woche-im-plus-black-friday-verlaeuft-ruhig/100273204.html",
+    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-geldanlage-176.html",
+    "https://www.manager-magazin.de/finanzen/boerse/boerse-dax-mit-gewinnen-sap-aktie-im-minus-a-e4108963-38bc-4cce-9d31-61799fb21e59#ref=rss"
+   ],
+   "punkte": 13,
+   "text": "Die Erholung an den Märkten setzt sich am „Black Friday“ weiter fort. Unterstützung kommt dabei aus Asien und von den US‑Börsen. Anleger greifen bei hiesigen Tech-Aktien zu.",
+   "positiv": [],
+   "negativ": []
+  },
+  {
+   "id": "ab6b34a1",
+   "titel": "Arbeitslosenzahl sinkt im November nur leicht - wenig Herbstbelebung",
+   "anriss": "Für die deutsche Wirtschaft sah es zuletzt wieder etwas besser aus. Doch die übliche Belebung des Arbeitsmarktes im Herbst ist größtenteils ausgeblieben. Auch im November ging die Zahl der Arbeitslosen nur leicht zurück.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "SPIEGEL Wirtschaft",
+    "Tagesschau Wirtschaft"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/arbeitslosenzahlen-november-108.html",
+    "https://www.spiegel.de/wirtschaft/arbeitsmarkt-herbstkonjunktur-kann-abwaertstrend-nicht-bremsen-a-1e340c77-d333-4766-b96e-ab7f1d5a2976#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/bundesarbeitsagentur-schulden-von-zehn-milliarden-und-trueber-arbeitsmarkt-201723118.html"
    ],
    "punkte": 12,
-   "text": "Nvidia-Chef Huang stolperte über Affären, eine der Frauen soll eine chinesische Spionin sein. Das »Wall Street Journal« berichtet über eine weitere potenziell heikle Liaison aus dem Unternehmenskosmos.",
+   "text": "Für die deutsche Wirtschaft sah es zuletzt wieder etwas besser aus. Doch die übliche Belebung des Arbeitsmarktes im Herbst ist größtenteils ausgeblieben. Auch im November ging die Zahl der Arbeitslosen nur leicht zurück.",
    "positiv": [],
    "negativ": []
   }
  ],
  "ketten": [],
  "gegenthese": {
-  "konsens": "Derzeit herrscht ein leicht negativer Konsens: Europäische Aktien, besonders Banken und Industrie, werden durch die EZB‑Leitung, Tarifstreit, Stellenabbau bei SAP und geopolitische Risiken belastet.",
-  "gegen": "Gegenargument: Fundamentale Stärke der Unternehmen, robuste Geldpolitik und mögliche fiskalische Unterstützung könnten die kurzfristigen Belastungen neutralisieren."
+  "konsens": "Tarifabschluss stärkt Nachfrage, SAP‑Restrukturierung belastet Gewinn, Hernández de Cos gilt als inflationsorientierter EZB‑Präsident, Merz‑Gipfelende wird als politisches Signal gesehen, Unicredit‑Generali‑Aufstockung als strategisch, Rheinmetall‑Risiko geopolitisch, DAX‑Stabilität, Arbeitsmarkt‑schwäche bleibt.",
+  "gegen": "Die Tarifrunde könnte kaum Lohnsteigerungen bringen, weil Inflationsanpassungen bereits eingepreist sind; SAP‑Stellenabbau könnte weniger tief sein; EZB‑Präsident könnte geldpolitisch flexibler sein; geopolitische Risiken bleiben unterschätzt."
  },
  "matrix": [
   {
@@ -431,12 +428,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Analysten sehen mit 22 Kaufempfehlungen und einem KGV von 13,4 ein attraktives Bewertungsniveau. Das Umsatzwachstum von +23 % und die starke Marktposition in Gas‑ und Dampfturbinen sowie im Grid‑Geschäft unterstützen die Erwartung steigender Erträge.",
-   "dagegen": "Risiken bestehen in der Integration nach der Ausgliederung, der Abhängigkeit von volatilen Gas‑Turbinen‑Märkten und hohen Investitionskosten im Wind‑Segment. Fehlende Insider‑Transaktionen und das Fehlen von Short‑Positionen können auf geringe Marktüberzeugung hindeuten.",
+   "dafuer": "Analysten sehen Siemens Energy klar positiv (22 Kauf‑Empfehlungen). Das erwartete Umsatzwachstum von 23 % und ein moderates KGV von 13,4 deuten auf Bewertungsattraktivität hin. Die diversifizierten Segmente – Gas Services, Grid Technologies, Industrie‑Transformation und Siemens Gamesa – bieten mehrere Wachstumstreiber.",
+   "dagegen": "Gegenseite betont Risiken: Abhängigkeit von konjunkturellen Schwankungen im Energiesektor, mögliche Lieferverzögerungen bei Windturbinen und hohe Verschuldung belasten die Bilanz. Geringe Retail‑Aufmerksamkeit (kaum Reddit‑Erwähnungen) und spärliche Newsletter‑Berichterstattung könnten Informationsdefizite signalisieren.",
    "katalysatoren": [
-    "Q4‑Ergebnisveröffentlichung mit aktualisierter Gewinn‑ und Margenprognose",
-    "Auslieferung und Inbetriebnahme neuer Siemens‑Gamesa‑Windturbinenmodelle",
-    "Bekanntgabe größerer Wasserstoff‑ bzw. Elektrolyseur‑Aufträge"
+    "Q3‑Ergebnisbericht (voraussichtlich im Oktober)",
+    "Auslieferung des ersten 15‑MW‑Offshore‑Windkraftwerks in Deutschland",
+    "Vertrag für digitale Grid‑Lösungen mit einem europäischen Netzbetreiber"
    ]
   },
   "RHM.DE": {
@@ -459,7 +456,7 @@
     ],
     [
      "Kursziel",
-     "1283 EUR"
+     "1278 EUR"
     ]
    ],
    "quellen": [
@@ -484,12 +481,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die Analystenmehrheit (17 Kauf, 5 Halten) sieht in Rheinmetall ein profitables Wachstum: Umsatz +36 % und ein moderates KGV von 16,2 deuten auf attraktive Bewertung hin. Das breit diversifizierte Portfolio in Fahrzeugsysteme, Waffen und Elektronik sowie die globale Präsenz stärken das Geschäftsmodell.",
-   "dagegen": "Risiken bestehen in der starken Abhängigkeit von staatlichen Rüstungsetats und geopolitischen Schwankungen, die Auftragsvolumen beeinflussen können. Hohe F&E‑Kosten und mögliche Lieferkettenengpässe belasten die Marge. Die Informationslage ist dünn: kaum Reddit‑Diskussion, keine Insider‑Meldungen und keine Short‑Positionen, was die Marktmeinung untermauert.",
+   "dafuer": "Rheinmetall profitiert von steigenden Verteidigungsausgaben in Deutschland und Europa, was das Auftragsvolumen im Vehicle‑Systems‑ und Weapon‑Segments erhöht. Das Unternehmen weist ein Umsatzwachstum von 36 % auf und ein erwartetes KGV von 16,2, das im Branchenvergleich moderat erscheint. Analysten bewerten die Aktie überwiegend positiv (17 Buy, 5 Hold).",
+   "dagegen": "Gegen die Aktie sprechen die hohe Abhängigkeit von staatlichen Rüstungsetats, deren politische Änderungen das Ergebnis stark beeinflussen können. Die Bewertung bleibt trotz moderatem KGV relativ hoch, und das Unternehmen ist anfällig für Lieferketten‑ und Rohstoffpreis‑Schwankungen. Kurzfristig fehlt ein klarer Wachstumstreiber außerhalb des Verteidigungssektors.",
    "katalysatoren": [
-    "Veröffentlichung des deutschen Bundeswehr‑Beschaffungsplans 2025",
-    "Quartalsbericht Q4 2024 mit Auftragsbestand‑Update",
-    "Vertragserweiterungen mit US‑Verteidigungsbehörden"
+    "Veröffentlichung des Quartalsberichts Q4 2025",
+    "Vertrag über die Lieferung von 200 Schützenpanzern an die Bundeswehr",
+    "Erhöhung des deutschen Verteidigungsbudgets 2026"
    ]
   },
   "ASML.AS": {
@@ -537,9 +534,13 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "Die Analystenmehrheit (38 Kauf‑Empfehlungen) spricht für ASML. Das Unternehmen verzeichnet ein starkes Umsatzwachstum von +55 % und profitiert von der unverzichtbaren Rolle seiner EUV‑Lithografie in der Chip‑Industrie. Das Kursziel von 2.096 € reflektiert optimistische Erwartungen.",
+   "dagegen": "Gegenargumente: Das Unternehmen ist stark von der konjunkturellen Entwicklung der Halbleitermärkte abhängig, was zu Volatilität führen kann. Das KGV von 21,2 erscheint im Vergleich zu historischen Werten hoch, und die Konzentration auf EUV‑Technologie birgt technologische und kapazitive Risiken.",
+   "katalysatoren": [
+    "Q3‑2024 Ergebnisveröffentlichung mit Fokus auf Umsatz‑ und Margenentwicklung",
+    "Markteinführung des nächsten High‑NA EUV‑Systems",
+    "Großaufträge von Schlüssel­kunden (z. B. TSMC, Samsung) oder staatliche Förderungen für Chip‑Fabriken"
+   ]
   },
   "SU.PA": {
    "ticker": "SU.PA",
@@ -571,7 +572,7 @@
     ],
     [
      "Newsletter",
-     "in 10 Clustern"
+     "in 12 Clustern"
     ],
     [
      "Reddit",
@@ -598,11 +599,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "195.1 Mrd"
+     "194.6 Mrd"
     ],
     [
      "KGV (erw.)",
-     "28,5"
+     "28,4"
     ],
     [
      "Umsatzwachstum",
@@ -647,11 +648,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "27.7 Mrd"
+     "27.9 Mrd"
     ],
     [
      "KGV (erw.)",
-     "38,0"
+     "38,2"
     ],
     [
      "Umsatzwachstum",
@@ -696,7 +697,7 @@
    "kpi": [
     [
      "Marktkap.",
-     "72.5 Mrd"
+     "72.9 Mrd"
     ],
     [
      "KGV (erw.)",
@@ -745,11 +746,11 @@
    "kpi": [
     [
      "Marktkap.",
-     "3.589.7 Mrd"
+     "3.633.9 Mrd"
     ],
     [
      "KGV (erw.)",
-     "9,0"
+     "9,1"
     ],
     [
      "Umsatzwachstum",
@@ -790,44 +791,17 @@
  "shorts": [
   {
    "land": "NL",
-   "halter": "SIH Partners LLLP",
-   "emittent": "Signify N.V.",
-   "prozent": 0.89,
+   "halter": "Millennium International Management LP",
+   "emittent": "DSM-Firmenich AG",
+   "prozent": 0.6,
    "datum": "",
    "status": "neu",
    "zuvor": null
   },
   {
    "land": "NL",
-   "halter": "Two Sigma Investments, LP",
-   "emittent": "Pharming Group N.V.",
-   "prozent": 0.85,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "Actus Ray Partners Limited",
-   "emittent": "NSI N.V.",
-   "prozent": 0.64,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "AQR Capital Management, LLC",
-   "emittent": "IMCD N.V.",
-   "prozent": 0.5,
-   "datum": "",
-   "status": "neu",
-   "zuvor": null
-  },
-  {
-   "land": "NL",
-   "halter": "AQR Capital Management, LLC",
-   "emittent": "SBM Offshore N.V.",
+   "halter": "Millennium International Management LP",
+   "emittent": "TomTom N.V.",
    "prozent": 0.5,
    "datum": "",
    "status": "neu",
@@ -1057,10 +1031,37 @@
    "datum": "2019-06-12",
    "status": "aufgestockt",
    "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 14.08,
+   "datum": "2019-06-11",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "Asia Research & Capital Management Ltd",
+   "emittent": "Premier Oil PLC",
+   "prozent": 13.82,
+   "datum": "2019-06-10",
+   "status": "aufgestockt",
+   "zuvor": 0.53
+  },
+  {
+   "land": "UK",
+   "halter": "GUEVOURA FUND LTD",
+   "emittent": "HAMMERSON PLC",
+   "prozent": 13.78,
+   "datum": "2020-09-24",
+   "status": "aufgestockt",
+   "zuvor": 0.57
   }
  ],
  "shorts_kennzahlen": {
-  "neu_diese_woche": 5,
+  "neu_diese_woche": 2,
   "meistgeshortet": {
    "name": "Premier Oil PLC",
    "summe": 2145.63
@@ -1170,6 +1171,6 @@
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 167,
+ "meldungen_gesamt": 148,
  "llm_aktiv": false
 }
