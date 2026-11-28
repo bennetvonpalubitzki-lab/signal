@@ -1,9 +1,9 @@
 {
- "stand": "2026-11-28T01:43",
- "lauf": "2026112801",
+ "stand": "2026-11-28T15:53",
+ "lauf": "2026112815",
  "synthese": {
-  "kern": "Markt fokussiert auf Unternehmens‑ und Tarifnachrichten, übersieht steigenden geopolitischen Risiko‑ und Liquiditätsdruck.",
-  "erlaeuterung": "Während US‑ und EU‑Zinsdruck hoch bleibt, drängen geopolitische Spannungen und sinkende Liquidität die Risikobereitschaft nach unten. Die positiven Kursentwicklungen an den Börsen verkennen diese strukturellen Belastungen, die das Marktumfeld langfristig belasten könnten."
+  "kern": "Politische und unternehmerische Entscheidungen erhöhen Unsicherheit, während Markt die sinkende Inflation überbewertet.",
+  "erlaeuterung": "Der Bundeshaushalt, SAP‑Stellenabbau und regulatorische M&A‑Entscheidungen verdeutlichen steigenden politischen und strukturellen Druck. Gleichzeitig vernachlässigt der Markt die anhaltende Liquiditätsknappheit und das geopolitische Risiko, das die Risikoappetit‑Bewertung niedrig hält."
  },
  "regime": [
   {
@@ -40,11 +40,11 @@
      "delta": 0
     },
     "eur": {
-     "wert": 76,
-     "delta": -2
+     "wert": 80,
+     "delta": 2
     }
    },
-   "differenz": 10
+   "differenz": 14
   },
   {
    "name": "risikoappetit",
@@ -84,31 +84,109 @@
  ],
  "cluster": [
   {
-   "id": "08f495dd",
-   "titel": "Einigung im Tarifstreit der Metall- und Elektroindustrie",
-   "anriss": "Die Beschäftigten in der Metall- und Elektroindustrie sollen in zwei Stufen insgesamt 4,3 Prozent mehr Lohn erhalten. Darauf haben sich Arbeitgeber und IG Metall geeinigt. Der Pilotabschluss ermöglicht aber auch Ausnahmen.",
+   "id": "2dc063b7",
+   "titel": "Bundeshaushalt 2027: Diese Grafiken zeigen, wohin Ihr Steuergeld fließt",
+   "anriss": "Der Haushalt 2027 ist beschlossen, es ist der größte in der Geschichte der Bundesrepublik. Sehen Sie hier, wo der Staat wie viel Geld ausgibt – und wo die Tücken für die Zukunft liegen.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
+    "SPIEGEL Wirtschaft"
    ],
-   "anzahl": 6,
+   "anzahl": 5,
    "links": [
-    "https://www.tagesschau.de/wirtschaft/tarifabschluss-metall-elektroindustrie-100.html",
-    "https://www.spiegel.de/wirtschaft/tarifabschluss-in-der-metall-und-elektroindustrie-das-herz-der-deutschen-wirtschaft-schlaegt-noch-a-866a0dba-a8ab-471b-bdc7-ace99989afb2#ref=rss",
-    "https://www.spiegel.de/wirtschaft/ig-metall-und-arbeitgeber-einigen-sich-in-tarifstreit-a-152b7f28-1470-44a8-9958-c6fe9db5d584#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/tarifeinigung-in-der-metallindustrie-die-mitarbeiter-in-die-pflicht-nehmen-201722276.html",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/christiane-benner-verteidigt-die-35-stunden-woche-der-ig-metall-201722993.html"
+    "https://www.spiegel.de/wirtschaft/service/bundeshaushalt-2027-diese-vier-grafiken-zeigen-wohin-ihr-steuergeld-fliesst-a-a443d60d-a93e-4300-bae9-f4bcd3d9c995#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/ein-schoener-haushalt-fuer-friedrich-merz-201721059.html",
+    "https://www.faz.net/aktuell/wirtschaft/rekordschulden-und-ein-schwacher-ausblick-ein-haushalt-der-negativrekorde-201722642.html",
+    "https://www.faz.net/aktuell/wirtschaft/eu-gipfel-mit-merz-und-macron-scheitern-nach-plan-201722832.html",
+    "https://www.faz.net/aktuell/wirtschaft/eu-haushalt-das-scheitern-des-sondergipfels-wirft-zweifel-auf-accg-201721661.html"
    ],
-   "punkte": 20,
-   "text": "Arbeitgeber und IG Metall haben sich auf eine zweistufige Lohnerhöhung von insgesamt 4,3 % für die Beschäftigten der Metall‑ und Elektroindustrie geeinigt. Die Maßnahme erhöht die Kaufkraft der Beschäftigten, belastet jedoch die Kostenstruktur der betroffenen Unternehmen.",
+   "punkte": 14,
+   "text": "Der Bundeshaushalt 2027 ist mit rund 590 Mrd. € der größte je beschlossene Haushalt und sieht deutlich höhere Ausgaben für Verteidigung, Digitalisierung und soziale Sicherung vor. Gleichzeitig erhöht sich die Netto‑Schuldenquote, was langfristig die fiskalische Tragfähigkeit belastet.",
    "positiv": [
-    "Konsumgüter‑ und Einzelhandelsaktien (steigende Nachfrage)"
+    "Verteidigungsindustrie",
+    "Digitalisierungs‑ und IT‑Dienstleister"
    ],
    "negativ": [
-    "Metall‑ und Elektroindustrie‑Aktien (Kostensteigerung)"
+    "Staatsanleihen (höhere Renditeerwartungen)",
+    "Sozialausgaben (Budgetdruck)"
+   ]
+  },
+  {
+   "id": "b7d32172",
+   "titel": "Immobilien: Was die Bundesbaugesellschaft für Käufer und Mieter bedeutet",
+   "anriss": "Mit einer neuen staatlichen Wohnungsbaugesellschaft will die Bundesregierung 2027 an den Start gehen. Die Idee hat mehrere Vorteile – und mindestens zwei Haken.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "Handelsblatt Finanzen",
+    "Tagesschau Wirtschaft"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/immobilien/immobilien-was-die-bundesbaugesellschaft-fuer-kaeufer-und-mieter-bedeutet/100270518.html",
+    "https://www.tagesschau.de/wirtschaft/technologie/ki-urheberrecht-verguetung-100.html",
+    "https://www.faz.net/aktuell/wirtschaft/immobilien-wohnen/bauen-kaufen/baugenehmigungen-brechen-ein-schwerer-stand-fuer-verena-hubertz-201715044.html"
+   ],
+   "punkte": 13,
+   "text": "Die neu gegründete Bundesbaugesellschaft soll mit staatlicher Förderung den Bau von Mietwohnungen beschleunigen und damit das Wohnungsangebot für private Haushalte erhöhen. Kritiker sehen jedoch das Risiko von Marktverzerrungen und einer möglichen Belastung des Staatshaushalts durch fehlende Kostendeckung.",
+   "positiv": [
+    "Wohnungsbau‑ und Bauunternehmen",
+    "Mieter"
+   ],
+   "negativ": [
+    "Private Vermieter (Wettbewerbsdruck)",
+    "Staatsfinanzen (Kostenrisiko)"
+   ]
+  },
+  {
+   "id": "ac5c27e6",
+   "titel": "Märkte: EU erlaubt Deutscher Börse Milliarden-Übernahme von Allfunds",
+   "anriss": "Mit der größten Übernahme der Firmengeschichte baut die Deutsche Börse ihre Fondsgeschäfte deutlich aus. Die EU-Kommission hat keine Bedenken für den Wettbewerb.",
+   "region": "dach",
+   "quellen": [
+    "FAZ Wirtschaft",
+    "Handelsblatt Finanzen",
+    "SPIEGEL Wirtschaft"
+   ],
+   "anzahl": 3,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/maerkte/maerkte-eu-erlaubt-deutscher-boerse-milliarden-uebernahme-von-allfunds/100273297.html",
+    "https://www.spiegel.de/wirtschaft/uber-sichert-sich-fast-90-prozent-der-anteile-von-delivery-hero-a-e3ce4aeb-2c38-4e99-9069-dc1159a62ca3#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/sennder-gruender-david-nothacker-forciert-den-einstieg-ins-softwaregeschaeft-accg-201683489.html"
+   ],
+   "punkte": 13,
+   "text": "Die EU‑Kommission hat die Milliarden‑Übernahme von Allfunds durch die Deutsche Börse genehmigt, wodurch das Unternehmen seine Position im Fonds‑Distributionsgeschäft stark ausbaut. Die Transaktion wird als wettbewerbsneutral bewertet, sodass keine unmittelbaren regulatorischen Hürden zu erwarten sind.",
+   "positiv": [
+    "Deutsche Börse (Aktienkurs)",
+    "Asset‑Management‑Dienstleister (Skaleneffekte)"
+   ],
+   "negativ": [
+    "Allfunds‑Mitarbeiter (Integrationsrisiko)"
+   ]
+  },
+  {
+   "id": "43b12294",
+   "titel": "Konjunktur: Inflation in Spanien und Frankreich lässt überraschend nach",
+   "anriss": "Gegen den Trend in Frankreich und Spanien dürfte die Inflation im gesamten Euroraum jedoch nicht sinken. Auch die Verbraucher heben ihre Inflationserwartungen deutlich an.",
+   "region": "dach",
+   "quellen": [
+    "Handelsblatt Finanzen",
+    "manager magazin"
+   ],
+   "anzahl": 2,
+   "links": [
+    "https://www.handelsblatt.com/finanzen/geldpolitik/konjunktur-inflation-in-spanien-und-frankreich-laesst-ueberraschend-nach/100273264.html",
+    "https://www.manager-magazin.de/politik/europa/frankreich-s-p-senkt-ausblick-fuer-bonitaet-auf-negativ-a-954c0cf8-3771-48b8-8497-473968be461e#ref=rss"
+   ],
+   "punkte": 13,
+   "text": "Die Inflationsrate in Spanien und Frankreich ist überraschend stark gesunken, während im übrigen Euroraum die Preisentwicklung kaum nachlässt und die privaten Inflationserwartungen anziehen. Diese Divergenz könnte die Geldpolitik der EZB vor neue Herausforderungen stellen und die Zinsdynamik differenzieren.",
+   "positiv": [
+    "Spanische und französische Staatsanleihen (Kursgewinne)",
+    "Aktienmärkte in Spanien/Frankreich"
+   ],
+   "negativ": [
+    "Euro‑Renditen (steigende Erwartung von Zinserhöhungen)",
+    "Verbrauchervertrauen (inflationsbedingte Unsicherheit)"
    ]
   },
   {
@@ -119,71 +197,37 @@
    "quellen": [
     "FAZ Wirtschaft",
     "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
+    "Tagesschau Wirtschaft"
    ],
-   "anzahl": 4,
+   "anzahl": 3,
    "links": [
     "https://www.tagesschau.de/wirtschaft/unternehmen/sap-stellenabbau-geplant-100.html",
     "https://www.spiegel.de/wirtschaft/sap-erwaegt-den-abbau-von-mehr-als-10-000-stellen-a-c4a7caff-a097-4ccb-867a-da1e469855fc#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/10-000-jobs-in-gefahr-sap-plant-stellenabbau-und-meldet-hackerangriff-accg-201723017.html",
-    "https://www.manager-magazin.de/unternehmen/tech/kreise-sap-erwaegt-abbau-von-rund-10-prozent-aller-stellen-a-815f754c-c751-4119-9fc5-9383d029928c#ref=rss"
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/sap-streicht-10-000-stellen-macht-ki-selbst-spezialisten-ueberfluessig-201723633.html"
    ],
-   "punkte": 16,
-   "text": "Medienberichten zufolge plant SAP den Abbau von mehreren tausend Stellen, wobei die Automatisierung durch Künstliche Intelligenz als ein Treiber genannt wird. Der Stellenabbau könnte das operative Ergebnis kurzfristig belasten, während KI‑Dienstleister von der Umstrukturierung profitieren könnten.",
-   "positiv": [
-    "KI‑ und Cloud‑Dienstleister (nachfragebedingte Aufwärtsdynamik)"
-   ],
-   "negativ": [
-    "SAP‑Aktie (potenzielle Gewinnwarnung)"
-   ]
-  },
-  {
-   "id": "d92db74c",
-   "titel": "Wofür steht der designierte EZB-Präsident Pablo Hernández de Cos?",
-   "anriss": "Der Spanier Pablo Hernández de Cos bringt viel geldpolitische Erfahrung mit. Welcher Kurs ist von dem 55-Jährigen Ökonomen zu erwarten, wenn er an die Spitze der Europäischen Zentralbank rückt?",
-   "region": "dach",
-   "quellen": [
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
-   "anzahl": 4,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/konjunktur/nachfolger-ezb-de-cos-portrait-100.html",
-    "https://www.tagesschau.de/wirtschaft/finanzen/neuer-ezb-chef-de-cos-geldpolitik-100.html",
-    "https://www.tagesschau.de/wirtschaft/ezb-chef-de-cos-100.html",
-    "https://www.manager-magazin.de/politik/europa/kuenftiger-ezb-chef-pablo-hernandez-de-cos-bekommt-dieser-mann-die-inflation-in-den-griff-a-a776980f-4d2e-406e-83ec-e1060525e7cf#ref=rss"
-   ],
-   "punkte": 16,
-   "text": "Pablo Hernández de Cos, ein erfahrener Geldpolitiker, ist designierter Präsident der Europäischen Zentralbank; konkrete geldpolitische Vorgaben seiner Amtszeit sind jedoch noch nicht bekannt. Aufgrund der geringen Faktenlage lässt sich keine klare Richtung für Zins‑ oder Marktbewegungen ableiten.",
+   "punkte": 12,
+   "text": "Der Software-Konzern SAP will Medienberichten zufolge Tausende Stellen streichen. Hintergrund soll auch die Automatisierung durch Künstliche Intelligenz sein.",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "671c52a5",
-   "titel": "Merz verkündet vorzeitiges Ende des EU-Sondergipfels",
-   "anriss": "Die Vorstellungen unter den 27 Staats- und Regierungschefs lagen weit auseinander. So weit, dass sie laut Merz den zweiten angesetzten Tag des Gipfels ausfallen lassen. Es geht um viele Milliarden für den EU-Haushalt.",
+   "id": "caad12b9",
+   "titel": "Kommentar: Hernández de Cos - ein EZB-Chef im Sinne Frankreichs",
+   "anriss": "Der neue EZB-Rat steht fest - eingefädelt durch Emmanuel Macron. Der künftige EZB-Präsident Pablo Hernández de Cos steht eher für eine lockere Geldpolitik. In Zeiten hoher Inflation sind Konflikte programmiert. Von Klaus-Rainer Jackisch.",
    "region": "dach",
    "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft"
+    "Tagesschau Wirtschaft",
+    "manager magazin"
    ],
-   "anzahl": 4,
+   "anzahl": 2,
    "links": [
-    "https://www.tagesschau.de/ausland/europa/eu-haushalt-vorzeitig-beendet-100.html",
-    "https://www.spiegel.de/wirtschaft/eu-gipfel-wie-der-milliarden-streit-ueber-das-budget-im-chaos-versank-a-2a5848d7-950e-4ab5-8faa-f2ea66bc9d62#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/eu-gipfel-mit-merz-und-macron-scheitern-nach-plan-201722832.html",
-    "https://www.faz.net/aktuell/wirtschaft/eu-haushalt-das-scheitern-des-sondergipfels-wirft-zweifel-auf-accg-201721661.html"
+    "https://www.tagesschau.de/wirtschaft/finanzen/neuer-ezb-chef-de-cos-geldpolitik-100.html",
+    "https://www.manager-magazin.de/politik/europa/kuenftiger-ezb-chef-pablo-hernandez-de-cos-bekommt-dieser-mann-die-inflation-in-den-griff-a-a776980f-4d2e-406e-83ec-e1060525e7cf#ref=rss"
    ],
-   "punkte": 14,
-   "text": "Bundesinnenminister Friedrich Merz hat das vorzeitige Ende des EU‑Sondergipfels angekündigt, weil die Staats‑ und Regierungschefs keine Einigung über mehrere Milliarden Euro an Fördermitteln erzielen konnten. Das Fehlen einer Zusage kann die Finanzierung von Infrastruktur‑ und Klimaprojekten in der EU schwächen, während fiskalisch konservative Marktteilnehmer von geringeren Ausgaben profitieren könnten.",
-   "positiv": [
-    "Fiskal‑konservative Anleihen‑ und Geldmarkt‑Positionen (weniger Ausgaben)"
-   ],
-   "negativ": [
-    "EU‑infrastruktur‑ und Erneuerbare‑Energie‑Unternehmen (Finanzierungsunsicherheit)"
-   ]
+   "punkte": 12,
+   "text": "Der neue EZB-Rat steht fest - eingefädelt durch Emmanuel Macron. Der künftige EZB-Präsident Pablo Hernández de Cos steht eher für eine lockere Geldpolitik. In Zeiten hoher Inflation sind Konflikte programmiert. Von Klaus",
+   "positiv": [],
+   "negativ": []
   },
   {
    "id": "9ba6fc16",
@@ -194,87 +238,43 @@
     "Handelsblatt Finanzen",
     "manager magazin"
    ],
-   "anzahl": 4,
+   "anzahl": 3,
    "links": [
     "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/banken-unicredit-erwaegt-aufstockung-von-anteil-an-generali/100273371.html",
     "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/commerzbank-bundesregierung-stellt-sich-hinter-orcels-plaene-fuer-den-aufsichtsrat/100273270.html",
-    "https://www.manager-magazin.de/unternehmen/banken/commerzbank-das-sind-die-personalplaene-von-unicredit-boss-griff-zur-macht-a-14aba68c-8f62-4113-ae09-91141287e537#ref=rss",
     "https://www.manager-magazin.de/unternehmen/banken/unicredit-andrea-orcel-erwaegt-offenbar-generali-anteil-aufzustocken-a-d936965f-dc03-41f9-8ecd-ff076d92f1a9#ref=rss"
    ],
-   "punkte": 14,
+   "punkte": 12,
    "text": "Nach dem Einstieg bei der Commerzbank nimmt UniCredit den italienischen Versicherer Generali stärker ins Visier. Die Beteiligung könnte auf bis zu 13,4 Prozent steigen.",
    "positiv": [],
    "negativ": []
   },
   {
-   "id": "6623c2ed",
-   "titel": "Rheinmetall-Mitarbeiter in Kuwait durch Drohnenangriff getötet",
-   "anriss": "In Kuwait sind zwei Italiener getötet worden. Aus Rom heißt es, sie seien Mitarbeiter des deutschen Rüstungsunternehmens Rheinmetall gewesen.",
+   "id": "a43fd89d",
+   "titel": "René Benko: Gericht korrigiert Strafe nach oben – nun drei Jahre Haft",
+   "anriss": "Die Prozessserie rund um den österreichischen Investor René Benko geht weiter. Nun hat das Oberlandesgericht Innsbruck die Strafe für ein Verfahren angepasst. Das sind schlechte Nachrichten für Benko.",
    "region": "dach",
    "quellen": [
     "FAZ Wirtschaft",
     "SPIEGEL Wirtschaft",
     "manager magazin"
    ],
-   "anzahl": 4,
-   "links": [
-    "https://www.spiegel.de/wirtschaft/unternehmen/rheinmetall-mitarbeiter-in-kuwait-durch-drohnenangriff-getoetet-a-c745dda3-d0ef-41cf-825e-3ee0e047e575#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/unternehmen/rheinmetall-senkt-ziele-armin-papperger-will-konservativer-planen-201723237.html",
-    "https://www.manager-magazin.de/unternehmen/industrie/rheinmetall-zerbombte-aktie-steigt-nach-gekappten-zielen-keine-prognose-fuer-2027-a-07ae3a70-e38c-43ef-b972-f3a64f2994b7#ref=rss",
-    "https://www.manager-magazin.de/unternehmen/handel/rheinmetall-zwei-techniker-bei-drohnenangriff-in-kuwait-getoetet-a-e2b8f41f-d945-4f80-a2fa-21ce48f733ea#ref=rss"
-   ],
-   "punkte": 14,
-   "text": "In Kuwait sind zwei Italiener getötet worden. Aus Rom heißt es, sie seien Mitarbeiter des deutschen Rüstungsunternehmens Rheinmetall gewesen.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "309bb356",
-   "titel": "Dax aktuell: Dax beendet die Woche im Plus – „Black Friday“ verläuft ruhig",
-   "anriss": "Die Erholung an den Märkten setzt sich am „Black Friday“ weiter fort. Unterstützung kommt dabei aus Asien und von den US‑Börsen. Anleger greifen bei hiesigen Tech-Aktien zu.",
-   "region": "dach",
-   "quellen": [
-    "Handelsblatt Finanzen",
-    "Tagesschau Wirtschaft",
-    "manager magazin"
-   ],
    "anzahl": 3,
    "links": [
-    "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-beendet-die-woche-im-plus-black-friday-verlaeuft-ruhig/100273204.html",
-    "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-geldanlage-176.html",
-    "https://www.manager-magazin.de/finanzen/boerse/boerse-dax-mit-gewinnen-sap-aktie-im-minus-a-e4108963-38bc-4cce-9d31-61799fb21e59#ref=rss"
-   ],
-   "punkte": 13,
-   "text": "Die Erholung an den Märkten setzt sich am „Black Friday“ weiter fort. Unterstützung kommt dabei aus Asien und von den US‑Börsen. Anleger greifen bei hiesigen Tech-Aktien zu.",
-   "positiv": [],
-   "negativ": []
-  },
-  {
-   "id": "ab6b34a1",
-   "titel": "Arbeitslosenzahl sinkt im November nur leicht - wenig Herbstbelebung",
-   "anriss": "Für die deutsche Wirtschaft sah es zuletzt wieder etwas besser aus. Doch die übliche Belebung des Arbeitsmarktes im Herbst ist größtenteils ausgeblieben. Auch im November ging die Zahl der Arbeitslosen nur leicht zurück.",
-   "region": "dach",
-   "quellen": [
-    "FAZ Wirtschaft",
-    "SPIEGEL Wirtschaft",
-    "Tagesschau Wirtschaft"
-   ],
-   "anzahl": 3,
-   "links": [
-    "https://www.tagesschau.de/wirtschaft/arbeitsmarkt/arbeitslosenzahlen-november-108.html",
-    "https://www.spiegel.de/wirtschaft/arbeitsmarkt-herbstkonjunktur-kann-abwaertstrend-nicht-bremsen-a-1e340c77-d333-4766-b96e-ab7f1d5a2976#ref=rss",
-    "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/bundesarbeitsagentur-schulden-von-zehn-milliarden-und-trueber-arbeitsmarkt-201723118.html"
+    "https://www.spiegel.de/wirtschaft/rene-benko-gericht-korrigiert-strafe-nach-oben-nun-drei-jahre-haft-a-59000352-3bb1-4756-8b55-40e0282cf651#ref=rss",
+    "https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-umweltminister-schneider-plaediert-fuer-umbau-des-rheins-faz-200452404.html",
+    "https://www.manager-magazin.de/unternehmen/industrie/rene-benko-weitere-zusatzstrafe-wegen-insolvenzbetrug-a-a2fe3846-5fad-445e-a25f-2bf61a8ec82a#ref=rss"
    ],
    "punkte": 12,
-   "text": "Für die deutsche Wirtschaft sah es zuletzt wieder etwas besser aus. Doch die übliche Belebung des Arbeitsmarktes im Herbst ist größtenteils ausgeblieben. Auch im November ging die Zahl der Arbeitslosen nur leicht zurück.",
+   "text": "Die Prozessserie rund um den österreichischen Investor René Benko geht weiter. Nun hat das Oberlandesgericht Innsbruck die Strafe für ein Verfahren angepasst. Das sind schlechte Nachrichten für Benko.",
    "positiv": [],
    "negativ": []
   }
  ],
  "ketten": [],
  "gegenthese": {
-  "konsens": "Tarifabschluss stärkt Nachfrage, SAP‑Restrukturierung belastet Gewinn, Hernández de Cos gilt als inflationsorientierter EZB‑Präsident, Merz‑Gipfelende wird als politisches Signal gesehen, Unicredit‑Generali‑Aufstockung als strategisch, Rheinmetall‑Risiko geopolitisch, DAX‑Stabilität, Arbeitsmarkt‑schwäche bleibt.",
-  "gegen": "Die Tarifrunde könnte kaum Lohnsteigerungen bringen, weil Inflationsanpassungen bereits eingepreist sind; SAP‑Stellenabbau könnte weniger tief sein; EZB‑Präsident könnte geldpolitisch flexibler sein; geopolitische Risiken bleiben unterschätzt."
+  "konsens": "Der Markt sieht die geplanten Ausgaben im Bundeshaushalt 2027, die Deutsche‑Börse‑Allfunds‑Akquisition und die SAP‑Umstrukturierung als weitgehend neutral bis leicht positiv, während die Inflationsrückgänge in Spanien/Frankreich die Konjunktur entlasten.",
+  "gegen": "Kritiker warnen vor steigender Staatsverschuldung, möglichen Überbewertungen bei Allfunds, sozialen Spannungen im Wohnungsmarkt und den Folgen von Massenentlassungen bei SAP, die das Vertrauen in die Wirtschaft schwächen könnten."
  },
  "matrix": [
   {
@@ -428,12 +428,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Analysten sehen Siemens Energy klar positiv (22 Kauf‑Empfehlungen). Das erwartete Umsatzwachstum von 23 % und ein moderates KGV von 13,4 deuten auf Bewertungsattraktivität hin. Die diversifizierten Segmente – Gas Services, Grid Technologies, Industrie‑Transformation und Siemens Gamesa – bieten mehrere Wachstumstreiber.",
-   "dagegen": "Gegenseite betont Risiken: Abhängigkeit von konjunkturellen Schwankungen im Energiesektor, mögliche Lieferverzögerungen bei Windturbinen und hohe Verschuldung belasten die Bilanz. Geringe Retail‑Aufmerksamkeit (kaum Reddit‑Erwähnungen) und spärliche Newsletter‑Berichterstattung könnten Informationsdefizite signalisieren.",
+   "dafuer": "Die Analystenmeinung ist eindeutig positiv (22 Kauf‑Empfehlungen, nur 2 Verkäufe). Das Unternehmen verzeichnet ein starkes Umsatzwachstum von 23 % und ein attraktives erwartetes KGV von 13,4. Die Diversifizierung über Gas‑Services, Netztechnologien und Siemens Gamesa bietet mehrere Wachstumstreiber.",
+   "dagegen": "Gegenstand der Kritik ist die starke Abhängigkeit von Gaskraftwerken, während die Energiewende den Gasverbrauch langfristig reduzieren könnte. Siemens Gamesa kämpft mit Lieferverzögerungen und Kostenüberschreitungen, was die Margen belastet. Fehlende Insider‑Transaktionen und kaum Reddit‑Präsenz deuten auf geringe Markt‑Aufmerksamkeit hin.",
    "katalysatoren": [
-    "Q3‑Ergebnisbericht (voraussichtlich im Oktober)",
-    "Auslieferung des ersten 15‑MW‑Offshore‑Windkraftwerks in Deutschland",
-    "Vertrag für digitale Grid‑Lösungen mit einem europäischen Netzbetreiber"
+    "Veröffentlichung des Q3‑2024 Quartalsergebnisses",
+    "Abschluss großer Offshore‑Windaufträge durch Siemens Gamesa",
+    "Vertrag für Wartungs‑ und Digitalisierungs‑Services im Gas‑Turbinen‑Segment"
    ]
   },
   "RHM.DE": {
@@ -481,12 +481,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Rheinmetall profitiert von steigenden Verteidigungsausgaben in Deutschland und Europa, was das Auftragsvolumen im Vehicle‑Systems‑ und Weapon‑Segments erhöht. Das Unternehmen weist ein Umsatzwachstum von 36 % auf und ein erwartetes KGV von 16,2, das im Branchenvergleich moderat erscheint. Analysten bewerten die Aktie überwiegend positiv (17 Buy, 5 Hold).",
-   "dagegen": "Gegen die Aktie sprechen die hohe Abhängigkeit von staatlichen Rüstungsetats, deren politische Änderungen das Ergebnis stark beeinflussen können. Die Bewertung bleibt trotz moderatem KGV relativ hoch, und das Unternehmen ist anfällig für Lieferketten‑ und Rohstoffpreis‑Schwankungen. Kurzfristig fehlt ein klarer Wachstumstreiber außerhalb des Verteidigungssektors.",
+   "dafuer": "Rheinmetall profitiert von anhaltend hohen Rüstungsausgaben in Europa und den USA, insbesondere durch Aufträge für gepanzerte Fahrzeuge und Munition. Das Umsatzwachstum von 36 % und ein erwartetes KGV von 16,2 deuten auf solide Ertragskraft hin. Analysten bewerten das Unternehmen überwiegend positiv (17 Buy, 5 Hold).",
+   "dagegen": "Abhängigkeit von staatlichen Rüstungsetats erhöht das Risiko politischer Änderungen; mögliche Lieferkettenengpässe bei Halbleitern und Rohstoffen könnten die Produktion verteuern. Das Kursziel von 1278 € impliziert bereits hohe Bewertung, während das KGV von 16,2 im Vergleich zu Peer‑Group nicht stark unterbewertet erscheint.",
    "katalysatoren": [
-    "Veröffentlichung des Quartalsberichts Q4 2025",
-    "Vertrag über die Lieferung von 200 Schützenpanzern an die Bundeswehr",
-    "Erhöhung des deutschen Verteidigungsbudgets 2026"
+    "Abschluss eines großen Rüstungsauftrags für Leopard‑2‑Ausrüstung (voraussichtlich 2027)",
+    "Veröffentlichung des Q3‑Ergebnisses und Ausblick auf das Geschäftsjahr",
+    "EU‑Entscheidung über ein neues Verteidigungsbudget (geplant 2025)"
    ]
   },
   "ASML.AS": {
@@ -534,12 +534,12 @@
      "keine Meldung"
     ]
    ],
-   "dafuer": "Die Analystenmehrheit (38 Kauf‑Empfehlungen) spricht für ASML. Das Unternehmen verzeichnet ein starkes Umsatzwachstum von +55 % und profitiert von der unverzichtbaren Rolle seiner EUV‑Lithografie in der Chip‑Industrie. Das Kursziel von 2.096 € reflektiert optimistische Erwartungen.",
-   "dagegen": "Gegenargumente: Das Unternehmen ist stark von der konjunkturellen Entwicklung der Halbleitermärkte abhängig, was zu Volatilität führen kann. Das KGV von 21,2 erscheint im Vergleich zu historischen Werten hoch, und die Konzentration auf EUV‑Technologie birgt technologische und kapazitive Risiken.",
+   "dafuer": "Analysten sehen ASML klar im Kauf, 38 von 41 Empfehlungen. Das Unternehmen verzeichnet ein Umsatzwachstum von +55 % und hält mit EUV‑Lithografie eine marktführende Stellung. Das KGV von 21,2 liegt im Branchenvergleich solide, was die Bewertung relativ attraktiv erscheinen lässt.",
+   "dagegen": "Die Quellenlage ist dünn: keine Newsletter‑Analyse, kaum Reddit‑Diskussion, keine Insider‑Meldungen und keine Short‑Positionen. Das hohe Umsatzwachstum könnte zyklisch sein, da es stark von der Chipnachfrage abhängt. Das Kursziel von 2096 € impliziert eine weitere deutliche Kurssteigerung, die riskant sein kann.",
    "katalysatoren": [
-    "Q3‑2024 Ergebnisveröffentlichung mit Fokus auf Umsatz‑ und Margenentwicklung",
-    "Markteinführung des nächsten High‑NA EUV‑Systems",
-    "Großaufträge von Schlüssel­kunden (z. B. TSMC, Samsung) oder staatliche Förderungen für Chip‑Fabriken"
+    "Q4‑2026‑Ergebnisbericht mit EUV‑Absatzzahlen",
+    "Markteinführung des nächsten High‑NA‑EUV‑Systems",
+    "Kapazitätserweiterungs‑Ankündigungen großer Kunden wie TSMC"
    ]
   },
   "SU.PA": {
@@ -587,9 +587,13 @@
      "1648,06 % ueber 1700 Halter"
     ]
    ],
-   "dafuer": "",
-   "dagegen": "",
-   "katalysatoren": []
+   "dafuer": "Die Analystenmehrheit (19 Kauf, 4 Halten) spiegelt Vertrauen in das robuste Umsatzwachstum von +10 % und das attraktive KGV von 17,5 wider. Das breit gefächerte Portfolio – von Industrie‑Automation bis zu erneuerbaren Energiesystemen – unterstützt die Position im wachsenden Markt für Energie‑Management.",
+   "dagegen": "Der extreme Short‑Interest von 1.648 % (über 1.700 Haltern) signalisiert Skepsis, insbesondere bei fehlenden Insider‑Meldungen und kaum Reddit‑Diskussion. Das Kursziel von 323 € erscheint hoch im Verhältnis zur Marktkapitalisierung von 129,4 Mrd. €, und das KGV könnte überbewertet sein.",
+   "katalysatoren": [
+    "Q3‑2026 Ergebnisveröffentlichung (Erwartung von Umsatz‑ und Gewinnsteigerung)",
+    "Markteinführung neuer Micro‑Grid‑Lösungen für Industrie",
+    "Abschluss einer strategischen Partnerschaft im Bereich Smart‑Building‑Technologie"
+   ]
   },
   "GEV": {
    "ticker": "GEV",
@@ -603,7 +607,7 @@
     ],
     [
      "KGV (erw.)",
-     "28,4"
+     "28,0"
     ],
     [
      "Umsatzwachstum",
@@ -1171,6 +1175,6 @@
    "wucht": "hoch"
   }
  ],
- "meldungen_gesamt": 148,
+ "meldungen_gesamt": 137,
  "llm_aktiv": false
 }
